@@ -13,6 +13,7 @@ namespace Tse.Dal.Model
         }
         
         // Properties
+        public virtual DbSet<Standart> Standartlar { get; set; }
         public virtual DbSet<Baslik> Basliklar { get; set; }
     }   
 }

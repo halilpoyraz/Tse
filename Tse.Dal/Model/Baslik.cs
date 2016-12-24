@@ -1,6 +1,7 @@
 ﻿namespace Tse.Dal.Model
 {
     using System;
+    using System.Data.SqlTypes;
 
     public class Baslik
     {

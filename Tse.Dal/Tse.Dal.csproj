@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Model\Baslik.cs" />
     <Compile Include="Model\DummyData.cs" />
+    <Compile Include="Model\Standart.cs" />
     <Compile Include="Model\TseContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
