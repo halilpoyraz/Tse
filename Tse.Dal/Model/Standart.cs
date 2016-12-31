@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Tse.Dal.Model
+﻿namespace Tse.Dal.Model
 {
+    using System;
+    using System.ComponentModel.DataAnnotations.Schema;
+
+    [Table("Standartlar")]
     public class Standart
     {
         // Constructor
@@ -16,7 +14,7 @@ namespace Tse.Dal.Model
 
         // Properties
         public int StandartId { get; set; }
-        public string TsNo { get; set; }
+        public int TsNo { get; set; }
         public DateTime KabulTarihi { get; set; }
         public string HazirlikGrubu { get; set; }
         public string DokumanTipi { get; set; }
@@ -37,10 +35,10 @@ namespace Tse.Dal.Model
         public string Dili { get; set; }
         public string RenkDurumu { get; set; }
         public string UygulamaDurumu { get; set; }
-        public string SayfaSayisi { get; set; }
-        public string Fiyati { get; set; }
+        public int SayfaSayisi { get; set; }
+        public int Fiyati { get; set; }
 
-
+    
         // Navigation Properties
 
 

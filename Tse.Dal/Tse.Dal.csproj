@@ -51,7 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Baslik.cs" />
+    <Compile Include="Model\DokumanTipi.cs" />
     <Compile Include="Model\DummyData.cs" />
     <Compile Include="Model\Standart.cs" />
     <Compile Include="Model\TseContext.cs" />
