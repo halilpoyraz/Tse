@@ -3,20 +3,21 @@
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("DokumanTipleri")]
-    public class DokumanTipi
+    [Table("YururlukDurumlari")]
+    public class YururlukDurumu
     {
-        // Constructor
-        public DokumanTipi()
+        //Constructor
+        public YururlukDurumu()
         {
 
         }
 
-        // Properties
-        public int DokumanTipiId { get; set; }
 
-        [StringLength(255), Required]       
-        public string DokumanTipiAdi { get; set; }
+        //Properties
+        public int YururlukDurumuId { get; set; }
+
+        [StringLength(255)]
+        public string YururlukDurumuAdi { get; set; }
 
         public int TseId { get; set; }
 

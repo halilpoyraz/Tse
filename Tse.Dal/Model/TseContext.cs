@@ -13,10 +13,10 @@ namespace Tse.Dal.Model
         }
         
         // Properties
-        public virtual DbSet<Standart> Standartlar { get; set; }
         public virtual DbSet<DokumanTipi> DokumanTipleri { get; set; }
-        public virtual DbSet<YururlulukDurumu> YururlulukDurumlari { get; set; }
-        public virtual DbSet<Durumu> Durumlari { get;set;}
+        public virtual DbSet<Durum> Durumlar { get;set;}
         public virtual DbSet<HazirlikGrubu> HazirlikGruplari { get; set; }
+        public virtual DbSet<Standart> Standartlar { get; set; }
+        public virtual DbSet<YururlukDurumu> YururlukDurumlari { get; set; }
     }   
 }

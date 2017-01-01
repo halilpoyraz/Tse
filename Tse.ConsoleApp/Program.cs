@@ -11,7 +11,7 @@
         {
             using (TseContext context = new TseContext())
             {
-                DokumanTipi dokumanTipi = new DokumanTipi() {  DokumanTipiId=14, DokumanTipiAdi= "test", Durum=1, TseId=151};
+                DokumanTipi dokumanTipi = new DokumanTipi() {  DokumanTipiId=14, DokumanTipiAdi= "test", DurumId=1, TseId=151};
                 context.DokumanTipleri.Add(dokumanTipi);
                 context.SaveChanges();
             }                               
