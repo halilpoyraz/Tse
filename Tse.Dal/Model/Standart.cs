@@ -1,6 +1,7 @@
 ﻿namespace Tse.Dal.Model
 {
     using System;
+    using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
     [Table("Standartlar")]
@@ -14,14 +15,14 @@
 
         // Properties
         public int StandartId { get; set; }
-        public int TsNo { get; set; }
+        public string TsNo { get; set; }
         public DateTime KabulTarihi { get; set; }
-        public string HazirlikGrubu { get; set; }
-        public string DokumanTipi { get; set; }
-        public string YururlukDurumu { get; set; }
+        public int HazirlikGrubuId { get; set; }        
+        public int DokumanTipiId { get; set; }
+        public int YururlukDurumuId { get; set; }        
         public string Baslik { get; set; }
         public string BaslikIng { get; set; }
-        public string Turu { get; set; }
+        public int StandartTurId { get; set; }
         public string Kapsam { get; set; }
         public string KapsamIng { get; set; }
         public string YeriniAldigi { get; set; }
@@ -38,8 +39,9 @@
         public int SayfaSayisi { get; set; }
         public int Fiyati { get; set; }
 
-    
-        // Navigation Properties
+
+        // Navigation Properties        
+        public virtual HazirlikGrubu HazirlikGrubu { get; set; }       
 
 
         // Methods

@@ -18,5 +18,10 @@ namespace Tse.Dal.Model
         public virtual DbSet<HazirlikGrubu> HazirlikGruplari { get; set; }
         public virtual DbSet<Standart> Standartlar { get; set; }
         public virtual DbSet<YururlukDurumu> YururlukDurumlari { get; set; }
+        public virtual DbSet<StandartTur> StandartTurler { get; set; }
+
+
+        // Methods
+
     }   
 }

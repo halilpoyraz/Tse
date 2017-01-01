@@ -224,6 +224,30 @@
                     }
                 });
             #endregion
+            #region // StandartTurler
+            context.StandartTurler.AddRange(
+            new List<StandartTur>
+            {
+                new StandartTur()
+                {
+                    StandartTurId = 1,
+                    TurAdi = "-",
+                    DurumId= 1
+                },
+                new StandartTur()
+                {
+                    StandartTurId = 2,
+                    TurAdi = "Kural",
+                    DurumId = 1
+                },
+                new StandartTur()
+                {
+                    StandartTurId = 3,
+                    TurAdi = "Metot",
+                    DurumId= 1
+                }
+            });
+            #endregion
             context.SaveChanges();
         }
 

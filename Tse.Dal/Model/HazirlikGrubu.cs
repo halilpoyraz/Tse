@@ -24,7 +24,8 @@
 
 
         // Navigation Properties
-        public virtual Durum Durum { get; set; }
+        public virtual Durum Durum { get; set; }        
+
 
         // Methods
     }

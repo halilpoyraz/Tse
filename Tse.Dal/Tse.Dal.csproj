@@ -56,6 +56,7 @@
     <Compile Include="Model\Durum.cs" />
     <Compile Include="Model\HazirlikGrubu.cs" />
     <Compile Include="Model\Standart.cs" />
+    <Compile Include="Model\StandartTur.cs" />
     <Compile Include="Model\TseContext.cs" />
     <Compile Include="Model\YururlukDurumu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

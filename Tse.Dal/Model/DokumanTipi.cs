@@ -1,5 +1,6 @@
 ﻿namespace Tse.Dal.Model
 {
+    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
@@ -25,6 +26,7 @@
 
         // Navigation Properties
         public virtual Durum Durum { get; set; }
+       
 
         // Methods
     }
