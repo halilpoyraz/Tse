@@ -248,6 +248,145 @@
                 }
             });
             #endregion
+            #region // ParaBirimleri
+            context.ParaBirimleri.AddRange(
+            new List<ParaBirimi>
+            {
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 1,
+                    Kodu            = "TL",
+                    Cinsi           = "Türk Lirası",
+                    DurumId         = 1  
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 2,
+                    Kodu            = "USD",
+                    Cinsi           = "ABD Doları",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 3,
+                    Kodu            = "AUD",
+                    Cinsi           = "Avusturalya Doları",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 4,
+                    Kodu            = "DKK",
+                    Cinsi           = "Danimarka Kronu",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 5,
+                    Kodu            = "EUR",
+                    Cinsi           = "EURO",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 6,
+                    Kodu            = "GBP",
+                    Cinsi           = "İngiliz Sterlini",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 7,
+                    Kodu            = "CHF",
+                    Cinsi           = "İsviçre Frangı",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 8,
+                    Kodu            = "SEK",
+                    Cinsi           = "İsveç Kronu",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 9,
+                    Kodu            = "CAD",
+                    Cinsi           = "Kanada Doları",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 10,
+                    Kodu            = "KWD",
+                    Cinsi           = "Kuvet Dinarı",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 11,
+                    Kodu            = "NOK",
+                    Cinsi           = "Norveç Kronu",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 12,
+                    Kodu            = "SAR",
+                    Cinsi           = "Suudi Arabistan riyali",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 13,
+                    Kodu            = "JPY",
+                    Cinsi           = "Japon Yeni",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 14,
+                    Kodu            = "BGN",
+                    Cinsi           = "Bulgar Levası",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 15,
+                    Kodu            = "RON",
+                    Cinsi           = "Rumen Leyi",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 16,
+                    Kodu            = "RUB",
+                    Cinsi           = "Rus Rublesi",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 17,
+                    Kodu            = "IRR",
+                    Cinsi           = "İran Riyali",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 18,
+                    Kodu            = "CYN",
+                    Cinsi           = "Çin Yuanı",
+                    DurumId         = 1
+                },
+                new ParaBirimi()
+                {
+                    ParaBirimiId    = 19,
+                    Kodu            = "PKR",
+                    Cinsi           = "Pakistan Rupisi",
+                    DurumId         = 1
+                }
+            });
+            #endregion
             context.SaveChanges();
         }
 

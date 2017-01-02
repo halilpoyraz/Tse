@@ -19,6 +19,7 @@ namespace Tse.Dal.Model
         public virtual DbSet<Standart> Standartlar { get; set; }
         public virtual DbSet<YururlukDurumu> YururlukDurumlari { get; set; }
         public virtual DbSet<StandartTur> StandartTurler { get; set; }
+        public virtual DbSet<ParaBirimi> ParaBirimleri { get; set; }
 
 
         // Methods
@@ -42,7 +43,8 @@ namespace Tse.Dal.Model
             modelBuilder.Entity<StandartTur>()
               .HasMany(e => e.Standartlar)
               .WithRequired(e => e.StandartTur)
-              .WillCascadeOnDelete(false);                           
+              .WillCascadeOnDelete(false);
+
         }
     }   
 }
