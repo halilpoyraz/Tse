@@ -163,27 +163,7 @@
                         DurumId =1
                     }
                 });
-            #endregion
-            #region // Durumlar
-            context.Durumlar.AddRange(
-                new List<Durum>{
-                    new Durum()
-                    {
-                        DurumId     = 1,
-                        DurumAdi    = "Aktif"
-                    },
-                    new Durum()
-                    {
-                        DurumId     = 2,
-                        DurumAdi    = "Pasif"
-                    },
-                    new Durum()
-                    {
-                        DurumId     = 3,
-                        DurumAdi    = "Silinmiş"
-                    }
-                });
-            #endregion
+            #endregion            
             #region // HazirlikGruplari
             context.HazirlikGruplari.AddRange(
                 new List<HazirlikGrubu>{

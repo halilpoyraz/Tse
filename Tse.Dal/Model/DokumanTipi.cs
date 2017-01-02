@@ -9,8 +9,7 @@
     {
         // Constructor
         public DokumanTipi()
-        {
-
+        {            
         }
 
         // Properties
@@ -24,9 +23,8 @@
         public int DurumId { get; set; }
 
 
-        // Navigation Properties
-        public virtual Durum Durum { get; set; }
-        public virtual List<Standart> Standartlar { get; set; }
+        // Navigation Properties        
+        public virtual ICollection<Standart> Standartlar { get; set; }
        
 
         // Methods

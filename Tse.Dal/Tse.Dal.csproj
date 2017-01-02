@@ -53,7 +53,6 @@
   <ItemGroup>
     <Compile Include="Model\DokumanTipi.cs" />
     <Compile Include="Model\DummyData.cs" />
-    <Compile Include="Model\Durum.cs" />
     <Compile Include="Model\HazirlikGrubu.cs" />
     <Compile Include="Model\ParaBirimi.cs" />
     <Compile Include="Model\Standart.cs" />

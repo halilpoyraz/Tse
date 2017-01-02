@@ -13,8 +13,7 @@ namespace Tse.Dal.Model
         }
         
         // Properties
-        public virtual DbSet<DokumanTipi> DokumanTipleri { get; set; }
-        public virtual DbSet<Durum> Durumlar { get;set;}
+        public virtual DbSet<DokumanTipi> DokumanTipleri { get; set; }        
         public virtual DbSet<HazirlikGrubu> HazirlikGruplari { get; set; }
         public virtual DbSet<Standart> Standartlar { get; set; }
         public virtual DbSet<YururlukDurumu> YururlukDurumlari { get; set; }
@@ -44,7 +43,7 @@ namespace Tse.Dal.Model
               .HasMany(e => e.Standartlar)
               .WithRequired(e => e.StandartTur)
               .WillCascadeOnDelete(false);
-
+                    
         }
     }   
 }

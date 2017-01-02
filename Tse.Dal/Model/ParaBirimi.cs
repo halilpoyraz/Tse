@@ -30,8 +30,7 @@
         public int DurumId { get; set; }
 
 
-        //Navigation Properties
-        public virtual Durum Durum { get; set; }
+        //Navigation Properties        
 
 
         //Methots
