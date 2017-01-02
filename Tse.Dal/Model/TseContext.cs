@@ -22,6 +22,27 @@ namespace Tse.Dal.Model
 
 
         // Methods
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DokumanTipi>()
+                .HasMany(e => e.Standartlar)
+                .WithRequired(e => e.DokumanTipi)
+                .WillCascadeOnDelete(false);
 
+            modelBuilder.Entity<HazirlikGrubu>()
+               .HasMany(e => e.Standartlar)
+               .WithRequired(e => e.HazirlikGrubu)
+               .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<YururlukDurumu>()
+              .HasMany(e => e.Standartlar)
+              .WithRequired(e => e.YururlukDurumu)
+              .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<StandartTur>()
+              .HasMany(e => e.Standartlar)
+              .WithRequired(e => e.StandartTur)
+              .WillCascadeOnDelete(false);                           
+        }
     }   
 }
