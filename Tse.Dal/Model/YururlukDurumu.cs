@@ -4,17 +4,16 @@
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("Standart.YururlukDurumlari")]
+    [Table("Operasyon.YururlukDurumu")]
     public class YururlukDurumu
     {
-        //Constructor
+        // Constructor
         public YururlukDurumu()
         {
-
         }
 
 
-        //Properties
+        // Properties
         public int YururlukDurumuId { get; set; }
 
         [StringLength(255)]
@@ -25,8 +24,11 @@
         public int DurumId { get; set; }
 
 
-        // Navigation Properties        
+        // Navigation Properties
+        public virtual Durum Durum { get; set; }
+
         public virtual ICollection<Standart> Standartlar { get; set; }
+
 
         // Methods
     }

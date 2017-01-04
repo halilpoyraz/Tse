@@ -1,24 +1,18 @@
 ﻿namespace Tse.Dal.Model
 {
-    using System;
-    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
-    [Table("Standart.ParaBirimi")]
+    [Table("Operasyon.ParaBirimi")]
     public class ParaBirimi
     {
-        //Constructur
+        // Constructor
         public ParaBirimi()
         {
-
         }
 
 
-        //Properties
+        // Properties
         public int ParaBirimiId { get; set; }
 
         [Required]
@@ -30,10 +24,10 @@
         public int DurumId { get; set; }
 
 
-        //Navigation Properties        
+        // Navigation Properties        
+        public virtual Durum Durum { get; set; }
 
 
-        //Methots
-
+        // Methots
     }
 }
