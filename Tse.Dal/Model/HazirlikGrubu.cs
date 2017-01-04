@@ -4,16 +4,16 @@
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("Standart.HazirlikGruplari")]
+    [Table("Operasyon.HazirlikGrubu")]
     public class HazirlikGrubu
     {
-        //Constructor
+        // Constructor
         public HazirlikGrubu()
         {
-
         }
 
-        //Properties        
+
+        // Properties        
         public int HazirlikGrubuId { get; set; }
 
         [StringLength(500), Required]
@@ -24,8 +24,11 @@
         public int DurumId { get; set; }
 
 
-        // Navigation Properties        
+        // Navigation Properties      
+        public virtual Durum Durum { get; set; }
+
         public virtual ICollection<Standart> Standartlar { get; set; }
+
 
         // Methods
     }

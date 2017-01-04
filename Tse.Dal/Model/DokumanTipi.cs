@@ -4,13 +4,14 @@
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("Standart.DokumanTipleri")]
+    [Table("Operasyon.DokumanTipi")]
     public class DokumanTipi
     {
         // Constructor
         public DokumanTipi()
         {            
         }
+
 
         // Properties
         public int DokumanTipiId { get; set; }
@@ -23,7 +24,9 @@
         public int DurumId { get; set; }
 
 
-        // Navigation Properties        
+        // Navigation Properties      
+        public virtual Durum Durum { get; set; }
+
         public virtual ICollection<Standart> Standartlar { get; set; }
        
 

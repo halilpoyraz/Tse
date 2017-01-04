@@ -4,13 +4,12 @@
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("Standart.Standartlar")]
+    [Table("Operasyon.Standart")]
     public class Standart
     {
         // Constructor
         public Standart()
         {
-
         }
 
 
@@ -65,16 +64,21 @@
 
         public int Fiyati { get; set; }
 
+        public int DurumId { get; set; }
 
+        
         // Navigation Properties        
         public virtual HazirlikGrubu HazirlikGrubu { get; set; }
+
         public virtual DokumanTipi DokumanTipi { get; set; }
+
         public virtual YururlukDurumu YururlukDurumu { get; set; }
+
         public virtual StandartTur StandartTur { get; set; }
+
+        public virtual Durum Durum { get; set; }
 
 
         // Methods
     }
 }
-
-

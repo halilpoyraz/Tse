@@ -8,22 +8,24 @@ namespace Tse.Dal.Model
     {
         public TseContext()
             : base("name=TseContext")
-        {
-            Database.SetInitializer(new DummyData());
+        {           
         }
         
         // Properties
-        public virtual DbSet<DokumanTipi> DokumanTipleri { get; set; }        
+        public virtual DbSet<DokumanTipi> DokumanTipleri { get; set; }
+        public virtual DbSet<Durum> Durumlar { get; set; }
         public virtual DbSet<HazirlikGrubu> HazirlikGruplari { get; set; }
-        public virtual DbSet<Standart> Standartlar { get; set; }
-        public virtual DbSet<YururlukDurumu> YururlukDurumlari { get; set; }
-        public virtual DbSet<StandartTur> StandartTurler { get; set; }
         public virtual DbSet<ParaBirimi> ParaBirimleri { get; set; }
+        public virtual DbSet<Standart> Standartlar { get; set; }
+        public virtual DbSet<StandartTur> StandartTurler { get; set; }
+        public virtual DbSet<YururlukDurumu> YururlukDurumlari { get; set; }
 
 
         // Methods
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            Database.SetInitializer(new DummyData());
+
             modelBuilder.Entity<DokumanTipi>()
                 .HasMany(e => e.Standartlar)
                 .WithRequired(e => e.DokumanTipi)
