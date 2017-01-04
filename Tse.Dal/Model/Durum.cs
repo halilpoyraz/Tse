@@ -18,10 +18,20 @@
 
         [StringLength(255), Required]       
         public string DurumAdi { get; set; }
-      
+
 
         // Navigation Properties        
-       
+        public virtual ICollection<DokumanTipi> DokumanTipleri { get; set; }
+
+        public virtual ICollection<HazirlikGrubu> HazirlikGruplari { get; set; }
+
+        public virtual ICollection<ParaBirimi> ParaBirimleri { get; set; }
+
+        public virtual ICollection<Standart> Standartlar { get; set; }
+
+        public virtual ICollection<StandartTur> StandartTurleri { get; set; }
+
+        public virtual ICollection<YururlukDurumu> YururlukDurumlari { get; set; }
 
         // Methods
     }

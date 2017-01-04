@@ -60,9 +60,11 @@
 
         public string UygulamaDurumu { get; set; }
 
-        public int SayfaSayisi { get; set; }
+        public int? SayfaSayisi { get; set; }
+    
+        public decimal? Fiyati { get; set; }
 
-        public int Fiyati { get; set; }
+        public int ParaBirimiId { get; set; }
 
         public int DurumId { get; set; }
 
@@ -75,6 +77,8 @@
         public virtual YururlukDurumu YururlukDurumu { get; set; }
 
         public virtual StandartTur StandartTur { get; set; }
+
+        public virtual ParaBirimi ParaBirimi { get; set; }
 
         public virtual Durum Durum { get; set; }
 

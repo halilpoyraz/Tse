@@ -2,7 +2,8 @@
 {
     using System;
     using System.Collections.Generic;
-    using Tse.Dal.Model;
+    using Tse.Dal.Model;    
+    using System.Linq;
 
 
     class Program
@@ -11,11 +12,16 @@
         {
             using (TseContext context = new TseContext())
             {
-                DokumanTipi dokumanTipi = new DokumanTipi() {DokumanTipiId=14, DokumanTipiAdi= "Test", DurumId=1, TseId=151};
-                context.DokumanTipleri.Add(dokumanTipi);
-                context.SaveChanges();
-            }                               
-            Console.WriteLine("İşlem Tamam");
+                List<ParaBirimi> paraBirimleri = context.ParaBirimleri.ToList();
+
+                foreach (var i in paraBirimleri)
+                {
+                    Console.WriteLine($"{i.ParaBirimiId} | {i.Kodu} | {i.Cinsi}");
+                    Console.WriteLine("===========================================================");                    
+                }
+
+                Console.ReadKey();
+            }                                                      
         }
     }
 }

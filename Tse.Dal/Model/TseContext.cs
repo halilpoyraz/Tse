@@ -45,6 +45,11 @@ namespace Tse.Dal.Model
               .HasMany(e => e.Standartlar)
               .WithRequired(e => e.StandartTur)
               .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<ParaBirimi>()
+                .HasMany(e => e.Standartlar)
+                .WithRequired(e => e.ParaBirimi)
+                .WillCascadeOnDelete(false);
                     
         }
     }   
