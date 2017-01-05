@@ -1,11 +1,9 @@
-﻿namespace Tse.Dal.Model
+﻿namespace Tse.Dal.Web.Model
 {
     using System;
     using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("Operasyon.Standart")]
-    public class Standart
+    public partial class Standart
     {
         // Constructor
         public Standart()
@@ -20,8 +18,8 @@
 
         public DateTime KabulTarihi { get; set; }
 
-        public int HazirlikGrubuId { get; set; } 
-               
+        public int HazirlikGrubuId { get; set; }
+
         public int DokumanTipiId { get; set; }
 
         public int YururlukDurumuId { get; set; }
@@ -61,26 +59,22 @@
         public string UygulamaDurumu { get; set; }
 
         public int? SayfaSayisi { get; set; }
-    
+
         public decimal? Fiyati { get; set; }
 
         public int ParaBirimiId { get; set; }
 
         public int DurumId { get; set; }
 
-        
+
         // Navigation Properties        
         public virtual HazirlikGrubu HazirlikGrubu { get; set; }
-
         public virtual DokumanTipi DokumanTipi { get; set; }
-
         public virtual YururlukDurumu YururlukDurumu { get; set; }
-
         public virtual StandartTur StandartTur { get; set; }
-
         public virtual ParaBirimi ParaBirimi { get; set; }
-
         public virtual Durum Durum { get; set; }
+
 
 
         // Methods

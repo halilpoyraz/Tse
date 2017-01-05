@@ -1,23 +1,22 @@
-﻿namespace Tse.Dal.Model
+﻿namespace Tse.Dal.Web.Model
 {
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
-
-    [Table("Operasyon.HazirlikGrubu")]
-    public class HazirlikGrubu
+    
+    public partial class DokumanTipi
     {
         // Constructor
-        public HazirlikGrubu()
+        public DokumanTipi()
         {
+            Standartlar = new HashSet<Standart>();
         }
 
 
-        // Properties        
-        public int HazirlikGrubuId { get; set; }
+        // Properties
+        public int DokumanTipiId { get; set; }
 
-        [StringLength(500), Required]
-        public string HazirlikGrubuAdi { get; set; }
+        [StringLength(255), Required]
+        public string DokumanTipiAdi { get; set; }
 
         public int TseId { get; set; }
 
@@ -26,9 +25,7 @@
 
         // Navigation Properties      
         public virtual Durum Durum { get; set; }
-
         public virtual ICollection<Standart> Standartlar { get; set; }
-
 
         // Methods
     }

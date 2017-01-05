@@ -1,15 +1,14 @@
-﻿namespace Tse.Dal.Model
+﻿namespace Tse.Dal.Web.Model
 {
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("Operasyon.ParaBirimi")]
-    public class ParaBirimi
+    public partial class ParaBirimi
     {
         // Constructor
         public ParaBirimi()
         {
+            Standartlar = new HashSet<Standart>();
         }
 
 
@@ -27,9 +26,7 @@
 
         // Navigation Properties        
         public virtual Durum Durum { get; set; }
-
         public virtual ICollection<Standart> Standartlar { get; set; }
-
 
         // Methots
     }

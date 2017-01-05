@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Tse.Dal")]
-[assembly: AssemblyDescription("Data Axess Layer")]
+[assembly: AssemblyTitle("Tse.Dal.Web")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Türk Standartları Enstitüsü")]
-[assembly: AssemblyProduct("Tse.Dal")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Tse.Dal.Web")]
+[assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("afdd2e32-0b0c-431c-a60d-ad07388c92d5")]
+[assembly: Guid("95f787bc-3a21-4185-b11e-18de6eeed164")]
 
 // Version information for an assembly consists of the following four values:
 //

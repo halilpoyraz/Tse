@@ -1,15 +1,14 @@
-﻿namespace Tse.Dal.Model
+﻿namespace Tse.Dal.Web.Model
 {
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("Operasyon.YururlukDurumu")]
-    public class YururlukDurumu
+    public partial class YururlukDurumu
     {
         // Constructor
         public YururlukDurumu()
         {
+            Standartlar = new HashSet<Standart>();
         }
 
 
@@ -26,9 +25,7 @@
 
         // Navigation Properties
         public virtual Durum Durum { get; set; }
-
         public virtual ICollection<Standart> Standartlar { get; set; }
-
 
         // Methods
     }
