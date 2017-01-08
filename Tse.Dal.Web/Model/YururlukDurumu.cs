@@ -15,7 +15,7 @@
         // Properties
         public int YururlukDurumuId { get; set; }
 
-        [StringLength(255)]
+        [Required MaxLength(255) Display(Name = "Yürürlük Durumu")]
         public string YururlukDurumuAdi { get; set; }
 
         public int TseId { get; set; }

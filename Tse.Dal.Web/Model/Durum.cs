@@ -14,13 +14,16 @@
             Standartlar = new HashSet<Standart>();
             StandartTurleri = new HashSet<StandartTur>();
             YururlukDurumlari = new HashSet<YururlukDurumu>();
+            Ulkeler = new HashSet<Ulke>();
+            Sehirler = new HashSet<Sehir>();
+            Ilceler = new HashSet<Ilce>();
         }
 
 
         // Properties
         public int DurumId { get; set; }
 
-        [StringLength(255), Required()]
+        [MaxLength(255), Required()]
         public string DurumAdi { get; set; }
 
 
@@ -31,7 +34,9 @@
         public virtual ICollection<Standart> Standartlar { get; set; }
         public virtual ICollection<StandartTur> StandartTurleri { get; set; }
         public virtual ICollection<YururlukDurumu> YururlukDurumlari { get; set; }
-
+        public virtual ICollection<Ulke> Ulkeler { get; set; }
+        public virtual ICollection<Sehir> Sehirler { get; set; }
+        public virtual ICollection<Ilce> Ilceler { get; set; }
 
         // Methods
     }

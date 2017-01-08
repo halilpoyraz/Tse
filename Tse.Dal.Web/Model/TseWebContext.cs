@@ -22,6 +22,9 @@ namespace Tse.Dal.Web.Model
         public virtual DbSet<StandartTur> StandartTurler { get; set; }
         public virtual DbSet<YururlukDurumu> YururlukDurumlari { get; set; }
         public virtual DbSet<Standart> Standartlar { get; set; }
+        public virtual DbSet<Ulke> Ulkeler { get; set; }
+        public virtual DbSet<Sehir> Sehirler { get; set; }
+        public virtual DbSet<Ilce> Ilceler { get; set; }
 
 
         // Methods
@@ -45,12 +48,22 @@ namespace Tse.Dal.Web.Model
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Durum>()
+                .HasMany(e => e.Sehirler)
+                .WithRequired(e => e.Durum)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Durum>()
                 .HasMany(e => e.Standartlar)
                 .WithRequired(e => e.Durum)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Durum>()
                 .HasMany(e => e.StandartTurleri)
+                .WithRequired(e => e.Durum)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Durum>()
+                .HasMany(e => e.Ulkeler)
                 .WithRequired(e => e.Durum)
                 .WillCascadeOnDelete(false);
 
@@ -82,6 +95,31 @@ namespace Tse.Dal.Web.Model
             modelBuilder.Entity<HazirlikGrubu>()
                 .HasMany(e => e.Standartlar)
                 .WithRequired(e => e.HazirlikGrubu)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Ulke>()
+                .HasMany(e => e.Sehirler)
+                .WithRequired(e => e.Ulke)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Ulke>()
+                .HasMany(e => e.Kisiler)
+                .WithRequired(e => e.Ulke)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Sehir>()
+                .HasMany(e => e.Kisiler)
+                .WithRequired(e => e.Sehir)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Sehir>()
+                .HasMany(e => e.Ilceler)
+                .WithRequired(e => e.Sehir)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Durum>()
+                .HasMany(e => e.Ilceler)
+                .WithRequired(e => e.Durum)
                 .WillCascadeOnDelete(false);
         }
 

@@ -15,7 +15,7 @@
         // Properties
         public int DokumanTipiId { get; set; }
 
-        [StringLength(255), Required]
+        [MaxLength(255), Required]
         public string DokumanTipiAdi { get; set; }
 
         public int TseId { get; set; }

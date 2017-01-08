@@ -15,7 +15,7 @@
         // Properties        
         public int HazirlikGrubuId { get; set; }
 
-        [StringLength(500), Required]
+        [Required MaxLength(500) Display(Name = "Hazırlık Grubu")]
         public string HazirlikGrubuAdi { get; set; }
 
         public int TseId { get; set; }

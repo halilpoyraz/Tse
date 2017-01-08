@@ -55,10 +55,14 @@
     <Compile Include="Model\DokumanTipi.cs" />
     <Compile Include="Model\Durum.cs" />
     <Compile Include="Model\HazirlikGrubu.cs" />
+    <Compile Include="Model\Ilce.cs" />
+    <Compile Include="Model\Kisi.cs" />
     <Compile Include="Model\ParaBirimi.cs" />
+    <Compile Include="Model\Sehir.cs" />
     <Compile Include="Model\Standart.cs" />
     <Compile Include="Model\StandartTur.cs" />
     <Compile Include="Model\TseWebContext.cs" />
+    <Compile Include="Model\Ulke.cs" />
     <Compile Include="Model\YururlukDurumu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
