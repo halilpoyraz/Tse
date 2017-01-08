@@ -12,6 +12,7 @@
         // Constructor
         public Ilce()
         {
+            Kisiler = new HashSet<Kisi>();
         }
 
         //Properties
@@ -24,12 +25,15 @@
         [Required MaxLength(50) Display(Name = "İlçe Adı")]
         public string IlceAdi { get; set; }
 
+        [Display(Name = "Durum")]
         public int DurumId { get; set; }
 
 
         //Navigation Properties
         public virtual Durum Durum { get; set; }
         public virtual Sehir Sehir { get; set; }
+        public virtual ICollection<Kisi> Kisiler { get; set; }
+
 
         //Methods
 

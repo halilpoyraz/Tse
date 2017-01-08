@@ -64,6 +64,7 @@
 
         public int ParaBirimiId { get; set; }
 
+        [Display(Name = "Durum")]
         public int DurumId { get; set; }
 
 

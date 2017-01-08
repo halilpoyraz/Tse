@@ -17,6 +17,12 @@
             Ulkeler = new HashSet<Ulke>();
             Sehirler = new HashSet<Sehir>();
             Ilceler = new HashSet<Ilce>();
+            Kisiler = new HashSet<Kisi>();
+            KisiEpostalar = new HashSet<KisiEposta>();
+            KisiTelefonlar = new HashSet<KisiTelefon>();
+            TanimlamaKategorileri = new HashSet<TanimlamaKategori>();
+            TanimlamaKategoriDegerleri = new HashSet<TanimlamaKategoriDeger>();
+            KisiVergiBilgileri = new HashSet<KisiVergiBilgi>();            
         }
 
 
@@ -37,7 +43,12 @@
         public virtual ICollection<Ulke> Ulkeler { get; set; }
         public virtual ICollection<Sehir> Sehirler { get; set; }
         public virtual ICollection<Ilce> Ilceler { get; set; }
-
+        public virtual ICollection<Kisi> Kisiler { get; set; }
+        public virtual ICollection<KisiEposta> KisiEpostalar { get; set; }
+        public virtual ICollection<KisiTelefon> KisiTelefonlar { get; set; }
+        public virtual ICollection<TanimlamaKategori> TanimlamaKategorileri { get; set; }
+        public virtual ICollection<TanimlamaKategoriDeger> TanimlamaKategoriDegerleri { get; set; }
+        public virtual ICollection<KisiVergiBilgi> KisiVergiBilgileri { get; set; }
         // Methods
     }
 }

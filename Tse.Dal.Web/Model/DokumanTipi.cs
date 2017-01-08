@@ -20,6 +20,7 @@
 
         public int TseId { get; set; }
 
+        [Display(Name = "Durum")]
         public int DurumId { get; set; }
 
 

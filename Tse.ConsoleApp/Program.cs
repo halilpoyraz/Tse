@@ -22,6 +22,10 @@
                 int ulkeCount = context.Ulkeler.Count();
                 int sehirCount = context.Sehirler.Count();
                 int ilceCount = context.Ilceler.Count();
+                int kisiCount = context.Kisiler.Count();
+                int epostaCount = context.Epostalar.Count();
+                int telefonCount = context.KisiTelefonlar.Count();
+                int vergiBilgileriCount = context.KisiVergiBilgileri.Count();
 
                 Console.WriteLine($"DokumanTipi: {dokumanTipiCount}");
                 Console.WriteLine("=================================================");
@@ -43,7 +47,15 @@
                 Console.WriteLine("=================================================");
                 Console.WriteLine($"YururlukDurumu: {yururlukDurumuCount}");
                 Console.WriteLine("=================================================");
-                Console.WriteLine("Toplam Kayıt Sayısı = "+ (dokumanTipiCount + durumCount + hazirlikGrubuCount + paraBirimiCount + standartCount + standartTurlerCount + yururlukDurumuCount + ulkeCount + sehirCount + ilceCount));
+                Console.WriteLine($"Kisi: {kisiCount}");
+                Console.WriteLine("=================================================");
+                Console.WriteLine($"Eposta: {epostaCount}");
+                Console.WriteLine("=================================================");
+                Console.WriteLine($"Telefon: {telefonCount}");
+                Console.WriteLine("=================================================");
+                Console.WriteLine($"VergiBilgisi: {vergiBilgileriCount}");
+                Console.WriteLine("=================================================");
+                Console.WriteLine("Toplam Kayıt Sayısı = "+ (dokumanTipiCount + durumCount + hazirlikGrubuCount + paraBirimiCount + standartCount + standartTurlerCount + yururlukDurumuCount + ulkeCount + sehirCount + ilceCount + kisiCount + epostaCount + telefonCount + vergiBilgileriCount));
                 Console.ReadKey();
             }                                                      
         }

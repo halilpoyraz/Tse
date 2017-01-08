@@ -22,6 +22,7 @@
         [Required MaxLength(55) Display(Name = "Ülke Adı")]
         public string UlkeAdi { get; set; }
 
+        [Display(Name = "Durum")]
         public int DurumId { get; set; }
 
 
