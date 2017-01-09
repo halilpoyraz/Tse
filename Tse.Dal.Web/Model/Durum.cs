@@ -21,7 +21,7 @@
             KisiEpostalar = new HashSet<KisiEposta>();
             KisiTelefonlar = new HashSet<KisiTelefon>();
             TanimlamaKategorileri = new HashSet<TanimlamaKategori>();
-            TanimlamaKategoriDegerleri = new HashSet<TanimlamaKategoriDeger>();
+            TanimlamaDegerleri = new HashSet<TanimlamaDeger>();
             KisiVergiBilgileri = new HashSet<KisiVergiBilgi>();            
         }
 
@@ -47,7 +47,7 @@
         public virtual ICollection<KisiEposta> KisiEpostalar { get; set; }
         public virtual ICollection<KisiTelefon> KisiTelefonlar { get; set; }
         public virtual ICollection<TanimlamaKategori> TanimlamaKategorileri { get; set; }
-        public virtual ICollection<TanimlamaKategoriDeger> TanimlamaKategoriDegerleri { get; set; }
+        public virtual ICollection<TanimlamaDeger> TanimlamaDegerleri { get; set; }
         public virtual ICollection<KisiVergiBilgi> KisiVergiBilgileri { get; set; }
         // Methods
     }

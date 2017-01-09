@@ -63,7 +63,7 @@
     <Compile Include="Model\Standart.cs" />
     <Compile Include="Model\StandartTur.cs" />
     <Compile Include="Model\TanimlamaKategori.cs" />
-    <Compile Include="Model\TanimlamaKategoriDeger.cs" />
+    <Compile Include="Model\TanimlamaDeger.cs" />
     <Compile Include="Model\KisiTelefon.cs" />
     <Compile Include="Model\TseWebContext.cs" />
     <Compile Include="Model\Ulke.cs" />

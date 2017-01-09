@@ -1,6 +1,7 @@
 ﻿namespace Tse.Dal.Web.Model
 {
     using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     public partial class KisiTelefon
     {
@@ -14,6 +15,7 @@
 
         public int KisiId { get; set; }
 
+        [ForeignKey("TanimlamaDeger")]
         public int TelefonTipiId { get; set; }
 
         [Required MaxLength(25) Display(Name = "Telefon Numarası")]
@@ -27,8 +29,8 @@
 
         // Navigation Properties
         public virtual Durum Durum { get; set; }
-        public virtual Kisi Kisi { get; set; } 
-               
+        public virtual Kisi Kisi { get; set; }
+        public virtual TanimlamaDeger TanimlamaDeger { get; set; }
 
         // Methods
     }

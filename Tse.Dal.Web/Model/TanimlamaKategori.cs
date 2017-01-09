@@ -8,7 +8,7 @@
         // Constructor
         public TanimlamaKategori()
         {
-            TanimlamaKategoriDegerleri = new HashSet<TanimlamaKategoriDeger>();
+            TanimlamaDegerleri = new HashSet<TanimlamaDeger>();
         }
 
         // Properties
@@ -22,7 +22,7 @@
 
         // Navigation Properties
         public virtual Durum Durum { get; set; }
-        public virtual ICollection<TanimlamaKategoriDeger> TanimlamaKategoriDegerleri { get; set; }
+        public virtual ICollection<TanimlamaDeger> TanimlamaDegerleri { get; set; }
 
         // Methods
 

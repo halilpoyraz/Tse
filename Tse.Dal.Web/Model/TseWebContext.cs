@@ -26,7 +26,7 @@ namespace Tse.Dal.Web.Model
         public virtual DbSet<Standart> Standartlar { get; set; }
         public virtual DbSet<StandartTur> StandartTurler { get; set; }
         public virtual DbSet<TanimlamaKategori> TanimlamaKategorileri { get; set; }
-        public virtual DbSet<TanimlamaKategoriDeger> TanimlamaKategoriDegerleri{ get; set; }
+        public virtual DbSet<TanimlamaDeger> TanimlamaDegerleri{ get; set; }
         public virtual DbSet<KisiTelefon> KisiTelefonlar { get; set; }
         public virtual DbSet<Ulke> Ulkeler { get; set; }
         public virtual DbSet<KisiVergiBilgi> KisiVergiBilgileri { get; set; }
@@ -113,7 +113,7 @@ namespace Tse.Dal.Web.Model
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Durum>()
-                .HasMany(e => e.TanimlamaKategoriDegerleri)
+                .HasMany(e => e.TanimlamaDegerleri)
                 .WithRequired(e => e.Durum)
                 .WillCascadeOnDelete(false);
 
@@ -162,8 +162,13 @@ namespace Tse.Dal.Web.Model
                 .WithRequired(e => e.StandartTur)
                 .WillCascadeOnDelete(false);
 
+            modelBuilder.Entity<TanimlamaDeger>()
+                .HasMany(e => e.KisiTelefonlar)
+                .WithRequired(e => e.TanimlamaDeger)
+                .WillCascadeOnDelete(false);
+
             modelBuilder.Entity<TanimlamaKategori>()
-                .HasMany(e => e.TanimlamaKategoriDegerleri)
+                .HasMany(e => e.TanimlamaDegerleri)
                 .WithRequired(e => e.TanimlamaKategori)
                 .WillCascadeOnDelete(false);
 

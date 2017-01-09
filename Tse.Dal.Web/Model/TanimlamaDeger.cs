@@ -1,17 +1,19 @@
 ﻿namespace Tse.Dal.Web.Model
 {
+    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
-    public partial class TanimlamaKategoriDeger
+    public partial class TanimlamaDeger
     {
         // Constructor
-        public TanimlamaKategoriDeger()
+        public TanimlamaDeger()
         {
+            KisiTelefonlar = new HashSet<KisiTelefon>();
         }
 
 
         // Properties
-        public int TanimlamaKategoriDegerId { get; set; }
+        public int TanimlamaDegerId { get; set; }
 
         [Display(Name = "Kategori")]
         public int TanimlamaKategoriId { get; set; }
@@ -28,7 +30,7 @@
         // Navigation Properties
         public virtual Durum Durum { get; set; }
         public virtual TanimlamaKategori TanimlamaKategori { get; set; }
-
+        public virtual ICollection<KisiTelefon> KisiTelefonlar { get; set; }
 
         // Methods
     }
