@@ -8,10 +8,6 @@
         // Constructor
         public Kisi()
         {
-            Adresler = new HashSet<Adres>();
-            Epostalar = new HashSet<Eposta>();
-            Telefonlar = new HashSet<Telefon>();
-            VergiBilgi = new VergiBilgi();
         }
 
 

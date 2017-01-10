@@ -8,12 +8,6 @@
         // Constructor
         public Deger()
         {
-            Telefonlar = new HashSet<Telefon>();
-            DokumanTipleri = new HashSet<Standart>();
-            HazirlikGruplari = new HashSet<Standart>();
-            YururlukDurumlari = new HashSet<Standart>();
-            StandartTurleri = new HashSet<Standart>();
-            AdresTipleri = new HashSet<Adres>();
         }
 
 

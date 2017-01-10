@@ -24,7 +24,7 @@ namespace Tse.Dal.Web.Model
         public virtual DbSet<Kisi> Kisiler { get; set; }
         public virtual DbSet<Eposta> Epostalar { get; set; }
         public virtual DbSet<Telefon> Telefonlar { get; set; }
-        public virtual DbSet<VergiBilgi> KisiVergiBilgileri { get; set; }
+        public virtual DbSet<VergiBilgi> VergiBilgileri { get; set; }
         public virtual DbSet<ParaBirimi> ParaBirimleri { get; set; }
         public virtual DbSet<Sehir> Sehirler { get; set; }
         public virtual DbSet<Standart> Standartlar { get; set; }        
@@ -70,11 +70,6 @@ namespace Tse.Dal.Web.Model
             modelBuilder.Entity<Deger>()
                 .HasMany(e => e.StandartTurleri)
                 .WithRequired(e => e.StandartTur)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<Deger>()
-                .HasMany(e => e.AdresTipleri)
-                .WithRequired(e => e.AdresTipi)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Deger>()

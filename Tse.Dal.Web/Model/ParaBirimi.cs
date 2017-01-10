@@ -8,7 +8,6 @@
         // Constructor
         public ParaBirimi()
         {
-            Standartlar = new HashSet<Standart>();
         }
 
 

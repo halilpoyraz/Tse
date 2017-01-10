@@ -11,9 +11,7 @@
     {
         // Constructor
         public Ulke()
-        {
-            Adresler = new HashSet<Adres>();
-            Sehirler = new HashSet<Sehir>();            
+        {         
         }
 
 

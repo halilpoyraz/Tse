@@ -12,7 +12,6 @@
         // Constructor
         public Ilce()
         {
-            Adresler = new HashSet<Adres>();
         }
 
 

@@ -8,8 +8,6 @@
         // Constructor
         public Sehir()
         {
-            Adresler = new HashSet<Adres>();
-            Ilceler = new HashSet<Ilce>();
         }
 
 
