@@ -7,23 +7,21 @@
     {
         // Constructor
         public Durum()
-        {
-            DokumanTipleri = new HashSet<DokumanTipi>();
-            HazirlikGruplari = new HashSet<HazirlikGrubu>();
-            ParaBirimleri = new HashSet<ParaBirimi>();
-            Standartlar = new HashSet<Standart>();
-            StandartTurleri = new HashSet<StandartTur>();
-            YururlukDurumlari = new HashSet<YururlukDurumu>();
-            Ulkeler = new HashSet<Ulke>();
-            Sehirler = new HashSet<Sehir>();
+        {                        
+            Adresler = new HashSet<Adres>();
+            Degerler = new HashSet<Deger>();
+            Epostalar = new HashSet<Eposta>();
             Ilceler = new HashSet<Ilce>();
+            Kategoriler = new HashSet<Kategori>();
             Kisiler = new HashSet<Kisi>();
-            KisiEpostalar = new HashSet<KisiEposta>();
-            KisiTelefonlar = new HashSet<KisiTelefon>();
-            TanimlamaKategorileri = new HashSet<TanimlamaKategori>();
-            TanimlamaDegerleri = new HashSet<TanimlamaDeger>();
-            KisiVergiBilgileri = new HashSet<KisiVergiBilgi>();            
+            ParaBirimleri = new HashSet<ParaBirimi>();
+            Sehirler = new HashSet<Sehir>();
+            Standartlar = new HashSet<Standart>();            
+            Telefonlar = new HashSet<Telefon>();
+            Ulkeler = new HashSet<Ulke>();
+            VergiBilgileri = new HashSet<VergiBilgi>();
         }
+
 
 
         // Properties
@@ -33,22 +31,23 @@
         public string DurumAdi { get; set; }
 
 
-        // Navigation Properties        
-        public virtual ICollection<DokumanTipi> DokumanTipleri { get; set; }
-        public virtual ICollection<HazirlikGrubu> HazirlikGruplari { get; set; }
-        public virtual ICollection<ParaBirimi> ParaBirimleri { get; set; }
-        public virtual ICollection<Standart> Standartlar { get; set; }
-        public virtual ICollection<StandartTur> StandartTurleri { get; set; }
-        public virtual ICollection<YururlukDurumu> YururlukDurumlari { get; set; }
-        public virtual ICollection<Ulke> Ulkeler { get; set; }
-        public virtual ICollection<Sehir> Sehirler { get; set; }
+
+        // Navigation Properties
+        public virtual ICollection<Adres> Adresler { get; set; }
+        public virtual ICollection<Deger> Degerler { get; set; }
+        public virtual ICollection<Eposta> Epostalar { get; set; }
         public virtual ICollection<Ilce> Ilceler { get; set; }
+        public virtual ICollection<Kategori> Kategoriler { get; set; }
         public virtual ICollection<Kisi> Kisiler { get; set; }
-        public virtual ICollection<KisiEposta> KisiEpostalar { get; set; }
-        public virtual ICollection<KisiTelefon> KisiTelefonlar { get; set; }
-        public virtual ICollection<TanimlamaKategori> TanimlamaKategorileri { get; set; }
-        public virtual ICollection<TanimlamaDeger> TanimlamaDegerleri { get; set; }
-        public virtual ICollection<KisiVergiBilgi> KisiVergiBilgileri { get; set; }
+        public virtual ICollection<ParaBirimi> ParaBirimleri { get; set; }
+        public virtual ICollection<Sehir> Sehirler { get; set; }
+        public virtual ICollection<Standart> Standartlar { get; set; }        
+        public virtual ICollection<Telefon> Telefonlar { get; set; }
+        public virtual ICollection<Ulke> Ulkeler { get; set; }
+        public virtual ICollection<VergiBilgi> VergiBilgileri { get; set; }
+
+
+
         // Methods
     }
 }

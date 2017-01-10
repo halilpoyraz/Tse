@@ -12,8 +12,10 @@
         // Constructor
         public Ilce()
         {
-            Kisiler = new HashSet<Kisi>();
+            Adresler = new HashSet<Adres>();
         }
+
+
 
         //Properties
         public int IlceId { get; set; }
@@ -29,10 +31,12 @@
         public int DurumId { get; set; }
 
 
+
         //Navigation Properties
         public virtual Durum Durum { get; set; }
         public virtual Sehir Sehir { get; set; }
-        public virtual ICollection<Kisi> Kisiler { get; set; }
+        public virtual ICollection<Adres> Adresler { get; set; }
+
 
 
         //Methods

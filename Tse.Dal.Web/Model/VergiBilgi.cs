@@ -3,12 +3,14 @@
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    public partial class KisiVergiBilgi
+    public partial class VergiBilgi
     {
         // Constructor
-        public KisiVergiBilgi()
+        public VergiBilgi()
         {
         }
+
+
 
         // Properties
         [Key ForeignKey("Kisi")]
@@ -24,9 +26,11 @@
         public int DurumId { get; set; }
 
 
+
         // Navigation Properties
         public virtual Durum Durum { get; set; }
         public virtual Kisi Kisi { get; set; }
+
 
 
         // Methods

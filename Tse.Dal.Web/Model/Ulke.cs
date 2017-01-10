@@ -12,9 +12,11 @@
         // Constructor
         public Ulke()
         {
-            Sehirler = new HashSet<Sehir>();
-            Kisiler = new HashSet<Kisi>();
+            Adresler = new HashSet<Adres>();
+            Sehirler = new HashSet<Sehir>();            
         }
+
+
 
         // Properties
         public int UlkeId { get; set; }
@@ -26,11 +28,13 @@
         public int DurumId { get; set; }
 
 
+
         // Navigation Properties
-        public virtual  Durum Durum { get; set; }
+        public virtual ICollection<Adres> Adresler { get; set; }
+        public virtual Durum Durum { get; set; }        
         public virtual ICollection<Sehir> Sehirler { get; set; }
-        public virtual ICollection<Kisi> Kisiler { get; set; }
     
+
 
         // Methods
     }

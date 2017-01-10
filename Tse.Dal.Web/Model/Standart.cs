@@ -2,6 +2,7 @@
 {
     using System;
     using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     public partial class Standart
     {
@@ -9,6 +10,7 @@
         public Standart()
         {
         }
+
 
 
         // Properties
@@ -24,13 +26,13 @@
 
         public int YururlukDurumuId { get; set; }
 
+        public int StandartTurId { get; set; }
+
         [Required]
         public string Baslik { get; set; }
 
         [Required]
-        public string BaslikIng { get; set; }
-
-        public int StandartTurId { get; set; }
+        public string BaslikIng { get; set; }        
 
         public string Kapsam { get; set; }
 
@@ -68,11 +70,20 @@
         public int DurumId { get; set; }
 
 
+
         // Navigation Properties        
-        public virtual HazirlikGrubu HazirlikGrubu { get; set; }
-        public virtual DokumanTipi DokumanTipi { get; set; }
-        public virtual YururlukDurumu YururlukDurumu { get; set; }
-        public virtual StandartTur StandartTur { get; set; }
+        [ForeignKey("HazirlikGrubuId")]
+        public virtual Deger HazirlikGrubu { get; set; }
+
+        [ForeignKey("DokumanTipiId")]
+        public virtual Deger DokumanTipi { get; set; }
+
+        [ForeignKey("YururlukDurumuId")]
+        public virtual Deger YururlukDurumu { get; set; }
+
+        [ForeignKey("StandartTurId")]
+        public virtual Deger StandartTur { get; set; }
+        
         public virtual ParaBirimi ParaBirimi { get; set; }
         public virtual Durum Durum { get; set; }
 

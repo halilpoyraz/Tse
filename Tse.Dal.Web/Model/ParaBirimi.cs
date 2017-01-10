@@ -12,6 +12,7 @@
         }
 
 
+
         // Properties
         public int ParaBirimiId { get; set; }
 
@@ -21,13 +22,19 @@
         [Required]
         public string Cinsi { get; set; }
 
+        [Display(Name = "Sıra No")]
+        public int SiraNo { get; set; }
+
         [Display(Name = "Durum")]
         public int DurumId { get; set; }
+
 
 
         // Navigation Properties        
         public virtual Durum Durum { get; set; }
         public virtual ICollection<Standart> Standartlar { get; set; }
+
+
 
         // Methots
     }

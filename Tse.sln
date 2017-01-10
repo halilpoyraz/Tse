@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tse.ConsoleApp", "Tse.ConsoleApp\Tse.ConsoleApp.csproj", "{19589CFF-CDD3-492A-8732-DEFFA7FBEC1E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{95F787BC-3A21-4185-B11E-18DE6EEED164} = {95F787BC-3A21-4185-B11E-18DE6EEED164}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tse.Dal.Web", "Tse.Dal.Web\Tse.Dal.Web.csproj", "{95F787BC-3A21-4185-B11E-18DE6EEED164}"
 EndProject

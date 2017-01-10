@@ -8,9 +8,12 @@
         // Constructor
         public Kisi()
         {
-            KisiEpostalar = new HashSet<KisiEposta>();
-            KisiTelefonlar = new HashSet<KisiTelefon>();            
+            Adresler = new HashSet<Adres>();
+            Epostalar = new HashSet<Eposta>();
+            Telefonlar = new HashSet<Telefon>();
+            VergiBilgi = new VergiBilgi();
         }
+
 
 
         // Properties
@@ -26,29 +29,20 @@
         public long TcKimlikNo { get; set; }
 
         [MaxLength(50) Display(Name = "Ünvanı")]
-        public string Unvan { get; set; }
-
-        [Display(Name = "Ülke")]
-        public int UlkeId { get; set; }
-
-        [Display(Name = "Şehir")]
-        public int SehirId { get; set; }
-
-        [Display(Name = "İlçe")]
-        public int IlceId { get; set; }        
+        public string Unvan { get; set; }        
 
         [Display(Name = "Durum")]
         public int DurumId { get; set; }
-        
+
+
 
         // Navigation Properties
-        public virtual Ulke Ulke { get; set; }
-        public virtual Sehir Sehir { get; set; }
-        public virtual Ilce Ilce { get; set; }
+        public virtual ICollection<Adres> Adresler { get; set; }
         public virtual Durum Durum { get; set; }
-        public virtual ICollection<KisiEposta> KisiEpostalar { get; set; }
-        public virtual ICollection<KisiTelefon> KisiTelefonlar { get; set; }
-        public virtual KisiVergiBilgi KisiVergiBilgileri { get; set; }
+        public virtual ICollection<Eposta> Epostalar { get; set; }             
+        public virtual ICollection<Telefon> Telefonlar { get; set; }        
+        public virtual VergiBilgi VergiBilgi { get; set; }
+
 
 
         // Methods

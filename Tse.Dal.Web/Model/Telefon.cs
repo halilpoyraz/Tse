@@ -3,34 +3,44 @@
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    public partial class KisiTelefon
+    public partial class Telefon
     {
         // Constructor
-        public KisiTelefon()
+        public Telefon()
         {
         }
 
+
+
         // Properties
-        public int KisiTelefonId { get; set; }
+        public int TelefonId { get; set; }
 
         public int KisiId { get; set; }
-
-        [ForeignKey("TanimlamaDeger")]
+        
         public int TelefonTipiId { get; set; }
 
         [Required MaxLength(25) Display(Name = "Telefon Numarası")]
         public string TelefonNo { get; set; }
 
-        public bool VarsiyalanTelefon { get; set; }
+        [MaxLength(10) Display(Name = "Dahili No")]
+        public string DahiliNo { get; set; }
+
+        [Display(Name = "Varsayılan Telefon")]
+        public bool VarsayilanTelefon { get; set; }
 
         [Display(Name = "Durum")]
         public int DurumId { get; set; }
 
 
+
         // Navigation Properties
         public virtual Durum Durum { get; set; }
         public virtual Kisi Kisi { get; set; }
-        public virtual TanimlamaDeger TanimlamaDeger { get; set; }
+
+        [ForeignKey("TelefonTipiId")]
+        public virtual Deger TelefonTipi { get; set; }
+
+
 
         // Methods
     }

@@ -52,23 +52,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\DummyDataConfig.cs" />
-    <Compile Include="Model\DokumanTipi.cs" />
+    <Compile Include="Model\Adres.cs" />
     <Compile Include="Model\Durum.cs" />
-    <Compile Include="Model\KisiEposta.cs" />
-    <Compile Include="Model\HazirlikGrubu.cs" />
+    <Compile Include="Model\Eposta.cs" />
     <Compile Include="Model\Ilce.cs" />
     <Compile Include="Model\Kisi.cs" />
     <Compile Include="Model\ParaBirimi.cs" />
     <Compile Include="Model\Sehir.cs" />
     <Compile Include="Model\Standart.cs" />
-    <Compile Include="Model\StandartTur.cs" />
-    <Compile Include="Model\TanimlamaKategori.cs" />
-    <Compile Include="Model\TanimlamaDeger.cs" />
-    <Compile Include="Model\KisiTelefon.cs" />
+    <Compile Include="Model\Kategori.cs" />
+    <Compile Include="Model\Deger.cs" />
+    <Compile Include="Model\Telefon.cs" />
     <Compile Include="Model\TseWebContext.cs" />
     <Compile Include="Model\Ulke.cs" />
-    <Compile Include="Model\KisiVergiBilgi.cs" />
-    <Compile Include="Model\YururlukDurumu.cs" />
+    <Compile Include="Model\VergiBilgi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -14,46 +14,71 @@ namespace Tse.Dal.Web.Model
         }
 
 
-        // Properties
-        public virtual DbSet<DokumanTipi> DokumanTipleri { get; set; }                
-        public virtual DbSet<Durum> Durumlar { get; set; }
-        public virtual DbSet<KisiEposta> Epostalar { get; set; }
-        public virtual DbSet<HazirlikGrubu> HazirlikGruplari { get; set; }
+
+        // Properties        
+        public virtual DbSet<Adres> Adresler { get; set; }
+        public virtual DbSet<Deger> Degerler{ get; set; }
+        public virtual DbSet<Durum> Durumlar { get; set; }        
         public virtual DbSet<Ilce> Ilceler { get; set; }
+        public virtual DbSet<Kategori> Kategoriler { get; set; }
         public virtual DbSet<Kisi> Kisiler { get; set; }
+        public virtual DbSet<Eposta> Epostalar { get; set; }
+        public virtual DbSet<Telefon> Telefonlar { get; set; }
+        public virtual DbSet<VergiBilgi> KisiVergiBilgileri { get; set; }
         public virtual DbSet<ParaBirimi> ParaBirimleri { get; set; }
         public virtual DbSet<Sehir> Sehirler { get; set; }
-        public virtual DbSet<Standart> Standartlar { get; set; }
-        public virtual DbSet<StandartTur> StandartTurler { get; set; }
-        public virtual DbSet<TanimlamaKategori> TanimlamaKategorileri { get; set; }
-        public virtual DbSet<TanimlamaDeger> TanimlamaDegerleri{ get; set; }
-        public virtual DbSet<KisiTelefon> KisiTelefonlar { get; set; }
+        public virtual DbSet<Standart> Standartlar { get; set; }        
         public virtual DbSet<Ulke> Ulkeler { get; set; }
-        public virtual DbSet<KisiVergiBilgi> KisiVergiBilgileri { get; set; }
-        public virtual DbSet<YururlukDurumu> YururlukDurumlari { get; set; }
+
+
 
         // Methods
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
+           
+            modelBuilder.Entity<Eposta>().ToTable("Kisi.Eposta");
             modelBuilder.Entity<Kisi>().ToTable("Kisi.Kisi");
-            modelBuilder.Entity<KisiEposta>().ToTable("Kisi.KisiEposta");
-            modelBuilder.Entity<KisiTelefon>().ToTable("Kisi.KisiTelefon");
-            modelBuilder.Entity<KisiVergiBilgi>().ToTable("Kisi.KisiVergiBilgi");
-                
-            modelBuilder.Entity<DokumanTipi>()
-                .HasMany(e => e.Standartlar)
-                .WithRequired(e => e.DokumanTipi)
-                .WillCascadeOnDelete(false);
+            modelBuilder.Entity<Telefon>().ToTable("Kisi.Telefon");
+            modelBuilder.Entity<VergiBilgi>().ToTable("Kisi.VergiBilgi");
+            modelBuilder.Entity<Deger>().ToTable("Tanimlama.Deger");
+            modelBuilder.Entity<Durum>().ToTable("Tanimlama.Durum");
+            modelBuilder.Entity<Ilce>().ToTable("Tanimlama.Ilce");
+            modelBuilder.Entity<Kategori>().ToTable("Tanimlama.Kategori");                       
+            modelBuilder.Entity<ParaBirimi>().ToTable("Tanimlama.ParaBirimi");
+            modelBuilder.Entity<Sehir>().ToTable("Tanimlama.Sehir");
+            modelBuilder.Entity<Ulke>().ToTable("Tanimlama.Ulke");
+            modelBuilder.Entity<Standart>().ToTable("Standart.Standart");            
+            modelBuilder.Entity<Adres>().ToTable("Kisi.Adres");
 
-            modelBuilder.Entity<Durum>()
+            modelBuilder.Entity<Deger>()
                 .HasMany(e => e.DokumanTipleri)
-                .WithRequired(e => e.Durum)
+                .WithRequired(e => e.DokumanTipi)
+                .WillCascadeOnDelete(false);            
+
+            modelBuilder.Entity<Deger>()
+                .HasMany(e => e.HazirlikGruplari)
+                .WithRequired(e => e.HazirlikGrubu)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Deger>()
+                .HasMany(e => e.YururlukDurumlari)
+                .WithRequired(e => e.YururlukDurumu)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Deger>()
+                .HasMany(e => e.StandartTurleri)
+                .WithRequired(e => e.StandartTur)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Deger>()
+                .HasMany(e => e.Telefonlar)
+                .WithRequired(e => e.TelefonTipi)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Durum>()
-                .HasMany(e => e.HazirlikGruplari)
+                .HasMany(e => e.Adresler)
                 .WithRequired(e => e.Durum)
                 .WillCascadeOnDelete(false);
 
@@ -70,22 +95,12 @@ namespace Tse.Dal.Web.Model
             modelBuilder.Entity<Durum>()
                 .HasMany(e => e.Standartlar)
                 .WithRequired(e => e.Durum)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<Durum>()
-                .HasMany(e => e.StandartTurleri)
-                .WithRequired(e => e.Durum)
-                .WillCascadeOnDelete(false);
+                .WillCascadeOnDelete(false);            
 
             modelBuilder.Entity<Durum>()
                 .HasMany(e => e.Ulkeler)
                 .WithRequired(e => e.Durum)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<Durum>()
-                .HasMany(e => e.YururlukDurumlari)
-                .WithRequired(e => e.Durum)
-                .WillCascadeOnDelete(false);
+                .WillCascadeOnDelete(false);            
 
             modelBuilder.Entity<Durum>()
                 .HasMany(e => e.Ilceler)
@@ -98,50 +113,55 @@ namespace Tse.Dal.Web.Model
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Durum>()
-                .HasMany(e => e.KisiEpostalar)
+                .HasMany(e => e.Epostalar)
                 .WithRequired(e => e.Durum)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Durum>()
-                .HasMany(e => e.KisiTelefonlar)
+                .HasMany(e => e.Telefonlar)
                 .WithRequired(e => e.Durum)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Durum>()
-                .HasMany(e => e.TanimlamaKategorileri)
+                .HasMany(e => e.Kategoriler)
                 .WithRequired(e => e.Durum)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Durum>()
-                .HasMany(e => e.TanimlamaDegerleri)
+                .HasMany(e => e.Degerler)
                 .WithRequired(e => e.Durum)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Durum>()
-                .HasMany(e => e.KisiVergiBilgileri)
+                .HasMany(e => e.VergiBilgileri)
                 .WithRequired(e => e.Durum)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<HazirlikGrubu>()
-                .HasMany(e => e.Standartlar)
-                .WithRequired(e => e.HazirlikGrubu)
-                .WillCascadeOnDelete(false);
+                .WillCascadeOnDelete(false);            
 
             modelBuilder.Entity<Ilce>()
-                .HasMany(e => e.Kisiler)
+                .HasMany(e => e.Adresler)
                 .WithRequired(e => e.Ilce)
                 .WillCascadeOnDelete(false);
 
+            modelBuilder.Entity<Kategori>()
+                .HasMany(e => e.Degerler)
+                .WithRequired(e => e.Kategori)
+                .WillCascadeOnDelete(false);
+
             modelBuilder.Entity<Kisi>()
-                .HasMany(e => e.KisiEpostalar)
+                .HasMany(e => e.Adresler)
                 .WithRequired(e => e.Kisi)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Kisi>()
-                .HasMany(e => e.KisiTelefonlar)
+                .HasMany(e => e.Epostalar)
                 .WithRequired(e => e.Kisi)
-                .WillCascadeOnDelete(false);            
+                .WillCascadeOnDelete(false);
 
+            modelBuilder.Entity<Kisi>()
+                .HasMany(e => e.Telefonlar)
+                .WithRequired(e => e.Kisi)
+                .WillCascadeOnDelete(false); 
+                        
             modelBuilder.Entity<ParaBirimi>()
                 .HasMany(e => e.Standartlar)
                 .WithRequired(e => e.ParaBirimi)
@@ -153,24 +173,9 @@ namespace Tse.Dal.Web.Model
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Sehir>()
-                .HasMany(e => e.Kisiler)
+                .HasMany(e => e.Adresler)
                 .WithRequired(e => e.Sehir)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<StandartTur>()
-                .HasMany(e => e.Standartlar)
-                .WithRequired(e => e.StandartTur)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<TanimlamaDeger>()
-                .HasMany(e => e.KisiTelefonlar)
-                .WithRequired(e => e.TanimlamaDeger)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<TanimlamaKategori>()
-                .HasMany(e => e.TanimlamaDegerleri)
-                .WithRequired(e => e.TanimlamaKategori)
-                .WillCascadeOnDelete(false);
+                .WillCascadeOnDelete(false);            
 
             modelBuilder.Entity<Ulke>()
                 .HasMany(e => e.Sehirler)
@@ -178,14 +183,9 @@ namespace Tse.Dal.Web.Model
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Ulke>()
-                .HasMany(e => e.Kisiler)
+                .HasMany(e => e.Adresler)
                 .WithRequired(e => e.Ulke)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<YururlukDurumu>()
-                .HasMany(e => e.Standartlar)
-                .WithRequired(e => e.YururlukDurumu)
-                .WillCascadeOnDelete(false);
+                .WillCascadeOnDelete(false);            
         }
 
     }   

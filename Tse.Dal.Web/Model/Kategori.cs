@@ -3,16 +3,18 @@
     using System.ComponentModel.DataAnnotations;
     using System.Collections.Generic;
 
-    public partial class TanimlamaKategori
+    public partial class Kategori
     {
         // Constructor
-        public TanimlamaKategori()
+        public Kategori()
         {
-            TanimlamaDegerleri = new HashSet<TanimlamaDeger>();
+            Degerler = new HashSet<Deger>();
         }
 
+
+
         // Properties
-        public int TanimlamaKategoriId { get; set; }
+        public int KategoriId { get; set; }
 
         [Required MaxLength(255) Display(Name = "Kategori Adı")]
         public string KategoriAdi { get; set; }
@@ -20,9 +22,13 @@
         [Display (Name = "Kategori")]
         public int DurumId { get; set; }
 
+
+
         // Navigation Properties
         public virtual Durum Durum { get; set; }
-        public virtual ICollection<TanimlamaDeger> TanimlamaDegerleri { get; set; }
+        public virtual ICollection<Deger> Degerler { get; set; }
+
+
 
         // Methods
 
