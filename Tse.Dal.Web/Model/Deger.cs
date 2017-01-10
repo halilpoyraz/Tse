@@ -13,6 +13,7 @@
             HazirlikGruplari = new HashSet<Standart>();
             YururlukDurumlari = new HashSet<Standart>();
             StandartTurleri = new HashSet<Standart>();
+            AdresTipleri = new HashSet<Adres>();
         }
 
 
@@ -40,7 +41,8 @@
         public virtual ICollection<Standart> HazirlikGruplari { get; set; }
         public virtual ICollection<Standart> YururlukDurumlari { get; set; }
         public virtual ICollection<Standart> StandartTurleri { get; set; }
-        public virtual ICollection<Telefon> Telefonlar { get; set; }        
+        public virtual ICollection<Telefon> Telefonlar { get; set; }
+        public virtual ICollection<Adres> AdresTipleri { get; set; }
 
 
 

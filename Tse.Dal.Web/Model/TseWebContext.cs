@@ -73,6 +73,11 @@ namespace Tse.Dal.Web.Model
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Deger>()
+                .HasMany(e => e.AdresTipleri)
+                .WithRequired(e => e.AdresTipi)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Deger>()
                 .HasMany(e => e.Telefonlar)
                 .WithRequired(e => e.TelefonTipi)
                 .WillCascadeOnDelete(false);
