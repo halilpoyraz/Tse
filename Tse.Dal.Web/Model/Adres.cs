@@ -12,9 +12,9 @@
 
 
         // Properties
-        [Key]
         public int AdresId { get; set; }
-        
+
+        [Display(Name = "Adres Tipi")]
         public int AdresTipiId { get; set; }
 
         public int KisiId { get; set; }
@@ -46,7 +46,7 @@
         public virtual Sehir Sehir { get; set; }
         public virtual Ulke Ulke { get; set; }
 
-        [ForeignKey("AdresTipiId")]
+        [ForeignKey ("AdresTipiId")]
         public virtual Deger AdresTipi { get; set; }
 
 

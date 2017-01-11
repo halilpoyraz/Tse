@@ -12,6 +12,7 @@
         // Constructor
         public Ilce()
         {
+            Adresler = new HashSet<Adres>();
         }
 
 
@@ -33,7 +34,7 @@
 
         //Navigation Properties
         public virtual Durum Durum { get; set; }
-        public virtual Sehir Sehir { get; set; }
+        public virtual ICollection<Sehir> Sehir { get; set; }
         public virtual ICollection<Adres> Adresler { get; set; }
 
 

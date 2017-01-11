@@ -8,6 +8,18 @@
         // Constructor
         public Durum()
         {                        
+            Adresler = new HashSet<Adres>();
+            Degerler = new HashSet<Deger>();
+            Epostalar = new HashSet<Eposta>();
+            Ilceler = new HashSet<Ilce>();
+            Kategoriler = new HashSet<Kategori>();
+            Kisiler = new HashSet<Kisi>();
+            ParaBirimleri = new HashSet<ParaBirimi>();
+            Sehirler = new HashSet<Sehir>();
+            Standartlar = new HashSet<Standart>();            
+            Telefonlar = new HashSet<Telefon>();
+            Ulkeler = new HashSet<Ulke>();
+            VergiBilgileri = new HashSet<VergiBilgi>();
         }
 
 

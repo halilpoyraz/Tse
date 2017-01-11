@@ -8,6 +8,7 @@
         // Constructor
         public Kategori()
         {
+            Degerler = new HashSet<Deger>();
         }
 
 
