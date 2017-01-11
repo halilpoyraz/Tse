@@ -42,7 +42,7 @@
                     UlkeId  = 1,
                     UlkeAdi = "Türkiye",
                     DurumId = 1,
-                },                
+                },
                 new Ulke
                 {
                     UlkeId  = 2,
@@ -900,7 +900,7 @@
                     UlkeId  = 144,
                     UlkeAdi = "Hong Kong",
                     DurumId = 1
-                }                
+                }
             });
             #endregion
 
@@ -913,7 +913,7 @@
                     UlkeId      = 1,
                     SehirAdi    = "Adana",
                     DurumId     = 1
-                },                
+                },
                 new Sehir
                 {
                     SehirId     = 2,
@@ -1473,7 +1473,7 @@
                     UlkeId      = 1,
                     SehirAdi    = "Düzce",
                     DurumId     = 1
-                }                
+                }
             });
             #endregion
 
@@ -1584,7 +1584,7 @@
                 IlceKodu = 2033,
                 IlceAdi  = "Çukurova",
                 DurumId  = 1
-                },                
+                },
                 new Ilce
                 {
                 SehirId  = 2,
@@ -8430,7 +8430,7 @@
                 IlceKodu = 2031,
                 IlceAdi  = "Kaynaşlı",
                 DurumId  = 1
-                }                        
+                }                    
             });
             #endregion
           
@@ -8573,43 +8573,28 @@
             #endregion
 
             #region // Kategori
-            context.Kategoriler.AddRange(new List<Kategori>
-            {
+            context.Kategoriler.AddRange(new List<Kategori>{
+                #region // DokumanTipi
                 new Kategori
                 {
-                    KategoriId  = 1,
-                    KategoriAdi = "DokumanTipi",
-                    DurumId     = 1
-                },
-                new Kategori
-                {
-                    KategoriId  = 2,
-                    KategoriAdi = "HazirlikGrubu",
-                    DurumId     = 1,
-                }
-            });
-            #endregion
-
-           
-                Degerler = new List<Deger>
+                    KategoriAdi         = "DokumanTipi",
+                    DurumId             = 1,
+                    Degerler            = new List<Deger>
                     {
                         new Deger
                         {
-                            KategoriId = 1,
-                            Adi          = "Tanımsız",
+                            Adi    = "Tanımsız",
                             SiraNo      = 0,
                             DurumId     = 1
                         },
                         new Deger
                         {
-                            KategoriId = 1,
                             Adi    = "Adapte Teklifi",
                             SiraNo      = 0,
                             DurumId     = 1
                         },
                         new Deger
                         {
-                            KategoriId = 1,
                             Adi    = "Dc",
                             SiraNo      = 0,
                             DurumId     = 1
@@ -8679,10 +8664,17 @@
                             Adi    = "WI (İş Programında)",
                             SiraNo      = 0,
                             DurumId     = 1
-                        },
+                        },                        
                     }
+                },
+                #endregion
 
-                Degerler            = new List<Deger>
+                #region // HazirlikGrubu
+                new Kategori
+                {
+                    KategoriAdi         = "HazirlikGrubu",
+                    DurumId             = 1,
+                    Degerler            = new List<Deger>
                     {
                         new Deger
                         {
@@ -9642,148 +9634,102 @@
             #region // Kisi
             context.Kisiler.AddRange(new List<Kisi> {
                 new Kisi
-                {
-                    KisiId                      = 1,
+                {                    
+                    KisiId                      = 1,           
                     TcKimlikNo                  = 28661334272,
                     Ad                          = "Halil İbrahim",
                     Soyad                       = "Poyraz",                    
-                    DurumId                     = 1,                    
+                    DurumId                     = 1,
+                    Epostalar                   = new List<Eposta>
+                    {
+                        new Eposta
+                        {                                                                                 
+                            EpostaAdresi        = "h.ibrahimpoyraz@gmail.com",
+                            VarsayilanEposta    = true,
+                            DurumId             = 1
+                        },
+                        new Eposta
+                        {                                                       
+                            EpostaAdresi        = "hll_pyrz@hotmail.com",
+                            VarsayilanEposta    = false,
+                            DurumId             = 1
+                        }
+                    },
+                    Telefonlar                  = new List<Telefon>
+                    {
+                        new Telefon
+                        {                            
+                            TelefonTipiId       = 154,
+                            TelefonNo           = "05345950053",
+                            VarsayilanTelefon   = true,
+                            DurumId             = 1
+                        }
+                    },
+                    VergiBilgi                  = new VergiBilgi
+                    {
+                        VergiDairesi            = "Ümraniye",
+                        VergiNo                 = "2866133427",
+                        DurumId                 = 1
+                    }
+                    
                 },
                 new Kisi
-                {
-                    KisiId                      = 2,
+                {      
+                    KisiId                      = 2,                                  
                     TcKimlikNo                  = 44080828284,
                     Ad                          = "Ali",
                     Soyad                       = "Atabey",                    
                     DurumId                     = 1,
+                    Epostalar                   = new List<Eposta>
+                    {
+                        new Eposta
+                        {                            
+                            EpostaAdresi        = "ali@trendax.com.tr",
+                            VarsayilanEposta    = true,
+                            DurumId             = 1
+                        }
+                    },
+                    Telefonlar                  = new List<Telefon>
+                    {
+                        new Telefon
+                        {
+                            TelefonTipiId       = 154,
+                            TelefonNo           = "05332713638",
+                            VarsayilanTelefon   = true,
+                            DurumId             = 1
+                        },
+                        new Telefon
+                        {
+                            TelefonTipiId       = 155,
+                            TelefonNo           = "02122605262",
+                            DahiliNo            = "122",
+                            VarsayilanTelefon   = false,
+                            DurumId             = 1
+                        },
+                        new Telefon
+                        {
+                            TelefonTipiId       = 156,
+                            TelefonNo           = "4447084",
+                            VarsayilanTelefon   = false,
+                            DurumId             = 1
+                        },
+                        new Telefon
+                        {
+                            TelefonTipiId       = 157,
+                            TelefonNo           = "02124496227",
+                            VarsayilanTelefon   = false,
+                            DurumId             = 1
+                        },
+                    },
+                    VergiBilgi                  = new VergiBilgi
+                    {
+                        VergiDairesi            = "Beyoğlu",
+                        VergiNo                 = "1234567890",
+                        DurumId                 = 1
+                    }
                 },
             });
             #endregion
-
-            #region // Eposta
-            context.Epostalar.AddRange(new List<Eposta>
-            {
-                new Eposta
-                {
-                    EpostaId            = 1,
-                    KisiId              = 1,
-                    EpostaAdresi        = "h.ibrahimpoyraz@gmail.com",
-                    VarsayilanEposta    = true,
-                    DurumId             = 1
-                },
-                new Eposta
-                {
-                    EpostaId            = 2,
-                    KisiId              = 1,
-                    EpostaAdresi        = "hll_pyrz@hotmail.com",
-                    VarsayilanEposta    = false,
-                    DurumId             = 1
-                },
-                new Eposta
-                {
-                    EpostaId            = 3,
-                    KisiId              = 2,
-                    EpostaAdresi        = "ali@trendax.com.tr",
-                    VarsayilanEposta    = true,
-                    DurumId             = 1
-                }
-            });
-            #endregion
-
-            #region // Telefon
-            context.Telefonlar.AddRange(new List<Telefon>
-            {
-                new Telefon
-                {
-                    KisiId              = 1,
-                    TelefonTipiId       = 154,
-                    TelefonNo           = "05345950053",
-                    VarsayilanTelefon   = true,
-                    DurumId             = 1
-                },
-                new Telefon
-                {
-                    KisiId              = 2,
-                    TelefonTipiId       = 1,
-                    TelefonNo           = "05332713638",
-                    VarsayilanTelefon   = true,
-                    DurumId             = 1
-                },
-                new Telefon
-                {
-                    KisiId              = 2,
-                    TelefonTipiId       = 1,
-                    TelefonNo           = "02122605262",
-                    DahiliNo            = "122",
-                    VarsayilanTelefon   = false,
-                    DurumId             = 1
-                },
-                new Telefon
-                {
-                    KisiId              = 2,
-                    TelefonTipiId       = 1,
-                    TelefonNo           = "4447084",
-                    VarsayilanTelefon   = false,
-                    DurumId             = 1
-                },
-                new Telefon
-                {
-                    KisiId              = 2,
-                    TelefonTipiId       = 1,
-                    TelefonNo           = "02124496227",
-                    VarsayilanTelefon   = false,
-                    DurumId             = 1
-                }
-            });
-            #endregion
-
-            #region // Adres
-            context.Adresler.AddRange(new List<Adres>
-            {
-                new Adres
-                {
-                    KisiId              = 1,
-                    AdresTipiId         = 159,
-                    AdresSatiri         = "Mehmet Akif Caddesi Çitlenbit Sokak No:123 Kat:2 Daire:4",
-                    IlceId              = 432,
-                    SehirId             = 34,
-                    UlkeId              = 1,
-                    VarsayilanAdres     = true,
-                    DurumId             = 1
-                },
-                new Adres
-                {
-                    KisiId              = 2,
-                    AdresTipiId         = 159,
-                    AdresSatiri         = "Asariye Caddesi Şerifali Çıkmazı No:1 Kat:1 Daire:1",
-                    IlceId              = 432,
-                    SehirId             = 34,
-                    UlkeId              = 1,
-                    VarsayilanAdres     = true,
-                    DurumId             = 1
-                }
-            });
-            #endregion
-
-            #region // VergiBilgi
-            context.VergiBilgileri.AddRange(new List<VergiBilgi>
-            {
-                new VergiBilgi
-                {
-                    KisiId        = 1,                     
-                    VergiDairesi  = "Ümraniye",
-                    VergiNo       = "2866133427",
-                    DurumId       = 1
-                },
-                new VergiBilgi
-                {
-                    KisiId        = 2,
-                    VergiDairesi  = "Beyoğlu",
-                    VergiNo       = "1234567890",
-                    DurumId       = 1
-                }
-            });
-            #endregion           
 
             context.SaveChanges();
         }
