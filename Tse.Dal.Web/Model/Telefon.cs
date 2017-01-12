@@ -15,8 +15,10 @@
         // Properties
         public int TelefonId { get; set; }
 
-        public int KisiId { get; set; }
-        
+        public int? KisiId { get; set; }
+
+        public int? FirmaId { get; set; }
+
         public int TelefonTipiId { get; set; }
 
         [Required MaxLength(25) Display(Name = "Telefon Numarası")]
@@ -36,6 +38,7 @@
         // Navigation Properties
         public virtual Durum Durum { get; set; }
         public virtual Kisi Kisi { get; set; }
+        public virtual Firma Firma { get; set; }
 
         [ForeignKey("TelefonTipiId")]
         public virtual Deger TelefonTipi { get; set; }

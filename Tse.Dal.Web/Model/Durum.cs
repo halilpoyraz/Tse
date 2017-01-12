@@ -11,6 +11,7 @@
             Adresler = new HashSet<Adres>();
             Degerler = new HashSet<Deger>();
             Epostalar = new HashSet<Eposta>();
+            Firmalar = new HashSet<Firma>();
             Ilceler = new HashSet<Ilce>();
             Kategoriler = new HashSet<Kategori>();
             Kisiler = new HashSet<Kisi>();
@@ -45,7 +46,7 @@
         public virtual ICollection<Telefon> Telefonlar { get; set; }
         public virtual ICollection<Ulke> Ulkeler { get; set; }
         public virtual ICollection<VergiBilgi> VergiBilgileri { get; set; }
-
+        public virtual ICollection<Firma> Firmalar { get; set; }
 
 
         // Methods

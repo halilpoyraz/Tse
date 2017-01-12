@@ -23,6 +23,7 @@ namespace Tse.Dal.Web.Model
         public virtual DbSet<Kategori> Kategoriler { get; set; }
         public virtual DbSet<Kisi> Kisiler { get; set; }
         public virtual DbSet<Eposta> Epostalar { get; set; }
+        public virtual DbSet<Firma> Firmalar { get; set; }
         public virtual DbSet<Telefon> Telefonlar { get; set; }
         public virtual DbSet<VergiBilgi> KisiVergiBilgileri { get; set; }
         public virtual DbSet<ParaBirimi> ParaBirimleri { get; set; }
@@ -36,12 +37,12 @@ namespace Tse.Dal.Web.Model
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
-
            
             modelBuilder.Entity<Eposta>().ToTable("Kisi.Eposta");
+            modelBuilder.Entity<Firma>().ToTable("Firma.Firma");
             modelBuilder.Entity<Kisi>().ToTable("Kisi.Kisi");
             modelBuilder.Entity<Telefon>().ToTable("Kisi.Telefon");
-            modelBuilder.Entity<VergiBilgi>().ToTable("Kisi.VergiBilgi");
+            modelBuilder.Entity<VergiBilgi>().ToTable("Firma.VergiBilgi");
             modelBuilder.Entity<Deger>().ToTable("Tanimlama.Deger");
             modelBuilder.Entity<Durum>().ToTable("Tanimlama.Durum");
             modelBuilder.Entity<Ilce>().ToTable("Tanimlama.Ilce");
@@ -140,7 +141,22 @@ namespace Tse.Dal.Web.Model
             modelBuilder.Entity<Durum>()
                 .HasMany(e => e.VergiBilgileri)
                 .WithRequired(e => e.Durum)
-                .WillCascadeOnDelete(false);            
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Durum>()
+                .HasMany(e => e.Firmalar)
+                .WithRequired(e => e.Durum)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Firma>()
+                .HasMany(e => e.FirmaVergiBilgileri)
+                .WithOptional(e => e.Firma)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Firma>()
+                .HasMany(e => e.FirmaTelefonlar)
+                .WithOptional(e => e.Firma)
+                .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Ilce>()
                 .HasMany(e => e.Adresler)
@@ -150,6 +166,11 @@ namespace Tse.Dal.Web.Model
             modelBuilder.Entity<Kategori>()
                 .HasMany(e => e.Degerler)
                 .WithRequired(e => e.Kategori)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Kisi>()
+                .HasMany(e => e.KisiVergiBilgileri)
+                .WithOptional(e => e.Kisi)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Kisi>()
@@ -163,15 +184,14 @@ namespace Tse.Dal.Web.Model
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Kisi>()
-                .HasMany(e => e.Telefonlar)
-                .WithRequired(e => e.Kisi)
-                .WillCascadeOnDelete(false); 
-                        
+                .HasMany(e => e.KisiTelefonlar)
+                .WithOptional(e => e.Kisi)
+                .WillCascadeOnDelete(false);
+
             modelBuilder.Entity<ParaBirimi>()
                 .HasMany(e => e.Standartlar)
                 .WithRequired(e => e.ParaBirimi)
-                .WillCascadeOnDelete(false);
-            
+                .WillCascadeOnDelete(false);            
 
             modelBuilder.Entity<Sehir>()
                 .HasMany(e => e.Adresler)
@@ -186,7 +206,9 @@ namespace Tse.Dal.Web.Model
             modelBuilder.Entity<Ulke>()
                 .HasMany(e => e.Adresler)
                 .WithRequired(e => e.Ulke)
-                .WillCascadeOnDelete(false);            
+                .WillCascadeOnDelete(false);
+
+            
         }
 
     }   

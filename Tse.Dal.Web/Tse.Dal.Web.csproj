@@ -55,6 +55,7 @@
     <Compile Include="Model\Adres.cs" />
     <Compile Include="Model\Durum.cs" />
     <Compile Include="Model\Eposta.cs" />
+    <Compile Include="Model\Firma.cs" />
     <Compile Include="Model\Ilce.cs" />
     <Compile Include="Model\Kisi.cs" />
     <Compile Include="Model\ParaBirimi.cs" />

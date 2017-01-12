@@ -9653,7 +9653,7 @@
                             DurumId             = 1
                         }
                     },
-                    Telefonlar                  = new List<Telefon>
+                    KisiTelefonlar              = new List<Telefon>
                     {
                         new Telefon
                         {                            
@@ -9676,13 +9676,15 @@
                             DurumId             = 1
                         }
                     },
-                    VergiBilgi                  = new VergiBilgi
+                    KisiVergiBilgileri = new List<VergiBilgi>
                     {
-                        VergiDairesi            = "Ümraniye",
-                        VergiNo                 = "2866133427",
-                        DurumId                 = 1
+                        new VergiBilgi
+                        {
+                        VergiDairesi = "Üsküdar",
+                        VergiNo = "9876543210",
+                        DurumId = 1
+                        }
                     }
-                    
                 },
                 new Kisi
                 {                          
@@ -9699,7 +9701,7 @@
                             DurumId             = 1
                         }
                     },
-                    Telefonlar                  = new List<Telefon>
+                    KisiTelefonlar              = new List<Telefon>
                     {
                         new Telefon
                         {
@@ -9745,13 +9747,72 @@
 
                         }
                     },
-                    VergiBilgi                  = new VergiBilgi
+                    KisiVergiBilgileri = new List<VergiBilgi>
                     {
-                        VergiDairesi            = "Beyoğlu",
-                        VergiNo                 = "1234567890",
-                        DurumId                 = 1
+                        new VergiBilgi
+                        {
+                        VergiDairesi = "Beyoğlu",
+                        VergiNo = "9879876541",
+                        DurumId = 1
+                        }
                     }
+
                 },
+            });
+            #endregion
+
+            #region // Firma
+            context.Firmalar.AddRange(new List<Firma>
+            {
+                new Firma
+                {
+                    TicaretUnvani = "Beyaz Yazılım Ltd. Şti.",
+                    DurumId = 1,
+                    FirmaTelefonlar = new List<Telefon>
+                    {
+                        new Telefon
+                        {
+                            TelefonTipiId = 156,
+                            TelefonNo = "02164257262",
+                            VarsayilanTelefon = true,
+                            DurumId = 1
+                        }
+                    },
+                    FirmaVergiBilgileri = new List<VergiBilgi>
+                    {
+                        new VergiBilgi
+                        {
+                            VergiDairesi = "Beykoz",
+                            VergiNo = "0123456789",
+                            DurumId = 1
+                        }
+                    }
+
+                },
+                new Firma
+                {
+                    TicaretUnvani = "Yeditepe Turizm Gıda Reklam Yayın Bilgisayar Hiz. San. Ve Tic. Ltd. Şti.",
+                    DurumId = 1,
+                    FirmaTelefonlar = new List<Telefon>
+                    {
+                        new Telefon
+                        {
+                            TelefonTipiId = 156,
+                            TelefonNo = "4447084",
+                            VarsayilanTelefon = true,
+                            DurumId = 1
+                        }
+                    },
+                    FirmaVergiBilgileri = new List<VergiBilgi>
+                    {
+                        new VergiBilgi
+                        {
+                            VergiDairesi = "Ümraniye",
+                            VergiNo = "9440131245",
+                            DurumId = 1
+                        }
+                    }
+                }
             });
             #endregion
 

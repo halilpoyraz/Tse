@@ -12,14 +12,17 @@
 
 
 
-        // Properties
-        [Key ForeignKey("Kisi")]
-        public int KisiId { get; set; }
+        // Properties        
+        public int VergiBilgiId { get; set; }
+                
+        public int? KisiId { get; set; }
+        
+        public int? FirmaId { get; set; }
 
         [Required MaxLength(255) Display(Name = "Vergi Dairesi")]
         public string VergiDairesi { get; set; }
         
-        [Required MaxLength(10) Display(Name = "Vergi Numarası")]
+        [Required MaxLength(25) Display(Name = "Vergi Numarası")]
         public string VergiNo { get; set; }
 
         [Display(Name = "Durum")]
@@ -28,8 +31,9 @@
 
 
         // Navigation Properties
-        public virtual Durum Durum { get; set; }
+        public virtual Durum Durum { get; set; }        
         public virtual Kisi Kisi { get; set; }
+        public virtual Firma Firma { get; set; }
 
 
 

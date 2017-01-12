@@ -10,8 +10,8 @@
         {
             Adresler = new HashSet<Adres>();
             Epostalar = new HashSet<Eposta>();
-            Telefonlar = new HashSet<Telefon>();
-            VergiBilgi = new VergiBilgi();
+            KisiTelefonlar = new HashSet<Telefon>();
+            KisiVergiBilgileri = new HashSet<VergiBilgi>();
         }
 
 
@@ -40,8 +40,8 @@
         public virtual ICollection<Adres> Adresler { get; set; }
         public virtual Durum Durum { get; set; }
         public virtual ICollection<Eposta> Epostalar { get; set; }             
-        public virtual ICollection<Telefon> Telefonlar { get; set; }        
-        public virtual VergiBilgi VergiBilgi { get; set; }
+        public virtual ICollection<Telefon> KisiTelefonlar { get; set; }
+        public virtual ICollection<VergiBilgi> KisiVergiBilgileri { get; set; }
 
 
 
