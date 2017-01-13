@@ -5,38 +5,32 @@
 
     public partial class Sehir
     {
-        // Constructor
+        //Constructor
         public Sehir()
         {
-            Adresler = new HashSet<Adres>();
-            Ilceler = new HashSet<Ilce>();
         }
 
 
-
-        // Properties
+        //Properties
         public int SehirId { get; set; }
         
+        [Display(Name ="Ulke")]
         public int UlkeId { get; set; }
 
-        [Required MaxLength(50) Display(Name = "Şehir Adı")]
+        [Display(Name = "Şehir Adı") MaxLength(255) Required]
         public string SehirAdi { get; set; }
 
         [Display(Name = "Durum")]
         public int DurumId { get; set; }
 
 
-
-        // Navigation Propertis
+        //Navigation Propertis
         public virtual ICollection<Adres> Adresler { get; set; }
         public virtual Durum Durum { get; set; }
         public virtual ICollection<Ilce> Ilceler { get; set; }
         public virtual Ulke Ulke { get; set; }
 
 
-
-        // Methods
-
-
+        //Methods
     }
 }

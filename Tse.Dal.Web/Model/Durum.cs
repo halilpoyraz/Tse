@@ -5,32 +5,17 @@
 
     public partial class Durum
     {
-        // Constructor
+        //Constructor
         public Durum()
         {                        
-            Adresler = new HashSet<Adres>();
-            Degerler = new HashSet<Deger>();
-            Epostalar = new HashSet<Eposta>();
-            Firmalar = new HashSet<Firma>();
-            Ilceler = new HashSet<Ilce>();
-            Kategoriler = new HashSet<Kategori>();
-            Kisiler = new HashSet<Kisi>();
-            ParaBirimleri = new HashSet<ParaBirimi>();
-            Sehirler = new HashSet<Sehir>();
-            Standartlar = new HashSet<Standart>();            
-            Telefonlar = new HashSet<Telefon>();
-            Ulkeler = new HashSet<Ulke>();
-            VergiBilgileri = new HashSet<VergiBilgi>();
         }
 
 
-
-        // Properties
+        //Properties
         public int DurumId { get; set; }
 
-        [MaxLength(255), Required()]
+        [Display(Name ="Durum Adı") MaxLength(255) Required]
         public string DurumAdi { get; set; }
-
 
 
         // Navigation Properties

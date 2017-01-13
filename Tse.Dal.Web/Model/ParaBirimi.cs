@@ -5,21 +5,19 @@
 
     public partial class ParaBirimi
     {
-        // Constructor
+        //Constructor
         public ParaBirimi()
         {
-            Standartlar = new HashSet<Standart>();
         }
 
 
-
-        // Properties
+        //Properties
         public int ParaBirimiId { get; set; }
 
-        [Required]
+        [Display(Name ="Kodu") MaxLength(255) Required]
         public string Kodu { get; set; }
 
-        [Required]
+        [Display(Name ="Cinsi") MaxLength(255) Required]
         public string Cinsi { get; set; }
 
         [Display(Name = "Sıra No")]
@@ -29,13 +27,11 @@
         public int DurumId { get; set; }
 
 
-
-        // Navigation Properties        
+        //Navigation Properties        
         public virtual Durum Durum { get; set; }
         public virtual ICollection<Standart> Standartlar { get; set; }
 
 
-
-        // Methots
+        //Methots
     }
 }

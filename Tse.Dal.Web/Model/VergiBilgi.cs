@@ -1,33 +1,32 @@
 ﻿namespace Tse.Dal.Web.Model
 {
-    using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
+    using System.ComponentModel.DataAnnotations;    
 
     public partial class VergiBilgi
     {
-        // Constructor
+        //Constructor
         public VergiBilgi()
         {
         }
 
 
-
-        // Properties        
+        //Properties        
         public int VergiBilgiId { get; set; }
                 
+        [Display(Name ="Kişi")]
         public int? KisiId { get; set; }
-        
+
+        [Display(Name ="Firma")]
         public int? FirmaId { get; set; }
 
-        [Required MaxLength(255) Display(Name = "Vergi Dairesi")]
+        [Display(Name ="Vergi Dairesi") MaxLength(255) Required]
         public string VergiDairesi { get; set; }
         
-        [Required MaxLength(25) Display(Name = "Vergi Numarası")]
+        [Display(Name = "Vergi No") MaxLength(255) Required]
         public string VergiNo { get; set; }
 
-        [Display(Name = "Durum")]
+        [Display(Name ="Durum")]
         public int DurumId { get; set; }
-
 
 
         // Navigation Properties
@@ -36,8 +35,6 @@
         public virtual Firma Firma { get; set; }
 
 
-
         // Methods
-
     }
 }

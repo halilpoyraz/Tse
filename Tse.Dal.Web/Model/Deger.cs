@@ -5,36 +5,29 @@
 
     public partial class Deger
     {
-        // Constructor
+        //Constructor
         public Deger()
         {
-            Telefonlar = new HashSet<Telefon>();
-            DokumanTipleri = new HashSet<Standart>();
-            HazirlikGruplari = new HashSet<Standart>();
-            YururlukDurumlari = new HashSet<Standart>();
-            StandartTurleri = new HashSet<Standart>();
-            AdresTipleri = new HashSet<Adres>();
         }
 
 
-
-        // Properties
+        //Properties
         public int DegerId { get; set; }
 
-        [Display(Name = "Kategori")]
+        [Display(Name ="Kategori")]
         public int KategoriId { get; set; }
 
-        [Required MaxLength(255) Display(Name = "Değer Adı")]
+        [Display(Name ="Değer Adı") MaxLength(255) Required]
         public string Adi { get; set; }
 
+        [Display(Name ="Sıra No")]
         public int SiraNo { get; set; }
 
-        [Display(Name = "Durum")]
+        [Display(Name ="Durum")]
         public int DurumId { get; set; }
 
 
-
-        // Navigation Properties
+        //Navigation Properties
         public virtual Durum Durum { get; set; }
         public virtual Kategori Kategori { get; set; }
         public virtual ICollection<Standart> DokumanTipleri { get; set; }
@@ -45,7 +38,6 @@
         public virtual ICollection<Adres> AdresTipleri { get; set; }
 
 
-
-        // Methods
+        //Methods
     }
 }

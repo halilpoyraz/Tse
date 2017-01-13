@@ -1,35 +1,30 @@
 ﻿namespace Tse.Dal.Web.Model
 {
-    using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     public partial class Ilce
     {
-        // Constructor
+        //Constructor
         public Ilce()
         {
-            Adresler = new HashSet<Adres>();
         }
-
 
 
         //Properties
         public int IlceId { get; set; }
 
+        [Display(Name ="Şehir")]
         public int SehirId { get; set; }
 
+        [Display(Name ="İlçe Kodu")]
         public int IlceKodu { get; set; }
 
-        [Required MaxLength(50) Display(Name = "İlçe Adı")]
+        [Display(Name ="İlçe Adı") MaxLength(255) Required]
         public string IlceAdi { get; set; }
 
-        [Display(Name = "Durum")]
+        [Display(Name ="Durum")]
         public int DurumId { get; set; }
-
 
 
         //Navigation Properties
@@ -38,9 +33,6 @@
         public virtual ICollection<Adres> Adresler { get; set; }
 
 
-
         //Methods
-
-
     }
 }

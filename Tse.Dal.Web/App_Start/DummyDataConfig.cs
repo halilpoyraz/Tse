@@ -8577,7 +8577,7 @@
                 #region // DokumanTipi
                 new Kategori
                 {
-                    KategoriAdi         = "DokumanTipi",
+                    Adi         = "DokumanTipi",
                     DurumId             = 1,
                     Degerler            = new List<Deger>
                     {
@@ -8672,7 +8672,7 @@
                 #region // HazirlikGrubu
                 new Kategori
                 {
-                    KategoriAdi         = "HazirlikGrubu",
+                    Adi         = "HazirlikGrubu",
                     DurumId             = 1,
                     Degerler            = new List<Deger>
                     {
@@ -9452,7 +9452,7 @@
                 #region // YururlukDurumu
                 new Kategori
                 {
-                    KategoriAdi         = "YururlukDurumu",
+                    Adi         = "YururlukDurumu",
                     DurumId             = 1,
                     Degerler            = new List<Deger>
                     {
@@ -9511,7 +9511,7 @@
                 #region // StandartTur
                 new Kategori
                 {
-                    KategoriAdi         = "StandartTur",
+                    Adi         = "StandartTur",
                     DurumId             = 1,
                     Degerler            = new List<Deger>
                     {
@@ -9540,7 +9540,7 @@
                 #region // TelefonTipi
                 new Kategori
                 {                    
-                    KategoriAdi         = "TelefonTipi",
+                    Adi         = "TelefonTipi",
                     DurumId             = 1,
                     Degerler            = new List<Deger>
                     {
@@ -9575,7 +9575,7 @@
                 #region // AdresTipi
                 new Kategori
                 {
-                    KategoriAdi         = "AdresTipi",
+                    Adi         = "AdresTipi",
                     DurumId             = 1,
                     Degerler            = new List<Deger>
                     {
@@ -9606,11 +9606,11 @@
                     HazirlikGrubuId         = 6,
                     DokumanTipiId           = 9,
                     YururlukDurumuId        = 5,
-                    Baslik                  = "Elektronik Belge ve Arşiv Yönetim Sistemi",
-                    BaslikIng               = "Electronic Records and Archives Management System",
+                    BaslikTr                  = "Elektronik Belge ve Arşiv Yönetim Sistemi",
+                    BaslikEn              = "Electronic Records and Archives Management System",
                     StandartTurId           = 3,
-                    Kapsam                  = "Bu standard, kurumlarda üretilen ve/veya üretilmesi muhtemel elektronik dokümanların belge niteliğinin korunabilmesi için gerekli standardlar ile elektronik belgelerin arşivlenmesi ve yönetimine yönelik konuları kapsar.",
-                    KapsamIng               = "This standard, produced in the institution and / or production of electronic documents, electronic documents possible with the necessary standards to preserve the quality archiving and document covers issues related to management.",
+                    KapsamTr                  = "Bu standard, kurumlarda üretilen ve/veya üretilmesi muhtemel elektronik dokümanların belge niteliğinin korunabilmesi için gerekli standardlar ile elektronik belgelerin arşivlenmesi ve yönetimine yönelik konuları kapsar.",
+                    KapsamEn               = "This standard, produced in the institution and / or production of electronic documents, electronic documents possible with the necessary standards to preserve the quality archiving and document covers issues related to management.",
                     YeriniAldigi            = "TS 13298 :2009",
                     TadilEden               = "TS 13298/T1 :2016",
                     YararlanilanKaynak      = "-",
@@ -9635,8 +9635,8 @@
                 new Kisi
                 {                                        
                     TcKimlikNo                  = 28661334272,
-                    Ad                          = "Halil İbrahim",
-                    Soyad                       = "Poyraz",                    
+                    Adi                          = "Halil İbrahim",
+                    Soyadi                       = "Poyraz",                    
                     DurumId                     = 1,
                     Epostalar                   = new List<Eposta>
                     {
@@ -9689,8 +9689,8 @@
                 new Kisi
                 {                          
                     TcKimlikNo                  = 44080828284,
-                    Ad                          = "Ali",
-                    Soyad                       = "Atabey",                    
+                    Adi                         = "Ali",
+                    Soyadi                      = "Atabey",                    
                     DurumId                     = 1,
                     Epostalar                   = new List<Eposta>
                     {

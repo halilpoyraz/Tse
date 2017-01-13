@@ -4,19 +4,19 @@
 
     public partial class Eposta
     {
-        // Constructor
+        //Constructor
         public Eposta()
         {
         }
 
 
-
-        // Properties
+        //Properties
         public int EpostaId { get; set; }
 
+        [Display(Name ="Kisi")]
         public int KisiId { get; set; }
 
-        [Required MaxLength(254) Display(Name = "E-Posta Adresi")]
+        [Display(Name = "E-Posta Adresi") MaxLength(255) Required]
         public string EpostaAdresi { get; set; }
 
         [Display(Name = "Varsayılan E-posta")]
@@ -26,13 +26,11 @@
         public int DurumId { get; set; }
 
 
-
-        // Navigation Properties
+        //Navigation Properties
         public virtual Durum Durum { get; set; }
         public virtual Kisi Kisi { get; set; }
+    
 
-
-
-        // Methods
+        //Methods
     }
 }

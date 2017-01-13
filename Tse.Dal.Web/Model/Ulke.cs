@@ -1,40 +1,31 @@
 ﻿namespace Tse.Dal.Web.Model
 {
-    using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     public partial class Ulke
     {
-        // Constructor
+        //Constructor
         public Ulke()
-        {
-            Adresler = new HashSet<Adres>();
-            Sehirler = new HashSet<Sehir>();            
+        {          
         }
 
 
-
-        // Properties
+        //Properties
         public int UlkeId { get; set; }
 
-        [Required MaxLength(55) Display(Name = "Ülke Adı")]
+        [Display(Name ="Ülke Adı") MaxLength(255) Required]
         public string UlkeAdi { get; set; }
 
-        [Display(Name = "Durum")]
+        [Display(Name ="Durum")]
         public int DurumId { get; set; }
 
 
-
-        // Navigation Properties
+        //Navigation Properties
         public virtual ICollection<Adres> Adresler { get; set; }
         public virtual Durum Durum { get; set; }        
         public virtual ICollection<Sehir> Sehirler { get; set; }
     
-
 
         // Methods
     }

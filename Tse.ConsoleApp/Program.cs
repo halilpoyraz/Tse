@@ -18,7 +18,7 @@
 
                 foreach (var kisi in kisiler)
                 {
-                    Console.WriteLine($"{kisi.KisiId} | {kisi.Ad} {kisi.Soyad} |");
+                    Console.WriteLine($"{kisi.KisiId} | {kisi.Adi} {kisi.Soyadi} |");
                 }                
 
                 Console.ReadKey();

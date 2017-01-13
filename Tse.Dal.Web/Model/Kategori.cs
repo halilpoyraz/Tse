@@ -5,32 +5,27 @@
 
     public partial class Kategori
     {
-        // Constructor
+        //Constructor
         public Kategori()
         {
-            Degerler = new HashSet<Deger>();
         }
 
 
-
-        // Properties
+        //Properties
         public int KategoriId { get; set; }
 
-        [Required MaxLength(255) Display(Name = "Kategori Adı")]
-        public string KategoriAdi { get; set; }
+        [Display(Name ="Kategori Adı") MaxLength(255) Required]
+        public string Adi { get; set; }
 
-        [Display (Name = "Kategori")]
+        [Display (Name ="Durum")]
         public int DurumId { get; set; }
 
 
-
-        // Navigation Properties
+        //Navigation Properties
         public virtual Durum Durum { get; set; }
         public virtual ICollection<Deger> Degerler { get; set; }
 
 
-
-        // Methods
-
+        //Methods
     }
 }

@@ -5,33 +5,30 @@
 
     public partial class Firma
     {
-        // Constructor
+        //Constructor
         public Firma()
         {
-            FirmaVergiBilgileri = new HashSet<VergiBilgi>();
-            FirmaTelefonlar = new HashSet<Telefon>();
         }
 
 
-
-        // Properties
+        //Properties
         public int FirmaId { get; set; }
 
-        [Required MaxLength(255) Display(Name ="Ticaret Unvanı") ]
+        [Display(Name ="Ticaret Unvanı") MaxLength(255) Required]
         public string TicaretUnvani { get; set; }
 
-        [MaxLength(255) Display(Name = "Web Adresi")]
+        [Display(Name ="Web Adresi") MaxLength(255)]
         public string WebAdresi { get; set; }
 
-        [Display(Name = "Durum")]
+        [Display(Name ="Durum")]
         public int DurumId { get; set; }
 
 
-
-        // Navigation Properties
+        //Navigation Properties
         public virtual Durum Durum { get; set; }
         public virtual ICollection<VergiBilgi> FirmaVergiBilgileri { get; set; }
         public virtual ICollection<Telefon> FirmaTelefonlar { get; set; }
+
 
         // Methods
     }

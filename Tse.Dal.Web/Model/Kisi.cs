@@ -5,35 +5,29 @@
 
     public partial class Kisi
     {
-        // Constructor
+        //Constructor
         public Kisi()
         {
-            Adresler = new HashSet<Adres>();
-            Epostalar = new HashSet<Eposta>();
-            KisiTelefonlar = new HashSet<Telefon>();
-            KisiVergiBilgileri = new HashSet<VergiBilgi>();
         }
 
 
-
-        // Properties
+        //Properties
         public int KisiId { get; set; }
 
-        [Required MaxLength(50) Display(Name = "Adı")]
-        public string Ad { get; set; }
+        [Display(Name ="Adı") MaxLength(255) Required]
+        public string Adi { get; set; }
 
-        [Required MaxLength(50) Display(Name = "Soyadı")]
-        public string Soyad { get; set; }
+        [Display(Name ="Soyadı") MaxLength(255) Required]
+        public string Soyadi { get; set; }
 
         [Display(Name = "Tc Kimlik No")]
         public long TcKimlikNo { get; set; }
 
-        [MaxLength(50) Display(Name = "Ünvanı")]
+        [Display(Name = "Ünvanı") MaxLength(255)]
         public string Unvan { get; set; }        
 
         [Display(Name = "Durum")]
         public int DurumId { get; set; }
-
 
 
         // Navigation Properties
@@ -42,7 +36,6 @@
         public virtual ICollection<Eposta> Epostalar { get; set; }             
         public virtual ICollection<Telefon> KisiTelefonlar { get; set; }
         public virtual ICollection<VergiBilgi> KisiVergiBilgileri { get; set; }
-
 
 
         // Methods
