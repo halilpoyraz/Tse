@@ -14,11 +14,14 @@
         //Properties
         public int AdresId { get; set; }
 
+        [Display(Name ="Kisi")]
+        public int? KisiId { get; set; }
+
+        [Display(Name ="Firma")]
+        public int? FirmaId { get; set; }
+
         [Display(Name ="Adres Tipi")]
         public int AdresTipiId { get; set; }
-
-        [Display(Name ="Kisi")]
-        public int KisiId { get; set; }
 
         [Display(Name ="Adres Satırı") MaxLength(255) Required]
         public string AdresSatiri { get; set; }
@@ -45,6 +48,7 @@
         public virtual Kisi Kisi { get; set; }
         public virtual Sehir Sehir { get; set; }
         public virtual Ulke Ulke { get; set; }
+        public virtual Firma Firma { get; set; }
 
         [ForeignKey("AdresTipiId")]
         public virtual Deger AdresTipi { get; set; }

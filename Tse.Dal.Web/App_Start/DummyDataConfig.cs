@@ -9786,8 +9786,45 @@
                             VergiNo = "0123456789",
                             DurumId = 1
                         }
+                    },
+                    FirmaEpostalar = new List<Eposta>
+                    {
+                        new Eposta
+                        {
+                            EpostaAdresi = "yazilim@beyazyazilim.com",
+                            VarsayilanEposta = true,
+                            DurumId = 1
+                        },
+                        new Eposta
+                        {
+                            EpostaAdresi = "destek@beyazyazilim.com",
+                            VarsayilanEposta = false,
+                            DurumId = 1
+                        }
+                    },
+                    FirmaAdresleri = new List<Adres>
+                    {
+                        new Adres
+                        {
+                            AdresTipiId         = 159,
+                            AdresSatiri         = "Fetih Mahallesi Tahralı Sokak Esin Sitesi B Blok 10/5",
+                            IlceId              = 432,
+                            SehirId             = 34,
+                            UlkeId              = 1,
+                            VarsayilanAdres     = true,
+                            DurumId             = 1
+                        },
+                        new Adres
+                        {
+                            AdresTipiId         = 159,
+                            AdresSatiri         = "Gebze Teknopark Beyaz Yazılım",
+                            IlceId              = 432,
+                            SehirId             = 34,
+                            UlkeId              = 1,
+                            VarsayilanAdres     = false,
+                            DurumId             = 1
+                        }
                     }
-
                 },
                 new Firma
                 {
@@ -9810,6 +9847,28 @@
                             VergiDairesi = "Ümraniye",
                             VergiNo = "9440131245",
                             DurumId = 1
+                        }
+                    },
+                    FirmaEpostalar = new List<Eposta>
+                    {
+                        new Eposta
+                        {
+                            EpostaAdresi = "info@yeditepeturizm.com.tr",
+                            VarsayilanEposta = true,
+                            DurumId = 1
+                        }
+                    },
+                    FirmaAdresleri = new List<Adres>
+                    {
+                        new Adres
+                        {
+                            AdresTipiId         = 159,
+                            AdresSatiri         = "İnkılap Mahallesi Küçüksu Caddesi No:101 K:5 D:10",
+                            IlceId              = 431,
+                            SehirId             = 34,
+                            UlkeId              = 1,
+                            VarsayilanAdres     = true,
+                            DurumId             = 1
                         }
                     }
                 }

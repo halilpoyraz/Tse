@@ -28,6 +28,8 @@
         public virtual Durum Durum { get; set; }
         public virtual ICollection<VergiBilgi> FirmaVergiBilgileri { get; set; }
         public virtual ICollection<Telefon> FirmaTelefonlar { get; set; }
+        public virtual ICollection<Eposta> FirmaEpostalar { get; set; }
+        public virtual ICollection<Adres> FirmaAdresleri { get; set; }
 
 
         // Methods
