@@ -9662,8 +9662,8 @@
                             VarsayilanTelefon   = true,
                             DurumId             = 1
                         }
-                    },
-                    Adresler = new List<Adres>
+                    },                    
+                    KisiAdresler                = new List<Adres>
                     {
                         new Adres
                         {                                                     
@@ -9675,7 +9675,7 @@
                             VarsayilanAdres     = true,
                             DurumId             = 1
                         }
-                    },
+                    },                    
                     KisiVergiBilgileri = new List<VergiBilgi>
                     {
                         new VergiBilgi
@@ -9733,7 +9733,7 @@
                             DurumId             = 1
                         },
                     },
-                    Adresler                    = new List<Adres>
+                    KisiAdresler                = new List<Adres>
                     {
                         new Adres
                         {
@@ -9746,7 +9746,7 @@
                             DurumId             = 1
 
                         }
-                    },
+                    },                    
                     KisiVergiBilgileri = new List<VergiBilgi>
                     {
                         new VergiBilgi
@@ -9802,6 +9802,7 @@
                             DurumId = 1
                         }
                     },
+                    /*
                     FirmaAdresleri = new List<Adres>
                     {
                         new Adres
@@ -9825,6 +9826,7 @@
                             DurumId             = 1
                         }
                     }
+                    */
                 },
                 new Firma
                 {
@@ -9858,6 +9860,7 @@
                             DurumId = 1
                         }
                     },
+                    /*
                     FirmaAdresleri = new List<Adres>
                     {
                         new Adres
@@ -9871,6 +9874,7 @@
                             DurumId             = 1
                         }
                     }
+                    */
                 }
             });
             #endregion

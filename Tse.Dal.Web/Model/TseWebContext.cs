@@ -85,14 +85,15 @@ namespace Tse.Dal.Web.Model
 
             modelBuilder.Entity<Kategori>().HasMany(e => e.Degerler).WithRequired(e => e.Kategori).WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<Kisi>().HasMany(e => e.Adresler).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Kisi>().HasMany(e => e.KisiAdresler).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
             modelBuilder.Entity<Kisi>().HasMany(e => e.Epostalar).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
             modelBuilder.Entity<Kisi>().HasMany(e => e.KisiTelefonlar).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
             modelBuilder.Entity<Kisi>().HasMany(e => e.KisiVergiBilgileri).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<ParaBirimi>().HasMany(e => e.Standartlar).WithRequired(e => e.ParaBirimi).WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<Sehir>().HasMany(e => e.Adresler).WithRequired(e => e.Sehir).WillCascadeOnDelete(false);                        
+            modelBuilder.Entity<Sehir>().HasMany(e => e.Adresler).WithRequired(e => e.Sehir).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Sehir>().HasMany(e => e.Ilceler).WithRequired(e => e.Sehir).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Ulke>().HasMany(e => e.Adresler).WithRequired(e => e.Ulke).WillCascadeOnDelete(false);
             modelBuilder.Entity<Ulke>().HasMany(e => e.Sehirler).WithRequired(e => e.Ulke).WillCascadeOnDelete(false);

@@ -31,7 +31,7 @@
 
 
         // Navigation Properties
-        public virtual ICollection<Adres> Adresler { get; set; }
+        public virtual ICollection<Adres> KisiAdresler { get; set; }
         public virtual Durum Durum { get; set; }
         public virtual ICollection<Eposta> Epostalar { get; set; }             
         public virtual ICollection<Telefon> KisiTelefonlar { get; set; }
