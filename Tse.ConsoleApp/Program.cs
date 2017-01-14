@@ -12,14 +12,21 @@
         {
             using (TseWebContext context = new TseWebContext())
             {
-                List<Kisi> kisiler = context.Kisiler.ToList();
+                //Firma Listele
+                Console.WriteLine("Firma Listesi");
+                Console.WriteLine("======================================================");
+                List<Firma> firmalar = context.Firmalar.ToList();
 
-                Console.WriteLine("Kişiler\n=============================================================================================================");
-
-                foreach (var kisi in kisiler)
+                foreach (var firma in firmalar)
                 {
-                    Console.WriteLine($"{kisi.KisiId} | {kisi.Adi} {kisi.Soyadi} |");
-                }                
+                    Console.WriteLine($"{firma.FirmaId} | {firma.TicaretUnvani} | {firma.Durum.DurumAdi}");
+
+                    foreach (var telefon in firma.FirmaTelefonlar)
+                    {
+                        Console.WriteLine($"{telefon.TelefonId} | {telefon.TelefonTipi.Adi} | {telefon.TelefonNo} | {telefon.DahiliNo}");
+                    }
+
+                }
 
                 Console.ReadKey();
             }                                                      

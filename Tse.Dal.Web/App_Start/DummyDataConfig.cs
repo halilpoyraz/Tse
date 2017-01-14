@@ -9628,8 +9628,10 @@
                     DurumId                 = 1
                 }
             });
-            #endregion            
-           
+            #endregion
+
+            context.SaveChanges();
+
             #region // Kisi
             context.Kisiler.AddRange(new List<Kisi> {
                 new Kisi
@@ -9776,7 +9778,14 @@
                             TelefonNo = "02164257262",
                             VarsayilanTelefon = true,
                             DurumId = 1
-                        }
+                        },
+                        new Telefon
+                        {
+                            TelefonTipiId = 156,
+                            TelefonNo = "021632151651",
+                            VarsayilanTelefon = true,
+                            DurumId = 1
+                        },
                     },
                     FirmaVergiBilgileri = new List<VergiBilgi>
                     {
@@ -9802,7 +9811,7 @@
                             DurumId = 1
                         }
                     },
-                    /*
+
                     FirmaAdresleri = new List<Adres>
                     {
                         new Adres
@@ -9826,7 +9835,6 @@
                             DurumId             = 1
                         }
                     }
-                    */
                 },
                 new Firma
                 {
@@ -9860,7 +9868,6 @@
                             DurumId = 1
                         }
                     },
-                    /*
                     FirmaAdresleri = new List<Adres>
                     {
                         new Adres
@@ -9874,7 +9881,6 @@
                             DurumId             = 1
                         }
                     }
-                    */
                 }
             });
             #endregion
