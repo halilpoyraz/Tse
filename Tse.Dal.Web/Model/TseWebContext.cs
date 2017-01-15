@@ -28,8 +28,9 @@ namespace Tse.Dal.Web.Model
         public virtual DbSet<ParaBirimi> ParaBirimleri { get; set; }
         public virtual DbSet<Sehir> Sehirler { get; set; }
         public virtual DbSet<Standart> Standartlar { get; set; }        
+        public virtual DbSet<StandartAciklama> StandartAciklamalar { get; set; }
+        public virtual DbSet<StandartIcerik> StandartIcerikler { get; set; }
         public virtual DbSet<Ulke> Ulkeler { get; set; }
-
 
 
         //Methods
@@ -49,7 +50,9 @@ namespace Tse.Dal.Web.Model
             modelBuilder.Entity<Kisi>().ToTable("Kisi.Kisi");
             modelBuilder.Entity<ParaBirimi>().ToTable("Tanimlama.ParaBirimi");
             modelBuilder.Entity<Sehir>().ToTable("Tanimlama.Sehir");
-            modelBuilder.Entity<Standart>().ToTable("Standart.Standart");            
+            modelBuilder.Entity<Standart>().ToTable("Standart.Standart");
+            modelBuilder.Entity<StandartAciklama>().ToTable("Standart.StandartAciklama");
+            modelBuilder.Entity<StandartIcerik>().ToTable("Standart.StandartIcerik");
             modelBuilder.Entity<Telefon>().ToTable("Kisi.Telefon");
             modelBuilder.Entity<Ulke>().ToTable("Tanimlama.Ulke");
             modelBuilder.Entity<VergiBilgi>().ToTable("Kisi.VergiBilgi");
@@ -61,6 +64,7 @@ namespace Tse.Dal.Web.Model
             modelBuilder.Entity<Deger>().HasMany(e => e.StandartTurleri).WithRequired(e => e.StandartTur).WillCascadeOnDelete(false);
             modelBuilder.Entity<Deger>().HasMany(e => e.Telefonlar).WithRequired(e => e.TelefonTipi).WillCascadeOnDelete(false);
             modelBuilder.Entity<Deger>().HasMany(e => e.YururlukDurumlari).WithRequired(e => e.YururlukDurumu).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Deger>().HasMany(e => e.StandartIcerikTipleri).WithRequired(e => e.StandartIcerikTipi).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Durum>().HasMany(e => e.Adresler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.Degerler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
@@ -71,9 +75,11 @@ namespace Tse.Dal.Web.Model
             modelBuilder.Entity<Durum>().HasMany(e => e.Kisiler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.ParaBirimleri).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.Sehirler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
-            modelBuilder.Entity<Durum>().HasMany(e => e.Standartlar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);            
+            modelBuilder.Entity<Durum>().HasMany(e => e.Standartlar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Durum>().HasMany(e => e.StandartAciklamalar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Durum>().HasMany(e => e.StandartIcerikler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.Telefonlar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
-            modelBuilder.Entity<Durum>().HasMany(e => e.Ulkeler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);            
+            modelBuilder.Entity<Durum>().HasMany(e => e.Ulkeler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.VergiBilgileri).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Firma>().HasMany(e => e.FirmaTelefonlar).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
@@ -97,6 +103,8 @@ namespace Tse.Dal.Web.Model
 
             modelBuilder.Entity<Ulke>().HasMany(e => e.Adresler).WithRequired(e => e.Ulke).WillCascadeOnDelete(false);
             modelBuilder.Entity<Ulke>().HasMany(e => e.Sehirler).WithRequired(e => e.Ulke).WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Standart>().HasMany(e => e.StandartIcerikler).WithRequired(e => e.Standart).WillCascadeOnDelete(false);            
         }
 
     }   

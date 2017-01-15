@@ -1,6 +1,7 @@
 ﻿namespace Tse.Dal.Web.Model
 {
     using System;
+    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
@@ -87,6 +88,9 @@
         [Display(Name ="Para Birimi")]
         public int ParaBirimiId { get; set; }
 
+        [Display(Name ="Standart Açıklama")]
+        public int StandartAciklamaId { get; set; }
+
         [Display(Name ="Durum")]
         public int DurumId { get; set; }
 
@@ -107,8 +111,16 @@
         public virtual ParaBirimi ParaBirimi { get; set; }
 
         public virtual Durum Durum { get; set; }
+        
+        public virtual StandartAciklama StandartAciklama { get; set; }
+
+        public virtual ICollection<StandartIcerik> StandartIcerikler { get; set; }
+
 
 
         // Methods
+
+
+
     }
 }

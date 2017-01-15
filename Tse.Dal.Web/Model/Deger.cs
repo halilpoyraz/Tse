@@ -30,12 +30,13 @@
         //Navigation Properties
         public virtual Durum Durum { get; set; }
         public virtual Kategori Kategori { get; set; }
+        public virtual ICollection<Adres> AdresTipleri { get; set; }
         public virtual ICollection<Standart> DokumanTipleri { get; set; }
         public virtual ICollection<Standart> HazirlikGruplari { get; set; }
         public virtual ICollection<Standart> YururlukDurumlari { get; set; }
         public virtual ICollection<Standart> StandartTurleri { get; set; }
+        public virtual ICollection<StandartIcerik> StandartIcerikTipleri { get; set; }
         public virtual ICollection<Telefon> Telefonlar { get; set; }
-        public virtual ICollection<Adres> AdresTipleri { get; set; }
 
 
         //Methods
