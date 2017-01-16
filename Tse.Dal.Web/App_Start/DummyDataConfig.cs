@@ -9574,94 +9574,95 @@
                 #region //DokumanTipi
                 new Kategori
                 {
+                    KategoriId = 1,
                     Adi = "DokumanTipi",
                     DurumId = 1,
                     Degerler = new List<Deger>
                     {
                         new Deger
                         {
-                            Adi = "Tanımsız",
+                            Deger1 = "Tanımsız",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Adapte Teklifi",
+                            Deger1 = "Adapte Teklifi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Dc",
+                            Deger1 = "Dc",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Kitap",
+                            Deger1 = "Kitap",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Konu Teklifi",
+                            Deger1 = "Konu Teklifi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Kriter",
+                            Deger1 = "Kriter",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Kriter İş Programında",
+                            Deger1 = "Kriter İş Programında",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Kriter Tasarısı",
+                            Deger1 = "Kriter Tasarısı",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Kriter Teklifi",
+                            Deger1 = "Kriter Teklifi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "ST",
+                            Deger1 = "ST",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TD*GD",
+                            Deger1 = "TD*GD",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TR*TS",
+                            Deger1 = "TR*TS",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "UTO Rehber Doküman",
+                            Deger1 = "UTO Rehber Doküman",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "WI (İş Programında)",
+                            Deger1 = "WI (İş Programında)",
                             SiraNo = 0,
                             DurumId = 1
-                        },                        
+                        },
                     }
                 },
                 #endregion
@@ -9669,775 +9670,776 @@
                 #region //HazirlikGrubu
                 new Kategori
                 {
+                    KategoriId = 2,
                     Adi = "HazirlikGrubu",
                     DurumId = 1,
                     Degerler = new List<Deger>
                     {
                         new Deger
                         {
-                            Adi = "Tanımsız",
+                            Deger1 = "Tanımsız",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Akreditasyon ve Belgelendirme Özel Daimi Komitesi",
+                            Deger1 = "Akreditasyon ve Belgelendirme Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Alıcı Ortam Özel Daimi Komitesi",
+                            Deger1 = "Alıcı Ortam Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Ambalaj Özel Daimi Komitesi ÖDK",
+                            Deger1 = "Ambalaj Özel Daimi Komitesi ÖDK",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Ambalaj ve Kırtasiye Özel Daimi Komitesi",
+                            Deger1 = "Ambalaj ve Kırtasiye Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Atıklar Özel Daimi Komitesi",
+                            Deger1 = "Atıklar Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Aydınlatma ve İç Tesisat Özel Daimi Komitesi",
+                            Deger1 = "Aydınlatma ve İç Tesisat Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Aydınlatma ve Kablo Özel Daimi Komitesi",
+                            Deger1 = "Aydınlatma ve Kablo Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Basınçlı Kaplar Özel Daimi Komitesi",
+                            Deger1 = "Basınçlı Kaplar Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Bilgi Teknolojileri ve İletişim İhtisas Grubu",
+                            Deger1 = "Bilgi Teknolojileri ve İletişim İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Bilişim Teknolojileri Test Belgelendirme Sektörü",
+                            Deger1 = "Bilişim Teknolojileri Test Belgelendirme Sektörü",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Cam Seramik ve Refrakter Malzeme Özel Daimi Komitesi",
+                            Deger1 = "Cam Seramik ve Refrakter Malzeme Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Çevre İhtisas Grubu",
+                            Deger1 = "Çevre İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Çevre Sağlığı Özel Daimi Komitesi",
+                            Deger1 = "Çevre Sağlığı Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Çevre Sağlığı ve Atıklar Özel Daimi Komitesi",
+                            Deger1 = "Çevre Sağlığı ve Atıklar Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Demiryolu Özel Daimi Komitesi",
+                            Deger1 = "Demiryolu Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Deprem Özel Daimi Komitesi",
+                            Deger1 = "Deprem Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Doğal Gaz Özel Daimi Komitesi",
+                            Deger1 = "Doğal Gaz Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Doküman Tercüme Komitesi",
+                            Deger1 = "Doküman Tercüme Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Ekoloji Tarım Ürünleri Özel Daimi Komitesi",
+                            Deger1 = "Ekoloji Tarım Ürünleri Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Elektrik İhtisas Grubu",
+                            Deger1 = "Elektrik İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Elektronik İhtisas Grubu",
+                            Deger1 = "Elektronik İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Elektroteknik Güvenlik Özel Daimi Komitesi",
+                            Deger1 = "Elektroteknik Güvenlik Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Elektroteknik Güvenlik ve Aydınlatma  Özel Daimi Komitesi",
+                            Deger1 = "Elektroteknik Güvenlik ve Aydınlatma  Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Elektroteknik Sektörü Müdürlüğü",
+                            Deger1 = "Elektroteknik Sektörü Müdürlüğü",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "EMU ve Radyo-TV Özel Daimi Komitesi",
+                            Deger1 = "EMU ve Radyo-TV Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Endüstriyel Yağlar Özel Daimi Komitesi",
+                            Deger1 = "Endüstriyel Yağlar Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Gıda Sektörü Müdürlüğü",
+                            Deger1 = "Gıda Sektörü Müdürlüğü",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Helal Gıda Sektör Müdürlüğü",
+                            Deger1 = "Helal Gıda Sektör Müdürlüğü",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Hizmet Standardları İhtisas Grubu",
+                            Deger1 = "Hizmet Standardları İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Hizmet Yeri Belgelendirme Sektör Müdürlüğü",
+                            Deger1 = "Hizmet Yeri Belgelendirme Sektör Müdürlüğü",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Isı Özel Daimi Komitesi",
+                            Deger1 = "Isı Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "İnşaat İhtisas Grubu",
+                            Deger1 = "İnşaat İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "İnşaat Makinaları Özel Daimi Komitesi",
+                            Deger1 = "İnşaat Makinaları Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Kablo Özel Daimi Komitesi",
+                            Deger1 = "Kablo Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Kapatılan Hazırlık Grupları",
+                            Deger1 = "Kapatılan Hazırlık Grupları",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Kapatılan ve Birleştirilen Özel Daimi Komiteler",
+                            Deger1 = "Kapatılan ve Birleştirilen Özel Daimi Komiteler",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Kırtasiye Malzemeleri ve Formlar Özel Daimi Komitesi",
+                            Deger1 = "Kırtasiye Malzemeleri ve Formlar Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Kimya İhtisas Grubu",
+                            Deger1 = "Kimya İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Kimya Sektör Müdürlüğü",
+                            Deger1 = "Kimya Sektör Müdürlüğü",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Laboratuvarlar Hazırlık Grubu",
+                            Deger1 = "Laboratuvarlar Hazırlık Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Maden İhtisas Grubu",
+                            Deger1 = "Maden İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Makina İhtisas Grubu",
+                            Deger1 = "Makina İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Makine Sektörü Müdürlüğü",
+                            Deger1 = "Makine Sektörü Müdürlüğü",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Mamul Gıdalar İhtisas Grubu",
+                            Deger1 = "Mamul Gıdalar İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Meslek Standardları İhtisas Grubu",
+                            Deger1 = "Meslek Standardları İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Metalurji İhtisas Grubu",
+                            Deger1 = "Metalurji İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Milletlerarası Standardlar Özel Daimi Komitesi",
+                            Deger1 = "Milletlerarası Standardlar Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Milli Savunma Sanayii İhtisas Grubu",
+                            Deger1 = "Milli Savunma Sanayii İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Mühendislik Hizmetleri İhtisas Grubu",
+                            Deger1 = "Mühendislik Hizmetleri İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "NBC ve KİS Özel Daimi Komitesi",
+                            Deger1 = "NBC ve KİS Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Nükleer Özel Daimi Komitesi",
+                            Deger1 = "Nükleer Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Optik ve Optometri Özel Daimi Komitesi",
+                            Deger1 = "Optik ve Optometri Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Orman ve Orman Ürünleri İhtisas Grubu",
+                            Deger1 = "Orman ve Orman Ürünleri İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Otomotiv Özel Daimi Komitesi",
+                            Deger1 = "Otomotiv Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Otomotiv Sektör Müdürlüğü",
+                            Deger1 = "Otomotiv Sektör Müdürlüğü",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Otomotiv ve İnşaat Makinaları Özel Daimi Komitesi",
+                            Deger1 = "Otomotiv ve İnşaat Makinaları Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Özel Standardlar Hazırlık Grubu",
+                            Deger1 = "Özel Standardlar Hazırlık Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Petrokimya İhtisas Grubu",
+                            Deger1 = "Petrokimya İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Petrol İhtisas Grubu",
+                            Deger1 = "Petrol İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Plâstik Borular Özel Daimi Komitesi",
+                            Deger1 = "Plâstik Borular Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Radyo-TV Özel Daimi Komitesi",
+                            Deger1 = "Radyo-TV Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Rezerv konular grubu",
+                            Deger1 = "Rezerv konular grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Sağlık İhtisas Grubu",
+                            Deger1 = "Sağlık İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Standard Özel Daimi Komitesi",
+                            Deger1 = "Standard Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Şehiriçi Yollar Özel Daimi Komitesi",
+                            Deger1 = "Şehiriçi Yollar Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Tahribatsız Muayene Özel Daimi Komitesi",
+                            Deger1 = "Tahribatsız Muayene Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Tarım Alet ve Makinaları Özel Daimi Komitesi",
+                            Deger1 = "Tarım Alet ve Makinaları Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Teknik Kurul",
+                            Deger1 = "Teknik Kurul",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Tekstil İhtisas Grubu",
+                            Deger1 = "Tekstil İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Telekomünikasyon Özel Daimi Komitesi",
+                            Deger1 = "Telekomünikasyon Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Tesisat ve Basınçlı Kaplar Özel Daimi Komitesi",
+                            Deger1 = "Tesisat ve Basınçlı Kaplar Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Tıbbi Cihazlar Özel Daimi Komitesi",
+                            Deger1 = "Tıbbi Cihazlar Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK1: Bilişim Teknolojileri Teknik Komitesi",
+                            Deger1 = "TK1: Bilişim Teknolojileri Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK10: Yapı Malzemeleri Teknik Komitesi",
+                            Deger1 = "TK10: Yapı Malzemeleri Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK11:İzolasyon, Kaplama ve Yardımcı Yapı Malzemeleri Teknik Komitesi",
+                            Deger1 = "TK11:İzolasyon, Kaplama ve Yardımcı Yapı Malzemeleri Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK12: Yapı Güvenliği ve Akustik Teknik Komitesi",
+                            Deger1 = "TK12: Yapı Güvenliği ve Akustik Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK13: Yapı Güvenliği Teknik Komitesi",
+                            Deger1 = "TK13: Yapı Güvenliği Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK14: Kimya Teknik Komitesi",
+                            Deger1 = "TK14: Kimya Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK15: Petrokimya Teknik Komitesi",
+                            Deger1 = "TK15: Petrokimya Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK16: Petrol ve Petrol Ürünleri Teknik Komitesi",
+                            Deger1 = "TK16: Petrol ve Petrol Ürünleri Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK17: Maden Teknik Komitesi",
+                            Deger1 = "TK17: Maden Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK18: İmalat Makineleri ve Takımları Teknik Komitesi",
+                            Deger1 = "TK18: İmalat Makineleri ve Takımları Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK19: Otomotiv Teknik Komitesi",
+                            Deger1 = "TK19: Otomotiv Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK2: Çevre Teknik Komitesi",
+                            Deger1 = "TK2: Çevre Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK20: Makine Güvenliği Teknik Komitesi",
+                            Deger1 = "TK20: Makine Güvenliği Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK21: Tesisat, Isıtma, Soğutma ve Havalandırma Teknik Komitesi",
+                            Deger1 = "TK21: Tesisat, Isıtma, Soğutma ve Havalandırma Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK22: Tesisat ve Basınçlı Kaplar Teknik Komitesi",
+                            Deger1 = "TK22: Tesisat ve Basınçlı Kaplar Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK23: Metalürji Teknik Komitesi",
+                            Deger1 = "TK23: Metalürji Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK24: Gıda Teknik Komitesi",
+                            Deger1 = "TK24: Gıda Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK25: Ziraat Teknik Komitesi",
+                            Deger1 = "TK25: Ziraat Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK26: Kişisel Koruyucu ve Oyun Alanı Donanım Teknik Komitesi",
+                            Deger1 = "TK26: Kişisel Koruyucu ve Oyun Alanı Donanım Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK27: Yangın Teknik Komitesi",
+                            Deger1 = "TK27: Yangın Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK28: Ambalaj Teknik Komitesi",
+                            Deger1 = "TK28: Ambalaj Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK29: Yönetim Sistemleri Teknik Komitesi",
+                            Deger1 = "TK29: Yönetim Sistemleri Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK3: Elektrik Elektroteknik ve Güvenlik Teknik Komitesi",
+                            Deger1 = "TK3: Elektrik Elektroteknik ve Güvenlik Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK30: Enerji ve Enerji Sistemleri Teknik Komitesi",
+                            Deger1 = "TK30: Enerji ve Enerji Sistemleri Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK31: Orman ve Orman Ürünleri Teknik Komitesi",
+                            Deger1 = "TK31: Orman ve Orman Ürünleri Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK32: Sağlık Teknik Komitesi",
+                            Deger1 = "TK32: Sağlık Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK33: Medikal Teknik Komitesi",
+                            Deger1 = "TK33: Medikal Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK34: Tekstil Teknik Komitesi",
+                            Deger1 = "TK34: Tekstil Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK35: Elektrik ve Elektronik Yetkili Servisleri Teknik Komitesi",
+                            Deger1 = "TK35: Elektrik ve Elektronik Yetkili Servisleri Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK36: Milli Savunma Teknik Komitesi",
+                            Deger1 = "TK36: Milli Savunma Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK37: Helal Teknik Komitesi",
+                            Deger1 = "TK37: Helal Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK38: Sosyal Hizmetler Teknik Komitesi",
+                            Deger1 = "TK38: Sosyal Hizmetler Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK39: Mekanik ve Elektromekanik Yetkili Servisleri Teknik Komitesi",
+                            Deger1 = "TK39: Mekanik ve Elektromekanik Yetkili Servisleri Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK4: Elektrik Üretim,İletim Ve Dağıtım Teknik Komitesi",
+                            Deger1 = "TK4: Elektrik Üretim,İletim Ve Dağıtım Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK40: Demiryolu Teknik Komitesi",
+                            Deger1 = "TK40: Demiryolu Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK41: Uzay ve Havacılık Teknik Komitesi",
+                            Deger1 = "TK41: Uzay ve Havacılık Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK42: Nükleer Teknik Komitesi",
+                            Deger1 = "TK42: Nükleer Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK43: Tercüme-1 Teknik Komitesi",
+                            Deger1 = "TK43: Tercüme-1 Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK44: Tercüme-2 Teknik Komitesi",
+                            Deger1 = "TK44: Tercüme-2 Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK45: İş Sağlığı ve Güvenliği Teknik Komitesi",
+                            Deger1 = "TK45: İş Sağlığı ve Güvenliği Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK46: Süs Bitkileri",
+                            Deger1 = "TK46: Süs Bitkileri",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK5: Aydınlatma ve Bina İçi Tesisleri İle Yardımcı Donanımları Teknik Komitesi",
+                            Deger1 = "TK5: Aydınlatma ve Bina İçi Tesisleri İle Yardımcı Donanımları Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK6: İletkenler, Kablolar Ve Yalıtım Malzemeleri Teknik Komitesi",
+                            Deger1 = "TK6: İletkenler, Kablolar Ve Yalıtım Malzemeleri Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK7: Yüksek Gerilim Teknikleri ve Yıldırımdan Korunma Sistemleri Teknik Komitesi",
+                            Deger1 = "TK7: Yüksek Gerilim Teknikleri ve Yıldırımdan Korunma Sistemleri Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK8: Elektronik Teknik Komitesi",
+                            Deger1 = "TK8: Elektronik Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TK9: Sanayi Hizmetleri Teknik Komitesi",
+                            Deger1 = "TK9: Sanayi Hizmetleri Teknik Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TSEK Özel Daimi Komitesi",
+                            Deger1 = "TSEK Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "TSE-Yapılarda Tahribatsız Muayene Özel Daimi Komitesi",
+                            Deger1 = "TSE-Yapılarda Tahribatsız Muayene Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Ulusal Teknik Onay Esas Belirleme Komisyonu",
+                            Deger1 = "Ulusal Teknik Onay Esas Belirleme Komisyonu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Yangın Özel Daimi Komitesi",
+                            Deger1 = "Yangın Özel Daimi Komitesi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Yapı Malzemeleri ÖDK",
+                            Deger1 = "Yapı Malzemeleri ÖDK",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Yapı malzemeleri sektörü",
+                            Deger1 = "Yapı malzemeleri sektörü",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Yetkili Servis Standardları İhtisas Grubu",
+                            Deger1 = "Yetkili Servis Standardları İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Yönetim Sistemleri Geliştirme Sektörü",
+                            Deger1 = "Yönetim Sistemleri Geliştirme Sektörü",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Ziraat İhtisas Grubu",
+                            Deger1 = "Ziraat İhtisas Grubu",
                             SiraNo = 0,
                             DurumId = 1
                         }
@@ -10448,55 +10450,56 @@
                 #region //YururlukDurumu
                 new Kategori
                 {
+                    KategoriId = 3,
                     Adi = "YururlukDurumu",
                     DurumId = 1,
                     Degerler = new List<Deger>
                     {
                         new Deger
                         {
-                            Adi = "Tanımsız",
+                            Deger1 = "Tanımsız",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "A (Tadil Görmüş Standard/Amended standard)",
+                            Deger1 = "A (Tadil Görmüş Standard/Amended standard)",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "H (İptal Edilmiş Standard/Withdrawn standard)",
+                            Deger1 = "H (İptal Edilmiş Standard/Withdrawn standard)",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "N (Yeni Standard/New standard)",
+                            Deger1 = "N (Yeni Standard/New standard)",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "U (Yürürlükteki Standard/Standard)",
+                            Deger1 = "U (Yürürlükteki Standard/Standard)",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "W (Yeni İptal Edilen Standard/Withdrawn standard)",
+                            Deger1 = "W (Yeni İptal Edilen Standard/Withdrawn standard)",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "A veya N veya U",
+                            Deger1 = "A veya N veya U",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "H veya W",
+                            Deger1 = "H veya W",
                             SiraNo = 0,
                             DurumId = 1
                         }
@@ -10507,83 +10510,86 @@
                 #region //StandartTur
                 new Kategori
                 {
+                    KategoriId = 4,
                     Adi = "StandartTur",
                     DurumId = 1,
                     Degerler = new List<Deger>
                     {
                         new Deger
                         {
-                            Adi = "Tanımsız",
+                            Deger1 = "Tanımsız",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Kural",
+                            Deger1 = "Kural",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Metot",
+                            Deger1 = "Metot",
                             SiraNo = 0,
                             DurumId = 1
-                        }                        
+                        }
                     }
                 },
                 #endregion
 
                 #region //TelefonTipi
                 new Kategori
-                {                    
+                {
+                    KategoriId = 5,
                     Adi = "TelefonTipi",
                     DurumId = 1,
                     Degerler = new List<Deger>
                     {
                         new Deger
                         {
-                            Adi = "Cep Telefonu",
+                            Deger1 = "Cep Telefonu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Ev Telefonu",
+                            Deger1 = "Ev Telefonu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "İş Telefonu",
+                            Deger1 = "İş Telefonu",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Fax",
+                            Deger1 = "Fax",
                             SiraNo = 0,
                             DurumId = 1
                         }
-                    }                    
+                    }
                 },
                 #endregion
 
                 #region //AdresTipi
                 new Kategori
                 {
+                    KategoriId = 6,
                     Adi = "AdresTipi",
                     DurumId = 1,
                     Degerler = new List<Deger>
                     {
                         new Deger
                         {
-                            Adi = "Ev Adresi",
+                            Deger1 = "Ev Adresi",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "İş Adresi",
+                            Deger1 = "İş Adresi",
                             SiraNo = 0,
                             DurumId = 1
                         }
@@ -10591,34 +10597,177 @@
                 },
                 #endregion
 
-                #region //MaddeTipi
+                #region //StandartIcerikTipi
                 new Kategori
                 {
+                    KategoriId = 7,
                     Adi = "StandartIcerikTipi",
                     DurumId = 1,
                     Degerler = new List<Deger>
                     {
                         new Deger
                         {
-                            Adi = "Atıf Yapılan",
+                            Deger1 = "Tablo - Atıf Yapılan",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Denetim",
+                            Deger1 = "Denetim",
                             SiraNo = 0,
                             DurumId = 1
                         },
                         new Deger
                         {
-                            Adi = "Metin",
+                            Deger1 = "Metin",
                             SiraNo = 0,
                             DurumId = 1
                         }
-
                     }
+                },
+                #endregion
 
+                #region //AtifYapilanStandartTipi
+                new Kategori
+                {
+                    KategoriId = 8,
+                    Adi = "AtifYapilanStandartTipi",
+                    DurumId = 1,
+                    Degerler = new List<Deger>
+                    {
+                        new Deger
+                        {
+                            Deger1 = "ISO/IEC 15489-1",
+                            Deger2 = "Information and documentation – Records management – Part 1: General",
+                            Deger3 = "TS ISO 15489-1",
+                            Deger4 = "Bilgi ve dokümantasyon - Belge yönetimi Bölüm 1: Genel",
+                            DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "ISO/IEC 15489-2",
+                             Deger2 = "Information and documentation – Records management – Part 2:Guidelines",
+                             Deger3 = "TS ISO/TR 15489-2",
+                             Deger4 = "Bilgi ve dokümantasyon - Belge yönetimi - Bölüm 2: Kılavuzlar",
+                             DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "ISO/IEC 27001",
+                             Deger2 = "Information technology - Security techniques - Information security management systems - Requirements",
+                             Deger3 = "TS ISO/IEC 27001",
+                             Deger4 = "Bilgi teknolojisi - Güvenlik teknikleri - Bilgi güvenliği yönetim sistemleri – Gereksinimler",
+                             DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "ISO 8601",
+                             Deger2 = "Data elements and interchange formats - Information interchange - Representation of dates and times",
+                             Deger3 = "TS ISO 8601",
+                             Deger4 = "Veri elemanları ve değişim formatları - Bilgi değişimi - Tarih ve zamanın gösterimi",
+                             DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "ISO/IEC 25051",
+                             Deger2 = "Software engineering – Software product Quality Requirements and Evaluation (SQuaRE) – Requirements for quality of Commercial Off - The - Shelf(COTS) software product and instructions for testing",
+                             Deger3 = "TS ISO/IEC 25051",
+                             Deger4 = "Yazılım mühendisliği - Yazılım ürünü kalite gereksinimleri ve değerlendirmesi(SQuaRE) – Ticari kullanıma hazır(COTS) yazılım ürünü kalitesi için gereksinimler ve test yönergeleri",
+                             DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "ISO/IEC 15408-1",
+                             Deger2 = "Information technology -Security techniques -Evaluation criteria for IT security - Part 1: Introduction and general model",
+                             Deger3 = "TS ISO/IEC 15408 - 1",
+                             Deger4 = "Bilgi teknolojisi - Güvenlik teknikleri - Bilgi teknolojisi güvenliği için değerlendirme kriterleri - Bölüm 1: Giriş ve genel model",
+                             DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "ISO/IEC 15408-2",
+                             Deger2 = "Information technology -Security techniques -Evaluation criteria for IT security - Part 2: Security functional requirements",
+                             Deger3 = "TS ISO/IEC 15408 - 2",
+                             Deger4 = "Bilgi teknolojisi - Güvenlik teknikleri - Bilgi teknolojisi güvenliği için değerlendirme kriterleri - Bölüm 2:Güvenlik fonksiyonel bileşenleri",
+                             DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "ISO/IEC 15408-3",
+                             Deger2 = "Information technology -Security techniques -Evaluation criteria for IT security - Part 3: Security assurance requirements",
+                             Deger3 = "TS ISO/IEC 15408-3",
+                             Deger4 = "Bilgi teknolojisi - Güvenlik teknikleri - Bilgi teknolojisi güvenliği için değerlendirme kriterleri - Bölüm 3:Güvenlik garanti bileşenleri",
+                             DurumId = 1,
+                        }
+                    }
+                },
+                #endregion
+
+                #region //AtifYapilanDokumanTipi
+                new Kategori
+                {
+                    KategoriId = 9,
+                    Adi = "AtifYapilanDokumanTipi",
+                    DurumId = 1,
+                    Degerler = new List<Deger>
+                    {
+                        new Deger
+                        {
+                             Deger1 = "e-Yazışma Teknik Rehberi",
+                             Deger2 = "T.C. Kalkınma Bakanlığı Bilgi Toplumu Daire Başkanlığı",
+                             Deger3 = "28 Temmuz 2006 tarihli ve 26242 sayılı Resmi Gazetede yayımlanan 2006/38 sayılı Yüksek Planlama Kurulu Kararı ile uygulamaya konan Bilgi Toplumu Stratejisi eki Eylem Planı’nda yer verilen 73 no’lu 'Ortak Hizmetlerin Oluşturulması' eylemi kapsamında geliştirilmiştir.",
+                             DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "Kayıtlı Elektronik Posta e-Yazışma Projesi İstemci Kütüphaneleri Geliştirici Kılavuzu",
+                             Deger2 = "Bilgi Teknolojileri ve İletişim Kurumu (BTK)",
+                             Deger3 = "Kayıtlı Elektronik Posta Sistemine İlişkin Usul ve Esaslar Hakkında Yönetmelik, 25 Ağustos 2011 tarih ve 28036 sayılı Resmi Gazete",
+                             DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "Elektronik Doküman ve Belge Yönetim Sistemi TSE-CCCS-PP-003 Koruma Profili",
+                             Deger2 = "Türk Standardları Enstitüsü (TSE)",
+                             Deger3 = "2013/4890 sayılı Bakanlar Kurulu Kararı doğrultusunda yayımlanan 20 Haziran 2013 tarihli ve 28683 sayılı Resmi Gazetede yayımlanarak yürürlüğe giren Ulusal Siber Güvenlik Stratejisi ve Eylem Planı Madde 12.",
+                             DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "Temel Seviye Güvenlik Belgelendirme Kılavuzu",
+                             Deger2 = "Türk Standardları Enstitüsü (TSE)",
+                             Deger3 = "2013/4890 sayılı Bakanlar Kurulu Kararı doğrultusunda yayımlanan 20 Haziran 2013 tarihli ve 28683 sayılı Resmi Gazetede yayımlanarak yürürlüğe giren Ulusal Siber Güvenlik Stratejisi ve Eylem Planı Madde 12.",
+                             DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "Birlikte Çalışabilirlik Esasları Rehberi",
+                             Deger2 = "T.C. Kalkınma Bakanlığı Bilgi Toplumu Daire Başkanlığı",
+                             Deger3 = "2009/4 Sayılı Başbakanlık Genelgesi, Kamu Bilgi Sistemlerinde Birlikte Çalışabilirlik Esasları, 28 Şubat 2009 tarihli ve 27155 sayılı Resmi Gazete",
+                             DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "Resmi Yazışma Kuralları",
+                             Deger2 = "Başbakanlık İdareyi Geliştirme Başkanlığı",
+                             Deger3 = "Resmî Yazışmalarda Uygulanacak Usul Ve Esaslar Hakkında Yönetmelik, 2 Şubat 2015 tarih ve 25658 Sayılı Resmi Gazete",
+                             DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "Standart Dosya Planı",
+                             Deger2 = "Başbakanlık Devlet Arşivleri Genel Müdürlüğü",
+                             Deger3 = "2005/7 Sayılı Başbakanlık Genelgesi, 25 Mart 2005 tarih ve 25766 sayılı Resmi Gazete",
+                             DurumId = 1,
+                        },
+                        new Deger
+                        {
+                             Deger1 = "Devlet Teşkilatı VeriTabanı",
+                             Deger2 = "Başbakanlık İdareyi Geliştirme Başkanlığı",
+                             Deger3 = "2011/1 Sayılı Başbakanlık Genelgesi, 10 Şubat2011 tarih ve 27842 sayılı Resmi Gazete",
+                             DurumId = 1,
+                        }
+                    }
                 }
                 #endregion
             });            
@@ -10656,10 +10805,8 @@
                     YeriniAldigi = "TS 13298 :2009",
                     TadilEden = "TS 13298/T1 :2016",
                     YararlanilanKaynak = "-",
-                    UluslararasiKarsiliklar = "13298-EQV",
                     TercumeEdildigiStd = "13298",
                     IcsKodu = "01.140.20 Enformasyon Bilimleri; 35.240.20 Büro İşlemlerinde Enformasyon Teknolojisi Uygulamaları; 01.110 Teknik Ürün Dökümantasyonu",
-                    AtifYapilanStd = "TS ISO 15489-1 :2007;  TSE ISO/TR 15489-2 :2007;  TS ISO/IEC 27001 :2014;  TS ISO 8601 :2010;  TS ISO/IEC 15408-1 :2014;  TS ISO/IEC 15408-2 :2009;  TS ISO/IEC 15408-3 :2013;  TS ISO/IEC 25051 :2011;",
                     CenCenelec = "-",
                     Dili = "tr",
                     RenkDurumu = "Siyah-Beyaz",
@@ -10668,7 +10815,7 @@
                     Fiyati = 71.00M,
                     ParaBirimiId = 1,
                     StandartAciklamaId = 1,
-                    DurumId = 1
+                    DurumId = 1,                    
                 }
             });
             #endregion
@@ -10697,7 +10844,7 @@
                     IcerikNo = "0",
                     Baslik = "Giriş",
                     Detay = @"<p>Bu standard, TS 13298:2009 Elektronik Belge Yönetimi standardının güncel ihtiyaçlara göre yeniden düzenlenmiş halini içermektedir. Standard bir önceki revizyonuna ilave olarak kurumlar arası belge paylaşımı, kayıtlı elektronik postaların yönetimi, elektronik yazışma paketi ve elektronik arşivlerin yönetimi başta olmak üzere bazı yenilikler getirmektedir.</p><p>Kurumların faaliyetlerini kayıt altına alması ve bu bilgileri paydaşları ile paylaşması kurumsal faaliyetlerin ayrılmaz bir parçasıdır. Herkesin, her zaman, her yerden kolaylıkla ulaşabileceği şeffaf, verimli ve sade bir kurum yapısı günümüzde modern ve demokratik kurumların temel hedefi haline gelmiştir. Bilgi ve iletişim teknolojilerindeki gelişmeler bu hedefi gerçekleştirecek olgunluğa ulaşmıştır ve her geçen gün daha da gelişmektedir. Son yıllarda sıkça duyduğumuz e-ticaret ve e-devlet gibi kavramlar bu gelişmelerin bir sonucudur. E-kurum yapısının temelini ise elektronik bilgi sistemleri oluşturmaktadır.</p><p>Kurumlarca üretilen bilgi ve belgelerin verimliliğinin arttırılması için ortak standard ve politikaların belirlenmesi göz ardı edilemez bir gereksinimdir. Böyle bir çalışma kullanımı kolay, erişimi hızlı, güvenilir, ucuz, sürekli ve sağlam 'elektronik kurum' yapısının oluşumuna katkı sağlayarak genelde 'e-toplum'a geçiş sürecini hızlandıracaktır.</p><p>E-kurum faaliyetleri sonucu oluşan elektronik dokümanların belge vasfının korunması, onların üretim aşamasında ve hatta üretim öncesinde elektronik bilgi sistemleri tasarımı aşamasında ele alınmalarını gerekli kılmaktadır. Belge kavramının sistem tasarımcıları ve kullanıcılar tarafından iyi algılanması ve belge yönetimi gereksinimlerinin uygulanması gerekmektedir.</p><p>Elektronik belge yönetimi son derece geniş ve karmaşık bir alandır. Bu alan bir sistem yaklaşımı ile ele alınmalı ve sistemi oluşturan öğelerin birbiri ile uyumlu çalışması için gerekli önlemler alınmalıdır.</p><p>Sistemi oluşturan öğelerin başında Elektronik Belge Yönetim Sistemi (EBYS) yazılımı gelmektedir. Elektronik belgeyi yönetmeye talip her kurum bu konuda uzmanlaşmış bir yazılıma ihtiyaç duyacaktır. Bir EBYS yazılımı hiç şüphesiz kurum ERP yazılımlarının bir parçası olarak üretilebilir ya da kurum fonksiyonlarını elektronik ortamda yürütmek için kullanılan diğer yazılımlarla entegre çalışabilen bağımsız bir paket de olabilir. Bu standard bir EBYS yazılımında bulunması gereken asgari fonksiyonel özellikleri tanımlamaktadır.</p><p>Sistemi oluşturan bir diğer öğe kurumsal politika ve prosedürlerdir. Kurum bilgi ve belge yönetimi prosedürleri EBYS için bir girdi olarak düşünülebilir. Kurumsal belge yönetimi politika ve prosedürlerini henüz geliştirme aşamasında olan kurumlar, bu standardı bir referans kaynağı olarak kullanabilirler.</p><p>Standardın bu revizyonunda Elektronik Arşivleme Sistemi Referans Modelinin (ELAS/RM) adı altında yeni bir bölüm eklenmiştir. Bu bölüm:</p><ul><li>Elektronik belgelerin üretildikleri dönemdeki hukuki varlığının korunabilmesi,</li><li>Sürekli saklanacak elektronik belgelerin kesintisiz olarak erişilebilirliğinin sağlanması için gerekli tedbirlerin alınması,</li><li>Elektronik belgelerin üretildiği bilgi sistemi platformundan bağımsız olarak erişilebilir olması için gerekli sistem gereksinimlerini, elektronik arşivleme sistemleri uygulamalarında bulunması gerekli temel arşivcilik fonksiyonlarını ve elektronik arşivde yer alacak belgelerin sisteme transfer, düzenleme, tanımlama ve kullanımı gibi fonksiyonlara uygun üstveri modelini tanımlamaktır.</li><p>Bu standard, dört bölüm halinde tasarlanmıştır. Bu bölümler kendi içerisinde alt bölümlere ayrılmış ve bu alt bölümler altında da sistem gereksinimleri sıralanmıştır. Bu standard içinde yer alan bölümler şunlardır:</p><li>Sistem kriterleri: Sistem tasarımı ve elektronik belgelerin sisteme dâhil edilmesi için gerekli olan gereksinimlerin ele alındığı bölüm.</li><li>Belge kriterleri: Elektronik belge özellikleri, sayısal görüntüleme sistemleri ve fiziksel ortamdaki belgelerin yönetimi ve EBYS içerisine entegrasyonu gibi konuların ele alındığı bölüm.</li><li>Elektronik Arşivleme Sistemi Referans Modeli (ELAS/RM): Elektronik ortamda üretilmiş ya da sonradan elektronik ortama aktarılmış olan arşiv malzemesinin yönetimine yönelik kriterler bu bölümde tanımlanmıştır.</li><li>Üst veri elemanları: EBYS ve ELAS/RM’ye ait üst veri gereksinimleri bu bölümde tanımlanmıştır.</li><p>Sistem ve belge kriterleri ile elektronik arşivleme sistemi referans modeline ait düzenlemeler dört farklı şekilde kodlanmıştır. Her bir kriterin yanındaki kutucuklarda yer alan kodların açılımları şunlardır:</p><li>S/Z: İlgili maddenin seçmeli mi yoksa zorunlu mu olduğunu göstermek için kullanılmıştır.</li> <li>BA: Kriterin bilgi amaçlı olduğunu ifade eder. Genel olarak ürün veya kurum sertifikasyonunda kullanılmamakla birlikte sistemin geneli hakkında ya da ilgili olduğu bölüm ile ilgili teknik bilgi içermektedir.</li><li>KYS: Belge ve arşiv yönetim sistemini kullanan kurumlarda Kurum Yeterlilik Sertifikasyonu için aranacak şartlarla ilgili kriterlerdir. Sistem kurulumu öncesinde ya da esnasında yerine getirilmesi gereken şartları belirler. Ayrıca EBYS ürünü kullanacak kurumların KYS şartlarını sağlamaları ve akredite kurumlardan sertifika almaları gerekir.</li><li>ÜS: Ürün (EBYS yazılımları) sertifikasyonunda kullanılacak kriterleri tanımlar. Bu standarda uyumluluk belgesi alacak ürünlerin taşıması gereken asgari standartları belirler. Aynı ürün farklı ad ve markalar altında birden fazla sertifikalandırılamaz. Yetkili sertifikasyon kurumu, ürünler arasında bu türden bir benzerlik olduğuna karar verdiği durumlarda ürünlerin kaynak kodlarını değerlendirme amaçlı olarak talep edebilir.</li></ul>",
-                    UstIcerikId = 1,
+                    UstIcerikId = 0,
                     StandartIcerikTipiId = 162,
                     SiraNo = 2,
                     DurumId = 1
@@ -10713,6 +10860,149 @@
                     StandartIcerikTipiId = 162,
                     SiraNo = 3,
                     DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 4,
+                    StandartId = 1,
+                    IcerikNo = "2",
+                    Baslik = "Atıf yapılan standard ve/veya dokümanlar",
+                    Detay = @"Aşağıda verilen, atıf yapılan standardların hükümleri bu standardın hükümleri sayılır. Tarih belirtilen atıflarda, daha sonra yapılan tadil ve revizyonlar uygulanmaz. Bununla birlikte, bu standarda dayalı anlaşmalarda taraflara, aşağıda verilen standardların en yeni baskılarını uygulama imkânını araştırmaları önerilir. Tarih belirtilmeyen atıflarda, ilgili standardın en son baskısı kullanılır. Bütün standardların yürürlükte bulunan baskıları TSE’den temin edilebilir. (*) işaretli olanlar bu standardın basıldığı tarihte İngilizce metin olarak yayımlanmış Türk Standardlarıdır.",
+                    UstIcerikId = 0,
+                    StandartIcerikTipiId = 160,
+                    SiraNo = 4,
+                    DurumId = 1,
+                    StandartAtiflar = new List<StandartAtif>
+                    {
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 8,
+                            DegerId = 163,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 8,
+                            DegerId = 164,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 8,
+                            DegerId = 165,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 8,
+                            DegerId = 166,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 8,
+                            DegerId = 167,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 8,
+                            DegerId = 168,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 8,
+                            DegerId = 169,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 8,
+                            DegerId = 170,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 9,
+                            DegerId = 171,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 9,
+                            DegerId = 172,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 9,
+                            DegerId = 173,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 9,
+                            DegerId = 174,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 9,
+                            DegerId = 175,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 9,
+                            DegerId = 176,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 9,
+                            DegerId = 177,
+                            DurumId = 1
+                        },
+                        new StandartAtif
+                        {
+                            StandartId = 1,
+                            StandartIcerikId = 4,
+                            KategoriId = 9,
+                            DegerId = 178,
+                            DurumId = 1
+                        }
+                    }
                 },
             });
             #endregion

@@ -55,17 +55,11 @@
         [Display(Name ="Yararlanılan Kaynak")]
         public string YararlanilanKaynak { get; set; }
 
-        [Display(Name ="Uluslararası Karşılığı")]
-        public string UluslararasiKarsiliklar { get; set; }
-
         [Display(Name ="Tercüme Edildiği Standart")]
         public string TercumeEdildigiStd { get; set; }
 
         [Display(Name ="Ics Kodu")]
         public string IcsKodu { get; set; }
-
-        [Display(Name ="Atıf Yapılan Standart")]
-        public string AtifYapilanStd { get; set; }
 
         [Display(Name ="Cen Cenelec")]
         public string CenCenelec { get; set; }
@@ -116,6 +110,7 @@
 
         public virtual ICollection<StandartIcerik> StandartIcerikler { get; set; }
 
+        public virtual ICollection<StandartAtif> StandartAtiflar { get; set; }
 
 
         // Methods

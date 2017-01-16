@@ -64,6 +64,7 @@
     <Compile Include="Model\Kategori.cs" />
     <Compile Include="Model\Deger.cs" />
     <Compile Include="Model\StandartAciklama.cs" />
+    <Compile Include="Model\StandartAtif.cs" />
     <Compile Include="Model\StandartIcerik.cs" />
     <Compile Include="Model\Telefon.cs" />
     <Compile Include="Model\TseWebContext.cs" />

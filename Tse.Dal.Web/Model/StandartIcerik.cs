@@ -48,6 +48,12 @@
         [ForeignKey("StandartIcerikTipiId")]
         public virtual Deger StandartIcerikTipi { get; set; }
 
+        public virtual ICollection<StandartAtif> StandartAtiflar { get; set; }
+
+
+
         //Methods
+
+
     }
 }

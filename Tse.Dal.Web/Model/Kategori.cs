@@ -22,10 +22,13 @@
 
 
         //Navigation Properties
-        public virtual Durum Durum { get; set; }
         public virtual ICollection<Deger> Degerler { get; set; }
+        public virtual Durum Durum { get; set; }
+        public virtual ICollection<StandartAtif> StandartAtiflar { get; set; }
 
 
         //Methods
+
+
     }
 }
