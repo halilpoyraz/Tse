@@ -12,20 +12,38 @@
         {
             using (TseWebContext context = new TseWebContext())
             {
-                //Firma Listele
-                Console.WriteLine("Firma Listesi");
-                Console.WriteLine("======================================================");
-                List<Firma> firmalar = context.Firmalar.ToList();
+                //Standart.pdf                
+                List<StandartIcerik> icerikler = context.StandartIcerikler.ToList();
 
-                foreach (var firma in firmalar)
+                foreach (var icerik in icerikler)
                 {
-                    Console.WriteLine($"{firma.FirmaId} | {firma.TicaretUnvani} | {firma.Durum.DurumAdi}");
+                    Console.WriteLine($"{icerik.IcerikNo} {icerik.Baslik}");
+                    Console.WriteLine($"{icerik.Detay}");
+                    Console.WriteLine($"");
 
-                    foreach (var telefon in firma.FirmaTelefonlar)
+                    //AtifYapilanStandartTipi - AtifYapilanDokumanTipi
+                    if (icerik.StandartIcerikTipiId== 160)
                     {
-                        Console.WriteLine($"{telefon.TelefonId} | {telefon.TelefonTipi.Adi} | {telefon.TelefonNo} | {telefon.DahiliNo}");
-                    }
+                        int atifYapilanStandartSayisi = icerik.StandartAtiflar.Where(x => x.KategoriId==8).Count();
+                        if (atifYapilanStandartSayisi > 0)
+                        {
+                            Console.WriteLine($" EN, ISO, IEC | Adı (EN) | TS No | Adı (TR)");
+                            foreach (var standart in icerik.StandartAtiflar.Where(x => x.KategoriId == 8).ToList())
+                            {
+                                Console.WriteLine($"{standart.Deger.Deger1} | {standart.Deger.Deger2} | {standart.Deger.Deger3} | {standart.Deger.Deger4}");
+                            }
+                        }
 
+                        int atifYapilanDokumanSayisi = icerik.StandartAtiflar.Where(x => x.KategoriId == 9).Count();
+                        if (atifYapilanDokumanSayisi > 0)
+                        {
+                            Console.WriteLine($" Doküman Adı | Yayımlayan Kurum | Hukuki Dayanak ");
+                            foreach (var dokuman in icerik.StandartAtiflar.Where(x => x.KategoriId == 9).ToList())
+                            {
+                                Console.WriteLine($"{dokuman.Deger.Deger1} | {dokuman.Deger.Deger2} | {dokuman.Deger.Deger3}");
+                            }
+                        }
+                    }
                 }
 
                 Console.ReadKey();
