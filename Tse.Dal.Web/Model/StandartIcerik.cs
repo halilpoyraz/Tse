@@ -18,7 +18,7 @@
         [Display(Name = "Standart")]
         public int StandartId { get; set; }
 
-        [Display(Name ="İçerik No") MaxLength(255) Required]
+        [Display(Name ="Başlık No") MaxLength(255) Required]
         public string BaslikNo { get; set; }
 
         [Display(Name ="Başlık") MaxLength(255) Required]
