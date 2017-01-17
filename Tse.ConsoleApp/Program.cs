@@ -17,7 +17,7 @@
 
                 foreach (var icerik in icerikler)
                 {
-                    Console.WriteLine($"{icerik.IcerikNo} {icerik.Baslik}");
+                    Console.WriteLine($"{icerik.BaslikNo} {icerik.Baslik}");
                     Console.WriteLine($"{icerik.Detay}");
                     Console.WriteLine($"");
 

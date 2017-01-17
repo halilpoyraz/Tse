@@ -19,9 +19,9 @@
         public int StandartId { get; set; }
 
         [Display(Name ="İçerik No") MaxLength(255) Required]
-        public string IcerikNo { get; set; }
+        public string BaslikNo { get; set; }
 
-        [Display(Name ="Başlık") MaxLength(255)]
+        [Display(Name ="Başlık") MaxLength(255) Required]
         public string Baslik { get; set; }
 
         [Display(Name ="Detay") Column(TypeName ="text")]

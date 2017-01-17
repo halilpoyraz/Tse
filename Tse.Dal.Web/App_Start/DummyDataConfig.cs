@@ -10829,7 +10829,7 @@
                 {
                     StandartIcerikId = 1,
                     StandartId = 1,
-                    IcerikNo = "0",
+                    BaslikNo = "0",
                     Baslik = "Önsöz",
                     Detay = "<ul><li>- Bu standard, Türk Standardları Enstitüsü’nün Bilişim İhtisas Kurulu’na bağlı TK01 Bilişim Teknolojileri Teknik Komitesi’nce TS 13298: 2009’in revizyonu olarak hazırlanmış ve TSE Teknik Kurulu’nun 23 Ekim 2015 tarihli toplantısında kabul edilerek yayımına karar verilmiştir.</li><li>- Bu standardın daha önce yayımlanmış bulunan baskıları geçersizdir.</li><li>- Bu standardın hazırlanmasında, milli ihtiyaç ve imkânlarımız ön planda olmak üzere, milletlerarası standardlar ve ekonomik ilişkilerimiz bulunan yabancı ülkelerin standardlarındaki esaslar da gözönünde bulundurularak; yarar görülen hallerde, olabilen yakınlık ve benzerliklerin sağlanmasına ve bu esasların, ülkemiz şartları ile bağdaştırılmasına çalışılmıştır.</li><li>- Bu standard son şeklini almadan önce; bilimsel kuruluşlar, üretici/ imalatçı ve tüketici durumundaki konunun ilgilileri ile gerekli işbirliği yapılmış ve alınan görüşlere göre olgunlaştırılmıştır.</li><li>- Bu standardda kullanılan bazı kelime ve/veya ifadeler patent haklarına konu olabilir. Böyle bir patent hakkının belirlenmesi durumunda TSE sorumlu tutulamaz.</li></ul>",
                     UstIcerikId = 0,
@@ -10841,7 +10841,7 @@
                 {
                     StandartIcerikId = 2,
                     StandartId = 1,
-                    IcerikNo = "0",
+                    BaslikNo = "0",
                     Baslik = "Giriş",
                     Detay = @"<p>Bu standard, TS 13298:2009 Elektronik Belge Yönetimi standardının güncel ihtiyaçlara göre yeniden düzenlenmiş halini içermektedir. Standard bir önceki revizyonuna ilave olarak kurumlar arası belge paylaşımı, kayıtlı elektronik postaların yönetimi, elektronik yazışma paketi ve elektronik arşivlerin yönetimi başta olmak üzere bazı yenilikler getirmektedir.</p><p>Kurumların faaliyetlerini kayıt altına alması ve bu bilgileri paydaşları ile paylaşması kurumsal faaliyetlerin ayrılmaz bir parçasıdır. Herkesin, her zaman, her yerden kolaylıkla ulaşabileceği şeffaf, verimli ve sade bir kurum yapısı günümüzde modern ve demokratik kurumların temel hedefi haline gelmiştir. Bilgi ve iletişim teknolojilerindeki gelişmeler bu hedefi gerçekleştirecek olgunluğa ulaşmıştır ve her geçen gün daha da gelişmektedir. Son yıllarda sıkça duyduğumuz e-ticaret ve e-devlet gibi kavramlar bu gelişmelerin bir sonucudur. E-kurum yapısının temelini ise elektronik bilgi sistemleri oluşturmaktadır.</p><p>Kurumlarca üretilen bilgi ve belgelerin verimliliğinin arttırılması için ortak standard ve politikaların belirlenmesi göz ardı edilemez bir gereksinimdir. Böyle bir çalışma kullanımı kolay, erişimi hızlı, güvenilir, ucuz, sürekli ve sağlam 'elektronik kurum' yapısının oluşumuna katkı sağlayarak genelde 'e-toplum'a geçiş sürecini hızlandıracaktır.</p><p>E-kurum faaliyetleri sonucu oluşan elektronik dokümanların belge vasfının korunması, onların üretim aşamasında ve hatta üretim öncesinde elektronik bilgi sistemleri tasarımı aşamasında ele alınmalarını gerekli kılmaktadır. Belge kavramının sistem tasarımcıları ve kullanıcılar tarafından iyi algılanması ve belge yönetimi gereksinimlerinin uygulanması gerekmektedir.</p><p>Elektronik belge yönetimi son derece geniş ve karmaşık bir alandır. Bu alan bir sistem yaklaşımı ile ele alınmalı ve sistemi oluşturan öğelerin birbiri ile uyumlu çalışması için gerekli önlemler alınmalıdır.</p><p>Sistemi oluşturan öğelerin başında Elektronik Belge Yönetim Sistemi (EBYS) yazılımı gelmektedir. Elektronik belgeyi yönetmeye talip her kurum bu konuda uzmanlaşmış bir yazılıma ihtiyaç duyacaktır. Bir EBYS yazılımı hiç şüphesiz kurum ERP yazılımlarının bir parçası olarak üretilebilir ya da kurum fonksiyonlarını elektronik ortamda yürütmek için kullanılan diğer yazılımlarla entegre çalışabilen bağımsız bir paket de olabilir. Bu standard bir EBYS yazılımında bulunması gereken asgari fonksiyonel özellikleri tanımlamaktadır.</p><p>Sistemi oluşturan bir diğer öğe kurumsal politika ve prosedürlerdir. Kurum bilgi ve belge yönetimi prosedürleri EBYS için bir girdi olarak düşünülebilir. Kurumsal belge yönetimi politika ve prosedürlerini henüz geliştirme aşamasında olan kurumlar, bu standardı bir referans kaynağı olarak kullanabilirler.</p><p>Standardın bu revizyonunda Elektronik Arşivleme Sistemi Referans Modelinin (ELAS/RM) adı altında yeni bir bölüm eklenmiştir. Bu bölüm:</p><ul><li>Elektronik belgelerin üretildikleri dönemdeki hukuki varlığının korunabilmesi,</li><li>Sürekli saklanacak elektronik belgelerin kesintisiz olarak erişilebilirliğinin sağlanması için gerekli tedbirlerin alınması,</li><li>Elektronik belgelerin üretildiği bilgi sistemi platformundan bağımsız olarak erişilebilir olması için gerekli sistem gereksinimlerini, elektronik arşivleme sistemleri uygulamalarında bulunması gerekli temel arşivcilik fonksiyonlarını ve elektronik arşivde yer alacak belgelerin sisteme transfer, düzenleme, tanımlama ve kullanımı gibi fonksiyonlara uygun üstveri modelini tanımlamaktır.</li><p>Bu standard, dört bölüm halinde tasarlanmıştır. Bu bölümler kendi içerisinde alt bölümlere ayrılmış ve bu alt bölümler altında da sistem gereksinimleri sıralanmıştır. Bu standard içinde yer alan bölümler şunlardır:</p><li>Sistem kriterleri: Sistem tasarımı ve elektronik belgelerin sisteme dâhil edilmesi için gerekli olan gereksinimlerin ele alındığı bölüm.</li><li>Belge kriterleri: Elektronik belge özellikleri, sayısal görüntüleme sistemleri ve fiziksel ortamdaki belgelerin yönetimi ve EBYS içerisine entegrasyonu gibi konuların ele alındığı bölüm.</li><li>Elektronik Arşivleme Sistemi Referans Modeli (ELAS/RM): Elektronik ortamda üretilmiş ya da sonradan elektronik ortama aktarılmış olan arşiv malzemesinin yönetimine yönelik kriterler bu bölümde tanımlanmıştır.</li><li>Üst veri elemanları: EBYS ve ELAS/RM’ye ait üst veri gereksinimleri bu bölümde tanımlanmıştır.</li><p>Sistem ve belge kriterleri ile elektronik arşivleme sistemi referans modeline ait düzenlemeler dört farklı şekilde kodlanmıştır. Her bir kriterin yanındaki kutucuklarda yer alan kodların açılımları şunlardır:</p><li>S/Z: İlgili maddenin seçmeli mi yoksa zorunlu mu olduğunu göstermek için kullanılmıştır.</li> <li>BA: Kriterin bilgi amaçlı olduğunu ifade eder. Genel olarak ürün veya kurum sertifikasyonunda kullanılmamakla birlikte sistemin geneli hakkında ya da ilgili olduğu bölüm ile ilgili teknik bilgi içermektedir.</li><li>KYS: Belge ve arşiv yönetim sistemini kullanan kurumlarda Kurum Yeterlilik Sertifikasyonu için aranacak şartlarla ilgili kriterlerdir. Sistem kurulumu öncesinde ya da esnasında yerine getirilmesi gereken şartları belirler. Ayrıca EBYS ürünü kullanacak kurumların KYS şartlarını sağlamaları ve akredite kurumlardan sertifika almaları gerekir.</li><li>ÜS: Ürün (EBYS yazılımları) sertifikasyonunda kullanılacak kriterleri tanımlar. Bu standarda uyumluluk belgesi alacak ürünlerin taşıması gereken asgari standartları belirler. Aynı ürün farklı ad ve markalar altında birden fazla sertifikalandırılamaz. Yetkili sertifikasyon kurumu, ürünler arasında bu türden bir benzerlik olduğuna karar verdiği durumlarda ürünlerin kaynak kodlarını değerlendirme amaçlı olarak talep edebilir.</li></ul>",
                     UstIcerikId = 0,
@@ -10853,7 +10853,7 @@
                 {
                     StandartIcerikId = 3,
                     StandartId = 1,
-                    IcerikNo = "1",
+                    BaslikNo = "1",
                     Baslik = "Kapsam",
                     Detay = @"<p>Bu standard, kurumlarda üretilen ve/veya üretilmesi muhtemel elektronik dokümanların belge niteliğinin korunabilmesi için gerekli standardların belirlenmesi amacıyla aşağıdaki konuları kapsar:</p><ol><li>Elektronik belge yönetimi sistemi (EBYS) için gerekli sistem gereksinimleri,</li><li>EBYS için gerekli belge yönetim teknikleri ve uygulamaları,</li><li>Elektronik belgelerin yönetilebilmesi için gerekli gereksinimler,</li><li>Elektronik ortamda üretilmemiş belgelerin yönetim fonksiyonlarının elektronik ortamda yürütülebilmesi içingerekli gereksinimler,</li><li>Elektronik belgelerde bulunması gereken diplomatik özellikler,</li><li>Elektronik belgelerin hukuki geçerliliklerinin sağlanması için alınması gereken önlemler,</li><li>Güvenli elektronik imza ve mühür sistemlerinin uygulanması için gerekli sistem alt yapısının tanımlanması.</li></ol><p>Bu standard, ayrıca, elektronik belgelerin arşivlenmesi ve yönetimine yönelik olarak da aşağıdaki konuları kapsamaktadır.</p><ol><li>Elektronik ortamda üretilmiş ve kurumsal kimlik doğrulama sistemleri ve/veya elektronik / mobil imza sistemleri ile imzalanmış kurumsal belgelerin,</li><li>Fiziksel ortamlarda üretilmiş olup sonradan sayısallaştırma yöntemi ile elektronik ortama aktarılmış yazılı, basılı, çizili her türlü doküman ve belgelerin,</li><li>Dijital olarak üretilmiş resim, ses ve görüntü kayıtlarının,</li><li>Sayısallaştırma yöntemi ile elektronik ortama aktarılmış analog resim, ses ve görüntü kayıtlarının yönetilmesine imkân sağlayacak düzenlemeleri kapsamaktadır.</li></ol><p>Bu standard, elektronik belgelerin üretim ortamına ait bilgi güvenliği ile ilgili herhangi bir kriter kapsamaz. Bilgi güvenliği yönetim sistemi ile ilgili olarak TS ISO/IEC 27001 standardı kullanılabilir.</p>",
                     UstIcerikId = 0,
@@ -10865,7 +10865,7 @@
                 {
                     StandartIcerikId = 4,
                     StandartId = 1,
-                    IcerikNo = "2",
+                    BaslikNo = "2",
                     Baslik = "Atıf yapılan standard ve/veya dokümanlar",
                     Detay = @"Aşağıda verilen, atıf yapılan standardların hükümleri bu standardın hükümleri sayılır. Tarih belirtilen atıflarda, daha sonra yapılan tadil ve revizyonlar uygulanmaz. Bununla birlikte, bu standarda dayalı anlaşmalarda taraflara, aşağıda verilen standardların en yeni baskılarını uygulama imkânını araştırmaları önerilir. Tarih belirtilmeyen atıflarda, ilgili standardın en son baskısı kullanılır. Bütün standardların yürürlükte bulunan baskıları TSE’den temin edilebilir. (*) işaretli olanlar bu standardın basıldığı tarihte İngilizce metin olarak yayımlanmış Türk Standardlarıdır.",
                     UstIcerikId = 0,
@@ -11004,6 +11004,1038 @@
                         }
                     }
                 },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 5,
+                    StandartId = 1,
+                    BaslikNo = "3",
+                    Baslik = "Terimler, tarifler ve kısaltmalar",
+                    Detay = "Bu standard için aşağıdaki terimler ve tarifler geçerlidir. Burada yer almayan terimler için ISO 15489’da belirtilen terimler ve tarifler kullanılmalıdır.",
+                    UstIcerikId = 0,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 5,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 6,
+                    StandartId = 1,
+                    BaslikNo = "3.1",
+                    Baslik = "Arşiv Kurumu",
+                    Detay = "Belirli bir yasal çerçeve içerisinde faaliyet gösteren ve farklı kurumlar tarafından üretilmiş olan arşiv malzemesini ayıklama, düzenleme, tanımlama, hizmete sunma ve diğer yönetimsel fonksiyonları yerine getiren ulusal, bölgesel ya da özel amaçlı arşiv kurumları.",
+                    UstIcerikId = 5,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 6,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 7,
+                    StandartId = 1,
+                    BaslikNo = "3.2",
+                    Baslik = "Arşiv Yönetim Sistemi (AYS)",
+                    Detay = "Arşiv malzemesinin arşiv kurumlarına transferi, düzenlenmesi, tanımlanması, kullanıma sunulması, korunması ve diğer yönetimsel fonksiyonları gerçekleştirmek üzere geliştirilmiş bilgisayar sistemi.",
+                    UstIcerikId = 5,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 7,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 8,
+                    StandartId = 1,
+                    BaslikNo = "3.3",
+                    Baslik = "Belge",
+                    Detay = "Herhangi bir bireysel veya kurumsal fonksiyonun yerine getirilmesi için alınmış ya da fonksiyonun sonucunda üretilmiş, içerik, ilişki ve formatı ile ait olduğu fonksiyon için delil teşkil eden kayıtlı bilgi.",
+                    UstIcerikId = 5,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 8,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 9,
+                    StandartId = 1,
+                    BaslikNo = "3.4",
+                    Baslik = "Diplomatik özellik",
+                    Detay = "Belgelerin orijinalliğinin tespit edilmesinde kullanılabilecek her türlü içerik, format, ilişki ve sunum özellikleri.",
+                    UstIcerikId = 5,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 9,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 10,
+                    StandartId = 1,
+                    BaslikNo = "3.5",
+                    Baslik = "Doküman",
+                    Detay = "Kurumsal faaliyetlerin yerine getirilmesinde üretilen ya da toplanan, henüz belge vasfı kazanmamış her türlü kayıtlı bilgi.",
+                    UstIcerikId = 5,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 10,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 11,
+                    StandartId = 1,
+                    BaslikNo = "3.6",
+                    Baslik = "Dosya tasnif planı",
+                    Detay = "Kurumsal faaliyetlerin ve bu faaliyetler sonucunda oluşan belgelerin kurumsal yapıya ve hiyerarşiye uygun olarak konusal olarak sınıflandırılması için geliştirilmiş belge yönetim aracı.",
+                    UstIcerikId = 5,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 11,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 12,
+                    StandartId = 1,
+                    BaslikNo = "3.7",
+                    Baslik = "Elektronik belge yönetimi",
+                    Detay = "Kurumların gündelik işlerini yerine getirirken oluşturdukları her türlü dokümantasyonun içerisinden kurum faaliyetlerinin delili olabilecek belgelerin ayıklanarak bunların içerik, format ve ilişkisel özelliklerini korumak ve bu belgeleri üretimden nihai tasfiyeye kadar olan süreç içerisinde yönetmek.",
+                    UstIcerikId = 5,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 12,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 13,
+                    StandartId = 1,
+                    BaslikNo = "3.8",
+                    Baslik = "Kurum arşivi",
+                    Detay = "Ait olduğu kurum tarafından üretilen belgelerden idarî, malî ve hukukî açıdan saklama süresini doldurmuş olan arşiv belgelerinin ayıklanması, düzenlenmesi, tanımlanması, hizmete sunulması ve diğer yönetimsel fonksiyonları yerine getiren birim.",
+                    UstIcerikId = 5,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 13,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 14,
+                    StandartId = 1,
+                    BaslikNo = "3.9",
+                    Baslik = "Provenans",
+                    Detay = "Kendi faaliyetlerinin yürütülmesi sırasında belge üreten ve saklayan kişi veya kurumlar bir belgenin provenansını oluşturur. Provenans prensibi ise; aynı provenansa (kaynak, köken, menşe) sahip belgelerin, başka bir provenansa sahip olanlarla karıştırılmaması gerektiğini öngören temel ilke. 'Fonlara Saygı' (respectdes fonds) olarak da anılır.",
+                    UstIcerikId = 5,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 14,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 15,
+                    StandartId = 1,
+                    BaslikNo = "3.10",
+                    Baslik = "Tasfiye",
+                    Detay = "Kurumsal gereksinimler açısından saklanmasına gerek kalmayan belgelerin kurum belge sisteminin dışına çıkarılması. Tasfiye işlemi artık ihtiyaç duyulmayan belgelerin kurum içinde veya kurum dışında başka bir kuruma/birime transfer edilmesini ya da imha edilmesini öngörür.",
+                    UstIcerikId = 5,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 15,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 16,
+                    StandartId = 1,
+                    BaslikNo = "3.11",
+                    Baslik = "Varlık",
+                    Detay = "Arşiv yönetim sistemi içerisinde yer alan ve bağımsız olarak tanımlanan belge, dosya / klasör, seri, fon, vs. gibi kayıtlar. <table><h3>Kısaltmalar</h3><tr><td>AYS</td><td>Arşiv Yönetim Sistemi</td></tr><tr><td>DERBİS</td><td>Dernekler Bilgi Sistemi</td></tr><tr><td>DETSİS</td><td>Devlet Teşkilatı Merkezi Kayıt Sistemi</td></tr><tr><td>DGS</td><td>Dijital Görüntüme Sistemi</td></tr><tr><td>DYS</td><td>Doküman Yönetim Sistemi</td></tr><tr><td>EBYS</td><td>Elektronik Belge Yönetim Sistemi</td></tr><tr><td>ELAS/RM</td><td>Elektronik Arşivleme Sistemi Referans Modeli</td></tr><tr><td>EYP</td><td>Elektronik Yazışma Paketi</td></tr><tr><td>KEP</td><td>Kayıtlı Elektronik Posta</td></tr><tr><td>KPS</td><td>Kimlik Paylaşım Sistemi</td></tr><tr><td>MERNİS</td><td>Merkezî Nüfus İdare Sistemi</td></tr><tr><td>MERSİS</td><td>Merkezi Sicil Kayıt Sistemi</td></tr><tr><td>MTK</td><td>Merkezi Tüzel Kişilik Bilgi Sistemi</td></tr><tr><td>UAPS</td><td>Ulusal Adres Paylaşım Sistemi</td></tr><tr><td>VBYS</td><td>Vakıf Bilgi Yönetim Sistemi</td></tr></table>",
+                    UstIcerikId = 5,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 16,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 17,
+                    StandartId = 1,
+                    BaslikNo = "Bölüm 1:",
+                    Baslik = "Sistem Kriterleri",
+                    Detay = null,
+                    UstIcerikId = 0,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 17,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 18,
+                    StandartId = 1,
+                    BaslikNo = "4",
+                    Baslik = "Dosya tasnif planları",
+                    Detay = null,
+                    UstIcerikId = 17,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 18,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 19,
+                    StandartId = 1,
+                    BaslikNo = "4.1",
+                    Baslik = "Dosya planının oluşturulması",
+                    Detay = null,
+                    UstIcerikId = 18,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 19,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 20,
+                    StandartId = 1,
+                    BaslikNo = "4.2",
+                    Baslik = "Dosya tasnif planı elemanlarının tanımlanması",
+                    Detay = null,
+                    UstIcerikId = 18,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 20,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 21,
+                    StandartId = 1,
+                    BaslikNo = "4.3",
+                    Baslik = "Dosya tasnif planının yönetilmesi",
+                    Detay = null,
+                    UstIcerikId = 18,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 21,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 22,
+                    StandartId = 1,
+                    BaslikNo = "5",
+                    Baslik = "Saklama planları",
+                    Detay = null,
+                    UstIcerikId = 17,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 22,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 23,
+                    StandartId = 1,
+                    BaslikNo = "5.1",
+                    Baslik = "Genel",
+                    Detay = null,
+                    UstIcerikId = 22,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 23,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 24,
+                    StandartId = 1,
+                    BaslikNo = "5.2",
+                    Baslik = "Belge hiyerarşisi",
+                    Detay = null,
+                    UstIcerikId = 22,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 24,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 25,
+                    StandartId = 1,
+                    BaslikNo = "5.3",
+                    Baslik = "Saklama kriterleri",
+                    Detay = null,
+                    UstIcerikId = 22,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 25,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 26,
+                    StandartId = 1,
+                    BaslikNo = "5.4",
+                    Baslik = "Saklama süreleri",
+                    Detay = null,
+                    UstIcerikId = 22,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 26,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 27,
+                    StandartId = 1,
+                    BaslikNo = "5.5",
+                    Baslik = "Tasfiye işlem tanımları",
+                    Detay = null,
+                    UstIcerikId = 22,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 27,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 28,
+                    StandartId = 1,
+                    BaslikNo = "6",
+                    Baslik = "Elektronik belgelerin kayıt işlemleri",
+                    Detay = null,
+                    UstIcerikId = 17,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 28,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 29,
+                    StandartId = 1,
+                    BaslikNo = "6.1",
+                    Baslik = "Genel Özellikler",
+                    Detay = null,
+                    UstIcerikId = 28,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 29,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 30,
+                    StandartId = 1,
+                    BaslikNo = "6.2",
+                    Baslik = "Dokümanların belgeye dönüştürülmesi ve ilişkilendirme",
+                    Detay = null,
+                    UstIcerikId = 28,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 30,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 31,
+                    StandartId = 1,
+                    BaslikNo = "6.3",
+                    Baslik = "Belge türleri",
+                    Detay = null,
+                    UstIcerikId = 28,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 31,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 32,
+                    StandartId = 1,
+                    BaslikNo = "6.4",
+                    Baslik = "Elektronik postaların yönetimi",
+                    Detay = null,
+                    UstIcerikId = 28,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 32,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 33,
+                    StandartId = 1,
+                    BaslikNo = "6.5",
+                    Baslik = "Taşıma, kopyalama ve silme",
+                    Detay = null,
+                    UstIcerikId = 28,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 33,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 34,
+                    StandartId = 1,
+                    BaslikNo = "6.6",
+                    Baslik = "Referans kodlarının verilmesi",
+                    Detay = null,
+                    UstIcerikId = 28,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 34,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 35,
+                    StandartId = 1,
+                    BaslikNo = "7",
+                    Baslik = "Elektronik Belgelerin Paylaşımı",
+                    Detay = null,
+                    UstIcerikId = 17,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 35,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 36,
+                    StandartId = 1,
+                    BaslikNo = "7.1",
+                    Baslik = "Kurum Kodlarının Kullanılması",
+                    Detay = null,
+                    UstIcerikId = 35,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 36,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 37,
+                    StandartId = 1,
+                    BaslikNo = "7.2",
+                    Baslik = "Kayıtlı Elektronik Posta (KEP)",
+                    Detay = null,
+                    UstIcerikId = 35,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 37,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 38,
+                    StandartId = 1,
+                    BaslikNo = "7.3",
+                    Baslik = "Elektronik Yazışma Paketi",
+                    Detay = null,
+                    UstIcerikId = 35,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 38,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 39,
+                    StandartId = 1,
+                    BaslikNo = "8",
+                    Baslik = "EBYS kullanım özellikleri",
+                    Detay = null,
+                    UstIcerikId = 17,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 39,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 40,
+                    StandartId = 1,
+                    BaslikNo = "8.1",
+                    Baslik = "Kullanım – Genel kurallar",
+                    Detay = null,
+                    UstIcerikId = 39,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 40,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 41,
+                    StandartId = 1,
+                    BaslikNo = "8.2",
+                    Baslik = "Arama",
+                    Detay = null,
+                    UstIcerikId = 39,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 41,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 42,
+                    StandartId = 1,
+                    BaslikNo = "8.3",
+                    Baslik = "Görüntüleme",
+                    Detay = null,
+                    UstIcerikId = 39,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 42,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 43,
+                    StandartId = 1,
+                    BaslikNo = "8.4",
+                    Baslik = "Yazdırma",
+                    Detay = null,
+                    UstIcerikId = 39,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 43,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 44,
+                    StandartId = 1,
+                    BaslikNo = "8.5",
+                    Baslik = "Raporlama",
+                    Detay = null,
+                    UstIcerikId = 39,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 44,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 45,
+                    StandartId = 1,
+                    BaslikNo = "9",
+                    Baslik = "Erişim kontrolü ve güvenlik",
+                    Detay = null,
+                    UstIcerikId = 17,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 45,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 46,
+                    StandartId = 1,
+                    BaslikNo = "9.1",
+                    Baslik = "Sisteme Giriş",
+                    Detay = null,
+                    UstIcerikId = 45,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 46,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 47,
+                    StandartId = 1,
+                    BaslikNo = "9.2",
+                    Baslik = "Erişim Hakları",
+                    Detay = null,
+                    UstIcerikId = 45,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 47,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 48,
+                    StandartId = 1,
+                    BaslikNo = "9.3",
+                    Baslik = "Kullanıcı Profilleri",
+                    Detay = null,
+                    UstIcerikId = 45,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 48,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 49,
+                    StandartId = 1,
+                    BaslikNo = "9.4",
+                    Baslik = "Kullanıcı Rolleri",
+                    Detay = null,
+                    UstIcerikId = 45,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 49,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 50,
+                    StandartId = 1,
+                    BaslikNo = "9.5",
+                    Baslik = "Kullanıcı Grupları",
+                    Detay = null,
+                    UstIcerikId = 45,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 50,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 51,
+                    StandartId = 1,
+                    BaslikNo = "9.6",
+                    Baslik = "Kayıtlara erişim haklarının atanması ve uygulanması",
+                    Detay = null,
+                    UstIcerikId = 45,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 51,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 52,
+                    StandartId = 1,
+                    BaslikNo = "9.7",
+                    Baslik = "Üretim sorumluluğu ve mülkiyet",
+                    Detay = null,
+                    UstIcerikId = 45,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 52,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 53,
+                    StandartId = 1,
+                    BaslikNo = "9.8",
+                    Baslik = "Günlük dosyalarının oluşturulması",
+                    Detay = null,
+                    UstIcerikId = 45,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 53,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 54,
+                    StandartId = 1,
+                    BaslikNo = "10",
+                    Baslik = "Sistem Tasarımı ve Yönetimi",
+                    Detay = null,
+                    UstIcerikId = 17,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 54,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 55,
+                    StandartId = 1,
+                    BaslikNo = "10.1",
+                    Baslik = "Sistem bütünlüğü ve güvenirlik",
+                    Detay = null,
+                    UstIcerikId = 54,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 55,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 56,
+                    StandartId = 1,
+                    BaslikNo = "10.2",
+                    Baslik = "Kullanım kolaylığı",
+                    Detay = null,
+                    UstIcerikId = 54,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 56,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 57,
+                    StandartId = 1,
+                    BaslikNo = "10.3",
+                    Baslik = "Performans ve ölçeklenebilirlik",
+                    Detay = null,
+                    UstIcerikId = 54,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 57,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 58,
+                    StandartId = 1,
+                    BaslikNo = "10.4",
+                    Baslik = "Verilerin Depolanması",
+                    Detay = null,
+                    UstIcerikId = 54,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 58,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 59,
+                    StandartId = 1,
+                    BaslikNo = "Bölüm II:",
+                    Baslik = "Belge Kriterleri",
+                    Detay = null,
+                    UstIcerikId = 0,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 59,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 60,
+                    StandartId = 1,
+                    BaslikNo = "11",
+                    Baslik = "Belge Özellikleri",
+                    Detay = null,
+                    UstIcerikId = 59,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 60,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 61,
+                    StandartId = 1,
+                    BaslikNo = "11.1",
+                    Baslik = "Tanımlanabilirlik",
+                    Detay = null,
+                    UstIcerikId = 60,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 61,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 62,
+                    StandartId = 1,
+                    BaslikNo = "11.2",
+                    Baslik = "Bütünlük",
+                    Detay = null,
+                    UstIcerikId = 60,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 62,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 63,
+                    StandartId = 1,
+                    BaslikNo = "11.3",
+                    Baslik = "Onay ve Kayıt Bilgisi",
+                    Detay = null,
+                    UstIcerikId = 60,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 63,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 64,
+                    StandartId = 1,
+                    BaslikNo = "11.4",
+                    Baslik = "Yapısal özellikler",
+                    Detay = null,
+                    UstIcerikId = 60,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 64,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 65,
+                    StandartId = 1,
+                    BaslikNo = "11.5",
+                    Baslik = "Üretim sorumluluğu ve mülkiyet hakları",
+                    Detay = null,
+                    UstIcerikId = 60,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 65,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 66,
+                    StandartId = 1,
+                    BaslikNo = "11.6",
+                    Baslik = "Teknolojik özellikler",
+                    Detay = null,
+                    UstIcerikId = 60,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 66,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 67,
+                    StandartId = 1,
+                    BaslikNo = "12",
+                    Baslik = "Doküman yönetimi",
+                    Detay = null,
+                    UstIcerikId = 59,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 67,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 68,
+                    StandartId = 1,
+                    BaslikNo = "12.1",
+                    Baslik = "Giriş",
+                    Detay = null,
+                    UstIcerikId = 67,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 68,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 69,
+                    StandartId = 1,
+                    BaslikNo = "12.2",
+                    Baslik = "Girdi Yönetimi",
+                    Detay = null,
+                    UstIcerikId = 67,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 69,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 70,
+                    StandartId = 1,
+                    BaslikNo = "12.3",
+                    Baslik = "Tanımlama ve indeksleme",
+                    Detay = null,
+                    UstIcerikId = 67,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 70,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 71,
+                    StandartId = 1,
+                    BaslikNo = "12.4",
+                    Baslik = "Dosyalama, düzenleme ve tasnif",
+                    Detay = null,
+                    UstIcerikId = 67,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 71,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 72,
+                    StandartId = 1,
+                    BaslikNo = "12.5",
+                    Baslik = "Depolama / Yedekleme",
+                    Detay = null,
+                    UstIcerikId = 67,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 72,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 73,
+                    StandartId = 1,
+                    BaslikNo = "12.6",
+                    Baslik = "Erişim",
+                    Detay = null,
+                    UstIcerikId = 67,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 73,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 74,
+                    StandartId = 1,
+                    BaslikNo = "12.7",
+                    Baslik = "Çıktı yönetimi",
+                    Detay = null,
+                    UstIcerikId = 67,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 74,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 75,
+                    StandartId = 1,
+                    BaslikNo = "12.8",
+                    Baslik = "Versiyon kontrolü",
+                    Detay = null,
+                    UstIcerikId = 67,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 75,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 76,
+                    StandartId = 1,
+                    BaslikNo = "13",
+                    Baslik = "Elektronik olmayan sistemlerle uyumluluk",
+                    Detay = null,
+                    UstIcerikId = 59,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 76,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 77,
+                    StandartId = 1,
+                    BaslikNo = "13.1",
+                    Baslik = "Fiziksel dosya ve belgelerin sisteme dahil edilmesi",
+                    Detay = null,
+                    UstIcerikId = 76,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 77,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 78,
+                    StandartId = 1,
+                    BaslikNo = "13.2",
+                    Baslik = "Tanımlama",
+                    Detay = null,
+                    UstIcerikId = 76,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 78,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 79,
+                    StandartId = 1,
+                    BaslikNo = "13.3",
+                    Baslik = "Erişim kontrolü ve kullanım",
+                    Detay = null,
+                    UstIcerikId = 76,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 79,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 80,
+                    StandartId = 1,
+                    BaslikNo = "13.4",
+                    Baslik = "Tasfiye",
+                    Detay = null,
+                    UstIcerikId = 76,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 80,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 81,
+                    StandartId = 1,
+                    BaslikNo = "14",
+                    Baslik = "Dijital görüntüleme sistemleri",
+                    Detay = null,
+                    UstIcerikId = 59,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 81,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 82,
+                    StandartId = 1,
+                    BaslikNo = "14.1",
+                    Baslik = "Genel rensipler",
+                    Detay = null,
+                    UstIcerikId = 81,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 82,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 83,
+                    StandartId = 1,
+                    BaslikNo = "14.2",
+                    Baslik = "Görüntülenecek malzeme",
+                    Detay = null,
+                    UstIcerikId = 81,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 83,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 84,
+                    StandartId = 1,
+                    BaslikNo = "14.3",
+                    Baslik = "Görüntüleme Tekniği",
+                    Detay = null,
+                    UstIcerikId = 81,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 84,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 85,
+                    StandartId = 1,
+                    BaslikNo = "14.4",
+                    Baslik = "Çözünürlük",
+                    Detay = null,
+                    UstIcerikId = 81,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 85,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 86,
+                    StandartId = 1,
+                    BaslikNo = "14.5",
+                    Baslik = "Tonlama / Bit derinliği / Tarama modu",
+                    Detay = null,
+                    UstIcerikId = 81,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 86,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 87,
+                    StandartId = 1,
+                    BaslikNo = "14.6",
+                    Baslik = "Sıkıştırma",
+                    Detay = null,
+                    UstIcerikId = 81,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 87,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 88,
+                    StandartId = 1,
+                    BaslikNo = "14.7",
+                    Baslik = "Zenginleştirme",
+                    Detay = null,
+                    UstIcerikId = 81,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 88,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 89,
+                    StandartId = 1,
+                    BaslikNo = "14.8",
+                    Baslik = "Renk yönetimi",
+                    Detay = null,
+                    UstIcerikId = 81,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 89,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 90,
+                    StandartId = 1,
+                    BaslikNo = "14.9",
+                    Baslik = "Dosya Formatları",
+                    Detay = null,
+                    UstIcerikId = 81,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 90,
+                    DurumId = 1
+                }
             });
             #endregion
             
