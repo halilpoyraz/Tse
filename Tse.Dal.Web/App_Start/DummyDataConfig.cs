@@ -12035,7 +12035,331 @@
                     StandartIcerikTipiId = 161,
                     SiraNo = 90,
                     DurumId = 1
-                }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 91,
+                    StandartId = 1,
+                    BaslikNo = "Bölüm III:",
+                    Baslik = "Elektronik Arşivleme Sistemi Referans Modeli (ELAS/RM)",
+                    Detay = null,
+                    UstIcerikId = 0,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 91,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 92,
+                    StandartId = 1,
+                    BaslikNo = "15",
+                    Baslik = "Elektronik Arşivleme Sistemi Referans Modeli (ELAS/RM)",
+                    Detay = null,
+                    UstIcerikId = 91,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 92,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 93,
+                    StandartId = 1,
+                    BaslikNo = "15.1",
+                    Baslik = "Arşiv Malzemesinin tanımı ve özellikleri",
+                    Detay = null,
+                    UstIcerikId = 92,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 93,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 94,
+                    StandartId = 1,
+                    BaslikNo = "15.2",
+                    Baslik = "Arşiv politikasını belirlenmesi",
+                    Detay = null,
+                    UstIcerikId = 92,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 94,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 95,
+                    StandartId = 1,
+                    BaslikNo = "15.3",
+                    Baslik = "Arşiv malzemesinin transfer işlemleri",
+                    Detay = null,
+                    UstIcerikId = 92,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 95,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 96,
+                    StandartId = 1,
+                    BaslikNo = "15.4",
+                    Baslik = "Tarih ve zaman damgası",
+                    Detay = null,
+                    UstIcerikId = 92,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 96,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 97,
+                    StandartId = 1,
+                    BaslikNo = "15.5",
+                    Baslik = "Dosya formatları",
+                    Detay = null,
+                    UstIcerikId = 92,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 97,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 98,
+                    StandartId = 1,
+                    BaslikNo = "15.6",
+                    Baslik = "Depolama Üniteleri",
+                    Detay = null,
+                    UstIcerikId = 92,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 98,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 99,
+                    StandartId = 1,
+                    BaslikNo = "15.7",
+                    Baslik = "Veri merkezi özellikleri",
+                    Detay = null,
+                    UstIcerikId = 92,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 99,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 100,
+                    StandartId = 1,
+                    BaslikNo = "15.8",
+                    Baslik = "Erişimin sürekliliği",
+                    Detay = null,
+                    UstIcerikId = 92,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 100,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 101,
+                    StandartId = 1,
+                    BaslikNo = "15.9",
+                    Baslik = "Teknolojik eskimeye karşı alınacak önlemler",
+                    Detay = null,
+                    UstIcerikId = 92,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 101,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 102,
+                    StandartId = 1,
+                    BaslikNo = "16",
+                    Baslik = "Arşiv sisteminin Güvenliği",
+                    Detay = null,
+                    UstIcerikId = 91,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 102,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 103,
+                    StandartId = 1,
+                    BaslikNo = "16.1",
+                    Baslik = "Genel",
+                    Detay = null,
+                    UstIcerikId = 102,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 103,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 104,
+                    StandartId = 1,
+                    BaslikNo = "16.2",
+                    Baslik = "Sistem Güvenliği",
+                    Detay = null,
+                    UstIcerikId = 102,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 104,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 105,
+                    StandartId = 1,
+                    BaslikNo = "16.3",
+                    Baslik = "Bilgi Güvenliği",
+                    Detay = null,
+                    UstIcerikId = 102,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 105,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 106,
+                    StandartId = 1,
+                    BaslikNo = "16.4",
+                    Baslik = "Sistem Denetimi",
+                    Detay = null,
+                    UstIcerikId = 102,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 106,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 107,
+                    StandartId = 1,
+                    BaslikNo = "17",
+                    Baslik = "ELAS/RM Uygulama Kılavuzu",
+                    Detay = null,
+                    UstIcerikId = 91,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 107,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 108,
+                    StandartId = 1,
+                    BaslikNo = "17.1",
+                    Baslik = "Genel",
+                    Detay = null,
+                    UstIcerikId = 107,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 108,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 109,
+                    StandartId = 1,
+                    BaslikNo = "17.2",
+                    Baslik = "Arşiv Malzemesinin Transfer İşlemleri",
+                    Detay = null,
+                    UstIcerikId = 107,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 109,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 110,
+                    StandartId = 1,
+                    BaslikNo = "17.3",
+                    Baslik = "Düzenleme",
+                    Detay = null,
+                    UstIcerikId = 107,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 110,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 111,
+                    StandartId = 1,
+                    BaslikNo = "18",
+                    Baslik = "Arşiv Malzemesinin Tanımlanması",
+                    Detay = null,
+                    UstIcerikId = 91,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 111,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 112,
+                    StandartId = 1,
+                    BaslikNo = "18.1",
+                    Baslik = "Tanımlama seviyeleri",
+                    Detay = null,
+                    UstIcerikId = 111,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 112,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 113,
+                    StandartId = 1,
+                    BaslikNo = "18.2",
+                    Baslik = "Tanımlama Alanları",
+                    Detay = null,
+                    UstIcerikId = 111,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 113,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 114,
+                    StandartId = 1,
+                    BaslikNo = "Bölüm:IV",
+                    Baslik = "Üstveri Yönetimi",
+                    Detay = null,
+                    UstIcerikId = 0,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 114,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 115,
+                    StandartId = 1,
+                    BaslikNo = "19",
+                    Baslik = "Üstveri Elemanları",
+                    Detay = null,
+                    UstIcerikId = 114,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 115,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 116,
+                    StandartId = 1,
+                    BaslikNo = "19.1",
+                    Baslik = "Genel Özellikler",
+                    Detay = null,
+                    UstIcerikId = 115,
+                    StandartIcerikTipiId = 161,
+                    SiraNo = 116,
+                    DurumId = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikId = 117,
+                    StandartId = 1,
+                    BaslikNo = "19.2",
+                    Baslik = "Dosya Tasnif Planı Üstveri Elemanları",
+                    Detay = "<p><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>DTP Eleman Referans Numarası</td></tr><tr><td>Referans Numarası</td><td>DT001</td></tr><tr><td>Tanım</td><td>Dosya tasnif planında yer alacak her bir eleman için verilecek olan referans numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Dosya tasnif planındaki seri ve alt seri kodları gibi.</td></tr></table></p><p><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>DTP Eleman adı</td></tr><tr><td>Referans Numarası</td><td>DT010</td></tr><tr><td>Tanım</td><td>Dosya tasnif planında yer alan elemanların adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Dosya tasnif planındaki seri ve alt serilerin adıdır. Farklı birimlerde aynı ad ile seriler oluşabilir. Ancak bu serilere ait referans numaraları farklı olmalıdır.</td></tr></table></p><p><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Tanım</td></tr><tr><td>Referans Numarası</td><td>DT050</td></tr><tr><td>Tanım</td><td>Dosya tasnif planı elemanına ait tanımlamalara ve açıklamalara ait bilgidir. Kullanımı zorunlu değildir.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td>Kullanıcıların yönlendirilmesi ve EBYS içerisine dahil edilecek belgelerin hangi elemanlar altında tasnif edilmesi gerektiğini göstermek amacıyla kullanılabilir.</td></tr></table></p><p><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Seviye numarası</td></tr><tr><td>Referans Numarası</td><td>DT070</td></tr><tr><td>Tanım</td><td>Dosya tasnif planı elemanına ait hiyerarşik seviyeyi gösteren numaradır.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table></p>",
+                    UstIcerikId = 115,
+                    StandartIcerikTipiId = 162,
+                    SiraNo = 117,
+                    DurumId = 1
+                },
             });
             #endregion
             
