@@ -5,7 +5,7 @@
     using System.Collections.Generic;
     using System.Data.Entity;
 
-    public partial class DummyDataConfig : DropCreateDatabaseAlways<TseWebContext>
+    public partial class DummyDataConfig : DropCreateDatabaseIfModelChanges<TseWebContext>
     {
         protected override void Seed(TseWebContext context)
         {            
@@ -10819,9 +10819,7 @@
                 }
             });
             #endregion
-            
-            context.SaveChanges();            
-
+                                             
             #region // StandartIcerik
             context.StandartIcerikler.AddRange(new List<StandartIcerik>
             {
@@ -12646,6 +12644,13 @@
                             TelefonTipiId = 154,
                             TelefonNo = "05345950053",
                             VarsayilanTelefon = true,
+                            DurumId = 1
+                        },
+                        new Telefon
+                        {
+                            TelefonTipiId = 154,
+                            TelefonNo = "09009101033",
+                            VarsayilanTelefon = false,
                             DurumId = 1
                         }
                     },

@@ -15,7 +15,7 @@
         public int AdresId { get; set; }
 
         [Display(Name ="Kisi")]
-        public int? KisiId { get; set; }
+        public int? KisiId { get; set; }      
 
         [Display(Name ="Firma")]
         public int? FirmaId { get; set; }
