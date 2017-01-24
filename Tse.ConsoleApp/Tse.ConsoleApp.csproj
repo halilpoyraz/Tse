@@ -60,9 +60,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tse.Dal.Web\Tse.Dal.Web.csproj">
+    <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">
       <Project>{95f787bc-3a21-4185-b11e-18de6eeed164}</Project>
-      <Name>Tse.Dal.Web</Name>
+      <Name>Tse.Dal.Backoffice</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,14 +1,14 @@
-namespace Tse.Dal.Web.Model
+namespace Tse.Dal.Backoffice.Model
 {
     using App_Start;
     using System.Data.Entity;
     using System.Data.Entity.ModelConfiguration.Conventions;
 
-    public partial class TseWebContext : DbContext
+    public partial class TseBackofficeContext : DbContext
     {
         //Contructor
-        public TseWebContext()
-            : base("name=TseWebContext")
+        public TseBackofficeContext()
+            : base("name=TseBackofficeContext")
         {
             Database.SetInitializer(new DummyDataConfig());
         }

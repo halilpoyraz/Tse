@@ -1,4 +1,4 @@
-﻿namespace Tse.Dal.Web.Model
+﻿namespace Tse.Dal.Backoffice.Model
 {
     using System;
     using System.Collections.Generic;

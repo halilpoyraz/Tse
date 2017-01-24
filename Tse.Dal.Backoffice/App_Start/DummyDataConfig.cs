@@ -1,13 +1,13 @@
-﻿namespace Tse.Dal.Web.App_Start
+﻿namespace Tse.Dal.Backoffice.App_Start
 {
     using Model;
     using System;
     using System.Collections.Generic;
     using System.Data.Entity;
 
-    public partial class DummyDataConfig : DropCreateDatabaseIfModelChanges<TseWebContext>
+    public partial class DummyDataConfig : DropCreateDatabaseIfModelChanges<TseBackofficeContext>
     {
-        protected override void Seed(TseWebContext context)
+        protected override void Seed(TseBackofficeContext context)
         {            
            
             #region //Durum

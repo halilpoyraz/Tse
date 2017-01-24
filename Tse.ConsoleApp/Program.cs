@@ -2,7 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
-    using Dal.Web.Model;    
+    using Dal.Backoffice.Model;    
     using System.Linq;
 
 
@@ -10,7 +10,7 @@
     {
         static void Main(string[] args)
         {
-            using (TseWebContext context = new TseWebContext())
+            using (TseBackofficeContext context = new TseBackofficeContext())
             {
                 Console.WriteLine("Starting!");
                 List<Kisi> kisiler = context.Kisiler.ToList();
