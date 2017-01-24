@@ -72,7 +72,7 @@
     <Compile Include="Model\Telefon.cs" />
     <Compile Include="Model\TseBackofficeContext.cs" />
     <Compile Include="Model\Ulke.cs" />
-    <Compile Include="Model\VergiBilgi.cs" />
+    <Compile Include="Model\FaturaBilgi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resource.Designer.cs">
       <AutoGen>True</AutoGen>

@@ -1,5 +1,6 @@
 ﻿namespace Tse.Dal.Backoffice.Model
 {
+    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
@@ -49,6 +50,7 @@
         public virtual Sehir Sehir { get; set; }
         public virtual Ulke Ulke { get; set; }
         public virtual Firma Firma { get; set; }
+        public virtual ICollection<FaturaBilgi> FaturaBilgileri { get; set; }
 
         [ForeignKey("AdresTipiId")]
         public virtual Deger AdresTipi { get; set; }

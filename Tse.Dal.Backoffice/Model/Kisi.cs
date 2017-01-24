@@ -31,11 +31,11 @@
 
 
         // Navigation Properties
-        public virtual ICollection<Adres> KisiAdresler { get; set; }
+        public virtual ICollection<Adres> Adresler { get; set; }
         public virtual Durum Durum { get; set; }
         public virtual ICollection<Eposta> Epostalar { get; set; }             
-        public virtual ICollection<Telefon> KisiTelefonlar { get; set; }
-        public virtual ICollection<VergiBilgi> KisiVergiBilgileri { get; set; }
+        public virtual ICollection<FaturaBilgi> FaturaBilgileri { get; set; }
+        public virtual ICollection<Telefon> Telefonlar { get; set; }
 
 
         // Methods

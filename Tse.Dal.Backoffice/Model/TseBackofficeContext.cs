@@ -22,9 +22,9 @@ namespace Tse.Dal.Backoffice.Model
         public virtual DbSet<Kategori> Kategoriler { get; set; }
         public virtual DbSet<Kisi> Kisiler { get; set; }
         public virtual DbSet<Eposta> Epostalar { get; set; }
+        public virtual DbSet<FaturaBilgi> FaturaBilgileri { get; set; }
         public virtual DbSet<Firma> Firmalar { get; set; }
         public virtual DbSet<Telefon> Telefonlar { get; set; }
-        public virtual DbSet<VergiBilgi> KisiVergiBilgileri { get; set; }
         public virtual DbSet<ParaBirimi> ParaBirimleri { get; set; }
         public virtual DbSet<Sehir> Sehirler { get; set; }
         public virtual DbSet<Standart> Standartlar { get; set; }        
@@ -46,6 +46,7 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<Deger>().ToTable("Tanimlama.Deger");
             modelBuilder.Entity<Durum>().ToTable("Tanimlama.Durum");
             modelBuilder.Entity<Eposta>().ToTable("Kisi.Eposta");
+            modelBuilder.Entity<FaturaBilgi>().ToTable("Kisi.FaturaBilgi");
             modelBuilder.Entity<Firma>().ToTable("Kisi.Firma");
             modelBuilder.Entity<Ilce>().ToTable("Tanimlama.Ilce");
             modelBuilder.Entity<Kategori>().ToTable("Tanimlama.Kategori");                       
@@ -58,9 +59,10 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<StandartIcerik>().ToTable("Standart.StandartIcerik");
             modelBuilder.Entity<Telefon>().ToTable("Kisi.Telefon");
             modelBuilder.Entity<Ulke>().ToTable("Tanimlama.Ulke");
-            modelBuilder.Entity<VergiBilgi>().ToTable("Kisi.VergiBilgi");
 
             //Relationship Rules
+            modelBuilder.Entity<Adres>().HasMany(e => e.FaturaBilgileri).WithOptional(e =>e.Adres).WillCascadeOnDelete(false);
+
             modelBuilder.Entity<Deger>().HasMany(e => e.AdresTipleri).WithRequired(e => e.AdresTipi).WillCascadeOnDelete(false);
             modelBuilder.Entity<Deger>().HasMany(e => e.DokumanTipleri).WithRequired(e => e.DokumanTipi).WillCascadeOnDelete(false);
             modelBuilder.Entity<Deger>().HasMany(e => e.HazirlikGruplari).WithRequired(e => e.HazirlikGrubu).WillCascadeOnDelete(false);
@@ -84,23 +86,23 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<Durum>().HasMany(e => e.StandartIcerikler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.Telefonlar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.Ulkeler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
-            modelBuilder.Entity<Durum>().HasMany(e => e.VergiBilgileri).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Durum>().HasMany(e => e.FaturaBilgileri).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<Firma>().HasMany(e => e.FirmaTelefonlar).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
-            modelBuilder.Entity<Firma>().HasMany(e => e.FirmaVergiBilgileri).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
-            modelBuilder.Entity<Firma>().HasMany(e => e.FirmaEpostalar).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
-            modelBuilder.Entity<Firma>().HasMany(e => e.FirmaAdresleri).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Firma>().HasMany(e => e.Telefonlar).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Firma>().HasMany(e => e.FaturaBilgileri).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Firma>().HasMany(e => e.Epostalar).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Firma>().HasMany(e => e.Adresler).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Ilce>().HasMany(e => e.Adresler).WithRequired(e => e.Ilce).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Kategori>().HasMany(e => e.Degerler).WithRequired(e => e.Kategori).WillCascadeOnDelete(false);
             modelBuilder.Entity<Kategori>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.Kategori).WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<Kisi>().HasMany(e => e.KisiAdresler).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Kisi>().HasMany(e => e.Adresler).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
             modelBuilder.Entity<Kisi>().HasMany(e => e.Epostalar).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
-            modelBuilder.Entity<Kisi>().HasMany(e => e.KisiTelefonlar).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
-            modelBuilder.Entity<Kisi>().HasMany(e => e.KisiVergiBilgileri).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Kisi>().HasMany(e => e.Telefonlar).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Kisi>().HasMany(e => e.FaturaBilgileri).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<ParaBirimi>().HasMany(e => e.Standartlar).WithRequired(e => e.ParaBirimi).WillCascadeOnDelete(false);
 
@@ -115,6 +117,5 @@ namespace Tse.Dal.Backoffice.Model
 
             modelBuilder.Entity<StandartIcerik>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.StandartIcerik).WillCascadeOnDelete(false);
         }
-
     }   
 }

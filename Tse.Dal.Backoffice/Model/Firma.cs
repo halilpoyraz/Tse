@@ -25,11 +25,11 @@
 
 
         //Navigation Properties
+        public virtual ICollection<Adres> Adresler { get; set; }
         public virtual Durum Durum { get; set; }
-        public virtual ICollection<VergiBilgi> FirmaVergiBilgileri { get; set; }
-        public virtual ICollection<Telefon> FirmaTelefonlar { get; set; }
-        public virtual ICollection<Eposta> FirmaEpostalar { get; set; }
-        public virtual ICollection<Adres> FirmaAdresleri { get; set; }
+        public virtual ICollection<Eposta> Epostalar { get; set; }
+        public virtual ICollection<FaturaBilgi> FaturaBilgileri { get; set; }
+        public virtual ICollection<Telefon> Telefonlar { get; set; }
 
 
         // Methods

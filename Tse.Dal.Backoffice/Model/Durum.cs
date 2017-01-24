@@ -34,7 +34,7 @@
         public virtual ICollection<StandartIcerik> StandartIcerikler  { get; set; }
         public virtual ICollection<Telefon> Telefonlar { get; set; }
         public virtual ICollection<Ulke> Ulkeler { get; set; }
-        public virtual ICollection<VergiBilgi> VergiBilgileri { get; set; }
+        public virtual ICollection<FaturaBilgi> FaturaBilgileri { get; set; }
 
 
         // Methods

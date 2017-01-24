@@ -2,16 +2,16 @@
 {
     using System.ComponentModel.DataAnnotations;    
 
-    public partial class VergiBilgi
+    public partial class FaturaBilgi
     {
         //Constructor
-        public VergiBilgi()
+        public FaturaBilgi()
         {
         }
 
 
         //Properties        
-        public int VergiBilgiId { get; set; }
+        public int FaturaBilgiId { get; set; }
                 
         [Display(Name ="Kişi")]
         public int? KisiId { get; set; }
@@ -25,6 +25,9 @@
         [Display(Name = "Vergi No") MaxLength(255) Required]
         public string VergiNo { get; set; }
 
+        [Display(Name = "Fatura Adresi")]
+        public int? AdresId { get; set; }
+
         [Display(Name ="Durum")]
         public int DurumId { get; set; }
 
@@ -33,6 +36,7 @@
         public virtual Durum Durum { get; set; }        
         public virtual Kisi Kisi { get; set; }
         public virtual Firma Firma { get; set; }
+        public virtual Adres Adres { get; set; }
 
 
         // Methods
