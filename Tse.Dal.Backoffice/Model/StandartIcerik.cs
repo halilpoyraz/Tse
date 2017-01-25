@@ -13,10 +13,10 @@
 
 
         //Properties
-        public int StandartIcerikId { get; set; }
+        public int StandartIcerikID { get; set; }
 
         [Display(Name = "Standart")]
-        public int StandartId { get; set; }
+        public int StandartID { get; set; }
 
         [Display(Name ="Başlık No") MaxLength(255)]
         public string BaslikNo { get; set; }
@@ -28,16 +28,16 @@
         public string Detay { get; set; }
 
         [Display(Name ="Üst İçerik")]
-        public int UstIcerikId { get; set; }
+        public int UstIcerikID { get; set; }
 
         [Display(Name ="İçerik Tipi")]
-        public int StandartIcerikTipiId { get; set; }
+        public int StandartIcerikTipiID { get; set; }
 
         [Display(Name ="Sıra No")]
         public int SiraNo { get; set; }
 
         [Display(Name ="Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         //Navigation Properties
@@ -45,7 +45,7 @@
                
         public virtual Durum Durum { get; set; }
 
-        [ForeignKey("StandartIcerikTipiId")]
+        [ForeignKey("StandartIcerikTipiID")]
         public virtual Deger StandartIcerikTipi { get; set; }
 
         public virtual ICollection<StandartAtif> StandartAtiflar { get; set; }

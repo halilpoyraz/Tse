@@ -13,34 +13,34 @@
 
 
         //Properties
-        public int AdresId { get; set; }
+        public int AdresID { get; set; }
 
         [Display(Name ="Kisi")]
-        public int? KisiId { get; set; }      
+        public int? KisiID { get; set; }      
 
         [Display(Name ="Firma")]
-        public int? FirmaId { get; set; }
+        public int? FirmaID { get; set; }
 
         [Display(Name ="Adres Tipi")]
-        public int AdresTipiId { get; set; }
+        public int AdresTipiID { get; set; }
 
         [Display(Name ="Adres Satırı") MaxLength(255) Required]
         public string AdresSatiri { get; set; }
 
         [Display(Name ="İlçe")]
-        public int IlceId { get; set; }
+        public int IlceID { get; set; }
 
         [Display(Name ="Şehir")]
-        public int SehirId { get; set; }
+        public int SehirID { get; set; }
 
         [Display(Name ="Ülke")]
-        public int UlkeId { get; set; }
+        public int UlkeID { get; set; }
 
         [Display(Name ="Varsayılan Adres")]
         public bool VarsayilanAdres { get; set; }
 
         [Display(Name ="Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         //Navigation Properties
@@ -52,7 +52,7 @@
         public virtual Firma Firma { get; set; }
         public virtual ICollection<FaturaBilgi> FaturaBilgileri { get; set; }
 
-        [ForeignKey("AdresTipiId")]
+        [ForeignKey("AdresTipiID")]
         public virtual Deger AdresTipi { get; set; }
 
 

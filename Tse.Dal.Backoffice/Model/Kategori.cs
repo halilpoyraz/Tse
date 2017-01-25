@@ -12,13 +12,13 @@
 
 
         //Properties
-        public int KategoriId { get; set; }
+        public int KategoriID { get; set; }
 
         [Display(Name ="Kategori Adı") MaxLength(255) Required]
         public string Adi { get; set; }
 
         [Display (Name ="Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         //Navigation Properties

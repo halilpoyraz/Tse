@@ -14,10 +14,10 @@
             #region //Durum
             context.Durumlar.AddRange(new List<Durum>
             {
-                new Durum { DurumId = 1, DurumAdi = "Aktif" },
-                new Durum { DurumId = 2, DurumAdi = "Pasif" },
-                new Durum { DurumId = 3, DurumAdi = "Taslak"},
-                new Durum { DurumId = 4, DurumAdi = "Silinmiş" }
+                new Durum { DurumID = 1, DurumAdi = "Aktif" },
+                new Durum { DurumID = 2, DurumAdi = "Pasif" },
+                new Durum { DurumID = 3, DurumAdi = "Taslak"},
+                new Durum { DurumID = 4, DurumAdi = "Silinmiş" }
             });
             #endregion
 
@@ -26,867 +26,867 @@
             {
                 new Ulke
                 {
-                    UlkeId  = 1,
+                    UlkeID  = 1,
                     UlkeAdi = "Türkiye",
-                    DurumId = 1,
+                    DurumID = 1,
                 },
                 new Ulke
                 {
-                    UlkeId  = 2,
+                    UlkeID  = 2,
                     UlkeAdi = "Almanya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 3,
+                    UlkeID  = 3,
                     UlkeAdi = "Amerika Birleşik Devletleri",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 4,
+                    UlkeID  = 4,
                     UlkeAdi = "Andora",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 5,
+                    UlkeID  = 5,
                     UlkeAdi = "Antigua ve Barbuda",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 6,
+                    UlkeID  = 6,
                     UlkeAdi = "Arjantin",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 7,
+                    UlkeID  = 7,
                     UlkeAdi = "Arnavutluk",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 8,
+                    UlkeID  = 8,
                     UlkeAdi = "Avusturalya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 9,
+                    UlkeID  = 9,
                     UlkeAdi = "Avusturya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 10,
+                    UlkeID  = 10,
                     UlkeAdi = "Azerbeycan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 11,
+                    UlkeID  = 11,
                     UlkeAdi = "Bahama",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 12,
+                    UlkeID  = 12,
                     UlkeAdi = "Bahreyn",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 13,
+                    UlkeID  = 13,
                     UlkeAdi = "Bangladeş",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 14,
+                    UlkeID  = 14,
                     UlkeAdi = "Bask Ülkesi",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 15,
+                    UlkeID  = 15,
                     UlkeAdi = "Batı Sahra",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 16,
+                    UlkeID  = 16,
                     UlkeAdi = "Belçika",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 17,
+                    UlkeID  = 17,
                     UlkeAdi = "Belize",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 18,
+                    UlkeID  = 18,
                     UlkeAdi = "Beyaz Rusya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 19,
+                    UlkeID  = 19,
                     UlkeAdi = "Bhutan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 20,
+                    UlkeID  = 20,
                     UlkeAdi = "Birleşik Arap Emirlikleri",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 21,
+                    UlkeID  = 21,
                     UlkeAdi = "Birleşik Devletler (ABD)",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 22,
+                    UlkeID  = 22,
                     UlkeAdi = "Birleşik Krallık",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 23,
+                    UlkeID  = 23,
                     UlkeAdi = "Bolivya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 24,
+                    UlkeID  = 24,
                     UlkeAdi = "Bosna-Hersek",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 25,
+                    UlkeID  = 25,
                     UlkeAdi = "Botsvana",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 26,
+                    UlkeID  = 26,
                     UlkeAdi = "Brezilya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 27,
+                    UlkeID  = 27,
                     UlkeAdi = "Bulgaristan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 28,
+                    UlkeID  = 28,
                     UlkeAdi = "Burma",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 29,
+                    UlkeID  = 29,
                     UlkeAdi = "Büyük Britanya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 30,
+                    UlkeID  = 30,
                     UlkeAdi = "Büyük Britanya ve Kuzey İrlanda Birleşik Krallığı",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 31,
+                    UlkeID  = 31,
                     UlkeAdi = "Cezayir",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 32,
+                    UlkeID  = 32,
                     UlkeAdi = "Cibuti",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 33,
+                    UlkeID  = 33,
                     UlkeAdi = "Çad",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 34,
+                    UlkeID  = 34,
                     UlkeAdi = "Çek Cumhuriyeti",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 35,
+                    UlkeID  = 35,
                     UlkeAdi = "Çin",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 36,
+                    UlkeID  = 36,
                     UlkeAdi = "Danimarka",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 37,
+                    UlkeID  = 37,
                     UlkeAdi = "Doğu Timor",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 38,
+                    UlkeID  = 38,
                     UlkeAdi = "Dominik Cumhuriyeti",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 39,
+                    UlkeID  = 39,
                     UlkeAdi = "Ekvator Ginesi",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 40,
+                    UlkeID  = 40,
                     UlkeAdi = "Eritre",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 41,
+                    UlkeID  = 41,
                     UlkeAdi = "Ermenistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 42,
+                    UlkeID  = 42,
                     UlkeAdi = "Estonya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 43,
+                    UlkeID  = 43,
                     UlkeAdi = "Etiyopya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 44,
+                    UlkeID  = 44,
                     UlkeAdi = "Faroe Adaları",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 45,
+                    UlkeID  = 45,
                     UlkeAdi = "Fas",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 46,
+                    UlkeID  = 46,
                     UlkeAdi = "Fiji",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 47,
+                    UlkeID  = 47,
                     UlkeAdi = "Fildişi Sahilleri",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 48,
+                    UlkeID  = 48,
                     UlkeAdi = "Filipinler",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 49,
+                    UlkeID  = 49,
                     UlkeAdi = "Finlandiya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 50,
+                    UlkeID  = 50,
                     UlkeAdi = "Fransa",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 51,
+                    UlkeID  = 51,
                     UlkeAdi = "Galler",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 52,
+                    UlkeID  = 52,
                     UlkeAdi = "Grönland",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 53,
+                    UlkeID  = 53,
                     UlkeAdi = "Güney Afrika",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 54,
+                    UlkeID  = 54,
                     UlkeAdi = "Gürcistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 55,
+                    UlkeID  = 55,
                     UlkeAdi = "Hırvatistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 56,
+                    UlkeID  = 56,
                     UlkeAdi = "Hindistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 57,
+                    UlkeID  = 57,
                     UlkeAdi = "Hollanda",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 58,
+                    UlkeID  = 58,
                     UlkeAdi = "Irak",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 59,
+                    UlkeID  = 59,
                     UlkeAdi = "İngiltere",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 60,
+                    UlkeID  = 60,
                     UlkeAdi = "İran",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 61,
+                    UlkeID  = 61,
                     UlkeAdi = "İrlanda",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 62,
+                    UlkeID  = 62,
                     UlkeAdi = "İrlanda Cumhuriyeti",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 63,
+                    UlkeID  = 63,
                     UlkeAdi = "İskoçya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 64,
+                    UlkeID  = 64,
                     UlkeAdi = "İspanya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 65,
+                    UlkeID  = 65,
                     UlkeAdi = "İsrail",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 66,
+                    UlkeID  = 66,
                     UlkeAdi = "İsveç",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 67,
+                    UlkeID  = 67,
                     UlkeAdi = "İsviçre",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 68,
+                    UlkeID  = 68,
                     UlkeAdi = "İtalya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 69,
+                    UlkeID  = 69,
                     UlkeAdi = "İzlanda",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 70,
+                    UlkeID  = 70,
                     UlkeAdi = "Jameika",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 71,
+                    UlkeID  = 71,
                     UlkeAdi = "Japonya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 72,
+                    UlkeID  = 72,
                     UlkeAdi = "Kamboçya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 73,
+                    UlkeID  = 73,
                     UlkeAdi = "Kamerun",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 74,
+                    UlkeID  = 74,
                     UlkeAdi = "Kanada",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 75,
+                    UlkeID  = 75,
                     UlkeAdi = "Karadağ",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 76,
+                    UlkeID  = 76,
                     UlkeAdi = "Kazakistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 77,
+                    UlkeID  = 77,
                     UlkeAdi = "Kıbrıs",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 78,
+                    UlkeID  = 78,
                     UlkeAdi = "Kırgızistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 79,
+                    UlkeID  = 79,
                     UlkeAdi = "Kolombiya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 80,
+                    UlkeID  = 80,
                     UlkeAdi = "Komoros",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 81,
+                    UlkeID  = 81,
                     UlkeAdi = "Kuzey İrlanda",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 82,
+                    UlkeID  = 82,
                     UlkeAdi = "Küba",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 83,
+                    UlkeID  = 83,
                     UlkeAdi = "Letonya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 84,
+                    UlkeID  = 84,
                     UlkeAdi = "Libya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 85,
+                    UlkeID  = 85,
                     UlkeAdi = "Lihtenştayn",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 86,
+                    UlkeID  = 86,
                     UlkeAdi = "litvanya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 87,
+                    UlkeID  = 87,
                     UlkeAdi = "Lübnan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 88,
+                    UlkeID  = 88,
                     UlkeAdi = "Lüksemburg",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 89,
+                    UlkeID  = 89,
                     UlkeAdi = "Macaristan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 90,
+                    UlkeID  = 90,
                     UlkeAdi = "Madagaskar",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 91,
+                    UlkeID  = 91,
                     UlkeAdi = "Makedonya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 92,
+                    UlkeID  = 92,
                     UlkeAdi = "Maldivler",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 93,
+                    UlkeID  = 93,
                     UlkeAdi = "Malezya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 94,
+                    UlkeID  = 94,
                     UlkeAdi = "Malta",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 95,
+                    UlkeID  = 95,
                     UlkeAdi = "Marshall Adaları",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 96,
+                    UlkeID  = 96,
                     UlkeAdi = "Meksika",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 97,
+                    UlkeID  = 97,
                     UlkeAdi = "Mısır",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 98,
+                    UlkeID  = 98,
                     UlkeAdi = "Moğolistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 99,
+                    UlkeID  = 99,
                     UlkeAdi = "Moldovya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 100,
+                    UlkeID  = 100,
                     UlkeAdi = "Monako",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 101,
+                    UlkeID  = 101,
                     UlkeAdi = "Mozambik",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 102,
+                    UlkeID  = 102,
                     UlkeAdi = "Myanmar",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 103,
+                    UlkeID  = 103,
                     UlkeAdi = "Norveç",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 104,
+                    UlkeID  = 104,
                     UlkeAdi = "Orta Afrika Cumhuriyeti",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 105,
+                    UlkeID  = 105,
                     UlkeAdi = "Özbekistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 106,
+                    UlkeID  = 106,
                     UlkeAdi = "Papua Yeni Gine",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 107,
+                    UlkeID  = 107,
                     UlkeAdi = "Polonya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 108,
+                    UlkeID  = 108,
                     UlkeAdi = "Portekiz",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 109,
+                    UlkeID  = 109,
                     UlkeAdi = "Romanya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 110,
+                    UlkeID  = 110,
                     UlkeAdi = "Rusya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 111,
+                    UlkeID  = 111,
                     UlkeAdi = "San Marino",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 112,
+                    UlkeID  = 112,
                     UlkeAdi = "Sırbistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 113,
+                    UlkeID  = 113,
                     UlkeAdi = "Sırbistan-Karadağ",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 114,
+                    UlkeID  = 114,
                     UlkeAdi = "Slovakya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 115,
+                    UlkeID  = 115,
                     UlkeAdi = "Slovenya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 116,
+                    UlkeID  = 116,
                     UlkeAdi = "Suriye",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 117,
+                    UlkeID  = 117,
                     UlkeAdi = "Suudi Arabistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 118,
+                    UlkeID  = 118,
                     UlkeAdi = "Şili",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 119,
+                    UlkeID  = 119,
                     UlkeAdi = "Tacikistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 120,
+                    UlkeID  = 120,
                     UlkeAdi = "Tayland",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 121,
+                    UlkeID  = 121,
                     UlkeAdi = "Tunus",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 122,
+                    UlkeID  = 122,
                     UlkeAdi = "Türkmenistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 123,
+                    UlkeID  = 123,
                     UlkeAdi = "Ukrayna",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 124,
+                    UlkeID  = 124,
                     UlkeAdi = "Ürdün",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 125,
+                    UlkeID  = 125,
                     UlkeAdi = "Vatikan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 126,
+                    UlkeID  = 126,
                     UlkeAdi = "Vietnam",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 127,
+                    UlkeID  = 127,
                     UlkeAdi = "Yemen",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 128,
+                    UlkeID  = 128,
                     UlkeAdi = "Yeni Zelanda",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 129,
+                    UlkeID  = 129,
                     UlkeAdi = "Yeşil Burun",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 130,
+                    UlkeID  = 130,
                     UlkeAdi = "Yunanistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 131,
+                    UlkeID  = 131,
                     UlkeAdi = "Zambiye",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 132,
+                    UlkeID  = 132,
                     UlkeAdi = "Zimbabve",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 133,
+                    UlkeID  = 133,
                     UlkeAdi = "Kuveyt",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 134,
+                    UlkeID  = 134,
                     UlkeAdi = "Pakistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 135,
+                    UlkeID  = 135,
                     UlkeAdi = "Güney Kore",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 136,
+                    UlkeID  = 136,
                     UlkeAdi = "Kuzey Kore",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 137,
+                    UlkeID  = 137,
                     UlkeAdi = "Singapur",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 138,
+                    UlkeID  = 138,
                     UlkeAdi = "Katar",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 139,
+                    UlkeID  = 139,
                     UlkeAdi = "Umman",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 140,
+                    UlkeID  = 140,
                     UlkeAdi = "Gana",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 141,
+                    UlkeID  = 141,
                     UlkeAdi = "Sri Lanka",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 142,
+                    UlkeID  = 142,
                     UlkeAdi = "Rusya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Ulke
                 {
-                    UlkeId  = 143,
+                    UlkeID  = 143,
                     UlkeAdi = "Afganistan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                  new Ulke
                 {
-                    UlkeId  = 144,
+                    UlkeID  = 144,
                     UlkeAdi = "Hong Kong",
-                    DurumId = 1
+                    DurumID = 1
                 }
             });
             #endregion            
@@ -896,570 +896,570 @@
             {
                 new Sehir
                 {
-                    SehirId = 1,
-                    UlkeId = 1,
+                    SehirID = 1,
+                    UlkeID = 1,
                     SehirAdi = "Adana",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 2,
-                    UlkeId = 1,
+                    SehirID = 2,
+                    UlkeID = 1,
                     SehirAdi = "Adıyaman",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 3,
-                    UlkeId = 1,
+                    SehirID = 3,
+                    UlkeID = 1,
                     SehirAdi = "Afyonkarahisar",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 4,
-                    UlkeId = 1,
+                    SehirID = 4,
+                    UlkeID = 1,
                     SehirAdi = "Ağrı",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 5,
-                    UlkeId = 1,
+                    SehirID = 5,
+                    UlkeID = 1,
                     SehirAdi = "Amasya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 6,
-                    UlkeId = 1,
+                    SehirID = 6,
+                    UlkeID = 1,
                     SehirAdi = "Ankara",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 7,
-                    UlkeId = 1,
+                    SehirID = 7,
+                    UlkeID = 1,
                     SehirAdi = "Antalya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 8,
-                    UlkeId = 1,
+                    SehirID = 8,
+                    UlkeID = 1,
                     SehirAdi = "Artvin",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 9,
-                    UlkeId = 1,
+                    SehirID = 9,
+                    UlkeID = 1,
                     SehirAdi = "Aydın",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 10,
-                    UlkeId = 1,
+                    SehirID = 10,
+                    UlkeID = 1,
                     SehirAdi = "Balıkesir",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 11,
-                    UlkeId = 1,
+                    SehirID = 11,
+                    UlkeID = 1,
                     SehirAdi = "Bilecik",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 12,
-                    UlkeId = 1,
+                    SehirID = 12,
+                    UlkeID = 1,
                     SehirAdi = "Bingöl",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 13,
-                    UlkeId = 1,
+                    SehirID = 13,
+                    UlkeID = 1,
                     SehirAdi = "Bitlis",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 14,
-                    UlkeId = 1,
+                    SehirID = 14,
+                    UlkeID = 1,
                     SehirAdi = "Bolu",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 15,
-                    UlkeId = 1,
+                    SehirID = 15,
+                    UlkeID = 1,
                     SehirAdi = "Burdur",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 16,
-                    UlkeId = 1,
+                    SehirID = 16,
+                    UlkeID = 1,
                     SehirAdi = "Bursa",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 17,
-                    UlkeId = 1,
+                    SehirID = 17,
+                    UlkeID = 1,
                     SehirAdi = "Çanakkale",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 18,
-                    UlkeId = 1,
+                    SehirID = 18,
+                    UlkeID = 1,
                     SehirAdi = "Çankırı",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 19,
-                    UlkeId = 1,
+                    SehirID = 19,
+                    UlkeID = 1,
                     SehirAdi = "Çorum",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 20,
-                    UlkeId = 1,
+                    SehirID = 20,
+                    UlkeID = 1,
                     SehirAdi = "Denizli",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 21,
-                    UlkeId = 1,
+                    SehirID = 21,
+                    UlkeID = 1,
                     SehirAdi = "Diyarbakır",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 22,
-                    UlkeId = 1,
+                    SehirID = 22,
+                    UlkeID = 1,
                     SehirAdi = "Edirne",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 23,
-                    UlkeId = 1,
+                    SehirID = 23,
+                    UlkeID = 1,
                     SehirAdi = "Elazığ",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 24,
-                    UlkeId = 1,
+                    SehirID = 24,
+                    UlkeID = 1,
                     SehirAdi = "Erzincan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 25,
-                    UlkeId = 1,
+                    SehirID = 25,
+                    UlkeID = 1,
                     SehirAdi = "Erzurum",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 26,
-                    UlkeId = 1,
+                    SehirID = 26,
+                    UlkeID = 1,
                     SehirAdi = "Eskişehir",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 27,
-                    UlkeId = 1,
+                    SehirID = 27,
+                    UlkeID = 1,
                     SehirAdi = "Gaziantep",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 28,
-                    UlkeId = 1,
+                    SehirID = 28,
+                    UlkeID = 1,
                     SehirAdi = "Giresun",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 29,
-                    UlkeId = 1,
+                    SehirID = 29,
+                    UlkeID = 1,
                     SehirAdi = "Gümüşhane",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 30,
-                    UlkeId = 1,
+                    SehirID = 30,
+                    UlkeID = 1,
                     SehirAdi = "Hakkari",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 31,
-                    UlkeId = 1,
+                    SehirID = 31,
+                    UlkeID = 1,
                     SehirAdi = "Hatay",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 32,
-                    UlkeId = 1,
+                    SehirID = 32,
+                    UlkeID = 1,
                     SehirAdi = "Isparta",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 33,
-                    UlkeId = 1,
+                    SehirID = 33,
+                    UlkeID = 1,
                     SehirAdi = "Mersin",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 34,
-                    UlkeId = 1,
+                    SehirID = 34,
+                    UlkeID = 1,
                     SehirAdi = "İstanbul",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 35,
-                    UlkeId = 1,
+                    SehirID = 35,
+                    UlkeID = 1,
                     SehirAdi = "İzmir",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 36,
-                    UlkeId = 1,
+                    SehirID = 36,
+                    UlkeID = 1,
                     SehirAdi = "Kars",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 37,
-                    UlkeId = 1,
+                    SehirID = 37,
+                    UlkeID = 1,
                     SehirAdi = "Kastamonu",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 38,
-                    UlkeId = 1,
+                    SehirID = 38,
+                    UlkeID = 1,
                     SehirAdi = "Kayseri",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 39,
-                    UlkeId = 1,
+                    SehirID = 39,
+                    UlkeID = 1,
                     SehirAdi = "Kırklareli",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 40,
-                    UlkeId = 1,
+                    SehirID = 40,
+                    UlkeID = 1,
                     SehirAdi = "Kırşehir",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 41,
-                    UlkeId = 1,
+                    SehirID = 41,
+                    UlkeID = 1,
                     SehirAdi = "Kocaeli",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 42,
-                    UlkeId = 1,
+                    SehirID = 42,
+                    UlkeID = 1,
                     SehirAdi = "Konya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 43,
-                    UlkeId = 1,
+                    SehirID = 43,
+                    UlkeID = 1,
                     SehirAdi = "Kütahya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 44,
-                    UlkeId = 1,
+                    SehirID = 44,
+                    UlkeID = 1,
                     SehirAdi = "Malatya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 45,
-                    UlkeId = 1,
+                    SehirID = 45,
+                    UlkeID = 1,
                     SehirAdi = "Manisa",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 46,
-                    UlkeId = 1,
+                    SehirID = 46,
+                    UlkeID = 1,
                     SehirAdi = "Kahramanmaraş",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 47,
-                    UlkeId = 1,
+                    SehirID = 47,
+                    UlkeID = 1,
                     SehirAdi = "Mardin",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 48,
-                    UlkeId = 1,
+                    SehirID = 48,
+                    UlkeID = 1,
                     SehirAdi = "Muğla",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 49,
-                    UlkeId = 1,
+                    SehirID = 49,
+                    UlkeID = 1,
                     SehirAdi = "Muş",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 50,
-                    UlkeId = 1,
+                    SehirID = 50,
+                    UlkeID = 1,
                     SehirAdi = "Nevşehir",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 51,
-                    UlkeId = 1,
+                    SehirID = 51,
+                    UlkeID = 1,
                     SehirAdi = "Niğde",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 52,
-                    UlkeId = 1,
+                    SehirID = 52,
+                    UlkeID = 1,
                     SehirAdi = "Ordu",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 53,
-                    UlkeId = 1,
+                    SehirID = 53,
+                    UlkeID = 1,
                     SehirAdi = "Rize",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 54,
-                    UlkeId = 1,
+                    SehirID = 54,
+                    UlkeID = 1,
                     SehirAdi = "Sakarya",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 55,
-                    UlkeId = 1,
+                    SehirID = 55,
+                    UlkeID = 1,
                     SehirAdi = "Samsun",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 56,
-                    UlkeId = 1,
+                    SehirID = 56,
+                    UlkeID = 1,
                     SehirAdi = "Siirt",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 57,
-                    UlkeId = 1,
+                    SehirID = 57,
+                    UlkeID = 1,
                     SehirAdi = "Sinop",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 58,
-                    UlkeId = 1,
+                    SehirID = 58,
+                    UlkeID = 1,
                     SehirAdi = "Sivas",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 59,
-                    UlkeId = 1,
+                    SehirID = 59,
+                    UlkeID = 1,
                     SehirAdi = "Tekirdağ",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 60,
-                    UlkeId = 1,
+                    SehirID = 60,
+                    UlkeID = 1,
                     SehirAdi = "Tokat",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 61,
-                    UlkeId = 1,
+                    SehirID = 61,
+                    UlkeID = 1,
                     SehirAdi = "Trabzon",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 62,
-                    UlkeId = 1,
+                    SehirID = 62,
+                    UlkeID = 1,
                     SehirAdi = "Tunceli",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 63,
-                    UlkeId = 1,
+                    SehirID = 63,
+                    UlkeID = 1,
                     SehirAdi = "Şanlıurfa",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 64,
-                    UlkeId = 1,
+                    SehirID = 64,
+                    UlkeID = 1,
                     SehirAdi = "Uşak",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 65,
-                    UlkeId = 1,
+                    SehirID = 65,
+                    UlkeID = 1,
                     SehirAdi = "Van",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 66,
-                    UlkeId = 1,
+                    SehirID = 66,
+                    UlkeID = 1,
                     SehirAdi = "Yozgat",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 67,
-                    UlkeId = 1,
+                    SehirID = 67,
+                    UlkeID = 1,
                     SehirAdi = "Zonguldak",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 68,
-                    UlkeId = 1,
+                    SehirID = 68,
+                    UlkeID = 1,
                     SehirAdi = "Aksaray",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 69,
-                    UlkeId = 1,
+                    SehirID = 69,
+                    UlkeID = 1,
                     SehirAdi = "Bayburt",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 70,
-                    UlkeId = 1,
+                    SehirID = 70,
+                    UlkeID = 1,
                     SehirAdi = "Karaman",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 71,
-                    UlkeId = 1,
+                    SehirID = 71,
+                    UlkeID = 1,
                     SehirAdi = "Kırıkkale",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 72,
-                    UlkeId = 1,
+                    SehirID = 72,
+                    UlkeID = 1,
                     SehirAdi = "Batman",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 73,
-                    UlkeId = 1,
+                    SehirID = 73,
+                    UlkeID = 1,
                     SehirAdi = "Şırnak",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 74,
-                    UlkeId = 1,
+                    SehirID = 74,
+                    UlkeID = 1,
                     SehirAdi = "Bartın",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 75,
-                    UlkeId = 1,
+                    SehirID = 75,
+                    UlkeID = 1,
                     SehirAdi = "Ardahan",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 76,
-                    UlkeId = 1,
+                    SehirID = 76,
+                    UlkeID = 1,
                     SehirAdi = "Iğdır",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 77,
-                    UlkeId = 1,
+                    SehirID = 77,
+                    UlkeID = 1,
                     SehirAdi = "Yalova",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 78,
-                    UlkeId = 1,
+                    SehirID = 78,
+                    UlkeID = 1,
                     SehirAdi = "Karabük",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 79,
-                    UlkeId = 1,
+                    SehirID = 79,
+                    UlkeID = 1,
                     SehirAdi = "Kilis",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 80,
-                    UlkeId = 1,
+                    SehirID = 80,
+                    UlkeID = 1,
                     SehirAdi = "Osmaniye",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Sehir
                 {
-                    SehirId = 81,
-                    UlkeId = 1,
+                    SehirID = 81,
+                    UlkeID = 1,
                     SehirAdi = "Düzce",
-                    DurumId = 1
+                    DurumID = 1
                 }
             });
             #endregion           
@@ -1469,7947 +1469,7947 @@
             {
                 new Ilce
                 {
-                IlceId   = 1,
-                SehirId  = 1,
+                IlceID   = 1,
+                SehirID  = 1,
                 IlceKodu = 1104,
                 IlceAdi  = "Seyhan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 2,
-                SehirId  = 1,
+                IlceID   = 2,
+                SehirID  = 1,
                 IlceKodu = 1219,
                 IlceAdi  = "Ceyhan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 3,
-                SehirId  = 1,
+                IlceID   = 3,
+                SehirID  = 1,
                 IlceKodu = 1329,
                 IlceAdi  = "Feke",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 4,
-                SehirId  = 1,
+                IlceID   = 4,
+                SehirID  = 1,
                 IlceKodu = 1437,
                 IlceAdi  = "Karaisalı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 5,
-                SehirId  = 1,
+                IlceID   = 5,
+                SehirID  = 1,
                 IlceKodu = 1443,
                 IlceAdi  = "Karataş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 6,
-                SehirId  = 1,
+                IlceID   = 6,
+                SehirID  = 1,
                 IlceKodu = 1486,
                 IlceAdi  = "Kozan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 7,
-                SehirId  = 1,
+                IlceID   = 7,
+                SehirID  = 1,
                 IlceKodu = 1580,
                 IlceAdi  = "Pozantı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 8,
-                SehirId  = 1,
+                IlceID   = 8,
+                SehirID  = 1,
                 IlceKodu = 1588,
                 IlceAdi  = "Saimbeyli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 9,
-                SehirId  = 1,
+                IlceID   = 9,
+                SehirID  = 1,
                 IlceKodu = 1687,
                 IlceAdi  = "Tufanbeyli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 10,
-                SehirId  = 1,
+                IlceID   = 10,
+                SehirID  = 1,
                 IlceKodu = 1734,
                 IlceAdi  = "Yumurtalık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 11,
-                SehirId  = 1,
+                IlceID   = 11,
+                SehirID  = 1,
                 IlceKodu = 1748,
                 IlceAdi  = "Yüreğir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 12,
-                SehirId  = 1,
+                IlceID   = 12,
+                SehirID  = 1,
                 IlceKodu = 1757,
                 IlceAdi  = "Aladağ",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 13,
-                SehirId  = 1,
+                IlceID   = 13,
+                SehirID  = 1,
                 IlceKodu = 1806,
                 IlceAdi  = "İmamoğlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 14,
-                SehirId  = 1,
+                IlceID   = 14,
+                SehirID  = 1,
                 IlceKodu = 2032,
                 IlceAdi  = "Sarıçam",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 15,
-                SehirId  = 1,
+                IlceID   = 15,
+                SehirID  = 1,
                 IlceKodu = 2033,
                 IlceAdi  = "Çukurova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 16,
-                SehirId  = 2,
+                IlceID   = 16,
+                SehirID  = 2,
                 IlceKodu = 1105,
                 IlceAdi  = "Adıyaman Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 17,
-                SehirId  = 2,
+                IlceID   = 17,
+                SehirID  = 2,
                 IlceKodu = 1182,
                 IlceAdi  = "Besni",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 18,
-                SehirId  = 2,
+                IlceID   = 18,
+                SehirID  = 2,
                 IlceKodu = 1246,
                 IlceAdi  = "Çelikhan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 19,
-                SehirId  = 2,
+                IlceID   = 19,
+                SehirID  = 2,
                 IlceKodu = 1347,
                 IlceAdi  = "Gerger",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 20,
-                SehirId  = 2,
+                IlceID   = 20,
+                SehirID  = 2,
                 IlceKodu = 1354,
                 IlceAdi  = "Gölbaşı / Adıyaman",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 21,
-                SehirId  = 2,
+                IlceID   = 21,
+                SehirID  = 2,
                 IlceKodu = 1425,
                 IlceAdi  = "Kahta",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 22,
-                SehirId  = 2,
+                IlceID   = 22,
+                SehirID  = 2,
                 IlceKodu = 1592,
                 IlceAdi  = "Samsat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 23,
-                SehirId  = 2,
+                IlceID   = 23,
+                SehirID  = 2,
                 IlceKodu = 1985,
                 IlceAdi  = "Sincik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 24,
-                SehirId  = 2,
+                IlceID   = 24,
+                SehirID  = 2,
                 IlceKodu = 1989,
                 IlceAdi  = "Tut",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 25,
-                SehirId  = 3,
+                IlceID   = 25,
+                SehirID  = 3,
                 IlceKodu = 1108,
                 IlceAdi  = "Afyonkarahisar Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 26,
-                SehirId  = 3,
+                IlceID   = 26,
+                SehirID  = 3,
                 IlceKodu = 1200,
                 IlceAdi  = "Bolvadin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 27,
-                SehirId  = 3,
+                IlceID   = 27,
+                SehirID  = 3,
                 IlceKodu = 1239,
                 IlceAdi  = "Çay",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 28,
-                SehirId  = 3,
+                IlceID   = 28,
+                SehirID  = 3,
                 IlceKodu = 1267,
                 IlceAdi  = "Dazkırı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 29,
-                SehirId  = 3,
+                IlceID   = 29,
+                SehirID  = 3,
                 IlceKodu = 1281,
                 IlceAdi  = "Dinar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 30,
-                SehirId  = 3,
+                IlceID   = 30,
+                SehirID  = 3,
                 IlceKodu = 1306,
                 IlceAdi  = "Emirdağ",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 31,
-                SehirId  = 3,
+                IlceID   = 31,
+                SehirID  = 3,
                 IlceKodu = 1404,
                 IlceAdi  = "İhsaniye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 32,
-                SehirId  = 3,
+                IlceID   = 32,
+                SehirID  = 3,
                 IlceKodu = 1594,
                 IlceAdi  = "Sandıklı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 33,
-                SehirId  = 3,
+                IlceID   = 33,
+                SehirID  = 3,
                 IlceKodu = 1626,
                 IlceAdi  = "Sinanpaşa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 34,
-                SehirId  = 3,
+                IlceID   = 34,
+                SehirID  = 3,
                 IlceKodu = 1639,
                 IlceAdi  = "Sultandağı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 35,
-                SehirId  = 3,
+                IlceID   = 35,
+                SehirID  = 3,
                 IlceKodu = 1664,
                 IlceAdi  = "Şuhut",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 36,
-                SehirId  = 3,
+                IlceID   = 36,
+                SehirID  = 3,
                 IlceKodu = 1771,
                 IlceAdi  = "Başmakçı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 37,
-                SehirId  = 3,
+                IlceID   = 37,
+                SehirID  = 3,
                 IlceKodu = 1773,
                 IlceAdi  = "Bayat / Afyonkarahisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 38,
-                SehirId  = 3,
+                IlceID   = 38,
+                SehirID  = 3,
                 IlceKodu = 1809,
                 IlceAdi  = "İscehisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 39,
-                SehirId  = 3,
+                IlceID   = 39,
+                SehirID  = 3,
                 IlceKodu = 1906,
                 IlceAdi  = "Çobanlar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 40,
-                SehirId  = 3,
+                IlceID   = 40,
+                SehirID  = 3,
                 IlceKodu = 1923,
                 IlceAdi  = "Evciler",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 41,
-                SehirId  = 3,
+                IlceID   = 41,
+                SehirID  = 3,
                 IlceKodu = 1944,
                 IlceAdi  = "Hocalar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 42,
-                SehirId  = 3,
+                IlceID   = 42,
+                SehirID  = 3,
                 IlceKodu = 1961,
                 IlceAdi  = "Kızılören",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 43,
-                SehirId  = 4,
+                IlceID   = 43,
+                SehirID  = 4,
                 IlceKodu = 1111,
                 IlceAdi  = "Ağrı Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 44,
-                SehirId  = 4,
+                IlceID   = 44,
+                SehirID  = 4,
                 IlceKodu = 1283,
                 IlceAdi  = "Diyadin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 45,
-                SehirId  = 4,
+                IlceID   = 45,
+                SehirID  = 4,
                 IlceKodu = 1287,
                 IlceAdi  = "Doğubayazıt",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 46,
-                SehirId  = 4,
+                IlceID   = 46,
+                SehirID  = 4,
                 IlceKodu = 1301,
                 IlceAdi  = "Eleşkirt",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 47,
-                SehirId  = 4,
+                IlceID   = 47,
+                SehirID  = 4,
                 IlceKodu = 1379,
                 IlceAdi  = "Hamur",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 48,
-                SehirId  = 4,
+                IlceID   = 48,
+                SehirID  = 4,
                 IlceKodu = 1568,
                 IlceAdi  = "Patnos",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 49,
-                SehirId  = 4,
+                IlceID   = 49,
+                SehirID  = 4,
                 IlceKodu = 1667,
                 IlceAdi  = "Taşlıçay",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 50,
-                SehirId  = 4,
+                IlceID   = 50,
+                SehirID  = 4,
                 IlceKodu = 1691,
                 IlceAdi  = "Tutak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 51,
-                SehirId  = 5,
+                IlceID   = 51,
+                SehirID  = 5,
                 IlceKodu = 1134,
                 IlceAdi  = "Amasya Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 52,
-                SehirId  = 5,
+                IlceID   = 52,
+                SehirID  = 5,
                 IlceKodu = 1363,
                 IlceAdi  = "Göynücek",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 53,
-                SehirId  = 5,
+                IlceID   = 53,
+                SehirID  = 5,
                 IlceKodu = 1368,
                 IlceAdi  = "Gümüşhacıköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 54,
-                SehirId  = 5,
+                IlceID   = 54,
+                SehirID  = 5,
                 IlceKodu = 1524,
                 IlceAdi  = "Merzifon",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 55,
-                SehirId  = 5,
+                IlceID   = 55,
+                SehirID  = 5,
                 IlceKodu = 1641,
                 IlceAdi  = "Suluova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 56,
-                SehirId  = 5,
+                IlceID   = 56,
+                SehirID  = 5,
                 IlceKodu = 1668,
                 IlceAdi  = "Taşova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 57,
-                SehirId  = 5,
+                IlceID   = 57,
+                SehirID  = 5,
                 IlceKodu = 1938,
                 IlceAdi  = "Hamamözü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 58,
-                SehirId  = 6,
+                IlceID   = 58,
+                SehirID  = 6,
                 IlceKodu = 1130,
                 IlceAdi  = "Altındağ",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 59,
-                SehirId  = 6,
+                IlceID   = 59,
+                SehirID  = 6,
                 IlceKodu = 1157,
                 IlceAdi  = "Ayaş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 60,
-                SehirId  = 6,
+                IlceID   = 60,
+                SehirID  = 6,
                 IlceKodu = 1167,
                 IlceAdi  = "Bala",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 61,
-                SehirId  = 6,
+                IlceID   = 61,
+                SehirID  = 6,
                 IlceKodu = 1187,
                 IlceAdi  = "Beypazarı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 62,
-                SehirId  = 6,
+                IlceID   = 62,
+                SehirID  = 6,
                 IlceKodu = 1227,
                 IlceAdi  = "Çamlıdere",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 63,
-                SehirId  = 6,
+                IlceID   = 63,
+                SehirID  = 6,
                 IlceKodu = 1231,
                 IlceAdi  = "Çankaya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 64,
-                SehirId  = 6,
+                IlceID   = 64,
+                SehirID  = 6,
                 IlceKodu = 1260,
                 IlceAdi  = "Çubuk",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 65,
-                SehirId  = 6,
+                IlceID   = 65,
+                SehirID  = 6,
                 IlceKodu = 1302,
                 IlceAdi  = "Elmadağ",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 66,
-                SehirId  = 6,
+                IlceID   = 66,
+                SehirID  = 6,
                 IlceKodu = 1365,
                 IlceAdi  = "Güdül",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 67,
-                SehirId  = 6,
+                IlceID   = 67,
+                SehirID  = 6,
                 IlceKodu = 1387,
                 IlceAdi  = "Haymana",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 68,
-                SehirId  = 6,
+                IlceID   = 68,
+                SehirID  = 6,
                 IlceKodu = 1427,
                 IlceAdi  = "Kalecik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 69,
-                SehirId  = 6,
+                IlceID   = 69,
+                SehirID  = 6,
                 IlceKodu = 1473,
                 IlceAdi  = "Kızılcahamam",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 70,
-                SehirId  = 6,
+                IlceID   = 70,
+                SehirID  = 6,
                 IlceKodu = 1539,
                 IlceAdi  = "Nallıhan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 71,
-                SehirId  = 6,
+                IlceID   = 71,
+                SehirID  = 6,
                 IlceKodu = 1578,
                 IlceAdi  = "Polatlı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 72,
-                SehirId  = 6,
+                IlceID   = 72,
+                SehirID  = 6,
                 IlceKodu = 1658,
                 IlceAdi  = "Şereflikoçhisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 73,
-                SehirId  = 6,
+                IlceID   = 73,
+                SehirID  = 6,
                 IlceKodu = 1723,
                 IlceAdi  = "Yenimahalle",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 74,
-                SehirId  = 6,
+                IlceID   = 74,
+                SehirID  = 6,
                 IlceKodu = 1744,
                 IlceAdi  = "Gölbaşı / Ankara",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 75,
-                SehirId  = 6,
+                IlceID   = 75,
+                SehirID  = 6,
                 IlceKodu = 1745,
                 IlceAdi  = "Keçiören",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 76,
-                SehirId  = 6,
+                IlceID   = 76,
+                SehirID  = 6,
                 IlceKodu = 1746,
                 IlceAdi  = "Mamak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 77,
-                SehirId  = 6,
+                IlceID   = 77,
+                SehirID  = 6,
                 IlceKodu = 1747,
                 IlceAdi  = "Sincan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 78,
-                SehirId  = 6,
+                IlceID   = 78,
+                SehirID  = 6,
                 IlceKodu = 1815,
                 IlceAdi  = "Kazan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 79,
-                SehirId  = 6,
+                IlceID   = 79,
+                SehirID  = 6,
                 IlceKodu = 1872,
                 IlceAdi  = "Akyurt",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 80,
-                SehirId  = 6,
+                IlceID   = 80,
+                SehirID  = 6,
                 IlceKodu = 1922,
                 IlceAdi  = "Etimesgut",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 81,
-                SehirId  = 6,
+                IlceID   = 81,
+                SehirID  = 6,
                 IlceKodu = 1924,
                 IlceAdi  = "Evren",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 82,
-                SehirId  = 6,
+                IlceID   = 82,
+                SehirID  = 6,
                 IlceKodu = 2034,
                 IlceAdi  = "Pursaklar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 83,
-                SehirId  = 7,
+                IlceID   = 83,
+                SehirID  = 7,
                 IlceKodu = 1121,
                 IlceAdi  = "Akseki",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 84,
-                SehirId  = 7,
+                IlceID   = 84,
+                SehirID  = 7,
                 IlceKodu = 1126,
                 IlceAdi  = "Alanya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 85,
-                SehirId  = 7,
+                IlceID   = 85,
+                SehirID  = 7,
                 IlceKodu = 1138,
                 IlceAdi  = "Antalya Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 86,
-                SehirId  = 7,
+                IlceID   = 86,
+                SehirID  = 7,
                 IlceKodu = 1303,
                 IlceAdi  = "Elmalı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 87,
-                SehirId  = 7,
+                IlceID   = 87,
+                SehirID  = 7,
                 IlceKodu = 1333,
                 IlceAdi  = "Finike",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 88,
-                SehirId  = 7,
+                IlceID   = 88,
+                SehirID  = 7,
                 IlceKodu = 1337,
                 IlceAdi  = "Gazipaşa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 89,
-                SehirId  = 7,
+                IlceID   = 89,
+                SehirID  = 7,
                 IlceKodu = 1370,
                 IlceAdi  = "Gündoğmuş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 90,
-                SehirId  = 7,
+                IlceID   = 90,
+                SehirID  = 7,
                 IlceKodu = 1451,
                 IlceAdi  = "Kaş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 91,
-                SehirId  = 7,
+                IlceID   = 91,
+                SehirID  = 7,
                 IlceKodu = 1483,
                 IlceAdi  = "Korkuteli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 92,
-                SehirId  = 7,
+                IlceID   = 92,
+                SehirID  = 7,
                 IlceKodu = 1492,
                 IlceAdi  = "Kumluca",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 93,
-                SehirId  = 7,
+                IlceID   = 93,
+                SehirID  = 7,
                 IlceKodu = 1512,
                 IlceAdi  = "Manavgat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 94,
-                SehirId  = 7,
+                IlceID   = 94,
+                SehirID  = 7,
                 IlceKodu = 1616,
                 IlceAdi  = "Serik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 95,
-                SehirId  = 7,
+                IlceID   = 95,
+                SehirID  = 7,
                 IlceKodu = 1811,
                 IlceAdi  = "Demre",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 96,
-                SehirId  = 7,
+                IlceID   = 96,
+                SehirID  = 7,
                 IlceKodu = 1946,
                 IlceAdi  = "İbradı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 97,
-                SehirId  = 7,
+                IlceID   = 97,
+                SehirID  = 7,
                 IlceKodu = 1959,
                 IlceAdi  = "Kemer / Antalya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 98,
-                SehirId  = 7,
+                IlceID   = 98,
+                SehirID  = 7,
                 IlceKodu = 2035,
                 IlceAdi  = "Aksu / Antalya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 99,
-                SehirId  = 7,
+                IlceID   = 99,
+                SehirID  = 7,
                 IlceKodu = 2036,
                 IlceAdi  = "Döşemealtı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 100,
-                SehirId  = 7,
+                IlceID   = 100,
+                SehirID  = 7,
                 IlceKodu = 2037,
                 IlceAdi  = "Kepez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 101,
-                SehirId  = 7,
+                IlceID   = 101,
+                SehirID  = 7,
                 IlceKodu = 2038,
                 IlceAdi  = "Konyaaltı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 102,
-                SehirId  = 7,
+                IlceID   = 102,
+                SehirID  = 7,
                 IlceKodu = 2039,
                 IlceAdi  = "Muratpaşa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 103,
-                SehirId  = 8,
+                IlceID   = 103,
+                SehirID  = 8,
                 IlceKodu = 1145,
                 IlceAdi  = "Ardanuç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 104,
-                SehirId  = 8,
+                IlceID   = 104,
+                SehirID  = 8,
                 IlceKodu = 1147,
                 IlceAdi  = "Arhavi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 105,
-                SehirId  = 8,
+                IlceID   = 105,
+                SehirID  = 8,
                 IlceKodu = 1152,
                 IlceAdi  = "Artvin Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 106,
-                SehirId  = 8,
+                IlceID   = 106,
+                SehirID  = 8,
                 IlceKodu = 1202,
                 IlceAdi  = "Borçka",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 107,
-                SehirId  = 8,
+                IlceID   = 107,
+                SehirID  = 8,
                 IlceKodu = 1395,
                 IlceAdi  = "Hopa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 108,
-                SehirId  = 8,
+                IlceID   = 108,
+                SehirID  = 8,
                 IlceKodu = 1653,
                 IlceAdi  = "Şavşat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 109,
-                SehirId  = 8,
+                IlceID   = 109,
+                SehirID  = 8,
                 IlceKodu = 1736,
                 IlceAdi  = "Yusufeli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 110,
-                SehirId  = 8,
+                IlceID   = 110,
+                SehirID  = 8,
                 IlceKodu = 1828,
                 IlceAdi  = "Murgul",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 111,
-                SehirId  = 9,
+                IlceID   = 111,
+                SehirID  = 9,
                 IlceKodu = 1159,
                 IlceAdi  = "Aydın Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 112,
-                SehirId  = 9,
+                IlceID   = 112,
+                SehirID  = 9,
                 IlceKodu = 1206,
                 IlceAdi  = "Bozdoğan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 113,
-                SehirId  = 9,
+                IlceID   = 113,
+                SehirID  = 9,
                 IlceKodu = 1256,
                 IlceAdi  = "Çine",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 114,
-                SehirId  = 9,
+                IlceID   = 114,
+                SehirID  = 9,
                 IlceKodu = 1348,
                 IlceAdi  = "Germencik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 115,
-                SehirId  = 9,
+                IlceID   = 115,
+                SehirID  = 9,
                 IlceKodu = 1435,
                 IlceAdi  = "Karacasu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 116,
-                SehirId  = 9,
+                IlceID   = 116,
+                SehirID  = 9,
                 IlceKodu = 1479,
                 IlceAdi  = "Koçarlı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 117,
-                SehirId  = 9,
+                IlceID   = 117,
+                SehirID  = 9,
                 IlceKodu = 1497,
                 IlceAdi  = "Kuşadası",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 118,
-                SehirId  = 9,
+                IlceID   = 118,
+                SehirID  = 9,
                 IlceKodu = 1498,
                 IlceAdi  = "Kuyucak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 119,
-                SehirId  = 9,
+                IlceID   = 119,
+                SehirID  = 9,
                 IlceKodu = 1542,
                 IlceAdi  = "Nazilli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 120,
-                SehirId  = 9,
+                IlceID   = 120,
+                SehirID  = 9,
                 IlceKodu = 1637,
                 IlceAdi  = "Söke",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 121,
-                SehirId  = 9,
+                IlceID   = 121,
+                SehirID  = 9,
                 IlceKodu = 1640,
                 IlceAdi  = "Sultanhisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 122,
-                SehirId  = 9,
+                IlceID   = 122,
+                SehirID  = 9,
                 IlceKodu = 1724,
                 IlceAdi  = "Yenipazar / Aydın",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 123,
-                SehirId  = 9,
+                IlceID   = 123,
+                SehirID  = 9,
                 IlceKodu = 1781,
                 IlceAdi  = "Buharkent",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 124,
-                SehirId  = 9,
+                IlceID   = 124,
+                SehirID  = 9,
                 IlceKodu = 1807,
                 IlceAdi  = "İncirliova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 125,
-                SehirId  = 9,
+                IlceID   = 125,
+                SehirID  = 9,
                 IlceKodu = 1957,
                 IlceAdi  = "Karpuzlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 126,
-                SehirId  = 9,
+                IlceID   = 126,
+                SehirID  = 9,
                 IlceKodu = 1968,
                 IlceAdi  = "Köşk",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 127,
-                SehirId  = 9,
+                IlceID   = 127,
+                SehirID  = 9,
                 IlceKodu = 2000,
                 IlceAdi  = "Didim",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 128,
-                SehirId  = 9,
+                IlceID   = 128,
+                SehirID  = 9,
                 IlceKodu = 2076,
                 IlceAdi  = "Efeler",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 129,
-                SehirId  = 10,
+                IlceID   = 129,
+                SehirID  = 10,
                 IlceKodu = 1161,
                 IlceAdi  = "Ayvalık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 130,
-                SehirId  = 10,
+                IlceID   = 130,
+                SehirID  = 10,
                 IlceKodu = 1168,
                 IlceAdi  = "Balıkesir Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 131,
-                SehirId  = 10,
+                IlceID   = 131,
+                SehirID  = 10,
                 IlceKodu = 1169,
                 IlceAdi  = "Balya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 132,
-                SehirId  = 10,
+                IlceID   = 132,
+                SehirID  = 10,
                 IlceKodu = 1171,
                 IlceAdi  = "Bandırma",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 133,
-                SehirId  = 10,
+                IlceID   = 133,
+                SehirID  = 10,
                 IlceKodu = 1191,
                 IlceAdi  = "Bigadiç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 134,
-                SehirId  = 10,
+                IlceID   = 134,
+                SehirID  = 10,
                 IlceKodu = 1216,
                 IlceAdi  = "Burhaniye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 135,
-                SehirId  = 10,
+                IlceID   = 135,
+                SehirID  = 10,
                 IlceKodu = 1291,
                 IlceAdi  = "Dursunbey",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 136,
-                SehirId  = 10,
+                IlceID   = 136,
+                SehirID  = 10,
                 IlceKodu = 1294,
                 IlceAdi  = "Edremit / Balıkesir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 137,
-                SehirId  = 10,
+                IlceID   = 137,
+                SehirID  = 10,
                 IlceKodu = 1310,
                 IlceAdi  = "Erdek",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 138,
-                SehirId  = 10,
+                IlceID   = 138,
+                SehirID  = 10,
                 IlceKodu = 1360,
                 IlceAdi  = "Gönen / Balıkesir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 139,
-                SehirId  = 10,
+                IlceID   = 139,
+                SehirID  = 10,
                 IlceKodu = 1384,
                 IlceAdi  = "Havran",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 140,
-                SehirId  = 10,
+                IlceID   = 140,
+                SehirID  = 10,
                 IlceKodu = 1418,
                 IlceAdi  = "İvrindi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 141,
-                SehirId  = 10,
+                IlceID   = 141,
+                SehirID  = 10,
                 IlceKodu = 1462,
                 IlceAdi  = "Kepsut",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 142,
-                SehirId  = 10,
+                IlceID   = 142,
+                SehirID  = 10,
                 IlceKodu = 1514,
                 IlceAdi  = "Manyas",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 143,
-                SehirId  = 10,
+                IlceID   = 143,
+                SehirID  = 10,
                 IlceKodu = 1608,
                 IlceAdi  = "Savaştepe",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 144,
-                SehirId  = 10,
+                IlceID   = 144,
+                SehirID  = 10,
                 IlceKodu = 1619,
                 IlceAdi  = "Sındırgı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 145,
-                SehirId  = 10,
+                IlceID   = 145,
+                SehirID  = 10,
                 IlceKodu = 1644,
                 IlceAdi  = "Susurluk",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 146,
-                SehirId  = 10,
+                IlceID   = 146,
+                SehirID  = 10,
                 IlceKodu = 1824,
                 IlceAdi  = "Marmara",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 147,
-                SehirId  = 10,
+                IlceID   = 147,
+                SehirID  = 10,
                 IlceKodu = 1928,
                 IlceAdi  = "Gömeç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 148,
-                SehirId  = 10,
+                IlceID   = 148,
+                SehirID  = 10,
                 IlceKodu = 2077,
                 IlceAdi  = "Altıeylül",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 149,
-                SehirId  = 10,
+                IlceID   = 149,
+                SehirID  = 10,
                 IlceKodu = 2078,
                 IlceAdi  = "Karesi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 150,
-                SehirId  = 11,
+                IlceID   = 150,
+                SehirID  = 11,
                 IlceKodu = 1192,
                 IlceAdi  = "Bilecik Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 151,
-                SehirId  = 11,
+                IlceID   = 151,
+                SehirID  = 11,
                 IlceKodu = 1210,
                 IlceAdi  = "Bozüyük",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 152,
-                SehirId  = 11,
+                IlceID   = 152,
+                SehirID  = 11,
                 IlceKodu = 1359,
                 IlceAdi  = "Gölpazarı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 153,
-                SehirId  = 11,
+                IlceID   = 153,
+                SehirID  = 11,
                 IlceKodu = 1559,
                 IlceAdi  = "Osmaneli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 154,
-                SehirId  = 11,
+                IlceID   = 154,
+                SehirID  = 11,
                 IlceKodu = 1571,
                 IlceAdi  = "Pazaryeri",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 155,
-                SehirId  = 11,
+                IlceID   = 155,
+                SehirID  = 11,
                 IlceKodu = 1636,
                 IlceAdi  = "Söğüt",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 156,
-                SehirId  = 11,
+                IlceID   = 156,
+                SehirID  = 11,
                 IlceKodu = 1857,
                 IlceAdi  = "Yenipazar / Bilecik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 157,
-                SehirId  = 11,
+                IlceID   = 157,
+                SehirID  = 11,
                 IlceKodu = 1948,
                 IlceAdi  = "İnhisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 158,
-                SehirId  = 12,
+                IlceID   = 158,
+                SehirID  = 12,
                 IlceKodu = 1193,
                 IlceAdi  = "Bingöl Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 159,
-                SehirId  = 12,
+                IlceID   = 159,
+                SehirID  = 12,
                 IlceKodu = 1344,
                 IlceAdi  = "Genç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 160,
-                SehirId  = 12,
+                IlceID   = 160,
+                SehirID  = 12,
                 IlceKodu = 1446,
                 IlceAdi  = "Karlıova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 161,
-                SehirId  = 12,
+                IlceID   = 161,
+                SehirID  = 12,
                 IlceKodu = 1475,
                 IlceAdi  = "Kiğı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 162,
-                SehirId  = 12,
+                IlceID   = 162,
+                SehirID  = 12,
                 IlceKodu = 1633,
                 IlceAdi  = "Solhan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 163,
-                SehirId  = 12,
+                IlceID   = 163,
+                SehirID  = 12,
                 IlceKodu = 1750,
                 IlceAdi  = "Adaklı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 164,
-                SehirId  = 12,
+                IlceID   = 164,
+                SehirID  = 12,
                 IlceKodu = 1855,
                 IlceAdi  = "Yayladere",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 165,
-                SehirId  = 12,
+                IlceID   = 165,
+                SehirID  = 12,
                 IlceKodu = 1996,
                 IlceAdi  = "Yedisu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 166,
-                SehirId  = 13,
+                IlceID   = 166,
+                SehirID  = 13,
                 IlceKodu = 1106,
                 IlceAdi  = "Adilcevaz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 167,
-                SehirId  = 13,
+                IlceID   = 167,
+                SehirID  = 13,
                 IlceKodu = 1112,
                 IlceAdi  = "Ahlat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 168,
-                SehirId  = 13,
+                IlceID   = 168,
+                SehirID  = 13,
                 IlceKodu = 1196,
                 IlceAdi  = "Bitlis Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 169,
-                SehirId  = 13,
+                IlceID   = 169,
+                SehirID  = 13,
                 IlceKodu = 1394,
                 IlceAdi  = "Hizan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 170,
-                SehirId  = 13,
+                IlceID   = 170,
+                SehirID  = 13,
                 IlceKodu = 1537,
                 IlceAdi  = "Mutki",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 171,
-                SehirId  = 13,
+                IlceID   = 171,
+                SehirID  = 13,
                 IlceKodu = 1669,
                 IlceAdi  = "Tatvan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 172,
-                SehirId  = 13,
+                IlceID   = 172,
+                SehirID  = 13,
                 IlceKodu = 1798,
                 IlceAdi  = "Güroymak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 173,
-                SehirId  = 14,
+                IlceID   = 173,
+                SehirID  = 14,
                 IlceKodu = 1199,
                 IlceAdi  = "Bolu Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 174,
-                SehirId  = 14,
+                IlceID   = 174,
+                SehirID  = 14,
                 IlceKodu = 1346,
                 IlceAdi  = "Gerede",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 175,
-                SehirId  = 14,
+                IlceID   = 175,
+                SehirID  = 14,
                 IlceKodu = 1364,
                 IlceAdi  = "Göynük",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 176,
-                SehirId  = 14,
+                IlceID   = 176,
+                SehirID  = 14,
                 IlceKodu = 1466,
                 IlceAdi  = "Kıbrıscık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 177,
-                SehirId  = 14,
+                IlceID   = 177,
+                SehirID  = 14,
                 IlceKodu = 1522,
                 IlceAdi  = "Mengen",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 178,
-                SehirId  = 14,
+                IlceID   = 178,
+                SehirID  = 14,
                 IlceKodu = 1531,
                 IlceAdi  = "Mudurnu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 179,
-                SehirId  = 14,
+                IlceID   = 179,
+                SehirID  = 14,
                 IlceKodu = 1610,
                 IlceAdi  = "Seben",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 180,
-                SehirId  = 14,
+                IlceID   = 180,
+                SehirID  = 14,
                 IlceKodu = 1916,
                 IlceAdi  = "Dörtdivan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 181,
-                SehirId  = 14,
+                IlceID   = 181,
+                SehirID  = 14,
                 IlceKodu = 1997,
                 IlceAdi  = "Yeniçağa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 182,
-                SehirId  = 15,
+                IlceID   = 182,
+                SehirID  = 15,
                 IlceKodu = 1109,
                 IlceAdi  = "Ağlasun",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 183,
-                SehirId  = 15,
+                IlceID   = 183,
+                SehirID  = 15,
                 IlceKodu = 1211,
                 IlceAdi  = "Bucak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 184,
-                SehirId  = 15,
+                IlceID   = 184,
+                SehirID  = 15,
                 IlceKodu = 1215,
                 IlceAdi  = "Burdur Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 185,
-                SehirId  = 15,
+                IlceID   = 185,
+                SehirID  = 15,
                 IlceKodu = 1357,
                 IlceAdi  = "Gölhisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 186,
-                SehirId  = 15,
+                IlceID   = 186,
+                SehirID  = 15,
                 IlceKodu = 1672,
                 IlceAdi  = "Tefenni",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 187,
-                SehirId  = 15,
+                IlceID   = 187,
+                SehirID  = 15,
                 IlceKodu = 1728,
                 IlceAdi  = "Yeşilova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 188,
-                SehirId  = 15,
+                IlceID   = 188,
+                SehirID  = 15,
                 IlceKodu = 1813,
                 IlceAdi  = "Karamanlı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 189,
-                SehirId  = 15,
+                IlceID   = 189,
+                SehirID  = 15,
                 IlceKodu = 1816,
                 IlceAdi  = "Kemer / Burdur",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 190,
-                SehirId  = 15,
+                IlceID   = 190,
+                SehirID  = 15,
                 IlceKodu = 1874,
                 IlceAdi  = "Altınyayla / Burdur",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 191,
-                SehirId  = 15,
+                IlceID   = 191,
+                SehirID  = 15,
                 IlceKodu = 1899,
                 IlceAdi  = "Çavdır",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 192,
-                SehirId  = 15,
+                IlceID   = 192,
+                SehirID  = 15,
                 IlceKodu = 1903,
                 IlceAdi  = "Çeltikçi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 193,
-                SehirId  = 16,
+                IlceID   = 193,
+                SehirID  = 16,
                 IlceKodu = 1343,
                 IlceAdi  = "Gemlik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 194,
-                SehirId  = 16,
+                IlceID   = 194,
+                SehirID  = 16,
                 IlceKodu = 1411,
                 IlceAdi  = "İnegöl",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 195,
-                SehirId  = 16,
+                IlceID   = 195,
+                SehirID  = 16,
                 IlceKodu = 1420,
                 IlceAdi  = "İznik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 196,
-                SehirId  = 16,
+                IlceID   = 196,
+                SehirID  = 16,
                 IlceKodu = 1434,
                 IlceAdi  = "Karacabey",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 197,
-                SehirId  = 16,
+                IlceID   = 197,
+                SehirID  = 16,
                 IlceKodu = 1457,
                 IlceAdi  = "Keles",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 198,
-                SehirId  = 16,
+                IlceID   = 198,
+                SehirID  = 16,
                 IlceKodu = 1530,
                 IlceAdi  = "Mudanya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 199,
-                SehirId  = 16,
+                IlceID   = 199,
+                SehirID  = 16,
                 IlceKodu = 1535,
                 IlceAdi  = "Mustafakemalpaşa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 200,
-                SehirId  = 16,
+                IlceID   = 200,
+                SehirID  = 16,
                 IlceKodu = 1553,
                 IlceAdi  = "Orhaneli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 201,
-                SehirId  = 16,
+                IlceID   = 201,
+                SehirID  = 16,
                 IlceKodu = 1554,
                 IlceAdi  = "Orhangazi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 202,
-                SehirId  = 16,
+                IlceID   = 202,
+                SehirID  = 16,
                 IlceKodu = 1725,
                 IlceAdi  = "Yenişehir / Bursa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 203,
-                SehirId  = 16,
+                IlceID   = 203,
+                SehirID  = 16,
                 IlceKodu = 1783,
                 IlceAdi  = "Büyükorhan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 204,
-                SehirId  = 16,
+                IlceID   = 204,
+                SehirID  = 16,
                 IlceKodu = 1799,
                 IlceAdi  = "Harmancık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 205,
-                SehirId  = 16,
+                IlceID   = 205,
+                SehirID  = 16,
                 IlceKodu = 1829,
                 IlceAdi  = "Nilüfer",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 206,
-                SehirId  = 16,
+                IlceID   = 206,
+                SehirID  = 16,
                 IlceKodu = 1832,
                 IlceAdi  = "Osmangazi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 207,
-                SehirId  = 16,
+                IlceID   = 207,
+                SehirID  = 16,
                 IlceKodu = 1859,
                 IlceAdi  = "Yıldırım",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 208,
-                SehirId  = 16,
+                IlceID   = 208,
+                SehirID  = 16,
                 IlceKodu = 1935,
                 IlceAdi  = "Gürsu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 209,
-                SehirId  = 16,
+                IlceID   = 209,
+                SehirID  = 16,
                 IlceKodu = 1960,
                 IlceAdi  = "Kestel",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 210,
-                SehirId  = 17,
+                IlceID   = 210,
+                SehirID  = 17,
                 IlceKodu = 1160,
                 IlceAdi  = "Ayvacık / Çanakkale",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 211,
-                SehirId  = 17,
+                IlceID   = 211,
+                SehirID  = 17,
                 IlceKodu = 1180,
                 IlceAdi  = "Bayramiç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 212,
-                SehirId  = 17,
+                IlceID   = 212,
+                SehirID  = 17,
                 IlceKodu = 1190,
                 IlceAdi  = "Biga",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 213,
-                SehirId  = 17,
+                IlceID   = 213,
+                SehirID  = 17,
                 IlceKodu = 1205,
                 IlceAdi  = "Bozcaada",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 214,
-                SehirId  = 17,
+                IlceID   = 214,
+                SehirID  = 17,
                 IlceKodu = 1229,
                 IlceAdi  = "Çan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 215,
-                SehirId  = 17,
+                IlceID   = 215,
+                SehirID  = 17,
                 IlceKodu = 1230,
                 IlceAdi  = "Çanakkale Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 216,
-                SehirId  = 17,
+                IlceID   = 216,
+                SehirID  = 17,
                 IlceKodu = 1293,
                 IlceAdi  = "Eceabat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 217,
-                SehirId  = 17,
+                IlceID   = 217,
+                SehirID  = 17,
                 IlceKodu = 1326,
                 IlceAdi  = "Ezine",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 218,
-                SehirId  = 17,
+                IlceID   = 218,
+                SehirID  = 17,
                 IlceKodu = 1340,
                 IlceAdi  = "Gelibolu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 219,
-                SehirId  = 17,
+                IlceID   = 219,
+                SehirID  = 17,
                 IlceKodu = 1408,
                 IlceAdi  = "Gökçeada",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 220,
-                SehirId  = 17,
+                IlceID   = 220,
+                SehirID  = 17,
                 IlceKodu = 1503,
                 IlceAdi  = "Lapseki",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 221,
-                SehirId  = 17,
+                IlceID   = 221,
+                SehirID  = 17,
                 IlceKodu = 1722,
                 IlceAdi  = "Yenice / Çanakkale",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 222,
-                SehirId  = 18,
+                IlceID   = 222,
+                SehirID  = 18,
                 IlceKodu = 1232,
                 IlceAdi  = "Çankırı Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 223,
-                SehirId  = 18,
+                IlceID   = 223,
+                SehirID  = 18,
                 IlceKodu = 1248,
                 IlceAdi  = "Çerkeş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 224,
-                SehirId  = 18,
+                IlceID   = 224,
+                SehirID  = 18,
                 IlceKodu = 1300,
                 IlceAdi  = "Eldivan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 225,
-                SehirId  = 18,
+                IlceID   = 225,
+                SehirID  = 18,
                 IlceKodu = 1399,
                 IlceAdi  = "Ilgaz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 226,
-                SehirId  = 18,
+                IlceID   = 226,
+                SehirID  = 18,
                 IlceKodu = 1494,
                 IlceAdi  = "Kurşunlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 227,
-                SehirId  = 18,
+                IlceID   = 227,
+                SehirID  = 18,
                 IlceKodu = 1555,
                 IlceAdi  = "Orta",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 228,
-                SehirId  = 18,
+                IlceID   = 228,
+                SehirID  = 18,
                 IlceKodu = 1649,
                 IlceAdi  = "Şabanözü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 229,
-                SehirId  = 18,
+                IlceID   = 229,
+                SehirID  = 18,
                 IlceKodu = 1718,
                 IlceAdi  = "Yapraklı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 230,
-                SehirId  = 18,
+                IlceID   = 230,
+                SehirID  = 18,
                 IlceKodu = 1765,
                 IlceAdi  = "Atkaracalar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 231,
-                SehirId  = 18,
+                IlceID   = 231,
+                SehirID  = 18,
                 IlceKodu = 1817,
                 IlceAdi  = "Kızılırmak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 232,
-                SehirId  = 18,
+                IlceID   = 232,
+                SehirID  = 18,
                 IlceKodu = 1885,
                 IlceAdi  = "Bayramören",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 233,
-                SehirId  = 18,
+                IlceID   = 233,
+                SehirID  = 18,
                 IlceKodu = 1963,
                 IlceAdi  = "Korgun",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 234,
-                SehirId  = 19,
+                IlceID   = 234,
+                SehirID  = 19,
                 IlceKodu = 1124,
                 IlceAdi  = "Alaca",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 235,
-                SehirId  = 19,
+                IlceID   = 235,
+                SehirID  = 19,
                 IlceKodu = 1177,
                 IlceAdi  = "Bayat / Çorum",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 236,
-                SehirId  = 19,
+                IlceID   = 236,
+                SehirID  = 19,
                 IlceKodu = 1259,
                 IlceAdi  = "Çorum Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 237,
-                SehirId  = 19,
+                IlceID   = 237,
+                SehirID  = 19,
                 IlceKodu = 1414,
                 IlceAdi  = "İskilip",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 238,
-                SehirId  = 19,
+                IlceID   = 238,
+                SehirID  = 19,
                 IlceKodu = 1445,
                 IlceAdi  = "Kargı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 239,
-                SehirId  = 19,
+                IlceID   = 239,
+                SehirID  = 19,
                 IlceKodu = 1520,
                 IlceAdi  = "Mecitözü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 240,
-                SehirId  = 19,
+                IlceID   = 240,
+                SehirID  = 19,
                 IlceKodu = 1556,
                 IlceAdi  = "Ortaköy / Çorum",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 241,
-                SehirId  = 19,
+                IlceID   = 241,
+                SehirID  = 19,
                 IlceKodu = 1558,
                 IlceAdi  = "Osmancık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 242,
-                SehirId  = 19,
+                IlceID   = 242,
+                SehirID  = 19,
                 IlceKodu = 1642,
                 IlceAdi  = "Sungurlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 243,
-                SehirId  = 19,
+                IlceID   = 243,
+                SehirID  = 19,
                 IlceKodu = 1778,
                 IlceAdi  = "Boğazkale",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 244,
-                SehirId  = 19,
+                IlceID   = 244,
+                SehirID  = 19,
                 IlceKodu = 1850,
                 IlceAdi  = "Uğurludağ",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 245,
-                SehirId  = 19,
+                IlceID   = 245,
+                SehirID  = 19,
                 IlceKodu = 1911,
                 IlceAdi  = "Dodurga",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 246,
-                SehirId  = 19,
+                IlceID   = 246,
+                SehirID  = 19,
                 IlceKodu = 1972,
                 IlceAdi  = "Laçin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 247,
-                SehirId  = 19,
+                IlceID   = 247,
+                SehirID  = 19,
                 IlceKodu = 1976,
                 IlceAdi  = "Oğuzlar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 248,
-                SehirId  = 20,
+                IlceID   = 248,
+                SehirID  = 20,
                 IlceKodu = 1102,
                 IlceAdi  = "Acıpayam",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 249,
-                SehirId  = 20,
+                IlceID   = 249,
+                SehirID  = 20,
                 IlceKodu = 1214,
                 IlceAdi  = "Buldan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 250,
-                SehirId  = 20,
+                IlceID   = 250,
+                SehirID  = 20,
                 IlceKodu = 1224,
                 IlceAdi  = "Çal",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 251,
-                SehirId  = 20,
+                IlceID   = 251,
+                SehirID  = 20,
                 IlceKodu = 1226,
                 IlceAdi  = "Çameli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 252,
-                SehirId  = 20,
+                IlceID   = 252,
+                SehirID  = 20,
                 IlceKodu = 1233,
                 IlceAdi  = "Çardak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 253,
-                SehirId  = 20,
+                IlceID   = 253,
+                SehirID  = 20,
                 IlceKodu = 1257,
                 IlceAdi  = "Çivril",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 254,
-                SehirId  = 20,
+                IlceID   = 254,
+                SehirID  = 20,
                 IlceKodu = 1271,
                 IlceAdi  = "Denizli Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 255,
-                SehirId  = 20,
+                IlceID   = 255,
+                SehirID  = 20,
                 IlceKodu = 1371,
                 IlceAdi  = "Güney",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 256,
-                SehirId  = 20,
+                IlceID   = 256,
+                SehirID  = 20,
                 IlceKodu = 1426,
                 IlceAdi  = "Kale / Denizli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 257,
-                SehirId  = 20,
+                IlceID   = 257,
+                SehirID  = 20,
                 IlceKodu = 1597,
                 IlceAdi  = "Sarayköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 258,
-                SehirId  = 20,
+                IlceID   = 258,
+                SehirID  = 20,
                 IlceKodu = 1670,
                 IlceAdi  = "Tavas",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 259,
-                SehirId  = 20,
+                IlceID   = 259,
+                SehirID  = 20,
                 IlceKodu = 1769,
                 IlceAdi  = "Babadağ",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 260,
-                SehirId  = 20,
+                IlceID   = 260,
+                SehirID  = 20,
                 IlceKodu = 1774,
                 IlceAdi  = "Bekilli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 261,
-                SehirId  = 20,
+                IlceID   = 261,
+                SehirID  = 20,
                 IlceKodu = 1803,
                 IlceAdi  = "Honaz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 262,
-                SehirId  = 20,
+                IlceID   = 262,
+                SehirID  = 20,
                 IlceKodu = 1840,
                 IlceAdi  = "Serinhisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 263,
-                SehirId  = 20,
+                IlceID   = 263,
+                SehirID  = 20,
                 IlceKodu = 1871,
                 IlceAdi  = "Pamukkale",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 264,
-                SehirId  = 20,
+                IlceID   = 264,
+                SehirID  = 20,
                 IlceKodu = 1881,
                 IlceAdi  = "Baklan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 265,
-                SehirId  = 20,
+                IlceID   = 265,
+                SehirID  = 20,
                 IlceKodu = 1888,
                 IlceAdi  = "Beyağaç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 266,
-                SehirId  = 20,
+                IlceID   = 266,
+                SehirID  = 20,
                 IlceKodu = 1889,
                 IlceAdi  = "Bozkurt / Denizli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 267,
-                SehirId  = 20,
+                IlceID   = 267,
+                SehirID  = 20,
                 IlceKodu = 2079,
                 IlceAdi  = "Merkezefendi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 268,
-                SehirId  = 21,
+                IlceID   = 268,
+                SehirID  = 21,
                 IlceKodu = 1195,
                 IlceAdi  = "Bismil",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 269,
-                SehirId  = 21,
+                IlceID   = 269,
+                SehirID  = 21,
                 IlceKodu = 1249,
                 IlceAdi  = "Çermik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 270,
-                SehirId  = 21,
+                IlceID   = 270,
+                SehirID  = 21,
                 IlceKodu = 1253,
                 IlceAdi  = "Çınar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 271,
-                SehirId  = 21,
+                IlceID   = 271,
+                SehirID  = 21,
                 IlceKodu = 1263,
                 IlceAdi  = "Çüngüş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 272,
-                SehirId  = 21,
+                IlceID   = 272,
+                SehirID  = 21,
                 IlceKodu = 1278,
                 IlceAdi  = "Dicle",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 273,
-                SehirId  = 21,
+                IlceID   = 273,
+                SehirID  = 21,
                 IlceKodu = 1284,
                 IlceAdi  = "Diyarbakır Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 274,
-                SehirId  = 21,
+                IlceID   = 274,
+                SehirID  = 21,
                 IlceKodu = 1315,
                 IlceAdi  = "Ergani",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 275,
-                SehirId  = 21,
+                IlceID   = 275,
+                SehirID  = 21,
                 IlceKodu = 1381,
                 IlceAdi  = "Hani",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 276,
-                SehirId  = 21,
+                IlceID   = 276,
+                SehirID  = 21,
                 IlceKodu = 1389,
                 IlceAdi  = "Hazro",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 277,
-                SehirId  = 21,
+                IlceID   = 277,
+                SehirID  = 21,
                 IlceKodu = 1490,
                 IlceAdi  = "Kulp",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 278,
-                SehirId  = 21,
+                IlceID   = 278,
+                SehirID  = 21,
                 IlceKodu = 1504,
                 IlceAdi  = "Lice",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 279,
-                SehirId  = 21,
+                IlceID   = 279,
+                SehirID  = 21,
                 IlceKodu = 1624,
                 IlceAdi  = "Silvan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 280,
-                SehirId  = 21,
+                IlceID   = 280,
+                SehirID  = 21,
                 IlceKodu = 1791,
                 IlceAdi  = "Eğil",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 281,
-                SehirId  = 21,
+                IlceID   = 281,
+                SehirID  = 21,
                 IlceKodu = 1962,
                 IlceAdi  = "Kocaköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 282,
-                SehirId  = 21,
+                IlceID   = 282,
+                SehirID  = 21,
                 IlceKodu = 2040,
                 IlceAdi  = "Bağlar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 283,
-                SehirId  = 21,
+                IlceID   = 283,
+                SehirID  = 21,
                 IlceKodu = 2041,
                 IlceAdi  = "Kayapınar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 284,
-                SehirId  = 21,
+                IlceID   = 284,
+                SehirID  = 21,
                 IlceKodu = 2042,
                 IlceAdi  = "Sur",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 285,
-                SehirId  = 21,
+                IlceID   = 285,
+                SehirID  = 21,
                 IlceKodu = 2043,
                 IlceAdi  = "Yenişehir / Diyarbakır",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 286,
-                SehirId  = 22,
+                IlceID   = 286,
+                SehirID  = 22,
                 IlceKodu = 1295,
                 IlceAdi  = "Edirne Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 287,
-                SehirId  = 22,
+                IlceID   = 287,
+                SehirID  = 22,
                 IlceKodu = 1307,
                 IlceAdi  = "Enez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 288,
-                SehirId  = 22,
+                IlceID   = 288,
+                SehirID  = 22,
                 IlceKodu = 1385,
                 IlceAdi  = "Havsa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 289,
-                SehirId  = 22,
+                IlceID   = 289,
+                SehirID  = 22,
                 IlceKodu = 1412,
                 IlceAdi  = "İpsala",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 290,
-                SehirId  = 22,
+                IlceID   = 290,
+                SehirID  = 22,
                 IlceKodu = 1464,
                 IlceAdi  = "Keşan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 291,
-                SehirId  = 22,
+                IlceID   = 291,
+                SehirID  = 22,
                 IlceKodu = 1502,
                 IlceAdi  = "Lalapaşa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 292,
-                SehirId  = 22,
+                IlceID   = 292,
+                SehirID  = 22,
                 IlceKodu = 1523,
                 IlceAdi  = "Meriç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 293,
-                SehirId  = 22,
+                IlceID   = 293,
+                SehirID  = 22,
                 IlceKodu = 1705,
                 IlceAdi  = "Uzunköprü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 294,
-                SehirId  = 22,
+                IlceID   = 294,
+                SehirID  = 22,
                 IlceKodu = 1988,
                 IlceAdi  = "Süloğlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 295,
-                SehirId  = 23,
+                IlceID   = 295,
+                SehirID  = 23,
                 IlceKodu = 1110,
                 IlceAdi  = "Ağın",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 296,
-                SehirId  = 23,
+                IlceID   = 296,
+                SehirID  = 23,
                 IlceKodu = 1173,
                 IlceAdi  = "Baskil",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 297,
-                SehirId  = 23,
+                IlceID   = 297,
+                SehirID  = 23,
                 IlceKodu = 1298,
                 IlceAdi  = "Elazığ Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 298,
-                SehirId  = 23,
+                IlceID   = 298,
+                SehirID  = 23,
                 IlceKodu = 1438,
                 IlceAdi  = "Karakoçan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 299,
-                SehirId  = 23,
+                IlceID   = 299,
+                SehirID  = 23,
                 IlceKodu = 1455,
                 IlceAdi  = "Keban",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 300,
-                SehirId  = 23,
+                IlceID   = 300,
+                SehirID  = 23,
                 IlceKodu = 1506,
                 IlceAdi  = "Maden",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 301,
-                SehirId  = 23,
+                IlceID   = 301,
+                SehirID  = 23,
                 IlceKodu = 1566,
                 IlceAdi  = "Palu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 302,
-                SehirId  = 23,
+                IlceID   = 302,
+                SehirID  = 23,
                 IlceKodu = 1631,
                 IlceAdi  = "Sivrice",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 303,
-                SehirId  = 23,
+                IlceID   = 303,
+                SehirID  = 23,
                 IlceKodu = 1762,
                 IlceAdi  = "Arıcak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 304,
-                SehirId  = 23,
+                IlceID   = 304,
+                SehirID  = 23,
                 IlceKodu = 1820,
                 IlceAdi  = "Kovancılar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 305,
-                SehirId  = 23,
+                IlceID   = 305,
+                SehirID  = 23,
                 IlceKodu = 1873,
                 IlceAdi  = "Alacakaya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 306,
-                SehirId  = 24,
+                IlceID   = 306,
+                SehirID  = 24,
                 IlceKodu = 1243,
                 IlceAdi  = "Çayırlı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 307,
-                SehirId  = 24,
+                IlceID   = 307,
+                SehirID  = 24,
                 IlceKodu = 1318,
                 IlceAdi  = "Erzincan Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 308,
-                SehirId  = 24,
+                IlceID   = 308,
+                SehirID  = 24,
                 IlceKodu = 1406,
                 IlceAdi  = "İliç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 309,
-                SehirId  = 24,
+                IlceID   = 309,
+                SehirID  = 24,
                 IlceKodu = 1459,
                 IlceAdi  = "Kemah",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 310,
-                SehirId  = 24,
+                IlceID   = 310,
+                SehirID  = 24,
                 IlceKodu = 1460,
                 IlceAdi  = "Kemaliye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 311,
-                SehirId  = 24,
+                IlceID   = 311,
+                SehirID  = 24,
                 IlceKodu = 1583,
                 IlceAdi  = "Refahiye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 312,
-                SehirId  = 24,
+                IlceID   = 312,
+                SehirID  = 24,
                 IlceKodu = 1675,
                 IlceAdi  = "Tercan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 313,
-                SehirId  = 24,
+                IlceID   = 313,
+                SehirID  = 24,
                 IlceKodu = 1853,
                 IlceAdi  = "Üzümlü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 314,
-                SehirId  = 24,
+                IlceID   = 314,
+                SehirID  = 24,
                 IlceKodu = 1977,
                 IlceAdi  = "Otlukbeli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 315,
-                SehirId  = 25,
+                IlceID   = 315,
+                SehirID  = 25,
                 IlceKodu = 1153,
                 IlceAdi  = "Aşkale",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 316,
-                SehirId  = 25,
+                IlceID   = 316,
+                SehirID  = 25,
                 IlceKodu = 1235,
                 IlceAdi  = "Çat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 317,
-                SehirId  = 25,
+                IlceID   = 317,
+                SehirID  = 25,
                 IlceKodu = 1319,
                 IlceAdi  = "Erzurum Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 318,
-                SehirId  = 25,
+                IlceID   = 318,
+                SehirID  = 25,
                 IlceKodu = 1392,
                 IlceAdi  = "Hınıs",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 319,
-                SehirId  = 25,
+                IlceID   = 319,
+                SehirID  = 25,
                 IlceKodu = 1396,
                 IlceAdi  = "Horasan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 320,
-                SehirId  = 25,
+                IlceID   = 320,
+                SehirID  = 25,
                 IlceKodu = 1416,
                 IlceAdi  = "İspir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 321,
-                SehirId  = 25,
+                IlceID   = 321,
+                SehirID  = 25,
                 IlceKodu = 1444,
                 IlceAdi  = "Karayazı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 322,
-                SehirId  = 25,
+                IlceID   = 322,
+                SehirID  = 25,
                 IlceKodu = 1540,
                 IlceAdi  = "Narman",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 323,
-                SehirId  = 25,
+                IlceID   = 323,
+                SehirID  = 25,
                 IlceKodu = 1550,
                 IlceAdi  = "Oltu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 324,
-                SehirId  = 25,
+                IlceID   = 324,
+                SehirID  = 25,
                 IlceKodu = 1551,
                 IlceAdi  = "Olur",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 325,
-                SehirId  = 25,
+                IlceID   = 325,
+                SehirID  = 25,
                 IlceKodu = 1567,
                 IlceAdi  = "Pasinler",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 326,
-                SehirId  = 25,
+                IlceID   = 326,
+                SehirID  = 25,
                 IlceKodu = 1657,
                 IlceAdi  = "Şenkaya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 327,
-                SehirId  = 25,
+                IlceID   = 327,
+                SehirID  = 25,
                 IlceKodu = 1674,
                 IlceAdi  = "Tekman",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 328,
-                SehirId  = 25,
+                IlceID   = 328,
+                SehirID  = 25,
                 IlceKodu = 1683,
                 IlceAdi  = "Tortum",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 329,
-                SehirId  = 25,
+                IlceID   = 329,
+                SehirID  = 25,
                 IlceKodu = 1812,
                 IlceAdi  = "Karaçoban",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 330,
-                SehirId  = 25,
+                IlceID   = 330,
+                SehirID  = 25,
                 IlceKodu = 1851,
                 IlceAdi  = "Uzundere",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 331,
-                SehirId  = 25,
+                IlceID   = 331,
+                SehirID  = 25,
                 IlceKodu = 1865,
                 IlceAdi  = "Pazaryolu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 332,
-                SehirId  = 25,
+                IlceID   = 332,
+                SehirID  = 25,
                 IlceKodu = 1945,
                 IlceAdi  = "Aziziye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 333,
-                SehirId  = 25,
+                IlceID   = 333,
+                SehirID  = 25,
                 IlceKodu = 1967,
                 IlceAdi  = "Köprüköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 334,
-                SehirId  = 25,
+                IlceID   = 334,
+                SehirID  = 25,
                 IlceKodu = 2044,
                 IlceAdi  = "Palandöken",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 335,
-                SehirId  = 25,
+                IlceID   = 335,
+                SehirID  = 25,
                 IlceKodu = 2045,
                 IlceAdi  = "Yakutiye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 336,
-                SehirId  = 26,
+                IlceID   = 336,
+                SehirID  = 26,
                 IlceKodu = 1255,
                 IlceAdi  = "Çifteler",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 337,
-                SehirId  = 26,
+                IlceID   = 337,
+                SehirID  = 26,
                 IlceKodu = 1322,
                 IlceAdi  = "Eskişehir Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 338,
-                SehirId  = 26,
+                IlceID   = 338,
+                SehirID  = 26,
                 IlceKodu = 1508,
                 IlceAdi  = "Mahmudiye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 339,
-                SehirId  = 26,
+                IlceID   = 339,
+                SehirID  = 26,
                 IlceKodu = 1527,
                 IlceAdi  = "Mihalıççık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 340,
-                SehirId  = 26,
+                IlceID   = 340,
+                SehirID  = 26,
                 IlceKodu = 1599,
                 IlceAdi  = "Sarıcakaya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 341,
-                SehirId  = 26,
+                IlceID   = 341,
+                SehirID  = 26,
                 IlceKodu = 1618,
                 IlceAdi  = "Seyitgazi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 342,
-                SehirId  = 26,
+                IlceID   = 342,
+                SehirID  = 26,
                 IlceKodu = 1632,
                 IlceAdi  = "Sivrihisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 343,
-                SehirId  = 26,
+                IlceID   = 343,
+                SehirID  = 26,
                 IlceKodu = 1759,
                 IlceAdi  = "Alpu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 344,
-                SehirId  = 26,
+                IlceID   = 344,
+                SehirID  = 26,
                 IlceKodu = 1777,
                 IlceAdi  = "Beylikova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 345,
-                SehirId  = 26,
+                IlceID   = 345,
+                SehirID  = 26,
                 IlceKodu = 1808,
                 IlceAdi  = "İnönü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 346,
-                SehirId  = 26,
+                IlceID   = 346,
+                SehirID  = 26,
                 IlceKodu = 1934,
                 IlceAdi  = "Günyüzü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 347,
-                SehirId  = 26,
+                IlceID   = 347,
+                SehirID  = 26,
                 IlceKodu = 1939,
                 IlceAdi  = "Han",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 348,
-                SehirId  = 26,
+                IlceID   = 348,
+                SehirID  = 26,
                 IlceKodu = 1973,
                 IlceAdi  = "Mihalgazi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 349,
-                SehirId  = 26,
+                IlceID   = 349,
+                SehirID  = 26,
                 IlceKodu = 2046,
                 IlceAdi  = "Odunpazarı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 350,
-                SehirId  = 26,
+                IlceID   = 350,
+                SehirID  = 26,
                 IlceKodu = 2047,
                 IlceAdi  = "Tepebaşı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 351,
-                SehirId  = 27,
+                IlceID   = 351,
+                SehirID  = 27,
                 IlceKodu = 1139,
                 IlceAdi  = "Araban",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 352,
-                SehirId  = 27,
+                IlceID   = 352,
+                SehirID  = 27,
                 IlceKodu = 1415,
                 IlceAdi  = "İslahiye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 353,
-                SehirId  = 27,
+                IlceID   = 353,
+                SehirID  = 27,
                 IlceKodu = 1546,
                 IlceAdi  = "Nizip",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 354,
-                SehirId  = 27,
+                IlceID   = 354,
+                SehirID  = 27,
                 IlceKodu = 1549,
                 IlceAdi  = "Oğuzeli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 355,
-                SehirId  = 27,
+                IlceID   = 355,
+                SehirID  = 27,
                 IlceKodu = 1720,
                 IlceAdi  = "Yavuzeli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 356,
-                SehirId  = 27,
+                IlceID   = 356,
+                SehirID  = 27,
                 IlceKodu = 1841,
                 IlceAdi  = "Şahinbey",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 357,
-                SehirId  = 27,
+                IlceID   = 357,
+                SehirID  = 27,
                 IlceKodu = 1844,
                 IlceAdi  = "Şehitkamil",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 358,
-                SehirId  = 27,
+                IlceID   = 358,
+                SehirID  = 27,
                 IlceKodu = 1956,
                 IlceAdi  = "Karkamış",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 359,
-                SehirId  = 27,
+                IlceID   = 359,
+                SehirID  = 27,
                 IlceKodu = 1974,
                 IlceAdi  = "Nurdağı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 360,
-                SehirId  = 28,
+                IlceID   = 360,
+                SehirID  = 28,
                 IlceKodu = 1133,
                 IlceAdi  = "Alucra",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 361,
-                SehirId  = 28,
+                IlceID   = 361,
+                SehirID  = 28,
                 IlceKodu = 1212,
                 IlceAdi  = "Bulancak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 362,
-                SehirId  = 28,
+                IlceID   = 362,
+                SehirID  = 28,
                 IlceKodu = 1272,
                 IlceAdi  = "Dereli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 363,
-                SehirId  = 28,
+                IlceID   = 363,
+                SehirID  = 28,
                 IlceKodu = 1320,
                 IlceAdi  = "Espiye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 364,
-                SehirId  = 28,
+                IlceID   = 364,
+                SehirID  = 28,
                 IlceKodu = 1324,
                 IlceAdi  = "Eynesil",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 365,
-                SehirId  = 28,
+                IlceID   = 365,
+                SehirID  = 28,
                 IlceKodu = 1352,
                 IlceAdi  = "Giresun Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 366,
-                SehirId  = 28,
+                IlceID   = 366,
+                SehirID  = 28,
                 IlceKodu = 1361,
                 IlceAdi  = "Görele",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 367,
-                SehirId  = 28,
+                IlceID   = 367,
+                SehirID  = 28,
                 IlceKodu = 1465,
                 IlceAdi  = "Keşap",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 368,
-                SehirId  = 28,
+                IlceID   = 368,
+                SehirID  = 28,
                 IlceKodu = 1654,
                 IlceAdi  = "Şebinkarahisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 369,
-                SehirId  = 28,
+                IlceID   = 369,
+                SehirID  = 28,
                 IlceKodu = 1678,
                 IlceAdi  = "Tirebolu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 370,
-                SehirId  = 28,
+                IlceID   = 370,
+                SehirID  = 28,
                 IlceKodu = 1837,
                 IlceAdi  = "Piraziz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 371,
-                SehirId  = 28,
+                IlceID   = 371,
+                SehirID  = 28,
                 IlceKodu = 1854,
                 IlceAdi  = "Yağlıdere",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 372,
-                SehirId  = 28,
+                IlceID   = 372,
+                SehirID  = 28,
                 IlceKodu = 1893,
                 IlceAdi  = "Çamoluk",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 373,
-                SehirId  = 28,
+                IlceID   = 373,
+                SehirID  = 28,
                 IlceKodu = 1894,
                 IlceAdi  = "Çanakçı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 374,
-                SehirId  = 28,
+                IlceID   = 374,
+                SehirID  = 28,
                 IlceKodu = 1912,
                 IlceAdi  = "Doğankent",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 375,
-                SehirId  = 28,
+                IlceID   = 375,
+                SehirID  = 28,
                 IlceKodu = 1930,
                 IlceAdi  = "Güce",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 376,
-                SehirId  = 29,
+                IlceID   = 376,
+                SehirID  = 29,
                 IlceKodu = 1369,
                 IlceAdi  = "Gümüşhane Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 377,
-                SehirId  = 29,
+                IlceID   = 377,
+                SehirID  = 29,
                 IlceKodu = 1458,
                 IlceAdi  = "Kelkit",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 378,
-                SehirId  = 29,
+                IlceID   = 378,
+                SehirID  = 29,
                 IlceKodu = 1660,
                 IlceAdi  = "Şiran",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 379,
-                SehirId  = 29,
+                IlceID   = 379,
+                SehirID  = 29,
                 IlceKodu = 1684,
                 IlceAdi  = "Torul",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 380,
-                SehirId  = 29,
+                IlceID   = 380,
+                SehirID  = 29,
                 IlceKodu = 1822,
                 IlceAdi  = "Köse",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 381,
-                SehirId  = 29,
+                IlceID   = 381,
+                SehirID  = 29,
                 IlceKodu = 1971,
                 IlceAdi  = "Kürtün",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 382,
-                SehirId  = 30,
+                IlceID   = 382,
+                SehirID  = 30,
                 IlceKodu = 1261,
                 IlceAdi  = "Çukurca",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 383,
-                SehirId  = 30,
+                IlceID   = 383,
+                SehirID  = 30,
                 IlceKodu = 1377,
                 IlceAdi  = "Hakkari Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 384,
-                SehirId  = 30,
+                IlceID   = 384,
+                SehirID  = 30,
                 IlceKodu = 1656,
                 IlceAdi  = "Şemdinli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 385,
-                SehirId  = 30,
+                IlceID   = 385,
+                SehirID  = 30,
                 IlceKodu = 1737,
                 IlceAdi  = "Yüksekova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 386,
-                SehirId  = 31,
+                IlceID   = 386,
+                SehirID  = 31,
                 IlceKodu = 1131,
                 IlceAdi  = "Altınözü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 387,
-                SehirId  = 31,
+                IlceID   = 387,
+                SehirID  = 31,
                 IlceKodu = 1289,
                 IlceAdi  = "Dörtyol",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 388,
-                SehirId  = 31,
+                IlceID   = 388,
+                SehirID  = 31,
                 IlceKodu = 1382,
                 IlceAdi  = "Hassa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 389,
-                SehirId  = 31,
+                IlceID   = 389,
+                SehirID  = 31,
                 IlceKodu = 1383,
                 IlceAdi  = "Hatay Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 390,
-                SehirId  = 31,
+                IlceID   = 390,
+                SehirID  = 31,
                 IlceKodu = 1413,
                 IlceAdi  = "İskenderun",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 391,
-                SehirId  = 31,
+                IlceID   = 391,
+                SehirID  = 31,
                 IlceKodu = 1468,
                 IlceAdi  = "Kırıkhan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 392,
-                SehirId  = 31,
+                IlceID   = 392,
+                SehirID  = 31,
                 IlceKodu = 1585,
                 IlceAdi  = "Reyhanlı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 393,
-                SehirId  = 31,
+                IlceID   = 393,
+                SehirID  = 31,
                 IlceKodu = 1591,
                 IlceAdi  = "Samandağ",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 394,
-                SehirId  = 31,
+                IlceID   = 394,
+                SehirID  = 31,
                 IlceKodu = 1721,
                 IlceAdi  = "Yayladağı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 395,
-                SehirId  = 31,
+                IlceID   = 395,
+                SehirID  = 31,
                 IlceKodu = 1792,
                 IlceAdi  = "Erzin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 396,
-                SehirId  = 31,
+                IlceID   = 396,
+                SehirID  = 31,
                 IlceKodu = 1887,
                 IlceAdi  = "Belen",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 397,
-                SehirId  = 31,
+                IlceID   = 397,
+                SehirID  = 31,
                 IlceKodu = 1970,
                 IlceAdi  = "Kumlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 398,
-                SehirId  = 31,
+                IlceID   = 398,
+                SehirID  = 31,
                 IlceKodu = 2080,
                 IlceAdi  = "Antakya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 399,
-                SehirId  = 31,
+                IlceID   = 399,
+                SehirID  = 31,
                 IlceKodu = 2081,
                 IlceAdi  = "Arsuz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 400,
-                SehirId  = 31,
+                IlceID   = 400,
+                SehirID  = 31,
                 IlceKodu = 2082,
                 IlceAdi  = "Defne",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 401,
-                SehirId  = 31,
+                IlceID   = 401,
+                SehirID  = 31,
                 IlceKodu = 2083,
                 IlceAdi  = "Payas",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 402,
-                SehirId  = 32,
+                IlceID   = 402,
+                SehirID  = 32,
                 IlceKodu = 1154,
                 IlceAdi  = "Atabey",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 403,
-                SehirId  = 32,
+                IlceID   = 403,
+                SehirID  = 32,
                 IlceKodu = 1297,
                 IlceAdi  = "Eğirdir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 404,
-                SehirId  = 32,
+                IlceID   = 404,
+                SehirID  = 32,
                 IlceKodu = 1341,
                 IlceAdi  = "Gelendost",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 405,
-                SehirId  = 32,
+                IlceID   = 405,
+                SehirID  = 32,
                 IlceKodu = 1401,
                 IlceAdi  = "Isparta Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 406,
-                SehirId  = 32,
+                IlceID   = 406,
+                SehirID  = 32,
                 IlceKodu = 1456,
                 IlceAdi  = "Keçiborlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 407,
-                SehirId  = 32,
+                IlceID   = 407,
+                SehirID  = 32,
                 IlceKodu = 1615,
                 IlceAdi  = "Senirkent",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 408,
-                SehirId  = 32,
+                IlceID   = 408,
+                SehirID  = 32,
                 IlceKodu = 1648,
                 IlceAdi  = "Sütçüler",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 409,
-                SehirId  = 32,
+                IlceID   = 409,
+                SehirID  = 32,
                 IlceKodu = 1651,
                 IlceAdi  = "Şarkikaraağaç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 410,
-                SehirId  = 32,
+                IlceID   = 410,
+                SehirID  = 32,
                 IlceKodu = 1699,
                 IlceAdi  = "Uluborlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 411,
-                SehirId  = 32,
+                IlceID   = 411,
+                SehirID  = 32,
                 IlceKodu = 1717,
                 IlceAdi  = "Yalvaç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 412,
-                SehirId  = 32,
+                IlceID   = 412,
+                SehirID  = 32,
                 IlceKodu = 1755,
                 IlceAdi  = "Aksu / Isparta",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 413,
-                SehirId  = 32,
+                IlceID   = 413,
+                SehirID  = 32,
                 IlceKodu = 1929,
                 IlceAdi  = "Gönen / Isparta",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 414,
-                SehirId  = 32,
+                IlceID   = 414,
+                SehirID  = 32,
                 IlceKodu = 2001,
                 IlceAdi  = "Yenişarbademli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 415,
-                SehirId  = 33,
+                IlceID   = 415,
+                SehirID  = 33,
                 IlceKodu = 1135,
                 IlceAdi  = "Anamur",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 416,
-                SehirId  = 33,
+                IlceID   = 416,
+                SehirID  = 33,
                 IlceKodu = 1311,
                 IlceAdi  = "Erdemli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 417,
-                SehirId  = 33,
+                IlceID   = 417,
+                SehirID  = 33,
                 IlceKodu = 1366,
                 IlceAdi  = "Gülnar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 418,
-                SehirId  = 33,
+                IlceID   = 418,
+                SehirID  = 33,
                 IlceKodu = 1402,
                 IlceAdi  = "Mersin Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 419,
-                SehirId  = 33,
+                IlceID   = 419,
+                SehirID  = 33,
                 IlceKodu = 1536,
                 IlceAdi  = "Mut",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 420,
-                SehirId  = 33,
+                IlceID   = 420,
+                SehirID  = 33,
                 IlceKodu = 1621,
                 IlceAdi  = "Silifke",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 421,
-                SehirId  = 33,
+                IlceID   = 421,
+                SehirID  = 33,
                 IlceKodu = 1665,
                 IlceAdi  = "Tarsus",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 422,
-                SehirId  = 33,
+                IlceID   = 422,
+                SehirID  = 33,
                 IlceKodu = 1766,
                 IlceAdi  = "Aydıncık / Mersin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 423,
-                SehirId  = 33,
+                IlceID   = 423,
+                SehirID  = 33,
                 IlceKodu = 1779,
                 IlceAdi  = "Bozyazı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 424,
-                SehirId  = 33,
+                IlceID   = 424,
+                SehirID  = 33,
                 IlceKodu = 1892,
                 IlceAdi  = "Çamlıyayla",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 425,
-                SehirId  = 33,
+                IlceID   = 425,
+                SehirID  = 33,
                 IlceKodu = 2064,
                 IlceAdi  = "Akdeniz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 426,
-                SehirId  = 33,
+                IlceID   = 426,
+                SehirID  = 33,
                 IlceKodu = 2065,
                 IlceAdi  = "Mezitli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 427,
-                SehirId  = 33,
+                IlceID   = 427,
+                SehirID  = 33,
                 IlceKodu = 2066,
                 IlceAdi  = "Toroslar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 428,
-                SehirId  = 33,
+                IlceID   = 428,
+                SehirID  = 33,
                 IlceKodu = 2067,
                 IlceAdi  = "Yenişehir / Mersin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 429,
-                SehirId  = 34,
+                IlceID   = 429,
+                SehirID  = 34,
                 IlceKodu = 1103,
                 IlceAdi  = "Adalar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 430,
-                SehirId  = 34,
+                IlceID   = 430,
+                SehirID  = 34,
                 IlceKodu = 1166,
                 IlceAdi  = "Bakırköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 431,
-                SehirId  = 34,
+                IlceID   = 431,
+                SehirID  = 34,
                 IlceKodu = 1183,
                 IlceAdi  = "Beşiktaş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 432,
-                SehirId  = 34,
+                IlceID   = 432,
+                SehirID  = 34,
                 IlceKodu = 1185,
                 IlceAdi  = "Beykoz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 433,
-                SehirId  = 34,
+                IlceID   = 433,
+                SehirID  = 34,
                 IlceKodu = 1186,
                 IlceAdi  = "Beyoğlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 434,
-                SehirId  = 34,
+                IlceID   = 434,
+                SehirID  = 34,
                 IlceKodu = 1237,
                 IlceAdi  = "Çatalca",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 435,
-                SehirId  = 34,
+                IlceID   = 435,
+                SehirID  = 34,
                 IlceKodu = 1305,
                 IlceAdi  = "Eminönü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 436,
-                SehirId  = 34,
+                IlceID   = 436,
+                SehirID  = 34,
                 IlceKodu = 1325,
                 IlceAdi  = "Eyüp",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 437,
-                SehirId  = 34,
+                IlceID   = 437,
+                SehirID  = 34,
                 IlceKodu = 1327,
                 IlceAdi  = "Fatih",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 438,
-                SehirId  = 34,
+                IlceID   = 438,
+                SehirID  = 34,
                 IlceKodu = 1336,
                 IlceAdi  = "Gaziosmanpaşa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 439,
-                SehirId  = 34,
+                IlceID   = 439,
+                SehirID  = 34,
                 IlceKodu = 1421,
                 IlceAdi  = "Kadıköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 440,
-                SehirId  = 34,
+                IlceID   = 440,
+                SehirID  = 34,
                 IlceKodu = 1449,
                 IlceAdi  = "Kartal",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 441,
-                SehirId  = 34,
+                IlceID   = 441,
+                SehirID  = 34,
                 IlceKodu = 1604,
                 IlceAdi  = "Sarıyer",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 442,
-                SehirId  = 34,
+                IlceID   = 442,
+                SehirID  = 34,
                 IlceKodu = 1622,
                 IlceAdi  = "Silivri",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 443,
-                SehirId  = 34,
+                IlceID   = 443,
+                SehirID  = 34,
                 IlceKodu = 1659,
                 IlceAdi  = "Şile",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 444,
-                SehirId  = 34,
+                IlceID   = 444,
+                SehirID  = 34,
                 IlceKodu = 1663,
                 IlceAdi  = "Şişli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 445,
-                SehirId  = 34,
+                IlceID   = 445,
+                SehirID  = 34,
                 IlceKodu = 1708,
                 IlceAdi  = "Üsküdar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 446,
-                SehirId  = 34,
+                IlceID   = 446,
+                SehirID  = 34,
                 IlceKodu = 1739,
                 IlceAdi  = "Zeytinburnu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 447,
-                SehirId  = 34,
+                IlceID   = 447,
+                SehirID  = 34,
                 IlceKodu = 1782,
                 IlceAdi  = "Büyükçekmece",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 448,
-                SehirId  = 34,
+                IlceID   = 448,
+                SehirID  = 34,
                 IlceKodu = 1810,
                 IlceAdi  = "Kağıthane",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 449,
-                SehirId  = 34,
+                IlceID   = 449,
+                SehirID  = 34,
                 IlceKodu = 1823,
                 IlceAdi  = "Küçükçekmece",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 450,
-                SehirId  = 34,
+                IlceID   = 450,
+                SehirID  = 34,
                 IlceKodu = 1835,
                 IlceAdi  = "Pendik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 451,
-                SehirId  = 34,
+                IlceID   = 451,
+                SehirID  = 34,
                 IlceKodu = 1852,
                 IlceAdi  = "Ümraniye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 452,
-                SehirId  = 34,
+                IlceID   = 452,
+                SehirID  = 34,
                 IlceKodu = 1886,
                 IlceAdi  = "Bayrampaşa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 453,
-                SehirId  = 34,
+                IlceID   = 453,
+                SehirID  = 34,
                 IlceKodu = 2003,
                 IlceAdi  = "Avcılar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 454,
-                SehirId  = 34,
+                IlceID   = 454,
+                SehirID  = 34,
                 IlceKodu = 2004,
                 IlceAdi  = "Bağcılar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 455,
-                SehirId  = 34,
+                IlceID   = 455,
+                SehirID  = 34,
                 IlceKodu = 2005,
                 IlceAdi  = "Bahçelievler",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 456,
-                SehirId  = 34,
+                IlceID   = 456,
+                SehirID  = 34,
                 IlceKodu = 2010,
                 IlceAdi  = "Güngören",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 457,
-                SehirId  = 34,
+                IlceID   = 457,
+                SehirID  = 34,
                 IlceKodu = 2012,
                 IlceAdi  = "Maltepe",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 458,
-                SehirId  = 34,
+                IlceID   = 458,
+                SehirID  = 34,
                 IlceKodu = 2014,
                 IlceAdi  = "Sultanbeyli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 459,
-                SehirId  = 34,
+                IlceID   = 459,
+                SehirID  = 34,
                 IlceKodu = 2015,
                 IlceAdi  = "Tuzla",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 460,
-                SehirId  = 34,
+                IlceID   = 460,
+                SehirID  = 34,
                 IlceKodu = 2016,
                 IlceAdi  = "Esenler",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 461,
-                SehirId  = 34,
+                IlceID   = 461,
+                SehirID  = 34,
                 IlceKodu = 2048,
                 IlceAdi  = "Arnavutköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 462,
-                SehirId  = 34,
+                IlceID   = 462,
+                SehirID  = 34,
                 IlceKodu = 2049,
                 IlceAdi  = "Ataşehir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 463,
-                SehirId  = 34,
+                IlceID   = 463,
+                SehirID  = 34,
                 IlceKodu = 2050,
                 IlceAdi  = "Başakşehir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 464,
-                SehirId  = 34,
+                IlceID   = 464,
+                SehirID  = 34,
                 IlceKodu = 2051,
                 IlceAdi  = "Beylikdüzü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 465,
-                SehirId  = 34,
+                IlceID   = 465,
+                SehirID  = 34,
                 IlceKodu = 2052,
                 IlceAdi  = "Çekmeköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 466,
-                SehirId  = 34,
+                IlceID   = 466,
+                SehirID  = 34,
                 IlceKodu = 2053,
                 IlceAdi  = "Esenyurt",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 467,
-                SehirId  = 34,
+                IlceID   = 467,
+                SehirID  = 34,
                 IlceKodu = 2054,
                 IlceAdi  = "Sancaktepe",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 468,
-                SehirId  = 34,
+                IlceID   = 468,
+                SehirID  = 34,
                 IlceKodu = 2055,
                 IlceAdi  = "Sultangazi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 469,
-                SehirId  = 35,
+                IlceID   = 469,
+                SehirID  = 35,
                 IlceKodu = 1128,
                 IlceAdi  = "Aliağa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 470,
-                SehirId  = 35,
+                IlceID   = 470,
+                SehirID  = 35,
                 IlceKodu = 1178,
                 IlceAdi  = "Bayındır",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 471,
-                SehirId  = 35,
+                IlceID   = 471,
+                SehirID  = 35,
                 IlceKodu = 1181,
                 IlceAdi  = "Bergama",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 472,
-                SehirId  = 35,
+                IlceID   = 472,
+                SehirID  = 35,
                 IlceKodu = 1203,
                 IlceAdi  = "Bornova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 473,
-                SehirId  = 35,
+                IlceID   = 473,
+                SehirID  = 35,
                 IlceKodu = 1251,
                 IlceAdi  = "Çeşme",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 474,
-                SehirId  = 35,
+                IlceID   = 474,
+                SehirID  = 35,
                 IlceKodu = 1280,
                 IlceAdi  = "Dikili",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 475,
-                SehirId  = 35,
+                IlceID   = 475,
+                SehirID  = 35,
                 IlceKodu = 1334,
                 IlceAdi  = "Foça",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 476,
-                SehirId  = 35,
+                IlceID   = 476,
+                SehirID  = 35,
                 IlceKodu = 1432,
                 IlceAdi  = "Karaburun",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 477,
-                SehirId  = 35,
+                IlceID   = 477,
+                SehirID  = 35,
                 IlceKodu = 1448,
                 IlceAdi  = "Karşıyaka",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 478,
-                SehirId  = 35,
+                IlceID   = 478,
+                SehirID  = 35,
                 IlceKodu = 1461,
                 IlceAdi  = "Kemalpaşa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 479,
-                SehirId  = 35,
+                IlceID   = 479,
+                SehirID  = 35,
                 IlceKodu = 1467,
                 IlceAdi  = "Kınık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 480,
-                SehirId  = 35,
+                IlceID   = 480,
+                SehirID  = 35,
                 IlceKodu = 1477,
                 IlceAdi  = "Kiraz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 481,
-                SehirId  = 35,
+                IlceID   = 481,
+                SehirID  = 35,
                 IlceKodu = 1521,
                 IlceAdi  = "Menemen",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 482,
-                SehirId  = 35,
+                IlceID   = 482,
+                SehirID  = 35,
                 IlceKodu = 1563,
                 IlceAdi  = "Ödemiş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 483,
-                SehirId  = 35,
+                IlceID   = 483,
+                SehirID  = 35,
                 IlceKodu = 1611,
                 IlceAdi  = "Seferihisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 484,
-                SehirId  = 35,
+                IlceID   = 484,
+                SehirID  = 35,
                 IlceKodu = 1612,
                 IlceAdi  = "Selçuk",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 485,
-                SehirId  = 35,
+                IlceID   = 485,
+                SehirID  = 35,
                 IlceKodu = 1677,
                 IlceAdi  = "Tire",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 486,
-                SehirId  = 35,
+                IlceID   = 486,
+                SehirID  = 35,
                 IlceKodu = 1682,
                 IlceAdi  = "Torbalı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 487,
-                SehirId  = 35,
+                IlceID   = 487,
+                SehirID  = 35,
                 IlceKodu = 1703,
                 IlceAdi  = "Urla",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 488,
-                SehirId  = 35,
+                IlceID   = 488,
+                SehirID  = 35,
                 IlceKodu = 1776,
                 IlceAdi  = "Beydağ",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 489,
-                SehirId  = 35,
+                IlceID   = 489,
+                SehirID  = 35,
                 IlceKodu = 1780,
                 IlceAdi  = "Buca",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 490,
-                SehirId  = 35,
+                IlceID   = 490,
+                SehirID  = 35,
                 IlceKodu = 1819,
                 IlceAdi  = "Konak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 491,
-                SehirId  = 35,
+                IlceID   = 491,
+                SehirID  = 35,
                 IlceKodu = 1826,
                 IlceAdi  = "Menderes",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 492,
-                SehirId  = 35,
+                IlceID   = 492,
+                SehirID  = 35,
                 IlceKodu = 2006,
                 IlceAdi  = "Balçova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 493,
-                SehirId  = 35,
+                IlceID   = 493,
+                SehirID  = 35,
                 IlceKodu = 2007,
                 IlceAdi  = "Çiğli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 494,
-                SehirId  = 35,
+                IlceID   = 494,
+                SehirID  = 35,
                 IlceKodu = 2009,
                 IlceAdi  = "Gaziemir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 495,
-                SehirId  = 35,
+                IlceID   = 495,
+                SehirID  = 35,
                 IlceKodu = 2013,
                 IlceAdi  = "Narlıdere",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 496,
-                SehirId  = 35,
+                IlceID   = 496,
+                SehirID  = 35,
                 IlceKodu = 2018,
                 IlceAdi  = "Güzelbahçe",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 497,
-                SehirId  = 35,
+                IlceID   = 497,
+                SehirID  = 35,
                 IlceKodu = 2056,
                 IlceAdi  = "Bayraklı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 498,
-                SehirId  = 35,
+                IlceID   = 498,
+                SehirID  = 35,
                 IlceKodu = 2057,
                 IlceAdi  = "Karabağlar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 499,
-                SehirId  = 36,
+                IlceID   = 499,
+                SehirID  = 36,
                 IlceKodu = 1149,
                 IlceAdi  = "Arpaçay",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 500,
-                SehirId  = 36,
+                IlceID   = 500,
+                SehirID  = 36,
                 IlceKodu = 1279,
                 IlceAdi  = "Digor",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 501,
-                SehirId  = 36,
+                IlceID   = 501,
+                SehirID  = 36,
                 IlceKodu = 1424,
                 IlceAdi  = "Kağızman",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 502,
-                SehirId  = 36,
+                IlceID   = 502,
+                SehirID  = 36,
                 IlceKodu = 1447,
                 IlceAdi  = "Kars Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 503,
-                SehirId  = 36,
+                IlceID   = 503,
+                SehirID  = 36,
                 IlceKodu = 1601,
                 IlceAdi  = "Sarıkamış",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 504,
-                SehirId  = 36,
+                IlceID   = 504,
+                SehirID  = 36,
                 IlceKodu = 1614,
                 IlceAdi  = "Selim",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 505,
-                SehirId  = 36,
+                IlceID   = 505,
+                SehirID  = 36,
                 IlceKodu = 1645,
                 IlceAdi  = "Susuz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 506,
-                SehirId  = 36,
+                IlceID   = 506,
+                SehirID  = 36,
                 IlceKodu = 1756,
                 IlceAdi  = "Akyaka",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 507,
-                SehirId  = 37,
+                IlceID   = 507,
+                SehirID  = 37,
                 IlceKodu = 1101,
                 IlceAdi  = "Abana",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 508,
-                SehirId  = 37,
+                IlceID   = 508,
+                SehirID  = 37,
                 IlceKodu = 1140,
                 IlceAdi  = "Araç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 509,
-                SehirId  = 37,
+                IlceID   = 509,
+                SehirID  = 37,
                 IlceKodu = 1162,
                 IlceAdi  = "Azdavay",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 510,
-                SehirId  = 37,
+                IlceID   = 510,
+                SehirID  = 37,
                 IlceKodu = 1208,
                 IlceAdi  = "Bozkurt / Kastamonu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 511,
-                SehirId  = 37,
+                IlceID   = 511,
+                SehirID  = 37,
                 IlceKodu = 1221,
                 IlceAdi  = "Cide",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 512,
-                SehirId  = 37,
+                IlceID   = 512,
+                SehirID  = 37,
                 IlceKodu = 1238,
                 IlceAdi  = "Çatalzeytin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 513,
-                SehirId  = 37,
+                IlceID   = 513,
+                SehirID  = 37,
                 IlceKodu = 1264,
                 IlceAdi  = "Daday",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 514,
-                SehirId  = 37,
+                IlceID   = 514,
+                SehirID  = 37,
                 IlceKodu = 1277,
                 IlceAdi  = "Devrekani",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 515,
-                SehirId  = 37,
+                IlceID   = 515,
+                SehirID  = 37,
                 IlceKodu = 1410,
                 IlceAdi  = "İnebolu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 516,
-                SehirId  = 37,
+                IlceID   = 516,
+                SehirID  = 37,
                 IlceKodu = 1450,
                 IlceAdi  = "Kastamonu Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 517,
-                SehirId  = 37,
+                IlceID   = 517,
+                SehirID  = 37,
                 IlceKodu = 1499,
                 IlceAdi  = "Küre",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 518,
-                SehirId  = 37,
+                IlceID   = 518,
+                SehirID  = 37,
                 IlceKodu = 1666,
                 IlceAdi  = "Taşköprü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 519,
-                SehirId  = 37,
+                IlceID   = 519,
+                SehirID  = 37,
                 IlceKodu = 1685,
                 IlceAdi  = "Tosya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 520,
-                SehirId  = 37,
+                IlceID   = 520,
+                SehirID  = 37,
                 IlceKodu = 1805,
                 IlceAdi  = "İhsangazi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 521,
-                SehirId  = 37,
+                IlceID   = 521,
+                SehirID  = 37,
                 IlceKodu = 1836,
                 IlceAdi  = "Pınarbaşı / Kastamonu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 522,
-                SehirId  = 37,
+                IlceID   = 522,
+                SehirID  = 37,
                 IlceKodu = 1845,
                 IlceAdi  = "Şenpazar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 523,
-                SehirId  = 37,
+                IlceID   = 523,
+                SehirID  = 37,
                 IlceKodu = 1867,
                 IlceAdi  = "Ağlı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 524,
-                SehirId  = 37,
+                IlceID   = 524,
+                SehirID  = 37,
                 IlceKodu = 1915,
                 IlceAdi  = "Doğanyurt",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 525,
-                SehirId  = 37,
+                IlceID   = 525,
+                SehirID  = 37,
                 IlceKodu = 1940,
                 IlceAdi  = "Hanönü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 526,
-                SehirId  = 37,
+                IlceID   = 526,
+                SehirID  = 37,
                 IlceKodu = 1984,
                 IlceAdi  = "Seydiler",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 527,
-                SehirId  = 38,
+                IlceID   = 527,
+                SehirID  = 38,
                 IlceKodu = 1218,
                 IlceAdi  = "Bünyan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 528,
-                SehirId  = 38,
+                IlceID   = 528,
+                SehirID  = 38,
                 IlceKodu = 1275,
                 IlceAdi  = "Develi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 529,
-                SehirId  = 38,
+                IlceID   = 529,
+                SehirID  = 38,
                 IlceKodu = 1330,
                 IlceAdi  = "Felahiye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 530,
-                SehirId  = 38,
+                IlceID   = 530,
+                SehirID  = 38,
                 IlceKodu = 1409,
                 IlceAdi  = "İncesu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 531,
-                SehirId  = 38,
+                IlceID   = 531,
+                SehirID  = 38,
                 IlceKodu = 1576,
                 IlceAdi  = "Pınarbaşı / Kayseri",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 532,
-                SehirId  = 38,
+                IlceID   = 532,
+                SehirID  = 38,
                 IlceKodu = 1603,
                 IlceAdi  = "Sarıoğlan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 533,
-                SehirId  = 38,
+                IlceID   = 533,
+                SehirID  = 38,
                 IlceKodu = 1605,
                 IlceAdi  = "Sarız",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 534,
-                SehirId  = 38,
+                IlceID   = 534,
+                SehirID  = 38,
                 IlceKodu = 1680,
                 IlceAdi  = "Tomarza",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 535,
-                SehirId  = 38,
+                IlceID   = 535,
+                SehirID  = 38,
                 IlceKodu = 1715,
                 IlceAdi  = "Yahyalı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 536,
-                SehirId  = 38,
+                IlceID   = 536,
+                SehirID  = 38,
                 IlceKodu = 1727,
                 IlceAdi  = "Yeşilhisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 537,
-                SehirId  = 38,
+                IlceID   = 537,
+                SehirID  = 38,
                 IlceKodu = 1752,
                 IlceAdi  = "Akkışla",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 538,
-                SehirId  = 38,
+                IlceID   = 538,
+                SehirID  = 38,
                 IlceKodu = 1846,
                 IlceAdi  = "Talas",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 539,
-                SehirId  = 38,
+                IlceID   = 539,
+                SehirID  = 38,
                 IlceKodu = 1863,
                 IlceAdi  = "Kocasinan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 540,
-                SehirId  = 38,
+                IlceID   = 540,
+                SehirID  = 38,
                 IlceKodu = 1864,
                 IlceAdi  = "Melikgazi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 541,
-                SehirId  = 38,
+                IlceID   = 541,
+                SehirID  = 38,
                 IlceKodu = 1936,
                 IlceAdi  = "Hacılar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 542,
-                SehirId  = 38,
+                IlceID   = 542,
+                SehirID  = 38,
                 IlceKodu = 1978,
                 IlceAdi  = "Özvatan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 543,
-                SehirId  = 39,
+                IlceID   = 543,
+                SehirID  = 39,
                 IlceKodu = 1163,
                 IlceAdi  = "Babaeski",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 544,
-                SehirId  = 39,
+                IlceID   = 544,
+                SehirID  = 39,
                 IlceKodu = 1270,
                 IlceAdi  = "Demirköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 545,
-                SehirId  = 39,
+                IlceID   = 545,
+                SehirID  = 39,
                 IlceKodu = 1471,
                 IlceAdi  = "Kırklareli Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 546,
-                SehirId  = 39,
+                IlceID   = 546,
+                SehirID  = 39,
                 IlceKodu = 1480,
                 IlceAdi  = "Kofçaz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 547,
-                SehirId  = 39,
+                IlceID   = 547,
+                SehirID  = 39,
                 IlceKodu = 1505,
                 IlceAdi  = "Lüleburgaz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 548,
-                SehirId  = 39,
+                IlceID   = 548,
+                SehirID  = 39,
                 IlceKodu = 1572,
                 IlceAdi  = "Pehlivanköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 549,
-                SehirId  = 39,
+                IlceID   = 549,
+                SehirID  = 39,
                 IlceKodu = 1577,
                 IlceAdi  = "Pınarhisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 550,
-                SehirId  = 39,
+                IlceID   = 550,
+                SehirID  = 39,
                 IlceKodu = 1714,
                 IlceAdi  = "Vize",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 551,
-                SehirId  = 40,
+                IlceID   = 551,
+                SehirID  = 40,
                 IlceKodu = 1254,
                 IlceAdi  = "Çiçekdağı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 552,
-                SehirId  = 40,
+                IlceID   = 552,
+                SehirID  = 40,
                 IlceKodu = 1429,
                 IlceAdi  = "Kaman",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 553,
-                SehirId  = 40,
+                IlceID   = 553,
+                SehirID  = 40,
                 IlceKodu = 1472,
                 IlceAdi  = "Kırşehir Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 554,
-                SehirId  = 40,
+                IlceID   = 554,
+                SehirID  = 40,
                 IlceKodu = 1529,
                 IlceAdi  = "Mucur",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 555,
-                SehirId  = 40,
+                IlceID   = 555,
+                SehirID  = 40,
                 IlceKodu = 1754,
                 IlceAdi  = "Akpınar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 556,
-                SehirId  = 40,
+                IlceID   = 556,
+                SehirID  = 40,
                 IlceKodu = 1869,
                 IlceAdi  = "Akçakent",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 557,
-                SehirId  = 40,
+                IlceID   = 557,
+                SehirID  = 40,
                 IlceKodu = 1890,
                 IlceAdi  = "Boztepe",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 558,
-                SehirId  = 41,
+                IlceID   = 558,
+                SehirID  = 41,
                 IlceKodu = 1338,
                 IlceAdi  = "Gebze",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 559,
-                SehirId  = 41,
+                IlceID   = 559,
+                SehirID  = 41,
                 IlceKodu = 1355,
                 IlceAdi  = "Gölcük",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 560,
-                SehirId  = 41,
+                IlceID   = 560,
+                SehirID  = 41,
                 IlceKodu = 1430,
                 IlceAdi  = "Kandıra",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 561,
-                SehirId  = 41,
+                IlceID   = 561,
+                SehirID  = 41,
                 IlceKodu = 1440,
                 IlceAdi  = "Karamürsel",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 562,
-                SehirId  = 41,
+                IlceID   = 562,
+                SehirID  = 41,
                 IlceKodu = 1478,
                 IlceAdi  = "Kocaeli Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 563,
-                SehirId  = 41,
+                IlceID   = 563,
+                SehirID  = 41,
                 IlceKodu = 1821,
                 IlceAdi  = "Körfez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 564,
-                SehirId  = 41,
+                IlceID   = 564,
+                SehirID  = 41,
                 IlceKodu = 2030,
                 IlceAdi  = "Derince",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 565,
-                SehirId  = 41,
+                IlceID   = 565,
+                SehirID  = 41,
                 IlceKodu = 2058,
                 IlceAdi  = "Başiskele",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 566,
-                SehirId  = 41,
+                IlceID   = 566,
+                SehirID  = 41,
                 IlceKodu = 2059,
                 IlceAdi  = "Çayırova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 567,
-                SehirId  = 41,
+                IlceID   = 567,
+                SehirID  = 41,
                 IlceKodu = 2060,
                 IlceAdi  = "Darıca",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 568,
-                SehirId  = 41,
+                IlceID   = 568,
+                SehirID  = 41,
                 IlceKodu = 2061,
                 IlceAdi  = "Dilovası",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 569,
-                SehirId  = 41,
+                IlceID   = 569,
+                SehirID  = 41,
                 IlceKodu = 2062,
                 IlceAdi  = "İzmit",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 570,
-                SehirId  = 41,
+                IlceID   = 570,
+                SehirID  = 41,
                 IlceKodu = 2063,
                 IlceAdi  = "Kartepe",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 571,
-                SehirId  = 42,
+                IlceID   = 571,
+                SehirID  = 42,
                 IlceKodu = 1122,
                 IlceAdi  = "Akşehir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 572,
-                SehirId  = 42,
+                IlceID   = 572,
+                SehirID  = 42,
                 IlceKodu = 1188,
                 IlceAdi  = "Beyşehir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 573,
-                SehirId  = 42,
+                IlceID   = 573,
+                SehirID  = 42,
                 IlceKodu = 1207,
                 IlceAdi  = "Bozkır",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 574,
-                SehirId  = 42,
+                IlceID   = 574,
+                SehirID  = 42,
                 IlceKodu = 1222,
                 IlceAdi  = "Cihanbeyli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 575,
-                SehirId  = 42,
+                IlceID   = 575,
+                SehirID  = 42,
                 IlceKodu = 1262,
                 IlceAdi  = "Çumra",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 576,
-                SehirId  = 42,
+                IlceID   = 576,
+                SehirID  = 42,
                 IlceKodu = 1285,
                 IlceAdi  = "Doğanhisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 577,
-                SehirId  = 42,
+                IlceID   = 577,
+                SehirID  = 42,
                 IlceKodu = 1312,
                 IlceAdi  = "Ereğli / Konya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 578,
-                SehirId  = 42,
+                IlceID   = 578,
+                SehirID  = 42,
                 IlceKodu = 1375,
                 IlceAdi  = "Hadim",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 579,
-                SehirId  = 42,
+                IlceID   = 579,
+                SehirID  = 42,
                 IlceKodu = 1400,
                 IlceAdi  = "Ilgın",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 580,
-                SehirId  = 42,
+                IlceID   = 580,
+                SehirID  = 42,
                 IlceKodu = 1422,
                 IlceAdi  = "Kadınhanı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 581,
-                SehirId  = 42,
+                IlceID   = 581,
+                SehirID  = 42,
                 IlceKodu = 1441,
                 IlceAdi  = "Karapınar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 582,
-                SehirId  = 42,
+                IlceID   = 582,
+                SehirID  = 42,
                 IlceKodu = 1491,
                 IlceAdi  = "Kulu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 583,
-                SehirId  = 42,
+                IlceID   = 583,
+                SehirID  = 42,
                 IlceKodu = 1598,
                 IlceAdi  = "Sarayönü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 584,
-                SehirId  = 42,
+                IlceID   = 584,
+                SehirID  = 42,
                 IlceKodu = 1617,
                 IlceAdi  = "Seydişehir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 585,
-                SehirId  = 42,
+                IlceID   = 585,
+                SehirID  = 42,
                 IlceKodu = 1735,
                 IlceAdi  = "Yunak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 586,
-                SehirId  = 42,
+                IlceID   = 586,
+                SehirID  = 42,
                 IlceKodu = 1753,
                 IlceAdi  = "Akören",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 587,
-                SehirId  = 42,
+                IlceID   = 587,
+                SehirID  = 42,
                 IlceKodu = 1760,
                 IlceAdi  = "Altınekin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 588,
-                SehirId  = 42,
+                IlceID   = 588,
+                SehirID  = 42,
                 IlceKodu = 1789,
                 IlceAdi  = "Derebucak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 589,
-                SehirId  = 42,
+                IlceID   = 589,
+                SehirID  = 42,
                 IlceKodu = 1804,
                 IlceAdi  = "Hüyük",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 590,
-                SehirId  = 42,
+                IlceID   = 590,
+                SehirID  = 42,
                 IlceKodu = 1814,
                 IlceAdi  = "Karatay",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 591,
-                SehirId  = 42,
+                IlceID   = 591,
+                SehirID  = 42,
                 IlceKodu = 1827,
                 IlceAdi  = "Meram",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 592,
-                SehirId  = 42,
+                IlceID   = 592,
+                SehirID  = 42,
                 IlceKodu = 1839,
                 IlceAdi  = "Selçuklu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 593,
-                SehirId  = 42,
+                IlceID   = 593,
+                SehirID  = 42,
                 IlceKodu = 1848,
                 IlceAdi  = "Taşkent",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 594,
-                SehirId  = 42,
+                IlceID   = 594,
+                SehirID  = 42,
                 IlceKodu = 1868,
                 IlceAdi  = "Ahırlı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 595,
-                SehirId  = 42,
+                IlceID   = 595,
+                SehirID  = 42,
                 IlceKodu = 1902,
                 IlceAdi  = "Çeltik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 596,
-                SehirId  = 42,
+                IlceID   = 596,
+                SehirID  = 42,
                 IlceKodu = 1907,
                 IlceAdi  = "Derbent",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 597,
-                SehirId  = 42,
+                IlceID   = 597,
+                SehirID  = 42,
                 IlceKodu = 1920,
                 IlceAdi  = "Emirgazi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 598,
-                SehirId  = 42,
+                IlceID   = 598,
+                SehirID  = 42,
                 IlceKodu = 1933,
                 IlceAdi  = "Güneysınır",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 599,
-                SehirId  = 42,
+                IlceID   = 599,
+                SehirID  = 42,
                 IlceKodu = 1937,
                 IlceAdi  = "Halkapınar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 600,
-                SehirId  = 42,
+                IlceID   = 600,
+                SehirID  = 42,
                 IlceKodu = 1990,
                 IlceAdi  = "Tuzlukçu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 601,
-                SehirId  = 42,
+                IlceID   = 601,
+                SehirID  = 42,
                 IlceKodu = 1994,
                 IlceAdi  = "Yalıhüyük",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 602,
-                SehirId  = 43,
+                IlceID   = 602,
+                SehirID  = 43,
                 IlceKodu = 1132,
                 IlceAdi  = "Altıntaş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 603,
-                SehirId  = 43,
+                IlceID   = 603,
+                SehirID  = 43,
                 IlceKodu = 1288,
                 IlceAdi  = "Domaniç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 604,
-                SehirId  = 43,
+                IlceID   = 604,
+                SehirID  = 43,
                 IlceKodu = 1304,
                 IlceAdi  = "Emet",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 605,
-                SehirId  = 43,
+                IlceID   = 605,
+                SehirID  = 43,
                 IlceKodu = 1339,
                 IlceAdi  = "Gediz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 606,
-                SehirId  = 43,
+                IlceID   = 606,
+                SehirID  = 43,
                 IlceKodu = 1500,
                 IlceAdi  = "Kütahya Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 607,
-                SehirId  = 43,
+                IlceID   = 607,
+                SehirID  = 43,
                 IlceKodu = 1625,
                 IlceAdi  = "Simav",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 608,
-                SehirId  = 43,
+                IlceID   = 608,
+                SehirID  = 43,
                 IlceKodu = 1671,
                 IlceAdi  = "Tavşanlı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 609,
-                SehirId  = 43,
+                IlceID   = 609,
+                SehirID  = 43,
                 IlceKodu = 1764,
                 IlceAdi  = "Aslanapa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 610,
-                SehirId  = 43,
+                IlceID   = 610,
+                SehirID  = 43,
                 IlceKodu = 1790,
                 IlceAdi  = "Dumlupınar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 611,
-                SehirId  = 43,
+                IlceID   = 611,
+                SehirID  = 43,
                 IlceKodu = 1802,
                 IlceAdi  = "Hisarcık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 612,
-                SehirId  = 43,
+                IlceID   = 612,
+                SehirID  = 43,
                 IlceKodu = 1843,
                 IlceAdi  = "Şaphane",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 613,
-                SehirId  = 43,
+                IlceID   = 613,
+                SehirID  = 43,
                 IlceKodu = 1898,
                 IlceAdi  = "Çavdarhisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 614,
-                SehirId  = 43,
+                IlceID   = 614,
+                SehirID  = 43,
                 IlceKodu = 1979,
                 IlceAdi  = "Pazarlar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 615,
-                SehirId  = 44,
+                IlceID   = 615,
+                SehirID  = 44,
                 IlceKodu = 1114,
                 IlceAdi  = "Akçadağ",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 616,
-                SehirId  = 44,
+                IlceID   = 616,
+                SehirID  = 44,
                 IlceKodu = 1143,
                 IlceAdi  = "Arapgir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 617,
-                SehirId  = 44,
+                IlceID   = 617,
+                SehirID  = 44,
                 IlceKodu = 1148,
                 IlceAdi  = "Arguvan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 618,
-                SehirId  = 44,
+                IlceID   = 618,
+                SehirID  = 44,
                 IlceKodu = 1265,
                 IlceAdi  = "Darende",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 619,
-                SehirId  = 44,
+                IlceID   = 619,
+                SehirID  = 44,
                 IlceKodu = 1286,
                 IlceAdi  = "Doğanşehir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 620,
-                SehirId  = 44,
+                IlceID   = 620,
+                SehirID  = 44,
                 IlceKodu = 1390,
                 IlceAdi  = "Hekimhan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 621,
-                SehirId  = 44,
+                IlceID   = 621,
+                SehirID  = 44,
                 IlceKodu = 1509,
                 IlceAdi  = "Malatya Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 622,
-                SehirId  = 44,
+                IlceID   = 622,
+                SehirID  = 44,
                 IlceKodu = 1582,
                 IlceAdi  = "Pütürge",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 623,
-                SehirId  = 44,
+                IlceID   = 623,
+                SehirID  = 44,
                 IlceKodu = 1729,
                 IlceAdi  = "Yeşilyurt / Malatya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 624,
-                SehirId  = 44,
+                IlceID   = 624,
+                SehirID  = 44,
                 IlceKodu = 1772,
                 IlceAdi  = "Battalgazi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 625,
-                SehirId  = 44,
+                IlceID   = 625,
+                SehirID  = 44,
                 IlceKodu = 1914,
                 IlceAdi  = "Doğanyol",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 626,
-                SehirId  = 44,
+                IlceID   = 626,
+                SehirID  = 44,
                 IlceKodu = 1953,
                 IlceAdi  = "Kale / Malatya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 627,
-                SehirId  = 44,
+                IlceID   = 627,
+                SehirID  = 44,
                 IlceKodu = 1969,
                 IlceAdi  = "Kuluncak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 628,
-                SehirId  = 44,
+                IlceID   = 628,
+                SehirID  = 44,
                 IlceKodu = 1995,
                 IlceAdi  = "Yazıhan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 629,
-                SehirId  = 45,
+                IlceID   = 629,
+                SehirID  = 45,
                 IlceKodu = 1118,
                 IlceAdi  = "Akhisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 630,
-                SehirId  = 45,
+                IlceID   = 630,
+                SehirID  = 45,
                 IlceKodu = 1127,
                 IlceAdi  = "Alaşehir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 631,
-                SehirId  = 45,
+                IlceID   = 631,
+                SehirID  = 45,
                 IlceKodu = 1269,
                 IlceAdi  = "Demirci",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 632,
-                SehirId  = 45,
+                IlceID   = 632,
+                SehirID  = 45,
                 IlceKodu = 1362,
                 IlceAdi  = "Gördes",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 633,
-                SehirId  = 45,
+                IlceID   = 633,
+                SehirID  = 45,
                 IlceKodu = 1470,
                 IlceAdi  = "Kırkağaç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 634,
-                SehirId  = 45,
+                IlceID   = 634,
+                SehirID  = 45,
                 IlceKodu = 1489,
                 IlceAdi  = "Kula",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 635,
-                SehirId  = 45,
+                IlceID   = 635,
+                SehirID  = 45,
                 IlceKodu = 1513,
                 IlceAdi  = "Manisa Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 636,
-                SehirId  = 45,
+                IlceID   = 636,
+                SehirID  = 45,
                 IlceKodu = 1590,
                 IlceAdi  = "Salihli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 637,
-                SehirId  = 45,
+                IlceID   = 637,
+                SehirID  = 45,
                 IlceKodu = 1600,
                 IlceAdi  = "Sarıgöl",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 638,
-                SehirId  = 45,
+                IlceID   = 638,
+                SehirID  = 45,
                 IlceKodu = 1606,
                 IlceAdi  = "Saruhanlı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 639,
-                SehirId  = 45,
+                IlceID   = 639,
+                SehirID  = 45,
                 IlceKodu = 1613,
                 IlceAdi  = "Selendi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 640,
-                SehirId  = 45,
+                IlceID   = 640,
+                SehirID  = 45,
                 IlceKodu = 1634,
                 IlceAdi  = "Soma",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 641,
-                SehirId  = 45,
+                IlceID   = 641,
+                SehirID  = 45,
                 IlceKodu = 1689,
                 IlceAdi  = "Turgutlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 642,
-                SehirId  = 45,
+                IlceID   = 642,
+                SehirID  = 45,
                 IlceKodu = 1751,
                 IlceAdi  = "Ahmetli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 643,
-                SehirId  = 45,
+                IlceID   = 643,
+                SehirID  = 45,
                 IlceKodu = 1793,
                 IlceAdi  = "Gölmarmara",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 644,
-                SehirId  = 45,
+                IlceID   = 644,
+                SehirID  = 45,
                 IlceKodu = 1965,
                 IlceAdi  = "Köprübaşı / Manisa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 645,
-                SehirId  = 45,
+                IlceID   = 645,
+                SehirID  = 45,
                 IlceKodu = 2086,
                 IlceAdi  = "Şehzadeler",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 646,
-                SehirId  = 45,
+                IlceID   = 646,
+                SehirID  = 45,
                 IlceKodu = 2087,
                 IlceAdi  = "Yunusemre",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 647,
-                SehirId  = 46,
+                IlceID   = 647,
+                SehirID  = 46,
                 IlceKodu = 1107,
                 IlceAdi  = "Afşin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 648,
-                SehirId  = 46,
+                IlceID   = 648,
+                SehirID  = 46,
                 IlceKodu = 1136,
                 IlceAdi  = "Andırın",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 649,
-                SehirId  = 46,
+                IlceID   = 649,
+                SehirID  = 46,
                 IlceKodu = 1299,
                 IlceAdi  = "Elbistan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 650,
-                SehirId  = 46,
+                IlceID   = 650,
+                SehirID  = 46,
                 IlceKodu = 1353,
                 IlceAdi  = "Göksun",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 651,
-                SehirId  = 46,
+                IlceID   = 651,
+                SehirID  = 46,
                 IlceKodu = 1515,
                 IlceAdi  = "Kahramanmaraş Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 652,
-                SehirId  = 46,
+                IlceID   = 652,
+                SehirID  = 46,
                 IlceKodu = 1570,
                 IlceAdi  = "Pazarcık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 653,
-                SehirId  = 46,
+                IlceID   = 653,
+                SehirID  = 46,
                 IlceKodu = 1694,
                 IlceAdi  = "Türkoğlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 654,
-                SehirId  = 46,
+                IlceID   = 654,
+                SehirID  = 46,
                 IlceKodu = 1785,
                 IlceAdi  = "Çağlayancerit",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 655,
-                SehirId  = 46,
+                IlceID   = 655,
+                SehirID  = 46,
                 IlceKodu = 1919,
                 IlceAdi  = "Ekinözü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 656,
-                SehirId  = 46,
+                IlceID   = 656,
+                SehirID  = 46,
                 IlceKodu = 1975,
                 IlceAdi  = "Nurhak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 657,
-                SehirId  = 46,
+                IlceID   = 657,
+                SehirID  = 46,
                 IlceKodu = 2084,
                 IlceAdi  = "Dulkadiroğlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 658,
-                SehirId  = 46,
+                IlceID   = 658,
+                SehirID  = 46,
                 IlceKodu = 2085,
                 IlceAdi  = "Onikişubat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 659,
-                SehirId  = 47,
+                IlceID   = 659,
+                SehirID  = 47,
                 IlceKodu = 1273,
                 IlceAdi  = "Derik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 660,
-                SehirId  = 47,
+                IlceID   = 660,
+                SehirID  = 47,
                 IlceKodu = 1474,
                 IlceAdi  = "Kızıltepe",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 661,
-                SehirId  = 47,
+                IlceID   = 661,
+                SehirID  = 47,
                 IlceKodu = 1516,
                 IlceAdi  = "Mardin Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 662,
-                SehirId  = 47,
+                IlceID   = 662,
+                SehirID  = 47,
                 IlceKodu = 1519,
                 IlceAdi  = "Mazıdağı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 663,
-                SehirId  = 47,
+                IlceID   = 663,
+                SehirID  = 47,
                 IlceKodu = 1526,
                 IlceAdi  = "Midyat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 664,
-                SehirId  = 47,
+                IlceID   = 664,
+                SehirID  = 47,
                 IlceKodu = 1547,
                 IlceAdi  = "Nusaybin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 665,
-                SehirId  = 47,
+                IlceID   = 665,
+                SehirID  = 47,
                 IlceKodu = 1564,
                 IlceAdi  = "Ömerli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 666,
-                SehirId  = 47,
+                IlceID   = 666,
+                SehirID  = 47,
                 IlceKodu = 1609,
                 IlceAdi  = "Savur",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 667,
-                SehirId  = 47,
+                IlceID   = 667,
+                SehirID  = 47,
                 IlceKodu = 1787,
                 IlceAdi  = "Dargeçit",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 668,
-                SehirId  = 47,
+                IlceID   = 668,
+                SehirID  = 47,
                 IlceKodu = 2002,
                 IlceAdi  = "Yeşilli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 669,
-                SehirId  = 47,
+                IlceID   = 669,
+                SehirID  = 47,
                 IlceKodu = 2088,
                 IlceAdi  = "Artuklu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 670,
-                SehirId  = 48,
+                IlceID   = 670,
+                SehirID  = 48,
                 IlceKodu = 1197,
                 IlceAdi  = "Bodrum",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 671,
-                SehirId  = 48,
+                IlceID   = 671,
+                SehirID  = 48,
                 IlceKodu = 1266,
                 IlceAdi  = "Datça",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 672,
-                SehirId  = 48,
+                IlceID   = 672,
+                SehirID  = 48,
                 IlceKodu = 1331,
                 IlceAdi  = "Fethiye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 673,
-                SehirId  = 48,
+                IlceID   = 673,
+                SehirID  = 48,
                 IlceKodu = 1488,
                 IlceAdi  = "Köyceğiz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 674,
-                SehirId  = 48,
+                IlceID   = 674,
+                SehirID  = 48,
                 IlceKodu = 1517,
                 IlceAdi  = "Marmaris",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 675,
-                SehirId  = 48,
+                IlceID   = 675,
+                SehirID  = 48,
                 IlceKodu = 1528,
                 IlceAdi  = "Milas",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 676,
-                SehirId  = 48,
+                IlceID   = 676,
+                SehirID  = 48,
                 IlceKodu = 1532,
                 IlceAdi  = "Muğla Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 677,
-                SehirId  = 48,
+                IlceID   = 677,
+                SehirID  = 48,
                 IlceKodu = 1695,
                 IlceAdi  = "Ula",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 678,
-                SehirId  = 48,
+                IlceID   = 678,
+                SehirID  = 48,
                 IlceKodu = 1719,
                 IlceAdi  = "Yatağan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 679,
-                SehirId  = 48,
+                IlceID   = 679,
+                SehirID  = 48,
                 IlceKodu = 1742,
                 IlceAdi  = "Dalaman",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 680,
-                SehirId  = 48,
+                IlceID   = 680,
+                SehirID  = 48,
                 IlceKodu = 1831,
                 IlceAdi  = "Ortaca",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 681,
-                SehirId  = 48,
+                IlceID   = 681,
+                SehirID  = 48,
                 IlceKodu = 1958,
                 IlceAdi  = "Kavaklıdere",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 682,
-                SehirId  = 48,
+                IlceID   = 682,
+                SehirID  = 48,
                 IlceKodu = 2089,
                 IlceAdi  = "Menteşe",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 683,
-                SehirId  = 48,
+                IlceID   = 683,
+                SehirID  = 48,
                 IlceKodu = 2090,
                 IlceAdi  = "Seydikemer",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 684,
-                SehirId  = 49,
+                IlceID   = 684,
+                SehirID  = 49,
                 IlceKodu = 1213,
                 IlceAdi  = "Bulanık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 685,
-                SehirId  = 49,
+                IlceID   = 685,
+                SehirID  = 49,
                 IlceKodu = 1510,
                 IlceAdi  = "Malazgirt",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 686,
-                SehirId  = 49,
+                IlceID   = 686,
+                SehirID  = 49,
                 IlceKodu = 1534,
                 IlceAdi  = "Muş Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 687,
-                SehirId  = 49,
+                IlceID   = 687,
+                SehirID  = 49,
                 IlceKodu = 1711,
                 IlceAdi  = "Varto",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 688,
-                SehirId  = 49,
+                IlceID   = 688,
+                SehirID  = 49,
                 IlceKodu = 1801,
                 IlceAdi  = "Hasköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 689,
-                SehirId  = 49,
+                IlceID   = 689,
+                SehirID  = 49,
                 IlceKodu = 1964,
                 IlceAdi  = "Korkut",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 690,
-                SehirId  = 50,
+                IlceID   = 690,
+                SehirID  = 50,
                 IlceKodu = 1155,
                 IlceAdi  = "Avanos",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 691,
-                SehirId  = 50,
+                IlceID   = 691,
+                SehirID  = 50,
                 IlceKodu = 1274,
                 IlceAdi  = "Derinkuyu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 692,
-                SehirId  = 50,
+                IlceID   = 692,
+                SehirID  = 50,
                 IlceKodu = 1367,
                 IlceAdi  = "Gülşehir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 693,
-                SehirId  = 50,
+                IlceID   = 693,
+                SehirID  = 50,
                 IlceKodu = 1374,
                 IlceAdi  = "Hacıbektaş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 694,
-                SehirId  = 50,
+                IlceID   = 694,
+                SehirID  = 50,
                 IlceKodu = 1485,
                 IlceAdi  = "Kozaklı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 695,
-                SehirId  = 50,
+                IlceID   = 695,
+                SehirID  = 50,
                 IlceKodu = 1543,
                 IlceAdi  = "Nevşehir Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 696,
-                SehirId  = 50,
+                IlceID   = 696,
+                SehirID  = 50,
                 IlceKodu = 1707,
                 IlceAdi  = "Ürgüp",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 697,
-                SehirId  = 50,
+                IlceID   = 697,
+                SehirID  = 50,
                 IlceKodu = 1749,
                 IlceAdi  = "Acıgöl",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 698,
-                SehirId  = 51,
+                IlceID   = 698,
+                SehirID  = 51,
                 IlceKodu = 1201,
                 IlceAdi  = "Bor",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 699,
-                SehirId  = 51,
+                IlceID   = 699,
+                SehirID  = 51,
                 IlceKodu = 1225,
                 IlceAdi  = "Çamardı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 700,
-                SehirId  = 51,
+                IlceID   = 700,
+                SehirID  = 51,
                 IlceKodu = 1544,
                 IlceAdi  = "Niğde Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 701,
-                SehirId  = 51,
+                IlceID   = 701,
+                SehirID  = 51,
                 IlceKodu = 1700,
                 IlceAdi  = "Ulukışla",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 702,
-                SehirId  = 51,
+                IlceID   = 702,
+                SehirID  = 51,
                 IlceKodu = 1876,
                 IlceAdi  = "Altunhisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 703,
-                SehirId  = 51,
+                IlceID   = 703,
+                SehirID  = 51,
                 IlceKodu = 1904,
                 IlceAdi  = "Çiftlik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 704,
-                SehirId  = 52,
+                IlceID   = 704,
+                SehirID  = 52,
                 IlceKodu = 1119,
                 IlceAdi  = "Akkuş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 705,
-                SehirId  = 52,
+                IlceID   = 705,
+                SehirID  = 52,
                 IlceKodu = 1158,
                 IlceAdi  = "Aybastı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 706,
-                SehirId  = 52,
+                IlceID   = 706,
+                SehirID  = 52,
                 IlceKodu = 1328,
                 IlceAdi  = "Fatsa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 707,
-                SehirId  = 52,
+                IlceID   = 707,
+                SehirID  = 52,
                 IlceKodu = 1358,
                 IlceAdi  = "Gölköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 708,
-                SehirId  = 52,
+                IlceID   = 708,
+                SehirID  = 52,
                 IlceKodu = 1482,
                 IlceAdi  = "Korgan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 709,
-                SehirId  = 52,
+                IlceID   = 709,
+                SehirID  = 52,
                 IlceKodu = 1493,
                 IlceAdi  = "Kumru",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 710,
-                SehirId  = 52,
+                IlceID   = 710,
+                SehirID  = 52,
                 IlceKodu = 1525,
                 IlceAdi  = "Mesudiye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 711,
-                SehirId  = 52,
+                IlceID   = 711,
+                SehirID  = 52,
                 IlceKodu = 1552,
                 IlceAdi  = "Ordu Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 712,
-                SehirId  = 52,
+                IlceID   = 712,
+                SehirID  = 52,
                 IlceKodu = 1573,
                 IlceAdi  = "Perşembe",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 713,
-                SehirId  = 52,
+                IlceID   = 713,
+                SehirID  = 52,
                 IlceKodu = 1696,
                 IlceAdi  = "Ulubey / Ordu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 714,
-                SehirId  = 52,
+                IlceID   = 714,
+                SehirID  = 52,
                 IlceKodu = 1706,
                 IlceAdi  = "Ünye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 715,
-                SehirId  = 52,
+                IlceID   = 715,
+                SehirID  = 52,
                 IlceKodu = 1795,
                 IlceAdi  = "Gülyalı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 716,
-                SehirId  = 52,
+                IlceID   = 716,
+                SehirID  = 52,
                 IlceKodu = 1797,
                 IlceAdi  = "Gürgentepe",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 717,
-                SehirId  = 52,
+                IlceID   = 717,
+                SehirID  = 52,
                 IlceKodu = 1891,
                 IlceAdi  = "Çamaş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 718,
-                SehirId  = 52,
+                IlceID   = 718,
+                SehirID  = 52,
                 IlceKodu = 1897,
                 IlceAdi  = "Çatalpınar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 719,
-                SehirId  = 52,
+                IlceID   = 719,
+                SehirID  = 52,
                 IlceKodu = 1900,
                 IlceAdi  = "Çaybaşı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 720,
-                SehirId  = 52,
+                IlceID   = 720,
+                SehirID  = 52,
                 IlceKodu = 1947,
                 IlceAdi  = "İkizce",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 721,
-                SehirId  = 52,
+                IlceID   = 721,
+                SehirID  = 52,
                 IlceKodu = 1950,
                 IlceAdi  = "Kabadüz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 722,
-                SehirId  = 52,
+                IlceID   = 722,
+                SehirID  = 52,
                 IlceKodu = 1951,
                 IlceAdi  = "Kabataş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 723,
-                SehirId  = 52,
+                IlceID   = 723,
+                SehirID  = 52,
                 IlceKodu = 2103,
                 IlceAdi  = "Altınordu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 724,
-                SehirId  = 53,
+                IlceID   = 724,
+                SehirID  = 53,
                 IlceKodu = 1146,
                 IlceAdi  = "Ardeşen",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 725,
-                SehirId  = 53,
+                IlceID   = 725,
+                SehirID  = 53,
                 IlceKodu = 1228,
                 IlceAdi  = "Çamlıhemşin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 726,
-                SehirId  = 53,
+                IlceID   = 726,
+                SehirID  = 53,
                 IlceKodu = 1241,
                 IlceAdi  = "Çayeli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 727,
-                SehirId  = 53,
+                IlceID   = 727,
+                SehirID  = 53,
                 IlceKodu = 1332,
                 IlceAdi  = "Fındıklı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 728,
-                SehirId  = 53,
+                IlceID   = 728,
+                SehirID  = 53,
                 IlceKodu = 1405,
                 IlceAdi  = "İkizdere",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 729,
-                SehirId  = 53,
+                IlceID   = 729,
+                SehirID  = 53,
                 IlceKodu = 1428,
                 IlceAdi  = "Kalkandere",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 730,
-                SehirId  = 53,
+                IlceID   = 730,
+                SehirID  = 53,
                 IlceKodu = 1569,
                 IlceAdi  = "Pazar / Rize",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 731,
-                SehirId  = 53,
+                IlceID   = 731,
+                SehirID  = 53,
                 IlceKodu = 1586,
                 IlceAdi  = "Rize Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 732,
-                SehirId  = 53,
+                IlceID   = 732,
+                SehirID  = 53,
                 IlceKodu = 1796,
                 IlceAdi  = "Güneysu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 733,
-                SehirId  = 53,
+                IlceID   = 733,
+                SehirID  = 53,
                 IlceKodu = 1908,
                 IlceAdi  = "Derepazarı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 734,
-                SehirId  = 53,
+                IlceID   = 734,
+                SehirID  = 53,
                 IlceKodu = 1943,
                 IlceAdi  = "Hemşin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 735,
-                SehirId  = 53,
+                IlceID   = 735,
+                SehirID  = 53,
                 IlceKodu = 1949,
                 IlceAdi  = "İyidere",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 736,
-                SehirId  = 54,
+                IlceID   = 736,
+                SehirID  = 54,
                 IlceKodu = 1123,
                 IlceAdi  = "Akyazı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 737,
-                SehirId  = 54,
+                IlceID   = 737,
+                SehirID  = 54,
                 IlceKodu = 1351,
                 IlceAdi  = "Geyve",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 738,
-                SehirId  = 54,
+                IlceID   = 738,
+                SehirID  = 54,
                 IlceKodu = 1391,
                 IlceAdi  = "Hendek",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 739,
-                SehirId  = 54,
+                IlceID   = 739,
+                SehirID  = 54,
                 IlceKodu = 1442,
                 IlceAdi  = "Karasu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 740,
-                SehirId  = 54,
+                IlceID   = 740,
+                SehirID  = 54,
                 IlceKodu = 1453,
                 IlceAdi  = "Kaynarca",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 741,
-                SehirId  = 54,
+                IlceID   = 741,
+                SehirID  = 54,
                 IlceKodu = 1589,
                 IlceAdi  = "Sakarya Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 742,
-                SehirId  = 54,
+                IlceID   = 742,
+                SehirID  = 54,
                 IlceKodu = 1595,
                 IlceAdi  = "Sapanca",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 743,
-                SehirId  = 54,
+                IlceID   = 743,
+                SehirID  = 54,
                 IlceKodu = 1818,
                 IlceAdi  = "Kocaali",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 744,
-                SehirId  = 54,
+                IlceID   = 744,
+                SehirID  = 54,
                 IlceKodu = 1833,
                 IlceAdi  = "Pamukova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 745,
-                SehirId  = 54,
+                IlceID   = 745,
+                SehirID  = 54,
                 IlceKodu = 1847,
                 IlceAdi  = "Taraklı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 746,
-                SehirId  = 54,
+                IlceID   = 746,
+                SehirID  = 54,
                 IlceKodu = 1925,
                 IlceAdi  = "Ferizli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 747,
-                SehirId  = 54,
+                IlceID   = 747,
+                SehirID  = 54,
                 IlceKodu = 1955,
                 IlceAdi  = "Karapürçek",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 748,
-                SehirId  = 54,
+                IlceID   = 748,
+                SehirID  = 54,
                 IlceKodu = 1986,
                 IlceAdi  = "Söğütlü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 749,
-                SehirId  = 54,
+                IlceID   = 749,
+                SehirID  = 54,
                 IlceKodu = 2068,
                 IlceAdi  = "Adapazarı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 750,
-                SehirId  = 54,
+                IlceID   = 750,
+                SehirID  = 54,
                 IlceKodu = 2069,
                 IlceAdi  = "Arifiye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 751,
-                SehirId  = 54,
+                IlceID   = 751,
+                SehirID  = 54,
                 IlceKodu = 2070,
                 IlceAdi  = "Erenler",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 752,
-                SehirId  = 54,
+                IlceID   = 752,
+                SehirID  = 54,
                 IlceKodu = 2071,
                 IlceAdi  = "Serdivan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 753,
-                SehirId  = 55,
+                IlceID   = 753,
+                SehirID  = 55,
                 IlceKodu = 1125,
                 IlceAdi  = "Alaçam",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 754,
-                SehirId  = 55,
+                IlceID   = 754,
+                SehirID  = 55,
                 IlceKodu = 1164,
                 IlceAdi  = "Bafra",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 755,
-                SehirId  = 55,
+                IlceID   = 755,
+                SehirID  = 55,
                 IlceKodu = 1234,
                 IlceAdi  = "Çarşamba",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 756,
-                SehirId  = 55,
+                IlceID   = 756,
+                SehirID  = 55,
                 IlceKodu = 1386,
                 IlceAdi  = "Havza",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 757,
-                SehirId  = 55,
+                IlceID   = 757,
+                SehirID  = 55,
                 IlceKodu = 1452,
                 IlceAdi  = "Kavak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 758,
-                SehirId  = 55,
+                IlceID   = 758,
+                SehirID  = 55,
                 IlceKodu = 1501,
                 IlceAdi  = "Ladik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 759,
-                SehirId  = 55,
+                IlceID   = 759,
+                SehirID  = 55,
                 IlceKodu = 1593,
                 IlceAdi  = "Samsun Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 760,
-                SehirId  = 55,
+                IlceID   = 760,
+                SehirID  = 55,
                 IlceKodu = 1676,
                 IlceAdi  = "Terme",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 761,
-                SehirId  = 55,
+                IlceID   = 761,
+                SehirID  = 55,
                 IlceKodu = 1712,
                 IlceAdi  = "Vezirköprü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 762,
-                SehirId  = 55,
+                IlceID   = 762,
+                SehirID  = 55,
                 IlceKodu = 1763,
                 IlceAdi  = "Asarcık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 763,
-                SehirId  = 55,
+                IlceID   = 763,
+                SehirID  = 55,
                 IlceKodu = 1830,
                 IlceAdi  = "19 Mayıs",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 764,
-                SehirId  = 55,
+                IlceID   = 764,
+                SehirID  = 55,
                 IlceKodu = 1838,
                 IlceAdi  = "Salıpazarı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 765,
-                SehirId  = 55,
+                IlceID   = 765,
+                SehirID  = 55,
                 IlceKodu = 1849,
                 IlceAdi  = "Tekkeköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 766,
-                SehirId  = 55,
+                IlceID   = 766,
+                SehirID  = 55,
                 IlceKodu = 1879,
                 IlceAdi  = "Ayvacık / Samsun",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 767,
-                SehirId  = 55,
+                IlceID   = 767,
+                SehirID  = 55,
                 IlceKodu = 1993,
                 IlceAdi  = "Yakakent",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 768,
-                SehirId  = 55,
+                IlceID   = 768,
+                SehirID  = 55,
                 IlceKodu = 2072,
                 IlceAdi  = "Atakum",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 769,
-                SehirId  = 55,
+                IlceID   = 769,
+                SehirID  = 55,
                 IlceKodu = 2073,
                 IlceAdi  = "Canik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 770,
-                SehirId  = 55,
+                IlceID   = 770,
+                SehirID  = 55,
                 IlceKodu = 2074,
                 IlceAdi  = "İlkadım",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 771,
-                SehirId  = 56,
+                IlceID   = 771,
+                SehirID  = 56,
                 IlceKodu = 1179,
                 IlceAdi  = "Baykan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 772,
-                SehirId  = 56,
+                IlceID   = 772,
+                SehirID  = 56,
                 IlceKodu = 1317,
                 IlceAdi  = "Eruh",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 773,
-                SehirId  = 56,
+                IlceID   = 773,
+                SehirID  = 56,
                 IlceKodu = 1495,
                 IlceAdi  = "Kurtalan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 774,
-                SehirId  = 56,
+                IlceID   = 774,
+                SehirID  = 56,
                 IlceKodu = 1575,
                 IlceAdi  = "Pervari",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 775,
-                SehirId  = 56,
+                IlceID   = 775,
+                SehirID  = 56,
                 IlceKodu = 1620,
                 IlceAdi  = "Siirt Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 776,
-                SehirId  = 56,
+                IlceID   = 776,
+                SehirID  = 56,
                 IlceKodu = 1662,
                 IlceAdi  = "Şirvan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 777,
-                SehirId  = 56,
+                IlceID   = 777,
+                SehirID  = 56,
                 IlceKodu = 1878,
                 IlceAdi  = "Tillo",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 778,
-                SehirId  = 57,
+                IlceID   = 778,
+                SehirID  = 57,
                 IlceKodu = 1156,
                 IlceAdi  = "Ayancık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 779,
-                SehirId  = 57,
+                IlceID   = 779,
+                SehirID  = 57,
                 IlceKodu = 1204,
                 IlceAdi  = "Boyabat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 780,
-                SehirId  = 57,
+                IlceID   = 780,
+                SehirID  = 57,
                 IlceKodu = 1290,
                 IlceAdi  = "Durağan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 781,
-                SehirId  = 57,
+                IlceID   = 781,
+                SehirID  = 57,
                 IlceKodu = 1314,
                 IlceAdi  = "Erfelek",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 782,
-                SehirId  = 57,
+                IlceID   = 782,
+                SehirID  = 57,
                 IlceKodu = 1349,
                 IlceAdi  = "Gerze",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 783,
-                SehirId  = 57,
+                IlceID   = 783,
+                SehirID  = 57,
                 IlceKodu = 1627,
                 IlceAdi  = "Sinop Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 784,
-                SehirId  = 57,
+                IlceID   = 784,
+                SehirID  = 57,
                 IlceKodu = 1693,
                 IlceAdi  = "Türkeli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 785,
-                SehirId  = 57,
+                IlceID   = 785,
+                SehirID  = 57,
                 IlceKodu = 1910,
                 IlceAdi  = "Dikmen",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 786,
-                SehirId  = 57,
+                IlceID   = 786,
+                SehirID  = 57,
                 IlceKodu = 1981,
                 IlceAdi  = "Saraydüzü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 787,
-                SehirId  = 58,
+                IlceID   = 787,
+                SehirID  = 58,
                 IlceKodu = 1282,
                 IlceAdi  = "Divriği",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 788,
-                SehirId  = 58,
+                IlceID   = 788,
+                SehirID  = 58,
                 IlceKodu = 1342,
                 IlceAdi  = "Gemerek",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 789,
-                SehirId  = 58,
+                IlceID   = 789,
+                SehirID  = 58,
                 IlceKodu = 1373,
                 IlceAdi  = "Gürün",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 790,
-                SehirId  = 58,
+                IlceID   = 790,
+                SehirID  = 58,
                 IlceKodu = 1376,
                 IlceAdi  = "Hafik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 791,
-                SehirId  = 58,
+                IlceID   = 791,
+                SehirID  = 58,
                 IlceKodu = 1407,
                 IlceAdi  = "İmranlı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 792,
-                SehirId  = 58,
+                IlceID   = 792,
+                SehirID  = 58,
                 IlceKodu = 1431,
                 IlceAdi  = "Kangal",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 793,
-                SehirId  = 58,
+                IlceID   = 793,
+                SehirID  = 58,
                 IlceKodu = 1484,
                 IlceAdi  = "Koyulhisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 794,
-                SehirId  = 58,
+                IlceID   = 794,
+                SehirID  = 58,
                 IlceKodu = 1628,
                 IlceAdi  = "Sivas Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 795,
-                SehirId  = 58,
+                IlceID   = 795,
+                SehirID  = 58,
                 IlceKodu = 1646,
                 IlceAdi  = "Suşehri",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 796,
-                SehirId  = 58,
+                IlceID   = 796,
+                SehirID  = 58,
                 IlceKodu = 1650,
                 IlceAdi  = "Şarkışla",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 797,
-                SehirId  = 58,
+                IlceID   = 797,
+                SehirID  = 58,
                 IlceKodu = 1731,
                 IlceAdi  = "Yıldızeli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 798,
-                SehirId  = 58,
+                IlceID   = 798,
+                SehirID  = 58,
                 IlceKodu = 1738,
                 IlceAdi  = "Zara",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 799,
-                SehirId  = 58,
+                IlceID   = 799,
+                SehirID  = 58,
                 IlceKodu = 1870,
                 IlceAdi  = "Akıncılar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 800,
-                SehirId  = 58,
+                IlceID   = 800,
+                SehirID  = 58,
                 IlceKodu = 1875,
                 IlceAdi  = "Altınyayla / Sivas",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 801,
-                SehirId  = 58,
+                IlceID   = 801,
+                SehirID  = 58,
                 IlceKodu = 1913,
                 IlceAdi  = "Doğanşar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 802,
-                SehirId  = 58,
+                IlceID   = 802,
+                SehirID  = 58,
                 IlceKodu = 1927,
                 IlceAdi  = "Gölova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 803,
-                SehirId  = 58,
+                IlceID   = 803,
+                SehirID  = 58,
                 IlceKodu = 1991,
                 IlceAdi  = "Ulaş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 804,
-                SehirId  = 59,
+                IlceID   = 804,
+                SehirID  = 59,
                 IlceKodu = 1250,
                 IlceAdi  = "Çerkezköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 805,
-                SehirId  = 59,
+                IlceID   = 805,
+                SehirID  = 59,
                 IlceKodu = 1258,
                 IlceAdi  = "Çorlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 806,
-                SehirId  = 59,
+                IlceID   = 806,
+                SehirID  = 59,
                 IlceKodu = 1388,
                 IlceAdi  = "Hayrabolu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 807,
-                SehirId  = 59,
+                IlceID   = 807,
+                SehirID  = 59,
                 IlceKodu = 1511,
                 IlceAdi  = "Malkara",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 808,
-                SehirId  = 59,
+                IlceID   = 808,
+                SehirID  = 59,
                 IlceKodu = 1538,
                 IlceAdi  = "Muratlı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 809,
-                SehirId  = 59,
+                IlceID   = 809,
+                SehirID  = 59,
                 IlceKodu = 1596,
                 IlceAdi  = "Saray / Tekirdağ",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 810,
-                SehirId  = 59,
+                IlceID   = 810,
+                SehirID  = 59,
                 IlceKodu = 1652,
                 IlceAdi  = "Şarköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 811,
-                SehirId  = 59,
+                IlceID   = 811,
+                SehirID  = 59,
                 IlceKodu = 1673,
                 IlceAdi  = "Tekirdağ Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 812,
-                SehirId  = 59,
+                IlceID   = 812,
+                SehirID  = 59,
                 IlceKodu = 1825,
                 IlceAdi  = "Marmaraereğlisi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 813,
-                SehirId  = 59,
+                IlceID   = 813,
+                SehirID  = 59,
                 IlceKodu = 2094,
                 IlceAdi  = "Ergene",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 814,
-                SehirId  = 59,
+                IlceID   = 814,
+                SehirID  = 59,
                 IlceKodu = 2095,
                 IlceAdi  = "Kapaklı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 815,
-                SehirId  = 59,
+                IlceID   = 815,
+                SehirID  = 59,
                 IlceKodu = 2096,
                 IlceAdi  = "Süleymanpaşa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 816,
-                SehirId  = 60,
+                IlceID   = 816,
+                SehirID  = 60,
                 IlceKodu = 1129,
                 IlceAdi  = "Almus",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 817,
-                SehirId  = 60,
+                IlceID   = 817,
+                SehirID  = 60,
                 IlceKodu = 1151,
                 IlceAdi  = "Artova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 818,
-                SehirId  = 60,
+                IlceID   = 818,
+                SehirID  = 60,
                 IlceKodu = 1308,
                 IlceAdi  = "Erbaa",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 819,
-                SehirId  = 60,
+                IlceID   = 819,
+                SehirID  = 60,
                 IlceKodu = 1545,
                 IlceAdi  = "Niksar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 820,
-                SehirId  = 60,
+                IlceID   = 820,
+                SehirID  = 60,
                 IlceKodu = 1584,
                 IlceAdi  = "Reşadiye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 821,
-                SehirId  = 60,
+                IlceID   = 821,
+                SehirID  = 60,
                 IlceKodu = 1679,
                 IlceAdi  = "Tokat Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 822,
-                SehirId  = 60,
+                IlceID   = 822,
+                SehirID  = 60,
                 IlceKodu = 1690,
                 IlceAdi  = "Turhal",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 823,
-                SehirId  = 60,
+                IlceID   = 823,
+                SehirID  = 60,
                 IlceKodu = 1740,
                 IlceAdi  = "Zile",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 824,
-                SehirId  = 60,
+                IlceID   = 824,
+                SehirID  = 60,
                 IlceKodu = 1834,
                 IlceAdi  = "Pazar / Tokat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 825,
-                SehirId  = 60,
+                IlceID   = 825,
+                SehirID  = 60,
                 IlceKodu = 1858,
                 IlceAdi  = "Yeşilyurt / Tokat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 826,
-                SehirId  = 60,
+                IlceID   = 826,
+                SehirID  = 60,
                 IlceKodu = 1883,
                 IlceAdi  = "Başçiftlik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 827,
-                SehirId  = 60,
+                IlceID   = 827,
+                SehirID  = 60,
                 IlceKodu = 1987,
                 IlceAdi  = "Sulusaray",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 828,
-                SehirId  = 61,
+                IlceID   = 828,
+                SehirID  = 61,
                 IlceKodu = 1113,
                 IlceAdi  = "Akçaabat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 829,
-                SehirId  = 61,
+                IlceID   = 829,
+                SehirID  = 61,
                 IlceKodu = 1141,
                 IlceAdi  = "Araklı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 830,
-                SehirId  = 61,
+                IlceID   = 830,
+                SehirID  = 61,
                 IlceKodu = 1150,
                 IlceAdi  = "Arsin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 831,
-                SehirId  = 61,
+                IlceID   = 831,
+                SehirID  = 61,
                 IlceKodu = 1244,
                 IlceAdi  = "Çaykara",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 832,
-                SehirId  = 61,
+                IlceID   = 832,
+                SehirID  = 61,
                 IlceKodu = 1507,
                 IlceAdi  = "Maçka",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 833,
-                SehirId  = 61,
+                IlceID   = 833,
+                SehirID  = 61,
                 IlceKodu = 1548,
                 IlceAdi  = "Of",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 834,
-                SehirId  = 61,
+                IlceID   = 834,
+                SehirID  = 61,
                 IlceKodu = 1647,
                 IlceAdi  = "Sürmene",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 835,
-                SehirId  = 61,
+                IlceID   = 835,
+                SehirID  = 61,
                 IlceKodu = 1681,
                 IlceAdi  = "Tonya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 836,
-                SehirId  = 61,
+                IlceID   = 836,
+                SehirID  = 61,
                 IlceKodu = 1686,
                 IlceAdi  = "Trabzon Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 837,
-                SehirId  = 61,
+                IlceID   = 837,
+                SehirID  = 61,
                 IlceKodu = 1709,
                 IlceAdi  = "Vakfıkebir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 838,
-                SehirId  = 61,
+                IlceID   = 838,
+                SehirID  = 61,
                 IlceKodu = 1732,
                 IlceAdi  = "Yomra",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 839,
-                SehirId  = 61,
+                IlceID   = 839,
+                SehirID  = 61,
                 IlceKodu = 1775,
                 IlceAdi  = "Beşikdüzü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 840,
-                SehirId  = 61,
+                IlceID   = 840,
+                SehirID  = 61,
                 IlceKodu = 1842,
                 IlceAdi  = "Şalpazarı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 841,
-                SehirId  = 61,
+                IlceID   = 841,
+                SehirID  = 61,
                 IlceKodu = 1896,
                 IlceAdi  = "Çarşıbaşı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 842,
-                SehirId  = 61,
+                IlceID   = 842,
+                SehirID  = 61,
                 IlceKodu = 1909,
                 IlceAdi  = "Dernekpazarı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 843,
-                SehirId  = 61,
+                IlceID   = 843,
+                SehirID  = 61,
                 IlceKodu = 1917,
                 IlceAdi  = "Düzköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 844,
-                SehirId  = 61,
+                IlceID   = 844,
+                SehirID  = 61,
                 IlceKodu = 1942,
                 IlceAdi  = "Hayrat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 845,
-                SehirId  = 61,
+                IlceID   = 845,
+                SehirID  = 61,
                 IlceKodu = 1966,
                 IlceAdi  = "Köprübaşı / Trabzon",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 846,
-                SehirId  = 61,
+                IlceID   = 846,
+                SehirID  = 61,
                 IlceKodu = 2097,
                 IlceAdi  = "Ortahisar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 847,
-                SehirId  = 62,
+                IlceID   = 847,
+                SehirID  = 62,
                 IlceKodu = 1247,
                 IlceAdi  = "Çemişgezek",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 848,
-                SehirId  = 62,
+                IlceID   = 848,
+                SehirID  = 62,
                 IlceKodu = 1397,
                 IlceAdi  = "Hozat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 849,
-                SehirId  = 62,
+                IlceID   = 849,
+                SehirID  = 62,
                 IlceKodu = 1518,
                 IlceAdi  = "Mazgirt",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 850,
-                SehirId  = 62,
+                IlceID   = 850,
+                SehirID  = 62,
                 IlceKodu = 1541,
                 IlceAdi  = "Nazımiye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 851,
-                SehirId  = 62,
+                IlceID   = 851,
+                SehirID  = 62,
                 IlceKodu = 1562,
                 IlceAdi  = "Ovacık / Tunceli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 852,
-                SehirId  = 62,
+                IlceID   = 852,
+                SehirID  = 62,
                 IlceKodu = 1574,
                 IlceAdi  = "Pertek",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 853,
-                SehirId  = 62,
+                IlceID   = 853,
+                SehirID  = 62,
                 IlceKodu = 1581,
                 IlceAdi  = "Pülümür",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 854,
-                SehirId  = 62,
+                IlceID   = 854,
+                SehirID  = 62,
                 IlceKodu = 1688,
                 IlceAdi  = "Tunceli Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 855,
-                SehirId  = 63,
+                IlceID   = 855,
+                SehirID  = 63,
                 IlceKodu = 1115,
                 IlceAdi  = "Akçakale",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 856,
-                SehirId  = 63,
+                IlceID   = 856,
+                SehirID  = 63,
                 IlceKodu = 1194,
                 IlceAdi  = "Birecik",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 857,
-                SehirId  = 63,
+                IlceID   = 857,
+                SehirID  = 63,
                 IlceKodu = 1209,
                 IlceAdi  = "Bozova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 858,
-                SehirId  = 63,
+                IlceID   = 858,
+                SehirID  = 63,
                 IlceKodu = 1220,
                 IlceAdi  = "Ceylanpınar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 859,
-                SehirId  = 63,
+                IlceID   = 859,
+                SehirID  = 63,
                 IlceKodu = 1378,
                 IlceAdi  = "Halfeti",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 860,
-                SehirId  = 63,
+                IlceID   = 860,
+                SehirID  = 63,
                 IlceKodu = 1393,
                 IlceAdi  = "Hilvan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 861,
-                SehirId  = 63,
+                IlceID   = 861,
+                SehirID  = 63,
                 IlceKodu = 1630,
                 IlceAdi  = "Siverek",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 862,
-                SehirId  = 63,
+                IlceID   = 862,
+                SehirID  = 63,
                 IlceKodu = 1643,
                 IlceAdi  = "Suruç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 863,
-                SehirId  = 63,
+                IlceID   = 863,
+                SehirID  = 63,
                 IlceKodu = 1702,
                 IlceAdi  = "Şanlıurfa Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 864,
-                SehirId  = 63,
+                IlceID   = 864,
+                SehirID  = 63,
                 IlceKodu = 1713,
                 IlceAdi  = "Viranşehir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 865,
-                SehirId  = 63,
+                IlceID   = 865,
+                SehirID  = 63,
                 IlceKodu = 1800,
                 IlceAdi  = "Harran",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 866,
-                SehirId  = 63,
+                IlceID   = 866,
+                SehirID  = 63,
                 IlceKodu = 2091,
                 IlceAdi  = "Eyyübiye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 867,
-                SehirId  = 63,
+                IlceID   = 867,
+                SehirID  = 63,
                 IlceKodu = 2092,
                 IlceAdi  = "Haliliye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 868,
-                SehirId  = 63,
+                IlceID   = 868,
+                SehirID  = 63,
                 IlceKodu = 2093,
                 IlceAdi  = "Karaköprü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 869,
-                SehirId  = 64,
+                IlceID   = 869,
+                SehirID  = 64,
                 IlceKodu = 1170,
                 IlceAdi  = "Banaz",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 870,
-                SehirId  = 64,
+                IlceID   = 870,
+                SehirID  = 64,
                 IlceKodu = 1323,
                 IlceAdi  = "Eşme",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 871,
-                SehirId  = 64,
+                IlceID   = 871,
+                SehirID  = 64,
                 IlceKodu = 1436,
                 IlceAdi  = "Karahallı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 872,
-                SehirId  = 64,
+                IlceID   = 872,
+                SehirID  = 64,
                 IlceKodu = 1629,
                 IlceAdi  = "Sivaslı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 873,
-                SehirId  = 64,
+                IlceID   = 873,
+                SehirID  = 64,
                 IlceKodu = 1697,
                 IlceAdi  = "Ulubey / Uşak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 874,
-                SehirId  = 64,
+                IlceID   = 874,
+                SehirID  = 64,
                 IlceKodu = 1704,
                 IlceAdi  = "Uşak Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 875,
-                SehirId  = 65,
+                IlceID   = 875,
+                SehirID  = 65,
                 IlceKodu = 1175,
                 IlceAdi  = "Başkale",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 876,
-                SehirId  = 65,
+                IlceID   = 876,
+                SehirID  = 65,
                 IlceKodu = 1236,
                 IlceAdi  = "Çatak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 877,
-                SehirId  = 65,
+                IlceID   = 877,
+                SehirID  = 65,
                 IlceKodu = 1309,
                 IlceAdi  = "Erciş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 878,
-                SehirId  = 65,
+                IlceID   = 878,
+                SehirID  = 65,
                 IlceKodu = 1350,
                 IlceAdi  = "Gevaş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 879,
-                SehirId  = 65,
+                IlceID   = 879,
+                SehirID  = 65,
                 IlceKodu = 1372,
                 IlceAdi  = "Gürpınar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 880,
-                SehirId  = 65,
+                IlceID   = 880,
+                SehirID  = 65,
                 IlceKodu = 1533,
                 IlceAdi  = "Muradiye",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 881,
-                SehirId  = 65,
+                IlceID   = 881,
+                SehirID  = 65,
                 IlceKodu = 1565,
                 IlceAdi  = "Ceylanpınar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 882,
-                SehirId  = 65,
+                IlceID   = 882,
+                SehirID  = 65,
                 IlceKodu = 1710,
                 IlceAdi  = "Van Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 883,
-                SehirId  = 65,
+                IlceID   = 883,
+                SehirID  = 65,
                 IlceKodu = 1770,
                 IlceAdi  = "Bahçesaray",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 884,
-                SehirId  = 65,
+                IlceID   = 884,
+                SehirID  = 65,
                 IlceKodu = 1786,
                 IlceAdi  = "Çaldıran",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 885,
-                SehirId  = 65,
+                IlceID   = 885,
+                SehirID  = 65,
                 IlceKodu = 1918,
                 IlceAdi  = "Edremit / Van",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 886,
-                SehirId  = 65,
+                IlceID   = 886,
+                SehirID  = 65,
                 IlceKodu = 1980,
                 IlceAdi  = "Saray / Van",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 887,
-                SehirId  = 65,
+                IlceID   = 887,
+                SehirID  = 65,
                 IlceKodu = 2098,
                 IlceAdi  = "İpekyolu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 888,
-                SehirId  = 65,
+                IlceID   = 888,
+                SehirID  = 65,
                 IlceKodu = 2099,
                 IlceAdi  = "Tuşba",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 889,
-                SehirId  = 66,
+                IlceID   = 889,
+                SehirID  = 66,
                 IlceKodu = 1117,
                 IlceAdi  = "Akdağmadeni",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 890,
-                SehirId  = 66,
+                IlceID   = 890,
+                SehirID  = 66,
                 IlceKodu = 1198,
                 IlceAdi  = "Boğazlıyan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 891,
-                SehirId  = 66,
+                IlceID   = 891,
+                SehirID  = 66,
                 IlceKodu = 1242,
                 IlceAdi  = "Çayıralan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 892,
-                SehirId  = 66,
+                IlceID   = 892,
+                SehirID  = 66,
                 IlceKodu = 1245,
                 IlceAdi  = "Çekerek",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 893,
-                SehirId  = 66,
+                IlceID   = 893,
+                SehirID  = 66,
                 IlceKodu = 1602,
                 IlceAdi  = "Sarıkaya",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 894,
-                SehirId  = 66,
+                IlceID   = 894,
+                SehirID  = 66,
                 IlceKodu = 1635,
                 IlceAdi  = "Sorgun",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 895,
-                SehirId  = 66,
+                IlceID   = 895,
+                SehirID  = 66,
                 IlceKodu = 1655,
                 IlceAdi  = "Şefaatli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 896,
-                SehirId  = 66,
+                IlceID   = 896,
+                SehirID  = 66,
                 IlceKodu = 1726,
                 IlceAdi  = "Yerköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 897,
-                SehirId  = 66,
+                IlceID   = 897,
+                SehirID  = 66,
                 IlceKodu = 1733,
                 IlceAdi  = "Yozgat Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 898,
-                SehirId  = 66,
+                IlceID   = 898,
+                SehirID  = 66,
                 IlceKodu = 1877,
                 IlceAdi  = "Aydıncık / Yozgat",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 899,
-                SehirId  = 66,
+                IlceID   = 899,
+                SehirID  = 66,
                 IlceKodu = 1895,
                 IlceAdi  = "Çandır",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 900,
-                SehirId  = 66,
+                IlceID   = 900,
+                SehirID  = 66,
                 IlceKodu = 1952,
                 IlceAdi  = "Kadışehri",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 901,
-                SehirId  = 66,
+                IlceID   = 901,
+                SehirID  = 66,
                 IlceKodu = 1982,
                 IlceAdi  = "Saraykent",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 902,
-                SehirId  = 66,
+                IlceID   = 902,
+                SehirID  = 66,
                 IlceKodu = 1998,
                 IlceAdi  = "Yenifakılı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 903,
-                SehirId  = 67,
+                IlceID   = 903,
+                SehirID  = 67,
                 IlceKodu = 1240,
                 IlceAdi  = "Çaycuma",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 904,
-                SehirId  = 67,
+                IlceID   = 904,
+                SehirID  = 67,
                 IlceKodu = 1276,
                 IlceAdi  = "Devrek",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 905,
-                SehirId  = 67,
+                IlceID   = 905,
+                SehirID  = 67,
                 IlceKodu = 1313,
                 IlceAdi  = "Ereğli / Zonguldak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 906,
-                SehirId  = 67,
+                IlceID   = 906,
+                SehirID  = 67,
                 IlceKodu = 1741,
                 IlceAdi  = "Zonguldak Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 907,
-                SehirId  = 67,
+                IlceID   = 907,
+                SehirID  = 67,
                 IlceKodu = 1758,
                 IlceAdi  = "Alaplı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 908,
-                SehirId  = 67,
+                IlceID   = 908,
+                SehirID  = 67,
                 IlceKodu = 1926,
                 IlceAdi  = "Gökçebey",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 909,
-                SehirId  = 67,
+                IlceID   = 909,
+                SehirID  = 67,
                 IlceKodu = 2100,
                 IlceAdi  = "Kilimli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 910,
-                SehirId  = 67,
+                IlceID   = 910,
+                SehirID  = 67,
                 IlceKodu = 2101,
                 IlceAdi  = "Kozlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 911,
-                SehirId  = 68,
+                IlceID   = 911,
+                SehirID  = 68,
                 IlceKodu = 1120,
                 IlceAdi  = "Aksaray Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 912,
-                SehirId  = 68,
+                IlceID   = 912,
+                SehirID  = 68,
                 IlceKodu = 1557,
                 IlceAdi  = "Ortaköy / Aksaray",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 913,
-                SehirId  = 68,
+                IlceID   = 913,
+                SehirID  = 68,
                 IlceKodu = 1860,
                 IlceAdi  = "Ağaçören",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 914,
-                SehirId  = 68,
+                IlceID   = 914,
+                SehirID  = 68,
                 IlceKodu = 1861,
                 IlceAdi  = "Güzelyurt",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 915,
-                SehirId  = 68,
+                IlceID   = 915,
+                SehirID  = 68,
                 IlceKodu = 1866,
                 IlceAdi  = "Sarıyahşi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 916,
-                SehirId  = 68,
+                IlceID   = 916,
+                SehirID  = 68,
                 IlceKodu = 1921,
                 IlceAdi  = "Eskil",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 917,
-                SehirId  = 68,
+                IlceID   = 917,
+                SehirID  = 68,
                 IlceKodu = 1932,
                 IlceAdi  = "Gülağaç",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 918,
-                SehirId  = 69,
+                IlceID   = 918,
+                SehirID  = 69,
                 IlceKodu = 1176,
                 IlceAdi  = "Bayburt Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 919,
-                SehirId  = 69,
+                IlceID   = 919,
+                SehirID  = 69,
                 IlceKodu = 1767,
                 IlceAdi  = "Aydıntepe",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 920,
-                SehirId  = 69,
+                IlceID   = 920,
+                SehirID  = 69,
                 IlceKodu = 1788,
                 IlceAdi  = "Demirözü",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 921,
-                SehirId  = 70,
+                IlceID   = 921,
+                SehirID  = 70,
                 IlceKodu = 1316,
                 IlceAdi  = "Ermenek",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 922,
-                SehirId  = 70,
+                IlceID   = 922,
+                SehirID  = 70,
                 IlceKodu = 1439,
                 IlceAdi  = "Karaman Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 923,
-                SehirId  = 70,
+                IlceID   = 923,
+                SehirID  = 70,
                 IlceKodu = 1768,
                 IlceAdi  = "Ayrancı",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 924,
-                SehirId  = 70,
+                IlceID   = 924,
+                SehirID  = 70,
                 IlceKodu = 1862,
                 IlceAdi  = "Kazımkarabekir",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 925,
-                SehirId  = 70,
+                IlceID   = 925,
+                SehirID  = 70,
                 IlceKodu = 1884,
                 IlceAdi  = "Başyayla",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 926,
-                SehirId  = 70,
+                IlceID   = 926,
+                SehirID  = 70,
                 IlceKodu = 1983,
                 IlceAdi  = "Sarıveliler",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 927,
-                SehirId  = 71,
+                IlceID   = 927,
+                SehirID  = 71,
                 IlceKodu = 1268,
                 IlceAdi  = "Delice",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 928,
-                SehirId  = 71,
+                IlceID   = 928,
+                SehirID  = 71,
                 IlceKodu = 1463,
                 IlceAdi  = "Keskin",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 929,
-                SehirId  = 71,
+                IlceID   = 929,
+                SehirID  = 71,
                 IlceKodu = 1469,
                 IlceAdi  = "Kırıkkale Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 930,
-                SehirId  = 71,
+                IlceID   = 930,
+                SehirID  = 71,
                 IlceKodu = 1638,
                 IlceAdi  = "Sulakyurt",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 931,
-                SehirId  = 71,
+                IlceID   = 931,
+                SehirID  = 71,
                 IlceKodu = 1880,
                 IlceAdi  = "Bahşili",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 932,
-                SehirId  = 71,
+                IlceID   = 932,
+                SehirID  = 71,
                 IlceKodu = 1882,
                 IlceAdi  = "Balışeyh",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 933,
-                SehirId  = 71,
+                IlceID   = 933,
+                SehirID  = 71,
                 IlceKodu = 1901,
                 IlceAdi  = "Çelebi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 934,
-                SehirId  = 71,
+                IlceID   = 934,
+                SehirID  = 71,
                 IlceKodu = 1954,
                 IlceAdi  = "Karakeçili",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 935,
-                SehirId  = 71,
+                IlceID   = 935,
+                SehirID  = 71,
                 IlceKodu = 1992,
                 IlceAdi  = "Yahşihan",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 936,
-                SehirId  = 72,
+                IlceID   = 936,
+                SehirID  = 72,
                 IlceKodu = 1174,
                 IlceAdi  = "Batman Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 937,
-                SehirId  = 72,
+                IlceID   = 937,
+                SehirID  = 72,
                 IlceKodu = 1184,
                 IlceAdi  = "Beşiri",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 938,
-                SehirId  = 72,
+                IlceID   = 938,
+                SehirID  = 72,
                 IlceKodu = 1345,
                 IlceAdi  = "Gercüş",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 939,
-                SehirId  = 72,
+                IlceID   = 939,
+                SehirID  = 72,
                 IlceKodu = 1487,
                 IlceAdi  = "Kozluk",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 940,
-                SehirId  = 72,
+                IlceID   = 940,
+                SehirID  = 72,
                 IlceKodu = 1607,
                 IlceAdi  = "Sason",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 941,
-                SehirId  = 72,
+                IlceID   = 941,
+                SehirID  = 72,
                 IlceKodu = 1941,
                 IlceAdi  = "Hasankeyf",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 942,
-                SehirId  = 73,
+                IlceID   = 942,
+                SehirID  = 73,
                 IlceKodu = 1189,
                 IlceAdi  = "Beytüşşebap",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 943,
-                SehirId  = 73,
+                IlceID   = 943,
+                SehirID  = 73,
                 IlceKodu = 1223,
                 IlceAdi  = "Cizre",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 944,
-                SehirId  = 73,
+                IlceID   = 944,
+                SehirID  = 73,
                 IlceKodu = 1403,
                 IlceAdi  = "İdil",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 945,
-                SehirId  = 73,
+                IlceID   = 945,
+                SehirID  = 73,
                 IlceKodu = 1623,
                 IlceAdi  = "Silopi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 946,
-                SehirId  = 73,
+                IlceID   = 946,
+                SehirID  = 73,
                 IlceKodu = 1661,
                 IlceAdi  = "Şırnak Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 947,
-                SehirId  = 73,
+                IlceID   = 947,
+                SehirID  = 73,
                 IlceKodu = 1698,
                 IlceAdi  = "Uludere",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 948,
-                SehirId  = 73,
+                IlceID   = 948,
+                SehirID  = 73,
                 IlceKodu = 1931,
                 IlceAdi  = "Güçlükonak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 949,
-                SehirId  = 74,
+                IlceID   = 949,
+                SehirID  = 74,
                 IlceKodu = 1172,
                 IlceAdi  = "Bartın Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 950,
-                SehirId  = 74,
+                IlceID   = 950,
+                SehirID  = 74,
                 IlceKodu = 1496,
                 IlceAdi  = "Kurucaşile",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 951,
-                SehirId  = 74,
+                IlceID   = 951,
+                SehirID  = 74,
                 IlceKodu = 1701,
                 IlceAdi  = "Ulus",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 952,
-                SehirId  = 74,
+                IlceID   = 952,
+                SehirID  = 74,
                 IlceKodu = 1761,
                 IlceAdi  = "Amasra",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 953,
-                SehirId  = 75,
+                IlceID   = 953,
+                SehirID  = 75,
                 IlceKodu = 1144,
                 IlceAdi  = "Ardahan Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 954,
-                SehirId  = 75,
+                IlceID   = 954,
+                SehirID  = 75,
                 IlceKodu = 1252,
                 IlceAdi  = "Çıldır",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 955,
-                SehirId  = 75,
+                IlceID   = 955,
+                SehirID  = 75,
                 IlceKodu = 1356,
                 IlceAdi  = "Göle",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 956,
-                SehirId  = 75,
+                IlceID   = 956,
+                SehirID  = 75,
                 IlceKodu = 1380,
                 IlceAdi  = "Hanak",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 957,
-                SehirId  = 75,
+                IlceID   = 957,
+                SehirID  = 75,
                 IlceKodu = 1579,
                 IlceAdi  = "Posof",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 958,
-                SehirId  = 75,
+                IlceID   = 958,
+                SehirID  = 75,
                 IlceKodu = 2008,
                 IlceAdi  = "Damal",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 959,
-                SehirId  = 76,
+                IlceID   = 959,
+                SehirID  = 76,
                 IlceKodu = 1142,
                 IlceAdi  = "Aralık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 960,
-                SehirId  = 76,
+                IlceID   = 960,
+                SehirID  = 76,
                 IlceKodu = 1398,
                 IlceAdi  = "Iğdır Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 961,
-                SehirId  = 76,
+                IlceID   = 961,
+                SehirID  = 76,
                 IlceKodu = 1692,
                 IlceAdi  = "Tuzluca",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 962,
-                SehirId  = 76,
+                IlceID   = 962,
+                SehirID  = 76,
                 IlceKodu = 2011,
                 IlceAdi  = "Karakoyunlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 963,
-                SehirId  = 77,
+                IlceID   = 963,
+                SehirID  = 77,
                 IlceKodu = 1716,
                 IlceAdi  = "Yalova Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 964,
-                SehirId  = 77,
+                IlceID   = 964,
+                SehirID  = 77,
                 IlceKodu = 2019,
                 IlceAdi  = "Altınova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 965,
-                SehirId  = 77,
+                IlceID   = 965,
+                SehirID  = 77,
                 IlceKodu = 2020,
                 IlceAdi  = "Armutlu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 966,
-                SehirId  = 77,
+                IlceID   = 966,
+                SehirID  = 77,
                 IlceKodu = 2021,
                 IlceAdi  = "Çınarcık",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 967,
-                SehirId  = 77,
+                IlceID   = 967,
+                SehirID  = 77,
                 IlceKodu = 2022,
                 IlceAdi  = "Çiftlikköy",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 968,
-                SehirId  = 77,
+                IlceID   = 968,
+                SehirID  = 77,
                 IlceKodu = 2026,
                 IlceAdi  = "Termal",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 969,
-                SehirId  = 78,
+                IlceID   = 969,
+                SehirID  = 78,
                 IlceKodu = 1296,
                 IlceAdi  = "Eflani",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 970,
-                SehirId  = 78,
+                IlceID   = 970,
+                SehirID  = 78,
                 IlceKodu = 1321,
                 IlceAdi  = "Eskipazar",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 971,
-                SehirId  = 78,
+                IlceID   = 971,
+                SehirID  = 78,
                 IlceKodu = 1433,
                 IlceAdi  = "Karabük Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 972,
-                SehirId  = 78,
+                IlceID   = 972,
+                SehirID  = 78,
                 IlceKodu = 1561,
                 IlceAdi  = "Ovacık / Karabük",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 973,
-                SehirId  = 78,
+                IlceID   = 973,
+                SehirID  = 78,
                 IlceKodu = 1587,
                 IlceAdi  = "Safranbolu",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 974,
-                SehirId  = 78,
+                IlceID   = 974,
+                SehirID  = 78,
                 IlceKodu = 1856,
                 IlceAdi  = "Yenice / Karabük",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 975,
-                SehirId  = 79,
+                IlceID   = 975,
+                SehirID  = 79,
                 IlceKodu = 1476,
                 IlceAdi  = "Kilis Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 976,
-                SehirId  = 79,
+                IlceID   = 976,
+                SehirID  = 79,
                 IlceKodu = 2023,
                 IlceAdi  = "Elbeyli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 977,
-                SehirId  = 79,
+                IlceID   = 977,
+                SehirID  = 79,
                 IlceKodu = 2024,
                 IlceAdi  = "Musabeyli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 978,
-                SehirId  = 79,
+                IlceID   = 978,
+                SehirID  = 79,
                 IlceKodu = 2025,
                 IlceAdi  = "Polateli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 979,
-                SehirId  = 80,
+                IlceID   = 979,
+                SehirID  = 80,
                 IlceKodu = 1165,
                 IlceAdi  = "Bahçe",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 980,
-                SehirId  = 80,
+                IlceID   = 980,
+                SehirID  = 80,
                 IlceKodu = 1423,
                 IlceAdi  = "Kadirli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 981,
-                SehirId  = 80,
+                IlceID   = 981,
+                SehirID  = 80,
                 IlceKodu = 1560,
                 IlceAdi  = "Osmaniye Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 982,
-                SehirId  = 80,
+                IlceID   = 982,
+                SehirID  = 80,
                 IlceKodu = 1743,
                 IlceAdi  = "Düziçi",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 983,
-                SehirId  = 80,
+                IlceID   = 983,
+                SehirID  = 80,
                 IlceKodu = 2027,
                 IlceAdi  = "Hasanbeyli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 984,
-                SehirId  = 80,
+                IlceID   = 984,
+                SehirID  = 80,
                 IlceKodu = 2028,
                 IlceAdi  = "Sumbas",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 985,
-                SehirId  = 80,
+                IlceID   = 985,
+                SehirID  = 80,
                 IlceKodu = 2029,
                 IlceAdi  = "Toprakkale",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 986,
-                SehirId  = 81,
+                IlceID   = 986,
+                SehirID  = 81,
                 IlceKodu = 1116,
                 IlceAdi  = "Akçakoca",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 987,
-                SehirId  = 81,
+                IlceID   = 987,
+                SehirID  = 81,
                 IlceKodu = 1292,
                 IlceAdi  = "Düzce Merkez",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 988,
-                SehirId  = 81,
+                IlceID   = 988,
+                SehirID  = 81,
                 IlceKodu = 1730,
                 IlceAdi  = "Yığılca",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 989,
-                SehirId  = 81,
+                IlceID   = 989,
+                SehirID  = 81,
                 IlceKodu = 1784,
                 IlceAdi  = "Cumayeri",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 990,
-                SehirId  = 81,
+                IlceID   = 990,
+                SehirID  = 81,
                 IlceKodu = 1794,
                 IlceAdi  = "Gölyaka",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 991,
-                SehirId  = 81,
+                IlceID   = 991,
+                SehirID  = 81,
                 IlceKodu = 1905,
                 IlceAdi  = "Çilimli",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 992,
-                SehirId  = 81,
+                IlceID   = 992,
+                SehirID  = 81,
                 IlceKodu = 2017,
                 IlceAdi  = "Gümüşova",
-                DurumId  = 1
+                DurumID  = 1
                 },
                 new Ilce
                 {
-                IlceId   = 993,
-                SehirId  = 81,
+                IlceID   = 993,
+                SehirID  = 81,
                 IlceKodu = 2031,
                 IlceAdi  = "Kaynaşlı",
-                DurumId  = 1
+                DurumID  = 1
                 }
             });
             #endregion
@@ -9419,136 +9419,136 @@
             {
                 new ParaBirimi
                 {
-                    ParaBirimiId = 1,
+                    ParaBirimiID = 1,
                     Kodu = "TL",
                     Cinsi = "Türk Lirası",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 2,
+                    ParaBirimiID = 2,
                     Kodu = "USD",
                     Cinsi = "ABD Doları",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 3,
+                    ParaBirimiID = 3,
                     Kodu = "AUD",
                     Cinsi = "Avusturalya Doları",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 4,
+                    ParaBirimiID = 4,
                     Kodu = "DKK",
                     Cinsi = "Danimarka Kronu",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 5,
+                    ParaBirimiID = 5,
                     Kodu = "EUR",
                     Cinsi = "EURO",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 6,
+                    ParaBirimiID = 6,
                     Kodu = "GBP",
                     Cinsi = "İngiliz Sterlini",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 7,
+                    ParaBirimiID = 7,
                     Kodu = "CHF",
                     Cinsi = "İsviçre Frangı",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 8,
+                    ParaBirimiID = 8,
                     Kodu = "SEK",
                     Cinsi = "İsveç Kronu",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 9,
+                    ParaBirimiID = 9,
                     Kodu = "CAD",
                     Cinsi = "Kanada Doları",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 10,
+                    ParaBirimiID = 10,
                     Kodu = "KWD",
                     Cinsi = "Kuvet Dinarı",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 11,
+                    ParaBirimiID = 11,
                     Kodu = "NOK",
                     Cinsi = "Norveç Kronu",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 12,
+                    ParaBirimiID = 12,
                     Kodu = "SAR",
                     Cinsi = "Suudi Arabistan riyali",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 13,
+                    ParaBirimiID = 13,
                     Kodu = "JPY",
                     Cinsi = "Japon Yeni",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 14,
+                    ParaBirimiID = 14,
                     Kodu = "BGN",
                     Cinsi = "Bulgar Levası",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 15,
+                    ParaBirimiID = 15,
                     Kodu = "RON",
                     Cinsi = "Rumen Leyi",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 16,
+                    ParaBirimiID = 16,
                     Kodu = "RUB",
                     Cinsi = "Rus Rublesi",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 17,
+                    ParaBirimiID = 17,
                     Kodu = "IRR",
                     Cinsi = "İran Riyali",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 18,
+                    ParaBirimiID = 18,
                     Kodu = "CYN",
                     Cinsi = "Çin Yuanı",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new ParaBirimi
                 {
-                    ParaBirimiId = 19,
+                    ParaBirimiID = 19,
                     Kodu = "PKR",
                     Cinsi = "Pakistan Rupisi",
-                    DurumId = 1
+                    DurumID = 1
                 }
             });
             #endregion
@@ -9558,57 +9558,57 @@
             {
                 new Kategori
                 {
-                    KategoriId =1,
+                    KategoriID =1,
                     Adi ="DokumanTipi",
-                    DurumId =1
+                    DurumID =1
                 },
                 new Kategori
                 {
-                    KategoriId =2,
+                    KategoriID =2,
                     Adi ="HazirlikGrubu",
-                    DurumId =1
+                    DurumID =1
                 },
                 new Kategori
                 {
-                    KategoriId =3,
+                    KategoriID =3,
                     Adi ="YururlukDurumu",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Kategori
                 {
-                    KategoriId =4,
+                    KategoriID =4,
                     Adi ="StandartTur",
-                    DurumId =1
+                    DurumID =1
                 },
                 new Kategori
                 {
-                    KategoriId =5,
+                    KategoriID =5,
                     Adi ="TelefonTipi",
-                    DurumId =1
+                    DurumID =1
                 },
                 new Kategori
                 {
-                    KategoriId =6,
+                    KategoriID =6,
                     Adi ="AdresTipi",
-                    DurumId =1
+                    DurumID =1
                 },
                 new Kategori
                 {
-                    KategoriId =7,
+                    KategoriID =7,
                     Adi ="StandartIcerikTipi",
-                    DurumId =1
+                    DurumID =1
                 },
                 new Kategori
                 {
-                    KategoriId =8,
+                    KategoriID =8,
                     Adi ="AtifYapilanStandartTipi",
-                    DurumId =1
+                    DurumID =1
                 },
                 new Kategori
                 {
-                    KategoriId =9,
+                    KategoriID =9,
                     Adi ="AtifYapilanDokumanTipi",
-                    DurumId =1
+                    DurumID =1
                 }
             });
             #endregion
@@ -9618,1631 +9618,1672 @@
             {
                 new Deger
                 {
-                    DegerId = 1,
-                    KategoriId = 1,
+                    DegerID = 1,
+                    KategoriID = 1,
                     Deger1 = "Tanımsız",
                     Deger2 = "Undefined",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 2,
-                    KategoriId = 1,
+                    DegerID = 2,
+                    KategoriID = 1,
                     Deger1 = "Adapte Teklifi",
                     Deger2 = "Adapte Offer",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 3,
-                    KategoriId = 1,
+                    DegerID = 3,
+                    KategoriID = 1,
                     Deger1 = "Dc",
                     Deger2 = "Dc",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 4,
-                    KategoriId = 1,
+                    DegerID = 4,
+                    KategoriID = 1,
                     Deger1 = "Kitap",
                     Deger2 = "Book",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 5,
-                    KategoriId = 1,
+                    DegerID = 5,
+                    KategoriID = 1,
                     Deger1 = "Konu Teklifi",
                     Deger2 = "Subject Offer",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 6,
-                    KategoriId = 1,
+                    DegerID = 6,
+                    KategoriID = 1,
                     Deger1 = "Kriter",
                     Deger2 = "Criterion",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 7,
-                    KategoriId = 1,
+                    DegerID = 7,
+                    KategoriID = 1,
                     Deger1 = "Kriter İş Programında",
                     Deger2 = "Criterion Work Program",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 8,
-                    KategoriId = 1,
+                    DegerID = 8,
+                    KategoriID = 1,
                     Deger1 = "Kriter Tasarısı",
                     Deger2 = "Criteria Design",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 9,
-                    KategoriId = 1,
+                    DegerID = 9,
+                    KategoriID = 1,
                     Deger1 = "Kriter Teklifi",
                     Deger2 = "Criteria Bid",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 10,
-                    KategoriId = 1,
+                    DegerID = 10,
+                    KategoriID = 1,
                     Deger1 = "ST",
                     Deger2 = "ST",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 11,
-                    KategoriId = 1,
+                    DegerID = 11,
+                    KategoriID = 1,
                     Deger1 = "TD*GD",
                     Deger2 = "TD*GD",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 12,
-                    KategoriId = 1,
+                    DegerID = 12,
+                    KategoriID = 1,
                     Deger1 = "TR*TS",
                     Deger2 = "TR*TS",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 13,
-                    KategoriId = 1,
+                    DegerID = 13,
+                    KategoriID = 1,
                     Deger1 = "UTO Rehber Doküman",
                     Deger2 = "UTO Directory Document",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 14,
-                    KategoriId = 1,
+                    DegerID = 14,
+                    KategoriID = 1,
                     Deger1 = "WI (İş Programında)",
                     Deger2 = "WI (Work Program)",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 15,
-                    KategoriId = 2,
+                    DegerID = 15,
+                    KategoriID = 2,
                     Deger1 = "Tanımsız",
                     Deger2 = "Undefined",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 16,
-                    KategoriId = 2,
+                    DegerID = 16,
+                    KategoriID = 2,
                     Deger1 = "Akreditasyon ve Belgelendirme Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee on Accreditation and Documentation",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 17,
-                    KategoriId = 2,
+                    DegerID = 17,
+                    KategoriID = 2,
                     Deger1 = "Alıcı Ortam Özel Daimi Komitesi",
                     Deger2 = "Buyer Environment Special Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 18,
-                    KategoriId = 2,
+                    DegerID = 18,
+                    KategoriID = 2,
                     Deger1 = "Ambalaj Özel Daimi Komitesi ÖDK",
                     Deger2 = "Special Standing Committee for Packaging ÖK",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 19,
-                    KategoriId = 2,
+                    DegerID = 19,
+                    KategoriID = 2,
                     Deger1 = "Ambalaj ve Kırtasiye Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee for Packaging and Stationery",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 20,
-                    KategoriId = 2,
+                    DegerID = 20,
+                    KategoriID = 2,
                     Deger1 = "Atıklar Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee on Waste",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 21,
-                    KategoriId = 2,
+                    DegerID = 21,
+                    KategoriID = 2,
                     Deger1 = "Aydınlatma ve İç Tesisat Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee for Lighting and Interior Installation",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 22,
-                    KategoriId = 2,
+                    DegerID = 22,
+                    KategoriID = 2,
                     Deger1 = "Aydınlatma ve Kablo Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee on Lighting and Cable",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 23,
-                    KategoriId = 2,
+                    DegerID = 23,
+                    KategoriID = 2,
                     Deger1 = "Basınçlı Kaplar Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee for Pressure Vessels",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 24,
-                    KategoriId = 2,
+                    DegerID = 24,
+                    KategoriID = 2,
                     Deger1 = "Bilgi Teknolojileri ve İletişim İhtisas Grubu",
                     Deger2 = "Information Technologies and Communication Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 25,
-                    KategoriId = 2,
+                    DegerID = 25,
+                    KategoriID = 2,
                     Deger1 = "Bilişim Teknolojileri Test Belgelendirme Sektörü",
                     Deger2 = "Information Technologies Test Certification Sector",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 26,
-                    KategoriId = 2,
+                    DegerID = 26,
+                    KategoriID = 2,
                     Deger1 = "Cam Seramik ve Refrakter Malzeme Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee for Glass Ceramics and Refractory Materials",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 27,
-                    KategoriId = 2,
+                    DegerID = 27,
+                    KategoriID = 2,
                     Deger1 = "Çevre İhtisas Grubu",
                     Deger2 = "Environmental Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 28,
-                    KategoriId = 2,
+                    DegerID = 28,
+                    KategoriID = 2,
                     Deger1 = "Çevre Sağlığı Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee on Environmental Health",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 29,
-                    KategoriId = 2,
+                    DegerID = 29,
+                    KategoriID = 2,
                     Deger1 = "Çevre Sağlığı ve Atıklar Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee on Environmental Health and Waste",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 30,
-                    KategoriId = 2,
+                    DegerID = 30,
+                    KategoriID = 2,
                     Deger1 = "Demiryolu Özel Daimi Komitesi",
                     Deger2 = "Railway Special Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 31,
-                    KategoriId = 2,
+                    DegerID = 31,
+                    KategoriID = 2,
                     Deger1 = "Deprem Özel Daimi Komitesi",
                     Deger2 = "Earthquake Special Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 32,
-                    KategoriId = 2,
+                    DegerID = 32,
+                    KategoriID = 2,
                     Deger1 = "Doğal Gaz Özel Daimi Komitesi",
                     Deger2 = "Natural Gas Special Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 33,
-                    KategoriId = 2,
+                    DegerID = 33,
+                    KategoriID = 2,
                     Deger1 = "Doküman Tercüme Komitesi",
                     Deger2 = "Document Translation Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 34,
-                    KategoriId = 2,
+                    DegerID = 34,
+                    KategoriID = 2,
                     Deger1 = "Ekoloji Tarım Ürünleri Özel Daimi Komitesi",
                     Deger2 = "Document Translation Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 35,
-                    KategoriId = 2,
+                    DegerID = 35,
+                    KategoriID = 2,
                     Deger1 = "Elektrik İhtisas Grubu",
                     Deger2 = "Electricity Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 36,
-                    KategoriId = 2,
+                    DegerID = 36,
+                    KategoriID = 2,
                     Deger1 = "Elektronik İhtisas Grubu",
                     Deger2 = "Electronic Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 37,
-                    KategoriId = 2,
+                    DegerID = 37,
+                    KategoriID = 2,
                     Deger1 = "Elektroteknik Güvenlik Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee on Electrotechnical Safety",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 38,
-                    KategoriId = 2,
+                    DegerID = 38,
+                    KategoriID = 2,
                     Deger1 = "Elektroteknik Güvenlik ve Aydınlatma  Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee on Electrotechnical Safety and Lighting",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 39,
-                    KategoriId = 2,
+                    DegerID = 39,
+                    KategoriID = 2,
                     Deger1 = "Elektroteknik Sektörü Müdürlüğü",
                     Deger2 = "Electrotechnical Sector Directorate",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 40,
-                    KategoriId = 2,
+                    DegerID = 40,
+                    KategoriID = 2,
                     Deger1 = "EMU ve Radyo-TV Özel Daimi Komitesi",
                     Deger2 = "EMU and Radio-TV Special Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 41,
-                    KategoriId = 2,
+                    DegerID = 41,
+                    KategoriID = 2,
                     Deger1 = "Endüstriyel Yağlar Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee on Industrial Oils",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 42,
-                    KategoriId = 2,
+                    DegerID = 42,
+                    KategoriID = 2,
                     Deger1 = "Gıda Sektörü Müdürlüğü",
                     Deger2 = "Food Sector Directorate",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 43,
-                    KategoriId = 2,
+                    DegerID = 43,
+                    KategoriID = 2,
                     Deger1 = "Helal Gıda Sektör Müdürlüğü",
                     Deger2 = "Halal Food Sector Directorate",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 44,
-                    KategoriId = 2,
+                    DegerID = 44,
+                    KategoriID = 2,
                     Deger1 = "Hizmet Standardları İhtisas Grubu",
                     Deger2 = "Service Standards Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 45,
-                    KategoriId = 2,
+                    DegerID = 45,
+                    KategoriID = 2,
                     Deger1 = "Hizmet Yeri Belgelendirme Sektör Müdürlüğü",
                     Deger2 = "Service Placement Sector Directorate",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 46,
-                    KategoriId = 2,
+                    DegerID = 46,
+                    KategoriID = 2,
                     Deger1 = "Isı Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee for Heat",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 47,
-                    KategoriId = 2,
+                    DegerID = 47,
+                    KategoriID = 2,
                     Deger1 = "İnşaat İhtisas Grubu",
                     Deger2 = "Construction Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 48,
-                    KategoriId = 2,
+                    DegerID = 48,
+                    KategoriID = 2,
                     Deger1 = "İnşaat Makinaları Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee for Construction Machinery",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 49,
-                    KategoriId = 2,
+                    DegerID = 49,
+                    KategoriID = 2,
                     Deger1 = "Kablo Özel Daimi Komitesi",
                     Deger2 = "Cable Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 50,
-                    KategoriId = 2,
+                    DegerID = 50,
+                    KategoriID = 2,
                     Deger1 = "Kapatılan Hazırlık Grupları",
                     Deger2 = "Closed Preparatory Groups",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 51,
-                    KategoriId = 2,
+                    DegerID = 51,
+                    KategoriID = 2,
                     Deger1 = "Kapatılan ve Birleştirilen Özel Daimi Komiteler",
                     Deger2 = "Closed and Consolidated Special Permanent Committees",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 52,
-                    KategoriId = 2,
+                    DegerID = 52,
+                    KategoriID = 2,
                     Deger1 = "Kırtasiye Malzemeleri ve Formlar Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee for Stationery Materials and Forms",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 53,
-                    KategoriId = 2,
+                    DegerID = 53,
+                    KategoriID = 2,
                     Deger1 = "Kimya İhtisas Grubu",
                     Deger2 = "Chemistry Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 54,
-                    KategoriId = 2,
+                    DegerID = 54,
+                    KategoriID = 2,
                     Deger1 = "Kimya Sektör Müdürlüğü",
                     Deger2 = "Chemical Sector Directorate",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 55,
-                    KategoriId = 2,
+                    DegerID = 55,
+                    KategoriID = 2,
                     Deger1 = "Laboratuvarlar Hazırlık Grubu",
                     Deger2 = "Laboratories Preparation Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 56,
-                    KategoriId = 2,
+                    DegerID = 56,
+                    KategoriID = 2,
                     Deger1 = "Maden İhtisas Grubu",
                     Deger2 = "Mining Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 57,
-                    KategoriId = 2,
+                    DegerID = 57,
+                    KategoriID = 2,
                     Deger1 = "Makina İhtisas Grubu",
                     Deger2 = "Machine Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 58,
-                    KategoriId = 2,
+                    DegerID = 58,
+                    KategoriID = 2,
                     Deger1 = "Makine Sektörü Müdürlüğü",
                     Deger2 = "Machinery Sector Directorate",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 59,
-                    KategoriId = 2,
+                    DegerID = 59,
+                    KategoriID = 2,
                     Deger1 = "Mamul Gıdalar İhtisas Grubu",
                     Deger2 = "Specialty Food Products Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 60,
-                    KategoriId = 2,
+                    DegerID = 60,
+                    KategoriID = 2,
                     Deger1 = "Meslek Standardları İhtisas Grubu",
                     Deger2 = "Occupational Standards Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 61,
-                    KategoriId = 2,
+                    DegerID = 61,
+                    KategoriID = 2,
                     Deger1 = "Metalurji İhtisas Grubu",
                     Deger2 = "Metallurgy Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 62,
-                    KategoriId = 2,
+                    DegerID = 62,
+                    KategoriID = 2,
                     Deger1 = "Milletlerarası Standardlar Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee on International Standards",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 63,
-                    KategoriId = 2,
+                    DegerID = 63,
+                    KategoriID = 2,
                     Deger1 = "Milli Savunma Sanayii İhtisas Grubu",
                     Deger2 = "National Defense Industry Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 64,
-                    KategoriId = 2,
+                    DegerID = 64,
+                    KategoriID = 2,
                     Deger1 = "Mühendislik Hizmetleri İhtisas Grubu",
                     Deger2 = "Engineering Services Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 65,
-                    KategoriId = 2,
+                    DegerID = 65,
+                    KategoriID = 2,
                     Deger1 = "NBC ve KİS Özel Daimi Komitesi",
                     Deger2 = "NBC and KIS Special Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 66,
-                    KategoriId = 2,
+                    DegerID = 66,
+                    KategoriID = 2,
                     Deger1 = "Nükleer Özel Daimi Komitesi",
                     Deger2 = "Nuclear Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 67,
-                    KategoriId = 2,
+                    DegerID = 67,
+                    KategoriID = 2,
                     Deger1 = "Optik ve Optometri Özel Daimi Komitesi",
                     Deger2 = "Optics and Optometry Special Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 68,
-                    KategoriId = 2,
+                    DegerID = 68,
+                    KategoriID = 2,
                     Deger1 = "Orman ve Orman Ürünleri İhtisas Grubu",
                     Deger2 = "Forest and Forest Products Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 69,
-                    KategoriId = 2,
+                    DegerID = 69,
+                    KategoriID = 2,
                     Deger1 = "Otomotiv Özel Daimi Komitesi",
                     Deger2 = "Automotive Special Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 70,
-                    KategoriId = 2,
+                    DegerID = 70,
+                    KategoriID = 2,
                     Deger1 = "Otomotiv Sektör Müdürlüğü",
                     Deger2 = "Automotive Sector Directorate",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 71,
-                    KategoriId = 2,
+                    DegerID = 71,
+                    KategoriID = 2,
                     Deger1 = "Otomotiv ve İnşaat Makinaları Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee for Automotive and Construction Machinery",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 72,
-                    KategoriId = 2,
+                    DegerID = 72,
+                    KategoriID = 2,
                     Deger1 = "Özel Standardlar Hazırlık Grubu",
                     Deger2 = "Special Standards Preparation Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 73,
-                    KategoriId = 2,
+                    DegerID = 73,
+                    KategoriID = 2,
                     Deger1 = "Petrokimya İhtisas Grubu",
                     Deger2 = "Petrochemicals Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 74,
-                    KategoriId = 2,
+                    DegerID = 74,
+                    KategoriID = 2,
                     Deger1 = "Petrol İhtisas Grubu",
                     Deger2 = "Petroleum Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 75,
-                    KategoriId = 2,
+                    DegerID = 75,
+                    KategoriID = 2,
                     Deger1 = "Plâstik Borular Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee on Plastic Pipes",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 76,
-                    KategoriId = 2,
+                    DegerID = 76,
+                    KategoriID = 2,
                     Deger1 = "Radyo-TV Özel Daimi Komitesi",
                     Deger2 = "Radio-TV Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 77,
-                    KategoriId = 2,
+                    DegerID = 77,
+                    KategoriID = 2,
                     Deger1 = "Rezerv konular grubu",
                     Deger2 = "Reserve subject group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 78,
-                    KategoriId = 2,
+                    DegerID = 78,
+                    KategoriID = 2,
                     Deger1 = "Sağlık İhtisas Grubu",
                     Deger2 = "Health Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 79,
-                    KategoriId = 2,
+                    DegerID = 79,
+                    KategoriID = 2,
                     Deger1 = "Standard Özel Daimi Komitesi",
                     Deger2 = "Standard Standing Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 80,
-                    KategoriId = 2,
+                    DegerID = 80,
+                    KategoriID = 2,
                     Deger1 = "Şehiriçi Yollar Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee on Urban Roads",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 81,
-                    KategoriId = 2,
+                    DegerID = 81,
+                    KategoriID = 2,
                     Deger1 = "Tahribatsız Muayene Özel Daimi Komitesi",
                     Deger2 = "Non-Destructive Testing Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 82,
-                    KategoriId = 2,
+                    DegerID = 82,
+                    KategoriID = 2,
                     Deger1 = "Tarım Alet ve Makinaları Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee for Agricultural Equipment and Machinery",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 83,
-                    KategoriId = 2,
+                    DegerID = 83,
+                    KategoriID = 2,
                     Deger1 = "Teknik Kurul",
                     Deger2 = "Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 84,
-                    KategoriId = 2,
+                    DegerID = 84,
+                    KategoriID = 2,
                     Deger1 = "Tekstil İhtisas Grubu",
                     Deger2 = "Textile Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 85,
-                    KategoriId = 2,
+                    DegerID = 85,
+                    KategoriID = 2,
                     Deger1 = "Telekomünikasyon Özel Daimi Komitesi",
                     Deger2 = "Telecommunication Special Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 86,
-                    KategoriId = 2,
+                    DegerID = 86,
+                    KategoriID = 2,
                     Deger1 = "Tesisat ve Basınçlı Kaplar Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee on Installation and Pressure Vessels",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 87,
-                    KategoriId = 2,
+                    DegerID = 87,
+                    KategoriID = 2,
                     Deger1 = "Tıbbi Cihazlar Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee for Medical Devices",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 88,
-                    KategoriId = 2,
+                    DegerID = 88,
+                    KategoriID = 2,
                     Deger1 = "TK1: Bilişim Teknolojileri Teknik Komitesi",
                     Deger2 = "TK1: Technical Committee on Information Technologies",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 89,
-                    KategoriId = 2,
+                    DegerID = 89,
+                    KategoriID = 2,
                     Deger1 = "TK10: Yapı Malzemeleri Teknik Komitesi",
                     Deger2 = "TK10: Technical Committee for Building Materials",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 90,
-                    KategoriId = 2,
+                    DegerID = 90,
+                    KategoriID = 2,
                     Deger1 = "TK11:İzolasyon, Kaplama ve Yardımcı Yapı Malzemeleri Teknik Komitesi",
                     Deger2 = "TK11: Technical Committee for Insulation, Coating and Auxiliary Materials",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 91,
-                    KategoriId = 2,
+                    DegerID = 91,
+                    KategoriID = 2,
                     Deger1 = "TK12: Yapı Güvenliği ve Akustik Teknik Komitesi",
                     Deger2 = "TK12: Building Safety and Acoustic Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 92,
-                    KategoriId = 2,
+                    DegerID = 92,
+                    KategoriID = 2,
                     Deger1 = "TK13: Yapı Güvenliği Teknik Komitesi",
                     Deger2 = "TK13: Construction Safety Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 93,
-                    KategoriId = 2,
+                    DegerID = 93,
+                    KategoriID = 2,
                     Deger1 = "TK14: Kimya Teknik Komitesi",
                     Deger2 = "TK14: Chemical Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 94,
-                    KategoriId = 2,
+                    DegerID = 94,
+                    KategoriID = 2,
                     Deger1 = "TK15: Petrokimya Teknik Komitesi",
                     Deger2 = "TK15: Petrochemical Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 95,
-                    KategoriId = 2,
+                    DegerID = 95,
+                    KategoriID = 2,
                     Deger1 = "TK16: Petrol ve Petrol Ürünleri Teknik Komitesi",
                     Deger2 = "TK15: Petrochemical Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 96,
-                    KategoriId = 2,
+                    DegerID = 96,
+                    KategoriID = 2,
                     Deger1 = "TK17: Maden Teknik Komitesi",
                     Deger2 = "TK17: Mining Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 97,
-                    KategoriId = 2,
+                    DegerID = 97,
+                    KategoriID = 2,
                     Deger1 = "TK18: İmalat Makineleri ve Takımları Teknik Komitesi",
                     Deger2 = "TK18: Technical Committee on Manufacturing Machinery and Teams",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 98,
-                    KategoriId = 2,
+                    DegerID = 98,
+                    KategoriID = 2,
                     Deger1 = "TK19: Otomotiv Teknik Komitesi",
                     Deger2 = "TK19: Automotive Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 99,
-                    KategoriId = 2,
+                    DegerID = 99,
+                    KategoriID = 2,
                     Deger1 = "TK2: Çevre Teknik Komitesi",
                     Deger2 = "TK2: Environmental Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 100,
-                    KategoriId = 2,
+                    DegerID = 100,
+                    KategoriID = 2,
                     Deger1 = "TK20: Makine Güvenliği Teknik Komitesi",
                     Deger2 = "TK20: Technical Committee on Machine Safety",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 101,
-                    KategoriId = 2,
+                    DegerID = 101,
+                    KategoriID = 2,
                     Deger1 = "TK21: Tesisat, Isıtma, Soğutma ve Havalandırma Teknik Komitesi",
                     Deger2 = "TK20: Technical Committee on Machine Safety...",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 102,
-                    KategoriId = 2,
+                    DegerID = 102,
+                    KategoriID = 2,
                     Deger1 = "TK22: Tesisat ve Basınçlı Kaplar Teknik Komitesi",
                     Deger2 = "TK22: Technical Committee on Installation and Pressure Vessels",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 103,
-                    KategoriId = 2,
+                    DegerID = 103,
+                    KategoriID = 2,
                     Deger1 = "TK23: Metalürji Teknik Komitesi",
                     Deger2 = "TK23: Metallurgical Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 104,
-                    KategoriId = 2,
+                    DegerID = 104,
+                    KategoriID = 2,
                     Deger1 = "TK24: Gıda Teknik Komitesi",
                     Deger2 = "TK24: Food Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 105,
-                    KategoriId = 2,
+                    DegerID = 105,
+                    KategoriID = 2,
                     Deger1 = "TK25: Ziraat Teknik Komitesi",
                     Deger2 = "TK25: Agricultural Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 106,
-                    KategoriId = 2,
+                    DegerID = 106,
+                    KategoriID = 2,
                     Deger1 = "TK26: Kişisel Koruyucu ve Oyun Alanı Donanım Teknik Komitesi",
                     Deger2 = "TK26: Personal Protective and Playground Hardware Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 107,
-                    KategoriId = 2,
+                    DegerID = 107,
+                    KategoriID = 2,
                     Deger1 = "TK27: Yangın Teknik Komitesi",
                     Deger2 = "TK27: Fire Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 108,
-                    KategoriId = 2,
+                    DegerID = 108,
+                    KategoriID = 2,
                     Deger1 = "TK28: Ambalaj Teknik Komitesi",
                     Deger2 = "TK28: Packaging Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 109,
-                    KategoriId = 2,
+                    DegerID = 109,
+                    KategoriID = 2,
                     Deger1 = "TK29: Yönetim Sistemleri Teknik Komitesi",
                     Deger2 = "TK29: Management Systems Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 110,
-                    KategoriId = 2,
+                    DegerID = 110,
+                    KategoriID = 2,
                     Deger1 = "TK3: Elektrik Elektroteknik ve Güvenlik Teknik Komitesi",
                     Deger2 = "TK3: Technical Committee on Electrical Electrical and Security",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 111,
-                    KategoriId = 2,
+                    DegerID = 111,
+                    KategoriID = 2,
                     Deger1 = "TK30: Enerji ve Enerji Sistemleri Teknik Komitesi",
                     Deger2 = "TK30: Technical Committee on Energy and Energy Systems",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 112,
-                    KategoriId = 2,
+                    DegerID = 112,
+                    KategoriID = 2,
                     Deger1 = "TK31: Orman ve Orman Ürünleri Teknik Komitesi",
                     Deger2 = "TK31: Technical Committee on Forestry and Forest Products",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 113,
-                    KategoriId = 2,
+                    DegerID = 113,
+                    KategoriID = 2,
                     Deger1 = "TK32: Sağlık Teknik Komitesi",
                     Deger2 = "TK32: Health Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 114,
-                    KategoriId = 2,
+                    DegerID = 114,
+                    KategoriID = 2,
                     Deger1 = "TK33: Medikal Teknik Komitesi",
                     Deger2 = "TK33: Medical Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 115,
-                    KategoriId = 2,
+                    DegerID = 115,
+                    KategoriID = 2,
                     Deger1 = "TK34: Tekstil Teknik Komitesi",
                     Deger2 = "TK34: Textile Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 116,
-                    KategoriId = 2,
+                    DegerID = 116,
+                    KategoriID = 2,
                     Deger1 = "TK35: Elektrik ve Elektronik Yetkili Servisleri Teknik Komitesi",
                     Deger2 = "TK35: Technical Committee for Electrical and Electronics Authorized Services",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 117,
-                    KategoriId = 2,
+                    DegerID = 117,
+                    KategoriID = 2,
                     Deger1 = "TK36: Milli Savunma Teknik Komitesi",
                     Deger2 = "TK36: National Defense Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 118,
-                    KategoriId = 2,
+                    DegerID = 118,
+                    KategoriID = 2,
                     Deger1 = "TK37: Helal Teknik Komitesi",
                     Deger2 = "TK37: Halal Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 119,
-                    KategoriId = 2,
+                    DegerID = 119,
+                    KategoriID = 2,
                     Deger1 = "TK38: Sosyal Hizmetler Teknik Komitesi",
                     Deger2 = "TK38: Social Services Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 120,
-                    KategoriId = 2,
+                    DegerID = 120,
+                    KategoriID = 2,
                     Deger1 = "TK39: Mekanik ve Elektromekanik Yetkili Servisleri Teknik Komitesi",
                     Deger2 = "TK39: Technical Committee for Mechanical and Electromechanical Authorized Services",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 121,
-                    KategoriId = 2,
+                    DegerID = 121,
+                    KategoriID = 2,
                     Deger1 = "TK4: Elektrik Üretim,İletim Ve Dağıtım Teknik Komitesi",
                     Deger2 = "TK4: Electricity Production, Transmission and Distribution Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 122,
-                    KategoriId = 2,
+                    DegerID = 122,
+                    KategoriID = 2,
                     Deger1 = "TK40: Demiryolu Teknik Komitesi",
                     Deger2 = "TK40: Railway Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 123,
-                    KategoriId = 2,
+                    DegerID = 123,
+                    KategoriID = 2,
                     Deger1 = "TK41: Uzay ve Havacılık Teknik Komitesi",
                     Deger2 = "TK41: Space and Aviation Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 124,
-                    KategoriId = 2,
+                    DegerID = 124,
+                    KategoriID = 2,
                     Deger1 = "TK42: Nükleer Teknik Komitesi",
                     Deger2 = "TK42: Nuclear Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 125,
-                    KategoriId = 2,
+                    DegerID = 125,
+                    KategoriID = 2,
                     Deger1 = "TK43: Tercüme-1 Teknik Komitesi",
                     Deger2 = "TK43: Translation-1 Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 126,
-                    KategoriId = 2,
+                    DegerID = 126,
+                    KategoriID = 2,
                     Deger1 = "TK44: Tercüme-2 Teknik Komitesi",
                     Deger2 = "TK44: Translation-2 Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 127,
-                    KategoriId = 2,
+                    DegerID = 127,
+                    KategoriID = 2,
                     Deger1 = "TK45: İş Sağlığı ve Güvenliği Teknik Komitesi",
                     Deger2 = "TK45: Technical Committee on Occupational Health and Safety",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 128,
-                    KategoriId = 2,
+                    DegerID = 128,
+                    KategoriID = 2,
                     Deger1 = "TK46: Süs Bitkileri",
                     Deger2 = "TK46: Ornamental plants",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 129,
-                    KategoriId = 2,
+                    DegerID = 129,
+                    KategoriID = 2,
                     Deger1 = "TK5: Aydınlatma ve Bina İçi Tesisleri İle Yardımcı Donanımları Teknik Komitesi",
                     Deger2 = "TK5: Technical Committee on Lighting and Building Facilities and Auxiliary Equipment",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 130,
-                    KategoriId = 2,
+                    DegerID = 130,
+                    KategoriID = 2,
                     Deger1 = "TK6: İletkenler, Kablolar Ve Yalıtım Malzemeleri Teknik Komitesi",
                     Deger2 = "TK5: Technical Committee on Lighting and Building Facilities and Auxiliary Equipment",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 131,
-                    KategoriId = 2,
+                    DegerID = 131,
+                    KategoriID = 2,
                     Deger1 = "TK7: Yüksek Gerilim Teknikleri ve Yıldırımdan Korunma Sistemleri Teknik Komitesi",
                     Deger2 = "TK7: Technical Committee on High Voltage Techniques and Lightning Protection Systems",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 132,
-                    KategoriId = 2,
+                    DegerID = 132,
+                    KategoriID = 2,
                     Deger1 = "TK8: Elektronik Teknik Komitesi",
                     Deger2 = "TK8: Electronic Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 133,
-                    KategoriId = 2,
+                    DegerID = 133,
+                    KategoriID = 2,
                     Deger1 = "TK9: Sanayi Hizmetleri Teknik Komitesi",
                     Deger2 = "TK9: Industrial Services Technical Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 134,
-                    KategoriId = 2,
+                    DegerID = 134,
+                    KategoriID = 2,
                     Deger1 = "TSEK Özel Daimi Komitesi",
                     Deger2 = "TSEK Special Standing Committee",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 135,
-                    KategoriId = 2,
+                    DegerID = 135,
+                    KategoriID = 2,
                     Deger1 = "TSE-Yapılarda Tahribatsız Muayene Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee on Non-Destructive Testing in TSE-Structures",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 136,
-                    KategoriId = 2,
+                    DegerID = 136,
+                    KategoriID = 2,
                     Deger1 = "Ulusal Teknik Onay Esas Belirleme Komisyonu",
                     Deger2 = "National Technical Approval Main Commission",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 137,
-                    KategoriId = 2,
+                    DegerID = 137,
+                    KategoriID = 2,
                     Deger1 = "Yangın Özel Daimi Komitesi",
                     Deger2 = "Special Standing Committee for Fire",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 138,
-                    KategoriId = 2,
+                    DegerID = 138,
+                    KategoriID = 2,
                     Deger1 = "Yapı Malzemeleri ÖDK",
                     Deger2 = "Construction Materials ÖDK",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 139,
-                    KategoriId = 2,
+                    DegerID = 139,
+                    KategoriID = 2,
                     Deger1 = "Yapı malzemeleri sektörü",
                     Deger2 = "Building materials sector",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 140,
-                    KategoriId = 2,
+                    DegerID = 140,
+                    KategoriID = 2,
                     Deger1 = "Yetkili Servis Standardları İhtisas Grubu",
                     Deger2 = "Authorized Service Standards Specialization Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 141,
-                    KategoriId = 2,
+                    DegerID = 141,
+                    KategoriID = 2,
                     Deger1 = "Yönetim Sistemleri Geliştirme Sektörü",
                     Deger2 = "Management Systems Development Sector",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 142,
-                    KategoriId = 2,
+                    DegerID = 142,
+                    KategoriID = 2,
                     Deger1 = "Ziraat İhtisas Grubu",
                     Deger2 = "Agricultural Expert Group",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 143,
-                    KategoriId = 3,
+                    DegerID = 143,
+                    KategoriID = 3,
                     Deger1 = "Tanımsız",
                     Deger2 = "Undefined",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 144,
-                    KategoriId = 3,
+                    DegerID = 144,
+                    KategoriID = 3,
                     Deger1 = "A (Tadil Görmüş Standard/Amended standard)",
                     Deger2 = "A (Standard / Amended standard)",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 145,
-                    KategoriId = 3,
+                    DegerID = 145,
+                    KategoriID = 3,
                     Deger1 = "H (İptal Edilmiş Standard/Withdrawn standard)",
                     Deger2 = "H (Canceled Standard / Withdrawn standard)",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 146,
-                    KategoriId = 3,
+                    DegerID = 146,
+                    KategoriID = 3,
                     Deger1 = "N (Yeni Standard/New standard)",
                     Deger2 = "EN (New Standard)",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 147,
-                    KategoriId = 3,
+                    DegerID = 147,
+                    KategoriID = 3,
                     Deger1 = "U (Yürürlükteki Standard/Standard)",
                     Deger2 = "U (Current Standard / Standard)",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 148,
-                    KategoriId = 3,
+                    DegerID = 148,
+                    KategoriID = 3,
                     Deger1 = "W (Yeni İptal Edilen Standard/Withdrawn standard)",
                     Deger2 = "W (New Canceled Standard / Withdrawn standard)",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 149,
-                    KategoriId = 3,
+                    DegerID = 149,
+                    KategoriID = 3,
                     Deger1 = "A veya N veya U",
                     Deger2 = "A or N or U",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 150,
-                    KategoriId = 3,
+                    DegerID = 150,
+                    KategoriID = 3,
                     Deger1 = "H veya W",
                     Deger2 = "H or W",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 151,
-                    KategoriId = 4,
+                    DegerID = 151,
+                    KategoriID = 4,
                     Deger1 = "Tanımsız",
                     Deger2 = "Undefined",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 152,
-                    KategoriId = 4,
+                    DegerID = 152,
+                    KategoriID = 4,
                     Deger1 = "Kural",
                     Deger2 = "Rule",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 153,
-                    KategoriId = 4,
+                    DegerID = 153,
+                    KategoriID = 4,
                     Deger1 = "Metot",
                     Deger2 = "Method",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 154,
-                    KategoriId = 5,
+                    DegerID = 154,
+                    KategoriID = 5,
                     Deger1 = "Cep Telefonu",
                     Deger2 = "Mobile Phone",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 155,
-                    KategoriId = 5,
+                    DegerID = 155,
+                    KategoriID = 5,
                     Deger1 = "Ev Telefonu",
                     Deger2 = "Home Phone",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 156,
-                    KategoriId = 5,
+                    DegerID = 156,
+                    KategoriID = 5,
                     Deger1 = "İş Telefonu",
                     Deger2 = "Office Phone",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 157,
-                    KategoriId = 5,
+                    DegerID = 157,
+                    KategoriID = 5,
                     Deger1 = "Faks",
                     Deger2 = "Fax",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 158,
-                    KategoriId = 6,
+                    DegerID = 158,
+                    KategoriID = 6,
                     Deger1 = "Ev Adresi",
                     Deger2 = "Home Address",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 159,
-                    KategoriId = 6,
+                    DegerID = 159,
+                    KategoriID = 6,
                     Deger1 = "İş Adresi",
                     Deger2 = "Business Address",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 160,
-                    KategoriId = 6,
+                    DegerID = 160,
+                    KategoriID = 6,
                     Deger1 = "Fatura Adresi",
                     Deger2 = "Billing Address",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 161,
-                    KategoriId = 7,
-                    Deger1 = "Tablo - Atıf Yapılan",
-                    Deger2 = "Table - Cited",
+                    DegerID = 161,
+                    KategoriID = 7,
+                    Deger1 = "İçerik - Atıf Yapılan Standart/Döküman",
+                    Deger2 = "Content - Cited Standard / Document",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 162,
-                    KategoriId = 7,
-                    Deger1 = "Ön Söz",
-                    Deger2 = "Audit",
+                    DegerID = 162,
+                    KategoriID = 7,
+                    Deger1 = "İçerik - Ön Söz",
+                    Deger2 = "Content - Audit",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 163,
-                    KategoriId = 7,
-                    Deger1 = "Metin",
-                    Deger2 = "Text",
+                    DegerID = 163,
+                    KategoriID = 7,
+                    Deger1 = "İçerik - Metin",
+                    Deger2 = "İçerik - Text",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 164,
-                    KategoriId = 7,
-                    Deger1 = "Tablo - Denetim",
-                    Deger2 = "Table - Control",
+                    DegerID = 164,
+                    KategoriID = 7,
+                    Deger1 = "Denetim - Bölüm",
+                    Deger2 = "Denetim - Bölüm",
                     SiraNo = 0,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 165,
-                    KategoriId = 8,
+                    DegerID = 165,
+                    KategoriID = 8,
                     Deger1 = "ISO/IEC 15489-1",
                     Deger2 = "Information and documentation – Records management – Part 1: General",
                     Deger3 = "TS ISO 15489-1",
                     Deger4 = "Bilgi ve dokümantasyon - Belge yönetimi Bölüm 1: Genel",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 166,
-                    KategoriId = 8,
+                    DegerID = 166,
+                    KategoriID = 8,
                     Deger1 = "ISO/IEC 15489-2",
                     Deger2 = "Information and documentation – Records management – Part 2:Guidelines",
                     Deger3 = "TS ISO/TR 15489-2",
                     Deger4 = "Bilgi ve dokümantasyon - Belge yönetimi - Bölüm 2: Kılavuzlar",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 167,
-                    KategoriId = 8,
+                    DegerID = 167,
+                    KategoriID = 8,
                     Deger1 = "ISO/IEC 27001",
                     Deger2 = "Information technology - Security techniques - Information security management systems - Requirements",
                     Deger3 = "TS ISO/IEC 27001",
                     Deger4 = "Bilgi teknolojisi - Güvenlik teknikleri - Bilgi güvenliği yönetim sistemleri – Gereksinimler",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 168,
-                    KategoriId = 8,
+                    DegerID = 168,
+                    KategoriID = 8,
                     Deger1 = "ISO 8601",
                     Deger2 = "Data elements and interchange formats - Information interchange - Representation of dates and times",
                     Deger3 = "TS ISO 8601",
                     Deger4 = "Veri elemanları ve değişim formatları - Bilgi değişimi - Tarih ve zamanın gösterimi",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 169,
-                    KategoriId = 8,
+                    DegerID = 169,
+                    KategoriID = 8,
                     Deger1 = "ISO/IEC 25051",
                     Deger2 = "Software engineering – Software product Quality Requirements and Evaluation (SQuaRE) – Requirements for quality of Commercial Off - The - Shelf(COTS) software product and instructions for testing",
                     Deger3 = "TS ISO/IEC 25051",
                     Deger4 = "Yazılım mühendisliği - Yazılım ürünü kalite gereksinimleri ve değerlendirmesi(SQuaRE) – Ticari kullanıma hazır(COTS) yazılım ürünü kalitesi için gereksinimler ve test yönergeleri",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 170,
-                    KategoriId = 8,
+                    DegerID = 170,
+                    KategoriID = 8,
                     Deger1 = "ISO/IEC 15408-1",
                     Deger2 = "Information technology -Security techniques -Evaluation criteria for IT security - Part 1: Introduction and general model",
                     Deger3 = "TS ISO/IEC 15408 - 1",
                     Deger4 = "Bilgi teknolojisi - Güvenlik teknikleri - Bilgi teknolojisi güvenliği için değerlendirme kriterleri - Bölüm 1: Giriş ve genel model",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 171,
-                    KategoriId = 8,
+                    DegerID = 171,
+                    KategoriID = 8,
                     Deger1 = "ISO/IEC 15408-2",
                     Deger2 = "Information technology -Security techniques -Evaluation criteria for IT security - Part 2: Security functional requirements",
                     Deger3 = "TS ISO/IEC 15408 - 2",
                     Deger4 = "Bilgi teknolojisi - Güvenlik teknikleri - Bilgi teknolojisi güvenliği için değerlendirme kriterleri - Bölüm 2:Güvenlik fonksiyonel bileşenleri",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 172,
-                    KategoriId = 8,
+                    DegerID = 172,
+                    KategoriID = 8,
                     Deger1 = "ISO/IEC 15408-3",
                     Deger2 = "Information technology -Security techniques -Evaluation criteria for IT security - Part 3: Security assurance requirements",
                     Deger3 = "TS ISO/IEC 15408-3",
                     Deger4 = "Bilgi teknolojisi - Güvenlik teknikleri - Bilgi teknolojisi güvenliği için değerlendirme kriterleri - Bölüm 3:Güvenlik garanti bileşenleri",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 173,
-                    KategoriId = 9,
+                    DegerID = 173,
+                    KategoriID = 9,
                     Deger1 = "e-Yazışma Teknik Rehberi",
                     Deger2 = "T.C. Kalkınma Bakanlığı Bilgi Toplumu Daire Başkanlığı",
                     Deger3 = "28 Temmuz 2006 tarihli ve 26242 sayılı Resmi Gazetede yayımlanan 2006/38 sayılı Yüksek Planlama Kurulu Kararı ile uygulamaya konan Bilgi Toplumu Stratejisi eki Eylem Planı’nda yer verilen 73 no’lu 'Ortak Hizmetlerin Oluşturulması' eylemi kapsamında geliştirilmiştir.",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 174,
-                    KategoriId = 9,
+                    DegerID = 174,
+                    KategoriID = 9,
                     Deger1 = "Kayıtlı Elektronik Posta e-Yazışma Projesi İstemci Kütüphaneleri Geliştirici Kılavuzu",
                     Deger2 = "Bilgi Teknolojileri ve İletişim Kurumu (BTK)",
                     Deger3 = "Kayıtlı Elektronik Posta Sistemine İlişkin Usul ve Esaslar Hakkında Yönetmelik, 25 Ağustos 2011 tarih ve 28036 sayılı Resmi Gazete",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 175,
-                    KategoriId = 9,
+                    DegerID = 175,
+                    KategoriID = 9,
                     Deger1 = "Elektronik Doküman ve Belge Yönetim Sistemi TSE-CCCS-PP-003 Koruma Profili",
                     Deger2 = "Türk Standardları Enstitüsü (TSE)",
                     Deger3 = "2013/4890 sayılı Bakanlar Kurulu Kararı doğrultusunda yayımlanan 20 Haziran 2013 tarihli ve 28683 sayılı Resmi Gazetede yayımlanarak yürürlüğe giren Ulusal Siber Güvenlik Stratejisi ve Eylem Planı Madde 12.",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 176,
-                    KategoriId = 9,
+                    DegerID = 176,
+                    KategoriID = 9,
                     Deger1 = "Temel Seviye Güvenlik Belgelendirme Kılavuzu",
                     Deger2 = "Türk Standardları Enstitüsü (TSE)",
                     Deger3 = "2013/4890 sayılı Bakanlar Kurulu Kararı doğrultusunda yayımlanan 20 Haziran 2013 tarihli ve 28683 sayılı Resmi Gazetede yayımlanarak yürürlüğe giren Ulusal Siber Güvenlik Stratejisi ve Eylem Planı Madde 12.",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 177,
-                    KategoriId = 9,
+                    DegerID = 177,
+                    KategoriID = 9,
                     Deger1 = "Birlikte Çalışabilirlik Esasları Rehberi",
                     Deger2 = "T.C. Kalkınma Bakanlığı Bilgi Toplumu Daire Başkanlığı",
                     Deger3 = "2009/4 Sayılı Başbakanlık Genelgesi, Kamu Bilgi Sistemlerinde Birlikte Çalışabilirlik Esasları, 28 Şubat 2009 tarihli ve 27155 sayılı Resmi Gazete",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 178,
-                    KategoriId = 9,
+                    DegerID = 178,
+                    KategoriID = 9,
                     Deger1 = "Resmi Yazışma Kuralları",
                     Deger2 = "Başbakanlık İdareyi Geliştirme Başkanlığı",
                     Deger3 = "Resmî Yazışmalarda Uygulanacak Usul Ve Esaslar Hakkında Yönetmelik, 2 Şubat 2015 tarih ve 25658 Sayılı Resmi Gazete",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 179,
-                    KategoriId = 9,
+                    DegerID = 179,
+                    KategoriID = 9,
                     Deger1 = "Standart Dosya Planı",
                     Deger2 = "Başbakanlık Devlet Arşivleri Genel Müdürlüğü",
                     Deger3 = "2005/7 Sayılı Başbakanlık Genelgesi, 25 Mart 2005 tarih ve 25766 sayılı Resmi Gazete",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Deger
                 {
-                    DegerId = 180,
-                    KategoriId = 9,
+                    DegerID = 180,
+                    KategoriID = 9,
                     Deger1 = "Devlet Teşkilatı VeriTabanı",
                     Deger2 = "Başbakanlık İdareyi Geliştirme Başkanlığı",
                     Deger3 = "2011/1 Sayılı Başbakanlık Genelgesi, 10 Şubat2011 tarih ve 27842 sayılı Resmi Gazete",
-                    DurumId = 1
+                    DurumID = 1
+                },
+                new Deger
+                {
+                    DegerID = 181,
+                    KategoriID = 7,
+                    Deger1 = "İçerik - Açıklama",
+                    Deger2 = "Content - Description",
+                    DurumID = 1
+                },                
+                new Deger
+                {
+                    DegerID = 182,
+                    KategoriID = 7,
+                    Deger1 = "İçerik - İçindekiler",
+                    Deger2 = "Content - Index",
+                    DurumID = 1
+                },                
+                new Deger
+                {
+                    DegerID = 183,
+                    KategoriID = 7,
+                    Deger1 = "İçerik - Bölüm",
+                    Deger2 = "Content - Section",
+                    DurumID = 1
+                },
+                new Deger
+                {
+                    DegerID = 184,
+                    KategoriID = 7,
+                    Deger1 = "Denetim - Tablo",
+                    Deger2 = "Control - Table",
+                    DurumID = 1
+                }
+                ,
+                new Deger
+                {
+                    DegerID = 186,
+                    KategoriID = 7,
+                    Deger1 = "Denetim - Metin",
+                    Deger2 = "Control - Text",
+                    DurumID = 1
                 }
             });
             #endregion
@@ -11252,10 +11293,10 @@
             {
                 new StandartAciklama
                 {
-                    StandartAciklamaId = 1,
+                    StandartAciklamaID = 1,
                     Baslik = "K-Q TSE-ISO-EN 9000 - TSE - TSEK",
                     Detay = $"<ul><li>Bugünkü teknik ve uygulamaya dayanılarak hazırlanmış olan bu standardın, zamanla ortaya çıkacak gelişme ve değişikliklere uydurulması mümkün olduğundan ilgililerin yayınları izlemelerini ve standardın uygulanmasında karşılaştıkları aksaklıkları Enstitümüze iletmelerini rica ederiz.</li><li>Bu standardı oluşturan İhtisas Grubu üyesi değerli uzmanların emeklerini; tasarılar üzerinde görüşlerini bildirmek suretiyle yardımcı olan bilim, kamu ve özel sektör kuruluşları ile kişilerin değerli katkılarınışükranla anarız.</li></ul><p><img src='{Resource.CdnDomain}/Content/Backoffice/Images/StandartAciklama/k-q-tse-iso-en-9000.png' alt='K-Q-TSE-ISO-EN-9000' /><b>Kalite Sistem Belgesi</b><br>İmalât ve hizmet sektörlerinde faaliyet gösteren kuruluşların sistemlerini TS EN ISO 9000 Kalite Standardlarına uygun olarak kurmaları durumunda TSE tarafından verilen belgedir.</p><p><img src='{Resource.CdnDomain}/Content/Backoffice/Images/StandartAciklama/tse.png' alt='TSE' /><b>Türk Standardlarına Uygunluk Markası (TSE Markası)</b><br>TSE Markası, üzerine veya ambalâjına konulduğu malların veya hizmetin ilgili Türk Standardına uygun olduğunu ve mamulle veya hizmetle ilgili bir problem ortaya çıktığında Türk Standardları Enstitüsü’nün garantisi altında olduğunu ifade eder.</p><p><img src='{Resource.CdnDomain}/Content/Backoffice/Images/StandartAciklama/TSEK.png' alt='TSEK' /><b>Kritere Uygunluk Belgesi (TSEK Markası Kullanma Hakkı)</b><br>Kritere Uygunluk Belgesi; Türk Standardları bulunmayan konularda firmaların ürünlerinin ilgili uluslararası standardlar, benzeri Türk Standardları, diğer ülkelerin milli standardları, teknik literatür esas alınarak Türk Standardları Enstitüsü tarafından kabul edilen Kalite Faktör ve Değerlerine uygunluğunu belirten ve akdedilen sözleşme ile TSEK Markası kullanma hakkı verilen firma adına düzenlenen ve üzerinde TSEK Markası kullanılacak ürünlerin ticari Markası, cinsi, sınıfı, tipi ve türünü belirten geçerlilik süresi bir yıl olan belgedir.</p><p><h3>DİKKAT!</h3><br>TS işareti ve yanında yer alan sayı tek başına iken (TS 4600 gibi), mamulün Türk Standardına uygun üretildiğine dair üreticinin beyanını ifade eder. <b>Türk Standardları Enstitüsü tarafından herhangi bir garanti söz konusu değildir.</b></p><p class='text-align:center'><i><b>Standardlar ve standardizasyon konusunda daha geniş bilgi Enstitümüzde sağlanabilir.</i>TÜRK STANDARDLARININ YAYIN HAKLARI SAKLIDIR.</b></p>",
-                    DurumId = 1
+                    DurumID = 1
                 }
             });
             #endregion
@@ -11265,15 +11306,15 @@
             {
                 new Standart
                 {
-                    StandartId = 1,
+                    StandartID = 1,
                     TsNo = "TS-13298",
                     KabulTarihi = new DateTime(2015, 10, 23),
-                    HazirlikGrubuId = 6,
-                    DokumanTipiId = 9,
-                    YururlukDurumuId = 5,
+                    HazirlikGrubuID = 6,
+                    DokumanTipiID = 9,
+                    YururlukDurumuID = 5,
                     BaslikTr = "Elektronik Belge ve Arşiv Yönetim Sistemi",
                     BaslikEn = "Electronic Records and Archives Management System",
-                    StandartTurId = 3,
+                    StandartTurID = 3,
                     KapsamTr = "Bu standard, kurumlarda üretilen ve/veya üretilmesi muhtemel elektronik dokümanların belge niteliğinin korunabilmesi için gerekli standardlar ile elektronik belgelerin arşivlenmesi ve yönetimine yönelik konuları kapsar.",
                     KapsamEn = "This standard, produced in the institution and / or production of electronic documents, electronic documents possible with the necessary standards to preserve the quality archiving and document covers issues related to management.",
                     YeriniAldigi = "TS 13298 :2009",
@@ -11287,9 +11328,8 @@
                     UygulamaDurumu = "Yürürlükte",
                     SayfaSayisi = 81,
                     Fiyati = 71.00M,
-                    ParaBirimiId = 1,
-                    StandartAciklamaId = 1,
-                    DurumId = 1
+                    ParaBirimiID = 1,
+                    DurumID = 1
                 }
             });
             #endregion
@@ -11299,1790 +11339,1790 @@
             {
                 new StandartIcerik
                 {
-                    StandartIcerikId = 1,
-                    StandartId = 1,
+                    StandartIcerikID = 1,
+                    StandartID = 1,
                     BaslikNo = "0",
                     Baslik = "Önsöz",
                     Detay = "<ul><li>- Bu standard, Türk Standardları Enstitüsü’nün Bilişim İhtisas Kurulu’na bağlı TK01 Bilişim Teknolojileri Teknik Komitesi’nce TS 13298: 2009’in revizyonu olarak hazırlanmış ve TSE Teknik Kurulu’nun 23 Ekim 2015 tarihli toplantısında kabul edilerek yayımına karar verilmiştir.</li><li>- Bu standardın daha önce yayımlanmış bulunan baskıları geçersizdir.</li><li>- Bu standardın hazırlanmasında, milli ihtiyaç ve imkânlarımız ön planda olmak üzere, milletlerarası standardlar ve ekonomik ilişkilerimiz bulunan yabancı ülkelerin standardlarındaki esaslar da gözönünde bulundurularak; yarar görülen hallerde, olabilen yakınlık ve benzerliklerin sağlanmasına ve bu esasların, ülkemiz şartları ile bağdaştırılmasına çalışılmıştır.</li><li>- Bu standard son şeklini almadan önce; bilimsel kuruluşlar, üretici/ imalatçı ve tüketici durumundaki konunun ilgilileri ile gerekli işbirliği yapılmış ve alınan görüşlere göre olgunlaştırılmıştır.</li><li>- Bu standardda kullanılan bazı kelime ve/veya ifadeler patent haklarına konu olabilir. Böyle bir patent hakkının belirlenmesi durumunda TSE sorumlu tutulamaz.</li></ul>",
-                    UstIcerikId = 0,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 1,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 2,
-                    StandartId = 1,
+                    StandartIcerikID = 2,
+                    StandartID = 1,
                     BaslikNo = "0",
                     Baslik = "Giriş",
                     Detay = @"<p>Bu standard, TS 13298:2009 Elektronik Belge Yönetimi standardının güncel ihtiyaçlara göre yeniden düzenlenmiş halini içermektedir. Standard bir önceki revizyonuna ilave olarak kurumlar arası belge paylaşımı, kayıtlı elektronik postaların yönetimi, elektronik yazışma paketi ve elektronik arşivlerin yönetimi başta olmak üzere bazı yenilikler getirmektedir.</p><p>Kurumların faaliyetlerini kayıt altına alması ve bu bilgileri paydaşları ile paylaşması kurumsal faaliyetlerin ayrılmaz bir parçasıdır. Herkesin, her zaman, her yerden kolaylıkla ulaşabileceği şeffaf, verimli ve sade bir kurum yapısı günümüzde modern ve demokratik kurumların temel hedefi haline gelmiştir. Bilgi ve iletişim teknolojilerindeki gelişmeler bu hedefi gerçekleştirecek olgunluğa ulaşmıştır ve her geçen gün daha da gelişmektedir. Son yıllarda sıkça duyduğumuz e-ticaret ve e-devlet gibi kavramlar bu gelişmelerin bir sonucudur. E-kurum yapısının temelini ise elektronik bilgi sistemleri oluşturmaktadır.</p><p>Kurumlarca üretilen bilgi ve belgelerin verimliliğinin arttırılması için ortak standard ve politikaların belirlenmesi göz ardı edilemez bir gereksinimdir. Böyle bir çalışma kullanımı kolay, erişimi hızlı, güvenilir, ucuz, sürekli ve sağlam 'elektronik kurum' yapısının oluşumuna katkı sağlayarak genelde 'e-toplum'a geçiş sürecini hızlandıracaktır.</p><p>E-kurum faaliyetleri sonucu oluşan elektronik dokümanların belge vasfının korunması, onların üretim aşamasında ve hatta üretim öncesinde elektronik bilgi sistemleri tasarımı aşamasında ele alınmalarını gerekli kılmaktadır. Belge kavramının sistem tasarımcıları ve kullanıcılar tarafından iyi algılanması ve belge yönetimi gereksinimlerinin uygulanması gerekmektedir.</p><p>Elektronik belge yönetimi son derece geniş ve karmaşık bir alandır. Bu alan bir sistem yaklaşımı ile ele alınmalı ve sistemi oluşturan öğelerin birbiri ile uyumlu çalışması için gerekli önlemler alınmalıdır.</p><p>Sistemi oluşturan öğelerin başında Elektronik Belge Yönetim Sistemi (EBYS) yazılımı gelmektedir. Elektronik belgeyi yönetmeye talip her kurum bu konuda uzmanlaşmış bir yazılıma ihtiyaç duyacaktır. Bir EBYS yazılımı hiç şüphesiz kurum ERP yazılımlarının bir parçası olarak üretilebilir ya da kurum fonksiyonlarını elektronik ortamda yürütmek için kullanılan diğer yazılımlarla entegre çalışabilen bağımsız bir paket de olabilir. Bu standard bir EBYS yazılımında bulunması gereken asgari fonksiyonel özellikleri tanımlamaktadır.</p><p>Sistemi oluşturan bir diğer öğe kurumsal politika ve prosedürlerdir. Kurum bilgi ve belge yönetimi prosedürleri EBYS için bir girdi olarak düşünülebilir. Kurumsal belge yönetimi politika ve prosedürlerini henüz geliştirme aşamasında olan kurumlar, bu standardı bir referans kaynağı olarak kullanabilirler.</p><p>Standardın bu revizyonunda Elektronik Arşivleme Sistemi Referans Modelinin (ELAS/RM) adı altında yeni bir bölüm eklenmiştir. Bu bölüm:</p><ul><li>Elektronik belgelerin üretildikleri dönemdeki hukuki varlığının korunabilmesi,</li><li>Sürekli saklanacak elektronik belgelerin kesintisiz olarak erişilebilirliğinin sağlanması için gerekli tedbirlerin alınması,</li><li>Elektronik belgelerin üretildiği bilgi sistemi platformundan bağımsız olarak erişilebilir olması için gerekli sistem gereksinimlerini, elektronik arşivleme sistemleri uygulamalarında bulunması gerekli temel arşivcilik fonksiyonlarını ve elektronik arşivde yer alacak belgelerin sisteme transfer, düzenleme, tanımlama ve kullanımı gibi fonksiyonlara uygun üstveri modelini tanımlamaktır.</li><p>Bu standard, dört bölüm halinde tasarlanmıştır. Bu bölümler kendi içerisinde alt bölümlere ayrılmış ve bu alt bölümler altında da sistem gereksinimleri sıralanmıştır. Bu standard içinde yer alan bölümler şunlardır:</p><li>Sistem kriterleri: Sistem tasarımı ve elektronik belgelerin sisteme dâhil edilmesi için gerekli olan gereksinimlerin ele alındığı bölüm.</li><li>Belge kriterleri: Elektronik belge özellikleri, sayısal görüntüleme sistemleri ve fiziksel ortamdaki belgelerin yönetimi ve EBYS içerisine entegrasyonu gibi konuların ele alındığı bölüm.</li><li>Elektronik Arşivleme Sistemi Referans Modeli (ELAS/RM): Elektronik ortamda üretilmiş ya da sonradan elektronik ortama aktarılmış olan arşiv malzemesinin yönetimine yönelik kriterler bu bölümde tanımlanmıştır.</li><li>Üst veri elemanları: EBYS ve ELAS/RM’ye ait üst veri gereksinimleri bu bölümde tanımlanmıştır.</li><p>Sistem ve belge kriterleri ile elektronik arşivleme sistemi referans modeline ait düzenlemeler dört farklı şekilde kodlanmıştır. Her bir kriterin yanındaki kutucuklarda yer alan kodların açılımları şunlardır:</p><li>S/Z: İlgili maddenin seçmeli mi yoksa zorunlu mu olduğunu göstermek için kullanılmıştır.</li> <li>BA: Kriterin bilgi amaçlı olduğunu ifade eder. Genel olarak ürün veya kurum sertifikasyonunda kullanılmamakla birlikte sistemin geneli hakkında ya da ilgili olduğu bölüm ile ilgili teknik bilgi içermektedir.</li><li>KYS: Belge ve arşiv yönetim sistemini kullanan kurumlarda Kurum Yeterlilik Sertifikasyonu için aranacak şartlarla ilgili kriterlerdir. Sistem kurulumu öncesinde ya da esnasında yerine getirilmesi gereken şartları belirler. Ayrıca EBYS ürünü kullanacak kurumların KYS şartlarını sağlamaları ve akredite kurumlardan sertifika almaları gerekir.</li><li>ÜS: Ürün (EBYS yazılımları) sertifikasyonunda kullanılacak kriterleri tanımlar. Bu standarda uyumluluk belgesi alacak ürünlerin taşıması gereken asgari standartları belirler. Aynı ürün farklı ad ve markalar altında birden fazla sertifikalandırılamaz. Yetkili sertifikasyon kurumu, ürünler arasında bu türden bir benzerlik olduğuna karar verdiği durumlarda ürünlerin kaynak kodlarını değerlendirme amaçlı olarak talep edebilir.</li></ul>",
-                    UstIcerikId = 0,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 2,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 3,
-                    StandartId = 1,
+                    StandartIcerikID = 3,
+                    StandartID = 1,
                     BaslikNo = "1",
                     Baslik = "Kapsam",
                     Detay = @"<p>Bu standard, kurumlarda üretilen ve/veya üretilmesi muhtemel elektronik dokümanların belge niteliğinin korunabilmesi için gerekli standardların belirlenmesi amacıyla aşağıdaki konuları kapsar:</p><ol><li>Elektronik belge yönetimi sistemi (EBYS) için gerekli sistem gereksinimleri,</li><li>EBYS için gerekli belge yönetim teknikleri ve uygulamaları,</li><li>Elektronik belgelerin yönetilebilmesi için gerekli gereksinimler,</li><li>Elektronik ortamda üretilmemiş belgelerin yönetim fonksiyonlarının elektronik ortamda yürütülebilmesi içingerekli gereksinimler,</li><li>Elektronik belgelerde bulunması gereken diplomatik özellikler,</li><li>Elektronik belgelerin hukuki geçerliliklerinin sağlanması için alınması gereken önlemler,</li><li>Güvenli elektronik imza ve mühür sistemlerinin uygulanması için gerekli sistem alt yapısının tanımlanması.</li></ol><p>Bu standard, ayrıca, elektronik belgelerin arşivlenmesi ve yönetimine yönelik olarak da aşağıdaki konuları kapsamaktadır.</p><ol><li>Elektronik ortamda üretilmiş ve kurumsal kimlik doğrulama sistemleri ve/veya elektronik / mobil imza sistemleri ile imzalanmış kurumsal belgelerin,</li><li>Fiziksel ortamlarda üretilmiş olup sonradan sayısallaştırma yöntemi ile elektronik ortama aktarılmış yazılı, basılı, çizili her türlü doküman ve belgelerin,</li><li>Dijital olarak üretilmiş resim, ses ve görüntü kayıtlarının,</li><li>Sayısallaştırma yöntemi ile elektronik ortama aktarılmış analog resim, ses ve görüntü kayıtlarının yönetilmesine imkân sağlayacak düzenlemeleri kapsamaktadır.</li></ol><p>Bu standard, elektronik belgelerin üretim ortamına ait bilgi güvenliği ile ilgili herhangi bir kriter kapsamaz. Bilgi güvenliği yönetim sistemi ile ilgili olarak TS ISO/IEC 27001 standardı kullanılabilir.</p>",
-                    UstIcerikId = 0,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 3,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 4,
-                    StandartId = 1,
+                    StandartIcerikID = 4,
+                    StandartID = 1,
                     BaslikNo = "2",
                     Baslik = "Atıf yapılan standard ve/veya dokümanlar",
                     Detay = @"Aşağıda verilen, atıf yapılan standardların hükümleri bu standardın hükümleri sayılır. Tarih belirtilen atıflarda, daha sonra yapılan tadil ve revizyonlar uygulanmaz. Bununla birlikte, bu standarda dayalı anlaşmalarda taraflara, aşağıda verilen standardların en yeni baskılarını uygulama imkânını araştırmaları önerilir. Tarih belirtilmeyen atıflarda, ilgili standardın en son baskısı kullanılır. Bütün standardların yürürlükte bulunan baskıları TSE’den temin edilebilir. (*) işaretli olanlar bu standardın basıldığı tarihte İngilizce metin olarak yayımlanmış Türk Standardlarıdır.",
-                    UstIcerikId = 0,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 4,
-                    DurumId = 1,
+                    DurumID = 1,
                     StandartAtiflar = new List<StandartAtif>
                     {
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 8,
-                            DegerId = 165,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 8,
+                            DegerID = 165,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 8,
-                            DegerId = 166,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 8,
+                            DegerID = 166,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 8,
-                            DegerId = 167,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 8,
+                            DegerID = 167,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 8,
-                            DegerId = 168,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 8,
+                            DegerID = 168,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 8,
-                            DegerId = 169,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 8,
+                            DegerID = 169,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 8,
-                            DegerId = 170,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 8,
+                            DegerID = 170,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 8,
-                            DegerId = 171,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 8,
+                            DegerID = 171,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 8,
-                            DegerId = 172,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 8,
+                            DegerID = 172,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 9,
-                            DegerId = 173,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 9,
+                            DegerID = 173,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 9,
-                            DegerId = 174,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 9,
+                            DegerID = 174,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 9,
-                            DegerId = 175,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 9,
+                            DegerID = 175,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 9,
-                            DegerId = 176,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 9,
+                            DegerID = 176,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 9,
-                            DegerId = 177,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 9,
+                            DegerID = 177,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 9,
-                            DegerId = 178,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 9,
+                            DegerID = 178,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 9,
-                            DegerId = 179,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 9,
+                            DegerID = 179,
+                            DurumID = 1
                         },
                         new StandartAtif
                         {
-                            StandartId = 1,
-                            StandartIcerikId = 4,
-                            KategoriId = 9,
-                            DegerId = 180,
-                            DurumId = 1
+                            StandartID = 1,
+                            StandartIcerikID = 4,
+                            KategoriID = 9,
+                            DegerID = 180,
+                            DurumID = 1
                         }
                     }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 5,
-                    StandartId = 1,
+                    StandartIcerikID = 5,
+                    StandartID = 1,
                     BaslikNo = "3",
                     Baslik = "Terimler, tarifler ve kısaltmalar",
                     Detay = "Bu standard için aşağıdaki terimler ve tarifler geçerlidir. Burada yer almayan terimler için ISO 15489’da belirtilen terimler ve tarifler kullanılmalıdır.",
-                    UstIcerikId = 0,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 5,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 6,
-                    StandartId = 1,
+                    StandartIcerikID = 6,
+                    StandartID = 1,
                     BaslikNo = "3.1",
                     Baslik = "Arşiv Kurumu",
                     Detay = "Belirli bir yasal çerçeve içerisinde faaliyet gösteren ve farklı kurumlar tarafından üretilmiş olan arşiv malzemesini ayıklama, düzenleme, tanımlama, hizmete sunma ve diğer yönetimsel fonksiyonları yerine getiren ulusal, bölgesel ya da özel amaçlı arşiv kurumları.",
-                    UstIcerikId = 5,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 5,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 6,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 7,
-                    StandartId = 1,
+                    StandartIcerikID = 7,
+                    StandartID = 1,
                     BaslikNo = "3.2",
                     Baslik = "Arşiv Yönetim Sistemi (AYS)",
                     Detay = "Arşiv malzemesinin arşiv kurumlarına transferi, düzenlenmesi, tanımlanması, kullanıma sunulması, korunması ve diğer yönetimsel fonksiyonları gerçekleştirmek üzere geliştirilmiş bilgisayar sistemi.",
-                    UstIcerikId = 5,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 5,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 7,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 8,
-                    StandartId = 1,
+                    StandartIcerikID = 8,
+                    StandartID = 1,
                     BaslikNo = "3.3",
                     Baslik = "Belge",
                     Detay = "Herhangi bir bireysel veya kurumsal fonksiyonun yerine getirilmesi için alınmış ya da fonksiyonun sonucunda üretilmiş, içerik, ilişki ve formatı ile ait olduğu fonksiyon için delil teşkil eden kayıtlı bilgi.",
-                    UstIcerikId = 5,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 5,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 8,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 9,
-                    StandartId = 1,
+                    StandartIcerikID = 9,
+                    StandartID = 1,
                     BaslikNo = "3.4",
                     Baslik = "Diplomatik özellik",
                     Detay = "Belgelerin orijinalliğinin tespit edilmesinde kullanılabilecek her türlü içerik, format, ilişki ve sunum özellikleri.",
-                    UstIcerikId = 5,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 5,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 9,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 10,
-                    StandartId = 1,
+                    StandartIcerikID = 10,
+                    StandartID = 1,
                     BaslikNo = "3.5",
                     Baslik = "Doküman",
                     Detay = "Kurumsal faaliyetlerin yerine getirilmesinde üretilen ya da toplanan, henüz belge vasfı kazanmamış her türlü kayıtlı bilgi.",
-                    UstIcerikId = 5,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 5,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 10,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 11,
-                    StandartId = 1,
+                    StandartIcerikID = 11,
+                    StandartID = 1,
                     BaslikNo = "3.6",
                     Baslik = "Dosya tasnif planı",
                     Detay = "Kurumsal faaliyetlerin ve bu faaliyetler sonucunda oluşan belgelerin kurumsal yapıya ve hiyerarşiye uygun olarak konusal olarak sınıflandırılması için geliştirilmiş belge yönetim aracı.",
-                    UstIcerikId = 5,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 5,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 11,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 12,
-                    StandartId = 1,
+                    StandartIcerikID = 12,
+                    StandartID = 1,
                     BaslikNo = "3.7",
                     Baslik = "Elektronik belge yönetimi",
                     Detay = "Kurumların gündelik işlerini yerine getirirken oluşturdukları her türlü dokümantasyonun içerisinden kurum faaliyetlerinin delili olabilecek belgelerin ayıklanarak bunların içerik, format ve ilişkisel özelliklerini korumak ve bu belgeleri üretimden nihai tasfiyeye kadar olan süreç içerisinde yönetmek.",
-                    UstIcerikId = 5,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 5,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 12,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 13,
-                    StandartId = 1,
+                    StandartIcerikID = 13,
+                    StandartID = 1,
                     BaslikNo = "3.8",
                     Baslik = "Kurum arşivi",
                     Detay = "Ait olduğu kurum tarafından üretilen belgelerden idarî, malî ve hukukî açıdan saklama süresini doldurmuş olan arşiv belgelerinin ayıklanması, düzenlenmesi, tanımlanması, hizmete sunulması ve diğer yönetimsel fonksiyonları yerine getiren birim.",
-                    UstIcerikId = 5,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 5,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 13,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 14,
-                    StandartId = 1,
+                    StandartIcerikID = 14,
+                    StandartID = 1,
                     BaslikNo = "3.9",
                     Baslik = "Provenans",
                     Detay = "Kendi faaliyetlerinin yürütülmesi sırasında belge üreten ve saklayan kişi veya kurumlar bir belgenin provenansını oluşturur. Provenans prensibi ise; aynı provenansa (kaynak, köken, menşe) sahip belgelerin, başka bir provenansa sahip olanlarla karıştırılmaması gerektiğini öngören temel ilke. 'Fonlara Saygı' (respectdes fonds) olarak da anılır.",
-                    UstIcerikId = 5,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 5,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 14,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 15,
-                    StandartId = 1,
+                    StandartIcerikID = 15,
+                    StandartID = 1,
                     BaslikNo = "3.10",
                     Baslik = "Tasfiye",
                     Detay = "Kurumsal gereksinimler açısından saklanmasına gerek kalmayan belgelerin kurum belge sisteminin dışına çıkarılması. Tasfiye işlemi artık ihtiyaç duyulmayan belgelerin kurum içinde veya kurum dışında başka bir kuruma/birime transfer edilmesini ya da imha edilmesini öngörür.",
-                    UstIcerikId = 5,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 5,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 15,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 16,
-                    StandartId = 1,
+                    StandartIcerikID = 16,
+                    StandartID = 1,
                     BaslikNo = "3.11",
                     Baslik = "Varlık",
                     Detay = "Arşiv yönetim sistemi içerisinde yer alan ve bağımsız olarak tanımlanan belge, dosya / klasör, seri, fon, vs. gibi kayıtlar. <table><h3>Kısaltmalar</h3><tr><td>AYS</td><td>Arşiv Yönetim Sistemi</td></tr><tr><td>DERBİS</td><td>Dernekler Bilgi Sistemi</td></tr><tr><td>DETSİS</td><td>Devlet Teşkilatı Merkezi Kayıt Sistemi</td></tr><tr><td>DGS</td><td>Dijital Görüntüme Sistemi</td></tr><tr><td>DYS</td><td>Doküman Yönetim Sistemi</td></tr><tr><td>EBYS</td><td>Elektronik Belge Yönetim Sistemi</td></tr><tr><td>ELAS/RM</td><td>Elektronik Arşivleme Sistemi Referans Modeli</td></tr><tr><td>EYP</td><td>Elektronik Yazışma Paketi</td></tr><tr><td>KEP</td><td>Kayıtlı Elektronik Posta</td></tr><tr><td>KPS</td><td>Kimlik Paylaşım Sistemi</td></tr><tr><td>MERNİS</td><td>Merkezî Nüfus İdare Sistemi</td></tr><tr><td>MERSİS</td><td>Merkezi Sicil Kayıt Sistemi</td></tr><tr><td>MTK</td><td>Merkezi Tüzel Kişilik Bilgi Sistemi</td></tr><tr><td>UAPS</td><td>Ulusal Adres Paylaşım Sistemi</td></tr><tr><td>VBYS</td><td>Vakıf Bilgi Yönetim Sistemi</td></tr></table>",
-                    UstIcerikId = 5,
-                    StandartIcerikTipiId = 163,
+                    UstIcerikID = 5,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 16,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 17,
-                    StandartId = 1,
+                    StandartIcerikID = 17,
+                    StandartID = 1,
                     BaslikNo = "Bölüm 1:",
                     Baslik = "Sistem Kriterleri",
                     Detay = null,
-                    UstIcerikId = 0,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 17,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 18,
-                    StandartId = 1,
+                    StandartIcerikID = 18,
+                    StandartID = 1,
                     BaslikNo = "4",
                     Baslik = "Dosya tasnif planları",
                     Detay = null,
-                    UstIcerikId = 17,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 17,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 18,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 19,
-                    StandartId = 1,
+                    StandartIcerikID = 19,
+                    StandartID = 1,
                     BaslikNo = "4.1",
                     Baslik = "Dosya planının oluşturulması",
                     Detay = null,
-                    UstIcerikId = 18,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 18,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 19,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 20,
-                    StandartId = 1,
+                    StandartIcerikID = 20,
+                    StandartID = 1,
                     BaslikNo = "4.2",
                     Baslik = "Dosya tasnif planı elemanlarının tanımlanması",
                     Detay = null,
-                    UstIcerikId = 18,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 18,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 20,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 21,
-                    StandartId = 1,
+                    StandartIcerikID = 21,
+                    StandartID = 1,
                     BaslikNo = "4.3",
                     Baslik = "Dosya tasnif planının yönetilmesi",
                     Detay = null,
-                    UstIcerikId = 18,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 18,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 21,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 22,
-                    StandartId = 1,
+                    StandartIcerikID = 22,
+                    StandartID = 1,
                     BaslikNo = "5",
                     Baslik = "Saklama planları",
                     Detay = null,
-                    UstIcerikId = 17,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 17,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 22,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 23,
-                    StandartId = 1,
+                    StandartIcerikID = 23,
+                    StandartID = 1,
                     BaslikNo = "5.1",
                     Baslik = "Genel",
                     Detay = null,
-                    UstIcerikId = 22,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 22,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 23,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 24,
-                    StandartId = 1,
+                    StandartIcerikID = 24,
+                    StandartID = 1,
                     BaslikNo = "5.2",
                     Baslik = "Belge hiyerarşisi",
                     Detay = null,
-                    UstIcerikId = 22,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 22,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 24,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 25,
-                    StandartId = 1,
+                    StandartIcerikID = 25,
+                    StandartID = 1,
                     BaslikNo = "5.3",
                     Baslik = "Saklama kriterleri",
                     Detay = null,
-                    UstIcerikId = 22,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 22,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 25,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 26,
-                    StandartId = 1,
+                    StandartIcerikID = 26,
+                    StandartID = 1,
                     BaslikNo = "5.4",
                     Baslik = "Saklama süreleri",
                     Detay = null,
-                    UstIcerikId = 22,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 22,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 26,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 27,
-                    StandartId = 1,
+                    StandartIcerikID = 27,
+                    StandartID = 1,
                     BaslikNo = "5.5",
                     Baslik = "Tasfiye işlem tanımları",
                     Detay = null,
-                    UstIcerikId = 22,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 22,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 27,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 28,
-                    StandartId = 1,
+                    StandartIcerikID = 28,
+                    StandartID = 1,
                     BaslikNo = "6",
                     Baslik = "Elektronik belgelerin kayıt işlemleri",
                     Detay = null,
-                    UstIcerikId = 17,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 17,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 28,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 29,
-                    StandartId = 1,
+                    StandartIcerikID = 29,
+                    StandartID = 1,
                     BaslikNo = "6.1",
                     Baslik = "Genel Özellikler",
                     Detay = null,
-                    UstIcerikId = 28,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 28,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 29,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 30,
-                    StandartId = 1,
+                    StandartIcerikID = 30,
+                    StandartID = 1,
                     BaslikNo = "6.2",
                     Baslik = "Dokümanların belgeye dönüştürülmesi ve ilişkilendirme",
                     Detay = null,
-                    UstIcerikId = 28,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 28,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 30,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 31,
-                    StandartId = 1,
+                    StandartIcerikID = 31,
+                    StandartID = 1,
                     BaslikNo = "6.3",
                     Baslik = "Belge türleri",
                     Detay = null,
-                    UstIcerikId = 28,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 28,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 31,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 32,
-                    StandartId = 1,
+                    StandartIcerikID = 32,
+                    StandartID = 1,
                     BaslikNo = "6.4",
                     Baslik = "Elektronik postaların yönetimi",
                     Detay = null,
-                    UstIcerikId = 28,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 28,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 32,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 33,
-                    StandartId = 1,
+                    StandartIcerikID = 33,
+                    StandartID = 1,
                     BaslikNo = "6.5",
                     Baslik = "Taşıma, kopyalama ve silme",
                     Detay = null,
-                    UstIcerikId = 28,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 28,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 33,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 34,
-                    StandartId = 1,
+                    StandartIcerikID = 34,
+                    StandartID = 1,
                     BaslikNo = "6.6",
                     Baslik = "Referans kodlarının verilmesi",
                     Detay = null,
-                    UstIcerikId = 28,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 28,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 34,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 35,
-                    StandartId = 1,
+                    StandartIcerikID = 35,
+                    StandartID = 1,
                     BaslikNo = "7",
                     Baslik = "Elektronik Belgelerin Paylaşımı",
                     Detay = null,
-                    UstIcerikId = 17,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 17,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 35,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 36,
-                    StandartId = 1,
+                    StandartIcerikID = 36,
+                    StandartID = 1,
                     BaslikNo = "7.1",
                     Baslik = "Kurum Kodlarının Kullanılması",
                     Detay = null,
-                    UstIcerikId = 35,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 35,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 36,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 37,
-                    StandartId = 1,
+                    StandartIcerikID = 37,
+                    StandartID = 1,
                     BaslikNo = "7.2",
                     Baslik = "Kayıtlı Elektronik Posta (KEP)",
                     Detay = null,
-                    UstIcerikId = 35,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 35,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 37,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 38,
-                    StandartId = 1,
+                    StandartIcerikID = 38,
+                    StandartID = 1,
                     BaslikNo = "7.3",
                     Baslik = "Elektronik Yazışma Paketi",
                     Detay = null,
-                    UstIcerikId = 35,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 35,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 38,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 39,
-                    StandartId = 1,
+                    StandartIcerikID = 39,
+                    StandartID = 1,
                     BaslikNo = "8",
                     Baslik = "EBYS kullanım özellikleri",
                     Detay = null,
-                    UstIcerikId = 17,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 17,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 39,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 40,
-                    StandartId = 1,
+                    StandartIcerikID = 40,
+                    StandartID = 1,
                     BaslikNo = "8.1",
                     Baslik = "Kullanım – Genel kurallar",
                     Detay = null,
-                    UstIcerikId = 39,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 39,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 40,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 41,
-                    StandartId = 1,
+                    StandartIcerikID = 41,
+                    StandartID = 1,
                     BaslikNo = "8.2",
                     Baslik = "Arama",
                     Detay = null,
-                    UstIcerikId = 39,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 39,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 41,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 42,
-                    StandartId = 1,
+                    StandartIcerikID = 42,
+                    StandartID = 1,
                     BaslikNo = "8.3",
                     Baslik = "Görüntüleme",
                     Detay = null,
-                    UstIcerikId = 39,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 39,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 42,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 43,
-                    StandartId = 1,
+                    StandartIcerikID = 43,
+                    StandartID = 1,
                     BaslikNo = "8.4",
                     Baslik = "Yazdırma",
                     Detay = null,
-                    UstIcerikId = 39,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 39,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 43,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 44,
-                    StandartId = 1,
+                    StandartIcerikID = 44,
+                    StandartID = 1,
                     BaslikNo = "8.5",
                     Baslik = "Raporlama",
                     Detay = null,
-                    UstIcerikId = 39,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 39,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 44,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 45,
-                    StandartId = 1,
+                    StandartIcerikID = 45,
+                    StandartID = 1,
                     BaslikNo = "9",
                     Baslik = "Erişim kontrolü ve güvenlik",
                     Detay = null,
-                    UstIcerikId = 17,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 17,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 45,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 46,
-                    StandartId = 1,
+                    StandartIcerikID = 46,
+                    StandartID = 1,
                     BaslikNo = "9.1",
                     Baslik = "Sisteme Giriş",
                     Detay = null,
-                    UstIcerikId = 45,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 45,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 46,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 47,
-                    StandartId = 1,
+                    StandartIcerikID = 47,
+                    StandartID = 1,
                     BaslikNo = "9.2",
                     Baslik = "Erişim Hakları",
                     Detay = null,
-                    UstIcerikId = 45,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 45,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 47,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 48,
-                    StandartId = 1,
+                    StandartIcerikID = 48,
+                    StandartID = 1,
                     BaslikNo = "9.3",
                     Baslik = "Kullanıcı Profilleri",
                     Detay = null,
-                    UstIcerikId = 45,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 45,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 48,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 49,
-                    StandartId = 1,
+                    StandartIcerikID = 49,
+                    StandartID = 1,
                     BaslikNo = "9.4",
                     Baslik = "Kullanıcı Rolleri",
                     Detay = null,
-                    UstIcerikId = 45,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 45,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 49,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 50,
-                    StandartId = 1,
+                    StandartIcerikID = 50,
+                    StandartID = 1,
                     BaslikNo = "9.5",
                     Baslik = "Kullanıcı Grupları",
                     Detay = null,
-                    UstIcerikId = 45,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 45,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 50,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 51,
-                    StandartId = 1,
+                    StandartIcerikID = 51,
+                    StandartID = 1,
                     BaslikNo = "9.6",
                     Baslik = "Kayıtlara erişim haklarının atanması ve uygulanması",
                     Detay = null,
-                    UstIcerikId = 45,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 45,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 51,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 52,
-                    StandartId = 1,
+                    StandartIcerikID = 52,
+                    StandartID = 1,
                     BaslikNo = "9.7",
                     Baslik = "Üretim sorumluluğu ve mülkiyet",
                     Detay = null,
-                    UstIcerikId = 45,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 45,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 52,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 53,
-                    StandartId = 1,
+                    StandartIcerikID = 53,
+                    StandartID = 1,
                     BaslikNo = "9.8",
                     Baslik = "Günlük dosyalarının oluşturulması",
                     Detay = null,
-                    UstIcerikId = 45,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 45,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 53,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 54,
-                    StandartId = 1,
+                    StandartIcerikID = 54,
+                    StandartID = 1,
                     BaslikNo = "10",
                     Baslik = "Sistem Tasarımı ve Yönetimi",
                     Detay = null,
-                    UstIcerikId = 17,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 17,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 54,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 55,
-                    StandartId = 1,
+                    StandartIcerikID = 55,
+                    StandartID = 1,
                     BaslikNo = "10.1",
                     Baslik = "Sistem bütünlüğü ve güvenirlik",
                     Detay = null,
-                    UstIcerikId = 54,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 54,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 55,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 56,
-                    StandartId = 1,
+                    StandartIcerikID = 56,
+                    StandartID = 1,
                     BaslikNo = "10.2",
                     Baslik = "Kullanım kolaylığı",
                     Detay = null,
-                    UstIcerikId = 54,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 54,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 56,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 57,
-                    StandartId = 1,
+                    StandartIcerikID = 57,
+                    StandartID = 1,
                     BaslikNo = "10.3",
                     Baslik = "Performans ve ölçeklenebilirlik",
                     Detay = null,
-                    UstIcerikId = 54,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 54,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 57,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 58,
-                    StandartId = 1,
+                    StandartIcerikID = 58,
+                    StandartID = 1,
                     BaslikNo = "10.4",
                     Baslik = "Verilerin Depolanması",
                     Detay = null,
-                    UstIcerikId = 54,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 54,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 58,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 59,
-                    StandartId = 1,
+                    StandartIcerikID = 59,
+                    StandartID = 1,
                     BaslikNo = "Bölüm II:",
                     Baslik = "Belge Kriterleri",
                     Detay = null,
-                    UstIcerikId = 0,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 59,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 60,
-                    StandartId = 1,
+                    StandartIcerikID = 60,
+                    StandartID = 1,
                     BaslikNo = "11",
                     Baslik = "Belge Özellikleri",
                     Detay = null,
-                    UstIcerikId = 59,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 59,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 60,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 61,
-                    StandartId = 1,
+                    StandartIcerikID = 61,
+                    StandartID = 1,
                     BaslikNo = "11.1",
                     Baslik = "Tanımlanabilirlik",
                     Detay = null,
-                    UstIcerikId = 60,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 61,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 62,
-                    StandartId = 1,
+                    StandartIcerikID = 62,
+                    StandartID = 1,
                     BaslikNo = "11.2",
                     Baslik = "Bütünlük",
                     Detay = null,
-                    UstIcerikId = 60,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 62,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 63,
-                    StandartId = 1,
+                    StandartIcerikID = 63,
+                    StandartID = 1,
                     BaslikNo = "11.3",
                     Baslik = "Onay ve Kayıt Bilgisi",
                     Detay = null,
-                    UstIcerikId = 60,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 63,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 64,
-                    StandartId = 1,
+                    StandartIcerikID = 64,
+                    StandartID = 1,
                     BaslikNo = "11.4",
                     Baslik = "Yapısal özellikler",
                     Detay = null,
-                    UstIcerikId = 60,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 64,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 65,
-                    StandartId = 1,
+                    StandartIcerikID = 65,
+                    StandartID = 1,
                     BaslikNo = "11.5",
                     Baslik = "Üretim sorumluluğu ve mülkiyet hakları",
                     Detay = null,
-                    UstIcerikId = 60,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 65,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 66,
-                    StandartId = 1,
+                    StandartIcerikID = 66,
+                    StandartID = 1,
                     BaslikNo = "11.6",
                     Baslik = "Teknolojik özellikler",
                     Detay = null,
-                    UstIcerikId = 60,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 66,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 67,
-                    StandartId = 1,
+                    StandartIcerikID = 67,
+                    StandartID = 1,
                     BaslikNo = "12",
                     Baslik = "Doküman yönetimi",
                     Detay = null,
-                    UstIcerikId = 59,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 59,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 67,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 68,
-                    StandartId = 1,
+                    StandartIcerikID = 68,
+                    StandartID = 1,
                     BaslikNo = "12.1",
                     Baslik = "Giriş",
                     Detay = null,
-                    UstIcerikId = 67,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 67,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 68,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 69,
-                    StandartId = 1,
+                    StandartIcerikID = 69,
+                    StandartID = 1,
                     BaslikNo = "12.2",
                     Baslik = "Girdi Yönetimi",
                     Detay = null,
-                    UstIcerikId = 67,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 67,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 69,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 70,
-                    StandartId = 1,
+                    StandartIcerikID = 70,
+                    StandartID = 1,
                     BaslikNo = "12.3",
                     Baslik = "Tanımlama ve indeksleme",
                     Detay = null,
-                    UstIcerikId = 67,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 67,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 70,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 71,
-                    StandartId = 1,
+                    StandartIcerikID = 71,
+                    StandartID = 1,
                     BaslikNo = "12.4",
                     Baslik = "Dosyalama, düzenleme ve tasnif",
                     Detay = null,
-                    UstIcerikId = 67,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 67,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 71,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 72,
-                    StandartId = 1,
+                    StandartIcerikID = 72,
+                    StandartID = 1,
                     BaslikNo = "12.5",
                     Baslik = "Depolama / Yedekleme",
                     Detay = null,
-                    UstIcerikId = 67,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 67,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 72,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 73,
-                    StandartId = 1,
+                    StandartIcerikID = 73,
+                    StandartID = 1,
                     BaslikNo = "12.6",
                     Baslik = "Erişim",
                     Detay = null,
-                    UstIcerikId = 67,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 67,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 73,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 74,
-                    StandartId = 1,
+                    StandartIcerikID = 74,
+                    StandartID = 1,
                     BaslikNo = "12.7",
                     Baslik = "Çıktı yönetimi",
                     Detay = null,
-                    UstIcerikId = 67,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 67,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 74,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 75,
-                    StandartId = 1,
+                    StandartIcerikID = 75,
+                    StandartID = 1,
                     BaslikNo = "12.8",
                     Baslik = "Versiyon kontrolü",
                     Detay = null,
-                    UstIcerikId = 67,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 67,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 75,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 76,
-                    StandartId = 1,
+                    StandartIcerikID = 76,
+                    StandartID = 1,
                     BaslikNo = "13",
                     Baslik = "Elektronik olmayan sistemlerle uyumluluk",
                     Detay = null,
-                    UstIcerikId = 59,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 59,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 76,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 77,
-                    StandartId = 1,
+                    StandartIcerikID = 77,
+                    StandartID = 1,
                     BaslikNo = "13.1",
                     Baslik = "Fiziksel dosya ve belgelerin sisteme dahil edilmesi",
                     Detay = null,
-                    UstIcerikId = 76,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 76,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 77,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 78,
-                    StandartId = 1,
+                    StandartIcerikID = 78,
+                    StandartID = 1,
                     BaslikNo = "13.2",
                     Baslik = "Tanımlama",
                     Detay = null,
-                    UstIcerikId = 76,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 76,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 78,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 79,
-                    StandartId = 1,
+                    StandartIcerikID = 79,
+                    StandartID = 1,
                     BaslikNo = "13.3",
                     Baslik = "Erişim kontrolü ve kullanım",
                     Detay = null,
-                    UstIcerikId = 76,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 76,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 79,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 80,
-                    StandartId = 1,
+                    StandartIcerikID = 80,
+                    StandartID = 1,
                     BaslikNo = "13.4",
                     Baslik = "Tasfiye",
                     Detay = null,
-                    UstIcerikId = 76,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 76,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 80,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 81,
-                    StandartId = 1,
+                    StandartIcerikID = 81,
+                    StandartID = 1,
                     BaslikNo = "14",
                     Baslik = "Dijital görüntüleme sistemleri",
                     Detay = null,
-                    UstIcerikId = 59,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 59,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 81,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 82,
-                    StandartId = 1,
+                    StandartIcerikID = 82,
+                    StandartID = 1,
                     BaslikNo = "14.1",
                     Baslik = "Genel rensipler",
                     Detay = null,
-                    UstIcerikId = 81,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 81,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 82,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 83,
-                    StandartId = 1,
+                    StandartIcerikID = 83,
+                    StandartID = 1,
                     BaslikNo = "14.2",
                     Baslik = "Görüntülenecek malzeme",
                     Detay = null,
-                    UstIcerikId = 81,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 81,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 83,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 84,
-                    StandartId = 1,
+                    StandartIcerikID = 84,
+                    StandartID = 1,
                     BaslikNo = "14.3",
                     Baslik = "Görüntüleme Tekniği",
                     Detay = null,
-                    UstIcerikId = 81,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 81,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 84,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 85,
-                    StandartId = 1,
+                    StandartIcerikID = 85,
+                    StandartID = 1,
                     BaslikNo = "14.4",
                     Baslik = "Çözünürlük",
                     Detay = null,
-                    UstIcerikId = 81,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 81,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 85,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 86,
-                    StandartId = 1,
+                    StandartIcerikID = 86,
+                    StandartID = 1,
                     BaslikNo = "14.5",
                     Baslik = "Tonlama / Bit derinliği / Tarama modu",
                     Detay = null,
-                    UstIcerikId = 81,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 81,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 86,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 87,
-                    StandartId = 1,
+                    StandartIcerikID = 87,
+                    StandartID = 1,
                     BaslikNo = "14.6",
                     Baslik = "Sıkıştırma",
                     Detay = null,
-                    UstIcerikId = 81,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 81,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 87,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 88,
-                    StandartId = 1,
+                    StandartIcerikID = 88,
+                    StandartID = 1,
                     BaslikNo = "14.7",
                     Baslik = "Zenginleştirme",
                     Detay = null,
-                    UstIcerikId = 81,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 81,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 88,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 89,
-                    StandartId = 1,
+                    StandartIcerikID = 89,
+                    StandartID = 1,
                     BaslikNo = "14.8",
                     Baslik = "Renk yönetimi",
                     Detay = null,
-                    UstIcerikId = 81,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 81,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 89,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 90,
-                    StandartId = 1,
+                    StandartIcerikID = 90,
+                    StandartID = 1,
                     BaslikNo = "14.9",
                     Baslik = "Dosya Formatları",
                     Detay = null,
-                    UstIcerikId = 81,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 81,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 90,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 91,
-                    StandartId = 1,
+                    StandartIcerikID = 91,
+                    StandartID = 1,
                     BaslikNo = "Bölüm III:",
                     Baslik = "Elektronik Arşivleme Sistemi Referans Modeli (ELAS/RM)",
                     Detay = null,
-                    UstIcerikId = 0,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 91,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 92,
-                    StandartId = 1,
+                    StandartIcerikID = 92,
+                    StandartID = 1,
                     BaslikNo = "15",
                     Baslik = "Elektronik Arşivleme Sistemi Referans Modeli (ELAS/RM)",
                     Detay = null,
-                    UstIcerikId = 91,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 91,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 92,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 93,
-                    StandartId = 1,
+                    StandartIcerikID = 93,
+                    StandartID = 1,
                     BaslikNo = "15.1",
                     Baslik = "Arşiv Malzemesinin tanımı ve özellikleri",
                     Detay = null,
-                    UstIcerikId = 92,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 92,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 93,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 94,
-                    StandartId = 1,
+                    StandartIcerikID = 94,
+                    StandartID = 1,
                     BaslikNo = "15.2",
                     Baslik = "Arşiv politikasını belirlenmesi",
                     Detay = null,
-                    UstIcerikId = 92,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 92,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 94,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 95,
-                    StandartId = 1,
+                    StandartIcerikID = 95,
+                    StandartID = 1,
                     BaslikNo = "15.3",
                     Baslik = "Arşiv malzemesinin transfer işlemleri",
                     Detay = null,
-                    UstIcerikId = 92,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 92,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 95,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 96,
-                    StandartId = 1,
+                    StandartIcerikID = 96,
+                    StandartID = 1,
                     BaslikNo = "15.4",
                     Baslik = "Tarih ve zaman damgası",
                     Detay = null,
-                    UstIcerikId = 92,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 92,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 96,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 97,
-                    StandartId = 1,
+                    StandartIcerikID = 97,
+                    StandartID = 1,
                     BaslikNo = "15.5",
                     Baslik = "Dosya formatları",
                     Detay = null,
-                    UstIcerikId = 92,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 92,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 97,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 98,
-                    StandartId = 1,
+                    StandartIcerikID = 98,
+                    StandartID = 1,
                     BaslikNo = "15.6",
                     Baslik = "Depolama Üniteleri",
                     Detay = null,
-                    UstIcerikId = 92,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 92,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 98,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 99,
-                    StandartId = 1,
+                    StandartIcerikID = 99,
+                    StandartID = 1,
                     BaslikNo = "15.7",
                     Baslik = "Veri merkezi özellikleri",
                     Detay = null,
-                    UstIcerikId = 92,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 92,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 99,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 100,
-                    StandartId = 1,
+                    StandartIcerikID = 100,
+                    StandartID = 1,
                     BaslikNo = "15.8",
                     Baslik = "Erişimin sürekliliği",
                     Detay = null,
-                    UstIcerikId = 92,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 92,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 100,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 101,
-                    StandartId = 1,
+                    StandartIcerikID = 101,
+                    StandartID = 1,
                     BaslikNo = "15.9",
                     Baslik = "Teknolojik eskimeye karşı alınacak önlemler",
                     Detay = null,
-                    UstIcerikId = 92,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 92,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 101,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 102,
-                    StandartId = 1,
+                    StandartIcerikID = 102,
+                    StandartID = 1,
                     BaslikNo = "16",
                     Baslik = "Arşiv sisteminin Güvenliği",
                     Detay = null,
-                    UstIcerikId = 91,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 91,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 102,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 103,
-                    StandartId = 1,
+                    StandartIcerikID = 103,
+                    StandartID = 1,
                     BaslikNo = "16.1",
                     Baslik = "Genel",
                     Detay = null,
-                    UstIcerikId = 102,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 102,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 103,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 104,
-                    StandartId = 1,
+                    StandartIcerikID = 104,
+                    StandartID = 1,
                     BaslikNo = "16.2",
                     Baslik = "Sistem Güvenliği",
                     Detay = null,
-                    UstIcerikId = 102,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 102,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 104,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 105,
-                    StandartId = 1,
+                    StandartIcerikID = 105,
+                    StandartID = 1,
                     BaslikNo = "16.3",
                     Baslik = "Bilgi Güvenliği",
                     Detay = null,
-                    UstIcerikId = 102,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 102,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 105,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 106,
-                    StandartId = 1,
+                    StandartIcerikID = 106,
+                    StandartID = 1,
                     BaslikNo = "16.4",
                     Baslik = "Sistem Denetimi",
                     Detay = null,
-                    UstIcerikId = 102,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 102,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 106,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 107,
-                    StandartId = 1,
+                    StandartIcerikID = 107,
+                    StandartID = 1,
                     BaslikNo = "17",
                     Baslik = "ELAS/RM Uygulama Kılavuzu",
                     Detay = null,
-                    UstIcerikId = 91,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 91,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 107,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 108,
-                    StandartId = 1,
+                    StandartIcerikID = 108,
+                    StandartID = 1,
                     BaslikNo = "17.1",
                     Baslik = "Genel",
                     Detay = null,
-                    UstIcerikId = 107,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 107,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 108,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 109,
-                    StandartId = 1,
+                    StandartIcerikID = 109,
+                    StandartID = 1,
                     BaslikNo = "17.2",
                     Baslik = "Arşiv Malzemesinin Transfer İşlemleri",
                     Detay = null,
-                    UstIcerikId = 107,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 107,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 109,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 110,
-                    StandartId = 1,
+                    StandartIcerikID = 110,
+                    StandartID = 1,
                     BaslikNo = "17.3",
                     Baslik = "Düzenleme",
                     Detay = null,
-                    UstIcerikId = 107,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 107,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 110,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 111,
-                    StandartId = 1,
+                    StandartIcerikID = 111,
+                    StandartID = 1,
                     BaslikNo = "18",
                     Baslik = "Arşiv Malzemesinin Tanımlanması",
                     Detay = null,
-                    UstIcerikId = 91,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 91,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 111,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 112,
-                    StandartId = 1,
+                    StandartIcerikID = 112,
+                    StandartID = 1,
                     BaslikNo = "18.1",
                     Baslik = "Tanımlama seviyeleri",
                     Detay = null,
-                    UstIcerikId = 111,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 111,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 112,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 113,
-                    StandartId = 1,
+                    StandartIcerikID = 113,
+                    StandartID = 1,
                     BaslikNo = "18.2",
                     Baslik = "Tanımlama Alanları",
                     Detay = null,
-                    UstIcerikId = 111,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 111,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 113,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 114,
-                    StandartId = 1,
+                    StandartIcerikID = 114,
+                    StandartID = 1,
                     BaslikNo = "Bölüm:IV",
                     Baslik = "Üstveri Yönetimi",
                     Detay = null,
-                    UstIcerikId = 0,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 114,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 115,
-                    StandartId = 1,
+                    StandartIcerikID = 115,
+                    StandartID = 1,
                     BaslikNo = "19",
                     Baslik = "Üstveri Elemanları",
                     Detay = null,
-                    UstIcerikId = 114,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 114,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 115,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 116,
-                    StandartId = 1,
+                    StandartIcerikID = 116,
+                    StandartID = 1,
                     BaslikNo = "19.1",
                     Baslik = "Genel Özellikler",
                     Detay = null,
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 161,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 161,
                     SiraNo = 116,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 117,
-                    StandartId = 1,
+                    StandartIcerikID = 117,
+                    StandartID = 1,
                     BaslikNo = "19.2",
                     Baslik = "Dosya Tasnif Planı Üstveri Elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>DTP Eleman Referans Numarası</td></tr><tr><td>Referans Numarası</td><td>DT001</td></tr><tr><td>Tanım</td><td>Dosya tasnif planında yer alacak her bir eleman için verilecek olan referans numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Dosya tasnif planındaki seri ve alt seri kodları gibi.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>DTP Eleman adı</td></tr><tr><td>Referans Numarası</td><td>DT010</td></tr><tr><td>Tanım</td><td>Dosya tasnif planında yer alan elemanların adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Dosya tasnif planındaki seri ve alt serilerin adıdır. Farklı birimlerde aynı ad ile seriler oluşabilir. Ancak bu serilere ait referans numaraları farklı olmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Tanım</td></tr><tr><td>Referans Numarası</td><td>DT050</td></tr><tr><td>Tanım</td><td>Dosya tasnif planı elemanına ait tanımlamalara ve açıklamalara ait bilgidir. Kullanımı zorunlu değildir.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td>Kullanıcıların yönlendirilmesi ve EBYS içerisine dahil edilecek belgelerin hangi elemanlar altında tasnif edilmesi gerektiğini göstermek amacıyla kullanılabilir.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Seviye numarası</td></tr><tr><td>Referans Numarası</td><td>DT070</td></tr><tr><td>Tanım</td><td>Dosya tasnif planı elemanına ait hiyerarşik seviyeyi gösteren numaradır.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 117,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 118,
-                    StandartId = 1,
+                    StandartIcerikID = 118,
+                    StandartID = 1,
                     BaslikNo = "19.3",
                     Baslik = "Saklama Planı Üstveri Elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>SP Eleman referans numarası</td></tr><tr><td>Referans Numarası</td><td>SP001</td></tr><tr><td>Tanım</td><td>Saklama planında yer alacak her bir eleman için verilecek olan referans numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Saklama planındaki seri ve alt seri kodları gibi.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>SP Eleman adı</td></tr><tr><td>Referans Numarası</td><td>SP010</td></tr><tr><td>Tanım</td><td>Saklama planında yer alan elemanların adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Saklama planındaki seri ve alt serilerin adıdır. Farklı birimlerde aynı ad ile seriler oluşabilir. Ancak bu serilere ait referans numaraları farklı olmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Saklama süresi</td></tr><tr><td>Referans Numarası</td><td>SP040</td></tr><tr><td>Tanım</td><td>Saklama planında yer alan elemanların kurumda ne kadar süre ile saklanacağı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Genelde yıl olarak ifade edilir. Sistemdeki belgelerin idari kullanımının tamamlandıktan sonra kaç yıl süre ile saklanacağını gösterir.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Tasfiye işlem kodu</td></tr><tr><td>Referans Numarası</td><td>TS001</td></tr><tr><td>Tanım</td><td>Saklama süresi dolan klasör/dosya ve belgelerin ne tür işleme tabi tutulacağı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Tasfiye işlem kodlarının tanımları için Madde 5.5’e bakılmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Yasal kaynak</td></tr><tr><td>Referans Numarası</td><td>SP110</td></tr><tr><td>Tanım</td><td>Saklama sürelerinin hangi yasal düzenlemeye göre atandığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td></td></tr><tr><td>Notlar</td><td>Kanun ve yönetmelik gibi yasal düzenlemelere ait referansları içerir.</td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 118,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 119,
-                    StandartId = 1,
+                    StandartIcerikID = 119,
+                    StandartID = 1,
                     BaslikNo = "19.4",
                     Baslik = "Birim/Alt Birim tanımları üstveri elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Birim kodu</td></tr><tr><td>Referans Numarası</td><td>BR001</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği ya da alındığı kurumdaki birimlere verilmiş olan kodnumarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Birim adı</td></tr><tr><td>Referans Numarası</td><td>BR010</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği ya da alındığı kurumdaki birimlerin adlarıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Birim Seviye numarası</td></tr><tr><td>Referans Numarası</td><td>BR120</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği kurumdaki birimlere ait hiyerarşik seviyeyi gösteren numaradır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Alt Birim kodu</td></tr><tr><td>Referans Numarası</td><td>BR101</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği ya da alındığı, kurumlara bağlı birimlerin, alt birimleri için verilmiş kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td></td></tr><tr><td>Notlar</td><td>Bazı durumlarda kullanılır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Alt Birim Adı</td></tr><tr><td>Referans Numarası</td><td>BR110</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği ya da alındığı kurumlara bağlı birimlerin, alt birimlerinin adlarıdır.</td></tr><tr><td>Zorunluluk</td><td></td></tr><tr><td>Notlar</td><td>Bazı durumlarda kullanılır.</td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 119,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 120,
-                    StandartId = 1,
+                    StandartIcerikID = 120,
+                    StandartID = 1,
                     BaslikNo = "19.5",
                     Baslik = "Seri tanımları üstveri elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Seri kodu:</td></tr><tr><td>Referans Numarası</td><td>SE001</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bağlı bulunduğu belge serisine ait kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Seri adı</td></tr><tr><td>Referans Numarası</td><td>SE010</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bağlı bulunduğu belge serisinin adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Belge serileri aynı zamanda kurumsal fonksiyonları ifade eder. Farklı birimlerde aynı ad altında belge serileri olabilir.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Seri tanımı</td></tr><tr><td>Referans Numarası</td><td>SE050</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bağlı bulunduğu belge serisine ait açıklayıcı bilgilerin yer aldığı alandır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Birim/Alt Birim kodu</td></tr><tr><td>Referans Numarası</td><td>BR001/BR101</td></tr><tr><td>Tanım</td><td>Elektronik belgenin serisinin ait olduğu birime/alt birime ait kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Birim kodu tanımlamaları için Madde 11.5’e bakılmalıdır. Belge serisinin ya da kurumsal fonksiyonun hangi birime ait olduğunun kayıt altına alınması belge provenansının tespiti açısından son derece önemlidir. Birim kodu uygulama programı tarafından kullanıcı sistem giriş bilgileri kullanılarak otomatik olarak atanabilir ya da Bilgi ve Belge Yöneticisi veya kullanıcı tarafından girilebilir.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Açılış tarihi/Başlangıç Tarihi</td></tr><tr><td>Referans Numarası</td><td>SE210</td></tr><tr><td>Tanım</td><td>Elektronik belgenin serisinin hangi tarihte açıldığını gösteren bilgidir</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Kapanış tarihi/Bitiş Tarihi</td></tr><tr><td>Referans Numarası</td><td>SE290</td></tr><tr><td>Tanım</td><td>Elektronik belgenin serisinin hangi tarihte kapatıldığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Erişim hakları</td></tr><tr><td>Referans Numarası</td><td>SE300</td></tr><tr><td>Tanım</td><td>Elektronik belgenin serisine erişim hakkı bulunan kullanıcılar ve/veya kullanıcı gruplarının kimler olduğuna ait bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Erişim hakları tanımlamaları için Madde 9.2’ye bakılmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Güvenlik kodu</td></tr><tr><td>Referans Numarası</td><td>SE500</td></tr><tr><td>Tanım</td><td>Elektronik belge serisinin gizlilik derecesini ya da kullanım kısıtlamalarını gösteren kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Güvenlik kod tanımları için Madde 9.2’ye bakılmalıdır. Güvenlik kodları, erişim hakları tanımları ile entegre çalışmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Saklama plan kodu</td></tr><tr><td>Referans Numarası</td><td>SE770</td></tr><tr><td>Tanım</td><td>Elektronik belgenin serisi içinde yer alan belgelerin ne kadar sürelerle saklanacağını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Saklama Plan kodu tanımları için Madde 5’e bakılmalıdır</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Anahtar kelimeler</td></tr><tr><td>Referans Numarası</td><td>SE610</td></tr><tr><td>Tanım</td><td>Elektronik belgenin serisini tanımlayıcı anahtar kelimelerin verildiği alandır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Miktar</td></tr><tr><td>Referans Numarası</td><td>SE550</td></tr><tr><td>Tanım</td><td>Serinin fiziksel boyutları ile seriye ait dosya sayısının nicelik olarak tanımlandığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Devamı olduğu seri</td></tr><tr><td>Referans Numarası</td><td>SE910</td></tr><tr><td>Tanım</td><td>Mevcut serinin herhangi bir serinin devamı olup olmadığı bu üstveri alanında tanımlanır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 120,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 121,
-                    StandartId = 1,
+                    StandartIcerikID = 121,
+                    StandartID = 1,
                     BaslikNo = "19.6",
                     Baslik = "Alt Seri tanımları üstveri elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Alt Seri Kodu</td></tr><tr><td>Referans Numarası</td><td>AS101</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bağlı bulunduğu belge alt serisine ait kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Alt Seri adı</td></tr><tr><td>Referans Numarası</td><td>AS110</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bağlı bulunduğu belge alt serisinin adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Alt Seri Tanımı</td></tr><tr><td>Referans Numarası</td><td>AS050</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bağlı bulunduğu belge alt serisine ait açıklayıcı bilgilerin yer aldığı alandır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Açılış tarihi/Başlangıç Tarihi</td></tr><tr><td>Referans Numarası</td><td>AS210</td></tr><tr><td>Tanım</td><td>Elektronik belgenin alt serisinin hangi tarihte açıldığını gösteren bilgidir</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Kapanış tarihi/Bitiş Tarihi</td></tr><tr><td>Referans Numarası</td><td>AS290</td></tr><tr><td>Tanım</td><td>Elektronik belgenin alt serisinin hangi tarihte kapatıldığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Miktar</td></tr><tr><td>Referans Numarası</td><td>AS550</td></tr><tr><td>Tanım</td><td>Alt serinin fiziksel boyutları ile seriye ait dosya sayısının nicelik olarak tanımlandığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Devamı olduğu alt seri (varsa)</td></tr><tr><td>Referans Numarası</td><td>AS910</td></tr><tr><td>Tanım</td><td>Mevcut serinin herhangi bir serinin devamı olup olmadığı bu üstveri alanında tanımlanır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 121,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 122,
-                    StandartId = 1,
+                    StandartIcerikID = 122,
+                    StandartID = 1,
                     BaslikNo = "19.7",
                     Baslik = "Klasör/Dosya tanımları üstveri elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Klasör/dosya numarası</td></tr><tr><td>Referans Numarası</td><td>KD001</td></tr><tr><td>Tanım</td><td>Belgelerin ait olduğu klasör veya dosyalara ait referans numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Klasör/dosya adı</td></tr><tr><td>Referans Numarası</td><td>KD010</td></tr><tr><td>Tanım</td><td>Belgelerin ait olduğu klasör veya dosyaların adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Açılış tarihi/Başlangıç Tarihi</td></tr><tr><td>Referans Numarası</td><td>KD210</td></tr><tr><td>Tanım</td><td>Klasör veya dosyanın hangi tarihte açıldığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Kapanış tarihi/Bitiş Tarihi</td></tr><tr><td>Referans Numarası</td><td>KD290</td></tr><tr><td>Tanım</td><td>Klasör veya dosyanın hangi tarihte kapatıldığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Seri numarası</td></tr><tr><td>Referans Numarası</td><td>SE001</td></tr><tr><td>Tanım</td><td>Klasör veya dosyanın hangi seriye ait olduğunu gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Saklama ortamı</td></tr><tr><td>Referans Numarası</td><td>KD180</td></tr><tr><td>Tanım</td><td>Klasör veya dosyanın hangi ortamda saklandığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Saklama ortamı fiziki, elektronik ya da karma olabilir.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Saklama yeri referans numarası</td></tr><tr><td>Referans Numarası</td><td>KD181</td></tr><tr><td>Tanım</td><td>Klasör veya dosyanın nerede depolandığını gösteren yer numarasıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Bu alan yalnızca fiziki klasör ve dosyalar içindir.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Bölüm numarası</td></tr><tr><td>Referans Numarası</td><td>KD400</td></tr><tr><td>Tanım</td><td>Birden fazla bölümden oluşan klasör veya dosyalara ait bölüm numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Tasfiye tarihi</td></tr><tr><td>Referans Numarası</td><td>KD041</td></tr><tr><td>Tanım</td><td>Klasör veya dosyanın hangi tarihte tasfiye edileceğini gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Tasfiye işlem tanımlamaları Madde 5.5’e bakılmalıdır.</td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 122,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 123,
-                    StandartId = 1,
+                    StandartIcerikID = 123,
+                    StandartID = 1,
                     BaslikNo = "19.8",
                     Baslik = "Belge tanımları üstveri elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Belge referans numarası</td></tr><tr><td>Referans Numarası</td><td>BE001</td></tr><tr><td>Tanım</td><td>Belgeye ait referans numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Belge adı</td></tr><tr><td>Referans Numarası</td><td>BE010</td></tr><tr><td>Tanım</td><td>Belgeye ait ad ve/veya tür bilgisidir</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Elektronik dosya adı</td></tr><tr><td>Referans Numarası</td><td>BE019</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bilgisayar sisteminde hangi ad ile tutulduğu bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Klasör/dosya numarası.</td></tr><tr><td>Referans Numarası</td><td>KD001</td></tr><tr><td>Tanım</td><td>Belgenin bağlı bulunduğu klasör veya dosyaya ait referans numarasıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Konu</td></tr><tr><td>Referans Numarası</td><td>BE055</td></tr><tr><td>Tanım</td><td>Belge içeriğini açıklayıcı bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Üretici</td></tr><tr><td>Referans Numarası</td><td>BE100</td></tr><tr><td>Tanım</td><td>Belge üreticisini gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Üretim tarihi</td></tr><tr><td>Referans Numarası</td><td>BE210</td></tr><tr><td>Tanım</td><td>Belgenin üretildiği tarihtir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Gönderme / alma tarihi</td></tr><tr><td>Referans Numarası</td><td>BE240</td></tr><tr><td>Tanım</td><td>Belgenin gönderildiği ya da alındığı tarihtir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Alıcı/Muhatap</td></tr><tr><td>Referans Numarası</td><td>BE200</td></tr><tr><td>Tanım</td><td>Belgenin kime gönderildiği bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Dil</td></tr><tr><td>Referans Numarası</td><td>BE350</td></tr><tr><td>Tanım</td><td>Belgenin hangi dilde üretildiği bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Belge türü</td></tr><tr><td>Referans Numarası</td><td>BE420</td></tr><tr><td>Tanım</td><td>Belgeye ait tür tanımlamasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Kurumdaki belge türleri (yazışma, rapor, vs.) kullanıcıya liste halinde sunularak çoktan seçmeli bilgi girişi sağlanmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Sisteme giriş tarihi</td></tr><tr><td>Referans Numarası</td><td>BE260</td></tr><tr><td>Tanım</td><td>Belgenin EBYS içerisine kayıt edildiği tarihtir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Erişim hakları</td></tr><tr><td>Referans Numarası</td><td>BE300</td></tr><tr><td>Tanım</td><td>Elektronik belgeye erişim hakkı bulunan kullanıcılar ve/veya kullanıcı gruplarının kimler olduğuna ait bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Erişim hakları tanımlamaları için Madde 9.2’ye bakılmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Güvenlik kodu</td></tr><tr><td>Referans Numarası</td><td>GS001</td></tr><tr><td>Tanım</td><td>Elektronik belgenin gizlilik derecesini yada kullanım kısıtlamalarını gösteren kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Güvenlik kod tanımları için Madde 9.2’ye bakılmalıdır. Güvenlik kodları, erişim hakları tanımları ile entegre çalışmalıdır</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Dosya formatı</td></tr><tr><td>Referans Numarası</td><td>BE830</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği yazılımın belgeye kazandırmış olduğu orijinal dosya formatının adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Arşiv formatı</td></tr><tr><td>Referans Numarası</td><td>BE880</td></tr><tr><td>Tanım</td><td>Elektronik belgenin uzun dönem saklama ve kullanımı için dönüştürüldüğü arşiv dosya formatıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Donanım</td></tr><tr><td>Referans Numarası</td><td>BE420</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği bilgisayar sisteminin donanım özelliklerine ait bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>İşletim Sistemi</td></tr><tr><td>Referans Numarası</td><td>BE430</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği bilgisayar sisteminin kullandığı işletim sistemine ait ad ve versiyon bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Uygulama Programı</td></tr><tr><td>Referans Numarası</td><td>BE440</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği uygulama yazılımına ait ad ve versiyon bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Kodlama Şeması</td></tr><tr><td>Referans Numarası</td><td>BE570</td></tr><tr><td>Tanım</td><td>Elektronik belgenin hangi kodlama şemasına göre üretildiği bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Öncelik derecesi</td></tr><tr><td>Referans Numarası</td><td>BE620</td></tr><tr><td>Tanım</td><td>Elektronik belgenin kurumsal faaliyetlerin devamı açısından taşıdığı önemi gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Bilgi edinme kanunu kapsamı</td></tr><tr><td>Referans Numarası</td><td>BE460</td></tr><tr><td>Tanım</td><td>Elektronik belgenin Bilgi Edinme Kanunu kapsamında olup olmadığı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Telif hakları kanunu kapsamı</td></tr><tr><td>Referans Numarası</td><td>BE470</td></tr><tr><td>Tanım</td><td>Elektronik belgenin Telif Hakları Kanunu kapsamında olup olmadığı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Elektronik imza</td></tr><tr><td>Referans Numarası</td><td>BE500</td></tr><tr><td>Tanım</td><td>Belge üzerinde elektronik imzanın varlığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Elektronik imza sertifika kurumu</td></tr><tr><td>Referans Numarası</td><td>BE510</td></tr><tr><td>Tanım</td><td>Belge üzerinde elektronik imzanın hangi kurum tarafından onaylandığı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Zaman damgası</td></tr><tr><td>Referans Numarası</td><td>BE520</td></tr><tr><td>Tanım</td><td>Elektronik belgenin hangi tarih ve saatte imzalandığı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Şifreleme algoritması</td></tr><tr><td>Referans Numarası</td><td>BE580</td></tr><tr><td>Tanım</td><td>Şifrelenmiş elektronik belgelerin kullanımına imkan verecek algoritmadır.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Diğer dijital işaretler</td></tr><tr><td>Referans Numarası</td><td>BE590</td></tr><tr><td>Tanım</td><td>Elektronik belge üzerindeki dijital antet, filigran gibi işaretler varlığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 123,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 124,
-                    StandartId = 1,
+                    StandartIcerikID = 124,
+                    StandartID = 1,
                     BaslikNo = "19.9",
                     Baslik = "Belge bileşeni tanımları üstveri elemanları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Belge bileşeni referans numarası</td></tr><tr><td>Referans Numarası</td><td>BB001</td></tr><tr><td>Tanım</td><td>Belge bileşenine ait referans numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Belge Bileşeni Elektronik dosya adı</td></tr><tr><td>Referans Numarası</td><td>BB010</td></tr><tr><td>Tanım</td><td>Elektronik belge bileşeninin bilgisayar sisteminde hangi ad ile tutulduğu bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Belge numarası</td></tr><tr><td>Referans Numarası</td><td>BE001</td></tr><tr><td>Tanım</td><td>Belge bileşeninin bağlı bulunduğu belgeye ait referans numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Belge Bileşini Dosya formatı</td></tr><tr><td>Referans Numarası</td><td>BB830</td>/tr><tr><td>Tanım</td><td>Elektronik belge bileşeninin üretildiği yazılımın belgeye kazandırmış olduğu orijinal dosya formatının adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Çözünürlük</td></tr><tr><td>Referans Numarası</td><td>DG160</td></tr><tr><td>Tanım</td><td>Görüntü olarak üretilmiş olan elektronik belge bileşenlerinin çözünürlük bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Sıkıştırma parametreleri</td></tr><tr><td>Referans Numarası</td><td>BB650</td></tr><tr><td>Tanım</td><td>Görüntü olarak üretilmiş olan elektronik belge bileşenlerinin sıkıştırma parametrelerine ait bilgidir</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Donanım</td></tr><tr><td>Referans Numarası</td><td>BB420</td></tr><tr><td>Tanım</td><td>Elektronik belge bileşenin üretildiği bilgisayar sisteminin donanım özelliklerine ait bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>İşletim Sistemi</td></tr><tr><td>Referans Numarası</td><td>BB430</td></tr><tr><td>Tanım</td><td>Elektronik belge bileşenin üretildiği bilgisayar sisteminin kullandığı işletim sistemine ait ad ve versiyon bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Uygulama Programı</td></tr><tr><td>Referans Numarası</td><td>BB440</td></tr><tr><td>Tanım</td><td>Elektronik belge bileşenin üretildiği uygulama yazılımına ait ad ve versiyon bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Kodlama şeması</td></tr><tr><td>Referans Numarası</td><td>BB670</td></tr><tr><td>Tanım</td><td>Elektronik belge bileşeninin hangi kodlama şemasına göre üretildiği bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Arşiv formatı</td></tr><tr><td>Referans Numarası</td><td>BB880</td></tr><tr><td>Tanım</td><td>Elektronik belge bileşeninin uzun dönem saklama ve kullanımı için dönüştürüldüğü arşiv dosya formatıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 124,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 125,
-                    StandartId = 1,
+                    StandartIcerikID = 125,
+                    StandartID = 1,
                     BaslikNo = "19.10",
                     Baslik = "Kullanıcı profil tanımları üstveri elemanları",
                     Detay = "<table table border='1' cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı kodu</td></tr><tr><td>Referans Numarası</td><td>KP001</td></tr><tr><td>Tanım</td><td>Kullanıcıyı sistem içerisinde tanımlayan referans kodudur</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı adı soyadı</td></tr><tr><td>Referans Numarası</td><td>KP010</td></tr><tr><td>Tanım</td><td>Kullanıcının ad ve soyadı bilgileridir</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Birim kodu</td></tr><tr><td>Referans Numarası</td><td>BR001/BR101</td></tr><tr><td>Tanım</td><td>Kullanıcının mensubu bulunduğu birime ait kod numarasıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı rol tanım kodu</td></tr><tr><td>Referans Numarası</td><td>KP910</td></tr><tr><td>Tanım</td><td>Kullanıcının sistem içerisindeki rolünü tanımlayan kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı grup tanım kodu</td></tr><tr><td>Referans Numarası</td><td>KP950</td></tr><tr><td>Tanım</td><td>Kullanıcı grubuna ait kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 125,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 126,
-                    StandartId = 1,
+                    StandartIcerikID = 126,
+                    StandartID = 1,
                     BaslikNo = "19.11",
                     Baslik = "Kullanıcı rol tanımları üstveri elemanları",
                     Detay = "<table table border='1' cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı rol kodu</td></tr><tr><td>Referans Numarası</td><td>KR001</td></tr><tr><td>Tanım</td><td>Kullanıcı rolüne ait kod numarasıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı rol adı</td></tr><tr><td>Referans Numarası</td><td>KR010</td></tr><tr><td>Tanım</td><td>Kullanıcı rolünün adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Geçerlilik tarihi</td></tr><tr><td>Referans Numarası</td><td>KR390</td></tr><tr><td>Tanım</td><td>Kullanıcı rolünün ne kadar süre ile geçerli olduğunu gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 126,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 127,
-                    StandartId = 1,
+                    StandartIcerikID = 127,
+                    StandartID = 1,
                     BaslikNo = "19.12",
                     Baslik = "Kullanıcı grup tanımları üstveri elemanları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı grup kodu</td></tr><tr><td>Referans Numarası</td><td>KG001</td></tr><tr><td>Tanım</td><td>Kullanıcı grupları için verilmiş olan kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı grup adı</td></tr><tr><td>Referans Numarası</td><td>KG010</td></tr><tr><td>Tanım</td><td>Kullanıcı grubunun adıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Geçerlilik tarihi</td></tr><tr><td>Referans Numarası</td><td>KG390</td></tr><tr><td>Tanım</td><td>Kullanıcı grubunun ne kadar süre ile geçerli olduğunu gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 127,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 128,
-                    StandartId = 1,
+                    StandartIcerikID = 128,
+                    StandartID = 1,
                     BaslikNo = "19.13",
                     Baslik = "Güvenlik seviye tanımları üstveri elemanları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Güvenlik kodu</td></tr><tr><td>Referans Numarası</td><td>GS001</td></tr><tr><td>Tanım</td><td>Güvenlik seviyesi için verilmiş olan kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tanım</td></tr><tr><td>Referans Numarası</td><td>GS050</td></tr><tr><td>Tanım</td><td>Güvenlik seviyesinin ne olduğunu gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Yasal dayanak</td></tr><tr><td>Referans Numarası</td><td>GS110</td></tr><tr><td>Tanım</td><td>Güvenlik kısıtlamasının yasal dayanağının ne olduğu bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Kanunlar, yönetmelikler v.s</td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 128,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 129,
-                    StandartId = 1,
+                    StandartIcerikID = 129,
+                    StandartID = 1,
                     BaslikNo = "19.14",
                     Baslik = "Tasfiye işlem tanımları üstveri elemanları",
                     Detay = "<table table border='1' cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tasfiye işlem kodu</td></tr><tr><td>Referans Numarası</td><td>TS001</td></tr><tr><td>Tanım</td><td>Tasfiye işlemi için verilmiş olan kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tanım</td></tr><tr><td>Referans Numarası</td><td>TS050</td></tr><tr><td>Tanım</td><td>Tasfiye işleminin ne olduğunu gösteren bilgidir</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 129,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 130,
-                    StandartId = 1,
+                    StandartIcerikID = 130,
+                    StandartID = 1,
                     BaslikNo = "19.15",
                     Baslik = "Sistem kullanımı üstveri elemanları",
                     Detay = "<table table border='1' cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Sistem Kullanım Referans numarası</td></tr><tr><td>Referans Numarası</td><td>SK001</td></tr><tr><td>Tanım</td><td>Sistemde gerçekleştirilen her bir işlem için verilmiş olan kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı kodu</td></tr><tr><td>Referans Numarası</td><td>KP001</td></tr><tr><td>Tanım</td><td>İşlemi gerçekleştiren kullanıcıyı tanımlamak için verilmiş olan kod numarasıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Fonksiyon kodu</td></tr><tr><td>Referans Numarası</td><td>SK101</td></tr><tr><td>Tanım</td><td>Kullanıcının sistemde gerçekleştirmiş olduğu fonksiyona ait kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>İşlem kodu</td></tr><tr><td>Referans Numarası</td><td>IT001</td></tr><tr><td>Tanım</td><td>Kullanıcının fonksiyon üzerinde ne tür bir işlem gerçekleştirmiş olduğunu gösteren kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tarih ve saat</td></tr><tr><td>Referans Numarası</td><td>SK255</td></tr><tr><td>Tanım</td><td>İşlemin ne zaman gerçekleştirilmiş olduğunu gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 130,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 131,
-                    StandartId = 1,
+                    StandartIcerikID = 131,
+                    StandartID = 1,
                     BaslikNo = "19.16",
                     Baslik = "Dijital Görüntüleme ile Sisteme alınanlara ait üstveri tanımları",
                     Detay = "<table table border='1' cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Görüntü Referans Kodu</td></tr><tr><td>Referans Numarası</td><td>DG001</td></tr><tr><td>Tanım</td><td>Dosyanın sistemdeki türeme kodudur. Sistem tarafından dijital görüntüye verilen değişmez numarası</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Görüntü Adı</td></tr><tr><td>Referans Numarası</td><td>DG010</td></tr><tr><td>Tanım</td><td>Dijital ortama aktarılan materyalin dijital ortamda aldığı addır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Görüntü Türü</td></tr><tr><td>Referans Numarası</td><td>DG070</td></tr><tr><td>Tanım</td><td>Görüntülenecek malzemenin türünü ifade eden üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Görüntü Kopya Türü</td></tr><tr><td>Referans Numarası</td><td>DG140</td></tr><tr><td>Tanım</td><td>Görüntülenecek malzemenin hangi kopya türü ile elektronik ortamda aktarılacağını ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Çözünürlük</td></tr><tr><td>Referans Numarası</td><td>DG160</td></tr><tr><td>Tanım</td><td>Görüntülenecek malzemenin DPI veya PPI olarak ölçütlerinin belirlenmesidir. Görüntülenecek malzemenin elektronik ortamdaki kalitesini belirleyen en temel unsurdur.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tonlama/Bit Derinliği</td></tr><tr><td>Referans Numarası</td><td>DG170</td></tr><tr><td>Tanım</td><td>Görüntülenecek malzemenin renk ve bit derinliğinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Renk Yönetimi</td></tr><tr><td>Referans Numarası</td><td>DG190</td></tr><tr><td>Tanım</td><td>Kullanılan tarayıcının veya yazılım özelliğine bağlı olarak aktarılan materyallerin renk profilini ifade eder</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Görüntü Dosya Formatı</td></tr><tr><td>Referans Numarası</td><td>DG830</td></tr><tr><td>Tanım</td><td>Dijitalleştirilen görüntünün hangi dosya formatı ile sisteme alındığının tanımlandığı alandır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Boyut</td></tr><tr><td>Referans Numarası</td><td>DG350</td></tr><tr><td>Tanım</td><td>Belgenin elektronik ortamda kapsadığı boyuttur. Dijitalleştirilen görüntünün sistemde ne kadar yer kapladığının bir göstergesidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Lokasyon</td></tr><tr><td>Referans Numarası</td><td>DG400</td></tr><tr><td>Tanım</td><td>Dijitalleştirilen görüntünün çevrim dışı olarak hangi lokasyonda tutulduğunu ifade etmek için kullanılan alandır. Dijitalleştirilmiş görüntünün fiziksel ortamdaki yerini ifade etmek için de kullanılır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Zaman damgası</td></tr><tr><td>Referans Numarası</td><td>DG520</td></tr><tr><td>Tanım</td><td>Elektronik görüntünün hangi tarih ve saatte imzalandığı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>İmza görevi görmez. Sadece işlemin ne zaman yapıldığını ispatlamak için kullanılır.</td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kurumsal İmza</td></tr><tr><td>Referans Numarası</td><td>DG540</td></tr><tr><td>Tanım</td><td>Dijitalleştirilen malzemenin görüntüsünün idare tarafından elektronik onay yoluyla kayıt altına alınmasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Açıklama</td></tr><tr><td>Referans Numarası</td><td>DG600</td></tr><tr><td>Tanım</td><td>Dijitalleştirmenin amacının tanımlandığı veya görüntü ile ilgili herhangi bir notun eklenebilmesi için oluşturmuş üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 131,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 132,
-                    StandartId = 1,
+                    StandartIcerikID = 132,
+                    StandartID = 1,
                     BaslikNo = "19.17",
                     Baslik = "Fon/Kurum Üstveri Elemanları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0' ><tr><td width=150>Eleman Adı</td><td width=700>Fon/Kurum Kodu</td></tr><tr><td>Referans Numarası</td><td>FO001</td></tr><tr><td>Tanım</td><td>DETSİS’te tanımlı idari kimlik kodunu ifade eder. Tüzel bir kuruluş olması durumunda MERSİS ticari sicil numarası kullanılabilir. Bir şahıs olması durumunda ise Şahsa ait vatandaşlık numarasını ifade eder. Şahsa ait bir vatandaşlık numarası yoksa otorite dosyasından bir ID üretilerek şahısla eşleştirilir. Aynı şekilde bir kurum veya tüzel kuruluş için de ilgili veri tabanlarında kayıt bulunamazsa otorite dosyası üzerinden bir ID üretilerek işlem yapılabilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Fon /Kurum Adı (Kuruluş ve Şahıs)</td></tr><tr><td>Referans Numarası</td><td>FO010</td></tr><tr><td>Tanım</td><td>Kurumunun kanundaki tam adını veya Şahsın adını veya soyadını ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Yasal Dayanak</td></tr><tr><td>Referans Numarası</td><td>FO110</td></tr><tr><td>Tanım</td><td>Saklama sürelerinin hangi yasal düzenlemeye göre atandığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tarihçe (İdari/Biyografik Tarih)</td></tr><tr><td>Referans Numarası</td><td>FO100</td></tr><tr><td>Tanım</td><td>Tanımlama biriminin şartları ve çevresi içinde bir yere oturtabilmek ve daha anlaşılabilir kılmak amacıyla üreticisi hakkında idari tarih ya da biyografik ayrıntılar sağlamak</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Tanımlama biriminin oluşumundan sorumlu kurumun(ların) ortaya çıkış, ilerleme, gelişim ve işleyişi ya da şahsın(ların) yaşamı ve çalışmaları konusunda önemli bilgi özet olarak verilir. Eğer basılı kaynaklarda ek bilgi mevcutsa bu kaynaklar referans olarak gösterilir</td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kuruluş/Doğum Tarihi</td></tr><tr><td>Referans Numarası</td><td>FO210</td></tr><tr><td>Tanım</td><td>Kurumun faaliyet gösterdiği ilk tarihi ifade eder. Şahıslar için doğum tarihi kabul edilebilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kapanış/Ölüm Tarihi</td></tr><tr><td>Referans Numarası</td><td>FO290</td></tr><tr><td>Tanım</td><td>Kurumun faaliyetlerinin sona erdiği tarihi ya da sadece devrettiği o fon için devrettiği tarihi ifade eder. Şahıslar için ölüm tarihi kabul edilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Yöneticiler</td></tr><tr><td>Referans Numarası</td><td>FO130</td></tr><tr><td>Tanım</td><td>Kurumda yöneticilik yapmış kişilerin tanımlandığı üstveri dizinidir.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kuruluş Yeri</td></tr><tr><td>Referans Numarası</td><td>FO150</td></tr><tr><td>Tanım</td><td>Kurumun faaliyet gösterdiği yeri ifade eder. Şahıslar için doğum yeri, yaşadığı yer gibi alanlar dâhil edilebilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Devamı olduğu Kurumlar (Varsa)</td></tr><tr><td>Referans Numarası</td><td>FO090</td></tr><tr><td>Tanım</td><td>Daha evvel bir fonun devamı olup olmadığının ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Önemli Tarihler</td></tr><tr><td>Referans Numarası</td><td>FO250</td></tr><tr><td>Tanım</td><td>Fon içinde geçen önemli tarihlerin vurgulandığı tarihlerdir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Koleksiyon tanımı</td></tr><tr><td>Referans Numarası</td><td>FO320</td></tr><tr><td>Tanım</td><td>Devredilecek koleksiyonun tanımını içeren üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı hizmetleri</td></tr><tr><td>Referans Numarası</td><td>FO380</td></tr><tr><td>Tanım</td><td>Arşiv kullanıcılarını kayıt altına almaya yönelik bir sistemi bünyesinde barındırması ya da Kayıtlı kullanıcıların arşiv malzemesini nasıl kullandıklarının (görme, kopya üretme, referans verme) kayıt altına alınması ile ilgili bilgilerin yönetilmesine yönelik fonksiyonların izlendiği üstveri alanıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Adres</td></tr><tr><td>Referans Numarası</td><td>FO470</td></tr><tr><td>Tanım</td><td>İlgili Kurumun adresinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Telefon</td></tr><tr><td>Referans Numarası</td><td>FO480</td></tr><tr><td>Tanım</td><td>İlgili kurumun telefon numarasının yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>İnternet Adresi</td></tr><tr><td>Referans Numarası</td><td>FO490</td></tr><tr><td>Tanım</td><td>İlgili kurumun internet adresinin yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>E-Posta Adresi</td></tr><tr><td>Referans Numarası</td><td>FO810</td></tr><tr><td>Tanım</td><td>İlgili kurumun e-posta adresinin yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>KEP adresi</td></tr><tr><td>Referans Numarası</td><td>FO960</td></tr><tr><td>Tanım</td><td>İlgili kurumun kullandığı Kayıtlı Elektronik Posta adresinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 132,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 133,
-                    StandartId = 1,
+                    StandartIcerikID = 133,
+                    StandartID = 1,
                     BaslikNo = "19.18",
                     Baslik = "Alt Fon/ Alt Kurum Üstveri Elemanları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0' ><tr><td width=150>Eleman Adı</td><td width=700>Alt Fon/ Alt Kurum Üstveri Elemanları</td></tr><tr><td>Referans Numarası</td><td>AF001</td></tr><tr><td>Tanım</td><td>DETSİS’te tanımlı idari kimlik kodunu ifade eder. Tüzel bir kuruluş olması durumunda MERSİS ticari sicil numarası kullanılabilir. Bir şahıs olması durumunda ise Şahsa ait vatandaşlık numarasını ifade eder. Şahsa ait bir vatandaşlık numarası yoksa otorite dosyasından bir ID üretilerek şahısla eşleştirilir. Aynı şekilde bir kurum veya tüzel kuruluş için de ilgili veri tabanlarında kayıt bulunamazsa otorite dosyası üzerinden bir ID üretilerek işlem yapılabilir. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Kuruma bağlı bir birimi ifade etmek için de kullanılabilir.</td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Alt Fon /Alt Kurum Adı</td></tr><tr><td>Referans Numarası</td><td>AF010</td></tr><tr><td>Tanım</td><td>Alt kurumunun kanundaki tam adını ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Yasal Dayanak</td></tr><tr><td>Referans Numarası</td><td>AF110</td></tr><tr><td>Tanım</td><td>Saklama koşulunun hangi yasal düzenlemeye göre atandığını gösteren bilgidir. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tarihçe (İdari/Biyografik Tarih)</td></tr><tr><td>Referans Numarası</td><td>AF100</td></tr><tr><td>Tanım</td><td>Tanımlama biriminin şartları ve çevresi içinde bir yere oturtabilmek ve daha anlaşılabilir kılmak amacıyla üreticisi hakkında idari tarih ya da biyografik ayrıntılar sağlamak amacıyla kullanılan üstveri</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Tanımlama biriminin oluşumundan sorumlu kurumun(ların) ortaya çıkış, ilerleme, gelişim ve işleyişi ya da şahsın(ların) yaşamı ve çalışmaları konusunda önemli bilgi özet olarak verilir. Eğer basılı kaynaklarda ek bilgi mevcutsa bu kaynaklar referans olarak gösterilir</td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kuruluş/Doğum Tarihi</td></tr><tr><td>Referans Numarası</td><td>AF210</td></tr><tr><td>Tanım</td><td>Alt kurumun faaliyet gösterdiği ilk tarihi ifade eder. Şahıslar için doğum tarihi kabul edilebilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kapanış/Ölüm Tarihi</td></tr><tr><td>Referans Numarası</td><td>AF290</td></tr><tr><td>Tanım</td><td>Alt kurumun faaliyetlerinin sona erdiği tarihi ya da sadece devrettiği o fon için devrettiği tarihi ifade eder. Şahıslar için ölüm tarihi kabul edilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Yöneticiler</td></tr><tr><td>Referans Numarası</td><td>AF130</td></tr><tr><td>Tanım</td><td>Kurumda yöneticilik yapmış kişilerin tanımlandığı üstveri dizinidir.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kuruluş Yeri</td></tr><tr><td>Referans Numarası</td><td>AF150</td></tr><tr><td>Tanım</td><td>Kurumun faaliyet gösterdiği yeri ifade eder. Şahıslar için doğum yeri, yaşadığı yer gibi alanlar dâhil edilebilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Devamı olduğu Kurumlar (Varsa)</td></tr><tr><td>Referans Numarası</td><td>AF090</td></tr><tr><td>Tanım</td><td>Daha evvel bir fonun devamı olup olmadığının ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Önemli Tarihler</td></tr><tr><td>Referans Numarası</td><td>AF250</td></tr><tr><td>Tanım</td><td>Fon içinde geçen önemli tarihlerin vurgulandığı tarihlerdir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Koleksiyon tanımı</td></tr><tr><td>Referans Numarası</td><td>AF320</td></tr><tr><td>Tanım</td><td>Devredilecek koleksiyonun tanımını içeren üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı hizmetleri</td></tr><tr><td>Referans Numarası</td><td>AF380</td></tr><tr><td>Tanım</td><td>Arşiv kullanıcılarını kayıt altına almaya yönelik bir sistemi bünyesinde barındırması ya da Kayıtlı kullanıcıların arşiv malzemesini nasıl kullandıklarının (görme, kopya üretme, referans verme) kayıt altına alınması ile ilgili bilgilerin yönetilmesine yönelik fonksiyonların izlendiği üstveri alanıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Adres</td></tr><tr><td>Referans Numarası</td><td>AF470</td></tr><tr><td>Tanım</td><td>İlgili Kurumun adresinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Telefon</td></tr><tr><td>Referans Numarası</td><td>AF480</td></tr><tr><td>Tanım</td><td>İlgili kurumun telefon numarasının yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>İnternet Adresi</td></tr><tr><td>Referans Numarası</td><td>AF490</td></tr><tr><td>Tanım</td><td>İlgili kurumun internet adresinin yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>E-Posta Adresi</td></tr><tr><td>Referans Numarası</td><td>AF810</td></tr><tr><td>Tanım</td><td>İlgili kurumun e-posta adresinin yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>KEP adresi</td></tr><tr><td>Referans Numarası</td><td>AF960</td></tr><tr><td>Tanım</td><td>İlgili kurumun kullandığı Kayıtlı Elektronik Posta adresinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 133,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 134,
-                    StandartId = 1,
+                    StandartIcerikID = 134,
+                    StandartID = 1,
                     BaslikNo = "19.19",
                     Baslik = "Fon Grubu Üstveri Tanımları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0' ><tr><td width=150>Eleman Adı</td><td width=700>Fon Grubu Üstveri Tanımları</td></tr><tr><td>Referans Numarası</td><td>FG001</td></tr><tr><td>Tanım</td><td>Fon grubu kodunun tanımlandığı üstveri alanıdır. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Fon Grup Tanımı</td></tr><tr><td>Referans Numarası</td><td>FG010</td></tr><tr><td>Tanım</td><td>ir arşiv kurumu içerisindeki benzer fonksiyonlara sahip kurumlardan gelen arşiv malzemelerinin bütününün ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 134,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 135,
-                    StandartId = 1,
+                    StandartIcerikID = 135,
+                    StandartID = 1,
                     BaslikNo = "19.20",
                     Baslik = "Arşiv Kurumları Üstverisi Tanımları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0' ><tr><td width=150>Eleman Adı</td><td width=700>rşiv Kurum Kodu</td></tr><tr><td>Referans Numarası</td><td>AK001</td></tr><tr><td>Tanım</td><td>rşiv kurumunun kodlandığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>rşiv Kurum Adı</td></tr><tr><td>Referans Numarası</td><td>AK010</td></tr><tr><td>Tanım</td><td>Belirli bir yasal çerçeve içerisinde faaliyet gösteren ve farklı kurumlar tarafından üretilmiş olan arşiv malzemesini ayıklama, düzenleme, tanımlama, hizmete sunma ve diğer yönetimsel fonksiyonları yerine getiren ulusal, bölgesel ya da özel amaçlı arşiv kurumlarını ifade eden üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kuruluş Tarihi</td></tr><tr><td>Referans Numarası</td><td>AK210</td></tr><tr><td>Tanım</td><td>Arşiv kurumun faaliyetlerine başladığı tarihi ifade eder </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tarihçe (İdari/Biyografik Tarih)</td></tr><tr><td>Referans Numarası</td><td>AK100</td></tr><tr><td>Tanım</td><td>rşiv kurumunun yıllar içerisinde uğramış olduğu fonksiyon değişiklikleri önemli mevzuat gelişmeleri vb. gibi durumları ifade etmek için kullanılan üstveri alanıdır. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Koleksiyon Tanımı</td></tr><tr><td>Referans Numarası</td><td>AK320</td></tr><tr><td>Tanım</td><td>Arşiv kurumuna devredilen koleksiyonun tanımlandığı üstveri alanıdır. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı Hizmetleri</td></tr><tr><td>Referans Numarası</td><td>AK380</td></tr><tr><td>Tanım</td><td>Arşiv kullanıcılarını kayıt altına almaya yönelik bir sistemi bünyesinde barındırması ya da Kayıtlı kullanıcıların arşiv malzemesini nasıl kullandıklarının (görme, kopya üretme, referans verme) kayıt altına alınması ile ilgili bilgilerin yönetilmesine yönelik fonksiyonların izlendiği üstveri alanıdır..</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Adres</td></tr><tr><td>Referans Numarası</td><td>AK470</td></tr><tr><td>Tanım</td><td>Arşiv Kurumunun adresinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Telefon</td></tr><tr><td>Referans Numarası</td><td>AK480</td></tr><tr><td>Tanım</td><td>Arşiv kurumunun telefon numarasının yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>İnternet Adresi</td></tr><tr><td>Referans Numarası</td><td>AK490</td></tr><tr><td>Tanım</td><td>Arşiv kurumunun internet adresinin yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>E-Posta Adresi</td></tr><tr><td>Referans Numarası</td><td>AK810</td></tr><tr><td>Tanım</td><td>Arşiv kurumunun e-posta adresinin yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>KEP adresi</td></tr><tr><td>Referans Numarası</td><td>AK960</td></tr><tr><td>Tanım</td><td>Arşiv kurumunun kullandığı Kayıtlı Elektronik Posta adresinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 135,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 136,
-                    StandartId = 1,
+                    StandartIcerikID = 136,
+                    StandartID = 1,
                     BaslikNo = "19.21",
                     Baslik = "İşlem Tanımları Üstveri Alanları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0' ><tr><td width=150>Eleman Adı</td><td width=700>İşlem referans numarası</td></tr><tr><td>Referans Numarası</td><td>IT001</td></tr><tr><td>Tanım</td><td>Yapılan işlemin referans numarasını ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Sorumlu Personel</td></tr><tr><td>Referans Numarası</td><td>IT110</td></tr><tr><td>Tanım</td><td>Yapılan işlemden sorumlu personel veya personelleri ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>İşlem Başlama Tarihi</td></tr><tr><td>Referans Numarası</td><td>IT210</td></tr><tr><td>Tanım</td><td>İşlemin başlama tarihini ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>İşlem Bitiş Tarihi</td></tr><tr><td>Referans Numarası</td><td>IT290</td></tr><tr><td>Tanım</td><td>İşlemin bitiş tarihini ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Maliyet</td></tr><tr><td>Referans Numarası</td><td>IT352</td></tr><tr><td>Tanım</td><td>Yapılan işlemin maliyetinin ne kadar olduğunun belirtildiği üstveri alanıdır. </td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Notlar</td></tr><tr><td>Referans Numarası</td><td>IT800</td></tr><tr><td>Tanım</td><td>İşlem tanımı ile ilgili belirtilmesi gerekenlerin ifade edildiği üstveri alanıdır. </td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Yetkili Personel</td></tr><tr><td>Referans Numarası</td><td>IT115</td></tr><tr><td>Tanım</td><td>İşlemi yapma yetkisi bulunan personeli ifade eder</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Elektronik belgenin üretim, iletim ve alındısına ait tarih bilgilerinin fiziksel olarak belgeye eklenmesi veya belge ile mantıksal olarak ilişkilendirilmesidir </td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tarih ve Zaman Damgası</td></tr><tr><td>Referans Numarası</td><td>IT550</td></tr><tr><td>Tanım</td><td>Arşiv kurumunun telefon numarasının yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Güncelleme İçeriği</td></tr><tr><td>Referans Numarası</td><td>IT320</td></tr><tr><td>Tanım</td><td>Yapılan işlemin ne olduğu ve hangi güncellemeleri kapsadığının ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 136,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 137,
-                    StandartId = 1,
+                    StandartIcerikID = 137,
+                    StandartID = 1,
                     BaslikNo = "19.22",
                     Baslik = "E-Posta Üstveri Elemanlar",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0' ><tr><td width=150>Eleman Adı</td><td width=700>e-Posta ID</td></tr><tr><td>Referans Numarası</td><td>EP001</td></tr><tr><td>Tanım</td><td>E-postanın sistem tarafından verilen ve tekrar etmeyen referans numarasıdır. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Hesap</td></tr><tr><td>Referans Numarası</td><td>EP010</td></tr><tr><td>Tanım</td><td>Posta içeriğinden sorumlu kişi veya hesabın bulunduğu kişiyi ifade eder</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Alıcı (To)</td></tr><tr><td>Referans Numarası</td><td>EP020</td></tr><tr><td>Tanım</td><td>E-postayı alan hesabı ifade eder. Asıl postayı alan muhataptır. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Gönderen (From)</td></tr><tr><td>Referans Numarası</td><td>EP050</td></tr><tr><td>Tanım</td><td>Elektronik postayı gönderen hesabı ifade eder</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>lıcı İlgili-Görünür (CC) (Varsa)</td></tr><tr><td>Referans Numarası</td><td>EP030</td></tr><tr><td>Tanım</td><td>E-postayı kopya olarak alan başka bir hesabı ifade eder. Mesajı alan kişi tarafından görülürdür.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Alıcı İlgili-Görünmez (BCC) (Varsa)</td></tr><tr><td>Referans Numarası</td><td>EP080</td></tr><tr><td>Tanım</td><td>E-postayı kopya olarak alan başka bir hesabı ifade der. Mesajı alan kişi görünür değildir. Postayı gönderen hesap tarafından bilinirdir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Gönderim Tarihi/Zamanı</td></tr><tr><td>Referans Numarası</td><td>EP210</td></tr><tr><td>Tanım</td><td>E-Postanın gönderildiği tarih ve zaman bilgisidir. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Alma Tarihi/Zamanı</td></tr><tr><td>Referans Numarası</td><td>EP220</td></tr><tr><td>Tanım</td><td>E-postanın alıcısı tarafından alındığı tarihtir ve zamandır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Gönderim tarihi/zamanı ile alma tarihi/zamanı arasında çeşitli sebeplerden kaynaklanan farklılıklar olabilir.</td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>E-Posta Konusu</td></tr><tr><td>Referans Numarası</td><td>EP055</td></tr><tr><td>Tanım</td><td>Elektronik postanın içeriği hakkında kısa bilginin olduğu alandır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Ek Bilgisi</td></tr><tr><td>Referans Numarası</td><td>EP750</td></tr><tr><td>Tanım</td><td>E-postanın eki ya da eklerini olup olmadığını belirlendiği alandır </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>E-postanın eki ya da eklerini olup olmadığını belirlendiği alandır </td></tr><tr><td>Referans Numarası</td><td>EP300</td></tr><tr><td>Tanım</td><td>E-postanın gövde metnini ifade eden alandır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>E-postanın Sisteme Kayıt Edilme Tarihi/Zamanı</td></tr><tr><td>Referans Numarası</td><td>EP240</td></tr><tr><td>Tanım</td><td>Alınan e-postanın sisteme kayıt edilme tarihini/zamanını ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>KEP Sağlayıcı Kurulu</td></tr><tr><td>Referans Numarası</td><td>EP850</td></tr><tr><td>Tanım</td><td>Kayıtlı Elektronik Posta Sağlayıcısının bilgilerini içerir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikId = 115,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 115,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 137,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikId = 138,
-                    StandartId = 1,
+                    StandartIcerikID = 138,
+                    StandartID = 1,
                     BaslikNo = "20",
                     Baslik = "Yararlanılan Kaynaklar",
                     Detay = "<p>ANSI/ARMA 5-2010. Vital Records Programs: Identifying, Managing, and Recovering BusineÜS-Critical Records ARMA International, 2010, ISBN 978-1-931786-87-4</p><p>BS 10008:2014. Evidential weight and legal admiÜSibility of electronic information. Specification, London:2014,  ISBN 978 0 580 83673 2</p><p>Design Criteria Standard for Electronic Records Management Software Applicaitons. DoD 5015-2-STD. Washington, DC: Department of Defence, 25 Nisan 2007.</p><p>Digital recordkeeping: guidelines for creating, managing and preserving digital records. Canberra: National Archives of Australia, 2004. ISBN 1-620807-08-X</p><p>Digital Preservation in Archives:Overview of Current Research and Practices, National Archives of Sweden, 2005</p><p>ANSI/NISO Z39.85-2012: The Dublin Core Metadata Element Set, The American National Standards Institute, 20 Şubat 2013, IÜSN: 1041-5635</p><p>Guide for managing electronic records from an archival perspective. Paris: ICA Committee on Electronic Records, 1997. ISBN 0-9682361-0-3</p><p>ISO 15836:2009 -Information and documentation -- The Dublin Core metadata element set, Cenevre: ISO, 2009.</p><p>International Research on Permanent Authentic Records in Electronic Systems (InterPARES) 2: Experiential, Interactive and Dynamic Records, ed. Luciana Duranti ve Randy Preston, AÜSociazione Nazionale Archivistica Italiana Padova, Italy, 2008</p><p>ISAD (G): General International Standard Archival Description. 2nd ed. Stockholm, Sweden: ICA, Committee on Descriptive Standards, 2000. ISBN: 0-9696035-5-X</p><p>ISO 15489-1: 2001. Information and Documentation – Records Management. Part 1: General. Cenevre: ISO, 2001.</p><p>ISO 15489-2: 2001. Information and Documentation – Records Management. Part 2: Guidelines. Cenevre:ISO, 2001.</p><p>ISO/TSE 17799. Information technology: Code of practice for information security management. Cenevre: ISO, 2005.</p><p>Kandur, Hamza. Elektronik Belge Yönetim Sistemleri Referans Kriterleri v.2, Başbakanlık Devlet Arşivleri Genel Müdürlüğü, 2006, Ankara, Cumhuriyet Arşivi Daire Başkanlığı Yayın Nu: 29, ISBN: 975-19-3877-5 Management, appraisal and preservation of electronic records. 2 vol. 2nd ed. London: Public Record Office, 1999.</p><p>MoReq2 Specification: Model requirements for the management of electronic records Update  and Extension, 2008,  European CommiÜSion by Serco Consulting with funding from the IDABC programme, ISBN 978-9279-09772-0, DOI 10.2792/11981</p><p>NISO Z39-50. Information Retrieval : Application Service Definition & Protocol Specification. Bethesda, Maryland: National Information Standards Organizatoin, 2002. ISBN: 1-8800124-55-6. IÜSN: 1041-5653. NISO Z39-87. Data Dictionary – Technical Metadata for Digital Still Images. Draft standard for trial use. Bethesda, Maryland: National Information Standards Organizatoin, 2003.</p><p>Records/Document/Information Management (RDIM): Integrated Document Management System for the Government of Canada.Ottowa: National Archives Canada, 1996.</ p >< p > Requirements for Electronic Records Management Systems.Londra: Public Record Office, 2002.</ p >< p > Yalçınkaya, Bahattin.E - Devlet Üstveri Standardının Oluşturulması ve Türkiye İçin Modellenmesi, (Doktora Tezi) Marmara Üniversitesi, Bilgi ve Belge Yönetimi, 2014, Tez Numarası: 10028138 </ p > ",
-                    UstIcerikId = 0,
-                    StandartIcerikTipiId = 162,
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 138,
-                    DurumId = 1
+                    DurumID = 1
                 }
             });
             #endregion
@@ -13093,23 +13133,23 @@
                 #region //1 Halil İbrahim Poyraz
                 new Kisi
                 {
-                    KisiId = 1,
+                    KisiID = 1,
                     TcKimlikNo = 28661334272,
                     Adi = "Halil İbrahim",
                     Soyadi = "Poyraz",
                     Unvan = "Senior Software Engineer",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 #endregion
                 #region //2 Ali Atabey
                 new Kisi
                 {
-                    KisiId = 2,
+                    KisiID = 2,
                     TcKimlikNo = 44080828284,
                     Adi = "Ali",
                     Soyadi = "Atabey",
                     Unvan = "Full Stack Software Developer",
-                    DurumId = 1
+                    DurumID = 1
                 }
                 #endregion
             });
@@ -13121,28 +13161,28 @@
                 #region //1 Türk Standartları Enstitüsü
                 new Firma
                 {
-                    FirmaId = 1,
+                    FirmaID = 1,
                     TicaretUnvani = "Türk Standartları Enstitüsü",
                     WebAdresi = "http://www.tse.org.tr",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 #endregion
                 #region //2 Beyaz Yazılım
                 new Firma
                 {
-                    FirmaId = 2,
+                    FirmaID = 2,
                     TicaretUnvani = "Beyaz Yazılım Ltd. Şti.",
                     WebAdresi = "http://www.beyazyazilim.com",
-                    DurumId = 1
+                    DurumID = 1
                 },
                 #endregion
                 #region //3 Yeditepe Turizm
                 new Firma
                 {
-                    FirmaId = 3,
+                    FirmaID = 3,
                     TicaretUnvani = "Yeditepe Turizm Gıda Reklam Yayın Bilgisayar Hiz. San. Ve Tic. Ltd. Şti.",
                     WebAdresi = "http://www.yeditepeturizm.com.tr",
-                    DurumId = 1
+                    DurumID = 1
                 }
                 #endregion                
             });
@@ -13154,123 +13194,123 @@
             {
                 new Adres
                 {
-                    AdresId = 1,
-                    FirmaId = 1,
-                    AdresTipiId = 159,
+                    AdresID = 1,
+                    FirmaID = 1,
+                    AdresTipiID = 159,
                     AdresSatiri = "Necatibey Cad. No:112 06100",
-                    IlceId = 63,
-                    SehirId = 6,
-                    UlkeId = 1,
+                    IlceID = 63,
+                    SehirID = 6,
+                    UlkeID = 1,
                     VarsayilanAdres = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Adres
                 {
-                    AdresId = 2,
-                    FirmaId = 1,
-                    AdresTipiId = 160,
+                    AdresID = 2,
+                    FirmaID = 1,
+                    AdresTipiID = 160,
                     AdresSatiri = "Necatibey Cad. No:112 06100",
-                    IlceId = 63,
-                    SehirId = 6,
-                    UlkeId = 1,
+                    IlceID = 63,
+                    SehirID = 6,
+                    UlkeID = 1,
                     VarsayilanAdres = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Adres
                 {
-                    AdresId = 3,
-                    KisiId = 2,
-                    AdresTipiId = 158,
+                    AdresID = 3,
+                    KisiID = 2,
+                    AdresTipiID = 158,
                     AdresSatiri = "Asariye Caddesi Şeferliveli Sokak No:19 Kat:2 Daire:2",
-                    IlceId = 431,
-                    SehirId = 34,
-                    UlkeId = 1,
+                    IlceID = 431,
+                    SehirID = 34,
+                    UlkeID = 1,
                     VarsayilanAdres = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Adres
                 {
-                    AdresId = 4,
-                    KisiId = 2,
-                    AdresTipiId = 160,
+                    AdresID = 4,
+                    KisiID = 2,
+                    AdresTipiID = 160,
                     AdresSatiri = "Asariye Caddesi Şeferliveli Sokak No:19 Kat:2 Daire:2",
-                    IlceId = 431,
-                    SehirId = 1,
-                    UlkeId = 1,
+                    IlceID = 431,
+                    SehirID = 1,
+                    UlkeID = 1,
                     VarsayilanAdres = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Adres
                 {
-                    AdresId = 5,
-                    KisiId = 1,
-                    AdresTipiId = 158,
+                    AdresID = 5,
+                    KisiID = 1,
+                    AdresTipiID = 158,
                     AdresSatiri = "Çubuklu Mahallesi Nazım Tur Caddesi Mola Çıkmazı Sokak No:4/1",
-                    IlceId = 432,
-                    SehirId = 34,
-                    UlkeId = 1,
+                    IlceID = 432,
+                    SehirID = 34,
+                    UlkeID = 1,
                     VarsayilanAdres = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Adres
                 {
-                    AdresId = 6,
-                    KisiId = 1,
-                    AdresTipiId = 160,
+                    AdresID = 6,
+                    KisiID = 1,
+                    AdresTipiID = 160,
                     AdresSatiri = "Çubuklu Mahallesi Nazım Tur Caddesi Mola Çıkmazı Sokak No:4/1",
-                    IlceId = 432,
-                    SehirId = 1,
-                    UlkeId = 1,
+                    IlceID = 432,
+                    SehirID = 1,
+                    UlkeID = 1,
                     VarsayilanAdres = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Adres
                 {
-                    AdresId = 7,
-                    FirmaId = 3,
-                    AdresTipiId = 159,
+                    AdresID = 7,
+                    FirmaID = 3,
+                    AdresTipiID = 159,
                     AdresSatiri = "İnkılap Mahallesi Küçüksu Caddesi No:101 K:5 D:10",
-                    IlceId = 451,
-                    SehirId = 34,
-                    UlkeId = 1,
+                    IlceID = 451,
+                    SehirID = 34,
+                    UlkeID = 1,
                     VarsayilanAdres = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Adres
                 {
-                    AdresId = 8,
-                    FirmaId = 3,
-                    AdresTipiId = 160,
+                    AdresID = 8,
+                    FirmaID = 3,
+                    AdresTipiID = 160,
                     AdresSatiri = "İnkılap Mahallesi Küçüksu Caddesi No:101 K:5 D:10",
-                    IlceId = 451,
-                    SehirId = 34,
-                    UlkeId = 1,
+                    IlceID = 451,
+                    SehirID = 34,
+                    UlkeID = 1,
                     VarsayilanAdres = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Adres
                 {
-                    AdresId = 9,
-                    FirmaId = 2,
-                    AdresTipiId = 159,
+                    AdresID = 9,
+                    FirmaID = 2,
+                    AdresTipiID = 159,
                     AdresSatiri = "Fetih Mahallesi Tahralı Sokak Kavakyeli Plaza No:7 Daire:15",
-                    IlceId = 462,
-                    SehirId = 34,
-                    UlkeId = 1,
+                    IlceID = 462,
+                    SehirID = 34,
+                    UlkeID = 1,
                     VarsayilanAdres = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Adres
                 {
-                    AdresId = 10,
-                    FirmaId = 2,
-                    AdresTipiId = 160,
+                    AdresID = 10,
+                    FirmaID = 2,
+                    AdresTipiID = 160,
                     AdresSatiri = "Fetih Mahallesi Tahralı Sokak Kavakyeli Plaza No:7 Daire:15",
-                    IlceId = 462,
-                    SehirId = 34,
-                    UlkeId = 1,
+                    IlceID = 462,
+                    SehirID = 34,
+                    UlkeID = 1,
                     VarsayilanAdres = true,
-                    DurumId = 1
+                    DurumID = 1
                 }
             });
             #endregion
@@ -13280,103 +13320,103 @@
             {
                 new Telefon
                 {
-                    TelefonId = 1,
-                    KisiId = 1,
-                    TelefonTipiId = 154,
+                    TelefonID = 1,
+                    KisiID = 1,
+                    TelefonTipiID = 154,
                     TelefonNo = "05345950053",
                     VarsayilanTelefon = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Telefon
                 {
-                    TelefonId = 2,
-                    KisiId = 2,
-                    TelefonTipiId = 154,
+                    TelefonID = 2,
+                    KisiID = 2,
+                    TelefonTipiID = 154,
                     TelefonNo = "05332713638",
                     VarsayilanTelefon = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Telefon
                 {
-                    TelefonId = 3,
-                    KisiId = 2,
-                    TelefonTipiId = 155,
+                    TelefonID = 3,
+                    KisiID = 2,
+                    TelefonTipiID = 155,
                     TelefonNo = "02122605262",
                     VarsayilanTelefon = false,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Telefon
                 {
-                    TelefonId = 4,
-                    KisiId = 2,
-                    TelefonTipiId = 156,
+                    TelefonID = 4,
+                    KisiID = 2,
+                    TelefonTipiID = 156,
                     TelefonNo = "4447084",
                     DahiliNo = "122",
                     VarsayilanTelefon = false,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Telefon
                 {
-                    TelefonId = 5,
-                    KisiId = 2,
-                    TelefonTipiId = 157,
+                    TelefonID = 5,
+                    KisiID = 2,
+                    TelefonTipiID = 157,
                     TelefonNo = "02124496227",
                     VarsayilanTelefon = false,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Telefon
                 {
-                    TelefonId = 6,
-                    FirmaId = 3,
-                    TelefonTipiId = 156,
+                    TelefonID = 6,
+                    FirmaID = 3,
+                    TelefonTipiID = 156,
                     TelefonNo = "4447084",
                     VarsayilanTelefon = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Telefon
                 {
-                    TelefonId = 7,
-                    FirmaId = 2,
-                    TelefonTipiId = 156,
+                    TelefonID = 7,
+                    FirmaID = 2,
+                    TelefonTipiID = 156,
                     TelefonNo = "02164257262",
                     VarsayilanTelefon = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Telefon
                 {
-                    TelefonId = 8,
-                    FirmaId = 2,
-                    TelefonTipiId = 156,
+                    TelefonID = 8,
+                    FirmaID = 2,
+                    TelefonTipiID = 156,
                     TelefonNo = "02163215165",
                     VarsayilanTelefon = false,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Telefon
                 {
-                    TelefonId = 9,
-                    FirmaId = 2,
-                    TelefonTipiId = 157,
+                    TelefonID = 9,
+                    FirmaID = 2,
+                    TelefonTipiID = 157,
                     TelefonNo = "02164863424",
                     VarsayilanTelefon = false,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Telefon
                 {
-                    TelefonId = 10,
-                    FirmaId = 1,
-                    TelefonTipiId = 156,
+                    TelefonID = 10,
+                    FirmaID = 1,
+                    TelefonTipiID = 156,
                     TelefonNo = "03124166200",
                     VarsayilanTelefon = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Telefon
                 {
-                    TelefonId = 11,
-                    FirmaId = 1,
-                    TelefonTipiId = 157,
+                    TelefonID = 11,
+                    FirmaID = 1,
+                    TelefonTipiID = 157,
                     TelefonNo = "03124166611",
                     VarsayilanTelefon = false,
-                    DurumId = 1
+                    DurumID = 1
                 }
             });
             #endregion
@@ -13386,51 +13426,51 @@
             {
                 new Eposta
                 {
-                    EpostaId = 1,
-                    KisiId = 1,
+                    EpostaID = 1,
+                    KisiID = 1,
                     EpostaAdresi = "h.ibrahimpoyraz@gmail.com",
                     VarsayilanEposta = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Eposta
                 {
-                    EpostaId = 2,
-                    KisiId = 1,
+                    EpostaID = 2,
+                    KisiID = 1,
                     EpostaAdresi = "hll_pyrz@hotmail.com",
                     VarsayilanEposta = false,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Eposta
                 {
-                    EpostaId = 3,
-                    KisiId = 2,
+                    EpostaID = 3,
+                    KisiID = 2,
                     EpostaAdresi = "ali@trendax.com.tr",
                     VarsayilanEposta = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Eposta
                 {
-                    EpostaId = 4,
-                    FirmaId = 3,
+                    EpostaID = 4,
+                    FirmaID = 3,
                     EpostaAdresi = "info@yeditepeturizm.com.tr",
                     VarsayilanEposta = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Eposta
                 {
-                    EpostaId = 5,
-                    FirmaId = 2,
+                    EpostaID = 5,
+                    FirmaID = 2,
                     EpostaAdresi = "yazilim@beyazyazilim.com",
                     VarsayilanEposta = true,
-                    DurumId = 1
+                    DurumID = 1
                 },
                 new Eposta
                 {
-                    EpostaId = 6,
-                    FirmaId = 1,
+                    EpostaID = 6,
+                    FirmaID = 1,
                     EpostaAdresi = "info@tse.org.tr",
                     VarsayilanEposta = true,
-                    DurumId = 1
+                    DurumID = 1
                 }
             });
             #endregion
@@ -13440,48 +13480,48 @@
             {
                 new FaturaBilgi
                 {
-                    FaturaBilgiId = 1,
-                    FirmaId = 1,
+                    FaturaBilgiID = 1,
+                    FirmaID = 1,
                     VergiDairesi = "Çankaya",
                     VergiNo = "1260154581",
-                    AdresId = 2,
-                    DurumId = 1
+                    AdresID = 2,
+                    DurumID = 1
                 },
                 new FaturaBilgi
                 {
-                    FaturaBilgiId = 2,
-                    KisiId = 2,
+                    FaturaBilgiID = 2,
+                    KisiID = 2,
                     VergiDairesi = "Beyoğlu",
                     VergiNo = "9879876541",
-                    AdresId = 4,
-                    DurumId = 1
+                    AdresID = 4,
+                    DurumID = 1
                 },
                 new FaturaBilgi
                 {
-                    FaturaBilgiId = 3,
-                    KisiId = 1,
+                    FaturaBilgiID = 3,
+                    KisiID = 1,
                     VergiDairesi = "Üsküdar",
                     VergiNo = "9876543210",
-                    AdresId = 6,
-                    DurumId = 1
+                    AdresID = 6,
+                    DurumID = 1
                 },                
                 new FaturaBilgi
                 {
-                    FaturaBilgiId = 4,
-                    FirmaId = 3,
+                    FaturaBilgiID = 4,
+                    FirmaID = 3,
                     VergiDairesi = "Ümraniye",
                     VergiNo = "9460131281",
-                    AdresId = 8,
-                    DurumId = 1
+                    AdresID = 8,
+                    DurumID = 1
                 },
                 new FaturaBilgi
                 {
-                    FaturaBilgiId = 5,
-                    FirmaId = 2,
+                    FaturaBilgiID = 5,
+                    FirmaID = 2,
                     VergiDairesi = "Ataşehir",
                     VergiNo = "9876543210",
-                    AdresId = 10,
-                    DurumId = 1
+                    AdresID = 10,
+                    DurumID = 1
                 }                
             });
             #endregion

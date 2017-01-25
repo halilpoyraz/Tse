@@ -12,7 +12,7 @@
 
 
         //Properties
-        public int ParaBirimiId { get; set; }
+        public int ParaBirimiID { get; set; }
 
         [Display(Name ="Kodu") MaxLength(255) Required]
         public string Kodu { get; set; }
@@ -24,12 +24,13 @@
         public int SiraNo { get; set; }
 
         [Display(Name = "Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         //Navigation Properties        
         public virtual Durum Durum { get; set; }
         public virtual ICollection<Standart> Standartlar { get; set; }
+        
 
 
         //Methots

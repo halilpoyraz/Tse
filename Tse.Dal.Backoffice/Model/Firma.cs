@@ -12,7 +12,7 @@
 
 
         //Properties
-        public int FirmaId { get; set; }
+        public int FirmaID { get; set; }
 
         [Display(Name ="Ticaret Unvanı") MaxLength(255) Required]
         public string TicaretUnvani { get; set; }
@@ -21,7 +21,7 @@
         public string WebAdresi { get; set; }
 
         [Display(Name ="Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         //Navigation Properties

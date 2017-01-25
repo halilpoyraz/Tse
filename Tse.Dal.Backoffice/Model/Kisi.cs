@@ -12,7 +12,7 @@
 
 
         //Properties
-        public int KisiId { get; set; }
+        public int KisiID { get; set; }
 
         [Display(Name ="Adı") MaxLength(255) Required]
         public string Adi { get; set; }
@@ -27,7 +27,7 @@
         public string Unvan { get; set; }        
 
         [Display(Name = "Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         // Navigation Properties
@@ -36,6 +36,7 @@
         public virtual ICollection<Eposta> Epostalar { get; set; }             
         public virtual ICollection<FaturaBilgi> FaturaBilgileri { get; set; }
         public virtual ICollection<Telefon> Telefonlar { get; set; }
+        
 
 
         // Methods

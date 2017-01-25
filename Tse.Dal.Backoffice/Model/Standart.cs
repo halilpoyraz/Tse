@@ -14,7 +14,7 @@
 
 
         //Properties
-        public int StandartId { get; set; }
+        public int StandartID { get; set; }
 
         [Display(Name = "Tse No") MaxLength(255) Required]
         public string TsNo { get; set; }
@@ -23,16 +23,16 @@
         public DateTime KabulTarihi { get; set; }
 
         [Display(Name = "Hazırlık Grubu")]
-        public int HazirlikGrubuId { get; set; }
+        public int HazirlikGrubuID { get; set; }
 
         [Display(Name = "Döküman Tipi")]
-        public int DokumanTipiId { get; set; }
+        public int DokumanTipiID { get; set; }
 
         [Display(Name = "Yürürlük Durumu")]
-        public int YururlukDurumuId { get; set; }
+        public int YururlukDurumuID { get; set; }
 
         [Display(Name = "Standart Tür")]
-        public int StandartTurId { get; set; }
+        public int StandartTurID { get; set; }
 
         [Display(Name = "Başlık (Tr)") Required]
         public string BaslikTr { get; set; }
@@ -80,33 +80,28 @@
         public decimal? Fiyati { get; set; }
 
         [Display(Name ="Para Birimi")]
-        public int ParaBirimiId { get; set; }
-
-        [Display(Name ="Standart Açıklama")]
-        public int StandartAciklamaId { get; set; }
+        public int ParaBirimiID { get; set; }
 
         [Display(Name ="Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         //Navigation Properties        
-        [ForeignKey("HazirlikGrubuId")]
+        [ForeignKey("HazirlikGrubuID")]
         public virtual Deger HazirlikGrubu { get; set; }
 
-        [ForeignKey("DokumanTipiId")]
+        [ForeignKey("DokumanTipiID")]
         public virtual Deger DokumanTipi { get; set; }
 
-        [ForeignKey("YururlukDurumuId")]
+        [ForeignKey("YururlukDurumuID")]
         public virtual Deger YururlukDurumu { get; set; }
 
-        [ForeignKey("StandartTurId")]
+        [ForeignKey("StandartTurID")]
         public virtual Deger StandartTur { get; set; }
         
         public virtual ParaBirimi ParaBirimi { get; set; }
 
         public virtual Durum Durum { get; set; }
-        
-        public virtual StandartAciklama StandartAciklama { get; set; }
 
         public virtual ICollection<StandartIcerik> StandartIcerikler { get; set; }
 
@@ -114,8 +109,5 @@
 
 
         // Methods
-
-
-
     }
 }

@@ -13,10 +13,10 @@
 
 
         //Properties
-        public int IlceId { get; set; }
+        public int IlceID { get; set; }
 
         [Display(Name ="Şehir")]
-        public int SehirId { get; set; }
+        public int SehirID { get; set; }
 
         [Display(Name ="İlçe Kodu")]
         public int IlceKodu { get; set; }
@@ -25,7 +25,7 @@
         public string IlceAdi { get; set; }
 
         [Display(Name ="Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         //Navigation Properties

@@ -13,7 +13,7 @@
 
 
         //Properties
-        public int StandartAciklamaId { get; set; }
+        public int StandartAciklamaID { get; set; }
 
         [Display(Name ="Başlık") MaxLength(255) Required]
         public string Baslik { get; set; }
@@ -22,12 +22,11 @@
         public string Detay { get; set; }
 
         [Display(Name ="Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         //Navigation Properties
-        public virtual Durum Durum { get; set; }
-        public virtual ICollection<Standart> Standartlar { get; set; }
+        public virtual Durum Durum { get; set; }               
 
 
         //Methods

@@ -11,13 +11,13 @@
 
 
         //Properties
-        public int EpostaId { get; set; }
+        public int EpostaID { get; set; }
 
         [Display(Name = "Kişi")]
-        public int? KisiId { get; set; }
+        public int? KisiID { get; set; }
 
         [Display(Name = "Firma")]
-        public int? FirmaId { get; set; }
+        public int? FirmaID { get; set; }
 
         [Display(Name = "E-Posta Adresi") MaxLength(255) Required]
         public string EpostaAdresi { get; set; }
@@ -26,7 +26,7 @@
         public bool VarsayilanEposta { get; set; }
 
         [Display(Name ="Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         //Navigation Properties

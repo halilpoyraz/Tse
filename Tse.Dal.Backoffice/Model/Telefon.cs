@@ -12,16 +12,16 @@
 
 
         //Properties
-        public int TelefonId { get; set; }
+        public int TelefonID { get; set; }
 
         [Display(Name ="Kişi")]
-        public int? KisiId { get; set; }
+        public int? KisiID { get; set; }
 
         [Display(Name ="Firma")]
-        public int? FirmaId { get; set; }
+        public int? FirmaID { get; set; }
 
         [Display(Name ="Telefon Tipi")]
-        public int TelefonTipiId { get; set; }
+        public int TelefonTipiID { get; set; }
 
         [Display(Name ="Telefon No") MaxLength(25) Required]
         public string TelefonNo { get; set; }
@@ -33,7 +33,7 @@
         public bool VarsayilanTelefon { get; set; }
 
         [Display(Name ="Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         // Navigation Properties
@@ -43,8 +43,9 @@
 
         public virtual Firma Firma { get; set; }
 
-        [ForeignKey("TelefonTipiId")]
+        [ForeignKey("TelefonTipiID")]
         public virtual Deger TelefonTipi { get; set; }
+        
 
 
         // Methods

@@ -13,16 +13,16 @@
 
 
         //Properties
-        public int SehirId { get; set; }
+        public int SehirID { get; set; }
         
         [Display(Name ="Ulke")]
-        public int UlkeId { get; set; }
+        public int UlkeID { get; set; }
 
         [Display(Name = "Şehir Adı") MaxLength(255) Required]
         public string SehirAdi { get; set; }
 
         [Display(Name = "Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         //Navigation Propertis
@@ -30,6 +30,7 @@
         public virtual ICollection<Ilce> Ilceler { get; set; }
         public virtual Durum Durum { get; set; }        
         public virtual Ulke Ulke { get; set; }
+        
 
 
         //Methods

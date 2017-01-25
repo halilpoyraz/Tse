@@ -10,25 +10,25 @@
         }
 
         //Properties
-        public int StandartAtifId { get; set; }
+        public int StandartAtifID { get; set; }
 
         [Display(Name ="Standart")]
-        public int StandartId { get; set; }
+        public int StandartID { get; set; }
 
         [Display(Name ="Stadart İçerik")]
-        public int StandartIcerikId { get; set; }
+        public int StandartIcerikID { get; set; }
 
         [Display(Name ="Kategori")]
-        public int KategoriId { get; set; }
+        public int KategoriID { get; set; }
 
         [Display(Name ="Değer")]
-        public int DegerId { get; set; }
+        public int DegerID { get; set; }
 
         [Display(Name ="Sıra")]
         public int SiraNo { get; set; }
 
         [Display(Name ="Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         //Navigation Properties

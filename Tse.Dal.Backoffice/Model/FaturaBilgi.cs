@@ -11,13 +11,13 @@
 
 
         //Properties        
-        public int FaturaBilgiId { get; set; }
+        public int FaturaBilgiID { get; set; }
                 
         [Display(Name ="Kişi")]
-        public int? KisiId { get; set; }
+        public int? KisiID { get; set; }
 
         [Display(Name ="Firma")]
-        public int? FirmaId { get; set; }
+        public int? FirmaID { get; set; }
 
         [Display(Name ="Vergi Dairesi") MaxLength(255) Required]
         public string VergiDairesi { get; set; }
@@ -26,10 +26,10 @@
         public string VergiNo { get; set; }
 
         [Display(Name = "Fatura Adresi")]
-        public int? AdresId { get; set; }
+        public int? AdresID { get; set; }
 
         [Display(Name ="Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         // Navigation Properties

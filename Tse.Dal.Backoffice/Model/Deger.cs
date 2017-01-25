@@ -13,10 +13,10 @@
 
 
         //Properties
-        public int DegerId { get; set; }
+        public int DegerID { get; set; }
 
         [Display(Name ="Kategori")]
-        public int KategoriId { get; set; }
+        public int KategoriID { get; set; }
 
         [Display(Name ="Değer 1")]
         public string Deger1 { get; set; }
@@ -37,7 +37,7 @@
         public int SiraNo { get; set; }
 
         [Display(Name ="Durum")]
-        public int DurumId { get; set; }
+        public int DurumID { get; set; }
 
 
         //Navigation Properties
@@ -51,6 +51,7 @@
         public virtual ICollection<StandartAtif> StandartAtiflar { get; set; }
         public virtual ICollection<StandartIcerik> StandartIcerikTipleri { get; set; }
         public virtual ICollection<Telefon> Telefonlar { get; set; }
+
 
         //Methods
     }
