@@ -28,7 +28,8 @@ namespace Tse.Dal.Backoffice.Model
         public virtual DbSet<ParaBirimi> ParaBirimleri { get; set; }
         public virtual DbSet<Sehir> Sehirler { get; set; }
         public virtual DbSet<Standart> Standartlar { get; set; }        
-        public virtual DbSet<StandartAciklama> StandartAciklamalar { get; set; }
+        public virtual DbSet<StandartAtifTipiSablon> StandartAtifTipiSablonlar { get; set; }
+        public virtual DbSet<StandartIcerikTipiSablon> StandartIcerikTipiSablonlar { get; set; }
         public virtual DbSet<StandartAtif> StandartAtiflar { get; set; }
         public virtual DbSet<StandartIcerik> StandartIcerikler { get; set; }
         public virtual DbSet<Ulke> Ulkeler { get; set; }
@@ -54,7 +55,8 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<ParaBirimi>().ToTable("Tanimlama.ParaBirimi");
             modelBuilder.Entity<Sehir>().ToTable("Tanimlama.Sehir");
             modelBuilder.Entity<Standart>().ToTable("Standart.Standart");
-            modelBuilder.Entity<StandartAciklama>().ToTable("Standart.StandartAciklama");
+            modelBuilder.Entity<StandartAtifTipiSablon>().ToTable("Standart.StandartAtifTipiSablon");
+            modelBuilder.Entity<StandartIcerikTipiSablon>().ToTable("Standart.StandartIcerikTipiSablon");
             modelBuilder.Entity<StandartAtif>().ToTable("Standart.StandartAtif");
             modelBuilder.Entity<StandartIcerik>().ToTable("Standart.StandartIcerik");
             modelBuilder.Entity<Telefon>().ToTable("Kisi.Telefon");
@@ -69,8 +71,8 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<Deger>().HasMany(e => e.StandartTurleri).WithRequired(e => e.StandartTur).WillCascadeOnDelete(false);
             modelBuilder.Entity<Deger>().HasMany(e => e.Telefonlar).WithRequired(e => e.TelefonTipi).WillCascadeOnDelete(false);
             modelBuilder.Entity<Deger>().HasMany(e => e.YururlukDurumlari).WithRequired(e => e.YururlukDurumu).WillCascadeOnDelete(false);
-            modelBuilder.Entity<Deger>().HasMany(e => e.StandartIcerikTipleri).WithRequired(e => e.StandartIcerikTipi).WillCascadeOnDelete(false);
-            modelBuilder.Entity<Deger>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.Deger).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Deger>().HasMany(e => e.StandartIcerikTipleri).WithRequired(e => e.StandartIcerikTipi).WillCascadeOnDelete(false);            
+            modelBuilder.Entity<Deger>().HasMany(e => e.StandartIcerikTipiSablonlar).WithRequired(e => e.StandartIcerikTipiSablonu).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Durum>().HasMany(e => e.Adresler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.Degerler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
@@ -82,12 +84,13 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<Durum>().HasMany(e => e.ParaBirimleri).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.Sehirler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.Standartlar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
-            modelBuilder.Entity<Durum>().HasMany(e => e.StandartAciklamalar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Durum>().HasMany(e => e.StandartIcerikTipiSablonlar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.StandartIcerikler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.Telefonlar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.Ulkeler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.FaturaBilgileri).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Durum>().HasMany(e => e.StandartAtifTipiSablonlar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Firma>().HasMany(e => e.Telefonlar).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
             modelBuilder.Entity<Firma>().HasMany(e => e.FaturaBilgileri).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
@@ -98,6 +101,7 @@ namespace Tse.Dal.Backoffice.Model
 
             modelBuilder.Entity<Kategori>().HasMany(e => e.Degerler).WithRequired(e => e.Kategori).WillCascadeOnDelete(false);
             modelBuilder.Entity<Kategori>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.Kategori).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Kategori>().HasMany(e => e.StandartAtifTipiSablonlar).WithRequired(e => e.Kategori).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Kisi>().HasMany(e => e.Adresler).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
             modelBuilder.Entity<Kisi>().HasMany(e => e.Epostalar).WithOptional(e => e.Kisi).WillCascadeOnDelete(false);
@@ -114,6 +118,8 @@ namespace Tse.Dal.Backoffice.Model
 
             modelBuilder.Entity<Standart>().HasMany(e => e.StandartIcerikler).WithRequired(e => e.Standart).WillCascadeOnDelete(false);
             modelBuilder.Entity<Standart>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.Standart).WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<StandartAtifTipiSablon>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.StandartAtifTipiSablon).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<StandartIcerik>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.StandartIcerik).WillCascadeOnDelete(false);
         }

@@ -9620,8 +9620,8 @@
                 {
                     DegerID = 1,
                     KategoriID = 1,
-                    Deger1 = "Tanımsız",
-                    Deger2 = "Undefined",
+                    DegerAdiTr = "Tanımsız",
+                    DegerAdiEn = "Undefined",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9629,8 +9629,8 @@
                 {
                     DegerID = 2,
                     KategoriID = 1,
-                    Deger1 = "Adapte Teklifi",
-                    Deger2 = "Adapte Offer",
+                    DegerAdiTr = "Adapte Teklifi",
+                    DegerAdiEn = "Adapte Offer",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9638,8 +9638,8 @@
                 {
                     DegerID = 3,
                     KategoriID = 1,
-                    Deger1 = "Dc",
-                    Deger2 = "Dc",
+                    DegerAdiTr = "Dc",
+                    DegerAdiEn = "Dc",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9647,8 +9647,8 @@
                 {
                     DegerID = 4,
                     KategoriID = 1,
-                    Deger1 = "Kitap",
-                    Deger2 = "Book",
+                    DegerAdiTr = "Kitap",
+                    DegerAdiEn = "Book",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9656,8 +9656,8 @@
                 {
                     DegerID = 5,
                     KategoriID = 1,
-                    Deger1 = "Konu Teklifi",
-                    Deger2 = "Subject Offer",
+                    DegerAdiTr = "Konu Teklifi",
+                    DegerAdiEn = "Subject Offer",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9665,8 +9665,8 @@
                 {
                     DegerID = 6,
                     KategoriID = 1,
-                    Deger1 = "Kriter",
-                    Deger2 = "Criterion",
+                    DegerAdiTr = "Kriter",
+                    DegerAdiEn = "Criterion",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9674,8 +9674,8 @@
                 {
                     DegerID = 7,
                     KategoriID = 1,
-                    Deger1 = "Kriter İş Programında",
-                    Deger2 = "Criterion Work Program",
+                    DegerAdiTr = "Kriter İş Programında",
+                    DegerAdiEn = "Criterion Work Program",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9683,8 +9683,8 @@
                 {
                     DegerID = 8,
                     KategoriID = 1,
-                    Deger1 = "Kriter Tasarısı",
-                    Deger2 = "Criteria Design",
+                    DegerAdiTr = "Kriter Tasarısı",
+                    DegerAdiEn = "Criteria Design",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9692,8 +9692,8 @@
                 {
                     DegerID = 9,
                     KategoriID = 1,
-                    Deger1 = "Kriter Teklifi",
-                    Deger2 = "Criteria Bid",
+                    DegerAdiTr = "Kriter Teklifi",
+                    DegerAdiEn = "Criteria Bid",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9701,8 +9701,8 @@
                 {
                     DegerID = 10,
                     KategoriID = 1,
-                    Deger1 = "ST",
-                    Deger2 = "ST",
+                    DegerAdiTr = "ST",
+                    DegerAdiEn = "ST",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9710,8 +9710,8 @@
                 {
                     DegerID = 11,
                     KategoriID = 1,
-                    Deger1 = "TD*GD",
-                    Deger2 = "TD*GD",
+                    DegerAdiTr = "TD*GD",
+                    DegerAdiEn = "TD*GD",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9719,8 +9719,8 @@
                 {
                     DegerID = 12,
                     KategoriID = 1,
-                    Deger1 = "TR*TS",
-                    Deger2 = "TR*TS",
+                    DegerAdiTr = "TR*TS",
+                    DegerAdiEn = "TR*TS",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9728,8 +9728,8 @@
                 {
                     DegerID = 13,
                     KategoriID = 1,
-                    Deger1 = "UTO Rehber Doküman",
-                    Deger2 = "UTO Directory Document",
+                    DegerAdiTr = "UTO Rehber Doküman",
+                    DegerAdiEn = "UTO Directory Document",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9737,8 +9737,8 @@
                 {
                     DegerID = 14,
                     KategoriID = 1,
-                    Deger1 = "WI (İş Programında)",
-                    Deger2 = "WI (Work Program)",
+                    DegerAdiTr = "WI (İş Programında)",
+                    DegerAdiEn = "WI (Work Program)",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9746,8 +9746,8 @@
                 {
                     DegerID = 15,
                     KategoriID = 2,
-                    Deger1 = "Tanımsız",
-                    Deger2 = "Undefined",
+                    DegerAdiTr = "Tanımsız",
+                    DegerAdiEn = "Undefined",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9755,8 +9755,8 @@
                 {
                     DegerID = 16,
                     KategoriID = 2,
-                    Deger1 = "Akreditasyon ve Belgelendirme Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee on Accreditation and Documentation",
+                    DegerAdiTr = "Akreditasyon ve Belgelendirme Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee on Accreditation and Documentation",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9764,8 +9764,8 @@
                 {
                     DegerID = 17,
                     KategoriID = 2,
-                    Deger1 = "Alıcı Ortam Özel Daimi Komitesi",
-                    Deger2 = "Buyer Environment Special Standing Committee",
+                    DegerAdiTr = "Alıcı Ortam Özel Daimi Komitesi",
+                    DegerAdiEn = "Buyer Environment Special Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9773,8 +9773,8 @@
                 {
                     DegerID = 18,
                     KategoriID = 2,
-                    Deger1 = "Ambalaj Özel Daimi Komitesi ÖDK",
-                    Deger2 = "Special Standing Committee for Packaging ÖK",
+                    DegerAdiTr = "Ambalaj Özel Daimi Komitesi ÖDK",
+                    DegerAdiEn = "Special Standing Committee for Packaging ÖK",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9782,8 +9782,8 @@
                 {
                     DegerID = 19,
                     KategoriID = 2,
-                    Deger1 = "Ambalaj ve Kırtasiye Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee for Packaging and Stationery",
+                    DegerAdiTr = "Ambalaj ve Kırtasiye Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee for Packaging and Stationery",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9791,8 +9791,8 @@
                 {
                     DegerID = 20,
                     KategoriID = 2,
-                    Deger1 = "Atıklar Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee on Waste",
+                    DegerAdiTr = "Atıklar Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee on Waste",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9800,8 +9800,8 @@
                 {
                     DegerID = 21,
                     KategoriID = 2,
-                    Deger1 = "Aydınlatma ve İç Tesisat Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee for Lighting and Interior Installation",
+                    DegerAdiTr = "Aydınlatma ve İç Tesisat Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee for Lighting and Interior Installation",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9809,8 +9809,8 @@
                 {
                     DegerID = 22,
                     KategoriID = 2,
-                    Deger1 = "Aydınlatma ve Kablo Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee on Lighting and Cable",
+                    DegerAdiTr = "Aydınlatma ve Kablo Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee on Lighting and Cable",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9818,8 +9818,8 @@
                 {
                     DegerID = 23,
                     KategoriID = 2,
-                    Deger1 = "Basınçlı Kaplar Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee for Pressure Vessels",
+                    DegerAdiTr = "Basınçlı Kaplar Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee for Pressure Vessels",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9827,8 +9827,8 @@
                 {
                     DegerID = 24,
                     KategoriID = 2,
-                    Deger1 = "Bilgi Teknolojileri ve İletişim İhtisas Grubu",
-                    Deger2 = "Information Technologies and Communication Specialization Group",
+                    DegerAdiTr = "Bilgi Teknolojileri ve İletişim İhtisas Grubu",
+                    DegerAdiEn = "Information Technologies and Communication Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9836,8 +9836,8 @@
                 {
                     DegerID = 25,
                     KategoriID = 2,
-                    Deger1 = "Bilişim Teknolojileri Test Belgelendirme Sektörü",
-                    Deger2 = "Information Technologies Test Certification Sector",
+                    DegerAdiTr = "Bilişim Teknolojileri Test Belgelendirme Sektörü",
+                    DegerAdiEn = "Information Technologies Test Certification Sector",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9845,8 +9845,8 @@
                 {
                     DegerID = 26,
                     KategoriID = 2,
-                    Deger1 = "Cam Seramik ve Refrakter Malzeme Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee for Glass Ceramics and Refractory Materials",
+                    DegerAdiTr = "Cam Seramik ve Refrakter Malzeme Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee for Glass Ceramics and Refractory Materials",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9854,8 +9854,8 @@
                 {
                     DegerID = 27,
                     KategoriID = 2,
-                    Deger1 = "Çevre İhtisas Grubu",
-                    Deger2 = "Environmental Specialization Group",
+                    DegerAdiTr = "Çevre İhtisas Grubu",
+                    DegerAdiEn = "Environmental Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9863,8 +9863,8 @@
                 {
                     DegerID = 28,
                     KategoriID = 2,
-                    Deger1 = "Çevre Sağlığı Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee on Environmental Health",
+                    DegerAdiTr = "Çevre Sağlığı Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee on Environmental Health",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9872,8 +9872,8 @@
                 {
                     DegerID = 29,
                     KategoriID = 2,
-                    Deger1 = "Çevre Sağlığı ve Atıklar Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee on Environmental Health and Waste",
+                    DegerAdiTr = "Çevre Sağlığı ve Atıklar Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee on Environmental Health and Waste",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9881,8 +9881,8 @@
                 {
                     DegerID = 30,
                     KategoriID = 2,
-                    Deger1 = "Demiryolu Özel Daimi Komitesi",
-                    Deger2 = "Railway Special Standing Committee",
+                    DegerAdiTr = "Demiryolu Özel Daimi Komitesi",
+                    DegerAdiEn = "Railway Special Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9890,8 +9890,8 @@
                 {
                     DegerID = 31,
                     KategoriID = 2,
-                    Deger1 = "Deprem Özel Daimi Komitesi",
-                    Deger2 = "Earthquake Special Standing Committee",
+                    DegerAdiTr = "Deprem Özel Daimi Komitesi",
+                    DegerAdiEn = "Earthquake Special Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9899,8 +9899,8 @@
                 {
                     DegerID = 32,
                     KategoriID = 2,
-                    Deger1 = "Doğal Gaz Özel Daimi Komitesi",
-                    Deger2 = "Natural Gas Special Standing Committee",
+                    DegerAdiTr = "Doğal Gaz Özel Daimi Komitesi",
+                    DegerAdiEn = "Natural Gas Special Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9908,8 +9908,8 @@
                 {
                     DegerID = 33,
                     KategoriID = 2,
-                    Deger1 = "Doküman Tercüme Komitesi",
-                    Deger2 = "Document Translation Committee",
+                    DegerAdiTr = "Doküman Tercüme Komitesi",
+                    DegerAdiEn = "Document Translation Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9917,8 +9917,8 @@
                 {
                     DegerID = 34,
                     KategoriID = 2,
-                    Deger1 = "Ekoloji Tarım Ürünleri Özel Daimi Komitesi",
-                    Deger2 = "Document Translation Committee",
+                    DegerAdiTr = "Ekoloji Tarım Ürünleri Özel Daimi Komitesi",
+                    DegerAdiEn = "Document Translation Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9926,8 +9926,8 @@
                 {
                     DegerID = 35,
                     KategoriID = 2,
-                    Deger1 = "Elektrik İhtisas Grubu",
-                    Deger2 = "Electricity Specialization Group",
+                    DegerAdiTr = "Elektrik İhtisas Grubu",
+                    DegerAdiEn = "Electricity Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9935,8 +9935,8 @@
                 {
                     DegerID = 36,
                     KategoriID = 2,
-                    Deger1 = "Elektronik İhtisas Grubu",
-                    Deger2 = "Electronic Specialization Group",
+                    DegerAdiTr = "Elektronik İhtisas Grubu",
+                    DegerAdiEn = "Electronic Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9944,8 +9944,8 @@
                 {
                     DegerID = 37,
                     KategoriID = 2,
-                    Deger1 = "Elektroteknik Güvenlik Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee on Electrotechnical Safety",
+                    DegerAdiTr = "Elektroteknik Güvenlik Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee on Electrotechnical Safety",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9953,8 +9953,8 @@
                 {
                     DegerID = 38,
                     KategoriID = 2,
-                    Deger1 = "Elektroteknik Güvenlik ve Aydınlatma  Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee on Electrotechnical Safety and Lighting",
+                    DegerAdiTr = "Elektroteknik Güvenlik ve Aydınlatma  Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee on Electrotechnical Safety and Lighting",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9962,8 +9962,8 @@
                 {
                     DegerID = 39,
                     KategoriID = 2,
-                    Deger1 = "Elektroteknik Sektörü Müdürlüğü",
-                    Deger2 = "Electrotechnical Sector Directorate",
+                    DegerAdiTr = "Elektroteknik Sektörü Müdürlüğü",
+                    DegerAdiEn = "Electrotechnical Sector Directorate",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9971,8 +9971,8 @@
                 {
                     DegerID = 40,
                     KategoriID = 2,
-                    Deger1 = "EMU ve Radyo-TV Özel Daimi Komitesi",
-                    Deger2 = "EMU and Radio-TV Special Standing Committee",
+                    DegerAdiTr = "EMU ve Radyo-TV Özel Daimi Komitesi",
+                    DegerAdiEn = "EMU and Radio-TV Special Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9980,8 +9980,8 @@
                 {
                     DegerID = 41,
                     KategoriID = 2,
-                    Deger1 = "Endüstriyel Yağlar Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee on Industrial Oils",
+                    DegerAdiTr = "Endüstriyel Yağlar Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee on Industrial Oils",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9989,8 +9989,8 @@
                 {
                     DegerID = 42,
                     KategoriID = 2,
-                    Deger1 = "Gıda Sektörü Müdürlüğü",
-                    Deger2 = "Food Sector Directorate",
+                    DegerAdiTr = "Gıda Sektörü Müdürlüğü",
+                    DegerAdiEn = "Food Sector Directorate",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -9998,8 +9998,8 @@
                 {
                     DegerID = 43,
                     KategoriID = 2,
-                    Deger1 = "Helal Gıda Sektör Müdürlüğü",
-                    Deger2 = "Halal Food Sector Directorate",
+                    DegerAdiTr = "Helal Gıda Sektör Müdürlüğü",
+                    DegerAdiEn = "Halal Food Sector Directorate",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10007,8 +10007,8 @@
                 {
                     DegerID = 44,
                     KategoriID = 2,
-                    Deger1 = "Hizmet Standardları İhtisas Grubu",
-                    Deger2 = "Service Standards Specialization Group",
+                    DegerAdiTr = "Hizmet Standardları İhtisas Grubu",
+                    DegerAdiEn = "Service Standards Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10016,8 +10016,8 @@
                 {
                     DegerID = 45,
                     KategoriID = 2,
-                    Deger1 = "Hizmet Yeri Belgelendirme Sektör Müdürlüğü",
-                    Deger2 = "Service Placement Sector Directorate",
+                    DegerAdiTr = "Hizmet Yeri Belgelendirme Sektör Müdürlüğü",
+                    DegerAdiEn = "Service Placement Sector Directorate",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10025,8 +10025,8 @@
                 {
                     DegerID = 46,
                     KategoriID = 2,
-                    Deger1 = "Isı Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee for Heat",
+                    DegerAdiTr = "Isı Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee for Heat",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10034,8 +10034,8 @@
                 {
                     DegerID = 47,
                     KategoriID = 2,
-                    Deger1 = "İnşaat İhtisas Grubu",
-                    Deger2 = "Construction Specialization Group",
+                    DegerAdiTr = "İnşaat İhtisas Grubu",
+                    DegerAdiEn = "Construction Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10043,8 +10043,8 @@
                 {
                     DegerID = 48,
                     KategoriID = 2,
-                    Deger1 = "İnşaat Makinaları Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee for Construction Machinery",
+                    DegerAdiTr = "İnşaat Makinaları Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee for Construction Machinery",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10052,8 +10052,8 @@
                 {
                     DegerID = 49,
                     KategoriID = 2,
-                    Deger1 = "Kablo Özel Daimi Komitesi",
-                    Deger2 = "Cable Standing Committee",
+                    DegerAdiTr = "Kablo Özel Daimi Komitesi",
+                    DegerAdiEn = "Cable Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10061,8 +10061,8 @@
                 {
                     DegerID = 50,
                     KategoriID = 2,
-                    Deger1 = "Kapatılan Hazırlık Grupları",
-                    Deger2 = "Closed Preparatory Groups",
+                    DegerAdiTr = "Kapatılan Hazırlık Grupları",
+                    DegerAdiEn = "Closed Preparatory Groups",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10070,8 +10070,8 @@
                 {
                     DegerID = 51,
                     KategoriID = 2,
-                    Deger1 = "Kapatılan ve Birleştirilen Özel Daimi Komiteler",
-                    Deger2 = "Closed and Consolidated Special Permanent Committees",
+                    DegerAdiTr = "Kapatılan ve Birleştirilen Özel Daimi Komiteler",
+                    DegerAdiEn = "Closed and Consolidated Special Permanent Committees",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10079,8 +10079,8 @@
                 {
                     DegerID = 52,
                     KategoriID = 2,
-                    Deger1 = "Kırtasiye Malzemeleri ve Formlar Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee for Stationery Materials and Forms",
+                    DegerAdiTr = "Kırtasiye Malzemeleri ve Formlar Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee for Stationery Materials and Forms",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10088,8 +10088,8 @@
                 {
                     DegerID = 53,
                     KategoriID = 2,
-                    Deger1 = "Kimya İhtisas Grubu",
-                    Deger2 = "Chemistry Specialization Group",
+                    DegerAdiTr = "Kimya İhtisas Grubu",
+                    DegerAdiEn = "Chemistry Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10097,8 +10097,8 @@
                 {
                     DegerID = 54,
                     KategoriID = 2,
-                    Deger1 = "Kimya Sektör Müdürlüğü",
-                    Deger2 = "Chemical Sector Directorate",
+                    DegerAdiTr = "Kimya Sektör Müdürlüğü",
+                    DegerAdiEn = "Chemical Sector Directorate",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10106,8 +10106,8 @@
                 {
                     DegerID = 55,
                     KategoriID = 2,
-                    Deger1 = "Laboratuvarlar Hazırlık Grubu",
-                    Deger2 = "Laboratories Preparation Group",
+                    DegerAdiTr = "Laboratuvarlar Hazırlık Grubu",
+                    DegerAdiEn = "Laboratories Preparation Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10115,8 +10115,8 @@
                 {
                     DegerID = 56,
                     KategoriID = 2,
-                    Deger1 = "Maden İhtisas Grubu",
-                    Deger2 = "Mining Specialization Group",
+                    DegerAdiTr = "Maden İhtisas Grubu",
+                    DegerAdiEn = "Mining Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10124,8 +10124,8 @@
                 {
                     DegerID = 57,
                     KategoriID = 2,
-                    Deger1 = "Makina İhtisas Grubu",
-                    Deger2 = "Machine Specialization Group",
+                    DegerAdiTr = "Makina İhtisas Grubu",
+                    DegerAdiEn = "Machine Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10133,8 +10133,8 @@
                 {
                     DegerID = 58,
                     KategoriID = 2,
-                    Deger1 = "Makine Sektörü Müdürlüğü",
-                    Deger2 = "Machinery Sector Directorate",
+                    DegerAdiTr = "Makine Sektörü Müdürlüğü",
+                    DegerAdiEn = "Machinery Sector Directorate",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10142,8 +10142,8 @@
                 {
                     DegerID = 59,
                     KategoriID = 2,
-                    Deger1 = "Mamul Gıdalar İhtisas Grubu",
-                    Deger2 = "Specialty Food Products Group",
+                    DegerAdiTr = "Mamul Gıdalar İhtisas Grubu",
+                    DegerAdiEn = "Specialty Food Products Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10151,8 +10151,8 @@
                 {
                     DegerID = 60,
                     KategoriID = 2,
-                    Deger1 = "Meslek Standardları İhtisas Grubu",
-                    Deger2 = "Occupational Standards Specialization Group",
+                    DegerAdiTr = "Meslek Standardları İhtisas Grubu",
+                    DegerAdiEn = "Occupational Standards Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10160,8 +10160,8 @@
                 {
                     DegerID = 61,
                     KategoriID = 2,
-                    Deger1 = "Metalurji İhtisas Grubu",
-                    Deger2 = "Metallurgy Specialization Group",
+                    DegerAdiTr = "Metalurji İhtisas Grubu",
+                    DegerAdiEn = "Metallurgy Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10169,8 +10169,8 @@
                 {
                     DegerID = 62,
                     KategoriID = 2,
-                    Deger1 = "Milletlerarası Standardlar Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee on International Standards",
+                    DegerAdiTr = "Milletlerarası Standardlar Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee on International Standards",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10178,8 +10178,8 @@
                 {
                     DegerID = 63,
                     KategoriID = 2,
-                    Deger1 = "Milli Savunma Sanayii İhtisas Grubu",
-                    Deger2 = "National Defense Industry Specialization Group",
+                    DegerAdiTr = "Milli Savunma Sanayii İhtisas Grubu",
+                    DegerAdiEn = "National Defense Industry Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10187,8 +10187,8 @@
                 {
                     DegerID = 64,
                     KategoriID = 2,
-                    Deger1 = "Mühendislik Hizmetleri İhtisas Grubu",
-                    Deger2 = "Engineering Services Specialization Group",
+                    DegerAdiTr = "Mühendislik Hizmetleri İhtisas Grubu",
+                    DegerAdiEn = "Engineering Services Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10196,8 +10196,8 @@
                 {
                     DegerID = 65,
                     KategoriID = 2,
-                    Deger1 = "NBC ve KİS Özel Daimi Komitesi",
-                    Deger2 = "NBC and KIS Special Standing Committee",
+                    DegerAdiTr = "NBC ve KİS Özel Daimi Komitesi",
+                    DegerAdiEn = "NBC and KIS Special Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10205,8 +10205,8 @@
                 {
                     DegerID = 66,
                     KategoriID = 2,
-                    Deger1 = "Nükleer Özel Daimi Komitesi",
-                    Deger2 = "Nuclear Standing Committee",
+                    DegerAdiTr = "Nükleer Özel Daimi Komitesi",
+                    DegerAdiEn = "Nuclear Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10214,8 +10214,8 @@
                 {
                     DegerID = 67,
                     KategoriID = 2,
-                    Deger1 = "Optik ve Optometri Özel Daimi Komitesi",
-                    Deger2 = "Optics and Optometry Special Standing Committee",
+                    DegerAdiTr = "Optik ve Optometri Özel Daimi Komitesi",
+                    DegerAdiEn = "Optics and Optometry Special Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10223,8 +10223,8 @@
                 {
                     DegerID = 68,
                     KategoriID = 2,
-                    Deger1 = "Orman ve Orman Ürünleri İhtisas Grubu",
-                    Deger2 = "Forest and Forest Products Specialization Group",
+                    DegerAdiTr = "Orman ve Orman Ürünleri İhtisas Grubu",
+                    DegerAdiEn = "Forest and Forest Products Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10232,8 +10232,8 @@
                 {
                     DegerID = 69,
                     KategoriID = 2,
-                    Deger1 = "Otomotiv Özel Daimi Komitesi",
-                    Deger2 = "Automotive Special Standing Committee",
+                    DegerAdiTr = "Otomotiv Özel Daimi Komitesi",
+                    DegerAdiEn = "Automotive Special Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10241,8 +10241,8 @@
                 {
                     DegerID = 70,
                     KategoriID = 2,
-                    Deger1 = "Otomotiv Sektör Müdürlüğü",
-                    Deger2 = "Automotive Sector Directorate",
+                    DegerAdiTr = "Otomotiv Sektör Müdürlüğü",
+                    DegerAdiEn = "Automotive Sector Directorate",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10250,8 +10250,8 @@
                 {
                     DegerID = 71,
                     KategoriID = 2,
-                    Deger1 = "Otomotiv ve İnşaat Makinaları Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee for Automotive and Construction Machinery",
+                    DegerAdiTr = "Otomotiv ve İnşaat Makinaları Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee for Automotive and Construction Machinery",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10259,8 +10259,8 @@
                 {
                     DegerID = 72,
                     KategoriID = 2,
-                    Deger1 = "Özel Standardlar Hazırlık Grubu",
-                    Deger2 = "Special Standards Preparation Group",
+                    DegerAdiTr = "Özel Standardlar Hazırlık Grubu",
+                    DegerAdiEn = "Special Standards Preparation Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10268,8 +10268,8 @@
                 {
                     DegerID = 73,
                     KategoriID = 2,
-                    Deger1 = "Petrokimya İhtisas Grubu",
-                    Deger2 = "Petrochemicals Specialization Group",
+                    DegerAdiTr = "Petrokimya İhtisas Grubu",
+                    DegerAdiEn = "Petrochemicals Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10277,8 +10277,8 @@
                 {
                     DegerID = 74,
                     KategoriID = 2,
-                    Deger1 = "Petrol İhtisas Grubu",
-                    Deger2 = "Petroleum Specialization Group",
+                    DegerAdiTr = "Petrol İhtisas Grubu",
+                    DegerAdiEn = "Petroleum Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10286,8 +10286,8 @@
                 {
                     DegerID = 75,
                     KategoriID = 2,
-                    Deger1 = "Plâstik Borular Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee on Plastic Pipes",
+                    DegerAdiTr = "Plâstik Borular Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee on Plastic Pipes",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10295,8 +10295,8 @@
                 {
                     DegerID = 76,
                     KategoriID = 2,
-                    Deger1 = "Radyo-TV Özel Daimi Komitesi",
-                    Deger2 = "Radio-TV Standing Committee",
+                    DegerAdiTr = "Radyo-TV Özel Daimi Komitesi",
+                    DegerAdiEn = "Radio-TV Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10304,8 +10304,8 @@
                 {
                     DegerID = 77,
                     KategoriID = 2,
-                    Deger1 = "Rezerv konular grubu",
-                    Deger2 = "Reserve subject group",
+                    DegerAdiTr = "Rezerv konular grubu",
+                    DegerAdiEn = "Reserve subject group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10313,8 +10313,8 @@
                 {
                     DegerID = 78,
                     KategoriID = 2,
-                    Deger1 = "Sağlık İhtisas Grubu",
-                    Deger2 = "Health Specialization Group",
+                    DegerAdiTr = "Sağlık İhtisas Grubu",
+                    DegerAdiEn = "Health Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10322,8 +10322,8 @@
                 {
                     DegerID = 79,
                     KategoriID = 2,
-                    Deger1 = "Standard Özel Daimi Komitesi",
-                    Deger2 = "Standard Standing Standing Committee",
+                    DegerAdiTr = "Standard Özel Daimi Komitesi",
+                    DegerAdiEn = "Standard Standing Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10331,8 +10331,8 @@
                 {
                     DegerID = 80,
                     KategoriID = 2,
-                    Deger1 = "Şehiriçi Yollar Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee on Urban Roads",
+                    DegerAdiTr = "Şehiriçi Yollar Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee on Urban Roads",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10340,8 +10340,8 @@
                 {
                     DegerID = 81,
                     KategoriID = 2,
-                    Deger1 = "Tahribatsız Muayene Özel Daimi Komitesi",
-                    Deger2 = "Non-Destructive Testing Standing Committee",
+                    DegerAdiTr = "Tahribatsız Muayene Özel Daimi Komitesi",
+                    DegerAdiEn = "Non-Destructive Testing Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10349,8 +10349,8 @@
                 {
                     DegerID = 82,
                     KategoriID = 2,
-                    Deger1 = "Tarım Alet ve Makinaları Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee for Agricultural Equipment and Machinery",
+                    DegerAdiTr = "Tarım Alet ve Makinaları Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee for Agricultural Equipment and Machinery",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10358,8 +10358,8 @@
                 {
                     DegerID = 83,
                     KategoriID = 2,
-                    Deger1 = "Teknik Kurul",
-                    Deger2 = "Technical Committee",
+                    DegerAdiTr = "Teknik Kurul",
+                    DegerAdiEn = "Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10367,8 +10367,8 @@
                 {
                     DegerID = 84,
                     KategoriID = 2,
-                    Deger1 = "Tekstil İhtisas Grubu",
-                    Deger2 = "Textile Specialization Group",
+                    DegerAdiTr = "Tekstil İhtisas Grubu",
+                    DegerAdiEn = "Textile Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10376,8 +10376,8 @@
                 {
                     DegerID = 85,
                     KategoriID = 2,
-                    Deger1 = "Telekomünikasyon Özel Daimi Komitesi",
-                    Deger2 = "Telecommunication Special Standing Committee",
+                    DegerAdiTr = "Telekomünikasyon Özel Daimi Komitesi",
+                    DegerAdiEn = "Telecommunication Special Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10385,8 +10385,8 @@
                 {
                     DegerID = 86,
                     KategoriID = 2,
-                    Deger1 = "Tesisat ve Basınçlı Kaplar Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee on Installation and Pressure Vessels",
+                    DegerAdiTr = "Tesisat ve Basınçlı Kaplar Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee on Installation and Pressure Vessels",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10394,8 +10394,8 @@
                 {
                     DegerID = 87,
                     KategoriID = 2,
-                    Deger1 = "Tıbbi Cihazlar Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee for Medical Devices",
+                    DegerAdiTr = "Tıbbi Cihazlar Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee for Medical Devices",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10403,8 +10403,8 @@
                 {
                     DegerID = 88,
                     KategoriID = 2,
-                    Deger1 = "TK1: Bilişim Teknolojileri Teknik Komitesi",
-                    Deger2 = "TK1: Technical Committee on Information Technologies",
+                    DegerAdiTr = "TK1: Bilişim Teknolojileri Teknik Komitesi",
+                    DegerAdiEn = "TK1: Technical Committee on Information Technologies",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10412,8 +10412,8 @@
                 {
                     DegerID = 89,
                     KategoriID = 2,
-                    Deger1 = "TK10: Yapı Malzemeleri Teknik Komitesi",
-                    Deger2 = "TK10: Technical Committee for Building Materials",
+                    DegerAdiTr = "TK10: Yapı Malzemeleri Teknik Komitesi",
+                    DegerAdiEn = "TK10: Technical Committee for Building Materials",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10421,8 +10421,8 @@
                 {
                     DegerID = 90,
                     KategoriID = 2,
-                    Deger1 = "TK11:İzolasyon, Kaplama ve Yardımcı Yapı Malzemeleri Teknik Komitesi",
-                    Deger2 = "TK11: Technical Committee for Insulation, Coating and Auxiliary Materials",
+                    DegerAdiTr = "TK11:İzolasyon, Kaplama ve Yardımcı Yapı Malzemeleri Teknik Komitesi",
+                    DegerAdiEn = "TK11: Technical Committee for Insulation, Coating and Auxiliary Materials",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10430,8 +10430,8 @@
                 {
                     DegerID = 91,
                     KategoriID = 2,
-                    Deger1 = "TK12: Yapı Güvenliği ve Akustik Teknik Komitesi",
-                    Deger2 = "TK12: Building Safety and Acoustic Technical Committee",
+                    DegerAdiTr = "TK12: Yapı Güvenliği ve Akustik Teknik Komitesi",
+                    DegerAdiEn = "TK12: Building Safety and Acoustic Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10439,8 +10439,8 @@
                 {
                     DegerID = 92,
                     KategoriID = 2,
-                    Deger1 = "TK13: Yapı Güvenliği Teknik Komitesi",
-                    Deger2 = "TK13: Construction Safety Technical Committee",
+                    DegerAdiTr = "TK13: Yapı Güvenliği Teknik Komitesi",
+                    DegerAdiEn = "TK13: Construction Safety Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10448,8 +10448,8 @@
                 {
                     DegerID = 93,
                     KategoriID = 2,
-                    Deger1 = "TK14: Kimya Teknik Komitesi",
-                    Deger2 = "TK14: Chemical Technical Committee",
+                    DegerAdiTr = "TK14: Kimya Teknik Komitesi",
+                    DegerAdiEn = "TK14: Chemical Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10457,8 +10457,8 @@
                 {
                     DegerID = 94,
                     KategoriID = 2,
-                    Deger1 = "TK15: Petrokimya Teknik Komitesi",
-                    Deger2 = "TK15: Petrochemical Technical Committee",
+                    DegerAdiTr = "TK15: Petrokimya Teknik Komitesi",
+                    DegerAdiEn = "TK15: Petrochemical Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10466,8 +10466,8 @@
                 {
                     DegerID = 95,
                     KategoriID = 2,
-                    Deger1 = "TK16: Petrol ve Petrol Ürünleri Teknik Komitesi",
-                    Deger2 = "TK15: Petrochemical Technical Committee",
+                    DegerAdiTr = "TK16: Petrol ve Petrol Ürünleri Teknik Komitesi",
+                    DegerAdiEn = "TK15: Petrochemical Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10475,8 +10475,8 @@
                 {
                     DegerID = 96,
                     KategoriID = 2,
-                    Deger1 = "TK17: Maden Teknik Komitesi",
-                    Deger2 = "TK17: Mining Technical Committee",
+                    DegerAdiTr = "TK17: Maden Teknik Komitesi",
+                    DegerAdiEn = "TK17: Mining Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10484,8 +10484,8 @@
                 {
                     DegerID = 97,
                     KategoriID = 2,
-                    Deger1 = "TK18: İmalat Makineleri ve Takımları Teknik Komitesi",
-                    Deger2 = "TK18: Technical Committee on Manufacturing Machinery and Teams",
+                    DegerAdiTr = "TK18: İmalat Makineleri ve Takımları Teknik Komitesi",
+                    DegerAdiEn = "TK18: Technical Committee on Manufacturing Machinery and Teams",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10493,8 +10493,8 @@
                 {
                     DegerID = 98,
                     KategoriID = 2,
-                    Deger1 = "TK19: Otomotiv Teknik Komitesi",
-                    Deger2 = "TK19: Automotive Technical Committee",
+                    DegerAdiTr = "TK19: Otomotiv Teknik Komitesi",
+                    DegerAdiEn = "TK19: Automotive Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10502,8 +10502,8 @@
                 {
                     DegerID = 99,
                     KategoriID = 2,
-                    Deger1 = "TK2: Çevre Teknik Komitesi",
-                    Deger2 = "TK2: Environmental Technical Committee",
+                    DegerAdiTr = "TK2: Çevre Teknik Komitesi",
+                    DegerAdiEn = "TK2: Environmental Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10511,8 +10511,8 @@
                 {
                     DegerID = 100,
                     KategoriID = 2,
-                    Deger1 = "TK20: Makine Güvenliği Teknik Komitesi",
-                    Deger2 = "TK20: Technical Committee on Machine Safety",
+                    DegerAdiTr = "TK20: Makine Güvenliği Teknik Komitesi",
+                    DegerAdiEn = "TK20: Technical Committee on Machine Safety",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10520,8 +10520,8 @@
                 {
                     DegerID = 101,
                     KategoriID = 2,
-                    Deger1 = "TK21: Tesisat, Isıtma, Soğutma ve Havalandırma Teknik Komitesi",
-                    Deger2 = "TK20: Technical Committee on Machine Safety...",
+                    DegerAdiTr = "TK21: Tesisat, Isıtma, Soğutma ve Havalandırma Teknik Komitesi",
+                    DegerAdiEn = "TK20: Technical Committee on Machine Safety...",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10529,8 +10529,8 @@
                 {
                     DegerID = 102,
                     KategoriID = 2,
-                    Deger1 = "TK22: Tesisat ve Basınçlı Kaplar Teknik Komitesi",
-                    Deger2 = "TK22: Technical Committee on Installation and Pressure Vessels",
+                    DegerAdiTr = "TK22: Tesisat ve Basınçlı Kaplar Teknik Komitesi",
+                    DegerAdiEn = "TK22: Technical Committee on Installation and Pressure Vessels",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10538,8 +10538,8 @@
                 {
                     DegerID = 103,
                     KategoriID = 2,
-                    Deger1 = "TK23: Metalürji Teknik Komitesi",
-                    Deger2 = "TK23: Metallurgical Technical Committee",
+                    DegerAdiTr = "TK23: Metalürji Teknik Komitesi",
+                    DegerAdiEn = "TK23: Metallurgical Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10547,8 +10547,8 @@
                 {
                     DegerID = 104,
                     KategoriID = 2,
-                    Deger1 = "TK24: Gıda Teknik Komitesi",
-                    Deger2 = "TK24: Food Technical Committee",
+                    DegerAdiTr = "TK24: Gıda Teknik Komitesi",
+                    DegerAdiEn = "TK24: Food Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10556,8 +10556,8 @@
                 {
                     DegerID = 105,
                     KategoriID = 2,
-                    Deger1 = "TK25: Ziraat Teknik Komitesi",
-                    Deger2 = "TK25: Agricultural Technical Committee",
+                    DegerAdiTr = "TK25: Ziraat Teknik Komitesi",
+                    DegerAdiEn = "TK25: Agricultural Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10565,8 +10565,8 @@
                 {
                     DegerID = 106,
                     KategoriID = 2,
-                    Deger1 = "TK26: Kişisel Koruyucu ve Oyun Alanı Donanım Teknik Komitesi",
-                    Deger2 = "TK26: Personal Protective and Playground Hardware Technical Committee",
+                    DegerAdiTr = "TK26: Kişisel Koruyucu ve Oyun Alanı Donanım Teknik Komitesi",
+                    DegerAdiEn = "TK26: Personal Protective and Playground Hardware Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10574,8 +10574,8 @@
                 {
                     DegerID = 107,
                     KategoriID = 2,
-                    Deger1 = "TK27: Yangın Teknik Komitesi",
-                    Deger2 = "TK27: Fire Technical Committee",
+                    DegerAdiTr = "TK27: Yangın Teknik Komitesi",
+                    DegerAdiEn = "TK27: Fire Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10583,8 +10583,8 @@
                 {
                     DegerID = 108,
                     KategoriID = 2,
-                    Deger1 = "TK28: Ambalaj Teknik Komitesi",
-                    Deger2 = "TK28: Packaging Technical Committee",
+                    DegerAdiTr = "TK28: Ambalaj Teknik Komitesi",
+                    DegerAdiEn = "TK28: Packaging Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10592,8 +10592,8 @@
                 {
                     DegerID = 109,
                     KategoriID = 2,
-                    Deger1 = "TK29: Yönetim Sistemleri Teknik Komitesi",
-                    Deger2 = "TK29: Management Systems Technical Committee",
+                    DegerAdiTr = "TK29: Yönetim Sistemleri Teknik Komitesi",
+                    DegerAdiEn = "TK29: Management Systems Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10601,8 +10601,8 @@
                 {
                     DegerID = 110,
                     KategoriID = 2,
-                    Deger1 = "TK3: Elektrik Elektroteknik ve Güvenlik Teknik Komitesi",
-                    Deger2 = "TK3: Technical Committee on Electrical Electrical and Security",
+                    DegerAdiTr = "TK3: Elektrik Elektroteknik ve Güvenlik Teknik Komitesi",
+                    DegerAdiEn = "TK3: Technical Committee on Electrical Electrical and Security",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10610,8 +10610,8 @@
                 {
                     DegerID = 111,
                     KategoriID = 2,
-                    Deger1 = "TK30: Enerji ve Enerji Sistemleri Teknik Komitesi",
-                    Deger2 = "TK30: Technical Committee on Energy and Energy Systems",
+                    DegerAdiTr = "TK30: Enerji ve Enerji Sistemleri Teknik Komitesi",
+                    DegerAdiEn = "TK30: Technical Committee on Energy and Energy Systems",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10619,8 +10619,8 @@
                 {
                     DegerID = 112,
                     KategoriID = 2,
-                    Deger1 = "TK31: Orman ve Orman Ürünleri Teknik Komitesi",
-                    Deger2 = "TK31: Technical Committee on Forestry and Forest Products",
+                    DegerAdiTr = "TK31: Orman ve Orman Ürünleri Teknik Komitesi",
+                    DegerAdiEn = "TK31: Technical Committee on Forestry and Forest Products",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10628,8 +10628,8 @@
                 {
                     DegerID = 113,
                     KategoriID = 2,
-                    Deger1 = "TK32: Sağlık Teknik Komitesi",
-                    Deger2 = "TK32: Health Technical Committee",
+                    DegerAdiTr = "TK32: Sağlık Teknik Komitesi",
+                    DegerAdiEn = "TK32: Health Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10637,8 +10637,8 @@
                 {
                     DegerID = 114,
                     KategoriID = 2,
-                    Deger1 = "TK33: Medikal Teknik Komitesi",
-                    Deger2 = "TK33: Medical Technical Committee",
+                    DegerAdiTr = "TK33: Medikal Teknik Komitesi",
+                    DegerAdiEn = "TK33: Medical Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10646,8 +10646,8 @@
                 {
                     DegerID = 115,
                     KategoriID = 2,
-                    Deger1 = "TK34: Tekstil Teknik Komitesi",
-                    Deger2 = "TK34: Textile Technical Committee",
+                    DegerAdiTr = "TK34: Tekstil Teknik Komitesi",
+                    DegerAdiEn = "TK34: Textile Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10655,8 +10655,8 @@
                 {
                     DegerID = 116,
                     KategoriID = 2,
-                    Deger1 = "TK35: Elektrik ve Elektronik Yetkili Servisleri Teknik Komitesi",
-                    Deger2 = "TK35: Technical Committee for Electrical and Electronics Authorized Services",
+                    DegerAdiTr = "TK35: Elektrik ve Elektronik Yetkili Servisleri Teknik Komitesi",
+                    DegerAdiEn = "TK35: Technical Committee for Electrical and Electronics Authorized Services",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10664,8 +10664,8 @@
                 {
                     DegerID = 117,
                     KategoriID = 2,
-                    Deger1 = "TK36: Milli Savunma Teknik Komitesi",
-                    Deger2 = "TK36: National Defense Technical Committee",
+                    DegerAdiTr = "TK36: Milli Savunma Teknik Komitesi",
+                    DegerAdiEn = "TK36: National Defense Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10673,8 +10673,8 @@
                 {
                     DegerID = 118,
                     KategoriID = 2,
-                    Deger1 = "TK37: Helal Teknik Komitesi",
-                    Deger2 = "TK37: Halal Technical Committee",
+                    DegerAdiTr = "TK37: Helal Teknik Komitesi",
+                    DegerAdiEn = "TK37: Halal Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10682,8 +10682,8 @@
                 {
                     DegerID = 119,
                     KategoriID = 2,
-                    Deger1 = "TK38: Sosyal Hizmetler Teknik Komitesi",
-                    Deger2 = "TK38: Social Services Technical Committee",
+                    DegerAdiTr = "TK38: Sosyal Hizmetler Teknik Komitesi",
+                    DegerAdiEn = "TK38: Social Services Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10691,8 +10691,8 @@
                 {
                     DegerID = 120,
                     KategoriID = 2,
-                    Deger1 = "TK39: Mekanik ve Elektromekanik Yetkili Servisleri Teknik Komitesi",
-                    Deger2 = "TK39: Technical Committee for Mechanical and Electromechanical Authorized Services",
+                    DegerAdiTr = "TK39: Mekanik ve Elektromekanik Yetkili Servisleri Teknik Komitesi",
+                    DegerAdiEn = "TK39: Technical Committee for Mechanical and Electromechanical Authorized Services",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10700,8 +10700,8 @@
                 {
                     DegerID = 121,
                     KategoriID = 2,
-                    Deger1 = "TK4: Elektrik Üretim,İletim Ve Dağıtım Teknik Komitesi",
-                    Deger2 = "TK4: Electricity Production, Transmission and Distribution Technical Committee",
+                    DegerAdiTr = "TK4: Elektrik Üretim,İletim Ve Dağıtım Teknik Komitesi",
+                    DegerAdiEn = "TK4: Electricity Production, Transmission and Distribution Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10709,8 +10709,8 @@
                 {
                     DegerID = 122,
                     KategoriID = 2,
-                    Deger1 = "TK40: Demiryolu Teknik Komitesi",
-                    Deger2 = "TK40: Railway Technical Committee",
+                    DegerAdiTr = "TK40: Demiryolu Teknik Komitesi",
+                    DegerAdiEn = "TK40: Railway Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10718,8 +10718,8 @@
                 {
                     DegerID = 123,
                     KategoriID = 2,
-                    Deger1 = "TK41: Uzay ve Havacılık Teknik Komitesi",
-                    Deger2 = "TK41: Space and Aviation Technical Committee",
+                    DegerAdiTr = "TK41: Uzay ve Havacılık Teknik Komitesi",
+                    DegerAdiEn = "TK41: Space and Aviation Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10727,8 +10727,8 @@
                 {
                     DegerID = 124,
                     KategoriID = 2,
-                    Deger1 = "TK42: Nükleer Teknik Komitesi",
-                    Deger2 = "TK42: Nuclear Technical Committee",
+                    DegerAdiTr = "TK42: Nükleer Teknik Komitesi",
+                    DegerAdiEn = "TK42: Nuclear Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10736,8 +10736,8 @@
                 {
                     DegerID = 125,
                     KategoriID = 2,
-                    Deger1 = "TK43: Tercüme-1 Teknik Komitesi",
-                    Deger2 = "TK43: Translation-1 Technical Committee",
+                    DegerAdiTr = "TK43: Tercüme-1 Teknik Komitesi",
+                    DegerAdiEn = "TK43: Translation-1 Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10745,8 +10745,8 @@
                 {
                     DegerID = 126,
                     KategoriID = 2,
-                    Deger1 = "TK44: Tercüme-2 Teknik Komitesi",
-                    Deger2 = "TK44: Translation-2 Technical Committee",
+                    DegerAdiTr = "TK44: Tercüme-2 Teknik Komitesi",
+                    DegerAdiEn = "TK44: Translation-2 Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10754,8 +10754,8 @@
                 {
                     DegerID = 127,
                     KategoriID = 2,
-                    Deger1 = "TK45: İş Sağlığı ve Güvenliği Teknik Komitesi",
-                    Deger2 = "TK45: Technical Committee on Occupational Health and Safety",
+                    DegerAdiTr = "TK45: İş Sağlığı ve Güvenliği Teknik Komitesi",
+                    DegerAdiEn = "TK45: Technical Committee on Occupational Health and Safety",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10763,8 +10763,8 @@
                 {
                     DegerID = 128,
                     KategoriID = 2,
-                    Deger1 = "TK46: Süs Bitkileri",
-                    Deger2 = "TK46: Ornamental plants",
+                    DegerAdiTr = "TK46: Süs Bitkileri",
+                    DegerAdiEn = "TK46: Ornamental plants",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10772,8 +10772,8 @@
                 {
                     DegerID = 129,
                     KategoriID = 2,
-                    Deger1 = "TK5: Aydınlatma ve Bina İçi Tesisleri İle Yardımcı Donanımları Teknik Komitesi",
-                    Deger2 = "TK5: Technical Committee on Lighting and Building Facilities and Auxiliary Equipment",
+                    DegerAdiTr = "TK5: Aydınlatma ve Bina İçi Tesisleri İle Yardımcı Donanımları Teknik Komitesi",
+                    DegerAdiEn = "TK5: Technical Committee on Lighting and Building Facilities and Auxiliary Equipment",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10781,8 +10781,8 @@
                 {
                     DegerID = 130,
                     KategoriID = 2,
-                    Deger1 = "TK6: İletkenler, Kablolar Ve Yalıtım Malzemeleri Teknik Komitesi",
-                    Deger2 = "TK5: Technical Committee on Lighting and Building Facilities and Auxiliary Equipment",
+                    DegerAdiTr = "TK6: İletkenler, Kablolar Ve Yalıtım Malzemeleri Teknik Komitesi",
+                    DegerAdiEn = "TK5: Technical Committee on Lighting and Building Facilities and Auxiliary Equipment",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10790,8 +10790,8 @@
                 {
                     DegerID = 131,
                     KategoriID = 2,
-                    Deger1 = "TK7: Yüksek Gerilim Teknikleri ve Yıldırımdan Korunma Sistemleri Teknik Komitesi",
-                    Deger2 = "TK7: Technical Committee on High Voltage Techniques and Lightning Protection Systems",
+                    DegerAdiTr = "TK7: Yüksek Gerilim Teknikleri ve Yıldırımdan Korunma Sistemleri Teknik Komitesi",
+                    DegerAdiEn = "TK7: Technical Committee on High Voltage Techniques and Lightning Protection Systems",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10799,8 +10799,8 @@
                 {
                     DegerID = 132,
                     KategoriID = 2,
-                    Deger1 = "TK8: Elektronik Teknik Komitesi",
-                    Deger2 = "TK8: Electronic Technical Committee",
+                    DegerAdiTr = "TK8: Elektronik Teknik Komitesi",
+                    DegerAdiEn = "TK8: Electronic Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10808,8 +10808,8 @@
                 {
                     DegerID = 133,
                     KategoriID = 2,
-                    Deger1 = "TK9: Sanayi Hizmetleri Teknik Komitesi",
-                    Deger2 = "TK9: Industrial Services Technical Committee",
+                    DegerAdiTr = "TK9: Sanayi Hizmetleri Teknik Komitesi",
+                    DegerAdiEn = "TK9: Industrial Services Technical Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10817,8 +10817,8 @@
                 {
                     DegerID = 134,
                     KategoriID = 2,
-                    Deger1 = "TSEK Özel Daimi Komitesi",
-                    Deger2 = "TSEK Special Standing Committee",
+                    DegerAdiTr = "TSEK Özel Daimi Komitesi",
+                    DegerAdiEn = "TSEK Special Standing Committee",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10826,8 +10826,8 @@
                 {
                     DegerID = 135,
                     KategoriID = 2,
-                    Deger1 = "TSE-Yapılarda Tahribatsız Muayene Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee on Non-Destructive Testing in TSE-Structures",
+                    DegerAdiTr = "TSE-Yapılarda Tahribatsız Muayene Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee on Non-Destructive Testing in TSE-Structures",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10835,8 +10835,8 @@
                 {
                     DegerID = 136,
                     KategoriID = 2,
-                    Deger1 = "Ulusal Teknik Onay Esas Belirleme Komisyonu",
-                    Deger2 = "National Technical Approval Main Commission",
+                    DegerAdiTr = "Ulusal Teknik Onay Esas Belirleme Komisyonu",
+                    DegerAdiEn = "National Technical Approval Main Commission",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10844,8 +10844,8 @@
                 {
                     DegerID = 137,
                     KategoriID = 2,
-                    Deger1 = "Yangın Özel Daimi Komitesi",
-                    Deger2 = "Special Standing Committee for Fire",
+                    DegerAdiTr = "Yangın Özel Daimi Komitesi",
+                    DegerAdiEn = "Special Standing Committee for Fire",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10853,8 +10853,8 @@
                 {
                     DegerID = 138,
                     KategoriID = 2,
-                    Deger1 = "Yapı Malzemeleri ÖDK",
-                    Deger2 = "Construction Materials ÖDK",
+                    DegerAdiTr = "Yapı Malzemeleri ÖDK",
+                    DegerAdiEn = "Construction Materials ÖDK",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10862,8 +10862,8 @@
                 {
                     DegerID = 139,
                     KategoriID = 2,
-                    Deger1 = "Yapı malzemeleri sektörü",
-                    Deger2 = "Building materials sector",
+                    DegerAdiTr = "Yapı malzemeleri sektörü",
+                    DegerAdiEn = "Building materials sector",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10871,8 +10871,8 @@
                 {
                     DegerID = 140,
                     KategoriID = 2,
-                    Deger1 = "Yetkili Servis Standardları İhtisas Grubu",
-                    Deger2 = "Authorized Service Standards Specialization Group",
+                    DegerAdiTr = "Yetkili Servis Standardları İhtisas Grubu",
+                    DegerAdiEn = "Authorized Service Standards Specialization Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10880,8 +10880,8 @@
                 {
                     DegerID = 141,
                     KategoriID = 2,
-                    Deger1 = "Yönetim Sistemleri Geliştirme Sektörü",
-                    Deger2 = "Management Systems Development Sector",
+                    DegerAdiTr = "Yönetim Sistemleri Geliştirme Sektörü",
+                    DegerAdiEn = "Management Systems Development Sector",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10889,8 +10889,8 @@
                 {
                     DegerID = 142,
                     KategoriID = 2,
-                    Deger1 = "Ziraat İhtisas Grubu",
-                    Deger2 = "Agricultural Expert Group",
+                    DegerAdiTr = "Ziraat İhtisas Grubu",
+                    DegerAdiEn = "Agricultural Expert Group",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10898,8 +10898,8 @@
                 {
                     DegerID = 143,
                     KategoriID = 3,
-                    Deger1 = "Tanımsız",
-                    Deger2 = "Undefined",
+                    DegerAdiTr = "Tanımsız",
+                    DegerAdiEn = "Undefined",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10907,8 +10907,8 @@
                 {
                     DegerID = 144,
                     KategoriID = 3,
-                    Deger1 = "A (Tadil Görmüş Standard/Amended standard)",
-                    Deger2 = "A (Standard / Amended standard)",
+                    DegerAdiTr = "A (Tadil Görmüş Standard/Amended standard)",
+                    DegerAdiEn = "A (Standard / Amended standard)",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10916,8 +10916,8 @@
                 {
                     DegerID = 145,
                     KategoriID = 3,
-                    Deger1 = "H (İptal Edilmiş Standard/Withdrawn standard)",
-                    Deger2 = "H (Canceled Standard / Withdrawn standard)",
+                    DegerAdiTr = "H (İptal Edilmiş Standard/Withdrawn standard)",
+                    DegerAdiEn = "H (Canceled Standard / Withdrawn standard)",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10925,8 +10925,8 @@
                 {
                     DegerID = 146,
                     KategoriID = 3,
-                    Deger1 = "N (Yeni Standard/New standard)",
-                    Deger2 = "EN (New Standard)",
+                    DegerAdiTr = "N (Yeni Standard/New standard)",
+                    DegerAdiEn = "EN (New Standard)",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10934,8 +10934,8 @@
                 {
                     DegerID = 147,
                     KategoriID = 3,
-                    Deger1 = "U (Yürürlükteki Standard/Standard)",
-                    Deger2 = "U (Current Standard / Standard)",
+                    DegerAdiTr = "U (Yürürlükteki Standard/Standard)",
+                    DegerAdiEn = "U (Current Standard / Standard)",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10943,8 +10943,8 @@
                 {
                     DegerID = 148,
                     KategoriID = 3,
-                    Deger1 = "W (Yeni İptal Edilen Standard/Withdrawn standard)",
-                    Deger2 = "W (New Canceled Standard / Withdrawn standard)",
+                    DegerAdiTr = "W (Yeni İptal Edilen Standard/Withdrawn standard)",
+                    DegerAdiEn = "W (New Canceled Standard / Withdrawn standard)",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10952,8 +10952,8 @@
                 {
                     DegerID = 149,
                     KategoriID = 3,
-                    Deger1 = "A veya N veya U",
-                    Deger2 = "A or N or U",
+                    DegerAdiTr = "A veya N veya U",
+                    DegerAdiEn = "A or N or U",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10961,8 +10961,8 @@
                 {
                     DegerID = 150,
                     KategoriID = 3,
-                    Deger1 = "H veya W",
-                    Deger2 = "H or W",
+                    DegerAdiTr = "H veya W",
+                    DegerAdiEn = "H or W",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10970,8 +10970,8 @@
                 {
                     DegerID = 151,
                     KategoriID = 4,
-                    Deger1 = "Tanımsız",
-                    Deger2 = "Undefined",
+                    DegerAdiTr = "Tanımsız",
+                    DegerAdiEn = "Undefined",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10979,8 +10979,8 @@
                 {
                     DegerID = 152,
                     KategoriID = 4,
-                    Deger1 = "Kural",
-                    Deger2 = "Rule",
+                    DegerAdiTr = "Kural",
+                    DegerAdiEn = "Rule",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10988,8 +10988,8 @@
                 {
                     DegerID = 153,
                     KategoriID = 4,
-                    Deger1 = "Metot",
-                    Deger2 = "Method",
+                    DegerAdiTr = "Metot",
+                    DegerAdiEn = "Method",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -10997,8 +10997,8 @@
                 {
                     DegerID = 154,
                     KategoriID = 5,
-                    Deger1 = "Cep Telefonu",
-                    Deger2 = "Mobile Phone",
+                    DegerAdiTr = "Cep Telefonu",
+                    DegerAdiEn = "Mobile Phone",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -11006,8 +11006,8 @@
                 {
                     DegerID = 155,
                     KategoriID = 5,
-                    Deger1 = "Ev Telefonu",
-                    Deger2 = "Home Phone",
+                    DegerAdiTr = "Ev Telefonu",
+                    DegerAdiEn = "Home Phone",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -11015,8 +11015,8 @@
                 {
                     DegerID = 156,
                     KategoriID = 5,
-                    Deger1 = "İş Telefonu",
-                    Deger2 = "Office Phone",
+                    DegerAdiTr = "İş Telefonu",
+                    DegerAdiEn = "Office Phone",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -11024,8 +11024,8 @@
                 {
                     DegerID = 157,
                     KategoriID = 5,
-                    Deger1 = "Faks",
-                    Deger2 = "Fax",
+                    DegerAdiTr = "Faks",
+                    DegerAdiEn = "Fax",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -11033,8 +11033,8 @@
                 {
                     DegerID = 158,
                     KategoriID = 6,
-                    Deger1 = "Ev Adresi",
-                    Deger2 = "Home Address",
+                    DegerAdiTr = "Ev Adresi",
+                    DegerAdiEn = "Home Address",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -11042,8 +11042,8 @@
                 {
                     DegerID = 159,
                     KategoriID = 6,
-                    Deger1 = "İş Adresi",
-                    Deger2 = "Business Address",
+                    DegerAdiTr = "İş Adresi",
+                    DegerAdiEn = "Business Address",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -11051,8 +11051,8 @@
                 {
                     DegerID = 160,
                     KategoriID = 6,
-                    Deger1 = "Fatura Adresi",
-                    Deger2 = "Billing Address",
+                    DegerAdiTr = "Fatura Adresi",
+                    DegerAdiEn = "Billing Address",
                     SiraNo = 0,
                     DurumID = 1
                 },
@@ -11060,41 +11060,102 @@
                 {
                     DegerID = 161,
                     KategoriID = 7,
-                    Deger1 = "İçerik - Atıf Yapılan Standart/Döküman",
-                    Deger2 = "Content - Cited Standard / Document",
-                    SiraNo = 0,
+                    DegerAdiTr = "İçerik - Atıf Yapılan Standart/Döküman",
+                    DegerAdiEn = "Content - Cited Standard / Document",
+                    SiraNo = 5,
                     DurumID = 1
                 },
                 new Deger
                 {
                     DegerID = 162,
                     KategoriID = 7,
-                    Deger1 = "İçerik - Ön Söz",
-                    Deger2 = "Content - Audit",
-                    SiraNo = 0,
+                    DegerAdiTr = "İçerik - Ön Söz",
+                    DegerAdiEn = "Content - Audit",
+                    SiraNo = 2,
                     DurumID = 1
                 },
                 new Deger
                 {
                     DegerID = 163,
                     KategoriID = 7,
-                    Deger1 = "İçerik - Metin",
-                    Deger2 = "İçerik - Text",
-                    SiraNo = 0,
+                    DegerAdiTr = "İçerik - Metin",
+                    DegerAdiEn = "İçerik - Text",
+                    SiraNo = 4,
                     DurumID = 1
                 },
                 new Deger
                 {
                     DegerID = 164,
                     KategoriID = 7,
-                    Deger1 = "Denetim - Bölüm",
-                    Deger2 = "Denetim - Bölüm",
-                    SiraNo = 0,
+                    DegerAdiTr = "Denetim - Bölüm",
+                    DegerAdiEn = "Denetim - Bölüm",
+                    SiraNo = 7,
                     DurumID = 1
                 },
                 new Deger
                 {
                     DegerID = 165,
+                    KategoriID = 7,
+                    DegerAdiTr = "İçerik - Açıklama",
+                    DegerAdiEn = "Content - Description",
+                    DurumID = 1
+                },                
+                new Deger
+                {
+                    DegerID = 166,
+                    KategoriID = 7,
+                    DegerAdiTr = "İçerik - İçindekiler",
+                    DegerAdiEn = "Content - Index",
+                    DurumID = 1
+                },                
+                new Deger
+                {
+                    DegerID = 167,
+                    KategoriID = 7,
+                    DegerAdiTr = "İçerik - Bölüm",
+                    DegerAdiEn = "Content - Section",
+                    DurumID = 1
+                },
+                new Deger
+                {
+                    DegerID = 168,
+                    KategoriID = 7,
+                    DegerAdiTr = "Denetim - Tablo",
+                    DegerAdiEn = "Control - Table",
+                    DurumID = 1
+                }
+                ,
+                new Deger
+                {
+                    DegerID = 169,
+                    KategoriID = 7,
+                    DegerAdiTr = "Denetim - Metin",
+                    DegerAdiEn = "Control - Text",
+                    DurumID = 1
+                }
+            });
+            #endregion        
+
+            #region //StandartIcerikTipiSablon
+            context.StandartIcerikTipiSablonlar.AddRange(new List<StandartIcerikTipiSablon>
+            {
+                new StandartIcerikTipiSablon
+                {
+                    StandartIcerikTipiSablonID = 1,
+                    StandarIcerikTipiID = 165,
+                    Baslik = "K-Q TSE-ISO-EN 9000 - TSE - TSEK",
+                    Detay = $"<ul><li>Bugünkü teknik ve uygulamaya dayanılarak hazırlanmış olan bu standardın, zamanla ortaya çıkacak gelişme ve değişikliklere uydurulması mümkün olduğundan ilgililerin yayınları izlemelerini ve standardın uygulanmasında karşılaştıkları aksaklıkları Enstitümüze iletmelerini rica ederiz.</li><li>Bu standardı oluşturan İhtisas Grubu üyesi değerli uzmanların emeklerini; tasarılar üzerinde görüşlerini bildirmek suretiyle yardımcı olan bilim, kamu ve özel sektör kuruluşları ile kişilerin değerli katkılarınışükranla anarız.</li></ul><p><img src='{Resource.CdnDomain}/Content/Backoffice/Images/StandartAciklama/k-q-tse-iso-en-9000.png' alt='K-Q-TSE-ISO-EN-9000' /><b>Kalite Sistem Belgesi</b><br>İmalât ve hizmet sektörlerinde faaliyet gösteren kuruluşların sistemlerini TS EN ISO 9000 Kalite Standardlarına uygun olarak kurmaları durumunda TSE tarafından verilen belgedir.</p><p><img src='{Resource.CdnDomain}/Content/Backoffice/Images/StandartAciklama/tse.png' alt='TSE' /><b>Türk Standardlarına Uygunluk Markası (TSE Markası)</b><br>TSE Markası, üzerine veya ambalâjına konulduğu malların veya hizmetin ilgili Türk Standardına uygun olduğunu ve mamulle veya hizmetle ilgili bir problem ortaya çıktığında Türk Standardları Enstitüsü’nün garantisi altında olduğunu ifade eder.</p><p><img src='{Resource.CdnDomain}/Content/Backoffice/Images/StandartAciklama/TSEK.png' alt='TSEK' /><b>Kritere Uygunluk Belgesi (TSEK Markası Kullanma Hakkı)</b><br>Kritere Uygunluk Belgesi; Türk Standardları bulunmayan konularda firmaların ürünlerinin ilgili uluslararası standardlar, benzeri Türk Standardları, diğer ülkelerin milli standardları, teknik literatür esas alınarak Türk Standardları Enstitüsü tarafından kabul edilen Kalite Faktör ve Değerlerine uygunluğunu belirten ve akdedilen sözleşme ile TSEK Markası kullanma hakkı verilen firma adına düzenlenen ve üzerinde TSEK Markası kullanılacak ürünlerin ticari Markası, cinsi, sınıfı, tipi ve türünü belirten geçerlilik süresi bir yıl olan belgedir.</p><p><h3>DİKKAT!</h3><br>TS işareti ve yanında yer alan sayı tek başına iken (TS 4600 gibi), mamulün Türk Standardına uygun üretildiğine dair üreticinin beyanını ifade eder. <b>Türk Standardları Enstitüsü tarafından herhangi bir garanti söz konusu değildir.</b></p><p class='text-align:center'><i><b>Standardlar ve standardizasyon konusunda daha geniş bilgi Enstitümüzde sağlanabilir.</i>TÜRK STANDARDLARININ YAYIN HAKLARI SAKLIDIR.</b></p>",
+                    DurumID = 1                
+                }
+            });
+            #endregion
+
+            #region //StandartAtifTipiSablon
+            context.StandartAtifTipiSablonlar.AddRange( new List<StandartAtifTipiSablon>
+            {
+                new StandartAtifTipiSablon
+                {
+                    StandartAtifTipiSablonID = 1,
                     KategoriID = 8,
                     Deger1 = "ISO/IEC 15489-1",
                     Deger2 = "Information and documentation – Records management – Part 1: General",
@@ -11102,9 +11163,9 @@
                     Deger4 = "Bilgi ve dokümantasyon - Belge yönetimi Bölüm 1: Genel",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 166,
+                    StandartAtifTipiSablonID = 2,
                     KategoriID = 8,
                     Deger1 = "ISO/IEC 15489-2",
                     Deger2 = "Information and documentation – Records management – Part 2:Guidelines",
@@ -11112,9 +11173,9 @@
                     Deger4 = "Bilgi ve dokümantasyon - Belge yönetimi - Bölüm 2: Kılavuzlar",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 167,
+                    StandartAtifTipiSablonID = 3,
                     KategoriID = 8,
                     Deger1 = "ISO/IEC 27001",
                     Deger2 = "Information technology - Security techniques - Information security management systems - Requirements",
@@ -11122,9 +11183,9 @@
                     Deger4 = "Bilgi teknolojisi - Güvenlik teknikleri - Bilgi güvenliği yönetim sistemleri – Gereksinimler",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 168,
+                    StandartAtifTipiSablonID = 4,
                     KategoriID = 8,
                     Deger1 = "ISO 8601",
                     Deger2 = "Data elements and interchange formats - Information interchange - Representation of dates and times",
@@ -11132,9 +11193,9 @@
                     Deger4 = "Veri elemanları ve değişim formatları - Bilgi değişimi - Tarih ve zamanın gösterimi",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 169,
+                    StandartAtifTipiSablonID = 5,
                     KategoriID = 8,
                     Deger1 = "ISO/IEC 25051",
                     Deger2 = "Software engineering – Software product Quality Requirements and Evaluation (SQuaRE) – Requirements for quality of Commercial Off - The - Shelf(COTS) software product and instructions for testing",
@@ -11142,9 +11203,9 @@
                     Deger4 = "Yazılım mühendisliği - Yazılım ürünü kalite gereksinimleri ve değerlendirmesi(SQuaRE) – Ticari kullanıma hazır(COTS) yazılım ürünü kalitesi için gereksinimler ve test yönergeleri",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 170,
+                    StandartAtifTipiSablonID = 6,
                     KategoriID = 8,
                     Deger1 = "ISO/IEC 15408-1",
                     Deger2 = "Information technology -Security techniques -Evaluation criteria for IT security - Part 1: Introduction and general model",
@@ -11152,9 +11213,9 @@
                     Deger4 = "Bilgi teknolojisi - Güvenlik teknikleri - Bilgi teknolojisi güvenliği için değerlendirme kriterleri - Bölüm 1: Giriş ve genel model",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 171,
+                    StandartAtifTipiSablonID = 7,
                     KategoriID = 8,
                     Deger1 = "ISO/IEC 15408-2",
                     Deger2 = "Information technology -Security techniques -Evaluation criteria for IT security - Part 2: Security functional requirements",
@@ -11162,9 +11223,9 @@
                     Deger4 = "Bilgi teknolojisi - Güvenlik teknikleri - Bilgi teknolojisi güvenliği için değerlendirme kriterleri - Bölüm 2:Güvenlik fonksiyonel bileşenleri",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 172,
+                    StandartAtifTipiSablonID = 8,
                     KategoriID = 8,
                     Deger1 = "ISO/IEC 15408-3",
                     Deger2 = "Information technology -Security techniques -Evaluation criteria for IT security - Part 3: Security assurance requirements",
@@ -11172,130 +11233,76 @@
                     Deger4 = "Bilgi teknolojisi - Güvenlik teknikleri - Bilgi teknolojisi güvenliği için değerlendirme kriterleri - Bölüm 3:Güvenlik garanti bileşenleri",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 173,
+                    StandartAtifTipiSablonID = 9,
                     KategoriID = 9,
                     Deger1 = "e-Yazışma Teknik Rehberi",
                     Deger2 = "T.C. Kalkınma Bakanlığı Bilgi Toplumu Daire Başkanlığı",
                     Deger3 = "28 Temmuz 2006 tarihli ve 26242 sayılı Resmi Gazetede yayımlanan 2006/38 sayılı Yüksek Planlama Kurulu Kararı ile uygulamaya konan Bilgi Toplumu Stratejisi eki Eylem Planı’nda yer verilen 73 no’lu 'Ortak Hizmetlerin Oluşturulması' eylemi kapsamında geliştirilmiştir.",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 174,
+                    StandartAtifTipiSablonID = 10,
                     KategoriID = 9,
                     Deger1 = "Kayıtlı Elektronik Posta e-Yazışma Projesi İstemci Kütüphaneleri Geliştirici Kılavuzu",
                     Deger2 = "Bilgi Teknolojileri ve İletişim Kurumu (BTK)",
                     Deger3 = "Kayıtlı Elektronik Posta Sistemine İlişkin Usul ve Esaslar Hakkında Yönetmelik, 25 Ağustos 2011 tarih ve 28036 sayılı Resmi Gazete",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 175,
+                    StandartAtifTipiSablonID = 11,
                     KategoriID = 9,
                     Deger1 = "Elektronik Doküman ve Belge Yönetim Sistemi TSE-CCCS-PP-003 Koruma Profili",
                     Deger2 = "Türk Standardları Enstitüsü (TSE)",
                     Deger3 = "2013/4890 sayılı Bakanlar Kurulu Kararı doğrultusunda yayımlanan 20 Haziran 2013 tarihli ve 28683 sayılı Resmi Gazetede yayımlanarak yürürlüğe giren Ulusal Siber Güvenlik Stratejisi ve Eylem Planı Madde 12.",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 176,
+                    StandartAtifTipiSablonID = 12,
                     KategoriID = 9,
                     Deger1 = "Temel Seviye Güvenlik Belgelendirme Kılavuzu",
                     Deger2 = "Türk Standardları Enstitüsü (TSE)",
                     Deger3 = "2013/4890 sayılı Bakanlar Kurulu Kararı doğrultusunda yayımlanan 20 Haziran 2013 tarihli ve 28683 sayılı Resmi Gazetede yayımlanarak yürürlüğe giren Ulusal Siber Güvenlik Stratejisi ve Eylem Planı Madde 12.",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 177,
+                    StandartAtifTipiSablonID = 13,
                     KategoriID = 9,
                     Deger1 = "Birlikte Çalışabilirlik Esasları Rehberi",
                     Deger2 = "T.C. Kalkınma Bakanlığı Bilgi Toplumu Daire Başkanlığı",
                     Deger3 = "2009/4 Sayılı Başbakanlık Genelgesi, Kamu Bilgi Sistemlerinde Birlikte Çalışabilirlik Esasları, 28 Şubat 2009 tarihli ve 27155 sayılı Resmi Gazete",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 178,
+                    StandartAtifTipiSablonID = 14,
                     KategoriID = 9,
                     Deger1 = "Resmi Yazışma Kuralları",
                     Deger2 = "Başbakanlık İdareyi Geliştirme Başkanlığı",
                     Deger3 = "Resmî Yazışmalarda Uygulanacak Usul Ve Esaslar Hakkında Yönetmelik, 2 Şubat 2015 tarih ve 25658 Sayılı Resmi Gazete",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 179,
+                    StandartAtifTipiSablonID = 15,
                     KategoriID = 9,
                     Deger1 = "Standart Dosya Planı",
                     Deger2 = "Başbakanlık Devlet Arşivleri Genel Müdürlüğü",
                     Deger3 = "2005/7 Sayılı Başbakanlık Genelgesi, 25 Mart 2005 tarih ve 25766 sayılı Resmi Gazete",
                     DurumID = 1
                 },
-                new Deger
+                new StandartAtifTipiSablon
                 {
-                    DegerID = 180,
+                    StandartAtifTipiSablonID = 16,
                     KategoriID = 9,
                     Deger1 = "Devlet Teşkilatı VeriTabanı",
                     Deger2 = "Başbakanlık İdareyi Geliştirme Başkanlığı",
                     Deger3 = "2011/1 Sayılı Başbakanlık Genelgesi, 10 Şubat2011 tarih ve 27842 sayılı Resmi Gazete",
-                    DurumID = 1
-                },
-                new Deger
-                {
-                    DegerID = 181,
-                    KategoriID = 7,
-                    Deger1 = "İçerik - Açıklama",
-                    Deger2 = "Content - Description",
-                    DurumID = 1
-                },                
-                new Deger
-                {
-                    DegerID = 182,
-                    KategoriID = 7,
-                    Deger1 = "İçerik - İçindekiler",
-                    Deger2 = "Content - Index",
-                    DurumID = 1
-                },                
-                new Deger
-                {
-                    DegerID = 183,
-                    KategoriID = 7,
-                    Deger1 = "İçerik - Bölüm",
-                    Deger2 = "Content - Section",
-                    DurumID = 1
-                },
-                new Deger
-                {
-                    DegerID = 184,
-                    KategoriID = 7,
-                    Deger1 = "Denetim - Tablo",
-                    Deger2 = "Control - Table",
-                    DurumID = 1
-                }
-                ,
-                new Deger
-                {
-                    DegerID = 186,
-                    KategoriID = 7,
-                    Deger1 = "Denetim - Metin",
-                    Deger2 = "Control - Text",
-                    DurumID = 1
-                }
-            });
-            #endregion
-
-            #region //StandartAciklama
-            context.StandartAciklamalar.AddRange(new List<StandartAciklama>
-            {
-                new StandartAciklama
-                {
-                    StandartAciklamaID = 1,
-                    Baslik = "K-Q TSE-ISO-EN 9000 - TSE - TSEK",
-                    Detay = $"<ul><li>Bugünkü teknik ve uygulamaya dayanılarak hazırlanmış olan bu standardın, zamanla ortaya çıkacak gelişme ve değişikliklere uydurulması mümkün olduğundan ilgililerin yayınları izlemelerini ve standardın uygulanmasında karşılaştıkları aksaklıkları Enstitümüze iletmelerini rica ederiz.</li><li>Bu standardı oluşturan İhtisas Grubu üyesi değerli uzmanların emeklerini; tasarılar üzerinde görüşlerini bildirmek suretiyle yardımcı olan bilim, kamu ve özel sektör kuruluşları ile kişilerin değerli katkılarınışükranla anarız.</li></ul><p><img src='{Resource.CdnDomain}/Content/Backoffice/Images/StandartAciklama/k-q-tse-iso-en-9000.png' alt='K-Q-TSE-ISO-EN-9000' /><b>Kalite Sistem Belgesi</b><br>İmalât ve hizmet sektörlerinde faaliyet gösteren kuruluşların sistemlerini TS EN ISO 9000 Kalite Standardlarına uygun olarak kurmaları durumunda TSE tarafından verilen belgedir.</p><p><img src='{Resource.CdnDomain}/Content/Backoffice/Images/StandartAciklama/tse.png' alt='TSE' /><b>Türk Standardlarına Uygunluk Markası (TSE Markası)</b><br>TSE Markası, üzerine veya ambalâjına konulduğu malların veya hizmetin ilgili Türk Standardına uygun olduğunu ve mamulle veya hizmetle ilgili bir problem ortaya çıktığında Türk Standardları Enstitüsü’nün garantisi altında olduğunu ifade eder.</p><p><img src='{Resource.CdnDomain}/Content/Backoffice/Images/StandartAciklama/TSEK.png' alt='TSEK' /><b>Kritere Uygunluk Belgesi (TSEK Markası Kullanma Hakkı)</b><br>Kritere Uygunluk Belgesi; Türk Standardları bulunmayan konularda firmaların ürünlerinin ilgili uluslararası standardlar, benzeri Türk Standardları, diğer ülkelerin milli standardları, teknik literatür esas alınarak Türk Standardları Enstitüsü tarafından kabul edilen Kalite Faktör ve Değerlerine uygunluğunu belirten ve akdedilen sözleşme ile TSEK Markası kullanma hakkı verilen firma adına düzenlenen ve üzerinde TSEK Markası kullanılacak ürünlerin ticari Markası, cinsi, sınıfı, tipi ve türünü belirten geçerlilik süresi bir yıl olan belgedir.</p><p><h3>DİKKAT!</h3><br>TS işareti ve yanında yer alan sayı tek başına iken (TS 4600 gibi), mamulün Türk Standardına uygun üretildiğine dair üreticinin beyanını ifade eder. <b>Türk Standardları Enstitüsü tarafından herhangi bir garanti söz konusu değildir.</b></p><p class='text-align:center'><i><b>Standardlar ve standardizasyon konusunda daha geniş bilgi Enstitümüzde sağlanabilir.</i>TÜRK STANDARDLARININ YAYIN HAKLARI SAKLIDIR.</b></p>",
                     DurumID = 1
                 }
             });
@@ -11391,7 +11398,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 8,
-                            DegerID = 165,
+                            StandartAtifTipiSablonID = 1,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11399,7 +11406,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 8,
-                            DegerID = 166,
+                            StandartAtifTipiSablonID = 2,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11407,7 +11414,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 8,
-                            DegerID = 167,
+                            StandartAtifTipiSablonID = 3,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11415,7 +11422,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 8,
-                            DegerID = 168,
+                            StandartAtifTipiSablonID = 4,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11423,7 +11430,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 8,
-                            DegerID = 169,
+                            StandartAtifTipiSablonID = 5,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11431,7 +11438,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 8,
-                            DegerID = 170,
+                            StandartAtifTipiSablonID = 6,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11439,7 +11446,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 8,
-                            DegerID = 171,
+                            StandartAtifTipiSablonID = 7,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11447,7 +11454,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 8,
-                            DegerID = 172,
+                            StandartAtifTipiSablonID = 8,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11455,7 +11462,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 9,
-                            DegerID = 173,
+                            StandartAtifTipiSablonID = 9,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11463,7 +11470,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 9,
-                            DegerID = 174,
+                            StandartAtifTipiSablonID = 10,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11471,7 +11478,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 9,
-                            DegerID = 175,
+                            StandartAtifTipiSablonID = 11,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11479,7 +11486,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 9,
-                            DegerID = 176,
+                            StandartAtifTipiSablonID = 12,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11487,7 +11494,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 9,
-                            DegerID = 177,
+                            StandartAtifTipiSablonID = 13,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11495,7 +11502,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 9,
-                            DegerID = 178,
+                            StandartAtifTipiSablonID = 14,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11503,7 +11510,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 9,
-                            DegerID = 179,
+                            StandartAtifTipiSablonID = 15,
                             DurumID = 1
                         },
                         new StandartAtif
@@ -11511,7 +11518,7 @@
                             StandartID = 1,
                             StandartIcerikID = 4,
                             KategoriID = 9,
-                            DegerID = 180,
+                            StandartAtifTipiSablonID = 16,
                             DurumID = 1
                         }
                     }

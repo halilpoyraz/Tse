@@ -29,13 +29,13 @@
         public virtual ICollection<ParaBirimi> ParaBirimleri { get; set; }
         public virtual ICollection<Sehir> Sehirler { get; set; }
         public virtual ICollection<Standart> Standartlar { get; set; }        
-        public virtual ICollection<StandartAciklama> StandartAciklamalar { get; set; }
+        public virtual ICollection<StandartIcerikTipiSablon> StandartIcerikTipiSablonlar { get; set; }
         public virtual ICollection<StandartAtif> StandartAtiflar { get; set; }
         public virtual ICollection<StandartIcerik> StandartIcerikler  { get; set; }
         public virtual ICollection<Telefon> Telefonlar { get; set; }
         public virtual ICollection<Ulke> Ulkeler { get; set; }
         public virtual ICollection<FaturaBilgi> FaturaBilgileri { get; set; }
-
+        public virtual ICollection<StandartAtifTipiSablon> StandartAtifTipiSablonlar { get; set; }
 
         // Methods
     }

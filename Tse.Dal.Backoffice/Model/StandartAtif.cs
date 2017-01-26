@@ -21,8 +21,8 @@
         [Display(Name ="Kategori")]
         public int KategoriID { get; set; }
 
-        [Display(Name ="Değer")]
-        public int DegerID { get; set; }
+        [Display(Name ="Standart Atıf Tipi")]
+        public int StandartAtifTipiSablonID { get; set; }
 
         [Display(Name ="Sıra")]
         public int SiraNo { get; set; }
@@ -32,7 +32,7 @@
 
 
         //Navigation Properties
-        public virtual Deger Deger { get; set; }
+        public virtual StandartAtifTipiSablon StandartAtifTipiSablon { get; set; }
         public virtual Durum Durum { get; set; }
         public virtual Kategori Kategori { get; set; }
         public virtual Standart Standart { get; set; }
