@@ -31,10 +31,10 @@ namespace Tse.Dal.Backoffice.Model
         public virtual DbSet<StandartAtifTipiSablon> StandartAtifTipiSablonlar { get; set; }
         public virtual DbSet<StandartIcerik> StandartIcerikler { get; set; }
         public virtual DbSet<StandartIcerikDenetim> StandartIcerikDenetimler { get; set; }
+        public virtual DbSet<StandartIcerikPuan> StandartIcerikPuanlar { get; set; }
         public virtual DbSet<StandartIcerikTipiSablon> StandartIcerikTipiSablonlar { get; set; }
         public virtual DbSet<Telefon> Telefonlar { get; set; }
         public virtual DbSet<Ulke> Ulkeler { get; set; }
-
 
         //Methods
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -59,6 +59,8 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<StandartAtif>().ToTable("Standart.StandartAtif");
             modelBuilder.Entity<StandartIcerik>().ToTable("Standart.StandartIcerik");
             modelBuilder.Entity<StandartIcerikDenetim>().ToTable("Standart.StandartIcerikDenetim");
+            modelBuilder.Entity<StandartIcerikPuan>().ToTable("Standart.StandartIcerikPuan");
+            modelBuilder.Entity<StandartIcerikPuan>().ToTable("Standart.StandartIcerikPuan");
             modelBuilder.Entity<StandartIcerikTipiSablon>().ToTable("Standart.StandartIcerikTipiSablon");
             modelBuilder.Entity<Telefon>().ToTable("Kisi.Telefon");
             modelBuilder.Entity<Ulke>().ToTable("Tanimlama.Ulke");
@@ -93,6 +95,7 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<Durum>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.StandartAtifTipiSablonlar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.StandartIcerikDenetimler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Durum>().HasMany(e => e.StandartIcerikPuanlar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Firma>().HasMany(e => e.Telefonlar).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
             modelBuilder.Entity<Firma>().HasMany(e => e.FaturaBilgileri).WithOptional(e => e.Firma).WillCascadeOnDelete(false);

@@ -11079,7 +11079,7 @@
                     DegerID = 163,
                     KategoriID = 7,
                     DegerAdiTr = "İçerik - Metin",
-                    DegerAdiEn = "İçerik - Text",
+                    DegerAdiEn = "Content - Text",
                     SiraNo = 4,
                     DurumID = 1
                 },
@@ -11088,8 +11088,8 @@
                     DegerID = 164,
                     KategoriID = 7,
                     DegerAdiTr = "Denetim - Bölüm",
-                    DegerAdiEn = "Denetim - Bölüm",
-                    SiraNo = 7,
+                    DegerAdiEn = "Control - Section",
+                    SiraNo = 20,
                     DurumID = 1
                 },
                 new Deger
@@ -11098,6 +11098,7 @@
                     KategoriID = 7,
                     DegerAdiTr = "İçerik - Açıklama",
                     DegerAdiEn = "Content - Description",
+                    SiraNo = 1,
                     DurumID = 1
                 },                
                 new Deger
@@ -11106,6 +11107,7 @@
                     KategoriID = 7,
                     DegerAdiTr = "İçerik - İçindekiler",
                     DegerAdiEn = "Content - Index",
+                    SiraNo = 3,
                     DurumID = 1
                 },                
                 new Deger
@@ -11114,6 +11116,7 @@
                     KategoriID = 7,
                     DegerAdiTr = "İçerik - Bölüm",
                     DegerAdiEn = "Content - Section",
+                    SiraNo = 6,
                     DurumID = 1
                 },
                 new Deger
@@ -11122,15 +11125,25 @@
                     KategoriID = 7,
                     DegerAdiTr = "Denetim - Tablo",
                     DegerAdiEn = "Control - Table",
+                    SiraNo = 21,
                     DurumID = 1
-                }
-                ,
+                },
                 new Deger
                 {
                     DegerID = 169,
                     KategoriID = 7,
                     DegerAdiTr = "Denetim - Metin",
                     DegerAdiEn = "Control - Text",
+                    SiraNo = 22,
+                    DurumID = 1
+                },
+                new Deger
+                {
+                    DegerID = 170,
+                    KategoriID = 7,
+                    DegerAdiTr = "İçerik - Dipnot",
+                    DegerAdiEn = "Content - Footnote",
+                    SiraNo = 7,
                     DurumID = 1
                 }
             });
@@ -13159,6 +13172,33 @@
                     BilgiAmacli = false,
                     KurumYeterlilikSertifikasi = false,
                     UrunSertifikasi = true,
+                    DurumID = 1
+                }
+            });
+            #endregion
+
+            #region //StandartIcerikPuan
+            context.StandartIcerikPuanlar.AddRange(new List<StandartIcerikPuan>
+            {
+                new StandartIcerikPuan
+                {
+                    StandartIcerikPuanID = 1,                    
+                    TipAdi = "Seçmeli",
+                    Puan = 5,
+                    DurumID = 1
+                },
+                new StandartIcerikPuan
+                {
+                    StandartIcerikPuanID = 2,                    
+                    TipAdi = "Zorunlu",
+                    Puan = 10,
+                    DurumID = 1
+                },
+                new StandartIcerikPuan
+                {
+                    StandartIcerikPuanID = 3,                   
+                    TipAdi = "Bilgi Amaçlı",
+                    Puan = 1,
                     DurumID = 1
                 }
             });
