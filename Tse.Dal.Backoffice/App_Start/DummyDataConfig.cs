@@ -13134,6 +13134,36 @@
             });
             #endregion
 
+            #region //StandartIcerikDenetim
+            context.StandartIcerikDenetimler.AddRange(new List<StandartIcerikDenetim>
+            {
+                new StandartIcerikDenetim
+                {
+                    StandartIcerikDenetimID = 1,
+                    StandartID = 1,
+                    StandartIcerikID = 19,
+                    Secmeli = false,
+                    Zorunlu = true,
+                    BilgiAmacli = false,
+                    KurumYeterlilikSertifikasi = true,
+                    UrunSertifikasi = true,
+                    DurumID = 1
+                },
+                new StandartIcerikDenetim
+                {
+                    StandartIcerikDenetimID = 1,
+                    StandartID = 1,
+                    StandartIcerikID = 20,
+                    Secmeli = false,
+                    Zorunlu = true,
+                    BilgiAmacli = false,
+                    KurumYeterlilikSertifikasi = false,
+                    UrunSertifikasi = true,
+                    DurumID = 1
+                }
+            });
+            #endregion
+
             #region //Kisi
             context.Kisiler.AddRange(new List<Kisi>
             {

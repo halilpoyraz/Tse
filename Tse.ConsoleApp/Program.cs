@@ -29,6 +29,7 @@
                 Console.WriteLine($"Standart ({context.Standartlar.Count()})");
                 Console.WriteLine($"StandartAtif ({context.StandartAtiflar.Count()})");
                 Console.WriteLine($"StandartIcerik ({context.StandartIcerikler.Count()})");
+                Console.WriteLine($"StandartIcerikDenetim ({context.StandartIcerikDenetimler.Count()})");
                 Console.WriteLine($"StandartIcerikTipiSablon ({context.StandartIcerikTipiSablonlar.Count()})");
                 Console.WriteLine($"Telefon ({context.Telefonlar.Count()})");
                 Console.WriteLine($"StandartAtifTipiSablon ({context.StandartAtifTipiSablonlar.Count()})");

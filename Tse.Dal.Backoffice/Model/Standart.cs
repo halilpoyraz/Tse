@@ -107,6 +107,7 @@
 
         public virtual ICollection<StandartAtif> StandartAtiflar { get; set; }
 
+        public virtual ICollection<StandartIcerikDenetim> StandartIcerikDenetimler { get; set; }
 
         // Methods
     }
