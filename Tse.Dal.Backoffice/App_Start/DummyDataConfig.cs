@@ -5,7 +5,7 @@
     using System.Collections.Generic;
     using System.Data.Entity;
 
-    public partial class DummyDataConfig : DropCreateDatabaseAlways<TseBackofficeContext>
+    public partial class DummyDataConfig : DropCreateDatabaseIfModelChanges<TseBackofficeContext>
     {
         //Methods    
         protected override void Seed(TseBackofficeContext context)
