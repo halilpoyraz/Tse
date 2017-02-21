@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tse.Cdn", "Tse.Cdn\Tse.Cdn.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tse.Dal.Backoffice", "Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj", "{95F787BC-3A21-4185-B11E-18DE6EEED164}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tse.UI.Web.Backoffice", "Tse.UI.Web.Backoffice\Tse.UI.Web.Backoffice.csproj", "{FC50C40D-16AF-4222-8CF1-E590BF60F470}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{95F787BC-3A21-4185-B11E-18DE6EEED164}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95F787BC-3A21-4185-B11E-18DE6EEED164}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95F787BC-3A21-4185-B11E-18DE6EEED164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC50C40D-16AF-4222-8CF1-E590BF60F470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC50C40D-16AF-4222-8CF1-E590BF60F470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC50C40D-16AF-4222-8CF1-E590BF60F470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC50C40D-16AF-4222-8CF1-E590BF60F470}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

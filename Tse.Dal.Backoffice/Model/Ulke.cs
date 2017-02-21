@@ -1,5 +1,5 @@
 ﻿namespace Tse.Dal.Backoffice.Model
-{
+{    
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
@@ -25,9 +25,6 @@
         public virtual ICollection<Adres> Adresler { get; set; }
         public virtual Durum Durum { get; set; }        
         public virtual ICollection<Sehir> Sehirler { get; set; }
-        
-
-
-        // Methods
+       
     }
 }
