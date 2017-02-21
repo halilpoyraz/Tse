@@ -72,7 +72,7 @@ namespace Tse.UI.Web.Backoffice
                     "~/Content/assets/global/scripts/datatable.js",
                     "~/Content/assets/global/plugins/datatables/datatables.min.js",
                     "~/Content/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js",
-                    "~/Content/assets/pages/scripts/table-datatables-editable.js",
+                    "~/Content/assets/apps/scripts/table-datatables-ulke.js",
                     "~/Content/assets/global/plugins/bootstrap-table/bootstrap-table.js",
                     "~/Content/assets/global/plugins/bootstrap-table-contextmenu/bootstrap-table-contextmenu.js"
                     ));

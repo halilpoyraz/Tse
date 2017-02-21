@@ -45,7 +45,7 @@
             oTable.fnDraw();
         }
 
-        var table = $('#dataTable');
+        var table = $('#table1');
 
         var oTable = table.dataTable({
 
@@ -55,27 +55,27 @@
             //"dom": "<'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
 
             "lengthMenu": [
-                [5, 15, 20, -1],
-                [5, 15, 20, "Tamamı"] // Tablo kayıt sayıları
+                [10, 20, 100, -1],
+                [10, 20, 100, "Hepsi"] // change per page values here
             ],
 
             // Or you can use remote translation file
             //"language": {
-            //   url: '//cdn.datatables.net/plug-ins/3cfcc339e89/i18n/Portuguese.json'
+            //   url: '//cdn.datatables.net/plug-ins/3cfcc339e89/i18n/Turkish.json'
             //},
 
             // set the initial value
-            "pageLength": 5,
+            "pageLength": 10,
 
             "language": {
-                "lengthMenu": " _MENU_ Kayıt" //tırnak içine yazılmalı Örn:kayıtlar
+                "lengthMenu": " _MENU_ records"
             },
             "columnDefs": [{ // set default column settings
                 'orderable': true,
-                'targets': [0]
+                'targets': [0, 1, 2]
             }, {
                 "searchable": true,
-                "targets": [0]
+                "targets": [0, 1, 2]
             }],
             "order": [
                 [0, "asc"]

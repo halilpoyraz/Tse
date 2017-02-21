@@ -231,6 +231,7 @@
     <Content Include="Content\assets\apps\scripts\calendar.min.js" />
     <Content Include="Content\assets\apps\scripts\inbox.js" />
     <Content Include="Content\assets\apps\scripts\inbox.min.js" />
+    <Content Include="Content\assets\apps\scripts\table-datatables-ulke.js" />
     <Content Include="Content\assets\apps\scripts\todo-2.js" />
     <Content Include="Content\assets\apps\scripts\todo-2.min.js" />
     <Content Include="Content\assets\apps\scripts\todo.js" />
@@ -5710,7 +5711,6 @@
     <Content Include="Content\assets\pages\scripts\table-datatables-buttons.min.js" />
     <Content Include="Content\assets\pages\scripts\table-datatables-colreorder.js" />
     <Content Include="Content\assets\pages\scripts\table-datatables-colreorder.min.js" />
-    <Content Include="Content\assets\pages\scripts\table-datatables-editable.js" />
     <Content Include="Content\assets\pages\scripts\table-datatables-editable.min.js" />
     <Content Include="Content\assets\pages\scripts\table-datatables-fixedheader.js" />
     <Content Include="Content\assets\pages\scripts\table-datatables-fixedheader.min.js" />
