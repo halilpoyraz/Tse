@@ -205,6 +205,7 @@
     <Compile Include="Controllers\SehirController.cs" />
     <Compile Include="Controllers\StandartController.cs" />
     <Compile Include="Controllers\UlkeController.cs" />
+    <Compile Include="Controllers\UlkesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -231,6 +232,7 @@
     <Content Include="Content\assets\apps\scripts\calendar.min.js" />
     <Content Include="Content\assets\apps\scripts\inbox.js" />
     <Content Include="Content\assets\apps\scripts\inbox.min.js" />
+    <Content Include="Content\assets\apps\scripts\table-datatables-sehir.js" />
     <Content Include="Content\assets\apps\scripts\table-datatables-ulke.js" />
     <Content Include="Content\assets\apps\scripts\todo-2.js" />
     <Content Include="Content\assets\apps\scripts\todo-2.min.js" />
@@ -6175,7 +6177,7 @@
     <None Include="Properties\PublishProfiles\backoffice.tse.org.tr.pubxml" />
     <Content Include="Views\Baslangic\guncellemeler.cshtml" />
     <Content Include="Views\Ulke\tum-ulkeler.cshtml" />
-    <Content Include="Views\Ulke\yeni-ulke.cshtml" />
+    <Content Include="Views\Ulke\yeni-ulke-ekle.cshtml" />
     <Content Include="Views\Sehir\tum-sehirler.cshtml" />
     <Content Include="Views\Sehir\yeni-sehir.cshtml" />
     <Content Include="Views\Ilce\tum-ilceler.cshtml" />
@@ -6191,6 +6193,11 @@
     <Content Include="Views\Kategori\standart-icerik-tipi.cshtml" />
     <Content Include="Views\Kategori\atif-yapilan-standart-tipi.cshtml" />
     <Content Include="Views\Kategori\atif-yapilan-dokuman-tipi.cshtml" />
+    <Content Include="Views\Ulkes\Create.cshtml" />
+    <Content Include="Views\Ulkes\Delete.cshtml" />
+    <Content Include="Views\Ulkes\Details.cshtml" />
+    <Content Include="Views\Ulkes\Edit.cshtml" />
+    <Content Include="Views\Ulkes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

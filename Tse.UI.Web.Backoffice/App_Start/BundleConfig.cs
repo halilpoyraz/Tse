@@ -12,6 +12,11 @@ namespace Tse.UI.Web.Backoffice
                     "~/Content/assets/global/plugins/simple-line-icons/simple-line-icons.css",
                     "~/Content/assets/global/plugins/bootstrap/css/bootstrap.css",
                     "~/Content/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.css",
+                    "~/Content/assets/global/plugins/select2/css/select2.css",
+                    "~/Content/assets/global/plugins/select2/css/select2-bootstrap.min.css",
+                    "~/Content/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css",
+                    "~/Content/assets/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css",
+                    "~/Content//assets/global/plugins/bootstrap-markdown/css/bootstrap-markdown.min.css",
                     "~/Content/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.css",
                     "~/Content/assets/global/plugins/morris/morris.css",
                     "~/Content/assets/global/plugins/fullcalendar/fullcalendar.css",
@@ -28,7 +33,16 @@ namespace Tse.UI.Web.Backoffice
                     ));
 
             bundles.Add(new ScriptBundle("~/bundles/script").Include(                                
-                    "~/Content/assets/global/plugins/bootstrap/js/bootstrap.js",
+                    "~/Content/assets/global/plugins/bootstrap/js/bootstrap.js", //Used
+                    "~/Content/assets/global/plugins/select2/js/select2.full.js", //Used
+                    "~/Content/assets/global/plugins/jquery-validation/js/jquery.validate.js", //Used
+                    "~/Content/assets/global/plugins/jquery-validation/js/additional-methods.js", //Used
+                    "~/Content/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js", //Used
+                    "~/Content/assets/global/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js", //Used
+                    "~/Content/assets/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js", //USed
+                    "~/Content/assets/global/plugins/ckeditor/ckeditor.js", //Used
+                    "~/Content/assets/global/plugins/bootstrap-markdown/lib/markdown.js", //Used
+                    "~/Content/assets/global/plugins/bootstrap-markdown/js/bootstrap-markdown.js", //Used
                     "~/Content/assets/global/plugins/js.cookie.min.js",
                     "~/Content/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.js",
                     "~/Content/assets/global/plugins/jquery.blockui.min.js",
@@ -64,17 +78,19 @@ namespace Tse.UI.Web.Backoffice
                     "~/Content/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js",
                     "~/Content/assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js",
                     "~/Content/assets/global/scripts/app.js",
+                    "~/Content/assets/pages/scripts/form-validation.js", //Used
                     "~/Content/assets/pages/scripts/dashboard.js",
                     "~/Content/assets/layouts/layout/scripts/layout.js",
                     "~/Content/assets/layouts/layout/scripts/demo.js",
                     "~/Content/assets/layouts/global/scripts/quick-sidebar.js",
                     "~/Content/assets/layouts/global/scripts/quick-nav.js",
-                    "~/Content/assets/global/scripts/datatable.js",
-                    "~/Content/assets/global/plugins/datatables/datatables.min.js",
-                    "~/Content/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js",
-                    "~/Content/assets/apps/scripts/table-datatables-ulke.js",
-                    "~/Content/assets/global/plugins/bootstrap-table/bootstrap-table.js",
-                    "~/Content/assets/global/plugins/bootstrap-table-contextmenu/bootstrap-table-contextmenu.js"
+                    "~/Content/assets/global/scripts/datatable.js", //Used
+                    "~/Content/assets/global/plugins/datatables/datatables.min.js", //Used
+                    "~/Content/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js", //Used
+                    "~/Content/assets/apps/scripts/table-datatables-ulke.js", //Used
+                    "~/Content/assets/apps/scripts/table-datatables-sehir.js", //Used
+                    "~/Content/assets/global/plugins/bootstrap-table/bootstrap-table.js", //Used
+                    "~/Content/assets/global/plugins/bootstrap-table-contextmenu/bootstrap-table-contextmenu.js" //Used
                     ));
         }
     }

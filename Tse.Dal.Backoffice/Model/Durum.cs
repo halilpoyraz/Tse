@@ -14,7 +14,7 @@
         //Properties
         public int DurumID { get; set; }
 
-        [Display(Name ="Durum Adı") MaxLength(255) Required]
+        [Display(Name ="Durum") MaxLength(255) Required]
         public string DurumAdi { get; set; }
 
 

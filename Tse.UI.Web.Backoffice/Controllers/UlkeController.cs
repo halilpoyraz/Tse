@@ -2,26 +2,34 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data.Entity;
 using System.Web.Mvc;
 using Tse.Dal.Backoffice.Model;
 
 namespace Tse.UI.Web.Backoffice.Controllers
 {
     public class UlkeController : Controller
-    {
-        TseBackofficeContext context = new TseBackofficeContext();
+    {            
         // GET: Ulkeler
         [ActionName("tum-ulkeler")]
         public ActionResult TumUlkeler()
         {
-           List<Ulke> ulke = context.Ulkeler.ToList();
-           return View(ulke);
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                var model = context.Ulkeler.Include(u =>u.Durum).ToList();
+                return View(model);
+            }            
         }
 
-        [ActionName("yeni-ulke")]
-        public ActionResult YeniUlke()
+        [ActionName("yeni-ulke-ekle")]
+        public ActionResult YeniUlkeEkle()
         {
-            return View();
+
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                List<Durum> model = context.Durumlar.ToList();
+                return View(model);
+            }
         }
     }
 }
