@@ -17,7 +17,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="btn-group">
-                            <button class="btn green" onclick="window.location.href = '/sehirler/yeni-sehir'">
+                            <button class="btn green" onclick="window.location.href = '/sehirler/yeni-sehir-ekle'">
                                 Yeni Ülke
                                 <i class="fa fa-plus"></i>
                             </button>
@@ -51,7 +51,7 @@
                         <th data-field="id"> Id </th>
                         <th data-field="ulkeadi"> Ülke Adı </th>
                         <th data-field="sehiradi"> Sehir Adı </th>
-                        <th data-field="durumu"> Durumu </th>
+                        <th data-field="durum"> Durumu </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -96,22 +96,22 @@
                         contextMenu: '#example1-context-menu',
                         onContextMenuItem: function (row, $el) {
                             if ($el.data("item") == "yeni") {
-                                alert("Ekle: " + row.id + ' ' + row.sehiradi + ' ' + row.ulkeadi + ' ' + row.durumu);
+                                alert("Ekle: " + row.id + ' ' + row.sehiradi + ' ' + row.ulkeadi + ' ' + row.durum);
                             }
                             else if ($el.data("item") == "duzenle") {
-                                alert("Düzenle: " + row.id + ' ' + row.sehiradi + ' ' + row.ulkeadi + ' ' + row.durumu);
+                                alert("Düzenle: " + row.id + ' ' + row.sehiradi + ' ' + row.ulkeadi + ' ' + row.durum);
                             }
                             else if ($el.data("item") == "sil") {
-                                alert("Sil: " + row.id + ' ' + row.sehiradi + ' ' + row.ulkeadi + ' ' + row.durumu);
+                                alert("Sil: " + row.id + ' ' + row.sehiradi + ' ' + row.ulkeadi + ' ' + row.durum);
                             }
                             else if ($el.data("item") == "yazdir") {
-                                alert("Yazdır: " + row.id + ' ' + row.sehiradi + ' ' + row.ulkeadi + ' ' + row.durumu);
+                                alert("Yazdır: " + row.id + ' ' + row.sehiradi + ' ' + row.ulkeadi + ' ' + row.durum);
                             }
                             else if ($el.data("item") == "pdf") {
-                                alert("Pdf: " + row.id + ' ' + row.sehiradi + ' ' + row.ulkeadi + ' ' + row.durumu);
+                                alert("Pdf: " + row.id + ' ' + row.sehiradi + ' ' + row.ulkeadi + ' ' + row.durum);
                             }
                             else if ($el.data("item") == "excell") {
-                                alert("Excell: " + row.id + ' ' + row.sehiradi + ' ' + row.ulkeadi + ' ' + row.durumu);
+                                alert("Excell: " + row.id + ' ' + row.sehiradi + ' ' + row.ulkeadi + ' ' + row.durum);
                             }
                         }
                     });

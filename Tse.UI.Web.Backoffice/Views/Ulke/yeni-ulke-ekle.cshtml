@@ -1,5 +1,4 @@
-﻿@using Tse.Dal.Backoffice.Model;
-@model List<Durum>
+﻿@model Tse.UI.Web.Backoffice.Models.UlkeViewModel
 @{
     ViewBag.Title = "Yeni Ülke";
     ViewBag.BreadCrumb1Text = "Başlangıç";
@@ -11,14 +10,13 @@
     ViewBag.HeadText = "Yeni Ülke Ekle";
     ViewBag.SmallText = null;
 }
-
 <div class="row">
     <div class="col-md-12">
         <!-- BEGIN VALIDATION STATES-->
         <div class="portlet light portlet-fit portlet-form">
             <div class="portlet-body">
                 <!-- BEGIN FORM-->
-                <form action="#" id="form_sample_1" class="form-horizontal">
+                <form action="/ulkeler/yeni-ulke-ekle" method="post" id="formYeniUlkeEkle" class="form-horizontal">
                     <div class="form-body">
                         <div class="alert alert-danger display-hide">
                             <button class="close" data-close="alert"></button>                             
@@ -28,26 +26,27 @@
                             <button class="close" data-close="alert"></button> Your form validation is successful!
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-3">
-                                Name
-                                <span class="required"> * </span>
-                            </label>
-                            <div class="col-md-4">
-                                <input type="text" name="name" data-required="1" class="form-control" />
+                            @Html.ValidationMessage(""," * ", new { @class = "required" })
+                            @Html.LabelFor(model => model.Ulke.UlkeAdi, new { @class = "control-label col-md-3" })
+                            
+                            @*<span class="required"> * </span>*@
+
+                            <div class="col-md-4">                                                                
+                                @Html.TextBox("UlkeAdi",null,new { @class="form-control", @data_required = "1" })                               
                             </div>
                         </div>
                         <div class="form-group">                            
                             <label class="control-label col-md-3">
-                                Select
+                                Durum
                                 <span class="required"> * </span>
                             </label>
                             <div class="col-md-4">
-                                <select class="form-control" name="select">                                    
+                                <select class="form-control" name="DurumId">                                    
                                     <option value=""> Seçin.. </option>
-                                    @foreach (var i in Model)
+                                    @foreach (var i in Model.Durumlar)
                                     {
-                                        <option value="@i.DurumID">@i.DurumAdi</option>
-                                    }                                    
+                                        <option value="@i.DurumID"> @i.DurumAdi</option>
+                                    }
                                 </select>
                             </div>
                         </div>

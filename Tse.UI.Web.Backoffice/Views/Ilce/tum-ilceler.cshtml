@@ -12,12 +12,13 @@
 <div class="row">
     <div class="col-md-12">
         <div class="portlet-body">
+            <!-- table toolbar -->
             <div class="table-toolbar">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="btn-group">
-                            <button class="btn green" onclick="window.location.href = '/ilceler/yeni-ilce'">
-                                Yeni İlçe
+                            <button class="btn green" onclick="window.location.href = '/ilceler/yeni-ilce-ekle'">
+                                Yeni Ülke
                                 <i class="fa fa-plus"></i>
                             </button>
                         </div>
@@ -43,14 +44,15 @@
                     </div>
                 </div>
             </div>
-            <table class="table table-striped table-hover table-bordered" id="sample_editable_1">
+            <!-- table -->
+            <table class="table table-striped table-hover" id="ilce">
                 <thead>
                     <tr>
-                        <th> Id </th>
-                        <th> Şehir Adı </th>
-                        <th> İlçe Kodu </th>
-                        <th> İlçe Adı </th>
-                        <th> Durumu </th>
+                        <th data-field="id"> Id </th>
+                        <th data-field="sehiradi"> Şehir Adı </th>
+                        <th data-field="ilceid"> İlçe Kodu </th>
+                        <th data-field="ilceadi"> İlçe Adı </th>
+                        <th data-field="durum"> Durumu </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -66,8 +68,57 @@
                     }
                 </tbody>
             </table>
+            <!-- context menus -->
+            <ul id="example1-context-menu" class="dropdown-menu">
+                <li data-item="yeni">
+                    <a><i class="icon-magnifier-add"></i>Yeni Ekle</a>
+                </li>
+                <li data-item="duzenle">
+                    <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Düzenle</a>
+                </li>
+                <li data-item="sil">
+                    <a><i class="icon-trash"></i>Sil</a>
+                </li>
+                <li class="divider"> </li>
+                <li data-item="yazdir">
+                    <a><i class="icon-printer"></i>Yazdır</a>
+                </li>
+                <li data-item="pdf">
+                    <a><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Pdf Aktar</a>
+                </li>
+                <li data-item="excell">
+                    <a><i class="fa fa-file-excel-o" aria-hidden="true"></i>Excell Aktar</a>
+                </li>
+            </ul>
+            <!-- javascripts -->
+            <script>
+                $(function () {
+                    $('#ilce').bootstrapTable({
+                        rowStyle: "rowStyle",
+                        contextMenu: '#example1-context-menu',
+                        onContextMenuItem: function (row, $el) {
+                            if ($el.data("item") == "yeni") {
+                                alert("Ekle: " + row.id + ' ' + row.sehiradi + ' ' + row.ilceid + ' ' + row.ilceadi + ' ' + row.durum);
+                            }
+                            else if ($el.data("item") == "duzenle") {
+                                alert("Düzenle: " + row.id + ' ' + row.sehiradi + ' ' + row.ilceid + ' ' + row.ilceadi + ' ' + row.durum);
+                            }
+                            else if ($el.data("item") == "sil") {
+                                alert("Sil: " + row.id + ' ' + row.sehiradi + ' ' + row.ilceid + ' ' + row.ilceadi + ' ' + row.durum);
+                            }
+                            else if ($el.data("item") == "yazdir") {
+                                alert("Yazdır: " + row.id + ' ' + row.sehiradi + ' ' + row.ilceid + ' ' + row.ilceadi + ' ' + row.durum);
+                            }
+                            else if ($el.data("item") == "pdf") {
+                                alert("Pdf: " + row.id + ' ' + row.sehiradi + ' ' + row.ilceid + ' ' + row.ilceadi + ' ' + row.durum);
+                            }
+                            else if ($el.data("item") == "excell") {
+                                alert("Excell: " + row.id + ' ' + row.sehiradi + ' ' + row.ilceid + ' ' + row.ilceadi + ' ' + row.durum);
+                            }
+                        }
+                    });
+                });
+            </script>
         </div>
     </div>
 </div>
-
-

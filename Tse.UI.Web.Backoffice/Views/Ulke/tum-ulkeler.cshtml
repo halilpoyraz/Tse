@@ -48,9 +48,9 @@
             <table class="table table-striped table-hover" id="ulke">
                 <thead>
                     <tr>
-                        <th data-field="itemid"> Id </th>
-                        <th data-field="name"> Ülke Adı </th>
-                        <th data-field="price"> Durumu </th>
+                        <th data-field="id"> Id </th>
+                        <th data-field="ulkeadi"> Ülke Adı </th>
+                        <th data-field="durum"> Durumu </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -94,22 +94,22 @@
                     contextMenu: '#example1-context-menu',
                     onContextMenuItem: function(row, $el){
                         if($el.data("item") == "yeni"){
-                            alert("Ekle: " + row.itemid + ' ' + row.name + ' ' + row.price);
+                            alert("Ekle: " + row.id + ' ' + row.ulkeadi + ' ' + row.durum);
                         }
                         else if($el.data("item") == "duzenle"){
-                            alert("Düzenle: " + row.itemid + ' ' + row.name + ' ' + row.price);
+                            alert("Düzenle: " + row.id + ' ' + row.ulkeadi + ' ' + row.durum);
                         }
                         else if($el.data("item") == "sil"){
-                            alert("Sil: " + row.itemid + ' ' + row.name + ' ' + row.price);
+                            alert("Sil: " + row.id + ' ' + row.ulkeadi + ' ' + row.durum);
                         }
                         else if($el.data("item") == "yazdir"){
-                            alert("Yazdır: " + row.itemid + ' ' + row.name + ' ' + row.price);
+                            alert("Yazdır: " + row.id + ' ' + row.ulkeadi + ' ' + row.durum);
                         }
                         else if ($el.data("item") == "pdf") {
-                            alert("Pdf: " + row.itemid + ' ' + row.name + ' ' + row.price);
+                            alert("Pdf: " + row.id + ' ' + row.ulkeadi + ' ' + row.durum);
                         }
                         else if ($el.data("item") == "excell") {
-                            alert("Excell: " + row.itemid + ' ' + row.name + ' ' + row.price);
+                            alert("Excell: " + row.id + ' ' + row.ulkeadi + ' ' + row.durum);
                         }
                     }
                 });

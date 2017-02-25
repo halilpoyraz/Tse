@@ -2,26 +2,43 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data.Entity;
 using System.Web.Mvc;
 using Tse.Dal.Backoffice.Model;
+using Tse.UI.Web.Backoffice.Models;
 
 namespace Tse.UI.Web.Backoffice.Controllers
 {
     public class SehirController : Controller
     {
-        TseBackofficeContext context = new TseBackofficeContext();
         // GET: Sehir
         [ActionName("Tum-sehirler")]
         public ActionResult TumSehirler()
         {
-            var sehir = context.Sehirler.ToList();
-            return View(sehir);
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                var model = context.Sehirler.Include(u => u.Ulke)
+                                            .Include(u => u.Durum).ToList();
+                return View(model);
+            }
         }
 
-        [ActionName("yeni-sehir")]
-        public ActionResult YeniSehir()
+        [ActionName("yeni-sehir-ekle")]
+        public ActionResult YeniSehirEkle()
         {
-            return View();
+            SehirViewModel model = new SehirViewModel();
+            return View(model);
+        }
+
+        [HttpPost ActionName("yeni-sehir-ekle")]
+        public ActionResult YeniSehirEkle(Sehir seh)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                context.Sehirler.Add(seh);
+                context.SaveChanges();
+                return RedirectToAction("yeni-sehir-ekle");
+            }
         }
     }
 }

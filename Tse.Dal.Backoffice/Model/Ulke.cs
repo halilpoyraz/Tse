@@ -14,7 +14,7 @@
         //Properties
         public int UlkeID { get; set; }
 
-        [Display(Name ="Ülke Adı") MaxLength(255) Required]
+        [Display(Name ="Ülke Adı") MaxLength(255) Required(AllowEmptyStrings =false,ErrorMessage ="Tarram Mal mısın?")]
         public string UlkeAdi { get; set; }
 
         [Display(Name ="Durum")]

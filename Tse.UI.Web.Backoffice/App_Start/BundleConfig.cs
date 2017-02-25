@@ -89,6 +89,7 @@ namespace Tse.UI.Web.Backoffice
                     "~/Content/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js", //Used
                     "~/Content/assets/apps/scripts/table-datatables-ulke.js", //Used
                     "~/Content/assets/apps/scripts/table-datatables-sehir.js", //Used
+                    "~/Content/assets/apps/scripts/table-datatables-ilce.js", //Used
                     "~/Content/assets/global/plugins/bootstrap-table/bootstrap-table.js", //Used
                     "~/Content/assets/global/plugins/bootstrap-table-contextmenu/bootstrap-table-contextmenu.js" //Used
                     ));

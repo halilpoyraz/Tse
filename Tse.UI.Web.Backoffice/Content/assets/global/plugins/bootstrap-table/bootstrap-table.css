@@ -65,7 +65,7 @@
     height: 0;
     padding: 0;
     margin: 0;
-    border-left: 1px solid #dddddd;
+    border-left: 1px solid #e6ebef;
 }
 
 .fixed-table-container thead th:first-child {
@@ -109,7 +109,7 @@
 }
 
 .fixed-table-container tbody td {
-    border-left: 1px solid #dddddd;
+    border-left: 1px solid #e6ebef;
 }
 
 .fixed-table-container tbody tr:first-child td {

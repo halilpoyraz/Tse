@@ -18,8 +18,8 @@ namespace Tse.UI.Web.Backoffice.Controllers
             return View(ilce);
         }
 
-        [ActionName("yeni-ilce")]
-        public ActionResult YeniIlce()
+        [ActionName("yeni-ilce-ekle")]
+        public ActionResult YeniIlceEkle()
         {
             return View();
         }

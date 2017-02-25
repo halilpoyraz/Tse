@@ -1,4 +1,4 @@
-﻿var TableDatatablesUlke = function () {
+﻿var TableDatatablesIlce = function () {
     var handleTable = function () {
         function restoreRow(oTable, nRow) {
             var aData = oTable.fnGetData(nRow);
@@ -8,7 +8,7 @@
             }
             oTable.fnDraw();
         }
-        var table = $('#ulke');
+        var table = $('#ilce');
         var oTable = table.dataTable({
             "lengthMenu": [
                 [10, 20, 100, -1],
@@ -20,10 +20,10 @@
             },
             "columnDefs": [{
                 'orderable': true,
-                'targets': [0, 1, 2]
+                'targets': [0, 1, 2, 3, 4]
             }, {
                 "searchable": true,
-                "targets": [0, 1, 2]
+                "targets": [0, 1, 2, 3, 4]
             }],
             "order": [
                 [0, "asc"]
@@ -37,5 +37,5 @@
     };
 }();
 jQuery(document).ready(function() {
-    TableDatatablesUlke.init();
+    TableDatatablesIlce.init();
 });

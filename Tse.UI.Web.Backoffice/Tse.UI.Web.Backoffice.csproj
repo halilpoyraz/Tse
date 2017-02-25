@@ -212,6 +212,8 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\SehirViewModel.cs" />
+    <Compile Include="Models\UlkeViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -232,6 +234,7 @@
     <Content Include="Content\assets\apps\scripts\calendar.min.js" />
     <Content Include="Content\assets\apps\scripts\inbox.js" />
     <Content Include="Content\assets\apps\scripts\inbox.min.js" />
+    <Content Include="Content\assets\apps\scripts\table-datatables-ilce.js" />
     <Content Include="Content\assets\apps\scripts\table-datatables-sehir.js" />
     <Content Include="Content\assets\apps\scripts\table-datatables-ulke.js" />
     <Content Include="Content\assets\apps\scripts\todo-2.js" />
@@ -6179,9 +6182,9 @@
     <Content Include="Views\Ulke\tum-ulkeler.cshtml" />
     <Content Include="Views\Ulke\yeni-ulke-ekle.cshtml" />
     <Content Include="Views\Sehir\tum-sehirler.cshtml" />
-    <Content Include="Views\Sehir\yeni-sehir.cshtml" />
+    <Content Include="Views\Sehir\yeni-sehir-ekle.cshtml" />
     <Content Include="Views\Ilce\tum-ilceler.cshtml" />
-    <Content Include="Views\Ilce\yeni-ilce.cshtml" />
+    <Content Include="Views\Ilce\yeni-ilce-ekle.cshtml" />
     <Content Include="Views\Kisi\tum-kisiler.cshtml" />
     <Content Include="Views\Kisi\yeni-kisi.cshtml" />
     <Content Include="Views\Standart\tum-standartlar.cshtml" />
