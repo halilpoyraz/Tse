@@ -221,6 +221,10 @@
     <Content Include="Content\assets\pages\scripts\baslangic.min.js">
       <DependentUpon>baslangic.js</DependentUpon>
     </Content>
+    <Content Include="Content\assets\pages\scripts\ilce.js" />
+    <Content Include="Content\assets\pages\scripts\ilce.min.js">
+      <DependentUpon>ilce.js</DependentUpon>
+    </Content>
     <Content Include="Content\assets\pages\scripts\sehir.js" />
     <Content Include="Content\assets\pages\scripts\sehir.min.js">
       <DependentUpon>sehir.js</DependentUpon>
@@ -6168,8 +6172,6 @@
     <Content Include="Views\Baslangic\guncellemeler.cshtml" />
     <Content Include="Views\Ulke\listele.cshtml" />
     <Content Include="Views\Ulke\ekle.cshtml" />
-    <Content Include="Views\Ilce\tum-ilceler.cshtml" />
-    <Content Include="Views\Ilce\yeni-ilce-ekle.cshtml" />
     <Content Include="Views\Kisi\tum-kisiler.cshtml" />
     <Content Include="Views\Kisi\yeni-kisi.cshtml" />
     <Content Include="Views\Standart\tum-standartlar.cshtml" />
@@ -6187,6 +6189,9 @@
     <Content Include="Views\Sehir\listele.cshtml" />
     <Content Include="Views\Sehir\ekle.cshtml" />
     <Content Include="Views\Sehir\duzenle.cshtml" />
+    <Content Include="Views\Ilce\listele.cshtml" />
+    <Content Include="Views\Ilce\ekle.cshtml" />
+    <Content Include="Views\Ilce\duzenle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

@@ -32,38 +32,38 @@
                     <div class="col-md-6">                                                
                         <div class="btn-group pull-right">
                             <button class="btn green btn-outline dropdown-toggle" data-toggle="dropdown">
-                                Filtre
-                                <i class="fa fa-angle-down"></i>
+                                Filtrele
+                                <i class="fa fa-filter"></i>
                             </button>                            
                             <ul class="dropdown-menu pull-right">
                                 @if (ViewBag.TumCount > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnTumKayitlar"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Tüm Kayıtlar(@ViewBag.TumCount) </a>
+                                        <a href="javascript:;" id="btnTumKayitlar"><i class="fa fa-filter aria-hidden="true"" aria-hidden="true"></i> Tüm Kayıtlar(@ViewBag.TumCount) </a>
                                     </li>
                                 }
                                 @if (ViewBag.AktifCount > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnAktif"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Aktif (@ViewBag.AktifCount) </a>
+                                        <a href="javascript:;" id="btnAktif"><i class="fa fa-filter"></i> Aktif (@ViewBag.AktifCount) </a>
                                     </li>
                                 }
                                 @if (ViewBag.PasifCount > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnPasif"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Pasif (@ViewBag.PasifCount) </a>
+                                        <a href="javascript:;" id="btnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@ViewBag.PasifCount) </a>
                                     </li>
                                 }
                                 @if (ViewBag.TaslakCount > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnTaslak"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Taslak (@ViewBag.TaslakCount) </a>
+                                        <a href="javascript:;" id="btnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@ViewBag.TaslakCount) </a>
                                     </li>
                                 }
                                 @if (ViewBag.SilinmisCount > 0)
                                 {
                                 <li>
-                                    <a href="javascript:;" id="btnSilinmis"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Silinmiş (@ViewBag.SilinmisCount) </a>
+                                    <a href="javascript:;" id="btnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@ViewBag.SilinmisCount) </a>
                                 </li>                              
                                  }
                             </ul>

@@ -1,18 +1,18 @@
 ﻿@using Tse.Dal.Backoffice.Model;
-@model IEnumerable<Ulke>
+@model IEnumerable<Ilce>
 @{
-    ViewBag.Title = "Ülkeler";
+    ViewBag.Title = "İlçeler";
     ViewBag.BreadCrumb1Text = "Başlangıç";
     ViewBag.BreadCrumb1Link = "/baslangic/gosterge-paneli";
-    ViewBag.BreadCrumb2Text = "Ülkeler";
+    ViewBag.BreadCrumb2Text = "İlçeler";
     ViewBag.BreadCrumb2Link = null;
-    ViewBag.HeadText = "Tüm Ülkeler";
+    ViewBag.HeadText = "Tüm İlçeler";
     ViewBag.SmallText = null;
 
     //Render Section
     @section renderSection
         {        
-        <script type="text/javascript" src="~/Content/assets/pages/scripts/ulke.min.js"></script>        
+        <script type="text/javascript" src="~/Content/assets/pages/scripts/ilce.min.js"></script>
         }
 }
 <div class="row">
@@ -24,7 +24,7 @@
                     <div class="col-md-6">
                         <div class="btn-group">
                             <button class="btn green" id="btnEkle">
-                                Yeni Ülke
+                                Yeni İlçe
                                 <i class="fa fa-plus"></i>
                             </button>
                         </div>
@@ -39,13 +39,13 @@
                                 @if (ViewBag.TumCount > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@ViewBag.TumCount) </a>
+                                        <a href="javascript:;" id="btnTumKayitlar"><i class="fa fa-filter aria-hidden="true"" aria-hidden="true"></i> Tüm Kayıtlar(@ViewBag.TumCount) </a>
                                     </li>
                                 }
                                 @if (ViewBag.AktifCount > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@ViewBag.AktifCount) </a>
+                                        <a href="javascript:;" id="btnAktif"><i class="fa fa-filter"></i> Aktif (@ViewBag.AktifCount) </a>
                                     </li>
                                 }
                                 @if (ViewBag.PasifCount > 0)
@@ -75,21 +75,26 @@
                 <thead>
                     <tr>
                         <th data-field="id"> Id </th>
-                        <th data-field="ulkeadi"> Ülke Adı </th>
+                        <th data-field="sehiradi"> Şehir Adı </th>
+                        <th data-field="ilcekodu"> İlçe Kodu </th>
+                        <th data-field="ilceadi"> İlçe Adı </th>
                         <th data-field="durum"> Durumu </th>
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var ulke in Model)
+                    @foreach (var ilce in Model)
                     {
                         <tr>
-                            <td> @ulke.UlkeID </td>
-                            <td> @ulke.UlkeAdi </td>
-                            <td> @ulke.Durum.DurumAdi </td>
+                            <td> @ilce.IlceID </td>
+                            <td> @ilce.Sehir.SehirAdi </td>
+                            <td> @ilce.IlceKodu</td>
+                            <td> @ilce.IlceAdi</td>
+                            <td> @ilce.Durum.DurumAdi </td>
                         </tr>
                     }
                 </tbody>
             </table>
+            
             <ul id="contextMenu1" class="dropdown-menu">               
                 <li data-item="duzenle">
                     <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Düzenle</a>
@@ -109,14 +114,14 @@
                         contextMenu: '#contextMenu1',
                         onContextMenuItem: function (row, $el) {
                             if ($el.data("item") == "ekle") 
-                                window.location.href = '/ulke/ekle';                            
+                                window.location.href = '/ilce/ekle';                            
                             else if ($el.data("item") == "duzenle") 
-                                get('/ulke/duzenle/'+row.id);
+                                get('/ilce/duzenle/'+row.id);
                             else if ($el.data("item") == "sil") {
-                                if (confirm(row.ulkeadi + 'kaydını silmek istediğine emin misin?')) 
-                                    post('/ulke/sil', { id: row.id });                                
-                                else 
-                                    e.preventDefault();                 
+                                if (confirm(row.ilceadi + ' kaydını silmek istediğine emin misin?'))
+                                    post('/ilce/sil', { id: row.id });
+                                else
+                                    e.preventDefault();
                             }
                         }
                     });

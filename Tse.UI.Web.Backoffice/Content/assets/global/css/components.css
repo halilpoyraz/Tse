@@ -12530,7 +12530,7 @@ Light Table
 
 .table-hover > tbody > tr:hover,
 .table-hover > tbody > tr:hover > td {
-  background: #f3f4f6 !important; }
+  background: #e6f2f3 !important; } /*#f3f4f6*/
 
 /***
 Customized Bootstrap Tabs 

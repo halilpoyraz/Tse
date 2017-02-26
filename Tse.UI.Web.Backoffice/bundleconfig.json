@@ -22,5 +22,11 @@
     "inputFiles": [
       "Content/assets/pages/scripts/sehir.js"
     ]
+  },
+  {
+    "outputFileName": "Content/assets/pages/scripts/ilce.min.js",
+    "inputFiles": [
+      "Content/assets/pages/scripts/ilce.js"
+    ]
   }
 ]

@@ -47,7 +47,7 @@ namespace Tse.UI.Web.Backoffice.Controllers
                 Session["Success"] = "1";
                 return RedirectToAction("ekle");
             }
-            ViewBag.DurumID = new SelectList(context.Ulkeler, "UlkeID", "UlkeAdi", sehir.DurumID);
+            ViewBag.UlkeID = new SelectList(context.Ulkeler, "UlkeID", "UlkeAdi", sehir.DurumID);
             ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi", sehir.DurumID);
             return View(sehir);
         }
