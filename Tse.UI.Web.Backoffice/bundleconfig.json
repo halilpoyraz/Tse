@@ -1,0 +1,26 @@
+[
+  {
+    "outputFileName": "Content/assets/pages/scripts/ulke.min.js",
+    "inputFiles": [
+      "Content/assets/pages/scripts/ulke.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/assets/pages/scripts/gosterge-paneli.min.js",
+    "inputFiles": [
+      "Content/assets/pages/scripts/gosterge-paneli.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/assets/pages/scripts/baslangic.min.js",
+    "inputFiles": [
+      "Content/assets/pages/scripts/baslangic.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/assets/pages/scripts/sehir.min.js",
+    "inputFiles": [
+      "Content/assets/pages/scripts/sehir.js"
+    ]
+  }
+]

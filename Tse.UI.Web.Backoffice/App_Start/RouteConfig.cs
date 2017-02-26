@@ -11,115 +11,55 @@ namespace Tse.UI.Web.Backoffice
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-
-            routes.MapRoute(
-                name: "AtifYapilanDokumanTipi",
-                url: "kategoriler/{action}",
-                defaults: new
-                {
-                    controller = "Kategori",
-                    action = "atif-yapilan-dokuman-tipi"
-                }
-            );
-
-            routes.MapRoute(
-                name: "StandartIcerikTipi",
-                url: "kategoriler/{action}",
-                defaults: new
-                {
-                    controller = "Kategori",
-                    action = "standart-icerik-tipi"
-                }
-            );
-
-            routes.MapRoute(
-                 name: "StandartTur",
-                 url: "kategoriler/{action}",
-                 defaults: new
-                 {
-                     controller = "Kategori",
-                     action = "standart-tur"
-                 }
-            );
-
-            routes.MapRoute(
-                 name: "YururlukDurumu",
-                 url: "kategoriler/{action}",
-                 defaults: new
-                 {
-                     controller = "Kategori",
-                     action = "yururluk-durumu"
-                 }
-            );
-
-            routes.MapRoute(
-                 name: "HazirlikGrubu",
-                 url: "kategoriler/{action}",
-                 defaults: new
-                 {
-                     controller = "Kategori",
-                     action = "hazirlik-grubu"
-                 }
-            );
-
-            routes.MapRoute(
-                  name: "DokumanTipi",
-                  url: "kategoriler/{action}",
-                  defaults: new
-                  {
-                      controller = "Kategori",
-                      action = "dokuman-tipi"
-                  }
-            );
+            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");           
 
             routes.MapRoute(
                   name: "StandartController",
-                  url: "standartlar/{action}",
+                  url: "standart/{action}",
                   defaults: new
                   {
-                      controller = "Standart",
-                      action = "tum-standartlar"
+                      controller = "standart",
+                      action = "listele"
                   }
             );
 
             routes.MapRoute(
                   name: "KisiController",
-                  url: "kisiler/{action}",
+                  url: "kisi/{action}",
                   defaults: new
                   {
-                      controller = "Kisi",
-                      action = "tum-kisiler"
+                      controller = "kisi",
+                      action = "listele"
                   }
             );
 
             routes.MapRoute(
                   name: "IlceController",
-                  url: "ilceler/{action}",
+                  url: "ilce/{action}",
                   defaults: new
                   {
-                      controller = "Ilce",
-                      action = "tum-ilceler"
+                      controller = "ilce",
+                      action = "listele"
                   }
             );
 
             routes.MapRoute(
                   name: "SehirController",
-                  url: "sehirler/{action}",
+                  url: "sehir/{action}",
                   defaults: new
                   {
-                      controller = "Sehir",
-                      action = "tum-sehirler"
+                      controller = "sehir",
+                      action = "listele"
                   }
             );
 
             routes.MapRoute(
                   name: "UlkeController",
-                  url: "ulkeler/{action}",
+                  url: "ulke/{action}",
                   defaults: new
                   {
-                      controller = "Ulke",
-                      action = "tum-ulkeler"
+                      controller = "ulke",
+                      action = "listele"
                   }
             );
 

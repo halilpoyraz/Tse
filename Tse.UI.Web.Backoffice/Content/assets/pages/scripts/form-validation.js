@@ -58,7 +58,7 @@ var FormValidation = function () {
             },
 
             submitHandler: function (form) {
-                alert($form1.attr('action'));
+                //alert($form1.attr('action'));
             }
         });
     }
@@ -124,7 +124,7 @@ var FormValidation = function () {
             },
 
             submitHandler: function (form) {
-                alert($form1.attr('action'));
+               // alert($form1.attr('action'));
             }
         });
     }

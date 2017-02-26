@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@*Form Kullanımı*@
+@using (Html.BeginForm()){}
+
+@using (Html.BeginForm("actionname","contollername")) { }
+
+@using (Html.BeginForm("actionname", "contollername", FormMethod.Post)) { }
+
+@using (Html.BeginForm("actionname", "contollername", FormMethod.Post, new { enctype = "multipart/form-data",  @class ="kamil"})) { }
+
+
+@*Label Kullanımı*@
+@Html.Label("item1")
+@Html.Label("item1", "Erkek")
+@Html.Label("item1","Erkek", new { id = "5", myid = "10" })
+@Html.Label("item1", "Erkek", new { id = "5", name="kamil", myid = "10", @class="text-danger", style="color:red"})
+
+
+@*ActionLink Kullanımı*@
+@Html.ActionLink("Button Name", "Index", null, new { @class="classname" }) 
+
+@*DropDownList Kullanımı (Model den veri çekip listelemek için)
+  Controller tarafında aşağıdaki kodu yazıyoruz.
+  ViewBag.DurumID = new SelectList(db.Durumlar, "DurumID", "DurumAdi", ulke.DurumID);
+*@
+@Html.DropDownList("DurumID", null, "Seçin..", htmlAttributes: new { @class = "form-control" })                        

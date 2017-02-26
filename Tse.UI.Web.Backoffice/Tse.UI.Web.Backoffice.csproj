@@ -198,49 +198,36 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BaslangicController.cs" />
+    <Compile Include="Controllers\HataController.cs" />
     <Compile Include="Controllers\IlceController.cs" />
     <Compile Include="Controllers\KategoriController.cs" />
     <Compile Include="Controllers\KisiController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\SehirController.cs" />
     <Compile Include="Controllers\StandartController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\UlkeController.cs" />
-    <Compile Include="Controllers\UlkesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\SehirViewModel.cs" />
-    <Compile Include="Models\UlkeViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\assets\apps\css\inbox-rtl.min.css" />
-    <Content Include="Content\assets\apps\css\inbox.css" />
-    <Content Include="Content\assets\apps\css\inbox.min.css" />
-    <Content Include="Content\assets\apps\css\ticket-rtl.min.css" />
-    <Content Include="Content\assets\apps\css\ticket.css" />
-    <Content Include="Content\assets\apps\css\ticket.min.css" />
-    <Content Include="Content\assets\apps\css\todo-2-rtl.min.css" />
-    <Content Include="Content\assets\apps\css\todo-2.css" />
-    <Content Include="Content\assets\apps\css\todo-2.min.css" />
-    <Content Include="Content\assets\apps\css\todo-rtl.min.css" />
-    <Content Include="Content\assets\apps\css\todo.css" />
-    <Content Include="Content\assets\apps\css\todo.min.css" />
-    <Content Include="Content\assets\apps\scripts\calendar.js" />
-    <Content Include="Content\assets\apps\scripts\calendar.min.js" />
-    <Content Include="Content\assets\apps\scripts\inbox.js" />
-    <Content Include="Content\assets\apps\scripts\inbox.min.js" />
-    <Content Include="Content\assets\apps\scripts\table-datatables-ilce.js" />
-    <Content Include="Content\assets\apps\scripts\table-datatables-sehir.js" />
-    <Content Include="Content\assets\apps\scripts\table-datatables-ulke.js" />
-    <Content Include="Content\assets\apps\scripts\todo-2.js" />
-    <Content Include="Content\assets\apps\scripts\todo-2.min.js" />
-    <Content Include="Content\assets\apps\scripts\todo.js" />
-    <Content Include="Content\assets\apps\scripts\todo.min.js" />
+    <Content Include="Content\assets\global\scripts\common.js" />
+    <Content Include="Content\assets\pages\scripts\baslangic.min.js">
+      <DependentUpon>baslangic.js</DependentUpon>
+    </Content>
+    <Content Include="Content\assets\pages\scripts\sehir.js" />
+    <Content Include="Content\assets\pages\scripts\sehir.min.js">
+      <DependentUpon>sehir.js</DependentUpon>
+    </Content>
+    <Content Include="Content\assets\pages\scripts\ulke.min.js">
+      <DependentUpon>ulke.js</DependentUpon>
+    </Content>
     <Content Include="Content\assets\global\css\components-md-rtl.min.css" />
     <Content Include="Content\assets\global\css\components-md.css" />
     <Content Include="Content\assets\global\css\components-md.min.css" />
@@ -5638,8 +5625,7 @@
     <Content Include="Content\assets\pages\scripts\contact.min.js" />
     <Content Include="Content\assets\pages\scripts\custom.js" />
     <Content Include="Content\assets\pages\scripts\custom.min.js" />
-    <Content Include="Content\assets\pages\scripts\dashboard.js" />
-    <Content Include="Content\assets\pages\scripts\dashboard.min.js" />
+    <Content Include="Content\assets\pages\scripts\baslangic.js" />
     <Content Include="Content\assets\pages\scripts\ecommerce-dashboard.js" />
     <Content Include="Content\assets\pages\scripts\ecommerce-dashboard.min.js" />
     <Content Include="Content\assets\pages\scripts\ecommerce-orders-view.js" />
@@ -5767,6 +5753,7 @@
     <Content Include="Content\assets\pages\scripts\ui-toastr.min.js" />
     <Content Include="Content\assets\pages\scripts\ui-tree.js" />
     <Content Include="Content\assets\pages\scripts\ui-tree.min.js" />
+    <Content Include="Content\assets\pages\scripts\ulke.js" />
     <Content Include="Content\assets\pages\scripts\widgets.js" />
     <Content Include="Content\assets\pages\scripts\widgets.min.js" />
     <Content Include="favicon.ico" />
@@ -5815,7 +5802,6 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\assets\apps\img\" />
     <Folder Include="Content\assets\global\plugins\angularjs\plugins\angular-file-upload\uploads\" />
   </ItemGroup>
   <ItemGroup>
@@ -6176,13 +6162,12 @@
     <Content Include="Content\assets\layouts\layout7\img\Thumbs.db" />
     <Content Include="Content\assets\pages\media\blog\Thumbs.db" />
     <Content Include="Content\assets\pages\media\pages\Thumbs.db" />
+    <None Include="bundleconfig.json" />
     <None Include="Project_Readme.html" />
     <None Include="Properties\PublishProfiles\backoffice.tse.org.tr.pubxml" />
     <Content Include="Views\Baslangic\guncellemeler.cshtml" />
-    <Content Include="Views\Ulke\tum-ulkeler.cshtml" />
-    <Content Include="Views\Ulke\yeni-ulke-ekle.cshtml" />
-    <Content Include="Views\Sehir\tum-sehirler.cshtml" />
-    <Content Include="Views\Sehir\yeni-sehir-ekle.cshtml" />
+    <Content Include="Views\Ulke\listele.cshtml" />
+    <Content Include="Views\Ulke\ekle.cshtml" />
     <Content Include="Views\Ilce\tum-ilceler.cshtml" />
     <Content Include="Views\Ilce\yeni-ilce-ekle.cshtml" />
     <Content Include="Views\Kisi\tum-kisiler.cshtml" />
@@ -6196,11 +6181,12 @@
     <Content Include="Views\Kategori\standart-icerik-tipi.cshtml" />
     <Content Include="Views\Kategori\atif-yapilan-standart-tipi.cshtml" />
     <Content Include="Views\Kategori\atif-yapilan-dokuman-tipi.cshtml" />
-    <Content Include="Views\Ulkes\Create.cshtml" />
-    <Content Include="Views\Ulkes\Delete.cshtml" />
-    <Content Include="Views\Ulkes\Details.cshtml" />
-    <Content Include="Views\Ulkes\Edit.cshtml" />
-    <Content Include="Views\Ulkes\Index.cshtml" />
+    <Content Include="Views\Test\Index.cshtml" />
+    <Content Include="Views\Ulke\duzenle.cshtml" />
+    <Content Include="Views\Hata\Index.cshtml" />
+    <Content Include="Views\Sehir\listele.cshtml" />
+    <Content Include="Views\Sehir\ekle.cshtml" />
+    <Content Include="Views\Sehir\duzenle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

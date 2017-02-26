@@ -8,6 +8,13 @@
     ViewBag.BreadCrumb2Link = null;
     ViewBag.HeadText = "Tüm İlçeler";
     ViewBag.SmallText = null;
+
+    //Render Section
+    @section renderSection
+        {
+        <script type="text/javascript" src="~/Content/assets/pages/scripts/ilceler/tum-ilceler-datatable.js"></script>
+        <script type="text/javascript" src="~/Content/assets/pages/scripts/ilceler/tum-ilceler.js"></script>
+    }
 }
 <div class="row">
     <div class="col-md-12">

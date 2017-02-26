@@ -7,7 +7,7 @@ namespace Tse.UI.Web.Backoffice
     {
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new StyleBundle("~/bundles/css").Include(
+            bundles.Add(new StyleBundle("~/bundles/cssHead").Include(
                     "~/Content/assets/global/plugins/font-awesome/css/font-awesome.css",
                     "~/Content/assets/global/plugins/simple-line-icons/simple-line-icons.css",
                     "~/Content/assets/global/plugins/bootstrap/css/bootstrap.css",
@@ -32,67 +32,12 @@ namespace Tse.UI.Web.Backoffice
                     "~/Content/assets/global/plugins/bootstrap-table/bootstrap-table.css"
                     ));
 
-            bundles.Add(new ScriptBundle("~/bundles/script").Include(                                
-                    "~/Content/assets/global/plugins/bootstrap/js/bootstrap.js", //Used
-                    "~/Content/assets/global/plugins/select2/js/select2.full.js", //Used
-                    "~/Content/assets/global/plugins/jquery-validation/js/jquery.validate.js", //Used
-                    "~/Content/assets/global/plugins/jquery-validation/js/additional-methods.js", //Used
-                    "~/Content/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js", //Used
-                    "~/Content/assets/global/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js", //Used
-                    "~/Content/assets/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js", //USed
-                    "~/Content/assets/global/plugins/ckeditor/ckeditor.js", //Used
-                    "~/Content/assets/global/plugins/bootstrap-markdown/lib/markdown.js", //Used
-                    "~/Content/assets/global/plugins/bootstrap-markdown/js/bootstrap-markdown.js", //Used
-                    "~/Content/assets/global/plugins/js.cookie.min.js",
-                    "~/Content/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.js",
-                    "~/Content/assets/global/plugins/jquery.blockui.min.js",
-                    "~/Content/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.js",
-                    "~/Content/assets/global/plugins/moment.min.js",
-                    "~/Content/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.js",
-                    "~/Content/assets/global/plugins/morris/morris.js",
-                    "~/Content/assets/global/plugins/morris/raphael-min.js",
-                    "~/Content/assets/global/plugins/counterup/jquery.waypoints.min.js",
-                    "~/Content/assets/global/plugins/counterup/jquery.counterup.min.js",
-                    "~/Content/assets/global/plugins/amcharts/amcharts/amcharts.js",
-                    "~/Content/assets/global/plugins/amcharts/amcharts/serial.js",
-                    "~/Content/assets/global/plugins/amcharts/amcharts/pie.js",
-                    "~/Content/assets/global/plugins/amcharts/amcharts/radar.js",
-                    "~/Content/assets/global/plugins/amcharts/amcharts/themes/light.js",
-                    "~/Content/assets/global/plugins/amcharts/amcharts/themes/patterns.js",
-                    "~/Content/assets/global/plugins/amcharts/amcharts/themes/chalk.js",
-                    "~/Content/assets/global/plugins/amcharts/ammap/ammap.js",
-                    "~/Content/assets/global/plugins/amcharts/ammap/maps/js/worldLow.js",
-                    "~/Content/assets/global/plugins/amcharts/amstockcharts/amstock.js",
-                    "~/Content/assets/global/plugins/fullcalendar/fullcalendar.js",
-                    "~/Content/assets/global/plugins/horizontal-timeline/horizontal-timeline.js",
-                    "~/Content/assets/global/plugins/flot/jquery.flot.js",
-                    "~/Content/assets/global/plugins/flot/jquery.flot.resize.js",
-                    "~/Content/assets/global/plugins/flot/jquery.flot.categories.js",
-                    "~/Content/assets/global/plugins/jquery-easypiechart/jquery.easypiechart.js",
-                    "~/Content/assets/global/plugins/jquery.sparkline.min.js",
-                    "~/Content/assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js",
-                    "~/Content/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js",
-                    "~/Content/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js",
-                    "~/Content/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js",
-                    "~/Content/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js",
-                    "~/Content/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js",
-                    "~/Content/assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js",
-                    "~/Content/assets/global/scripts/app.js",
-                    "~/Content/assets/pages/scripts/form-validation.js", //Used
-                    "~/Content/assets/pages/scripts/dashboard.js",
-                    "~/Content/assets/layouts/layout/scripts/layout.js",
-                    "~/Content/assets/layouts/layout/scripts/demo.js",
-                    "~/Content/assets/layouts/global/scripts/quick-sidebar.js",
-                    "~/Content/assets/layouts/global/scripts/quick-nav.js",
-                    "~/Content/assets/global/scripts/datatable.js", //Used
-                    "~/Content/assets/global/plugins/datatables/datatables.min.js", //Used
-                    "~/Content/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js", //Used
-                    "~/Content/assets/apps/scripts/table-datatables-ulke.js", //Used
-                    "~/Content/assets/apps/scripts/table-datatables-sehir.js", //Used
-                    "~/Content/assets/apps/scripts/table-datatables-ilce.js", //Used
-                    "~/Content/assets/global/plugins/bootstrap-table/bootstrap-table.js", //Used
-                    "~/Content/assets/global/plugins/bootstrap-table-contextmenu/bootstrap-table-contextmenu.js" //Used
-                    ));
+            bundles.Add(new ScriptBundle("~/bundles/scriptHead").Include(
+                "~/Content/assets/global/plugins/modernizr/modernizr-2.8.3.js",
+                "~/Content/assets/global/plugins/jquery.min.js"
+                ));
+                     
+            bundles.Add(new ScriptBundle("~/bundles/scriptFoother").Include());
         }
     }
 }
