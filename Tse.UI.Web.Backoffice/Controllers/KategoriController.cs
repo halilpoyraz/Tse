@@ -3,52 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Tse.Dal.Backoffice.Model;
 
 namespace Tse.UI.Web.Backoffice.Controllers
 {
     public class KategoriController : Controller
     {
         // GET: Kategori
-        [ActionName("dokuman-tipi")]
-        public ActionResult DokumanTipi()
-        {
-            return View();
-        }
 
-        [ActionName("hazirlik-grubu")]
-        public ActionResult HazirlikGrubu()
-        {
-            return View();
-        }
+        TseBackofficeContext context = new TseBackofficeContext();
 
-        [ActionName("yururluk-durumu")]
-        public ActionResult YururlukDurumu()
+        public ActionResult Listele(int? kategoriID)
         {
-            return View();
-        }
-
-        [ActionName("standart-tur")]
-        public ActionResult StandartTur()
-        {
-            return View();
-        }
-
-        [ActionName("standart-icerik-tipi")]
-        public ActionResult StandartIcerikTipi()
-        {
-            return View();
-        }
-
-        [ActionName("atif-yapilan-standart-tipi")]
-        public ActionResult AtifYapilanStandartTipi()
-        {
-            return View();
-        }
-
-        [ActionName("atif-yapilan-dokuman-tipi")]
-        public ActionResult AtifYapilanDokumanTipi()
-        {
-            return View();
+            if (kategoriID != null)
+            {
+                var model = context.Degerler.Where(d => d.KategoriID == kategoriID).ToList();
+                return View(model);
+            }
+            return RedirectToAction("index","hata",new { HataId=1 });
         }
     }
 }

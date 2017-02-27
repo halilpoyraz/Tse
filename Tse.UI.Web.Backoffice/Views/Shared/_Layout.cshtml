@@ -546,6 +546,29 @@
                                 </li>
                             </ul>
                         </li>
+                        @foreach (var kategori in Model.Kategoriler)
+                        {
+                        <li class="nav-item">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="@kategori.Icon" aria-hidden="true"></i>
+                                <span class="title">@kategori.Adi</span>
+                                <span class=""></span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item  @if(action=="listele"){ @("start active open") }">
+                                    <a href="/kategori/listele?KategoriID=@kategori.KategoriID" class="nav-link ">
+                                        <span class="title">Tümünü Göster</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item  @if(action=="ekle"){ @("start active open") }">
+                                    <a href="/kategori/ekle?KategoriID=@kategori.KategoriID" class="nav-link ">
+                                        <span class="title">Yeni Ekle</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        }
                         <li class="nav-item  @if(controller=="kisi"){ @("start active open") }">
                             <a href="javascript:;" class="nav-link nav-toggle">
                                 <i class="icon-user"></i>

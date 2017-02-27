@@ -64,6 +64,12 @@ namespace Tse.UI.Web.Backoffice
             );
 
             routes.MapRoute(
+              name: "Hata",
+              url: "hata/{action}/{id}",
+              defaults: new { controller = "hata", action = "index", id = UrlParameter.Optional }
+          );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "baslangic", action = "gosterge-paneli", id = UrlParameter.Optional }

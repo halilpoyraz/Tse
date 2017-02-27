@@ -3,23 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Tse.Dal.Backoffice.Model;
+using Tse.UI.Web.Backoffice.Models;
 
 namespace Tse.UI.Web.Backoffice.Controllers
 {
     public class BaslangicController : Controller
-    {
-
-
+    {        
         [ActionName("gosterge-paneli")]
         public ActionResult GostergePaneli()
         {           
-            return View();
+            var model = new PageViewModel();
+            return View(model);                       
         }
 
         [ActionName("guncellemeler")]
         public ActionResult Guncellemeler()
-        {
-            return View();
+        {            
+            var model = new PageViewModel();            
+            return View(model);            
         }
     }
 }

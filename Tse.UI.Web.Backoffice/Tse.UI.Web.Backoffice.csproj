@@ -213,6 +213,8 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\UlkeViewModel.cs" />
+    <Compile Include="Models\PageViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -6192,6 +6194,7 @@
     <Content Include="Views\Ilce\listele.cshtml" />
     <Content Include="Views\Ilce\ekle.cshtml" />
     <Content Include="Views\Ilce\duzenle.cshtml" />
+    <Content Include="Views\Kategori\listele.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

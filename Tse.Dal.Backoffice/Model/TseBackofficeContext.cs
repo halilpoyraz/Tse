@@ -24,6 +24,7 @@ namespace Tse.Dal.Backoffice.Model
         public virtual DbSet<Eposta> Epostalar { get; set; }
         public virtual DbSet<FaturaBilgi> FaturaBilgileri { get; set; }
         public virtual DbSet<Firma> Firmalar { get; set; }
+        public virtual DbSet<Hata> Hatalar { get; set; }
         public virtual DbSet<ParaBirimi> ParaBirimleri { get; set; }
         public virtual DbSet<Sehir> Sehirler { get; set; }
         public virtual DbSet<Standart> Standartlar { get; set; }        
@@ -49,6 +50,7 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<Eposta>().ToTable("Kisi.Eposta");
             modelBuilder.Entity<FaturaBilgi>().ToTable("Kisi.FaturaBilgi");
             modelBuilder.Entity<Firma>().ToTable("Kisi.Firma");
+            modelBuilder.Entity<Hata>().ToTable("Tanimlama.Hata");
             modelBuilder.Entity<Ilce>().ToTable("Tanimlama.Ilce");
             modelBuilder.Entity<Kategori>().ToTable("Tanimlama.Kategori");                       
             modelBuilder.Entity<Kisi>().ToTable("Kisi.Kisi");

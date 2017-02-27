@@ -16,13 +16,8 @@ namespace Tse.UI.Web.Backoffice.Controllers
 
         // GET: Ulkeler        
         public ActionResult Listele()
-        {                          
-            var model = context.Ulkeler.Include(u =>u.Durum).ToList();
-            ViewBag.TumCount = context.Ulkeler.Count();
-            ViewBag.AktifCount = context.Ulkeler.Where(u => u.DurumID == 1).Count();
-            ViewBag.PasifCount = context.Ulkeler.Where(u => u.DurumID == 2).Count();
-            ViewBag.TaslakCount = context.Ulkeler.Where(u => u.DurumID == 3).Count();
-            ViewBag.SilinmisCount = context.Ulkeler.Where(u=>u.DurumID==4).Count();
+        {
+            var model = new UlkeViewModel();                                                        
             return View(model);                      
         }
         
@@ -32,8 +27,12 @@ namespace Tse.UI.Web.Backoffice.Controllers
                 ViewBag.Success = "";            
             else
                 ViewBag.Success = "display-hide";
+
             ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi");
-            return View();            
+
+            var model = new UlkeViewModel();
+
+            return View(model);            
         }
 
         [HttpPost ValidateAntiForgeryToken]
@@ -53,17 +52,21 @@ namespace Tse.UI.Web.Backoffice.Controllers
 
         public ActionResult Duzenle(int? id)
         {
+            var model = new UlkeViewModel();
+
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Ulke ulke = context.Ulkeler.Find(id);
-            if (ulke == null)
+            
+            model.Ulke = context.Ulkeler.Find(id);
+            if (model.Ulke == null)
             {
                 return HttpNotFound();
             }
-            ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi", ulke.DurumID);
-            return View(ulke);
+            ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi", model.Ulke.DurumID);
+                     
+            return View(model);
         }
 
         [HttpPost ValidateAntiForgeryToken]
@@ -82,11 +85,10 @@ namespace Tse.UI.Web.Backoffice.Controllers
         [HttpPost]
         public ActionResult Sil(int? id)
         {
-            if (id == null) { 
-                 Session["HataId"]= 1;
-                 return RedirectToAction("index", "hata");
-            }
-
+            if (id == null) {                  
+                 return RedirectToAction("index", "hata", new { HataId=2});
+            }   
+                     
             Ulke ulke = context.Ulkeler.SingleOrDefault(u => u.UlkeID == id);
 
             if (ulke != null)
@@ -112,9 +114,8 @@ namespace Tse.UI.Web.Backoffice.Controllers
                             context.SaveChanges();
                         }
                         catch (Exception)
-                        {
-                            Session["HataId"] = 2;
-                            return RedirectToAction("index", "hata");
+                        {                            
+                            return RedirectToAction("index", "hata", new { HataId=3});
                         }
                     }             
                 }

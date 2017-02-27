@@ -17,6 +17,9 @@
         [Display(Name ="Kategori Adı") MaxLength(255) Required]
         public string Adi { get; set; }
 
+        [Display(Name ="Icon") MaxLength(25)]
+        public string Icon { get; set; }
+
         [Display (Name ="Durum")]
         public int DurumID { get; set; }
 

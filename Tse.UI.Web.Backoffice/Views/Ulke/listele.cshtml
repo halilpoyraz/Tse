@@ -1,5 +1,4 @@
-﻿@using Tse.Dal.Backoffice.Model;
-@model IEnumerable<Ulke>
+﻿@model Tse.UI.Web.Backoffice.Models.UlkeViewModel
 @{
     ViewBag.Title = "Ülkeler";
     ViewBag.BreadCrumb1Text = "Başlangıç";
@@ -36,34 +35,34 @@
                                 <i class="fa fa-filter"></i>
                             </button>                            
                             <ul class="dropdown-menu pull-right">
-                                @if (ViewBag.TumCount > 0)
+                                @if (Model.TumCount > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@ViewBag.TumCount) </a>
+                                        <a href="javascript:;" id="btnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.TumCount) </a>
                                     </li>
                                 }
-                                @if (ViewBag.AktifCount > 0)
+                                @if (Model.AktifCount > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@ViewBag.AktifCount) </a>
+                                        <a href="javascript:;" id="btnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.AktifCount) </a>
                                     </li>
                                 }
-                                @if (ViewBag.PasifCount > 0)
+                                @if (Model.PasifCount > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@ViewBag.PasifCount) </a>
+                                        <a href="javascript:;" id="btnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.PasifCount) </a>
                                     </li>
                                 }
-                                @if (ViewBag.TaslakCount > 0)
+                                @if (Model.TaslakCount > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@ViewBag.TaslakCount) </a>
+                                        <a href="javascript:;" id="btnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.TaslakCount) </a>
                                     </li>
                                 }
-                                @if (ViewBag.SilinmisCount > 0)
+                                @if (Model.SilinmisCount > 0)
                                 {
                                 <li>
-                                    <a href="javascript:;" id="btnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@ViewBag.SilinmisCount) </a>
+                                    <a href="javascript:;" id="btnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.SilinmisCount) </a>
                                 </li>                              
                                  }
                             </ul>
@@ -79,8 +78,8 @@
                         <th data-field="durum"> Durumu </th>
                     </tr>
                 </thead>
-                <tbody>
-                    @foreach (var ulke in Model)
+                <tbody>                    
+                    @foreach (var ulke in Model.Ulkeler)
                     {
                         <tr>
                             <td> @ulke.UlkeID </td>

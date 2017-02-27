@@ -1,4 +1,5 @@
-﻿@{
+﻿@model  Tse.Dal.Backoffice.Model.Hata
+@{
    Layout = null;
 }
 <html lang="tr">
@@ -24,9 +25,9 @@
         <img src="/Content/assets/pages/media/pages/earth.jpg" class="img-responsive" alt="">
     </div>
     <div class="container error-404">
-        <h1>@ViewBag.HataId</h1>
-        <h2>Başlık</h2>
-        <p> Detay </p>
+        <h1>Hata No: @Model.HataID</h1>
+        <h2>@Model.Baslik</h2>
+        <p>@Model.Detay</p>
         <p>
             <a href="/" class="btn red btn-outline"> Başlangıç </a>
             <br>

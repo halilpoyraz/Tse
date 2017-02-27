@@ -5,7 +5,7 @@
     using System.Collections.Generic;
     using System.Data.Entity;
 
-    public partial class DummyDataConfig : CreateDatabaseIfNotExists<TseBackofficeContext>
+    public partial class DummyDataConfig : DropCreateDatabaseIfModelChanges<TseBackofficeContext>
     {
         //Methods    
         protected override void Seed(TseBackofficeContext context)
@@ -9559,55 +9559,64 @@
                 new Kategori
                 {
                     KategoriID =1,
-                    Adi ="DokumanTipi",
+                    Adi ="Doküman Tipi",
+                    Icon ="fa fa-file-text-o",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =2,
-                    Adi ="HazirlikGrubu",
+                    Adi ="Hazırlık Grubu",
+                    Icon ="fa fa-clipboard",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =3,
-                    Adi ="YururlukDurumu",
+                    Adi ="Yürürlük Durumu",
+                    Icon ="fa fa-gavel",
                     DurumID = 1
                 },
                 new Kategori
                 {
                     KategoriID =4,
-                    Adi ="StandartTur",
+                    Adi ="Standart Tür",
+                    Icon ="fa fa-file-text-o",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =5,
-                    Adi ="TelefonTipi",
+                    Adi ="Telefon Tipi",
+                    Icon ="fa fa-phone-square",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =6,
-                    Adi ="AdresTipi",
+                    Adi ="Adres Tipi",
+                    Icon ="fa fa-home",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =7,
-                    Adi ="StandartIcerikTipi",
+                    Adi ="Standart İcerik Tipi",
+                    Icon ="fa fa-file-o",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =8,
-                    Adi ="AtifYapilanStandartTipi",
+                    Adi ="Atıf Yapılan Standart Tipi",
+                    Icon ="fa fa-quote-right",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =9,
-                    Adi ="AtifYapilanDokumanTipi",
+                    Adi ="Atıf Yapılan Dokuman Tipi",
+                    Icon ="fa fa-quote-left",
                     DurumID =1
                 }
             });
@@ -13603,6 +13612,29 @@
             });
             #endregion
 
+            #region //Hata
+            context.Hatalar.AddRange(new List<Hata>
+            {
+                new Hata
+                {
+                    HataID = 1,
+                    Baslik = "Parametre Hatası",
+                    Detay = "HataId null değer olamaz."
+                },
+                new Hata
+                {
+                    HataID = 2,
+                    Baslik = "Tarram",
+                    Detay = "Taram"
+                },
+                new Hata
+                {
+                    HataID = 3,
+                    Baslik = "xxx",
+                    Detay = "xxx"
+                }
+            });
+            #endregion
             base.Seed(context);
         }
     }

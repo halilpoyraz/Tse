@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Tse.Dal.Backoffice.Model.Deger>
+
+@{
+    ViewBag.Title = "listele";
+}
+
+<h2>listele</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Durum.DurumAdi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Kategori.Adi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DegerAdiTr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DegerAdiEn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SiraNo)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Durum.DurumAdi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kategori.Adi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DegerAdiTr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DegerAdiEn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SiraNo)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DegerID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DegerID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DegerID })
+        </td>
+    </tr>
+}
+
+</table>
