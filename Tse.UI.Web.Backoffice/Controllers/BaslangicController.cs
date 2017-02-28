@@ -13,14 +13,14 @@ namespace Tse.UI.Web.Backoffice.Controllers
         [ActionName("gosterge-paneli")]
         public ActionResult GostergePaneli()
         {           
-            var model = new PageViewModel();
+            var model = new BaseViewModel();
             return View(model);                       
         }
 
         [ActionName("guncellemeler")]
         public ActionResult Guncellemeler()
         {            
-            var model = new PageViewModel();            
+            var model = new BaseViewModel();            
             return View(model);            
         }
     }

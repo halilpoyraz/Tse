@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Tse.Dal.Backoffice.Model.Ulke>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Durum.DurumAdi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UlkeAdi)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Durum.DurumAdi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UlkeAdi)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.UlkeID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.UlkeID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.UlkeID })
+        </td>
+    </tr>
+}
+
+</table>

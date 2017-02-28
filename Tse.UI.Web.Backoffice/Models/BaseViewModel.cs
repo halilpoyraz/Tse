@@ -6,22 +6,19 @@ using Tse.Dal.Backoffice.Model;
 
 namespace Tse.UI.Web.Backoffice.Models
 {
-    public class PageViewModel 
-    {
-        
-
+    public partial class BaseViewModel 
+    {       
         //Constructor
-        public PageViewModel()
+        public BaseViewModel()
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
-                Kategoriler = context.Kategoriler.Where(k => k.DurumID == 1).ToList();
-            }
-            
+               SolMenuKategoriler = context.Kategoriler.Where(k => k.DurumID == 1).ToList();
+            }            
         }
 
 
         //Properties
-        public List<Kategori> Kategoriler { get; set; }
+        public List<Kategori> SolMenuKategoriler { get; set; }
     }
 }

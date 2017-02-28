@@ -1,4 +1,4 @@
-﻿@model Tse.UI.Web.Backoffice.Models.UlkeViewModel
+﻿@model Tse.UI.Web.Backoffice.Models.UlkeDuzenleViewModel
 @{
     ViewBag.Title = "Ülke Düzenle";
     ViewBag.BreadCrumb1Text = "Başlangıç";
@@ -42,7 +42,7 @@
                                 <span class="required"> * </span>
                             </label>
                             <div class="col-md-4">
-                                   @Html.TextBox("UlkeAdi", null, new { @class = "form-control", @data_required = "1" })
+                                @Html.TextBoxFor(model => model.Ulke.UlkeAdi, new { @class = "form-control", @data_required = "1" })                                  
                             </div>
                         </div>
                         <div class="form-group">                            
@@ -50,8 +50,8 @@
                                 <span>@Html.DisplayNameFor(model => model.Durum.DurumAdi)</span>
                                 <span class="required"> * </span>
                             </label>
-                            <div class="col-md-4">                                                              
-                                  @Html.DropDownList("DurumID", null, htmlAttributes: new { @class = "form-control" })
+                            <div class="col-md-4">                                                  
+                                        @Html.DropDownListFor(m => m.Ulke.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", Model.Ulke.DurumID), htmlAttributes: new { @class = "form-control" })
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                         <div class="row">
                             <div class="col-md-offset-3 col-md-9">
                                 <button type="submit" class="btn green">Kaydet</button>                   
-                                <button type="button" id="btnVazgec" class="btn grey-salsa btn-outline">Vazgeç</button>             
+                                <button type="button" id="btnVazgec" class="btn grey-salsa btn-outline">Vazgeç</button> 
                             </div>
                         </div>
                     </div>

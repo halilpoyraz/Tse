@@ -17,7 +17,7 @@ namespace Tse.UI.Web.Backoffice.Controllers
         // GET: Ulkeler        
         public ActionResult Listele()
         {
-            var model = new UlkeViewModel();                                                        
+            var model = new UlkeListeleViewModel();                                                        
             return View(model);                      
         }
         
@@ -30,8 +30,7 @@ namespace Tse.UI.Web.Backoffice.Controllers
 
             ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi");
 
-            var model = new UlkeViewModel();
-
+            var model = new UlkeEkleViewModel();
             return View(model);            
         }
 
@@ -45,28 +44,35 @@ namespace Tse.UI.Web.Backoffice.Controllers
                 Session["Success"] = "1";
                 return RedirectToAction("ekle");
             }
-            
-            ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi", ulke.DurumID);
-            return View(ulke);
+            else
+            { 
+                ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi", ulke.DurumID);
+                return View(ulke);
+            }
         }
 
         public ActionResult Duzenle(int? id)
-        {
-            var model = new UlkeViewModel();
-
+        {            
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            
-            model.Ulke = context.Ulkeler.Find(id);
-            if (model.Ulke == null)
+            else
             {
-                return HttpNotFound();
+                var model = new UlkeDuzenleViewModel();
+
+                model.Ulke = context.Ulkeler.Find(id);
+
+                if (model.Ulke == null)
+                {
+                    return HttpNotFound();
+                }
+                else
+                {                    
+                    return View(model);
+                }                
             }
-            ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi", model.Ulke.DurumID);
-                     
-            return View(model);
+            
         }
 
         [HttpPost ValidateAntiForgeryToken]
@@ -78,7 +84,8 @@ namespace Tse.UI.Web.Backoffice.Controllers
                 context.SaveChanges();
                 return RedirectToAction("listele");
             }
-            ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi", ulke.DurumID);
+            ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi", ulke.Durum.DurumID);
+
             return View(ulke);
         }
 
@@ -89,7 +96,7 @@ namespace Tse.UI.Web.Backoffice.Controllers
                  return RedirectToAction("index", "hata", new { HataId=2});
             }   
                      
-            Ulke ulke = context.Ulkeler.SingleOrDefault(u => u.UlkeID == id);
+            Ulke ulke = context.Ulkeler.Find(id);
 
             if (ulke != null)
             {
@@ -102,22 +109,14 @@ namespace Tse.UI.Web.Backoffice.Controllers
                 {
                     try
                     {
-                        context.Ulkeler.Remove(ulke);
+                        ulke.DurumID = 4;
+                        context.Entry(ulke).State = EntityState.Modified;
                         context.SaveChanges();
                     }
                     catch (Exception)
                     {
-                        try
-                        {
-                            ulke.DurumID = 4;
-                            context.Entry(ulke).State = EntityState.Modified;
-                            context.SaveChanges();
-                        }
-                        catch (Exception)
-                        {                            
-                            return RedirectToAction("index", "hata", new { HataId=3});
-                        }
-                    }             
+                        return RedirectToAction("index", "hata", new { HataId = 3 });
+                    }
                 }
             }
             return RedirectToAction("listele");
