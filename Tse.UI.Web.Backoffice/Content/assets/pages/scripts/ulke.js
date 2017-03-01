@@ -88,11 +88,11 @@
                 }
             },
             rules: { //Kurallar
-                UlkeAdi: {
+                'Ulke.UlkeAdi': {
                     minlength: 2,
                     required: true
                 },
-                DurumID: {
+                'Ulke.DurumID': {
                     required: true
                 }
             },

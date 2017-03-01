@@ -207,10 +207,10 @@
     <Compile Include="Controllers\StandartController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\UlkeController.cs" />
-    <Compile Include="Controllers\UlkesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\CustomHelper.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -6196,11 +6196,6 @@
     <Content Include="Views\Ilce\ekle.cshtml" />
     <Content Include="Views\Ilce\duzenle.cshtml" />
     <Content Include="Views\Kategori\listele.cshtml" />
-    <Content Include="Views\Ulkes\Create.cshtml" />
-    <Content Include="Views\Ulkes\Delete.cshtml" />
-    <Content Include="Views\Ulkes\Details.cshtml" />
-    <Content Include="Views\Ulkes\Edit.cshtml" />
-    <Content Include="Views\Ulkes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

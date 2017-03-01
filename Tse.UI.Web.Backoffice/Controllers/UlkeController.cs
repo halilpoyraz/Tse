@@ -23,31 +23,27 @@ namespace Tse.UI.Web.Backoffice.Controllers
         
         public ActionResult Ekle()
         {
-            if(Session["Success"] == "1")
-                ViewBag.Success = "";            
-            else
-                ViewBag.Success = "display-hide";
-
-            ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi");
-
             var model = new UlkeEkleViewModel();
+            TempData["DisplayStatus"] = "display-hide";                        
             return View(model);            
         }
 
         [HttpPost ValidateAntiForgeryToken]
         public ActionResult Ekle([Bind(Include = "UlkeID,UlkeAdi,DurumID")] Ulke ulke)
         {
+            var model = new UlkeEkleViewModel();
+
             if (ModelState.IsValid)
             {
                 context.Ulkeler.Add(ulke);
                 context.SaveChanges();
-                Session["Success"] = "1";
-                return RedirectToAction("ekle");
+                TempData["DisplayStatus"] = "";
+                return View(model);
             }
             else
-            { 
-                ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi", ulke.DurumID);
-                return View(ulke);
+            {
+                TempData["DisplayStatus"] = "display-hide";
+                return View(model);
             }
         }
 
