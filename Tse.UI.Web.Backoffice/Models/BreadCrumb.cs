@@ -4,10 +4,9 @@
     {
         //Constructor
         public BreadCrumb()
-        {
-            Title = null;
-            Text1 = null;
-            Link1 = null;
+        {            
+            Text1 = "Başlangıç";
+            Link1 = "/baslangic/gosterge-paneli";
             Text2 = null;
             Link2 = null;
             Text3 = null;
@@ -16,8 +15,7 @@
             SmallText = null;
         }
 
-        //Properties
-        public string Title { get; set; }
+        //Properties        
         public string Text1 { get; set; }
         public string Link1 { get; set; }
         public string Text2 { get; set; }

@@ -12,19 +12,20 @@
         //Constructor
         public Filter()
         {
-            ByTum = 0;
-            ByAktif = 0;
-            ByPasif = 0;
-            ByTaslak = 0;
-            BySilinmis = 0;
+            Tum = 0;
+            Aktif = 0;
+            Pasif = 0;
+            Taslak = 0;
+            Silinmis = 0;
         }
 
-        //Properties
-        private int ByTum { get; set; }
-        private int ByAktif { get; set; }
-        private int ByPasif { get; set; }
-        private int ByTaslak { get; set; }
-        private int BySilinmis { get; set; }
+
+        private int Tum { get; set; }
+        private int Aktif { get; set; }
+        private int Pasif { get; set; }
+        private int Taslak { get; set; }
+        private int Silinmis { get; set; }
+
 
         //Methods
         /// <summary>
@@ -33,22 +34,48 @@
         /// <param name="entityName">Filtreleme yapılacak Entity adı</param>
         /// <returns></returns>
         public Filter Create(string entityName)
-        {
+        {            
             using (TseBackofficeContext context = new TseBackofficeContext())
-            {                
-                Filter filter = new Filter();
-
-                if (entityName=="Ulkeler")
+            {
+                if (entityName == "Ulkeler")
                 {
-                    filter.ByTum = context.Ulkeler.Count();
-                    filter.ByAktif = context.Ulkeler.Where(u => u.DurumID == 1).Count();
-                    filter.ByPasif = context.Ulkeler.Where(u => u.DurumID == 2).Count();
-                    filter.ByTaslak = context.Ulkeler.Where(u => u.DurumID == 3).Count();
-                    filter.BySilinmis = context.Ulkeler.Where(u => u.DurumID == 4).Count();
+                    Tum = context.Ulkeler.Count();
+                    Aktif = context.Ulkeler.Where(u => u.DurumID == 1).Count();
+                    Pasif = context.Ulkeler.Where(u => u.DurumID == 2).Count();
+                    Taslak = context.Ulkeler.Where(u => u.DurumID == 3).Count();
+                    Silinmis = context.Ulkeler.Where(u => u.DurumID == 4).Count();
                 }
-
-                return filter;
+                return this;
             }            
         }
+
+        /// <summary>
+        /// durumId değerine göre kayıt sayısını döndürür. 
+        /// </summary>
+        /// <param name="id">0:Tümü | 1: Aktif | 2: Pasif | 3:Taslak | 4:Silinmiş</param>
+        /// <returns></returns>
+        public int CountByDurumId(int? durumId)
+        {
+            if (durumId == 1)
+                return Aktif;
+            else if (durumId == 2)
+                return Pasif;
+            else if (durumId == 3)
+                return Taslak;
+            else if (durumId == 4)
+                return Silinmis;
+            else
+                return Tum;                                            
+        }      
     }
+
+   public enum Durumcan
+    {
+        Tümü,
+        Aktif,
+        Pasif,
+        Taslak,
+        Silinmiş
+    }
+
 }

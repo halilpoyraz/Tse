@@ -13624,14 +13624,20 @@
                 new Hata
                 {
                     HataID = 2,
-                    Baslik = "Tarram",
-                    Detay = "Taram"
+                    Baslik = "Parametre Hatası",
+                    Detay = "id geçersiz, null değer olamaz."
                 },
                 new Hata
                 {
                     HataID = 3,
-                    Baslik = "xxx",
-                    Detay = "xxx"
+                    Baslik = "Parametre Hatası",
+                    Detay = "Kayıt bulamadı."
+                },
+                new Hata
+                {
+                    HataID = 4,
+                    Baslik = "Piston Aşşa Düştü !!!",
+                    Detay = "Bilinmeyen bir hata oluştu."
                 }
             });
             #endregion

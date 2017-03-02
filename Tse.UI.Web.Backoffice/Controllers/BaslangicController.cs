@@ -4,18 +4,17 @@
     using ViewModels;
 
     public class BaslangicController : Controller
-    {        
+    {
         [ActionName("gosterge-paneli")]
         public ActionResult GostergePaneli()
         {           
-            var model = new BaseViewModel();
+            var model = new GostergePaneliViewModel();
             return View(model);                       
         }
-
-        [ActionName("guncellemeler")]
+       
         public ActionResult Guncellemeler()
         {            
-            var model = new BaseViewModel();                        
+            var model = new GuncellemelerViewModel();                        
             return View(model);            
         }
     }

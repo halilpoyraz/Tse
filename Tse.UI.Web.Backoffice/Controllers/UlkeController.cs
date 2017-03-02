@@ -52,14 +52,14 @@
             {
                 if (id == null)
                 {
-                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
                 }
                 else
                 {
                     var model = new UlkeDuzenleViewModel();
                     model.Ulke = context.Ulkeler.Find(id);
-                    if (model.Ulke == null)                   
-                        return HttpNotFound();                    
+                    if (model.Ulke == null)
+                        return RedirectToAction("index", "hata", new { HataId = 3 });
                     else                    
                         return View(model);                    
                 }
@@ -77,7 +77,7 @@
                     context.SaveChanges();
                     return RedirectToAction("listele");
                 }
-                return View(ulke);
+                return RedirectToAction("index", "hata", new { HataId = 4 });
             }
         }
 
@@ -110,7 +110,7 @@
                         }
                         catch (Exception)
                         {
-                            return RedirectToAction("index", "hata", new { HataId = 3 });
+                            return RedirectToAction("index", "hata", new { HataId = 4 });
                         }
                     }
                 }

@@ -22,34 +22,34 @@
                                 <i class="fa fa-filter"></i>
                             </button>                            
                             <ul class="dropdown-menu pull-right">
-                                @if (Model.TumCount > 0)
+                                @if (Model.Filter.CountByDurumId(0)>0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.TumCount) </a>
+                                        <a href="javascript:;" id="btnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.Filter.CountByDurumId(0)) </a>
                                     </li>
                                 }
-                                @if (Model.AktifCount > 0)
+                                @if (Model.Filter.CountByDurumId(1) > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.AktifCount) </a>
+                                        <a href="javascript:;" id="btnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.Filter.CountByDurumId(1)) </a>
                                     </li>
                                 }
-                                @if (Model.PasifCount > 0)
+                                @if (Model.Filter.CountByDurumId(2) > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.PasifCount) </a>
+                                        <a href="javascript:;" id="btnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.Filter.CountByDurumId(2)) </a>
                                     </li>
                                 }
-                                @if (Model.TaslakCount > 0)
+                                @if (Model.Filter.CountByDurumId(3) > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.TaslakCount) </a>
+                                        <a href="javascript:;" id="btnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.Filter.CountByDurumId(3)) </a>
                                     </li>
                                 }
-                                @if (Model.SilinmisCount > 0)
+                                @if (Model.Filter.CountByDurumId(4) > 0)
                                 {
                                 <li>
-                                    <a href="javascript:;" id="btnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.SilinmisCount) </a>
+                                    <a href="javascript:;" id="btnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.Filter.CountByDurumId(4)) </a>
                                 </li>                              
                                  }
                             </ul>

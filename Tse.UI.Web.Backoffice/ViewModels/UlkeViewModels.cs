@@ -16,8 +16,7 @@
                 Meta.Title = "Tüm Ülkeler";
                 Meta.Description = "Bu ekrandan ülke listeleme, filtreleme, düzenleme ve yeni ülke ekleme işlemleri yapılmaktadır.";                
 
-                //BreadCrumb
-                BreadCrumb.Title = "Ülkeler";
+                //BreadCrumb                
                 BreadCrumb.Text1 = "Başlangıç";
                 BreadCrumb.Link1 = "/baslangic/gosterge-paneli";
                 BreadCrumb.Text2 = "Ülkeler";
@@ -26,7 +25,8 @@
                 BreadCrumb.HeadText = "Tüm Ülkeler";
 
                 //Filter
-                new Filter().Create("Ulkeler");              
+                Filter = new Filter().Create("Ulkeler");
+                                
 
                 //Context
                 Ulkeler = context.Ulkeler.ToList();
@@ -37,13 +37,7 @@
         //Properties                
         public List<Ulke> Ulkeler { get; set; }
         public List<Durum> Durumlar { get; set; }
-
-        public int TumCount { get; set; }
-        public int AktifCount { get; set; }
-        public int PasifCount { get; set; }
-        public int TaslakCount { get; set; }
-        public int SilinmisCount { get; set; }
-        
+        public Filter Filter { get; set; }
     }
 
     public partial class UlkeEkleViewModel : BaseViewModel
@@ -57,8 +51,7 @@
                 Meta.Title = "Yeni Ülke Ekle";
                 Meta.Description = "Bu ekrandan yeni ülke ekleme işlemleri yapılmaktadır.";
 
-                //BreadCrumb
-                BreadCrumb.Title = "Ülkeler";
+                //BreadCrumb                
                 BreadCrumb.Text1 = "Başlangıç";
                 BreadCrumb.Link1 = "/baslangic/gosterge-paneli";
                 BreadCrumb.Text2 = "Ülkeler";
@@ -88,8 +81,7 @@
                 Meta.Title = "Ülke Düzenle";
                 Meta.Description = "Bu ekrandan ülke düzenleme işlemleri yapılmaktadır.";
 
-                //BreadCrumb
-                BreadCrumb.Title = "Ülkeler";
+                //BreadCrumb                
                 BreadCrumb.Text1 = "Başlangıç";
                 BreadCrumb.Link1 = "/baslangic/gosterge-paneli";
                 BreadCrumb.Text2 = "Ülkeler";

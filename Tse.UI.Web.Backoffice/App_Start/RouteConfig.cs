@@ -11,7 +11,7 @@ namespace Tse.UI.Web.Backoffice
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");           
+            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
                   name: "StandartController",
@@ -64,16 +64,22 @@ namespace Tse.UI.Web.Backoffice
             );
 
             routes.MapRoute(
-              name: "Hata",
-              url: "hata/{action}/{id}",
-              defaults: new { controller = "hata", action = "index", id = UrlParameter.Optional }
-          );
+                name: "Başlangıç",
+                url: "baslangic/{action}/{id}",
+                defaults: new { controller = "baslangic", action = "gosterge-paneli", id = UrlParameter.Optional }
+                );
+
+            routes.MapRoute(
+                name: "Hata",
+                url: "hata/{action}/{id}",
+                defaults: new { controller = "hata", action = "index", id = UrlParameter.Optional }
+                );
 
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "baslangic", action = "gosterge-paneli", id = UrlParameter.Optional }
-            );
+                );
         }
     }
 }
