@@ -1,21 +1,6 @@
-﻿@model Tse.UI.Web.Backoffice.Models.UlkeDuzenleViewModel
-@{
-    ViewBag.Title = "Ülke Düzenle";
-    ViewBag.BreadCrumb1Text = "Başlangıç";
-    ViewBag.BreadCrumb1Link = "/baslangic/gosterge-paneli";
-    ViewBag.BreadCrumb2Text = "Ülkeler";
-    ViewBag.BreadCrumb2Link = "/ulke";
-    ViewBag.BreadCrumb3Text = "Ülke Düzenle";
-    ViewBag.BreadCrumb3Link = null;
-    ViewBag.HeadText = "Ülke Düzenle";
-    ViewBag.SmallText = null;
-
-    //Render Section
-    @section renderSection
-        {        
-        <script type="text/javascript" src="~/Content/assets/pages/scripts/ulke.min.js"></script>
-    }    
-}
+﻿@using Tse.UI.Web.Backoffice.Helpers
+@model Tse.UI.Web.Backoffice.ViewModels.UlkeDuzenleViewModel
+@section renderSection { <script type="text/javascript" src="~/Content/assets/pages/scripts/ulke.min.js"></script> }
 <div class="row">
     <div class="col-md-12">
         <!-- BEGIN VALIDATION STATES-->
@@ -58,7 +43,7 @@
                     <div class="form-actions">
                         <div class="row">
                             <div class="col-md-offset-3 col-md-9">
-                                <button type="submit" class="btn green">Kaydet</button>                   
+                                <button type="submit" class="btn green">Güncelle</button>                   
                                 <button type="button" id="btnVazgec" class="btn grey-salsa btn-outline">Vazgeç</button> 
                             </div>
                         </div>

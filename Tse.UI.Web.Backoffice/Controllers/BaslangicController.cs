@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using Tse.Dal.Backoffice.Model;
-using Tse.UI.Web.Backoffice.Models;
-
-namespace Tse.UI.Web.Backoffice.Controllers
+﻿namespace Tse.UI.Web.Backoffice.Controllers
 {
+    using System.Web.Mvc;
+    using ViewModels;
+
     public class BaslangicController : Controller
     {        
         [ActionName("gosterge-paneli")]
@@ -20,7 +15,7 @@ namespace Tse.UI.Web.Backoffice.Controllers
         [ActionName("guncellemeler")]
         public ActionResult Guncellemeler()
         {            
-            var model = new BaseViewModel();            
+            var model = new BaseViewModel();                        
             return View(model);            
         }
     }

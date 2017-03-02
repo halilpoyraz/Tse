@@ -6,11 +6,12 @@
 <!--<![endif]-->
 <head>
     <meta charset="utf-8" />
-    <title>@ViewBag.Title</title>
+    <title>@Model.Meta.Title</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="???" name="description" />
-    <meta content="???" name="author" />
+    <meta name="description" content="@Model.Meta.Description" />
+    <meta name="keywords" content="@Model.Meta.Keyword" />
+    <meta name="author" content="@Model.Meta.Description" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     @Styles.Render("~/bundles/cssHead") 
     @Scripts.Render("~/bundles/scriptHead")     
@@ -651,54 +652,39 @@
                     </ul>
                     <!-- END SIDEBAR MENU -->
                     <!-- END SIDEBAR MENU -->
-                </div>
-                <!-- END SIDEBAR -->
-            </div>
-            <!-- END SIDEBAR -->
-            <!-- BEGIN CONTENT -->
+                </div>                
+            </div>           
             <div class="page-content-wrapper">
                 <div class="page-content">
                     <div class="page-bar">
                         <ul class="page-breadcrumb">
-                            @if (ViewBag.BreadCrumb1Text != null)
+                            @if (Model.BreadCrumb.Text1 != null)
                             {
                                 <li>
-                                    <a href="@ViewBag.BreadCrumb1Link">@ViewBag.BreadCrumb1Text</a>
+                                    <a href="@Model.BreadCrumb.Link1">@Model.BreadCrumb.Text1</a>
                                     <i class="fa fa-circle"></i>
                                 </li>
                             }
 
-                            @if (ViewBag.BreadCrumb2Text != null)
+                            @if (Model.BreadCrumb.Text2 != null)
                             {
                                 <li>
-                                    @if (ViewBag.BreadCrumb2Link == null)
-                                    {
-                                        <span>@ViewBag.BreadCrumb2Text</span>
-                                    }
-                                    else
-                                    {
-                                        <a href="@ViewBag.BreadCrumb2Link">@ViewBag.BreadCrumb2Text</a>
-                                    }
+                                    @if (Model.BreadCrumb.Link2 == null) { <span>@Model.BreadCrumb.Text2</span> }
+                                    else { <a href="@Model.BreadCrumb.Link2">@Model.BreadCrumb.Text2</a> }                                    
                                 </li>
                             }
 
-                            @if (ViewBag.BreadCrumb3Text != null)
+                            @if (Model.BreadCrumb.Text3 != null)
                             {
                                 <li>
                                     <i class="fa fa-circle"></i>
-                                    @if (ViewBag.BreadCrumb3Link == null)
-                                    {
-                                        <span>@ViewBag.BreadCrumb3Text</span>
-                                    }
-                                    else
-                                    {
-                                        <a href="@ViewBag.BreadCrumb3Link">@ViewBag.BreadCrumb3Text</a>
-                                    }
+                                    @if (Model.BreadCrumb.Link3 == null) { <span>@Model.BreadCrumb.Text3</span> }
+                                    else { <a href = "@Model.BreadCrumb.Link3"> @Model.BreadCrumb.Text3 </a> }
                                 </li>
                             }
 
                         </ul>
-                        @if (ViewBag.BreadCrumb2Text == "Gösterge Paneli")
+                        @if (Model.BreadCrumb.Text2 == "Gösterge Paneli")
                         {
                             <div class="page-toolbar">
                                 <div id="dashboard-report-range" class="pull-right tooltips btn btn-sm" data-container="body" data-placement="bottom" data-original-title="Change dashboard date range">
@@ -710,16 +696,12 @@
                         }
                     </div>
                     <h1 class="page-title">
-                        @if (ViewBag.HeadText != null)
-                        { @ViewBag.HeadText }
-                        @if (ViewBag.SmallText != null)
-                        { <small>@ViewBag.SmallText</small> }
+                        @if (Model.BreadCrumb.HeadText != null) { @Model.BreadCrumb.HeadText }
+                        @if (Model.BreadCrumb.SmallText != null) { <small>@Model.BreadCrumb.SmallText</small> }
                     </h1>
                     @RenderBody()
                 </div>
-            </div>
-            <!-- END CONTENT -->
-            <!-- BEGIN QUICK SIDEBAR -->
+            </div>            
             <a href="javascript:;" class="page-quick-sidebar-toggler">
                 <i class="icon-login"></i>
             </a>
@@ -1323,15 +1305,13 @@
         <!-- BEGIN FOOTER -->
         <div class="page-footer">
             <div class="page-footer-inner">
-                2016 &copy; Metronic Theme By
-                <a target="_blank" href="http://keenthemes.com">Keenthemes</a> &nbsp;|&nbsp;
-                <a href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">Purchase Metronic!</a>
+                2017 &copy; Bu uygulama 
+                <a target="_blank" href="http://cc.poyraz.cc">@Model.Meta.Author</a> tarafından hazırlanmıştır. GNU Lisans koşulları geçerlidir.
             </div>
             <div class="scroll-to-top">
                 <i class="icon-arrow-up"></i>
             </div>
-        </div>
-        <!-- END FOOTER -->
+        </div>        
     </div>
 
     <!--[if lt IE 9]>

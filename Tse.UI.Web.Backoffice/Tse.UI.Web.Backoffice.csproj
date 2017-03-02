@@ -212,10 +212,14 @@
     </Compile>
     <Compile Include="Helpers\CustomHelper.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Filter.cs" />
+    <Compile Include="Models\Meta.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\UlkeViewModels.cs" />
-    <Compile Include="Models\BaseViewModel.cs" />
+    <Compile Include="Models\BreadCrumb.cs" />
+    <Compile Include="ViewModels\BaslangicViewModels.cs" />
+    <Compile Include="ViewModels\UlkeViewModels.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
