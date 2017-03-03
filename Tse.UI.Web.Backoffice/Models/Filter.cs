@@ -53,6 +53,15 @@
                     Taslak = context.Sehirler.Where(u => u.DurumID == 3).Count();
                     Silinmis = context.Sehirler.Where(u => u.DurumID == 4).Count();
                 }
+                else if (entityName == "Ilceler")
+                {
+                    Tum = context.Ilceler.Count();
+                    Aktif = context.Ilceler.Where(u => u.DurumID == 1).Count();
+                    Pasif = context.Ilceler.Where(u => u.DurumID == 2).Count();
+                    Taslak = context.Ilceler.Where(u => u.DurumID == 3).Count();
+                    Silinmis = context.Ilceler.Where(u => u.DurumID == 4).Count();
+                }
+
                 return this;
             }            
         }

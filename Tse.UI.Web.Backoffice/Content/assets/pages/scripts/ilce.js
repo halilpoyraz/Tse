@@ -28,7 +28,9 @@
                 "targets": [0, 1, 2, 3, 4]
             }],
             "order": [
-                [0, "asc"]
+                [1, "asc"],
+                [3, "asc"],
+                [4, "asc"],
             ]
         });
     }
@@ -88,18 +90,18 @@
                 }
             },
             rules: { //Kurallar
-                SehirID: {
+                "Ilce.SehirID": {
                     required: true
                 },
-                IlceKodu: {
+                "Ilce.IlceKodu": {                    
+                    number: true,
+                    required: true                    
+                },
+                "Ilce.IlceAdi": {
                     minlength: 2,
                     required: true
                 },
-                IlceAdi: {
-                    minlength: 2,
-                    required: true
-                },
-                DurumID: {
+                "Ilce.DurumID": {
                     required: true
                 }
             },

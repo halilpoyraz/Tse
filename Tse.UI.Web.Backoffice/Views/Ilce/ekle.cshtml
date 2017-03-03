@@ -1,27 +1,10 @@
-﻿@model Tse.Dal.Backoffice.Model.Ilce
-@{
-    ViewBag.Title = "Yeni İlçe";
-    ViewBag.BreadCrumb1Text = "Başlangıç";
-    ViewBag.BreadCrumb1Link = "/baslangic/gosterge-paneli";
-    ViewBag.BreadCrumb2Text = "İlçeler";
-    ViewBag.BreadCrumb2Link = "/ilce";
-    ViewBag.BreadCrumb3Text = "Yeni İlçe Ekle";
-    ViewBag.BreadCrumb3Link = null;
-    ViewBag.HeadText = "Yeni İlçe Ekle";
-    ViewBag.SmallText = null;
-
-    //Render Section
-    @section renderSection
-        {        
-        <script type="text/javascript" src="~/Content/assets/pages/scripts/ilce.min.js"></script>
-    }    
-}
+﻿@using Tse.UI.Web.Backoffice.Helpers
+@model Tse.UI.Web.Backoffice.ViewModels.IlceEkleViewModel
+@section renderSection{ <script type="text/javascript" src="~/Content/assets/pages/scripts/ilce.min.js"></script> }   
 <div class="row">
-    <div class="col-md-12">
-        <!-- BEGIN VALIDATION STATES-->
+    <div class="col-md-12">        
         <div class="portlet light portlet-fit portlet-form">
-            <div class="portlet-body">
-                <!-- BEGIN FORM-->
+            <div class="portlet-body">                
                 @using (Html.BeginForm("ekle", "ilce", FormMethod.Post, new { @name = "form1", @id = "form1", @class = "form-horizontal" }))
                 {
                     @Html.AntiForgeryToken()                                
@@ -30,7 +13,7 @@
                             <button class="close" data-close="alert"></button>
                             Formdaki alanları doğru ve eksiksiz bir biçimde doldurunuz.
                         </div>                                                
-                        <div class="alert alert-success @ViewBag.Success">
+                        <div class="alert alert-success @TempData["DisplayStatus"]">
                             <button class="close" data-close="alert"></button> Kayıt Eklendi.
                         </div>
                         <div class="form-group">
@@ -38,26 +21,26 @@
                                 <span>@Html.DisplayNameFor(m => m.Sehir.SehirAdi)</span>
                                 <span class="required"> * </span>
                             </label>
-                            <div class="col-md-4">
-                                @Html.DropDownList("SehirID", null, "Seçin..", htmlAttributes: new { @class = "form-control" })
+                            <div class="col-md-4">                                
+                                @Html.DropDownListFor(m => m.Ilce.SehirID, new SelectList(Model.Sehirler, "SehirID", "SehirAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
                             </div>
                         </div>                        
                         <div class="form-group">
                             <label class="control-label col-md-2">
-                                <span>@Html.DisplayNameFor(m => m.IlceKodu)</span>
+                                <span>@Html.DisplayNameFor(m => m.Ilce.IlceKodu)</span>
                                 <span class="required"> * </span>
                             </label>
-                            <div class="col-md-4">
-                                   @Html.TextBox("IlceKodu", null, new { @class = "form-control", @data_required = "1" })
+                            <div class="col-md-4">                                   
+                                   @Html.TextBoxFor(model => model.Ilce.IlceKodu, htmlAttributes: new { @class = "form-control", @data_required = "1" })                                
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-md-2">
-                                <span>@Html.DisplayNameFor(m => m.IlceAdi)</span>
+                                <span>@Html.DisplayNameFor(m => m.Ilce.IlceAdi)</span>
                                 <span class="required"> * </span>
                             </label>
-                            <div class="col-md-4">
-                                @Html.TextBox("IlceAdi", null, new { @class = "form-control", @data_required = "1" })
+                            <div class="col-md-4">                                
+                                @Html.TextBoxFor(model => model.Ilce.IlceAdi, htmlAttributes: new { @class ="form-control", @data_required ="1"} )
                             </div>
                         </div>
                         <div class="form-group">                            
@@ -65,8 +48,8 @@
                                 <span>@Html.DisplayNameFor(m => m.Durum.DurumAdi)</span>
                                 <span class="required"> * </span>
                             </label>
-                            <div class="col-md-4">                              
-                                @Html.DropDownList("DurumID", null, "Seçin..", htmlAttributes: new { @class = "form-control" })                        
+                            <div class="col-md-4">                                                              
+                                @Html.DropDownListFor(m => m.Ilce.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })        
                             </div>
                         </div>
                     </div>
@@ -78,11 +61,8 @@
                             </div>
                         </div>
                     </div>
-                }
-                <!-- END FORM-->
+                }                
             </div>
-        </div>
-        <!-- END VALIDATION STATES-->
+        </div>        
     </div>
 </div>
-@(Session["Success"] = "")

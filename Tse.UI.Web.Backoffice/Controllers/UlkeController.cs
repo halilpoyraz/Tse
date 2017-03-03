@@ -7,9 +7,7 @@
     using ViewModels;
 
     public class UlkeController : Controller
-    {
-
-        // GET: Ulke     
+    {        
         public ActionResult Listele()
         {            
             var model = new UlkeListeleViewModel();

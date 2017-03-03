@@ -1,20 +1,5 @@
-﻿@using Tse.Dal.Backoffice.Model;
-@model IEnumerable<Ilce>
-@{
-    ViewBag.Title = "İlçeler";
-    ViewBag.BreadCrumb1Text = "Başlangıç";
-    ViewBag.BreadCrumb1Link = "/baslangic/gosterge-paneli";
-    ViewBag.BreadCrumb2Text = "İlçeler";
-    ViewBag.BreadCrumb2Link = null;
-    ViewBag.HeadText = "Tüm İlçeler";
-    ViewBag.SmallText = null;
-
-    //Render Section
-    @section renderSection
-        {        
-        <script type="text/javascript" src="~/Content/assets/pages/scripts/ilce.min.js"></script>
-        }
-}
+﻿@model Tse.UI.Web.Backoffice.ViewModels.IlceListeleViewModel
+@section renderSection { <script type="text/javascript" src="~/Content/assets/pages/scripts/ilce.min.js"></script> }
 <div class="row">
     <div class="col-md-12">
         <div class="portlet-body">
@@ -36,36 +21,36 @@
                                 <i class="fa fa-filter"></i>
                             </button>                            
                             <ul class="dropdown-menu pull-right">
-                                @if (ViewBag.TumCount > 0)
+                                @if (Model.Filter.CountByDurumId(0) > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnTumKayitlar"><i class="fa fa-filter aria-hidden="true"" aria-hidden="true"></i> Tüm Kayıtlar(@ViewBag.TumCount) </a>
+                                        <a href="javascript:;" id="btnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.Filter.CountByDurumId(0)) </a>
                                     </li>
                                 }
-                                @if (ViewBag.AktifCount > 0)
+                                @if (Model.Filter.CountByDurumId(1) > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnAktif"><i class="fa fa-filter"></i> Aktif (@ViewBag.AktifCount) </a>
+                                        <a href="javascript:;" id="btnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.Filter.CountByDurumId(1)) </a>
                                     </li>
                                 }
-                                @if (ViewBag.PasifCount > 0)
+                                @if (Model.Filter.CountByDurumId(2) > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@ViewBag.PasifCount) </a>
+                                        <a href="javascript:;" id="btnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.Filter.CountByDurumId(2)) </a>
                                     </li>
                                 }
-                                @if (ViewBag.TaslakCount > 0)
+                                @if (Model.Filter.CountByDurumId(3) > 0)
                                 {
                                     <li>
-                                        <a href="javascript:;" id="btnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@ViewBag.TaslakCount) </a>
+                                        <a href="javascript:;" id="btnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.Filter.CountByDurumId(3)) </a>
                                     </li>
                                 }
-                                @if (ViewBag.SilinmisCount > 0)
+                                @if (Model.Filter.CountByDurumId(4) > 0)
                                 {
-                                <li>
-                                    <a href="javascript:;" id="btnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@ViewBag.SilinmisCount) </a>
-                                </li>                              
-                                 }
+                                    <li>
+                                        <a href="javascript:;" id="btnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.Filter.CountByDurumId(4)) </a>
+                                    </li>
+                                }
                             </ul>
                         </div>                        
                     </div>
@@ -74,20 +59,20 @@
             <table class="table table-striped table-hover" id="table1">
                 <thead>
                     <tr>
-                        <th data-field="id"> Id </th>
+                        <th data-field="id" class="display-hide"> Id </th>
                         <th data-field="sehiradi"> Şehir Adı </th>
-                        <th data-field="ilcekodu"> İlçe Kodu </th>
+                        <th data-field="ilcekodu" class="display-hide"> İlçe Kodu </th>
                         <th data-field="ilceadi"> İlçe Adı </th>
                         <th data-field="durum"> Durumu </th>
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var ilce in Model)
+                    @foreach (var ilce in Model.Ilceler)
                     {
                         <tr>
-                            <td> @ilce.IlceID </td>
+                            <td class="display-hide"> @ilce.IlceID </td>
                             <td> @ilce.Sehir.SehirAdi </td>
-                            <td> @ilce.IlceKodu</td>
+                            <td class="display-hide"> @ilce.IlceKodu</td>
                             <td> @ilce.IlceAdi</td>
                             <td> @ilce.Durum.DurumAdi </td>
                         </tr>

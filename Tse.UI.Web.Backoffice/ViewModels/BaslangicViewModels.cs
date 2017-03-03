@@ -1,8 +1,5 @@
 ﻿namespace Tse.UI.Web.Backoffice.ViewModels
 {
-    using System.Collections.Generic;
-    using System.Linq;
-    using Dal.Backoffice.Model;
     using Models;
 
     public partial class GostergePaneliViewModel : BaseViewModel
@@ -17,9 +14,11 @@
 
             //Meta
             Meta.Title = "Gösterge Paneli";
-        }                           
+        }    
+        
+        
+        //Properties                       
     }
-
 
     public partial class GuncellemelerViewModel : BaseViewModel
     {
@@ -34,6 +33,8 @@
             //Meta
             Meta.Title = "Güncellemeler";            
         }
-    }
 
+
+        //Properties
+    }
 }

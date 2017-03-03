@@ -8,8 +8,7 @@
     using ViewModels;
 
     public class SehirController : Controller
-    {
-        // GET: Sehir                 
+    {                       
         public ActionResult Listele()
         {
             var model = new SehirListeleViewModel();

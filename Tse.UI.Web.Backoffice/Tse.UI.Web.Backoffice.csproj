@@ -218,6 +218,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\BreadCrumb.cs" />
     <Compile Include="ViewModels\BaslangicViewModels.cs" />
+    <Compile Include="ViewModels\IlceViewModels.cs" />
     <Compile Include="ViewModels\SehirViewModels.cs" />
     <Compile Include="ViewModels\UlkeViewModels.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />

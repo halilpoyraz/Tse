@@ -5,29 +5,30 @@
     using Dal.Backoffice.Model;
     using Models;
 
-    public partial class SehirListeleViewModel : BaseViewModel
+    public partial class IlceListeleViewModel : BaseViewModel
      {
         //Constructor
-        public SehirListeleViewModel()
+        public IlceListeleViewModel()
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
                 //Meta
-                Meta.Title = "Tüm Şehirler";
-                Meta.Description = "Bu ekrandan şehir listeleme, filtreleme, düzenleme ve yeni şehir ekleme işlemleri yapılmaktadır.";                
+                Meta.Title = "Tüm İlçeler";
+                Meta.Description = "Bu ekrandan ilçe listeleme, filtreleme, düzenleme ve yeni ilçe ekleme işlemleri yapılmaktadır.";                
 
                 //BreadCrumb                
                 BreadCrumb.Text1 = "Başlangıç";
                 BreadCrumb.Link1 = "/baslangic/gosterge-paneli";
-                BreadCrumb.Text2 = "Şehirler";
-                BreadCrumb.Link2 = "/sehir/listele";
-                BreadCrumb.Text3 = "Tüm Şehirler";
-                BreadCrumb.HeadText = "Tüm Şehirler";
+                BreadCrumb.Text2 = "İlçeler";
+                BreadCrumb.Link2 = "/ilce/listele";
+                BreadCrumb.Text3 = "Tüm İlçeler";
+                BreadCrumb.HeadText = "Tüm İlçeler";
 
                 //Filter
-                Filter = new Filter().Create("Sehirler");
-                                
+                Filter = new Filter().Create("Ilceler");
+
                 //Context
+                Ilceler = context.Ilceler.OrderBy(u => u.Sehir.SehirAdi).ThenBy(i => i.IlceAdi).ToList();
                 Sehirler = context.Sehirler.OrderBy(u=>u.Ulke.UlkeAdi).ThenBy(s=>s.SehirAdi).ToList();
                 Ulkeler = context.Ulkeler.OrderBy(u=>u.UlkeAdi).ToList();
                 Durumlar = context.Durumlar.ToList();
@@ -35,49 +36,50 @@
         }
 
         //Properties                
+        public List<Ilce> Ilceler { get; set; }
         public List<Sehir> Sehirler { get; set; }
         public List<Ulke> Ulkeler { get; set; }
         public List<Durum> Durumlar { get; set; }
         public Filter Filter { get; set; }
     }
-
-    public partial class SehirEkleViewModel : BaseViewModel
+    
+    public partial class IlceEkleViewModel : BaseViewModel
     {
         //Constructor
-        public SehirEkleViewModel()
+        public IlceEkleViewModel()
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
                 //Meta
-                Meta.Title = "Yeni Şehir Ekle";
-                Meta.Description = "Bu ekrandan yeni şehir ekleme işlemleri yapılmaktadır.";
+                Meta.Title = "Yeni İlçe Ekle";
+                Meta.Description = "Bu ekrandan yeni ilçe ekleme işlemleri yapılmaktadır.";
 
                 //BreadCrumb                
                 BreadCrumb.Text1 = "Başlangıç";
                 BreadCrumb.Link1 = "/baslangic/gosterge-paneli";
-                BreadCrumb.Text2 = "Şehirler";
-                BreadCrumb.Link2 = "/sehir/listele";
-                BreadCrumb.Text3 = "Yeni Şehir Ekle";
-                BreadCrumb.HeadText = "Yeni Şehir Ekle";
+                BreadCrumb.Text2 = "İlçeler";
+                BreadCrumb.Link2 = "/ilce/listele";
+                BreadCrumb.Text3 = "Yeni İlçe Ekle";
+                BreadCrumb.HeadText = "Yeni İlçe Ekle";
 
                 //Context             
-                Ulkeler = context.Ulkeler.OrderBy(u=>u.UlkeAdi).ToList();
+                Sehirler = context.Sehirler.OrderBy(u=>u.SehirAdi).ToList();
                 Durumlar = context.Durumlar.ToList();
             }
         }
 
         //Properties         
-        public Ulke Ulke { get; set; }
+        public Ilce Ilce { get; set; }
         public Sehir Sehir { get; set; }
         public Durum Durum { get; set; }
-        public List<Ulke> Ulkeler { get; set; }
+        public List<Sehir> Sehirler { get; set; }
         public List<Durum> Durumlar { get; set; }
     }
-
-    public partial class SehirDuzenleViewModel : BaseViewModel
+    
+    public partial class IlceDuzenleViewModel : BaseViewModel
     {
         //Constructor
-        public SehirDuzenleViewModel()
+        public IlceDuzenleViewModel()
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
@@ -88,23 +90,22 @@
                 //BreadCrumb                
                 BreadCrumb.Text1 = "Başlangıç";
                 BreadCrumb.Link1 = "/baslangic/gosterge-paneli";
-                BreadCrumb.Text2 = "Şehirler";
-                BreadCrumb.Link2 = "/sehir/listele";
-                BreadCrumb.Text3 = "Şehir Düzenle";
-                BreadCrumb.HeadText = "Şehir Düzenle";
+                BreadCrumb.Text2 = "İlçeler";
+                BreadCrumb.Link2 = "/ilce/listele";
+                BreadCrumb.Text3 = "İlçe Düzenle";
+                BreadCrumb.HeadText = "İlçe Düzenle";
 
                 //Context
-                Ulkeler = context.Ulkeler.OrderBy(u => u.UlkeAdi).ToList();
+                Sehirler = context.Sehirler.OrderBy(u => u.SehirAdi).ToList();
                 Durumlar = context.Durumlar.ToList();
             }
         }
 
         //Properties
-        public Ulke Ulke { get; set; }
+        public Ilce Ilce { get; set; }
         public Sehir Sehir { get; set; }
         public Durum Durum { get; set; }
-        public List<Ulke> Ulkeler { get; set; }
+        public List<Sehir> Sehirler { get; set; }
         public List<Durum> Durumlar { get; set; }
-    }
-
+    }    
 }

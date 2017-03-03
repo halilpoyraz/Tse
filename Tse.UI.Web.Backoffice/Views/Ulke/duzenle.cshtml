@@ -10,7 +10,7 @@
                 @using (Html.BeginForm("duzenle", "ulke", FormMethod.Post, new { @name = "form1", @id = "form1", @class = "form-horizontal" }))
                 {
                     @Html.AntiForgeryToken()    
-                    @Html.HiddenFor(model => model.Ulke.UlkeID)
+                    @Html.HiddenFor(m => m.Ulke.UlkeID)
                     <div class="form-body">
                         <div class="alert alert-danger display-hide">
                             <button class="close" data-close="alert"></button>                             
@@ -19,16 +19,16 @@
                                                                       
                         <div class="form-group">
                             <label class="control-label col-md-2">
-                                <span>@Html.DisplayNameFor(model => model.Ulke.UlkeAdi)</span>
+                                <span>@Html.DisplayNameFor(m => m.Ulke.UlkeAdi)</span>
                                 <span class="required"> * </span>
                             </label>
                             <div class="col-md-4">
-                                @Html.TextBoxFor(model => model.Ulke.UlkeAdi, new { @class = "form-control", @data_required = "1" })
+                                @Html.TextBoxFor(m => m.Ulke.UlkeAdi, new { @class = "form-control", @data_required = "1" })
                             </div>
                         </div>
                         <div class="form-group">                            
                             <label class="control-label col-md-2">
-                                <span>@Html.DisplayNameFor(model => model.Durum.DurumAdi)</span>
+                                <span>@Html.DisplayNameFor(m => m.Durum.DurumAdi)</span>
                                 <span class="required"> * </span>
                             </label>
                             <div class="col-md-4">                                                  
@@ -44,11 +44,8 @@
                             </div>
                         </div>
                     </div>
-                }
-                <!-- END FORM-->
+                }                
             </div>
-        </div>
-        <!-- END VALIDATION STATES-->
+        </div>        
     </div>
 </div>
-@(Session["Success"] = "")
