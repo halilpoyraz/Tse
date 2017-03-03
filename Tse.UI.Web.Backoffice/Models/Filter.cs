@@ -35,6 +35,7 @@
             {
                 if (entityName == "Ulkeler")
                 {
+
                     Tum = context.Ulkeler.Count();
                     Aktif = context.Ulkeler.Where(u => u.DurumID == 1).Count();
                     Pasif = context.Ulkeler.Where(u => u.DurumID == 2).Count();
@@ -57,12 +58,38 @@
                     Taslak = context.Ilceler.Where(u => u.DurumID == 3).Count();
                     Silinmis = context.Ilceler.Where(u => u.DurumID == 4).Count();
                 }
-
+                else if (entityName == "Kategoriler")
+                {
+                    Tum = context.Kategoriler.Count();
+                    Aktif = context.Kategoriler.Where(u => u.DurumID == 1).Count();
+                    Pasif = context.Kategoriler.Where(u => u.DurumID == 2).Count();
+                    Taslak = context.Kategoriler.Where(u => u.DurumID == 3).Count();
+                    Silinmis = context.Kategoriler.Where(u => u.DurumID == 4).Count();
+                }
                 return this;
             }            
         }
 
         /// <summary>
+        /// Yeni bir filtre yaratır.
+        /// </summary>
+        /// <param name="kategoriID">Kategoriler tablosundan gelen KategoriID</param>
+        /// <returns></returns>
+        public Filter Create(int kategoriID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {                
+                Tum = context.Degerler.Where(d=>d.KategoriID== kategoriID).Count();
+                Aktif = context.Degerler.Where(d => d.KategoriID == kategoriID && d.DurumID==1).Count();
+                Pasif = context.Degerler.Where(d => d.KategoriID == kategoriID && d.DurumID == 2).Count();
+                Taslak = context.Degerler.Where(d => d.KategoriID == kategoriID && d.DurumID == 3).Count();
+                Silinmis = context.Degerler.Where(d => d.KategoriID == kategoriID && d.DurumID == 4).Count();
+
+                return this;
+            }
+        }
+
+            /// <summary>
         /// durumId değerine göre kayıt sayısını döndürür. 
         /// </summary>
         /// <param name="id">0:Tümü | 1: Aktif | 2: Pasif | 3:Taslak | 4:Silinmiş</param>

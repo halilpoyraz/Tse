@@ -6185,13 +6185,6 @@
     <Content Include="Views\Kisi\yeni-kisi.cshtml" />
     <Content Include="Views\Standart\tum-standartlar.cshtml" />
     <Content Include="Views\Standart\yeni-standart.cshtml" />
-    <Content Include="Views\Kategori\dokuman-tipi.cshtml" />
-    <Content Include="Views\Kategori\hazirlik-grubu.cshtml" />
-    <Content Include="Views\Kategori\yururluk-durumu.cshtml" />
-    <Content Include="Views\Kategori\standart-tur.cshtml" />
-    <Content Include="Views\Kategori\standart-icerik-tipi.cshtml" />
-    <Content Include="Views\Kategori\atif-yapilan-standart-tipi.cshtml" />
-    <Content Include="Views\Kategori\atif-yapilan-dokuman-tipi.cshtml" />
     <Content Include="Views\Test\Index.cshtml" />
     <Content Include="Views\Ulke\duzenle.cshtml" />
     <Content Include="Views\Hata\Index.cshtml" />
