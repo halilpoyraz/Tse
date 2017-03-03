@@ -2,7 +2,10 @@
 {
     public partial class BreadCrumb
     {
-        //Constructor
+        //Constructors
+        /// <summary>
+        /// Default constructor.
+        /// </summary>
         public BreadCrumb()
         {            
             Text1 = "Başlangıç";
@@ -14,6 +17,7 @@
             HeadText = null;
             SmallText = null;
         }
+                
 
         //Properties        
         public string Text1 { get; set; }
@@ -24,5 +28,8 @@
         public string Link3{ get; set; }
         public string HeadText { get; set; }
         public string SmallText { get; set; }
+
+
+        //Methods        
     }
 }

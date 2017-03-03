@@ -12,24 +12,26 @@
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
-                //Meta
-                Meta.Title = "Tüm Ülkeler";
-                Meta.Description = "Bu ekrandan ülke listeleme, filtreleme, düzenleme ve yeni ülke ekleme işlemleri yapılmaktadır.";                
+                Meta = new Meta()
+                {
+                    Title = "Tüm Ülkeler",
+                    Description = "Bu ekrandan ülke listeleme, filtreleme, düzenleme ve yeni ülke ekleme işlemleri yapılmaktadır."
+                };
 
-                //BreadCrumb                
-                BreadCrumb.Text1 = "Başlangıç";
-                BreadCrumb.Link1 = "/baslangic/gosterge-paneli";
-                BreadCrumb.Text2 = "Ülkeler";
-                BreadCrumb.Link2 = "/ulke/listele";
-                BreadCrumb.Text3 = "Tüm Ülkeler";
-                BreadCrumb.HeadText = "Tüm Ülkeler";
+                BreadCrumb = new BreadCrumb()
+                {
+                    Text1 = "Başlangıç",
+                    Link1 = "/baslangic/gosterge-paneli",
+                    Text2 = "Ülkeler",
+                    Link2 = "/ulke/listele",
+                    Text3 = "Tüm Ülkeler",
+                    HeadText = "Tüm Ülkeler"
+                };
 
-                //Filter
                 Filter = new Filter().Create("Ulkeler");
-                                
-
-                //Context
+                
                 Ulkeler = context.Ulkeler.OrderBy(u=>u.UlkeAdi).ToList();
+
                 Durumlar = context.Durumlar.ToList();
             }
         }
@@ -47,19 +49,22 @@
         {
             using (TseBackofficeContext context =  new TseBackofficeContext())
             {
-                //Meta
-                Meta.Title = "Yeni Ülke Ekle";
-                Meta.Description = "Bu ekrandan yeni ülke ekleme işlemleri yapılmaktadır.";
+                Meta = new Meta()
+                {
+                    Title = "Yeni Ülke Ekle",
+                    Description = "Bu ekrandan yeni ülke ekleme işlemleri yapılmaktadır."
+                };
 
-                //BreadCrumb                
-                BreadCrumb.Text1 = "Başlangıç";
-                BreadCrumb.Link1 = "/baslangic/gosterge-paneli";
-                BreadCrumb.Text2 = "Ülkeler";
-                BreadCrumb.Link2 = "/ulke/listele";
-                BreadCrumb.Text3 = "Yeni Ülke Ekle";
-                BreadCrumb.HeadText = "Yeni Ülke Ekle";
-
-                //Context             
+                BreadCrumb = new BreadCrumb()
+                {
+                    Text1 = "Başlangıç",
+                    Link1 = "/baslangic/gosterge-paneli",
+                    Text2 = "Ülkeler",
+                    Link2 = "/ulke/listele",
+                    Text3 = "Yeni ÜlkeEkle",
+                    HeadText = "Yeni Ülke Ekle"
+                };
+                                           
                 Durumlar = context.Durumlar.ToList();
             }
         }
@@ -76,20 +81,23 @@
         public UlkeDuzenleViewModel()
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
-            {
-                //Meta
-                Meta.Title = "Ülke Düzenle";
-                Meta.Description = "Bu ekrandan ülke düzenleme işlemleri yapılmaktadır.";
-
-                //BreadCrumb                
-                BreadCrumb.Text1 = "Başlangıç";
-                BreadCrumb.Link1 = "/baslangic/gosterge-paneli";
-                BreadCrumb.Text2 = "Ülkeler";
-                BreadCrumb.Link2 = "/ulke/listele";
-                BreadCrumb.Text3 = "Ülke Düzenle";
-                BreadCrumb.HeadText = "Ülke Düzenle";
-
-                //Context
+            {                
+                Meta = new Meta()
+                {
+                    Title = "Ülke Düzenle",
+                    Description = "Bu ekrandan ülke düzenleme işlemleri yapılmaktadır."
+                };
+                                
+                BreadCrumb = new BreadCrumb()
+                {
+                    Text1 = "Başlangıç",
+                    Link1 = "/baslangic/gosterge-paneli",
+                    Text2 = "Ülkeler",
+                    Link2 = "/ulke/listele",
+                    Text3 = "Ülke Düzenle",
+                    HeadText = "Ülke Düzenle"
+                };
+                                
                 Durumlar = context.Durumlar.ToList();
             }
         }
@@ -99,5 +107,4 @@
         public Durum Durum { get; set; }
         public List<Durum> Durumlar { get; set; }
     }
-
 }

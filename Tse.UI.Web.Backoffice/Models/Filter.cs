@@ -2,10 +2,6 @@
 {
     using Dal.Backoffice.Model;
     using System.Linq;
-    using System.Data.Entity;
-    using System.Data.Entity.Core.Metadata.Edm;
-    using System.Collections.Generic;
-    using System;
 
     public partial class Filter
     {
@@ -19,7 +15,7 @@
             Silinmis = 0;
         }
 
-
+        //Properties
         private int Tum { get; set; }
         private int Aktif { get; set; }
         private int Pasif { get; set; }
