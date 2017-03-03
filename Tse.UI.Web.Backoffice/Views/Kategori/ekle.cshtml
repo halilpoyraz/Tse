@@ -1,0 +1,70 @@
+﻿@using Tse.UI.Web.Backoffice.Helpers
+@model Tse.UI.Web.Backoffice.ViewModels.KategoriEkleViewModel
+@section renderSection{ <script type="text/javascript" src="~/Content/assets/pages/scripts/kategori.min.js"></script> }    
+<div class="row">
+    <div class="col-md-12">               
+        <div class="portlet light portlet-fit portlet-form">
+            <div class="portlet-body">                
+                @using (Html.BeginForm("ekle", "kategori", FormMethod.Post, new { @name = "form1", @id = "form1", @class = "form-horizontal" }))
+                {
+                    @Html.AntiForgeryToken() 
+                    @Html.Hidden("Deger.KategoriID", Model.Kategori.KategoriID);
+                                                
+                    <div class="form-body">
+                        <div class="alert alert-danger display-hide">
+                            <button class="close" data-close="alert"></button>                             
+                            Formdaki alanları doğru ve eksiksiz bir biçimde doldurunuz.
+                        </div>                                                
+                        <div class="alert alert-success @TempData["DisplayStatus"]">
+                            <button class="close" data-close="alert"></button> Kayıt Eklendi.
+                        </div>                        
+                        <div class="form-group">
+                            <label class="control-label col-md-2">
+                                <span>@Html.DisplayNameFor(m => m.Deger.DegerAdiTr)</span>
+                                <span class="required"> * </span>
+                            </label>
+                            <div class="col-md-4">                                   
+                                   @Html.TextBoxFor(m => m.Deger.DegerAdiTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })                                   
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-2">
+                                <span>@Html.DisplayNameFor(m => m.Deger.DegerAdiEn)</span>
+                                <span class="required"> * </span>
+                            </label>
+                            <div class="col-md-4">
+                                @Html.TextBoxFor(m => m.Deger.DegerAdiEn, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-2">
+                                <span>@Html.DisplayNameFor(m => m.Deger.SiraNo)</span>
+                                <span class="required"> * </span>
+                            </label>
+                            <div class="col-md-4">
+                                @Html.TextBoxFor(m => m.Deger.SiraNo, htmlAttributes: new {@type="number", min = 1, max = 99, @class = "form-control", @data_required = "1" })
+                            </div>
+                        </div>
+                        <div class="form-group">                            
+                            <label class="control-label col-md-2">
+                                <span>@Html.DisplayNameFor(m => m.Durum.DurumAdi)</span>
+                                <span class="required"> * </span>
+                            </label>
+                            <div class="col-md-4">                              
+                                @Html.DropDownListFor(m => m.Deger.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiniz",""), htmlAttributes: new { @class = "form-control" })                                                    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <div class="row">
+                            <div class="col-md-offset-3 col-md-9">
+                                <button type="submit" class="btn green">Kaydet</button>                   
+                                <button type="button" id="btnVazgec" class="btn grey-salsa btn-outline">Vazgeç</button>             
+                            </div>
+                        </div>
+                    </div>
+                }                
+            </div>
+        </div>        
+    </div>
+</div>

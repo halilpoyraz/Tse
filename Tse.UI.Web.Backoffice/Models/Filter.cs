@@ -22,7 +22,6 @@
         private int Taslak { get; set; }
         private int Silinmis { get; set; }
 
-
         //Methods
         /// <summary>
         /// Yeni bir filtre yaratır.
@@ -89,7 +88,7 @@
             }
         }
 
-            /// <summary>
+        /// <summary>
         /// durumId değerine göre kayıt sayısını döndürür. 
         /// </summary>
         /// <param name="id">0:Tümü | 1: Aktif | 2: Pasif | 3:Taslak | 4:Silinmiş</param>

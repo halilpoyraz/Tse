@@ -9559,63 +9559,63 @@
                 new Kategori
                 {
                     KategoriID =1,
-                    Adi ="Doküman Tipi",
+                    Adi ="Doküman Tipleri",
                     Icon ="fa fa-file-text-o",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =2,
-                    Adi ="Hazırlık Grubu",
+                    Adi ="Hazırlık Grupları",
                     Icon ="fa fa-clipboard",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =3,
-                    Adi ="Yürürlük Durumu",
+                    Adi ="Yürürlük Durumları",
                     Icon ="fa fa-gavel",
                     DurumID = 1
                 },
                 new Kategori
                 {
                     KategoriID =4,
-                    Adi ="Standart Tür",
+                    Adi ="Standart Türler",
                     Icon ="fa fa-file-text-o",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =5,
-                    Adi ="Telefon Tipi",
+                    Adi ="Telefon Tipleri",
                     Icon ="fa fa-phone-square",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =6,
-                    Adi ="Adres Tipi",
+                    Adi ="Adres Tipleri",
                     Icon ="fa fa-home",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =7,
-                    Adi ="Standart İcerik Tipi",
+                    Adi ="Standart İcerik Tipleri",
                     Icon ="fa fa-file-o",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =8,
-                    Adi ="Atıf Yapılan Standart Tipi",
+                    Adi ="Atıf Yapılan Standart Tipleri",
                     Icon ="fa fa-quote-right",
                     DurumID =1
                 },
                 new Kategori
                 {
                     KategoriID =9,
-                    Adi ="Atıf Yapılan Dokuman Tipi",
+                    Adi ="Atıf Yapılan Döküman Tipleri",
                     Icon ="fa fa-quote-left",
                     DurumID =1
                 }

@@ -27,7 +27,7 @@
                     Text3 = "Tüm İlçeler",
                     HeadText = "Tüm İlçeler",
                 };
-                
+
                 Filter = new Filter().Create("Ilceler");
                 
                 Ilceler = context.Ilceler.OrderBy(u => u.Sehir.SehirAdi).ThenBy(i => i.IlceAdi).ToList();

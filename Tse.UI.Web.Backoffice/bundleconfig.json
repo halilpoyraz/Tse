@@ -28,5 +28,11 @@
     "inputFiles": [
       "Content/assets/pages/scripts/ilce.js"
     ]
+  },
+  {
+    "outputFileName": "Content/assets/pages/scripts/kategori.min.js",
+    "inputFiles": [
+      "Content/assets/pages/scripts/kategori.js"
+    ]
   }
 ]

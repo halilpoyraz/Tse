@@ -220,6 +220,7 @@
     <Compile Include="ViewModels\BaslangicViewModels.cs" />
     <Compile Include="ViewModels\IlceViewModels.cs" />
     <Compile Include="ViewModels\SehirViewModels.cs" />
+    <Compile Include="ViewModels\KategoriViewModels.cs" />
     <Compile Include="ViewModels\UlkeViewModels.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -230,9 +231,13 @@
     <Content Include="Content\assets\pages\scripts\baslangic.min.js">
       <DependentUpon>baslangic.js</DependentUpon>
     </Content>
+    <Content Include="Content\assets\pages\scripts\kategori.js" />
     <Content Include="Content\assets\pages\scripts\ilce.js" />
     <Content Include="Content\assets\pages\scripts\ilce.min.js">
       <DependentUpon>ilce.js</DependentUpon>
+    </Content>
+    <Content Include="Content\assets\pages\scripts\kategori.min.js">
+      <DependentUpon>kategori.js</DependentUpon>
     </Content>
     <Content Include="Content\assets\pages\scripts\sehir.js" />
     <Content Include="Content\assets\pages\scripts\sehir.min.js">
@@ -6195,6 +6200,8 @@
     <Content Include="Views\Ilce\ekle.cshtml" />
     <Content Include="Views\Ilce\duzenle.cshtml" />
     <Content Include="Views\Kategori\listele.cshtml" />
+    <Content Include="Views\Kategori\ekle.cshtml" />
+    <Content Include="Views\Kategori\duzenle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

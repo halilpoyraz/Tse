@@ -558,12 +558,12 @@
                             </a>
                             <ul class="sub-menu">
                                 <li class="nav-item  @if(action=="listele"){ @("start active open") }">
-                                    <a href="/kategori/listele?KategoriID=@kategori.KategoriID" class="nav-link ">
+                                    <a href="/kategori/listele?kategoriID=@kategori.KategoriID" class="nav-link ">
                                         <span class="title">Tümünü Göster</span>
                                     </a>
                                 </li>
                                 <li class="nav-item  @if(action=="ekle"){ @("start active open") }">
-                                    <a href="/kategori/ekle?KategoriID=@kategori.KategoriID" class="nav-link ">
+                                    <a href="/kategori/ekle?kategoriID=@kategori.KategoriID" class="nav-link ">
                                         <span class="title">Yeni Ekle</span>
                                     </a>
                                 </li>
@@ -610,41 +610,6 @@
                                 <li class="nav-item  @if(action=="yeni-standart"){ @("start active open") }">
                                     <a href="/standartlar/yeni-standart" class="nav-link ">
                                         <span class="title">Yeni Standart</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item  @if(action=="dokuman-tipi"){ @("start active open") }">
-                                    <a href="/kategoriler/dokuman-tipi" class="nav-link ">
-                                        <span class="title">Dokuman Tipi</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item   @if(action=="hazirlik-grubu"){ @("start active open") }">
-                                    <a href="/kategoriler/hazirlik-grubu" class="nav-link ">
-                                        <span class="title">Hazırlik Grubu</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item   @if(action=="yururluk-durumu"){ @("start active open") }">
-                                    <a href="/kategoriler/yururluk-durumu" class="nav-link ">
-                                        <span class="title">Yürürlük Durumu</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item   @if(action=="standart-tur"){ @("start active open") }">
-                                    <a href="/kategoriler/standart-tur" class="nav-link ">
-                                        <span class="title">Standart Tür</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item   @if(action=="standart-icerik-tipi"){ @("start active open") }">
-                                    <a href="/kategoriler/standart-icerik-tipi" class="nav-link ">
-                                        <span class="title">Standart İçerik Tipi</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item   @if(action=="atif-yapilan-standart-tipi"){ @("start active open") }">
-                                    <a href="/kategoriler/atif-yapilan-standart-tipi" class="nav-link ">
-                                        <span class="title">Atıf Yapılan Standart Tipi</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item  @if(action=="atif-yapilan-dokuman-tipi"){ @("start active open") }">
-                                    <a href="/kategoriler/atif-yapilan-dokuman-tipi" class="nav-link ">
-                                        <span class="title">Atıf Yapılan Doküman Tipi</span>
                                     </a>
                                 </li>
                             </ul>
