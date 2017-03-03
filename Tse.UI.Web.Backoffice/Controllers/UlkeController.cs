@@ -1,10 +1,9 @@
 ﻿namespace Tse.UI.Web.Backoffice.Controllers
 {
-    using System.Data.Entity;
-    using System.Web.Mvc;    
-    using System;
-    using System.Net;
     using Dal.Backoffice.Model;
+    using System;
+    using System.Data.Entity;
+    using System.Web.Mvc;
     using ViewModels;
 
     public class UlkeController : Controller
@@ -51,15 +50,13 @@
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
                 if (id == null)
-                {
                     return RedirectToAction("index", "hata", new { HataId = 2 });
-                }
                 else
                 {
                     var model = new UlkeDuzenleViewModel();
                     model.Ulke = context.Ulkeler.Find(id);
                     if (model.Ulke == null)
-                        return RedirectToAction("index", "hata", new { HataId = 3 });
+                        return RedirectToAction("listele", "ulke");
                     else                    
                         return View(model);                    
                 }

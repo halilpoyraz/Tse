@@ -1,6 +1,7 @@
 namespace Tse.Dal.Backoffice.Model
 {
     using App_Start;
+    using System;
     using System.Data.Entity;
     using System.Data.Entity.ModelConfiguration.Conventions;
 
@@ -36,6 +37,7 @@ namespace Tse.Dal.Backoffice.Model
         public virtual DbSet<StandartIcerikTipiSablon> StandartIcerikTipiSablonlar { get; set; }
         public virtual DbSet<Telefon> Telefonlar { get; set; }
         public virtual DbSet<Ulke> Ulkeler { get; set; }
+  
 
         //Methods
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -131,6 +133,6 @@ namespace Tse.Dal.Backoffice.Model
 
             modelBuilder.Entity<StandartIcerik>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.StandartIcerik).WillCascadeOnDelete(false);
             modelBuilder.Entity<StandartIcerik>().HasMany(e => e.StandartIcerikDenetimler).WithRequired(e => e.StandartIcerik).WillCascadeOnDelete(false);
-        }
+        }      
     }   
 }

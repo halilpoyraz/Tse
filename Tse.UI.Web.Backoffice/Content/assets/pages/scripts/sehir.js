@@ -28,7 +28,9 @@
                 "targets": [0, 1, 2, 3]
             }],
             "order": [
-                [0, "asc"]
+                [1, "asc"],
+                [2, "asc"],
+                [3, "asc"],
             ]
         });
     }
@@ -88,14 +90,14 @@
                 }
             },
             rules: { //Kurallar
-                UlkeID: {
+                "Sehir.UlkeID": {
                     required: true
                 },
-                SehirAdi: {
+                "Sehir.SehirAdi": {
                     minlength: 2,
                     required: true
                 },
-                DurumID: {
+                "Sehir.DurumID": {
                     required: true
                 }
             },

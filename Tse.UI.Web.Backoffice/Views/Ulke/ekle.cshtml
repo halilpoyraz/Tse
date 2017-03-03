@@ -16,14 +16,13 @@
                         <div class="alert alert-success @TempData["DisplayStatus"]">
                             <button class="close" data-close="alert"></button> Kayıt Eklendi.
                         </div>                        
-
                         <div class="form-group">
                             <label class="control-label col-md-2">
                                 <span>@Html.DisplayNameFor(m => m.Ulke.UlkeAdi)</span>
                                 <span class="required"> * </span>
                             </label>
                             <div class="col-md-4">                                   
-                                   @Html.TextBoxFor(model => model.Ulke.UlkeAdi, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                   @Html.TextBoxFor(model => model.Ulke.UlkeAdi, htmlAttributes: new { @class = "form-control", @data_required = "1" })                                   
                             </div>
                         </div>
                         <div class="form-group">                            
@@ -32,7 +31,7 @@
                                 <span class="required"> * </span>
                             </label>
                             <div class="col-md-4">                              
-                                @Html.DropDownListFor(m => m.Ulke.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiminiz",""), htmlAttributes: new { @class = "form-control" })                                                    
+                                @Html.DropDownListFor(m => m.Ulke.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiniz",""), htmlAttributes: new { @class = "form-control" })                                                    
                             </div>
                         </div>
                     </div>

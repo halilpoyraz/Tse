@@ -1,106 +1,96 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Data.Entity;
-using System.Web.Mvc;
-using Tse.Dal.Backoffice.Model;
-using Tse.UI.Web.Backoffice.Models;
-using System.Net;
-
-namespace Tse.UI.Web.Backoffice.Controllers
+﻿namespace Tse.UI.Web.Backoffice.Controllers
 {
+    using Dal.Backoffice.Model;
+    using System;
+    using System.Data.Entity;
+    using System.Linq;
+    using System.Web.Mvc;
+    using ViewModels;
+
     public class SehirController : Controller
     {
-        // GET: Sehir
-        TseBackofficeContext context = new TseBackofficeContext();
-                 
+        // GET: Sehir                 
         public ActionResult Listele()
         {
-            var model = context.Sehirler.Include(u => u.Durum).ToList();
-            ViewBag.TumCount = context.Sehirler.Count();
-            ViewBag.AktifCount = context.Sehirler.Where(u => u.DurumID == 1).Count();
-            ViewBag.PasifCount = context.Sehirler.Where(u => u.DurumID == 2).Count();
-            ViewBag.TaslakCount = context.Sehirler.Where(u => u.DurumID == 3).Count();
-            ViewBag.SilinmisCount = context.Sehirler.Where(u => u.DurumID == 4).Count();
+            var model = new SehirListeleViewModel();
             return View(model);
         }
 
         public ActionResult Ekle()
         {
-            if (Session["Success"] == "1")
-                ViewBag.Success = "";
-            else
-                ViewBag.Success = "display-hide";
-            ViewBag.UlkeID = new SelectList(context.Ulkeler, "UlkeID", "UlkeAdi");
-            ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi");
-            return View();
+            var model = new SehirEkleViewModel();
+            TempData["DisplayStatus"] = "display-hide";
+            return View(model);
         }
 
         [HttpPost ValidateAntiForgeryToken]
         public ActionResult Ekle([Bind(Include = "SehirID,UlkeID,SehirAdi,DurumID")] Sehir sehir)
         {
-            if (ModelState.IsValid)
+            using (TseBackofficeContext context = new TseBackofficeContext())
             {
-                context.Sehirler.Add(sehir);
-                context.SaveChanges();
-                Session["Success"] = "1";
-                return RedirectToAction("ekle");
+                var model = new SehirEkleViewModel();
+
+                if (ModelState.IsValid)
+                {
+                    context.Sehirler.Add(sehir);
+                    context.SaveChanges();
+                    TempData["DisplayStatus"] = "";
+                    return View(model);
+                }
+                else
+                {
+                    TempData["DisplayStatus"] = "display-hide";
+                    return View(model);
+                }
             }
-            ViewBag.UlkeID = new SelectList(context.Ulkeler, "UlkeID", "UlkeAdi", sehir.DurumID);
-            ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi", sehir.DurumID);
-            return View(sehir);
         }
 
         public ActionResult Duzenle(int? id)
         {
-            if (id == null)
+            using (TseBackofficeContext context = new TseBackofficeContext())
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                if (id == null)                
+                    return RedirectToAction("index", "hata", new { HataId = 2 });                
+                else
+                {
+                    var model = new SehirDuzenleViewModel();
+                    model.Sehir = context.Sehirler.Find(id);
+                    if (model.Sehir == null)
+                        return RedirectToAction("listele", "sehir");
+                    else
+                        return View(model);
+                }
             }
-            Sehir sehir = context.Sehirler.Find(id);
-            if (sehir == null)
-            {
-                return HttpNotFound();
-            }
-            ViewBag.UlkeID = new SelectList(context.Ulkeler, "UlkeID", "UlkeAdi", sehir.UlkeID);
-            ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi", sehir.DurumID);
-            return View(sehir);
         }
 
         [HttpPost ValidateAntiForgeryToken]
         public ActionResult Duzenle([Bind(Include = "SehirID,SehirAdi,UlkeID,DurumID")] Sehir sehir)
         {
-            if (ModelState.IsValid)
+            using (TseBackofficeContext context = new TseBackofficeContext())
             {
-                context.Entry(sehir).State = EntityState.Modified;
-                context.SaveChanges();
-                return RedirectToAction("listele");
+                if (ModelState.IsValid)
+                {
+                    context.Entry(sehir).State = EntityState.Modified;
+                    context.SaveChanges();
+                    return RedirectToAction("listele");
+                }
+                return RedirectToAction("index", "hata", new { HataId = 4 });
             }
-            ViewBag.UlkeID = new SelectList(context.Ulkeler, "UlkeID", "UlkeAdi", sehir.UlkeID);
-            ViewBag.DurumID = new SelectList(context.Durumlar, "DurumID", "DurumAdi", sehir.DurumID);
-            return View(sehir);
         }
 
         [HttpPost]
         public ActionResult Sil(int? id)
         {
-            if (id == null)
+            using (TseBackofficeContext context = new TseBackofficeContext())
             {
-                Session["HataId"] = 1;
-                return RedirectToAction("index", "hata");
-            }
-
-            Sehir sehir = context.Sehirler.SingleOrDefault(u => u.SehirID == id);
-
-            if (sehir != null)
-            {
-                try
+                if (id == null)
                 {
-                    context.Sehirler.Remove(sehir);
-                    context.SaveChanges();
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
                 }
-                catch (Exception)
+
+                Sehir sehir = context.Sehirler.SingleOrDefault(u => u.SehirID == id);
+
+                if (sehir != null)
                 {
                     try
                     {
@@ -117,13 +107,12 @@ namespace Tse.UI.Web.Backoffice.Controllers
                         }
                         catch (Exception)
                         {
-                            Session["HataId"] = 2;
-                            return RedirectToAction("index", "hata");
+                            return RedirectToAction("index", "hata", new { HataId = 4 });
                         }
                     }
                 }
-            }
-            return RedirectToAction("listele");
+                return RedirectToAction("listele");
+            }            
         }
     }
 }

@@ -45,6 +45,14 @@
                     Taslak = context.Ulkeler.Where(u => u.DurumID == 3).Count();
                     Silinmis = context.Ulkeler.Where(u => u.DurumID == 4).Count();
                 }
+                else if (entityName == "Sehirler")
+                {
+                    Tum = context.Sehirler.Count();
+                    Aktif = context.Sehirler.Where(u => u.DurumID == 1).Count();
+                    Pasif = context.Sehirler.Where(u => u.DurumID == 2).Count();
+                    Taslak = context.Sehirler.Where(u => u.DurumID == 3).Count();
+                    Silinmis = context.Sehirler.Where(u => u.DurumID == 4).Count();
+                }
                 return this;
             }            
         }
@@ -68,14 +76,4 @@
                 return Tum;                                            
         }      
     }
-
-   public enum Durumcan
-    {
-        Tümü,
-        Aktif,
-        Pasif,
-        Taslak,
-        Silinmiş
-    }
-
 }
