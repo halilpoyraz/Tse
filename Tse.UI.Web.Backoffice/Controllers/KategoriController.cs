@@ -12,12 +12,12 @@ namespace Tse.UI.Web.Backoffice.Controllers
         public ActionResult Listele(int? kategoriID)
         {
             if (kategoriID != null)
-            {
+            {               
                 var model = new KategoriListeleViewModel(kategoriID);
                 if (model.Kategori == null)
                     return RedirectToAction("index", "hata", new { hataId = 2 });
                 else
-                    return View(model);
+                    return View(model);                
             }
             else
                 return RedirectToAction("index", "hata", new { hataId = 2 });                        
@@ -100,43 +100,95 @@ namespace Tse.UI.Web.Backoffice.Controllers
             }
         }
 
-        [HttpPost]
-        public ActionResult Sil(int? id)
+        [HttpPost ValidateAntiForgeryToken]
+        public ActionResult Duzenle2([Bind(Include = "StandartAtifTipiSablonID,KategoriID,Deger1,Deger2,Deger3,Deger4,DurumID")] StandartAtifTipiSablon StandartAtifTipiSablon)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
+                if (ModelState.IsValid)
+                {
+                    context.Entry(StandartAtifTipiSablon).State = EntityState.Modified;
+                    context.SaveChanges();
+                    return RedirectToAction("listele", new { kategoriID = StandartAtifTipiSablon.KategoriID });
+                }
+                return RedirectToAction("index", "hata", new { HataId = 3 });
+            }
+        }
+
+        [HttpPost]
+        public ActionResult Sil(int? id, int? kategoriID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (kategoriID==null)
+                {
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+                }
+
                 if (id == null)
                 {
                     return RedirectToAction("index", "hata", new { HataId = 2 });
                 }
                 else
                 {
-                    Deger deger = context.Degerler.Find(id);
-
-                    if (deger != null)
+                    if (kategoriID==8 || kategoriID==9) //atıf silme
                     {
-                        try
-                        {
-                            context.Degerler.Remove(deger);
-                            context.SaveChanges();
-                            return RedirectToAction("listele", new { deger.KategoriID });
-                        }
-                        catch (Exception)
+                        StandartAtifTipiSablon atif = context.StandartAtifTipiSablonlar.Find(id);
+                        if (atif != null)
                         {
                             try
                             {
-                                deger.DurumID = 4;
-                                context.Entry(deger).State = EntityState.Modified;
+                                context.StandartAtifTipiSablonlar.Remove(atif);
+                                context.SaveChanges();
+                                return RedirectToAction("listele", new { kategoriID });
+                            }
+                            catch (Exception)
+                            {
+                                try
+                                {
+                                    atif.DurumID = 4;
+                                    context.Entry(atif).State = EntityState.Modified;
+                                    context.SaveChanges();
+                                    return RedirectToAction("listele", new { kategoriID });
+                                }
+                                catch (Exception)
+                                {
+                                    return RedirectToAction("index", "hata", new { HataId = 4 });
+                                }
+                            }
+                        }
+
+                        return RedirectToAction("listele", new { kategoriID });
+                    }
+
+                    else // Değer silme
+                    {         
+                        Deger deger = context.Degerler.Find(id);
+                        if (deger != null)
+                        {
+                            try
+                            {
+                                context.Degerler.Remove(deger);
                                 context.SaveChanges();
                                 return RedirectToAction("listele", new { deger.KategoriID });
                             }
                             catch (Exception)
                             {
-                                return RedirectToAction("index", "hata", new { HataId = 4 });
+                                try
+                                {
+                                    deger.DurumID = 4;
+                                    context.Entry(deger).State = EntityState.Modified;
+                                    context.SaveChanges();
+                                    return RedirectToAction("listele", new { deger.KategoriID });
+                                }
+                                catch (Exception)
+                                {
+                                    return RedirectToAction("index", "hata", new { HataId = 4 });
+                                }
                             }
                         }
+                        return RedirectToAction("index", "hata", new { HataId = 2 });
                     }
-                    return RedirectToAction("index", "hata", new { HataId = 2 });
                 }                            
             }
         }

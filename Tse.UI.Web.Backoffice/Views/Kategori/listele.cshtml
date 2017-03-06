@@ -55,29 +55,88 @@
                     </div>
                 </div>
             </div>
-            <table class="table table-striped table-hover" id="table1">
-                <thead>
-                    <tr>
-                        <th data-field="id" class="display-hide"> Id </th>
-                        <th data-field="degeraditr"> Değer Adı (TR) </th>
-                        <th data-field="degeradien"> Değer Adı (EN) </th>
-                        <th data-field="sirano" class="display-hide"> Sıra No </th>
-                        <th data-field="durum"> Durumu </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var deger in Model.Degerler)
-                    {
+            @if (Model.Kategori.KategoriID == 8) //Atıf Yapılan Standart Şablonları
+            {
+                <table class="table table-striped table-hover" id="table1">
+                    <thead>
                         <tr>
-                            <td class="display-hide"> @deger.DegerID </td>
-                            <td> @deger.DegerAdiTr </td>
-                            <td> @deger.DegerAdiEn</td>
-                            <td class="display-hide"> @deger.SiraNo</td>
-                            <td> @deger.Durum.DurumAdi</td>
+                            <th data-field="id" class="display-hide"> Id </th>
+                            <th> EN, ISO, IEC vb.No</th>
+                            <th> Adı (En) </th>                            
+                            <th data-field="degeraditr"> Ts No </th> 
+                            <th> Adı (Tr) </th> 
+                            <th data-field="durum"> Durumu </th>
                         </tr>
-                    }
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                        @foreach (var atif in Model.StandartAtifTipiSablonlar)
+                        {
+                            <tr>
+                                <td class="display-hide"> @atif.StandartAtifTipiSablonID</td>
+                                <td>@atif.Deger1</td>
+                                <td>@atif.Deger2</td>
+                                <td>@atif.Deger3</td>
+                                <td>@atif.Deger4</td>                                
+                                <td> @atif.Durum.DurumAdi</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else if (Model.Kategori.KategoriID == 9) //Atıf Yapılan Doküman Şablonları
+            {
+                <table class="table table-striped table-hover" id="table1">
+                    <thead>
+                        <tr>
+                            <th data-field="id" class="display-hide"> Id </th>
+                            <th data-field="degeraditr"> Doküman Adı</th>
+                            <th> Yayımlayan Kurum </th>
+                            <th> Hukuki Dayanak </th>                            
+                            <th data-field="durum"> Durumu </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var atif in Model.StandartAtifTipiSablonlar)
+                        {
+                            <tr>
+                                <td class="display-hide"> @atif.StandartAtifTipiSablonID</td>
+                                <td>@atif.Deger1</td>
+                                <td>@atif.Deger2</td>
+                                <td>@atif.Deger3</td>
+                                <td>@atif.Durum.DurumAdi</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <table class="table table-striped table-hover" id="table1">
+                    <thead>
+                        <tr>
+                            <th data-field="id" class="display-hide"> Id </th>
+                            <th data-field="degeraditr"> Değer Adı (TR) </th>
+                            <th data-field="degeradien"> Değer Adı (EN) </th>
+                            <th data-field="sirano" class="display-hide"> Sıra No </th>
+                            <th data-field="durum"> Durumu </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var deger in Model.Degerler)
+                        {
+                            <tr>
+                                <td class="display-hide"> @deger.DegerID </td>
+                                <td> @deger.DegerAdiTr </td>
+                                <td> @deger.DegerAdiEn</td>
+                                <td class="display-hide"> @deger.SiraNo</td>
+                                <td> @deger.Durum.DurumAdi</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+
+
             <ul id="contextMenu1" class="dropdown-menu">
                 <li data-item="duzenle">
                     <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Düzenle</a>
@@ -93,22 +152,22 @@
             <script>
                 $(function () {
                     $('#table1').bootstrapTable({
-                        rowStyle: "rowStyle",
+                rowStyle: "rowStyle",
                         contextMenu: '#contextMenu1',
                         onContextMenuItem: function (row, $el) {
-                            if ($el.data("item") == "ekle")
+                        if ($el.data("item") == "ekle")
                                 window.location.href = '/kategori/ekle?kategoriID=@Model.Kategori.KategoriID';
                             else if ($el.data("item") == "duzenle")
                                 get('/kategori/duzenle?kategoriID=@Model.Kategori.KategoriID&degerID='+row.id.trim());
                             else if ($el.data("item") == "sil") {
-                                if (confirm(row.degeraditr + 'kaydını silmek istediğine emin misin?'))
-                                    post('/kategori/sil', { id: row.id, kategoriID: @Model.Kategori.KategoriID });
+                            if (confirm(row.degeraditr + ' kaydını silmek istediğine emin misin?'))
+                                post('/kategori/sil', { id: row.id, kategoriID: @Model.Kategori.KategoriID });
                                 else
                                     e.preventDefault();
-                            }
                         }
-                    });
+                    }
                 });
+            });
             </script>
         </div>
     </div>

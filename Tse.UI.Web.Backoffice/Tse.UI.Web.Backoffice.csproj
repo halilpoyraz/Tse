@@ -200,7 +200,6 @@
     <Compile Include="Controllers\BaslangicController.cs" />
     <Compile Include="Controllers\HataController.cs" />
     <Compile Include="Controllers\IlceController.cs" />
-    <Compile Include="Controllers\StandartAtifController.cs" />
     <Compile Include="Controllers\KategoriController.cs" />
     <Compile Include="Controllers\KisiController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -220,7 +219,6 @@
     <Compile Include="Models\BreadCrumb.cs" />
     <Compile Include="ViewModels\BaslangicViewModels.cs" />
     <Compile Include="ViewModels\IlceViewModels.cs" />
-    <Compile Include="ViewModels\StandartAtifViewModels.cs" />
     <Compile Include="ViewModels\SehirViewModels.cs" />
     <Compile Include="ViewModels\KategoriViewModels.cs" />
     <Compile Include="ViewModels\UlkeViewModels.cs" />
@@ -6204,7 +6202,6 @@
     <Content Include="Views\Kategori\listele.cshtml" />
     <Content Include="Views\Kategori\ekle.cshtml" />
     <Content Include="Views\Kategori\duzenle.cshtml" />
-    <Content Include="Views\StandartAtif\listele.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

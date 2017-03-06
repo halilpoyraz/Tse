@@ -30,7 +30,10 @@
 
                 Filter = new Filter().Create(Kategori.KategoriID);
                 
-                Degerler = context.Degerler.Where(d=>d.KategoriID==kategoriID).OrderBy(d=>d.DegerAdiTr).ToList();
+                if (kategoriID==8 || kategoriID==9)                
+                    StandartAtifTipiSablonlar = context.StandartAtifTipiSablonlar.Where(a => a.KategoriID == kategoriID).OrderBy(a => a.Deger1).ToList();
+                else
+                    Degerler = context.Degerler.Where(d=>d.KategoriID==kategoriID).OrderBy(d=>d.DegerAdiTr).ToList();
 
                 Durumlar = context.Durumlar.ToList();
             }
@@ -40,6 +43,7 @@
         public Kategori Kategori { get; set; }
         public Filter Filter { get; set; }
         public List<Deger> Degerler { get; set; }        
+        public List<StandartAtifTipiSablon> StandartAtifTipiSablonlar { get; set; }
         public List<Durum> Durumlar { get; set; }
     }
     
@@ -76,7 +80,6 @@
         public Durum Durum { get; set; }
         public List<Durum> Durumlar { get; set; }
     }
-
     
     public partial class KategoriDuzenleViewModel : BaseViewModel
     {
@@ -87,8 +90,12 @@
             {
                 Kategori = context.Kategoriler.Find(kategoriID);
 
-                Deger = context.Degerler.Find(degerID);
-                                
+                if (kategoriID == 8 || kategoriID == 9)
+                    StandartAtifTipiSablon = context.StandartAtifTipiSablonlar.Find(degerID);
+                else
+                    Deger = context.Degerler.Find(degerID);
+
+
                 Meta = new Meta()
                 {
                     Title = Kategori.Adi,
@@ -114,6 +121,7 @@
         //Tarrak
         public Kategori Kategori { get; set; }
         public Deger Deger { get; set; }
+        public StandartAtifTipiSablon StandartAtifTipiSablon { get; set; }
         public Durum Durum { get; set; }
         public List<Kategori> Kategoriler { get; set; }
         public List<Durum> Durumlar { get; set; }

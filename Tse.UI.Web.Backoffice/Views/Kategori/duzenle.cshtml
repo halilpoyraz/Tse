@@ -4,73 +4,163 @@
 <div class="row">
     <div class="col-md-12">               
         <div class="portlet light portlet-fit portlet-form">
-            <div class="portlet-body">                
-                @using (Html.BeginForm("duzenle", "kategori", FormMethod.Post, new { @name = "form1", @id = "form1", @class = "form-horizontal" }))
-                {
-                    @Html.AntiForgeryToken()                     
-                    @Html.HiddenFor(m => m.Deger.DegerID);                                                
-                    <div class="form-body">
-                        <div class="alert alert-danger display-hide">
-                            <button class="close" data-close="alert"></button>                             
-                            Formdaki alanları doğru ve eksiksiz bir biçimde doldurunuz.
-                        </div>                                                
-                        <div class="alert alert-success @TempData["DisplayStatus"]">
-                            <button class="close" data-close="alert"></button> Kayıt Eklendi.
-                        </div>     
-                        <div class="form-group">
-                            <label class="control-label col-md-2">
-                                <span>@Html.DisplayNameFor(m => m.Kategori.Adi)</span>
-                                <span class="required"> * </span>
-                            </label>
-                            <div class="col-md-4">
-                                @Html.DropDownListFor(m => m.Deger.KategoriID, new SelectList(Model.Kategoriler, "KategoriID", "Adi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+            <div class="portlet-body">
+                @{ 
+                    string xxx;
+                    if (Model.Kategori.KategoriID == 8 || Model.Kategori.KategoriID == 9) {xxx = "duzenle2"; }
+                    else { xxx = "duzenle"; }
+                }                
+                @using (Html.BeginForm(xxx, "kategori", FormMethod.Post, new { @name = "form1", @id = "form1", @class = "form-horizontal" }))
+                {                    
+                    if (Model.Kategori.KategoriID == 8 || Model.Kategori.KategoriID == 9) // Atif yapılan ise
+                    {                        
+                        @Html.AntiForgeryToken()
+                        @Html.HiddenFor(m => m.StandartAtifTipiSablon.KategoriID);
+                        @Html.HiddenFor(m => m.StandartAtifTipiSablon.StandartAtifTipiSablonID);
+                        <div class="form-body">
+                            <div class="alert alert-danger display-hide">
+                                <button class="close" data-close="alert"></button>
+                                Formdaki alanları doğru ve eksiksiz bir biçimde doldurunuz.
                             </div>
-                        </div>                                           
-                        <div class="form-group">
-                            <label class="control-label col-md-2">
-                                <span>@Html.DisplayNameFor(m => m.Deger.DegerAdiTr)</span>
-                                <span class="required"> * </span>
-                            </label>
-                            <div class="col-md-4">                                   
-                                   @Html.TextBoxFor(m => m.Deger.DegerAdiTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                            <div class="alert alert-success @TempData["DisplayStatus"]">
+                                <button class="close" data-close="alert"></button> Kayıt Eklendi.
+                            </div>    
+                            @if (Model.StandartAtifTipiSablon.Deger1 != null)
+                            {
+                            <div class="form-group">
+                                <label class="control-label col-md-2">
+                                    <span id="displayName1"></span>
+                                    <span class="required"> * </span>
+                                </label>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(m => m.StandartAtifTipiSablon.Deger1, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                </div>
+                            </div>
+                            }
+                            @if (Model.StandartAtifTipiSablon.Deger2 != null)
+                            {
+                            <div class="form-group">
+                                <label class="control-label col-md-2">
+                                    <span id="displayName2"></span>
+                                    <span class="required">*</span>
+                                </label>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(m => m.StandartAtifTipiSablon.Deger2, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                </div>
+                            </div>
+                            }
+                            @if (Model.StandartAtifTipiSablon.Deger3 != null)
+                            {
+                            <div class="form-group">
+                                <label class="control-label col-md-2">
+                                    <span id="displayName3"></span>
+                                    <span class="required"> * </span>
+                                </label>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(m => m.StandartAtifTipiSablon.Deger3, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                </div>
+                            </div>
+                            }
+
+                            @if (Model.StandartAtifTipiSablon.Deger4 !=null)
+                        	{		
+                            <div class="form-group">
+                                <label class="control-label col-md-2">
+                                    <span id="displayName4"></span>
+                                    <span class="required"> * </span>
+                                </label>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(m => m.StandartAtifTipiSablon.Deger4, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                </div>
+                            </div>
+                            }
+
+                            <div class="form-group">
+                                <label class="control-label col-md-2">
+                                    <span>@Html.DisplayNameFor(m => m.Durum.DurumAdi)</span>
+                                    <span class="required"> * </span>
+                                </label>
+                                <div class="col-md-4">
+                                    @Html.DropDownListFor(m => m.StandartAtifTipiSablon.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                </div>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="control-label col-md-2">
-                                <span>@Html.DisplayNameFor(m => m.Deger.DegerAdiEn)</span>
-                                <span class="required"> * </span>
-                            </label>
-                            <div class="col-md-4">
-                                @Html.TextBoxFor(m => m.Deger.DegerAdiEn, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                        <div class="form-actions">
+                            <div class="row">
+                                <div class="col-md-offset-3 col-md-9">
+                                    <button type="submit" class="btn green">Kaydet</button>
+                                    <button type="button" id="btnVazgec" class="btn grey-salsa btn-outline">Vazgeç</button>
+                                </div>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="control-label col-md-2">
-                                <span>@Html.DisplayNameFor(m => m.Deger.SiraNo)</span>
-                                <span class="required"> * </span>
-                            </label>
-                            <div class="col-md-4">
-                                @Html.TextBoxFor(m => m.Deger.SiraNo, htmlAttributes: new {@type="number", value=99, min=1, max=99, @class = "form-control", @data_required = "1" })
+                    }
+                    else // //Değilse
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.HiddenFor(m => m.Deger.DegerID);
+                        <div class="form-body">
+                            <div class="alert alert-danger display-hide">
+                                <button class="close" data-close="alert"></button>
+                                Formdaki alanları doğru ve eksiksiz bir biçimde doldurunuz.
+                            </div>
+                            <div class="alert alert-success @TempData["DisplayStatus"]">
+                                <button class="close" data-close="alert"></button> Kayıt Eklendi.
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-2">
+                                    <span>@Html.DisplayNameFor(m => m.Kategori.Adi)</span>
+                                    <span class="required"> * </span>
+                                </label>
+                                <div class="col-md-4">
+                                    @Html.DropDownListFor(m => m.Deger.KategoriID, new SelectList(Model.Kategoriler, "KategoriID", "Adi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-2">
+                                    <span>@Html.DisplayNameFor(m => m.Deger.DegerAdiTr)</span>
+                                    <span class="required"> * </span>
+                                </label>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(m => m.Deger.DegerAdiTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-2">
+                                    <span>@Html.DisplayNameFor(m => m.Deger.DegerAdiEn)</span>
+                                    <span class="required"> * </span>
+                                </label>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(m => m.Deger.DegerAdiEn, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-2">
+                                    <span>@Html.DisplayNameFor(m => m.Deger.SiraNo)</span>
+                                    <span class="required"> * </span>
+                                </label>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(m => m.Deger.SiraNo, htmlAttributes: new { @type = "number", value = 99, min = 1, max = 99, @class = "form-control", @data_required = "1" })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-2">
+                                    <span>@Html.DisplayNameFor(m => m.Durum.DurumAdi)</span>
+                                    <span class="required"> * </span>
+                                </label>
+                                <div class="col-md-4">
+                                    @Html.DropDownListFor(m => m.Deger.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                </div>
                             </div>
                         </div>
-                        <div class="form-group">                            
-                            <label class="control-label col-md-2">
-                                <span>@Html.DisplayNameFor(m => m.Durum.DurumAdi)</span>
-                                <span class="required"> * </span>
-                            </label>
-                            <div class="col-md-4">                              
-                                @Html.DropDownListFor(m => m.Deger.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiniz",""), htmlAttributes: new { @class = "form-control" })                                                    
+                        <div class="form-actions">
+                            <div class="row">
+                                <div class="col-md-offset-3 col-md-9">
+                                    <button type="submit" class="btn green">Kaydet</button>
+                                    <button type="button" id="btnVazgec" class="btn grey-salsa btn-outline">Vazgeç</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-actions">
-                        <div class="row">
-                            <div class="col-md-offset-3 col-md-9">
-                                <button type="submit" class="btn green">Kaydet</button>                   
-                                <button type="button" id="btnVazgec" class="btn grey-salsa btn-outline">Vazgeç</button>             
-                            </div>
-                        </div>
-                    </div>
+                    }
                 }                
             </div>
         </div>        

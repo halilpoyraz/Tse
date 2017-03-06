@@ -77,13 +77,23 @@
         public Filter Create(int kategoriID)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
-            {                
-                Tum = context.Degerler.Where(d=>d.KategoriID== kategoriID).Count();
-                Aktif = context.Degerler.Where(d => d.KategoriID == kategoriID && d.DurumID==1).Count();
-                Pasif = context.Degerler.Where(d => d.KategoriID == kategoriID && d.DurumID == 2).Count();
-                Taslak = context.Degerler.Where(d => d.KategoriID == kategoriID && d.DurumID == 3).Count();
-                Silinmis = context.Degerler.Where(d => d.KategoriID == kategoriID && d.DurumID == 4).Count();
-
+            {
+                if (kategoriID==8 || kategoriID==9)
+                {
+                    Tum = context.StandartAtifTipiSablonlar.Where(s => s.KategoriID == kategoriID).Count();
+                    Aktif = context.StandartAtifTipiSablonlar.Where(s => s.KategoriID == kategoriID && s.DurumID == 1).Count();
+                    Pasif = context.StandartAtifTipiSablonlar.Where(s => s.KategoriID == kategoriID && s.DurumID == 2).Count();
+                    Taslak = context.StandartAtifTipiSablonlar.Where(s => s.KategoriID == kategoriID && s.DurumID == 3).Count();
+                    Silinmis = context.StandartAtifTipiSablonlar.Where(s => s.KategoriID == kategoriID && s.DurumID == 4).Count();
+                }
+                else
+                {
+                    Tum = context.Degerler.Where(d=>d.KategoriID== kategoriID).Count();
+                    Aktif = context.Degerler.Where(d => d.KategoriID == kategoriID && d.DurumID==1).Count();
+                    Pasif = context.Degerler.Where(d => d.KategoriID == kategoriID && d.DurumID == 2).Count();
+                    Taslak = context.Degerler.Where(d => d.KategoriID == kategoriID && d.DurumID == 3).Count();
+                    Silinmis = context.Degerler.Where(d => d.KategoriID == kategoriID && d.DurumID == 4).Count();
+                }      
                 return this;
             }
         }
