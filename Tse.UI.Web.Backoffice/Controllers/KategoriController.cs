@@ -14,7 +14,7 @@ namespace Tse.UI.Web.Backoffice.Controllers
             if (kategoriID != null)
             {
                 var model = new KategoriListeleViewModel(kategoriID);
-                if ( model.Kategori == null)                
+                if (model.Kategori == null)
                     return RedirectToAction("index", "hata", new { hataId = 2 });
                 else
                     return View(model);

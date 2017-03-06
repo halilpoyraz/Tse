@@ -13,16 +13,13 @@
     <meta name="keywords" content="@Model.Meta.Keyword" />
     <meta name="author" content="@Model.Meta.Description" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
-    @Styles.Render("~/bundles/cssHead") 
-    @Scripts.Render("~/bundles/scriptHead")     
+    @Styles.Render("~/bundles/cssHead")
+    @Scripts.Render("~/bundles/scriptHead")
 </head>
 <body class="page-header-fixed page-sidebar-closed-hide-logo page-sidebar-fixed page-content-white">
     <div class="page-wrapper">
-        <!-- BEGIN HEADER -->
         <div class="page-header navbar navbar-fixed-top">
-            <!-- BEGIN HEADER INNER -->
             <div class="page-header-inner ">
-                <!-- BEGIN LOGO -->
                 <div class="page-logo">
                     <a href="/">
                         <img src="/Content/assets/layouts/layout/img/logo.png" alt="logo" class="logo-default" />
@@ -31,19 +28,11 @@
                         <span></span>
                     </div>
                 </div>
-                <!-- END LOGO -->
-                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
                 <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
                     <span></span>
                 </a>
-                <!-- END RESPONSIVE MENU TOGGLER -->
-                <!-- BEGIN TOP NAVIGATION MENU -->
                 <div class="top-menu">
                     <ul class="nav navbar-nav pull-right">
-                        <!-- BEGIN NOTIFICATION DROPDOWN -->
-                        <!-- DOC: Apply "dropdown-dark" class after "dropdown-extended" to change the dropdown styte -->
-                        <!-- DOC: Apply "dropdown-hoverable" class after below "dropdown" and remove data-toggle="dropdown" data-hover="dropdown" data-close-others="true" attributes to enable hover dropdown mode -->
-                        <!-- DOC: Remove "dropdown-hoverable" and add data-toggle="dropdown" data-hover="dropdown" data-close-others="true" attributes to the below A element with dropdown-toggle class -->
                         <li class="dropdown dropdown-extended dropdown-notification" id="header_notification_bar">
                             <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                                 <i class="icon-bell"></i>
@@ -152,9 +141,6 @@
                                 </li>
                             </ul>
                         </li>
-                        <!-- END NOTIFICATION DROPDOWN -->
-                        <!-- BEGIN INBOX DROPDOWN -->
-                        <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
                         <li class="dropdown dropdown-extended dropdown-inbox" id="header_inbox_bar">
                             <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                                 <i class="icon-envelope-open"></i>
@@ -234,9 +220,6 @@
                                 </li>
                             </ul>
                         </li>
-                        <!-- END INBOX DROPDOWN -->
-                        <!-- BEGIN TODO DROPDOWN -->
-                        <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
                         <li class="dropdown dropdown-extended dropdown-tasks" id="header_task_bar">
                             <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                                 <i class="icon-calendar"></i>
@@ -347,9 +330,6 @@
                                 </li>
                             </ul>
                         </li>
-                        <!-- END TODO DROPDOWN -->
-                        <!-- BEGIN USER LOGIN DROPDOWN -->
-                        <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
                         <li class="dropdown dropdown-user">
                             <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                                 <img alt="" class="img-circle" src="/Content/assets/layouts/layout/img/avatar3_small.jpg" />
@@ -392,54 +372,26 @@
                                 </li>
                             </ul>
                         </li>
-                        <!-- END USER LOGIN DROPDOWN -->
-                        <!-- BEGIN QUICK SIDEBAR TOGGLER -->
-                        <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
                         <li class="dropdown dropdown-quick-sidebar-toggler">
                             <a href="javascript:;" class="dropdown-toggle">
                                 <i class="icon-logout"></i>
                             </a>
                         </li>
-                        <!-- END QUICK SIDEBAR TOGGLER -->
                     </ul>
                 </div>
-                <!-- END TOP NAVIGATION MENU -->
             </div>
-            <!-- END HEADER INNER -->
         </div>
-        <!-- END HEADER -->
-        <!-- BEGIN HEADER & CONTENT DIVIDER -->
         <div class="clearfix"> </div>
-        <!-- END HEADER & CONTENT DIVIDER -->
-        <!-- BEGIN CONTAINER -->
         <div class="page-container">
-            <!-- BEGIN SIDEBAR -->
             <div class="page-sidebar-wrapper">
-                <!-- BEGIN SIDEBAR -->
-                <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
-                <!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
                 <div class="page-sidebar navbar-collapse collapse">
-                    <!-- BEGIN SIDEBAR MENU -->
-                    <!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
-                    <!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
-                    <!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
-                    <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
-                    <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
-                    <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
                     <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
-                        <!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
-                        <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
                         <li class="sidebar-toggler-wrapper hide">
                             <div class="sidebar-toggler">
                                 <span></span>
                             </div>
                         </li>
-                        <!-- END SIDEBAR TOGGLER BUTTON -->
-                        <!-- DOC: To remove the search box from the sidebar you just need to completely remove the below "sidebar-search-wrapper" LI element -->
                         <li class="sidebar-search-wrapper">
-                            <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
-                            <!-- DOC: Apply "sidebar-search-bordered" class the below search form to have bordered search box -->
-                            <!-- DOC: Apply "sidebar-search-bordered sidebar-search-solid" class the below search form to have bordered & solid search box -->
                             <form class="sidebar-search  " action="page_general_search_3.html" method="POST">
                                 <a href="javascript:;" class="remove">
                                     <i class="icon-close"></i>
@@ -453,7 +405,6 @@
                                     </span>
                                 </div>
                             </form>
-                            <!-- END RESPONSIVE QUICK SEARCH FORM -->
                         </li>
                         @{
                             string controller = HttpContext.Current.Request.RequestContext.RouteData.Values["controller"].ToString();
@@ -478,7 +429,6 @@
                                     <a href="/baslangic/guncellemeler" class="nav-link ">
                                         <i class="icon-bulb"></i>
                                         <span class="title">Güncellemeler</span>
-                                        @*<span class="badge badge-success">1</span>*@
                                     </a>
                                 </li>
                             </ul>
@@ -522,7 +472,6 @@
                                 <li class="nav-item  @if(action=="ekle"){ @("start active open") }">
                                     <a href="/sehir/ekle" class="nav-link ">
                                         <span class="title">Yeni Şehir Ekle</span>
-                                        @*<span class="badge badge-danger">2</span>*@
                                     </a>
                                 </li>
                             </ul>
@@ -549,26 +498,26 @@
                         </li>
                         @foreach (var kategori in Model.SolMenuKategoriler)
                         {
-                        <li class="nav-item">
-                            <a href="javascript:;" class="nav-link nav-toggle">
-                                <i class="@kategori.Icon" aria-hidden="true"></i>
-                                <span class="title">@kategori.Adi</span>
-                                <span class=""></span>
-                                <span class="arrow"></span>
-                            </a>
-                            <ul class="sub-menu">
-                                <li class="nav-item  @if(action=="listele"){ @("start active open") }">
-                                    <a href="/kategori/listele?kategoriID=@kategori.KategoriID" class="nav-link ">
-                                        <span class="title">Tümünü Göster</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item  @if(action=="ekle"){ @("start active open") }">
-                                    <a href="/kategori/ekle?kategoriID=@kategori.KategoriID" class="nav-link ">
-                                        <span class="title">Yeni Ekle</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+                            <li class="nav-item">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="@kategori.Icon" aria-hidden="true"></i>
+                                    <span class="title">@kategori.Adi</span>
+                                    <span class=""></span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item">
+                                        <a href="/kategori/listele?kategoriID=@kategori.KategoriID" class="nav-link ">
+                                            <span class="title">Tümünü Göster</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/kategori/ekle?kategoriID=@kategori.KategoriID" class="nav-link ">
+                                            <span class="title">Yeni Ekle</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
                         }
                         <li class="nav-item  @if(controller=="kisi"){ @("start active open") }">
                             <a href="javascript:;" class="nav-link nav-toggle">
@@ -615,10 +564,8 @@
                             </ul>
                         </li>
                     </ul>
-                    <!-- END SIDEBAR MENU -->
-                    <!-- END SIDEBAR MENU -->
-                </div>                
-            </div>           
+                </div>
+            </div>
             <div class="page-content-wrapper">
                 <div class="page-content">
                     <div class="page-bar">
@@ -630,24 +577,25 @@
                                     <i class="fa fa-circle"></i>
                                 </li>
                             }
-
                             @if (Model.BreadCrumb.Text2 != null)
                             {
                                 <li>
-                                    @if (Model.BreadCrumb.Link2 == null) { <span>@Model.BreadCrumb.Text2</span> }
-                                    else { <a href="@Model.BreadCrumb.Link2">@Model.BreadCrumb.Text2</a> }                                    
+                                    @if (Model.BreadCrumb.Link2 == null)
+                                    { <span>@Model.BreadCrumb.Text2</span> }
+                                    else
+                                    { <a href="@Model.BreadCrumb.Link2">@Model.BreadCrumb.Text2</a> }
                                 </li>
                             }
-
                             @if (Model.BreadCrumb.Text3 != null)
                             {
                                 <li>
                                     <i class="fa fa-circle"></i>
-                                    @if (Model.BreadCrumb.Link3 == null) { <span>@Model.BreadCrumb.Text3</span> }
-                                    else { <a href = "@Model.BreadCrumb.Link3"> @Model.BreadCrumb.Text3 </a> }
+                                    @if (Model.BreadCrumb.Link3 == null)
+                                    { <span>@Model.BreadCrumb.Text3</span> }
+                                    else
+                                    { <a href="@Model.BreadCrumb.Link3"> @Model.BreadCrumb.Text3 </a> }
                                 </li>
                             }
-
                         </ul>
                         @if (Model.BreadCrumb.Text2 == "Gösterge Paneli")
                         {
@@ -661,12 +609,14 @@
                         }
                     </div>
                     <h1 class="page-title">
-                        @if (Model.BreadCrumb.HeadText != null) { @Model.BreadCrumb.HeadText }
-                        @if (Model.BreadCrumb.SmallText != null) { <small>@Model.BreadCrumb.SmallText</small> }
+                        @if (Model.BreadCrumb.HeadText != null)
+                        { @Model.BreadCrumb.HeadText }
+                        @if (Model.BreadCrumb.SmallText != null)
+                        { <small>@Model.BreadCrumb.SmallText</small> }
                     </h1>
                     @RenderBody()
                 </div>
-            </div>            
+            </div>
             <a href="javascript:;" class="page-quick-sidebar-toggler">
                 <i class="icon-login"></i>
             </a>
@@ -1263,27 +1213,25 @@
                         </div>
                     </div>
                 </div>
-            </div>            
-        </div>        
+            </div>
+        </div>
         <div class="page-footer">
             <div class="page-footer-inner">
-                2017 &copy; Bu uygulama 
+                2017 &copy; Bu uygulama
                 <a target="_blank" href="http://cc.poyraz.cc">@Model.Meta.Author</a> tarafından hazırlanmıştır. GNU Lisans koşulları geçerlidir.
             </div>
             <div class="scroll-to-top">
                 <i class="icon-arrow-up"></i>
             </div>
-        </div>        
+        </div>
     </div>
-
     <!--[if lt IE 9]>
     <script src="/Content/assets/global/plugins/respond.min.js"></script>
     <script src="/Content/assets/global/plugins/excanvas.min.js"></script>
     <script src="/Content/assets/global/plugins/ie8.fix.min.js"></script>
     <![endif]-->
-
     @Scripts.Render("~/bundles/scriptFoother")
-    
+
     <!-- Development script Bundles -->
     <script src="~/Content/assets/global/plugins/bootstrap/js/bootstrap.js"></script>
     <script src="~/Content/assets/global/plugins/select2/js/select2.full.js"></script>
@@ -1314,7 +1262,7 @@
     <script src="~/Content/assets/global/plugins/amcharts/amcharts/themes/chalk.js"></script>
     <script src="~/Content/assets/global/plugins/amcharts/ammap/ammap.js"></script>
     <script src="~/Content/assets/global/plugins/amcharts/ammap/maps/js/worldLow.js"></script>
-    <script src="~/Content/assets/global/plugins/amcharts/amstockcharts/amstock.js"></script>    
+    <script src="~/Content/assets/global/plugins/amcharts/amstockcharts/amstock.js"></script>
     <script src="~/Content/assets/global/plugins/horizontal-timeline/horizontal-timeline.js"></script>
     <script src="~/Content/assets/global/plugins/flot/jquery.flot.js"></script>
     <script src="~/Content/assets/global/plugins/flot/jquery.flot.resize.js"></script>
@@ -1332,10 +1280,10 @@
     <script src="~/Content/assets/global/plugins/bootstrap-table-contextmenu/bootstrap-table-contextmenu.js"></script>
     <script src="~/Content/assets/global/plugins/datatables/datatables.min.js"></script>
     <script src="~/Content/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js"></script>
-    <script src="~/Content/assets/global/scripts/common.js"></script>  
-    <script src="~/Content/assets/global/scripts/app.js"></script>  
-    <script src="~/Content/assets/global/scripts/datatable.js"></script>                
-    <script src="~/Content/assets/layouts/layout/scripts/layout.js"></script>        
-    @RenderSection("renderSection", required: false)    
+    <script src="~/Content/assets/global/scripts/common.js"></script>
+    <script src="~/Content/assets/global/scripts/app.js"></script>
+    <script src="~/Content/assets/global/scripts/datatable.js"></script>
+    <script src="~/Content/assets/layouts/layout/scripts/layout.js"></script>
+    @RenderSection("renderSection", required: false)
 </body>
 </html>

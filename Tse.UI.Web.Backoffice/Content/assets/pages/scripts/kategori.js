@@ -61,7 +61,7 @@
     var BtnEkle = function () {
         $("#btnEkle").click(function () {
             var kategoriID = $("#Kategori_KategoriID").val();
-            window.location.href = '/kategori/ekle?kategoriID=' + kategoriID;
+            window.location.href = '/kategori/ekle?kategoriID='+kategoriID;
         });
     }
 
