@@ -78,6 +78,11 @@
         var form1 = $('#form1'); //Form Adı
         var error1 = $('.alert-danger', form1);
         var success1 = $('.alert-success', form1);
+        $('#kabulTarihi').datepicker({
+            format: 'dd.mm.yyyy',
+            language: 'tr'
+        });
+
         form1.validate({
             errorElement: 'span',
             errorClass: 'help-block help-block-error',
@@ -138,9 +143,11 @@
     
     return {
         init: function () {
+            //Listeleme
             DataTable();
             Filtrele();
             BtnEkle();
+            //Ekleme - Düzeltme
             BtnVazgec();
             BtnKaydet();
         }

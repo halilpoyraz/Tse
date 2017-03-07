@@ -61,7 +61,7 @@
                     Link1 = "/baslangic/gosterge-paneli",
                     Text2 = "Ülkeler",
                     Link2 = "/ulke/listele",
-                    Text3 = "Yeni ÜlkeEkle",
+                    Text3 = "Yeni Ülke Ekle",
                     HeadText = "Yeni Ülke Ekle"
                 };
                                            

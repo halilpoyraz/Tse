@@ -6206,6 +6206,8 @@
     <Content Include="Views\Kategori\ekle.cshtml" />
     <Content Include="Views\Kategori\duzenle.cshtml" />
     <Content Include="Views\Standart\listele.cshtml" />
+    <Content Include="Views\Standart\duzenle.cshtml" />
+    <Content Include="Views\Standart\ekle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

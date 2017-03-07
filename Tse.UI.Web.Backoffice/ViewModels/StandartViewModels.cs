@@ -41,29 +41,28 @@
         public List<Durum> Durumlar { get; set; }
         public Filter Filter { get; set; }
     }
-
-    /*
-    public partial class UlkeEkleViewModel : BaseViewModel
+    
+    public partial class StandartEkleViewModel : BaseViewModel
     {
         //Constructor
-        public UlkeEkleViewModel()
+        public StandartEkleViewModel()
         {
             using (TseBackofficeContext context =  new TseBackofficeContext())
             {
                 Meta = new Meta()
                 {
-                    Title = "Yeni Ülke Ekle",
-                    Description = "Bu ekrandan yeni ülke ekleme işlemleri yapılmaktadır."
+                    Title = "Yeni Standart Ekle",
+                    Description = "Bu ekrandan yeni standart ekleme işlemleri yapılmaktadır."
                 };
 
                 BreadCrumb = new BreadCrumb()
                 {
                     Text1 = "Başlangıç",
                     Link1 = "/baslangic/gosterge-paneli",
-                    Text2 = "Ülkeler",
-                    Link2 = "/ulke/listele",
-                    Text3 = "Yeni ÜlkeEkle",
-                    HeadText = "Yeni Ülke Ekle"
+                    Text2 = "Standartlar",
+                    Link2 = "/standart/listele",
+                    Text3 = "Yeni Standart Ekle",
+                    HeadText = "Yeni Standart Ekle"
                 };
                                            
                 Durumlar = context.Durumlar.ToList();
@@ -71,42 +70,43 @@
         }
 
         //Properties 
-        public Ulke Ulke { get; set; }
+        public Standart Standart { get; set; }
         public Durum Durum { get; set; }
         public List<Durum> Durumlar { get; set; }
     }
-
-    public partial class UlkeDuzenleViewModel : BaseViewModel
+    
+    public partial class StandartDuzenleViewModel : BaseViewModel
     {
         //Constructor
-        public UlkeDuzenleViewModel()
+        public StandartDuzenleViewModel(int? id)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {                
                 Meta = new Meta()
                 {
-                    Title = "Ülke Düzenle",
-                    Description = "Bu ekrandan ülke düzenleme işlemleri yapılmaktadır."
+                    Title = "Standart Düzenle",
+                    Description = "Bu ekrandan standart düzenleme işlemleri yapılmaktadır."
                 };
                                 
                 BreadCrumb = new BreadCrumb()
                 {
                     Text1 = "Başlangıç",
                     Link1 = "/baslangic/gosterge-paneli",
-                    Text2 = "Ülkeler",
-                    Link2 = "/ulke/listele",
-                    Text3 = "Ülke Düzenle",
-                    HeadText = "Ülke Düzenle"
+                    Text2 = "Standartlart",
+                    Link2 = "/standart/listele",
+                    Text3 = "Standart Düzenle",
+                    HeadText = "Standart Düzenle"
                 };
+
+                Standart = context.Standartlar.Find(id);
                                 
                 Durumlar = context.Durumlar.ToList();
             }
         }
 
         //Properties
-        public Ulke Ulke { get; set; }
+        public Standart Standart { get; set; }
         public Durum Durum { get; set; }
         public List<Durum> Durumlar { get; set; }
-    }
-    */
+    }    
 }

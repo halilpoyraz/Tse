@@ -1,0 +1,44 @@
+﻿@using Tse.UI.Web.Backoffice.Helpers
+@model Tse.UI.Web.Backoffice.ViewModels.StandartDuzenleViewModel
+@section renderSection{ <script type="text/javascript" src="~/Content/assets/pages/scripts/standart.min.js"></script> }   
+
+<div class="portlet light bordered">
+    <div class="portlet-title tabbable-line">
+        <div class="caption">
+            <i class="icon-wallet"></i>
+            <span class="caption-subject font-dark bold text-capitalize">@Model.Standart.TsNo - @Model.Standart.BaslikTr</span>
+        </div>
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a href="#portlet_tab1" data-toggle="tab" aria-expanded="true">İçerik Bilgisi</a>
+            </li>
+            <li class="">
+                <a href="#portlet_tab2" data-toggle="tab" aria-expanded="false">Madde Yönetimi </a>
+            </li>
+            <li class="">
+                <a href="#portlet_tab3" data-toggle="tab" aria-expanded="false">Önizleme</a>
+            </li>                    
+        </ul>
+    </div>
+    <div class="portlet-body">
+        <div class="tab-content">
+            <div class="tab-pane active" id="portlet_tab1">                
+                <div class="alert alert-info display-hide">
+                    <button class="close" data-close="alert"></button> Bu bölümden içerik bilgilerini düzenleyebilirsiniz.
+                </div>
+                <p>Tarram</p>
+            </div>
+            <div class="tab-pane" id="portlet_tab2">
+                <div class="alert alert-warning">
+                    <button class="close" data-close="alert"></button> Bu bölümden madde başlıklarını yönetebilirsiniz.
+                </div>
+                <p>Tarram</p>
+            </div>
+            <div class="tab-pane" id="portlet_tab3">
+                <div class="alert alert-warning">
+                    <button class="close" data-close="alert"></button> Bu bölümden de önüzleme yapın barik.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
