@@ -34,5 +34,11 @@
     "inputFiles": [
       "Content/assets/pages/scripts/kategori.js"
     ]
+  },
+  {
+    "outputFileName": "Content/assets/pages/scripts/standart.min.js",
+    "inputFiles": [
+      "Content/assets/pages/scripts/standart.js"
+    ]
   }
 ]

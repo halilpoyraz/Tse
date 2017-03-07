@@ -221,6 +221,7 @@
     <Compile Include="ViewModels\IlceViewModels.cs" />
     <Compile Include="ViewModels\SehirViewModels.cs" />
     <Compile Include="ViewModels\KategoriViewModels.cs" />
+    <Compile Include="ViewModels\StandartViewModels.cs" />
     <Compile Include="ViewModels\UlkeViewModels.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -242,6 +243,10 @@
     <Content Include="Content\assets\pages\scripts\sehir.js" />
     <Content Include="Content\assets\pages\scripts\sehir.min.js">
       <DependentUpon>sehir.js</DependentUpon>
+    </Content>
+    <Content Include="Content\assets\pages\scripts\standart.js" />
+    <Content Include="Content\assets\pages\scripts\standart.min.js">
+      <DependentUpon>standart.js</DependentUpon>
     </Content>
     <Content Include="Content\assets\pages\scripts\ulke.min.js">
       <DependentUpon>ulke.js</DependentUpon>
@@ -6188,8 +6193,6 @@
     <Content Include="Views\Ulke\ekle.cshtml" />
     <Content Include="Views\Kisi\tum-kisiler.cshtml" />
     <Content Include="Views\Kisi\yeni-kisi.cshtml" />
-    <Content Include="Views\Standart\tum-standartlar.cshtml" />
-    <Content Include="Views\Standart\yeni-standart.cshtml" />
     <Content Include="Views\Test\Index.cshtml" />
     <Content Include="Views\Ulke\duzenle.cshtml" />
     <Content Include="Views\Hata\Index.cshtml" />
@@ -6202,6 +6205,7 @@
     <Content Include="Views\Kategori\listele.cshtml" />
     <Content Include="Views\Kategori\ekle.cshtml" />
     <Content Include="Views\Kategori\duzenle.cshtml" />
+    <Content Include="Views\Standart\listele.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

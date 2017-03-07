@@ -65,6 +65,14 @@
                     Taslak = context.Kategoriler.Where(u => u.DurumID == 3).Count();
                     Silinmis = context.Kategoriler.Where(u => u.DurumID == 4).Count();
                 }
+                else if (entityName == "Standartlar")
+                {
+                    Tum = context.Standartlar.Count();
+                    Aktif = context.Standartlar.Where(u => u.DurumID == 1).Count();
+                    Pasif = context.Standartlar.Where(u => u.DurumID == 2).Count();
+                    Taslak = context.Standartlar.Where(u => u.DurumID == 3).Count();
+                    Silinmis = context.Standartlar.Where(u => u.DurumID == 4).Count();
+                }
                 return this;
             }            
         }

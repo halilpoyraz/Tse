@@ -1,24 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-
-namespace Tse.UI.Web.Backoffice.Controllers
+﻿namespace Tse.UI.Web.Backoffice.Controllers
 {
-    public class StandartController : Controller
-    {
-        // GET: Standart
-        [ActionName("tum-standartlar")]
-        public ActionResult TumStandartlar()
-        {
-            return View();
-        }
+    using Dal.Backoffice.Model;
+    using System;
+    using System.Data.Entity;
+    using System.Web.Mvc;
+    using ViewModels;
 
-        [ActionName("yeni-standart")]
-        public ActionResult YeniStandart()
+    public class StandartController : Controller
+    {           
+        public ActionResult Listele()
         {
-            return View();
-        }
+            var model = new StandartListeleViewModel();
+            return View(model);
+        }        
     }
 }
