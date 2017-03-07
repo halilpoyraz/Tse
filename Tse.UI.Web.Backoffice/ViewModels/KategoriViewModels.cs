@@ -77,6 +77,7 @@
         //Properties         
         public Kategori Kategori{ get; set; }
         public Deger Deger { get; set; }
+        public StandartAtifTipiSablon StandartAtifTipiSablon { get; set; }
         public Durum Durum { get; set; }
         public List<Durum> Durumlar { get; set; }
     }

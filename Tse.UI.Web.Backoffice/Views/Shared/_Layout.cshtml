@@ -410,6 +410,9 @@
                             string controller = HttpContext.Current.Request.RequestContext.RouteData.Values["controller"].ToString();
                             string action = HttpContext.Current.Request.RequestContext.RouteData.Values["action"].ToString();
                         }
+                        <li class="heading">
+                            <h3 class="uppercase">Menü</h3>
+                        </li>
                         <li class="nav-item @if(controller=="baslangic"){ @("start active open") }">
                             <a href="javascript:;" class="nav-link nav-toggle">
                                 <i class="icon-home"></i>
@@ -433,134 +436,69 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="heading">
-                            <h3 class="uppercase">Tanımlamalar</h3>
-                        </li>
-                        <li class="nav-item @if(controller=="ulke"){ @("start active open") }">
-                            <a href="javascript:;" class="nav-link nav-toggle">
-                                <i class="fa fa-globe" aria-hidden="true"></i>
-                                <span class="title">Ülkeler</span>
-                                <span class="@if (controller == "ulke"){ @("selected") }"></span>
-                                <span class="arrow"></span>
-                            </a>
-                            <ul class="sub-menu">
-                                <li class="nav-item  @if(action=="listele"){ @("start active open") }">
-                                    <a href="/ulke/listele" class="nav-link ">
-                                        <span class="title">Tüm Ülkeler</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item  @if(action=="ekle" || action=="duzenle"){ @("start active open") }">
-                                    <a href="/ulke/ekle" class="nav-link ">
-                                        <span class="title">Yeni Ülke Ekle</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item @if(controller=="sehir"){ @("start active open") }">
-                            <a href="javascript:;" class="nav-link nav-toggle">
-                                <i class="fa fa-building-o" aria-hidden="true"></i>
-                                <span class="title">Şehirler</span>
-                                <span class="@if (controller == "sehir"){ @("selected") }"></span>
-                                <span class="arrow"></span>
-                            </a>
-                            <ul class="sub-menu">
-                                <li class="nav-item  @if(action=="listele"){ @("start active open") }">
-                                    <a href="/sehir/listele" class="nav-link ">
-                                        <span class="title">Tüm Şehirler</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item  @if(action=="ekle"){ @("start active open") }">
-                                    <a href="/sehir/ekle" class="nav-link ">
-                                        <span class="title">Yeni Şehir Ekle</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item  @if(controller=="ilce"){ @("start active open") }">
-                            <a href="javascript:;" class="nav-link nav-toggle">
-                                <i class="fa fa-map-signs" aria-hidden="true"></i>
-                                <span class="title">İlçeler</span>
-                                <span class="@if (controller == "ilce"){ @("selected") }"></span>
-                                <span class="arrow"></span>
-                            </a>
-                            <ul class="sub-menu">
-                                <li class="nav-item  @if(action=="listele"){ @("start active open") }">
-                                    <a href="/ilce/listele" class="nav-link ">
-                                        <span class="title">Tüm İlçeler</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item  @if(action=="ekle"){ @("start active open") }">
-                                    <a href="/ilce/ekle" class="nav-link ">
-                                        <span class="title">Yeni İlçe Ekle</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        @foreach (var kategori in Model.SolMenuKategoriler)
-                        {
-                            <li class="nav-item">
-                                <a href="javascript:;" class="nav-link nav-toggle">
-                                    <i class="@kategori.Icon" aria-hidden="true"></i>
-                                    <span class="title">@kategori.Adi</span>
-                                    <span class=""></span>
-                                    <span class="arrow"></span>
-                                </a>
-                                <ul class="sub-menu">
-                                    <li class="nav-item">
-                                        <a href="/kategori/listele?kategoriID=@kategori.KategoriID" class="nav-link ">
-                                            <span class="title">Tümünü Göster</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="/kategori/ekle?kategoriID=@kategori.KategoriID" class="nav-link ">
-                                            <span class="title">Yeni Ekle</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        }
-                        <li class="nav-item  @if(controller=="kisi"){ @("start active open") }">
+                        <li class="nav-item  @if(controller=="kisi" || controller=="firma"){ @("start active open") }">
                             <a href="javascript:;" class="nav-link nav-toggle">
                                 <i class="icon-user"></i>
-                                <span class="title">Kişilik Bilgileri</span>
-                                <span class="@if (controller == "kisi"){ @("selected") }"></span>
+                                <span class="title">Kişiler</span>
+                                <span class="@if (controller == "kisi" || controller=="firma"){ @("selected") }"></span>
                                 <span class="arrow"></span>
                             </a>
                             <ul class="sub-menu">
-                                <li class="nav-item  @if(action=="listele"){ @("start active open") }">
+                                <li class="nav-item  @if(controller=="kisi"){ @("start active open") }">
                                     <a href="/kisi/listele" class="nav-link ">
-                                        <span class="title">Tüm Kişiler</span>
+                                        <i class="icon-user"></i>
+                                        <span class="title">Kişiler</span>
                                     </a>
                                 </li>
-                                <li class="nav-item  @if(action=="ekle"){ @("start active open") }">
-                                    <a href="/kisi/ekle" class="nav-link ">
-                                        <span class="title">Yeni Kişi</span>
+                                <li class="nav-item  @if(controller=="firma"){ @("start active open") }">
+                                    <a href="/firma/listele" class="nav-link ">
+                                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                        <span class="title">Firmalar</span>
                                     </a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="heading">
-                            <h3 class="uppercase">Standartlar</h3>
-                        </li>
-                        <li class="nav-item  @if(controller=="Standart" || controller=="Kategori"){ @("start active open") }">
-                            <a href="?p=" class="nav-link nav-toggle">
-                                <i class="icon-wallet"></i>
-                                <span class="title">Standart</span>
-                                <span class="@if (controller == "Kategori" || controller=="Standart"){ @("selected") }">
-                                </span>
-                                <span class="arrow"></span>
+                        <li class="nav-item @if(controller=="standart" || controller=="ulke" || controller=="sehir" || controller=="ilce" || controller=="kategori"){ @("start active open") }">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="fa fa-cogs"></i>
+                                <span class="title">Tanımlamalar</span>
+                                <span class="@if (controller=="ulke" || controller=="sehir" || controller=="ilce" || controller=="kategori" ){ @("selected") }"></span>
+                                <span class="arrow open"></span>
                             </a>
                             <ul class="sub-menu">
-                                <li class="nav-item  @if(action=="tum-standartlar"){ @("start active open") }">
-                                    <a href="/standartlar/tum-standartlar" class="nav-link ">
+                                <li class="nav-item  @if((controller=="standart") && (action=="listele" || action=="duzenle" || action=="ekle")){ @("start active open") }">
+                                    <a href="/standart/listele" class="nav-link ">
+                                        <i class="icon-wallet" aria-hidden="true"></i>
                                         <span class="title">Standartlar</span>
                                     </a>
                                 </li>
-                                <li class="nav-item  @if(action=="yeni-standart"){ @("start active open") }">
-                                    <a href="/standartlar/yeni-standart" class="nav-link ">
-                                        <span class="title">Yeni Standart</span>
+                                <li class="nav-item  @if((controller=="ulke") && (action=="listele" || action=="duzenle" || action=="ekle")){ @("start active open") }">
+                                    <a href="/ulke/listele" class="nav-link ">
+                                        <i class="fa fa-globe" aria-hidden="true"></i>
+                                        <span class="title">Ülkeler</span>
                                     </a>
                                 </li>
+                                <li class="nav-item  @if((controller=="sehir") && (action=="listele" || action=="duzenle" || action=="ekle")){ @("start active open") }">
+                                    <a href="/sehir/listele" class="nav-link ">
+                                        <i class="fa fa-building-o" aria-hidden="true"></i>
+                                        <span class="title">Şehirler</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item  @if((controller=="ilce") && (action=="listele" || action=="duzenle" || action=="ekle")){ @("start active open") }">
+                                    <a href="/ilce/listele" class="nav-link ">
+                                        <i class="fa fa-map-signs" aria-hidden="true"></i>
+                                        <span class="title">İlçeler</span>
+                                    </a>
+                                </li>
+                                @foreach (var kategori in Model.SolMenuKategoriler)
+                                {
+                                <li class="nav-item  @if((controller=="kategori") && (action=="listele" || action=="duzenle" || action=="ekle") && Model.Kategori.KategoriID==kategori.KategoriID){ @("start active open") }">
+                                    <a href="/kategori/listele?kategoriID=@kategori.KategoriID" class="nav-link ">
+                                        <i class="@kategori.Icon" aria-hidden="true"></i>
+                                        <span class="title">@kategori.Adi</span>
+                                    </a>
+                                </li>
+                                }
                             </ul>
                         </li>
                     </ul>

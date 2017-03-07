@@ -6,15 +6,16 @@
         <div class="portlet light portlet-fit portlet-form">
             <div class="portlet-body">
                 @{ 
-                    string xxx;
-                    if (Model.Kategori.KategoriID == 8 || Model.Kategori.KategoriID == 9) {xxx = "duzenle2"; }
-                    else { xxx = "duzenle"; }
+                    string formName;
+                    if (Model.Kategori.KategoriID == 8 || Model.Kategori.KategoriID == 9) { formName = "duzenle2"; }
+                    else { formName = "duzenle"; }
                 }                
-                @using (Html.BeginForm(xxx, "kategori", FormMethod.Post, new { @name = "form1", @id = "form1", @class = "form-horizontal" }))
-                {                    
+                @using (Html.BeginForm(formName, "kategori", FormMethod.Post, new { @name = "form1", @id = "form1", @class = "form-horizontal" }))
+                {
+                    @Html.AntiForgeryToken()
+
                     if (Model.Kategori.KategoriID == 8 || Model.Kategori.KategoriID == 9) // Atif yapılan ise
-                    {                        
-                        @Html.AntiForgeryToken()
+                    {
                         @Html.HiddenFor(m => m.StandartAtifTipiSablon.KategoriID);
                         @Html.HiddenFor(m => m.StandartAtifTipiSablon.StandartAtifTipiSablonID);
                         <div class="form-body">
@@ -25,8 +26,9 @@
                             <div class="alert alert-success @TempData["DisplayStatus"]">
                                 <button class="close" data-close="alert"></button> Kayıt Eklendi.
                             </div>    
+                             
                             @if (Model.StandartAtifTipiSablon.Deger1 != null)
-                            {
+                            {                                
                             <div class="form-group">
                                 <label class="control-label col-md-2">
                                     <span id="displayName1"></span>
@@ -37,8 +39,9 @@
                                 </div>
                             </div>
                             }
+                                            
                             @if (Model.StandartAtifTipiSablon.Deger2 != null)
-                            {
+                            {                               
                             <div class="form-group">
                                 <label class="control-label col-md-2">
                                     <span id="displayName2"></span>
@@ -49,8 +52,9 @@
                                 </div>
                             </div>
                             }
+                            
                             @if (Model.StandartAtifTipiSablon.Deger3 != null)
-                            {
+                            { 
                             <div class="form-group">
                                 <label class="control-label col-md-2">
                                     <span id="displayName3"></span>
@@ -62,19 +66,18 @@
                             </div>
                             }
 
-                            @if (Model.StandartAtifTipiSablon.Deger4 !=null)
-                        	{		
-                            <div class="form-group">
-                                <label class="control-label col-md-2">
-                                    <span id="displayName4"></span>
-                                    <span class="required"> * </span>
-                                </label>
-                                <div class="col-md-4">
-                                    @Html.TextBoxFor(m => m.StandartAtifTipiSablon.Deger4, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                            @if (Model.StandartAtifTipiSablon.Deger4 != null)
+                            {
+                                <div class="form-group">
+                                    <label class="control-label col-md-2">
+                                        <span id="displayName4"></span>
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        @Html.TextBoxFor(m => m.StandartAtifTipiSablon.Deger4, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                    </div>
                                 </div>
-                            </div>
-                            }
-
+                            } 	                                                     
                             <div class="form-group">
                                 <label class="control-label col-md-2">
                                     <span>@Html.DisplayNameFor(m => m.Durum.DurumAdi)</span>
@@ -94,7 +97,7 @@
                             </div>
                         </div>
                     }
-                    else // //Değilse
+                    else //Atıf yapılan değilse
                     {
                         @Html.AntiForgeryToken()
                         @Html.HiddenFor(m => m.Deger.DegerID);

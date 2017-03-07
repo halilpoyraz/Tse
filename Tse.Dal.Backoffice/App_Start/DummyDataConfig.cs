@@ -9580,7 +9580,7 @@
                 new Kategori
                 {
                     KategoriID =4,
-                    Adi ="Standart Türler",
+                    Adi ="Standart Türleri",
                     Icon ="fa fa-file-text-o",
                     DurumID =1
                 },
@@ -9601,7 +9601,7 @@
                 new Kategori
                 {
                     KategoriID =7,
-                    Adi ="Standart İcerik Tipleri",
+                    Adi ="Standart İçerik Tipleri",
                     Icon ="fa fa-file-o",
                     DurumID =1
                 },

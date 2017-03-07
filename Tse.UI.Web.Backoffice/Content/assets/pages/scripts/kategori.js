@@ -60,7 +60,7 @@
     //BtnEkle
     var BtnEkle = function () {
         $("#btnEkle").click(function () {
-            var kategoriID = $("#Deger_KategoriID").val();
+            var kategoriID = $("#Kategori_KategoriID").val();          
             window.location.href = '/kategori/ekle?kategoriID='+kategoriID;
         });
     }
@@ -70,7 +70,10 @@
         $("#btnVazgec").click(function () {
             var kategoriID = $("#Deger_KategoriID").val();
             if (kategoriID == null) {
-                var kategoriID = $("#StandartAtifTipiSablon_KategoriID").val();
+                kategoriID = $("#StandartAtifTipiSablon_KategoriID").val();
+            }
+            if (kategoriID == null) {
+                kategoriID = $("#Kategori_KategoriID").val();
             }
             window.location.href = '/kategori/listele?kategoriID='+kategoriID;
         });
@@ -151,8 +154,12 @@
     }
 
     //BtnAtifYapilanStandartKaydet
-    var BtnAtifYapilanStandartKaydet = function () {
+    var BtnAtifYapilanStandartKaydet = function () {        
         var kategoriID = $("#StandartAtifTipiSablon_KategoriID").val();
+        if (kategoriID==null) {                      
+            kategoriID = $("#Kategori_KategoriID").val();
+        }
+       
         var standartAtifTipiSablonID = $("#StandartAtifTipiSablon_StandartAtifTipiSablonID").val();
         
         if (kategoriID == 8) {
@@ -187,17 +194,14 @@
                     minlength: 2,
                     required: true
                 },
-                "StandartAtifTipiSablon.Deger2": {
-                    minlength: 2,
-                    required: true
+                "StandartAtifTipiSablon.Deger2": {                    
+                    required: false
                 },
-                "StandartAtifTipiSablon.Deger3": {
-                    minlength: 2,
-                    required: true
+                "StandartAtifTipiSablon.Deger3": {                    
+                    required: false
                 },
-                "StandartAtifTipiSablon.Deger4": {                    
-                    minlength: 2,
-                    required: true
+                "StandartAtifTipiSablon.Deger4": {                                        
+                    required: false
                 },
                 "StandartAtifTipiSablon.DurumID": {
                     required: true
@@ -244,6 +248,9 @@
     return {
         init: function () {
             var kategoriID = $("#StandartAtifTipiSablon_KategoriID").val();
+            if (kategoriID==null) {
+                kategoriID = $("#Kategori_KategoriID").val();
+            }
             DataTable();
             Filtrele();
             BtnEkle();

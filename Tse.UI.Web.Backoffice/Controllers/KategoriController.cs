@@ -1,5 +1,4 @@
-﻿
-namespace Tse.UI.Web.Backoffice.Controllers
+﻿namespace Tse.UI.Web.Backoffice.Controllers
 {
     using Dal.Backoffice.Model;
     using System;
@@ -65,6 +64,35 @@ namespace Tse.UI.Web.Backoffice.Controllers
                     {
                         TempData["DisplayStatus"] = "display-hide";
                         return View(model);
+                    }
+                }
+            }
+        }
+
+        [HttpPost ValidateAntiForgeryToken]
+        public ActionResult Ekle2([Bind(Include = "StandartAtifTipiSablonID,KategoriID,Deger1,Deger2,Deger3,Deger4,DurumID")] StandartAtifTipiSablon StandartAtifTipiSablon)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                var model = new KategoriEkleViewModel(StandartAtifTipiSablon.KategoriID);
+
+                if (model.Kategori == null)
+                {
+                    return RedirectToAction("index", "hata", new { hataID = 3 });
+                }
+                else
+                {
+                    if (ModelState.IsValid)
+                    {
+                        context.StandartAtifTipiSablonlar.Add(StandartAtifTipiSablon);
+                        context.SaveChanges();
+                        TempData["DisplayStatus"] = "";
+                        return View("ekle",model);
+                    }
+                    else
+                    {
+                        TempData["DisplayStatus"] = "display-hide";
+                        return View("ekle",model);
                     }
                 }
             }
