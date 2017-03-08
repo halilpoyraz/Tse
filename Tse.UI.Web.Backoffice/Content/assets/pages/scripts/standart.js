@@ -127,7 +127,7 @@
                 'Standart.StandartTurID': { required: true },
                 'Standart.BaslikEn': { required: true },
                 'Standart.ParaBirimiID': { required: true },
-                'Standart.DurumID': { required: true },
+                'Standart.DurumID': { required: true },                
             },
 
             invalidHandler: function (event, validator) {

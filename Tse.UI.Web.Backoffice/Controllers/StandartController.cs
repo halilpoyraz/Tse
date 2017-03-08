@@ -29,11 +29,11 @@ namespace Tse.UI.Web.Backoffice.Controllers
                 if (ModelState.IsValid)
                 {
                     context.Standartlar.Add(standart);
-                    context.SaveChanges();                    
+                    context.SaveChanges();
                     return RedirectToAction("duzenle", new { id = standart.StandartID });
                 }
                 else
-                    return RedirectToAction("index", "hata", new { HataId = 4 });               
+                    return RedirectToAction("index", "hata", new { HataId = 4 });
             }
         }
 
@@ -41,11 +41,28 @@ namespace Tse.UI.Web.Backoffice.Controllers
         {
             if (id != null)
             {
-                var model = new StandartDuzenleViewModel(id);
+                var model = new StandartDuzenleViewModel(id);              
                 return View(model);
             }
             else
-                return RedirectToAction("index", "hata", new { HataId = 2 });                       
+                return RedirectToAction("index", "hata", new { HataId = 2 });
+        }
+
+        [HttpPost ValidateAntiForgeryToken]
+        public ActionResult Duzenle(Standart standart)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+
+                if (ModelState.IsValid)
+                {
+                    context.Entry(standart).State = EntityState.Modified;
+                    context.SaveChanges();
+                    return RedirectToAction("duzenle", new { id = standart.StandartID });
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 4 });
+            }
         }
     }
 }
