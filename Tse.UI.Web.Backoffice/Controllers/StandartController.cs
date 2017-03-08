@@ -8,7 +8,7 @@ namespace Tse.UI.Web.Backoffice.Controllers
     using ViewModels;
 
     public class StandartController : Controller
-    {           
+    {
         public ActionResult Listele()
         {
             var model = new StandartListeleViewModel();
@@ -21,15 +21,31 @@ namespace Tse.UI.Web.Backoffice.Controllers
             return View(model);
         }
 
+        [HttpPost ValidateAntiForgeryToken]
+        public ActionResult Ekle(Standart standart)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (ModelState.IsValid)
+                {
+                    context.Standartlar.Add(standart);
+                    context.SaveChanges();                    
+                    return RedirectToAction("duzenle", new { id = standart.StandartID });
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 4 });               
+            }
+        }
+
         public ActionResult Duzenle(int? id)
         {
-            if (id == null)            
-                return RedirectToAction("index", "hata", new { HataId = 2 });
-            else
-            { 
+            if (id != null)
+            {
                 var model = new StandartDuzenleViewModel(id);
                 return View(model);
             }
-        }      
+            else
+                return RedirectToAction("index", "hata", new { HataId = 2 });                       
+        }
     }
 }

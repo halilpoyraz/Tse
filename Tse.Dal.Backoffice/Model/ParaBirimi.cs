@@ -11,7 +11,7 @@
         }
 
 
-        //Properties
+        //Properties        
         public int ParaBirimiID { get; set; }
 
         [Display(Name ="Kodu") MaxLength(255) Required]

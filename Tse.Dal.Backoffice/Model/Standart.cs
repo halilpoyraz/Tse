@@ -55,7 +55,7 @@
         [Display(Name ="Yararlanılan Kaynak")]
         public string YararlanilanKaynak { get; set; }
 
-        [Display(Name ="Tercüme Edildiği Standart")]
+        [Display(Name ="Tercüme Edildiği Std.")]
         public string TercumeEdildigiStd { get; set; }
 
         [Display(Name ="Ics Kodu")]

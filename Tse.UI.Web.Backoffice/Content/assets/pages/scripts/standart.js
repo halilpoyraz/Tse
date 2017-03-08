@@ -82,6 +82,29 @@
             format: 'dd.mm.yyyy',
             language: 'tr'
         });
+        $('#Standart_TsNo').keyup(function () {
+            resultTitle = "Yeni Standart"
+            if ($('#Standart_TsNo').val()==null) 
+                resultTitle = "Yeni Standart"            
+            else
+            {
+                resultTitle = $('#Standart_TsNo').val();
+                if ($('#Standart_BaslikTr').val() != "")                 
+                    resultTitle = resultTitle + ' - ' + $('#Standart_BaslikTr').val();                
+            }
+            $('#standart-title').text(resultTitle);
+        });
+        $('#Standart_BaslikTr').keyup(function () {
+            resultTitle = "Yeni Standart"
+            if ($('#Standart_TsNo').val() == null)
+                resultTitle = "Yeni Standart"
+            else {
+                resultTitle = $('#Standart_TsNo').val();
+                if ($('#Standart_BaslikTr').val() != "")
+                    resultTitle = resultTitle + ' - ' + $('#Standart_BaslikTr').val();
+            }
+            $('#standart-title').text(resultTitle);
+        });
 
         form1.validate({
             errorElement: 'span',
@@ -95,13 +118,16 @@
                 }
             },
             rules: { //Kurallar
-                'Ulke.UlkeAdi': {
-                    minlength: 2,
-                    required: true
-                },
-                'Ulke.DurumID': {
-                    required: true
-                }
+                'Standart.TsNo': { minlength: 2, required: true },
+                'Standart.KabulTarihi': { required: true },
+                'Standart.YururlukDurumuID': { required: true },
+                'Standart.BaslikTr': { required: true },                
+                'Standart.HazirlikGrubuID': { required: true },
+                'Standart.DokumanTipiID': { required: true },
+                'Standart.StandartTurID': { required: true },
+                'Standart.BaslikEn': { required: true },
+                'Standart.ParaBirimiID': { required: true },
+                'Standart.DurumID': { required: true },
             },
 
             invalidHandler: function (event, validator) {
@@ -144,12 +170,12 @@
     return {
         init: function () {
             //Listeleme
-            DataTable();
-            Filtrele();
-            BtnEkle();
+              DataTable();
+              Filtrele();
+              BtnEkle();
             //Ekleme - Düzeltme
-            BtnVazgec();
-            BtnKaydet();
+              BtnVazgec();
+              BtnKaydet();
         }
     };   
 }();

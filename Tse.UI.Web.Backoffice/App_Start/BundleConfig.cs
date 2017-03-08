@@ -29,7 +29,8 @@ namespace Tse.UI.Web.Backoffice
                     "~/Content/assets/global/css/components.css",
                     "~/Content/assets/global/css/plugins.css",
                     "~/Content/assets/global/plugins/simple-line-icons/simple-line-icons.css",
-                    "~/Content/assets/global/plugins/bootstrap-table/bootstrap-table.css"
+                    "~/Content/assets/global/plugins/bootstrap-table/bootstrap-table.css",
+                    "~/Content/Site.css"
                     ));
 
             bundles.Add(new ScriptBundle("~/bundles/scriptHead").Include(

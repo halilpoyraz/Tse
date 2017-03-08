@@ -64,14 +64,24 @@
                     Text3 = "Yeni Standart Ekle",
                     HeadText = "Yeni Standart Ekle"
                 };
-                                           
+
+                DokumanTipleri = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 1).OrderBy(m => m.DegerAdiTr).ToList();
+                HazirlikGruplari = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 2).OrderBy(m => m.DegerAdiTr).ToList();
+                YururlukDurumlari = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 3).OrderBy(m => m.DegerAdiTr).ToList();
+                StandartTurler = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 4).OrderBy(m => m.DegerAdiTr).ToList();
+                ParaBirimleri = context.ParaBirimleri.Where(m => m.DurumID == 1).OrderBy(m=>m.Kodu).ToList();
                 Durumlar = context.Durumlar.ToList();
             }
         }
 
         //Properties 
-        public Standart Standart { get; set; }
+        public Standart Standart { get; set; }        
         public Durum Durum { get; set; }
+        public List<Deger> DokumanTipleri { get; set; }
+        public List<Deger> HazirlikGruplari { get; set; }
+        public List<Deger> YururlukDurumlari{ get; set; }
+        public List<Deger> StandartTurler { get; set; }
+        public List<ParaBirimi> ParaBirimleri { get; set; }
         public List<Durum> Durumlar { get; set; }
     }
     

@@ -39,16 +39,16 @@
                                                     <span class="required"> * </span>
                                                 </label>
                                                 <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.TsNo, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                    @Html.TextBoxFor(m => m.Standart.TsNo, htmlAttributes: new { @class = "form-control" })
                                                 </div>
                                             </div>
                                             <div class="form-group col-md-6">
                                                 <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
+                                                    <span>@Html.DisplayName("Hazırlık Grubu")</span>
                                                     <span class="required"> * </span>
                                                 </label>
-                                                <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                <div class="col-md-9">                                                    
+                                                    @Html.DropDownListFor(m => m.Standart.HazirlikGrubuID, new SelectList(Model.HazirlikGruplari, "DegerID", "DegerAdiTr", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
                                                 </div>
                                             </div>
                                         </div>
@@ -60,8 +60,8 @@
                                                     <span class="required"> * </span>
                                                 </label>
                                                 <div class="col-md-9">
-                                                    <div id="kabulTarihi" class="input-group  date date-picker">
-                                                        <input type="text" class="form-control" readonly="">
+                                                    <div id="kabulTarihi" class="input-group  date date-picker">  
+                                                        @Html.TextBoxFor(m=>m.Standart.KabulTarihi, htmlAttributes: new { @class="form-control", @readonly ="" })                   
                                                         <span class="input-group-btn">
                                                             <button class="btn default" type="button">
                                                                 <i class="fa fa-calendar"></i>
@@ -72,11 +72,11 @@
                                             </div>
                                             <div class="form-group col-md-6">
                                                 <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
+                                                    <span>@Html.DisplayName("Döküman Tipi")</span>
                                                     <span class="required"> * </span>
                                                 </label>
-                                                <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                <div class="col-md-9">                                                    
+                                                    @Html.DropDownListFor(m => m.Standart.DokumanTipiID, new SelectList(Model.DokumanTipleri, "DegerID", "DegerAdiTr", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
                                                 </div>
                                             </div>
                                         </div>
@@ -84,41 +84,20 @@
                                         <div class="row">
                                             <div class="form-group col-md-6">
                                                 <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
+                                                    <span>Yürürlük Durumu</span>
                                                     <span class="required"> * </span>
                                                 </label>
-                                                <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                <div class="col-md-9">                                                   
+                                                    @Html.DropDownListFor(m=>m.Standart.YururlukDurumuID, new SelectList(Model.YururlukDurumlari,"DegerID","DegerAdiTr",null).AddFirstItem("Seçiniz",""), htmlAttributes: new { @class="form-control" })
                                                 </div>
                                             </div>
                                             <div class="form-group col-md-6">
                                                 <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
+                                                    <span>Standart Türü</span>
                                                     <span class="required"> * </span>
                                                 </label>
                                                 <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="form-group col-md-6">
-                                                <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
-                                                    <span class="required"> * </span>
-                                                </label>
-                                                <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-md-6">
-                                                <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
-                                                    <span class="required"> * </span>
-                                                </label>
-                                                <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                    @Html.DropDownListFor(m=>m.Standart.StandartTurID, new SelectList(Model.StandartTurler,"DegerID","DegerAdiTr",null).AddFirstItem("Seçiniz",""), htmlAttributes: new { @class= "form-control"})
                                                 </div>
                                             </div>
                                         </div>
@@ -126,41 +105,20 @@
                                         <div class="row">
                                             <div class="form-group col-md-6">
                                                 <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.BaslikTr)</span>
                                                     <span class="required"> * </span>
                                                 </label>
                                                 <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control" })
                                                 </div>
                                             </div>
                                             <div class="form-group col-md-6">
                                                 <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.BaslikEn)</span>
                                                     <span class="required"> * </span>
                                                 </label>
                                                 <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="form-group col-md-6">
-                                                <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
-                                                    <span class="required"> * </span>
-                                                </label>
-                                                <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-md-6">
-                                                <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
-                                                    <span class="required"> * </span>
-                                                </label>
-                                                <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                    @Html.TextBoxFor(m => m.Standart.BaslikEn, htmlAttributes: new { @class = "form-control" })
                                                 </div>
                                             </div>
                                         </div>
@@ -168,41 +126,20 @@
                                         <div class="row">
                                             <div class="form-group col-md-6">
                                                 <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
-                                                    <span class="required"> * </span>
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.KapsamTr)</span>
+                                                    <span class="color-white"> * </span>
                                                 </label>
                                                 <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                    @Html.TextBoxFor(m => m.Standart.KapsamTr, htmlAttributes: new { @class = "form-control" })
                                                 </div>
                                             </div>
                                             <div class="form-group col-md-6">
                                                 <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
-                                                    <span class="required"> * </span>
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.KapsamEn)</span>
+                                                    <span class="color-white"> * </span>
                                                 </label>
                                                 <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="form-group col-md-6">
-                                                <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
-                                                    <span class="required"> * </span>
-                                                </label>
-                                                <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-md-6">
-                                                <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
-                                                    <span class="required"> * </span>
-                                                </label>
-                                                <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                    @Html.TextBoxFor(m => m.Standart.KapsamEn, htmlAttributes: new { @class = "form-control" })
                                                 </div>
                                             </div>
                                         </div>
@@ -210,41 +147,20 @@
                                         <div class="row">
                                             <div class="form-group col-md-6">
                                                 <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
-                                                    <span class="required"> * </span>
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.YeriniAldigi)</span>
+                                                    <span class="color-white"> * </span>
                                                 </label>
                                                 <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                    @Html.TextBoxFor(m => m.Standart.YeriniAldigi, htmlAttributes: new { @class = "form-control" })
                                                 </div>
                                             </div>
                                             <div class="form-group col-md-6">
                                                 <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
-                                                    <span class="required"> * </span>
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.TadilEden)</span>
+                                                    <span class="color-white"> * </span>
                                                 </label>
                                                 <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="form-group col-md-6">
-                                                <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
-                                                    <span class="required"> * </span>
-                                                </label>
-                                                <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-md-6">
-                                                <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
-                                                    <span class="required"> * </span>
-                                                </label>
-                                                <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                    @Html.TextBoxFor(m => m.Standart.TadilEden, htmlAttributes: new { @class = "form-control" })
                                                 </div>
                                             </div>
                                         </div>
@@ -252,20 +168,104 @@
                                         <div class="row">
                                             <div class="form-group col-md-6">
                                                 <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
-                                                    <span class="required"> * </span>
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.YararlanilanKaynak)</span>
+                                                    <span class="color-white"> * </span>
                                                 </label>
                                                 <div class="col-md-9">
-                                                    @Html.TextBoxFor(m => m.Standart.BaslikTr, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                    @Html.TextBoxFor(m => m.Standart.YararlanilanKaynak, htmlAttributes: new { @class = "form-control" })
                                                 </div>
                                             </div>
                                             <div class="form-group col-md-6">
                                                 <label class="control-label col-md-3">
-                                                    <span>@Html.DisplayNameFor(m => m.Standart.TsNo)</span>
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.TercumeEdildigiStd)</span>
+                                                    <span class="color-white"> * </span>
+                                                </label>
+                                                <div class="col-md-9">
+                                                    @Html.TextBoxFor(m => m.Standart.TercumeEdildigiStd, htmlAttributes: new { @class = "form-control" })
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <label class="control-label col-md-3">
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.IcsKodu)</span>
+                                                    <span class="color-white"> * </span>
+                                                </label>
+                                                <div class="col-md-9">
+                                                    @Html.TextBoxFor(m => m.Standart.IcsKodu, htmlAttributes: new { @class = "form-control" })
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label class="control-label col-md-3">
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.CenCenelec)</span>
+                                                    <span class="color-white"> * </span>
+                                                </label>
+                                                <div class="col-md-9">
+                                                    @Html.TextBoxFor(m => m.Standart.CenCenelec, htmlAttributes: new { @class = "form-control" })
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <label class="control-label col-md-3">
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.Dili)</span>
+                                                    <span class="color-white"> * </span>
+                                                </label>
+                                                <div class="col-md-9">
+                                                    @Html.TextBoxFor(m => m.Standart.Dili, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label class="control-label col-md-3">
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.RenkDurumu)</span>
+                                                    <span class="color-white"> * </span>
+                                                </label>
+                                                <div class="col-md-9">
+                                                    @Html.TextBoxFor(m => m.Standart.RenkDurumu, htmlAttributes: new { @class = "form-control" })
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <label class="control-label col-md-3">
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.Fiyati)</span>
+                                                    <span class="color-white"> * </span>
+                                                </label>
+                                                <div class="col-md-9">
+                                                    @Html.TextBoxFor(m => m.Standart.Fiyati, htmlAttributes: new { @class = "form-control" })
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label class="control-label col-md-3">
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.ParaBirimiID)</span>
                                                     <span class="required"> * </span>
                                                 </label>
                                                 <div class="col-md-9">
-                                                    @Html.DropDownListFor(m => m.Standart.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                                    @Html.DropDownListFor(m => m.Standart.ParaBirimiID, new SelectList(Model.ParaBirimleri, "ParaBirimiID", "Kodu", 1).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <label class="control-label col-md-3">
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.UygulamaDurumu)</span>
+                                                    <span class="color-white"> * </span>
+                                                </label>
+                                                <div class="col-md-9">
+                                                    @Html.TextBoxFor(m => m.Standart.UygulamaDurumu, htmlAttributes: new { @class = "form-control" })
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label class="control-label col-md-3">
+                                                    <span>@Html.DisplayNameFor(m => m.Standart.DurumID)</span>
+                                                    <span class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-9">
+                                                    @Html.DropDownListFor(m => m.Standart.DurumID, new SelectList(Model.Durumlar,"DurumID","DurumAdi",3).AddFirstItem("Seçiniz",""), htmlAttributes: new { @class = "form-control" })
                                                 </div>
                                             </div>
                                         </div>
