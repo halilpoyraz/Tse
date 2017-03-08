@@ -27,7 +27,7 @@
         [Display(Name ="Detay") Column(TypeName ="text")]
         public string Detay { get; set; }
 
-        [Display(Name ="Üst İçerik")]
+        [Display(Name ="Ebeveyn")]
         public int UstIcerikID { get; set; }
 
         [Display(Name ="İçerik Tipi")]

@@ -1,6 +1,6 @@
 ﻿var Module = function () {
 
-    //DataTable
+    //DataTables
     var DataTable = function () {
         function restoreRow(oTable, nRow) {
             var aData = oTable.fnGetData(nRow);
@@ -34,7 +34,38 @@
             ]
         });
     }
-  
+    var DataTable2 = function () {
+        function restoreRow(oTable, nRow) {
+            var aData = oTable.fnGetData(nRow);
+            var jqTds = $('>td', nRow);
+            for (var i = 0, iLen = jqTds.length; i < iLen; i++) {
+                oTable.fnUpdate(aData[i], nRow, i, false);
+            }
+            oTable.fnDraw();
+        }
+        var table = $('#table2');
+        var oTable = table.dataTable({
+            "lengthMenu": [
+                [10, 20, 100, -1],
+                [10, 20, 100, "Hepsi"]
+            ],
+            "pageLength": -1,
+            "language": {
+                "lengthMenu": " _MENU_ Kayıt"
+            },
+            "columnDefs": [{
+                'orderable': true,
+                'targets': [0, 1, 2, 3, 4]
+            }, {
+                "searchable": true,
+                "targets": [0, 1, 2, 3, 4]
+            }],
+            "order": [
+                [3, "asc"]
+            ]
+        });
+    }
+
     // Filtrele
     var Filtrele = function () {        
         $('#btnTumKayitlar').click(function () {
@@ -167,15 +198,36 @@
         });
     }
     
+    //BtnIcerikEkleMenuItem
+    var BtnIcerikEkleMenuItem = function () {
+        $('.btnIcerikEkleMenuItem').click(function () {
+            $('#icerik-ekle').addClass("display-show");
+            $('#icerik-listele').removeClass("display-show").addClass("display-hide");
+            $("#StandartIcerik_StandartIcerikTipiID").val($(this).attr("value"));            
+        });
+    }
+
+    //BtnIcerikEkleVazgec
+    var BtnIcerikEkleVazgec = function () {
+        $('#btn-icerik-ekle-vazgec').click(function () {
+            $('#icerik-ekle').removeClass("display-show").addClass("display-hide");
+            $('#icerik-listele').removeClass("display-hide").addClass("display-show");
+            $("#StandartIcerik_StandartIcerikTipiID").val($(this).attr(""));
+        });
+    }
+
     return {
         init: function () {
             //Listeleme
-              DataTable();
+              DataTable();              
               Filtrele();
               BtnEkle();
             //Ekleme - Düzeltme
+              DataTable2();
               BtnVazgec();
               BtnKaydet();
+              BtnIcerikEkleMenuItem();
+              BtnIcerikEkleVazgec();
         }
     };   
 }();

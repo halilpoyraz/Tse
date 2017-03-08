@@ -64,5 +64,41 @@ namespace Tse.UI.Web.Backoffice.Controllers
                     return RedirectToAction("index", "hata", new { HataId = 4 });
             }
         }
+
+        [ActionName("icerik-sil")]
+        public ActionResult IcerikSil(int? standartIcerikID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (standartIcerikID != null)
+                {
+                    StandartIcerik standartIcerik = context.StandartIcerikler.Find(standartIcerikID);
+                    if (standartIcerik != null)
+                    {
+                        try
+                        {
+                            context.StandartIcerikler.Remove(standartIcerik);
+                            context.SaveChanges();
+                        }
+                        catch (Exception)
+                        {
+                            try
+                            {
+                                standartIcerik.DurumID = 4;
+                                context.Entry(standartIcerik).State = EntityState.Modified;
+                                context.SaveChanges();
+                            }
+                            catch (Exception)
+                            {
+                                return RedirectToAction("index", "hata", new { HataId = 4 });
+                            }
+                        }
+                    }                    
+                    return RedirectToAction("duzenle", new { id = standartIcerik.StandartID});
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+            }
+        }
     }
 }

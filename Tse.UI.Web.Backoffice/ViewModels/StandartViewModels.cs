@@ -108,24 +108,32 @@
                     HeadText = "Standart Düzenle"
                 };
 
+                Filter = new Filter().Create("StandartIcerikler", id);
+
                 Standart = context.Standartlar.Find(id);
                 DokumanTipleri = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 1).OrderBy(m => m.DegerAdiTr).ToList();
                 HazirlikGruplari = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 2).OrderBy(m => m.DegerAdiTr).ToList();
                 YururlukDurumlari = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 3).OrderBy(m => m.DegerAdiTr).ToList();
                 StandartTurler = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 4).OrderBy(m => m.DegerAdiTr).ToList();
                 ParaBirimleri = context.ParaBirimleri.Where(m => m.DurumID == 1).OrderBy(m => m.Kodu).ToList();
+                StandartIcerikler = context.StandartIcerikler.Where(m=>m.StandartID==id).OrderBy(m => m.SiraNo).ToList();
+                StandartIcerikTipleri = context.Degerler.Where(m => m.KategoriID == 7).OrderBy(m=>m.SiraNo).ToList();
                 Durumlar = context.Durumlar.ToList();
             }
         }
 
         //Properties
         public Standart Standart { get; set; }
+        public StandartIcerik StandartIcerik { get; set; }
+        public Filter Filter { get; set; }
         public Durum Durum { get; set; }
         public List<Deger> DokumanTipleri { get; set; }
         public List<Deger> HazirlikGruplari { get; set; }
         public List<Deger> YururlukDurumlari { get; set; }
         public List<Deger> StandartTurler { get; set; }
         public List<ParaBirimi> ParaBirimleri { get; set; }
+        public List<StandartIcerik> StandartIcerikler { get; set; }
+        public List<Deger> StandartIcerikTipleri { get; set; }
         public List<Durum> Durumlar { get; set; }
     }    
 }

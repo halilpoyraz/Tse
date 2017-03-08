@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /******************************
  3RD PARTY PLUGIN CUSTOMIZATION 
 ******************************/
@@ -920,7 +920,7 @@ Datatables general customization
 
 table.dataTable thead th,
 table.dataTable thead td {
-  border-bottom: 2px solid #e7ecf1;
+  border-bottom: 0 solid #e7ecf1;
   outline: none !important; }
 
 table.dataTable.no-footer {

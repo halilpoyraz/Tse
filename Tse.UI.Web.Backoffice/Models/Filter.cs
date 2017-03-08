@@ -105,6 +105,30 @@
                 return this;
             }
         }
+     
+        /// <summary>
+        /// Yeni bir filtre yaratır.
+        /// </summary>
+        /// <param name="entityName">Filtreleme yapılacak Entity adı</param>
+        /// <param name="id">Filtreleme yapılacak kolon</param>
+        /// <returns></returns>
+        public Filter Create(string entityName, int? id)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (entityName == "StandartIcerikler")
+                {
+
+                    Tum = context.StandartIcerikler.Where(e=>e.StandartID==id).Count();
+                    Aktif = context.StandartIcerikler.Where(e => e.StandartID == id && e.DurumID == 1).Count();
+                    Pasif = context.StandartIcerikler.Where(e => e.StandartID == id && e.DurumID == 2).Count();
+                    Taslak = context.StandartIcerikler.Where(e => e.StandartID == id && e.DurumID == 3).Count();
+                    Silinmis = context.StandartIcerikler.Where(e => e.StandartID == id && e.DurumID == 4).Count();        
+                }
+                return this;
+            }
+        }
+
 
         /// <summary>
         /// durumId değerine göre kayıt sayısını döndürür. 
