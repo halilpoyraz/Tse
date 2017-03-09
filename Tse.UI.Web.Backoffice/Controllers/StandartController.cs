@@ -101,6 +101,22 @@ namespace Tse.UI.Web.Backoffice.Controllers
             }
         }
 
+        [HttpPost ValidateAntiForgeryToken ValidateInput(false) ActionName("icerik-ekle")]
+        public ActionResult IcerikEkle(StandartIcerik standartIcerik)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (ModelState.IsValid)
+                {
+                    context.StandartIcerikler.Add(standartIcerik);
+                    context.SaveChanges();
+                    return RedirectToAction("duzenle", new { standartID = standartIcerik.StandartID });
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 4 });
+            }            
+        }
+
         [HttpPost ValidateAntiForgeryToken ValidateInput(false) ActionName("icerik-duzenle")]
         public ActionResult IcerikDuzenle(StandartIcerik standartIcerik)
         {

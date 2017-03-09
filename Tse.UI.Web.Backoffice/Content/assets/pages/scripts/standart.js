@@ -268,7 +268,8 @@
         $('.btnIcerikEkleMenuItem').click(function () {
             $('#icerik-ekle').addClass("display-show");
             $('#icerik-listele').removeClass("display-show").addClass("display-hide");            
-            $('#StandartIcerik_StandartIcerikTipiID').val($(this).attr("value"));            
+            $('#StandartIcerik_StandartIcerikTipiID').val($(this).attr("value"));
+            $('#StandartIcerik_SiraNo').val(parseInt($('#table2 tr:last td:nth-child(4)').text())+1);
             $('#StandartIcerik_Detay').summernote("code", "");
         });
     }
