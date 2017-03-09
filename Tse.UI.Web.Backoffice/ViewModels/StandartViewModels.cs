@@ -88,7 +88,7 @@
     public partial class StandartDuzenleViewModel : BaseViewModel
     {
         //Constructor
-        public StandartDuzenleViewModel(int? id)
+        public StandartDuzenleViewModel(int? standartID, int? standartIcerikID)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {                
@@ -108,15 +108,19 @@
                     HeadText = "Standart Düzenle"
                 };
 
-                Filter = new Filter().Create("StandartIcerikler", id);
+                Filter = new Filter().Create("StandartIcerikler", standartID);
 
-                Standart = context.Standartlar.Find(id);
+                Standart = context.Standartlar.Find(standartID);
+
+                if (standartIcerikID != null) {
+                    StandartIcerik = context.StandartIcerikler.Find(standartIcerikID); }
+
                 DokumanTipleri = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 1).OrderBy(m => m.DegerAdiTr).ToList();
                 HazirlikGruplari = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 2).OrderBy(m => m.DegerAdiTr).ToList();
                 YururlukDurumlari = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 3).OrderBy(m => m.DegerAdiTr).ToList();
                 StandartTurler = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 4).OrderBy(m => m.DegerAdiTr).ToList();
                 ParaBirimleri = context.ParaBirimleri.Where(m => m.DurumID == 1).OrderBy(m => m.Kodu).ToList();
-                StandartIcerikler = context.StandartIcerikler.Where(m=>m.StandartID==id).OrderBy(m => m.SiraNo).ToList();
+                StandartIcerikler = context.StandartIcerikler.Where(m=>m.StandartID== standartID).OrderBy(m => m.SiraNo).ToList();
                 StandartIcerikTipleri = context.Degerler.Where(m => m.KategoriID == 7).OrderBy(m=>m.SiraNo).ToList();
                 Durumlar = context.Durumlar.ToList();
             }

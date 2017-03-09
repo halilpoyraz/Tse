@@ -100,7 +100,10 @@
     //BtnVazgeç
     var BtnVazgec = function () {
         $("#btnVazgec").click(function () {
-            window.location.href = '/standart/listele';
+            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?'))
+            { window.location.href = '/standart/listele'; }
+            else
+            { e.preventDefault(); }
         });
     }
 
@@ -198,22 +201,111 @@
         });
     }
     
+    //BtnIcerikKaydet
+    var BtnIcerikKaydet = function () {
+        var form3 = $('#form3'); //Form Adı
+        var error1 = $('.alert-danger', form3);
+        var success1 = $('.alert-success', form3);
+
+        form3.validate({
+            errorElement: 'span',
+            errorClass: 'help-block help-block-error',
+            focusInvalid: false,
+            ignore: "",
+            messages: {
+                select_multi: {
+                    maxlength: jQuery.validator.format("Max {0} items allowed for selection"),
+                    minlength: jQuery.validator.format("At least {0} items must be selected")
+                }
+            },
+            rules: { //Kurallar
+                'StandartIcerik.StandartIcerikTipiID': { required: true },
+                'StandartIcerik.UstIcerikID': { required: true },
+                'StandartIcerik.YururlukDurumuID': { required: true },
+                'StandartIcerik.SiraNo': { required: true },
+                'StandartIcerik.DurumID': { required: true },               
+            },
+
+            invalidHandler: function (event, validator) {
+                success1.hide();
+                error1.show();
+                App.scrollTo(error1, -200);
+            },
+
+            errorPlacement: function (error, element) {
+                var cont = $(element).parent('.input-group');
+                if (cont) {
+                    cont.after(error);
+                } else {
+                    element.after(error);
+                }
+            },
+
+            highlight: function (element) {
+
+                $(element)
+                    .closest('.form-group').addClass('has-error');
+            },
+
+            unhighlight: function (element) {
+                $(element)
+                    .closest('.form-group').removeClass('has-error');
+            },
+
+            success: function (label) {
+                label
+                    .closest('.form-group').removeClass('has-error');
+            },
+
+            submitHandler: function (form) {
+                this.submit();
+            }
+        });
+    }
+
     //BtnIcerikEkleMenuItem
     var BtnIcerikEkleMenuItem = function () {
         $('.btnIcerikEkleMenuItem').click(function () {
             $('#icerik-ekle').addClass("display-show");
-            $('#icerik-listele').removeClass("display-show").addClass("display-hide");
-            $("#StandartIcerik_StandartIcerikTipiID").val($(this).attr("value"));            
+            $('#icerik-listele').removeClass("display-show").addClass("display-hide");            
+            $('#StandartIcerik_StandartIcerikTipiID').val($(this).attr("value"));            
+            $('#StandartIcerik_Detay').summernote("code", "");
         });
     }
 
     //BtnIcerikEkleVazgec
     var BtnIcerikEkleVazgec = function () {
         $('#btn-icerik-ekle-vazgec').click(function () {
+            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?'))
+            {
             $('#icerik-ekle').removeClass("display-show").addClass("display-hide");
-            $('#icerik-listele').removeClass("display-hide").addClass("display-show");
-            $("#StandartIcerik_StandartIcerikTipiID").val($(this).attr(""));
+            $('#icerik-listele').removeClass("display-hide").addClass("display-show");            
+            }
+            else
+                e.preventDefault();
         });
+    }
+
+    //BtnIcerikDuzeleVazgec
+    var BtnIcerikDuzenleVazgec = function () {
+        $('#btn-icerik-duzenle-vazgec').click(function () {
+            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?'))                           
+                window.location.href = '/standart/duzenle?standartID=' + $("#StandartIcerik_StandartID").attr("value");            
+            else
+                e.preventDefault();
+        });
+    }
+
+  
+    //Editors
+    var handleSummernote = function () {      
+        $('#StandartIcerik_Detay').summernote({
+            lang: "tr-TR",
+            height: 300
+        });
+        //API:
+        //var sHTML = $('#summernote_1').code(); // get code
+        //$('#summernote_1').destroy(); // destroy
     }
 
     return {
@@ -228,6 +320,9 @@
               BtnKaydet();
               BtnIcerikEkleMenuItem();
               BtnIcerikEkleVazgec();
+              BtnIcerikDuzenleVazgec();
+              handleSummernote();
+              BtnIcerikKaydet();
         }
     };   
 }();

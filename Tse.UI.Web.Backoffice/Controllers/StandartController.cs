@@ -30,18 +30,18 @@ namespace Tse.UI.Web.Backoffice.Controllers
                 {
                     context.Standartlar.Add(standart);
                     context.SaveChanges();
-                    return RedirectToAction("duzenle", new { id = standart.StandartID });
+                    return RedirectToAction("duzenle", new { standartID = standart.StandartID });
                 }
                 else
                     return RedirectToAction("index", "hata", new { HataId = 4 });
             }
         }
 
-        public ActionResult Duzenle(int? id)
+        public ActionResult Duzenle(int? standartID, int? standartIcerikID)
         {
-            if (id != null)
+            if (standartID != null)
             {
-                var model = new StandartDuzenleViewModel(id);              
+                var model = new StandartDuzenleViewModel(standartID, standartIcerikID);              
                 return View(model);
             }
             else
@@ -58,34 +58,34 @@ namespace Tse.UI.Web.Backoffice.Controllers
                 {
                     context.Entry(standart).State = EntityState.Modified;
                     context.SaveChanges();
-                    return RedirectToAction("duzenle", new { id = standart.StandartID });
+                    return RedirectToAction("duzenle", new { standartID = standart.StandartID });
                 }
                 else
                     return RedirectToAction("index", "hata", new { HataId = 4 });
             }
         }
 
-        [ActionName("icerik-sil")]
-        public ActionResult IcerikSil(int? standartIcerikID)
+        [HttpPost]
+        public ActionResult Sil(int? standartID)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
-                if (standartIcerikID != null)
+                if (standartID != null)
                 {
-                    StandartIcerik standartIcerik = context.StandartIcerikler.Find(standartIcerikID);
-                    if (standartIcerik != null)
+                    Standart standart = context.Standartlar.Find(standartID);
+                    if (standart != null)
                     {
                         try
                         {
-                            context.StandartIcerikler.Remove(standartIcerik);
+                            context.Standartlar.Remove(standart);
                             context.SaveChanges();
                         }
                         catch (Exception)
                         {
                             try
                             {
-                                standartIcerik.DurumID = 4;
-                                context.Entry(standartIcerik).State = EntityState.Modified;
+                                standart.DurumID = 4;
+                                context.Entry(standart).State = EntityState.Modified;
                                 context.SaveChanges();
                             }
                             catch (Exception)
@@ -93,11 +93,67 @@ namespace Tse.UI.Web.Backoffice.Controllers
                                 return RedirectToAction("index", "hata", new { HataId = 4 });
                             }
                         }
-                    }                    
-                    return RedirectToAction("duzenle", new { id = standartIcerik.StandartID});
+                    }
+                    return RedirectToAction("listele", new { standartID =standart.StandartID });
                 }
                 else
                     return RedirectToAction("index", "hata", new { HataId = 2 });
+            }
+        }
+
+        [HttpPost ValidateAntiForgeryToken ValidateInput(false) ActionName("icerik-duzenle")]
+        public ActionResult IcerikDuzenle(StandartIcerik standartIcerik)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+
+                if (ModelState.IsValid)
+                {
+                    context.Entry(standartIcerik).State = EntityState.Modified;
+                    context.SaveChanges();
+                    return RedirectToAction("duzenle", new { standartID = standartIcerik.StandartID });
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 4 });
+            }
+        }
+
+        [ActionName("icerik-sil")]
+        public ActionResult IcerikSil(int? standartID, int? standartIcerikID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (standartID != null)
+                {
+                    if (standartIcerikID != null)
+                    {
+                        StandartIcerik standartIcerik = context.StandartIcerikler.Find(standartIcerikID);
+                        if (standartIcerik != null)
+                        {
+                            try
+                            {
+                                context.StandartIcerikler.Remove(standartIcerik);
+                                context.SaveChanges();
+                            }
+                            catch (Exception)
+                            {
+                                try
+                                {
+                                    standartIcerik.DurumID = 4;
+                                    context.Entry(standartIcerik).State = EntityState.Modified;
+                                    context.SaveChanges();
+                                }
+                                catch (Exception)
+                                {
+                                    return RedirectToAction("index", "hata", new { HataId = 4 });
+                                }
+                            }
+                        }
+                        return RedirectToAction("duzenle", new { standartID = standartID });
+                    }                    
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+                }
+                return RedirectToAction("index", "hata", new { HataId = 2 });
             }
         }
     }

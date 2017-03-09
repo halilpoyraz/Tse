@@ -30,10 +30,14 @@ namespace Tse.UI.Web.Backoffice
                     "~/Content/assets/global/css/plugins.css",
                     "~/Content/assets/global/plugins/simple-line-icons/simple-line-icons.css",
                     "~/Content/assets/global/plugins/bootstrap-table/bootstrap-table.css",
+                    "~/Content/assets/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css",
+                    "~/Content/assets/global/plugins/bootstrap-markdown/css/bootstrap-markdown.min.css",
+                    "~/Content/assets/global/plugins/bootstrap-summernote/summernote.css",
                     "~/Content/Site.css"
                     ));
 
-            bundles.Add(new ScriptBundle("~/bundles/scriptHead").Include(
+
+                           bundles.Add(new ScriptBundle("~/bundles/scriptHead").Include(
                 "~/Content/assets/global/plugins/modernizr/modernizr-2.8.3.js",
                 "~/Content/assets/global/plugins/jquery.min.js"
                 ));
