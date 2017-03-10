@@ -266,11 +266,17 @@
     //BtnIcerikEkleMenuItem
     var BtnIcerikEkleMenuItem = function () {
         $('.btnIcerikEkleMenuItem').click(function () {
-            $('#icerik-ekle').addClass("display-show");
-            $('#icerik-listele').removeClass("display-show").addClass("display-hide");            
-            $('#StandartIcerik_StandartIcerikTipiID').val($(this).attr("value"));
+            $('#icerik-ekle').addClass('display-show');
+            $('#icerik-listele').removeClass('display-show').addClass('display-hide');            
+            $('#StandartIcerik_StandartIcerikTipiID').val($(this).attr('value')).trigger('change');
             $('#StandartIcerik_SiraNo').val(parseInt($('#table2 tr:last td:nth-child(4)').text())+1);
-            $('#StandartIcerik_Detay').summernote("code", "");
+            $('#StandartIcerik_Detay').summernote('code', '');            
+        });
+
+        $('#StandartIcerik_StandartIcerikTipiID').change(function () {            
+            if ($('#StandartIcerik_StandartIcerikTipiID').val() == 161) {//İçerik - Atıf Yapılan Stadart/Döküman
+                $('#sablon-tipi-row').removeClass('display-hide').addClass('display-show');
+            }
         });
     }
 
@@ -297,7 +303,6 @@
         });
     }
 
-  
     //Editors
     var handleSummernote = function () {      
         $('#StandartIcerik_Detay').summernote({

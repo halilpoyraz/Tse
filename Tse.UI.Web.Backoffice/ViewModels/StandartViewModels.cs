@@ -122,6 +122,7 @@
                 ParaBirimleri = context.ParaBirimleri.Where(m => m.DurumID == 1).OrderBy(m => m.Kodu).ToList();
                 StandartIcerikler = context.StandartIcerikler.Where(m=>m.StandartID== standartID).OrderBy(m => m.SiraNo).ToList();
                 StandartIcerikTipleri = context.Degerler.Where(m => m.KategoriID == 7).OrderBy(m=>m.SiraNo).ToList();
+                SablonTipleri = context.Kategoriler.Where(m=> m.KategoriID == 8 || m.KategoriID == 9).ToList();
                 Durumlar = context.Durumlar.ToList();
             }
         }
@@ -139,5 +140,6 @@
         public List<StandartIcerik> StandartIcerikler { get; set; }
         public List<Deger> StandartIcerikTipleri { get; set; }
         public List<Durum> Durumlar { get; set; }
+        public List<Kategori> SablonTipleri { get; set; }
     }    
 }

@@ -12,14 +12,14 @@
             <span id="standart-title" class="caption-subject font-dark bold text-capitalize">@Model.Standart.TsNo - @Model.Standart.BaslikTr</span>
         </div>
         <ul class="nav nav-tabs">
-            <li class=""><a href="#portlet_tab1" data-toggle="tab" aria-expanded="false">Genel</a></li>
-            <li class="active"><a href="#portlet_tab2" data-toggle="tab" aria-expanded="false">İçerik</a></li>
-            <li class=""><a href="#portlet_tab3" data-toggle="tab" aria-expanded="false">Önizleme</a></li>
+            <li class=""><a href="#genel" data-toggle="tab" aria-expanded="false">Genel</a></li>
+            <li class="active"><a href="#icerik" data-toggle="tab" aria-expanded="false">İçerik</a></li>
+            <li class=""><a href="#onizleme" data-toggle="tab" aria-expanded="false">Önizleme</a></li>
         </ul>
     </div>
     <div class="portlet-body">
         <div class="tab-content">
-            <div class="tab-pane" id="portlet_tab1">
+            <div class="tab-pane" id="genel">
                 <div class="portlet light portlet-fit portlet-form">
                     <div class="portlet-body">
                         @using (Html.BeginForm("duzenle", "standart", FormMethod.Post, new { @name = "form1", @id = "form1", @class = "form-horizontal" }))
@@ -282,7 +282,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane active" id="portlet_tab2">
+            <div class="tab-pane active" id="icerik">
                 <div class="row">
                     <div class="col-md-12">                        
                     @if (standartIcerikID != null) //Düzenleme
@@ -406,7 +406,7 @@
                                                 <button class="close" data-close="alert"></button>
                                                 Formdaki alanları doğru ve eksiksiz bir biçimde doldurunuz.
                                             </div>
-                                            <div class="row">
+                                            <div id="sablon-tipi-row" class="row display-hide">
                                                 <div class="form-group col-md-12">
                                                     <label class="control-label col-md-1">
                                                         <span>@Html.DisplayNameFor(m => m.StandartIcerik.StandartIcerikTipiID)</span>
@@ -417,6 +417,18 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="row">
+                                                <div class="form-group col-md-12">
+                                                    <label class="control-label col-md-1">
+                                                        <span>Şablon Tipi</span>
+                                                        <span class="required"> * </span>
+                                                    </label>
+                                                    <div class="col-md-11">
+                                                        @Html.DropDownList("StandartIcerik.SablonTipi", new SelectList(Model.SablonTipleri, "KategoriID", "Adi", null).AddFirstItem("Seçiminiz", ""), htmlAttributes: new { @class = "form-control" })
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                             <div class="row">
                                                 <div class="form-group col-md-12">
                                                     <label class="control-label col-md-1">
@@ -626,8 +638,8 @@
                     }
                     </div>
                 </div>
-                </div>
-            <div class="tab-pane" id="portlet_tab3">
+            </div>
+            <div class="tab-pane" id="onizleme">
                 <div class="alert alert-warning">
                     <button class="close" data-close="alert"></button> Bu bölümden de önüzleme yapın barik.
                 </div>
