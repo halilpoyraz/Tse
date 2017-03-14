@@ -1,6 +1,9 @@
 ﻿@using Tse.UI.Web.Backoffice.Helpers
 @model Tse.UI.Web.Backoffice.ViewModels.StandartEkleViewModel
-@section renderSection{ <script type="text/javascript" src="~/Content/assets/pages/scripts/standart.min.js"></script> }
+@section renderSection{ 
+    <script type="text/javascript" src="~/Content/assets/pages/scripts/standart.min.js"></script>
+    <script type="text/javascript">jQuery(document).ready(function () { Ekle.init(); });</script>
+     }
 
 <div class="portlet light bordered">
     <div class="portlet-title tabbable-line">
@@ -21,7 +24,7 @@
                     <div class="col-md-12">
                         <div class="portlet light portlet-fit portlet-form">
                             <div class="portlet-body">
-                                @using (Html.BeginForm("ekle", "standart", FormMethod.Post, new { @name = "form1", @id = "form1", @class = "form-horizontal" }))
+                                @using (Html.BeginForm("ekle", "standart", FormMethod.Post, new { @name = "form-standart-ekle", @id = "form-standart-ekle", @class = "form-horizontal" }))
                                 {
                                     @Html.AntiForgeryToken()
 
@@ -60,7 +63,7 @@
                                                     <span class="required"> * </span>
                                                 </label>
                                                 <div class="col-md-9">
-                                                    <div id="kabulTarihi" class="input-group  date date-picker">  
+                                                    <div id="kabul-tarihi" class="input-group  date date-picker">  
                                                         @Html.TextBoxFor(m=>m.Standart.KabulTarihi, htmlAttributes: new { @class="form-control", @readonly ="" })                   
                                                         <span class="input-group-btn">
                                                             <button class="btn default" type="button">
@@ -274,7 +277,7 @@
                                         <div class="row">
                                             <div class="col-md-12 text-right">
                                                 <button type="submit" class="btn green">Kaydet</button>
-                                                <button type="button" id="btnVazgec" class="btn grey-salsa btn-outline">Vazgeç</button>
+                                                <button type="button" id="btn-standart-vazgec" class="btn grey-salsa btn-outline">Vazgeç</button>
                                             </div>
                                         </div>
                                     </div>

@@ -1,6 +1,4 @@
-﻿var Module = function () {
-
-    //DataTables
+﻿var Listele = function () {   
     var DataTable = function () {
         function restoreRow(oTable, nRow) {
             var aData = oTable.fnGetData(nRow);
@@ -22,10 +20,10 @@
             },
             "columnDefs": [{
                 'orderable': true,
-                'targets': [0, 1, 2,3]
+                'targets': [0, 1, 2, 3]
             }, {
                 "searchable": true,
-                "targets": [0, 1, 2,3]
+                "targets": [0, 1, 2, 3]
             }],
             "order": [
                 [1, "asc"],
@@ -33,8 +31,143 @@
                 [3, "asc"]
             ]
         });
-    }
-    var DataTable2 = function () {
+    };   
+    var Filtrele = function () {
+        $('#btnTumKayitlar').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("").trigger(e);
+        });
+        $('#btnAktif').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Aktif").trigger(e);
+        });
+        $('#btnPasif').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Pasif").trigger(e);
+        });
+        $('#btnTaslak').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Taslak").trigger(e);
+        });
+        $('#btnSilinmis').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Silinmiş").trigger(e);
+        });
+    };
+    var BtnYeniStandart = function () {
+        $("#btn-yeni-standart").click(function () {
+            window.location.href = '/standart/ekle';
+        });
+    };    
+    return {
+        init: function () {
+            DataTable();
+            Filtrele();
+            BtnYeniStandart();       
+        }
+    };
+}();
+
+var Ekle = function () {
+    var BtnStandartKaydet = function () {
+        var form = $('#form-standart-ekle');
+        var error = $('.alert-danger', form);
+        var success = $('.alert-success', form);
+        $('#kabul-tarihi').datepicker({
+            format: 'dd.mm.yyyy',
+            language: 'tr'
+        });
+        $('#Standart_TsNo').keyup(function () {
+            resultTitle = "Yeni Standart";
+            if ($('#Standart_TsNo').val() === null)
+                resultTitle = "Yeni Standart";
+            else {
+                resultTitle = $('#Standart_TsNo').val();
+                if ($('#Standart_BaslikTr').val() !== "")
+                    resultTitle = resultTitle + ' - ' + $('#Standart_BaslikTr').val();
+            }
+            $('#standart-title').text(resultTitle);
+        });
+        $('#Standart_BaslikTr').keyup(function () {
+            resultTitle = "Yeni Standart";
+            if ($('#Standart_TsNo').val() === null)
+                resultTitle = "Yeni Standart";
+            else {
+                resultTitle = $('#Standart_TsNo').val();
+                if ($('#Standart_BaslikTr').val() !== "")
+                    resultTitle = resultTitle + ' - ' + $('#Standart_BaslikTr').val();
+            }
+            $('#standart-title').text(resultTitle);
+        });
+        form.validate({
+            errorElement: 'span',
+            errorClass: 'help-block help-block-error',
+            focusInvalid: false,
+            ignore: "",
+            messages: {
+                select_multi: {
+                    maxlength: jQuery.validator.format("Max {0} items allowed for selection"),
+                    minlength: jQuery.validator.format("At least {0} items must be selected")
+                }
+            },
+            rules: {
+                'Standart.TsNo': { minlength: 2, required: true },
+                'Standart.KabulTarihi': { required: true },
+                'Standart.YururlukDurumuID': { required: true },
+                'Standart.BaslikTr': { required: true },
+                'Standart.HazirlikGrubuID': { required: true },
+                'Standart.DokumanTipiID': { required: true },
+                'Standart.StandartTurID': { required: true },
+                'Standart.BaslikEn': { required: true },
+                'Standart.ParaBirimiID': { required: true },
+                'Standart.DurumID': { required: true }
+            },
+            invalidHandler: function (event, validator) {
+                success.hide();
+                error.show();
+                App.scrollTo(error, -200);
+            },
+            errorPlacement: function (error, element) {
+                var cont = $(element).parent('.input-group');
+                if (cont) {
+                    cont.after(error);
+                } else {
+                    element.after(error);
+                }
+            },
+            highlight: function (element) {
+
+                $(element)
+                    .closest('.form-group').addClass('has-error');
+            },
+            unhighlight: function (element) {
+                $(element)
+                    .closest('.form-group').removeClass('has-error');
+            },
+            success: function (label) {
+                label
+                    .closest('.form-group').removeClass('has-error');
+            },
+            submitHandler: function (form) {
+                this.submit();
+            }
+        });
+    };
+    var BtnStandartVazgec = function () {
+        $("#btn-standart-vazgec").click(function () {
+            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?')) window.location.href = '/standart/listele'; else return false; 
+        });
+    };
+    return {
+        init: function () {
+            BtnStandartKaydet();
+            BtnStandartVazgec();            
+        }
+    };
+}();
+
+var Duzenle = function () {
+    var DataTable = function () {
         function restoreRow(oTable, nRow) {
             var aData = oTable.fnGetData(nRow);
             var jqTds = $('>td', nRow);
@@ -64,10 +197,8 @@
                 [3, "asc"]
             ]
         });
-    }
-
-    // Filtrele
-    var Filtrele = function () {        
+    };
+    var Filtrele = function () {
         $('#btnTumKayitlar').click(function () {
             var e = jQuery.Event('keyup', { which: 13 });
             $("input.form-control.input-sm.input-small.input-inline").val("").trigger(e);
@@ -87,60 +218,39 @@
         $('#btnSilinmis').click(function () {
             var e = jQuery.Event('keyup', { which: 13 });
             $("input.form-control.input-sm.input-small.input-inline").val("Silinmiş").trigger(e);
-        });        
-    }
-
-    //BtnEkle
-    var BtnEkle = function () {
-        $("#btnEkle").click(function () {
-            window.location.href = '/standart/ekle';
         });
-    }
-
-    //BtnVazgeç
-    var BtnVazgec = function () {
-        $("#btnVazgec").click(function () {
-            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?'))
-            { window.location.href = '/standart/listele'; }
-            else
-            { e.preventDefault(); }
-        });
-    }
-
-    //BtnKaydet
-    var BtnKaydet = function () {
-        var form1 = $('#form1'); //Form Adı
-        var error1 = $('.alert-danger', form1);
-        var success1 = $('.alert-success', form1);
-        $('#kabulTarihi').datepicker({
+    };
+    var BtnStandartDuzenle = function () {
+        var form = $('#form-standart-duzenle');
+        var error = $('.alert-danger', form);
+        var success = $('.alert-success', form);
+        $('#kabul-tarihi').datepicker({
             format: 'dd.mm.yyyy',
             language: 'tr'
         });
         $('#Standart_TsNo').keyup(function () {
-            resultTitle = "Yeni Standart"
-            if ($('#Standart_TsNo').val()==null) 
-                resultTitle = "Yeni Standart"            
-            else
-            {
-                resultTitle = $('#Standart_TsNo').val();
-                if ($('#Standart_BaslikTr').val() != "")                 
-                    resultTitle = resultTitle + ' - ' + $('#Standart_BaslikTr').val();                
-            }
-            $('#standart-title').text(resultTitle);
-        });
-        $('#Standart_BaslikTr').keyup(function () {
-            resultTitle = "Yeni Standart"
-            if ($('#Standart_TsNo').val() == null)
-                resultTitle = "Yeni Standart"
+            resultTitle = "Yeni Standart";
+            if ($('#Standart_TsNo').val() === null)
+                resultTitle = "Yeni Standart";
             else {
                 resultTitle = $('#Standart_TsNo').val();
-                if ($('#Standart_BaslikTr').val() != "")
+                if ($('#Standart_BaslikTr').val() !== "")
                     resultTitle = resultTitle + ' - ' + $('#Standart_BaslikTr').val();
             }
             $('#standart-title').text(resultTitle);
         });
-
-        form1.validate({
+        $('#Standart_BaslikTr').keyup(function () {
+            resultTitle = "Yeni Standart";
+            if ($('#Standart_TsNo').val() === null)
+                resultTitle = "Yeni Standart";
+            else {
+                resultTitle = $('#Standart_TsNo').val();
+                if ($('#Standart_BaslikTr').val() !== "")
+                    resultTitle = resultTitle + ' - ' + $('#Standart_BaslikTr').val();
+            }
+            $('#standart-title').text(resultTitle);
+        });
+        form.validate({
             errorElement: 'span',
             errorClass: 'help-block help-block-error',
             focusInvalid: false,
@@ -151,25 +261,23 @@
                     minlength: jQuery.validator.format("At least {0} items must be selected")
                 }
             },
-            rules: { //Kurallar
+            rules: {
                 'Standart.TsNo': { minlength: 2, required: true },
                 'Standart.KabulTarihi': { required: true },
                 'Standart.YururlukDurumuID': { required: true },
-                'Standart.BaslikTr': { required: true },                
+                'Standart.BaslikTr': { required: true },
                 'Standart.HazirlikGrubuID': { required: true },
                 'Standart.DokumanTipiID': { required: true },
                 'Standart.StandartTurID': { required: true },
                 'Standart.BaslikEn': { required: true },
                 'Standart.ParaBirimiID': { required: true },
-                'Standart.DurumID': { required: true },                
+                'Standart.DurumID': { required: true }
             },
-
             invalidHandler: function (event, validator) {
-                success1.hide();
-                error1.show();
-                App.scrollTo(error1, -200);
+                success.hide();
+                error.show();
+                App.scrollTo(error, -200);
             },
-
             errorPlacement: function (error, element) {
                 var cont = $(element).parent('.input-group');
                 if (cont) {
@@ -178,36 +286,60 @@
                     element.after(error);
                 }
             },
-
             highlight: function (element) {
 
                 $(element)
                     .closest('.form-group').addClass('has-error');
             },
-
             unhighlight: function (element) {
                 $(element)
                     .closest('.form-group').removeClass('has-error');
             },
-
             success: function (label) {
                 label
                     .closest('.form-group').removeClass('has-error');
             },
-
             submitHandler: function (form) {
-                this.submit();
+                this.submit();           
             }
         });
-    }
-    
-    //BtnIcerikKaydet
-    var BtnIcerikKaydet = function () {
-        var form3 = $('#form3'); //Form Adı
-        var error1 = $('.alert-danger', form3);
-        var success1 = $('.alert-success', form3);
+    };
+    var BtnStandartVazgec = function () {
+        $("#btn-standart-vazgec").click(function () {
+            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?')) window.location.href = '/standart/listele'; else return false;
+        });
+    };
+    var BtnIcerikEkleMenuItem = function () {
+        $('.btnIcerikEkleMenuItem').click(function () {
+            $('#sablon-tipi-row').removeClass('display-show').addClass('display-hide');
+            $('#icerik-ekle').removeClass('display-hide').addClass('display-show');
+            $('#icerik-listele').removeClass('display-show').addClass('display-hide');
+            $('#icerik-tipi-row').removeClass('display-hide').addClass('display-show');
+            $('#StandartIcerik_StandartIcerikTipiID').val($(this).attr('value')).trigger('change');
+            $('#StandartIcerik_SiraNo').val(parseInt($('#table2 tr:last td:nth-child(4)').text()) + 1);
+            $('#StandartIcerik_Detay').summernote('code', '');            
+        });
+        $('#StandartIcerik_StandartIcerikTipiID').change(function () {                       
+            if ($('#StandartIcerik_StandartIcerikTipiID').val() === '161') {
+                $('#sablon-tipi-row').removeClass('display-hide').addClass('display-show');
+            }
+            else
+                $('#sablon-tipi-row').removeClass('display-show').addClass('display-hide');
+        });
+    };    
+    var BtnIcerikEkleKaydet = function () {
+        var form = $('#form-icerik-ekle');
+        var error = $('.alert-danger', form);
+        var success = $('.alert-success', form);
+        $('#StandartIcerik_Detay').summernote({
+            lang: "tr-TR",
+            height: 300
+        });        
+        //API:
+        //var sHTML = $('#summernote_1').code(); // get code
+        //$('#summernote_1').destroy(); // destroy
 
-        form3.validate({
+        form.validate({
             errorElement: 'span',
             errorClass: 'help-block help-block-error',
             focusInvalid: false,
@@ -223,13 +355,13 @@
                 'StandartIcerik.UstIcerikID': { required: true },
                 'StandartIcerik.YururlukDurumuID': { required: true },
                 'StandartIcerik.SiraNo': { required: true },
-                'StandartIcerik.DurumID': { required: true },               
+                'StandartIcerik.DurumID': { required: true }
             },
 
             invalidHandler: function (event, validator) {
-                success1.hide();
-                error1.show();
-                App.scrollTo(error1, -200);
+                success.hide();
+                error.show();
+                App.scrollTo(error, -200);
             },
 
             errorPlacement: function (error, element) {
@@ -261,55 +393,17 @@
                 this.submit();
             }
         });
-    }
-
-    //BtnIcerikEkleMenuItem
-    var BtnIcerikEkleMenuItem = function () {        
-        $('.btnIcerikEkleMenuItem').click(function () {
-            $('#sablon-tipi-row').removeClass('display-show').addClass('display-hide');
-            $('#icerik-ekle').removeClass('display-hide').addClass('display-show');
-            $('#icerik-listele').removeClass('display-show').addClass('display-hide');
-            $('#icerik-tipi-row').removeClass('display-hide').addClass('display-show');
-            $('#StandartIcerik_StandartIcerikTipiID').val($(this).attr('value')).trigger('change');
-            $('#StandartIcerik_SiraNo').val(parseInt($('#table2 tr:last td:nth-child(4)').text())+1);
-            $('#StandartIcerik_Detay').summernote('code', '');            
-        });
-
-        $('#StandartIcerik_StandartIcerikTipiID').change(function () {            
-            if ($('#StandartIcerik_StandartIcerikTipiID').val() == 161) {//İçerik - Atıf Yapılan Stadart/Döküman
-                $('#sablon-tipi-row').removeClass('display-hide').addClass('display-show');
-            }
-            else
-                $('#sablon-tipi-row').removeClass('display-show').addClass('display-hide');
-        });
-    }
-
-    //BtnIcerikEkleVazgec
+    };
     var BtnIcerikEkleVazgec = function () {
         $('#btn-icerik-ekle-vazgec').click(function () {
-            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?'))
-            {
-            $('#icerik-ekle').removeClass("display-show").addClass("display-hide");
-            $('#icerik-listele').removeClass("display-hide").addClass("display-show");
-
-            }
-            else
-                e.preventDefault();
+            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?')) {
+                $('#icerik-ekle').removeClass("display-show").addClass("display-hide"); $('#icerik-listele').removeClass("display-hide").addClass("display-show"); } else return false;
         });
-    }
-
-    //BtnIcerikDuzeleVazgec
-    var BtnIcerikDuzenleVazgec = function () {
-        $('#btn-icerik-duzenle-vazgec').click(function () {
-            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?'))                           
-                window.location.href = '/standart/duzenle?standartID=' + $("#StandartIcerik_StandartID").attr("value");            
-            else
-                e.preventDefault();
-        });
-    }
-
-    //Editors
-    var handleSummernote = function () {      
+    };
+    var BtnIcerikDuzenleKaydet = function () {
+        var form = $('#form-icerik-duzenle');
+        var error = $('.alert-danger', form);
+        var success = $('.alert-success', form);
         $('#StandartIcerik_Detay').summernote({
             lang: "tr-TR",
             height: 300
@@ -317,37 +411,84 @@
         //API:
         //var sHTML = $('#summernote_1').code(); // get code
         //$('#summernote_1').destroy(); // destroy
-    }
-
-    //Icerik Düzenle
-    var IcerikDuzenle = function () {
-        if ($('#StandartIcerik_StandartIcerikTipiID').val() == 161)        
-            $('#sablon-tipi-row').removeClass('display-hide').addClass('display-show');                    
+        if ($('#StandartIcerik_StandartIcerikTipiID').val() === '161') {
+            $('#sablon-tipi-row').removeClass('display-hide').addClass('display-show');
+        }
         else
             $('#sablon-tipi-row').removeClass('display-show').addClass('display-hide');
-    }
+
+        form.validate({
+            errorElement: 'span',
+            errorClass: 'help-block help-block-error',
+            focusInvalid: false,
+            ignore: "",
+            messages: {
+                select_multi: {
+                    maxlength: jQuery.validator.format("Max {0} items allowed for selection"),
+                    minlength: jQuery.validator.format("At least {0} items must be selected")
+                }
+            },
+            rules: { //Kurallar
+                'StandartIcerik.StandartIcerikTipiID': { required: true },
+                'StandartIcerik.UstIcerikID': { required: true },
+                'StandartIcerik.YururlukDurumuID': { required: true },
+                'StandartIcerik.SiraNo': { required: true },
+                'StandartIcerik.DurumID': { required: true }
+            },
+
+            invalidHandler: function (event, validator) {
+                success.hide();
+                error.show();
+                App.scrollTo(error, -200);
+            },
+
+            errorPlacement: function (error, element) {
+                var cont = $(element).parent('.input-group');
+                if (cont) {
+                    cont.after(error);
+                } else {
+                    element.after(error);
+                }
+            },
+
+            highlight: function (element) {
+
+                $(element)
+                    .closest('.form-group').addClass('has-error');
+            },
+
+            unhighlight: function (element) {
+                $(element)
+                    .closest('.form-group').removeClass('has-error');
+            },
+
+            success: function (label) {
+                label
+                    .closest('.form-group').removeClass('has-error');
+            },
+
+            submitHandler: function (form) {
+                this.submit();
+            }
+        });
+    };
+    var BtnIcerikDuzenleVazgec = function () {
+        $('#btn-icerik-duzenle-vazgec').click(function () {
+            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?')) window.location.href = '/standart/duzenle?standartID=' + $("#StandartIcerik_StandartID").attr("value"); else return false;
+        });
+    };
 
     return {
         init: function () {
-            //Listeleme
-              DataTable();              
-              Filtrele();
-              BtnEkle();
-            //Ekleme - Düzeltme
-              DataTable2();
-              BtnVazgec();
-              BtnKaydet();
-              BtnIcerikEkleMenuItem();
-              BtnIcerikEkleVazgec();
-              BtnIcerikDuzenleVazgec();
-              handleSummernote();
-              BtnIcerikKaydet();
-              IcerikDuzenle();
-            
+            DataTable();
+            Filtrele();
+            BtnStandartDuzenle();
+            BtnStandartVazgec();
+            BtnIcerikEkleMenuItem();
+            BtnIcerikEkleKaydet();
+            BtnIcerikEkleVazgec();
+            BtnIcerikDuzenleKaydet();
+            BtnIcerikDuzenleVazgec();
         }
-    };   
+    };
 }();
-
-jQuery(document).ready(function () {
-    Module.init();    
-});
