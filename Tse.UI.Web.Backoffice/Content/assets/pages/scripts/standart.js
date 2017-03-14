@@ -320,11 +320,15 @@ var Duzenle = function () {
             $('#StandartIcerik_Detay').summernote('code', '');            
         });
         $('#StandartIcerik_StandartIcerikTipiID').change(function () {                       
-            if ($('#StandartIcerik_StandartIcerikTipiID').val() === '161') {
-                $('#sablon-tipi-row').removeClass('display-hide').addClass('display-show');
+            if ($(this).val() === '161') {
+                $('#atif-yapilan-standartlar-row').removeClass('display-hide').addClass('display-show');
+                $('#atif-yapilan-dokumanlar-row').removeClass('display-hide').addClass('display-show');
             }
             else
-                $('#sablon-tipi-row').removeClass('display-show').addClass('display-hide');
+            {
+                $('#atif-yapilan-standartlar-row').removeClass('display-show').addClass('display-hide');
+                $('#atif-yapilan-dokumanlar-row').removeClass('display-show').addClass('display-hide');
+            }
         });
     };    
     var BtnIcerikEkleKaydet = function () {
@@ -337,7 +341,10 @@ var Duzenle = function () {
         });        
         //API:
         //var sHTML = $('#summernote_1').code(); // get code
-        //$('#summernote_1').destroy(); // destroy
+        //$('#summernote_1').destroy(); // destroy       
+        $("#StandartIcerik_StandartAtifTipiSablonlar").multiSelect();
+        $("#StandartIcerik_DokumanAtifTipiSablonlar").multiSelect();
+  
 
         form.validate({
             errorElement: 'span',
@@ -411,11 +418,16 @@ var Duzenle = function () {
         //API:
         //var sHTML = $('#summernote_1').code(); // get code
         //$('#summernote_1').destroy(); // destroy
+       
         if ($('#StandartIcerik_StandartIcerikTipiID').val() === '161') {
-            $('#sablon-tipi-row').removeClass('display-hide').addClass('display-show');
+            $('#atif-yapilan-standartlar-row').removeClass('display-hide').addClass('display-show');
+            $('#atif-yapilan-dokumanlar-row').removeClass('display-hide').addClass('display-show');
         }
-        else
-            $('#sablon-tipi-row').removeClass('display-show').addClass('display-hide');
+        else {
+            $('#atif-yapilan-standartlar-row').removeClass('display-show').addClass('display-hide');
+            $('#atif-yapilan-dokumanlar-row').removeClass('display-show').addClass('display-hide');
+        }
+       
 
         form.validate({
             errorElement: 'span',

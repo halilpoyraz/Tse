@@ -123,6 +123,8 @@
                 StandartIcerikler = context.StandartIcerikler.Where(m=>m.StandartID== standartID).OrderBy(m => m.SiraNo).ToList();
                 StandartIcerikTipleri = context.Degerler.Where(m => m.KategoriID == 7).OrderBy(m=>m.SiraNo).ToList();
                 SablonTipleri = context.Kategoriler.Where(m=> m.KategoriID == 8 || m.KategoriID == 9).ToList();
+                StandartAtifTipiSablonlar = context.StandartAtifTipiSablonlar.Where(s => s.DurumID == 1).ToList();
+                StandartAtiflar = context.StandartAtiflar.Where(s => s.StandartID == standartID && s.DurumID==1).OrderBy(s=>s.SiraNo).ToList();
                 Durumlar = context.Durumlar.ToList();
             }
         }
@@ -141,5 +143,7 @@
         public List<Deger> StandartIcerikTipleri { get; set; }
         public List<Durum> Durumlar { get; set; }
         public List<Kategori> SablonTipleri { get; set; }
+        public List<StandartAtifTipiSablon> StandartAtifTipiSablonlar { get; set; }
+        public List<StandartAtif> StandartAtiflar { get; set; }
     }    
 }
