@@ -2,7 +2,6 @@
 {
     using System.ComponentModel.DataAnnotations;
 
-
     public class StandartIcerikPuan
     {
         //Constructor
@@ -26,7 +25,7 @@
 
         //Navigation Properties 
         public virtual Durum Durum { get; set; }
-
+        
 
         //Methods
     }

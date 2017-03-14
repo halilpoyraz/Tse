@@ -64,7 +64,6 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<StandartIcerik>().ToTable("Standart.StandartIcerik");
             modelBuilder.Entity<StandartIcerikDenetim>().ToTable("Standart.StandartIcerikDenetim");
             modelBuilder.Entity<StandartIcerikPuan>().ToTable("Standart.StandartIcerikPuan");
-            modelBuilder.Entity<StandartIcerikPuan>().ToTable("Standart.StandartIcerikPuan");
             modelBuilder.Entity<StandartIcerikTipiSablon>().ToTable("Standart.StandartIcerikTipiSablon");
             modelBuilder.Entity<Telefon>().ToTable("Kisi.Telefon");
             modelBuilder.Entity<Ulke>().ToTable("Tanimlama.Ulke");

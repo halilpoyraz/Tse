@@ -319,7 +319,7 @@ var Duzenle = function () {
             $('#StandartIcerik_SiraNo').val(parseInt($('#table2 tr:last td:nth-child(4)').text()) + 1);
             $('#StandartIcerik_Detay').summernote('code', '');            
         });
-        $('#StandartIcerik_StandartIcerikTipiID').change(function () {                       
+        $('#StandartIcerik_StandartIcerikTipiID').change(function () {        
             if ($(this).val() === '161') {
                 $('#atif-yapilan-standartlar-row').removeClass('display-hide').addClass('display-show');
                 $('#atif-yapilan-dokumanlar-row').removeClass('display-hide').addClass('display-show');
