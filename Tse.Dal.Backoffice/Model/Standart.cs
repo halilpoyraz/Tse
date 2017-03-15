@@ -109,7 +109,7 @@
 
         public virtual ICollection<StandartIcerikDenetim> StandartIcerikDenetimler { get; set; }
                 
-        public virtual ICollection<StandartIcerikPuan> StandartIcerikPuanlar { get; set; }
+        //public virtual ICollection<StandartIcerikPuan> StandartIcerikPuanlar { get; set; }
 
 
         // Methods
