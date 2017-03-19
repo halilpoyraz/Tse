@@ -31,7 +31,7 @@
                 [1, "asc"]
             ]
         });
-    }();
+    }
 
     // Filtrele
     var Filtrele = function () {
@@ -55,7 +55,7 @@
             var e = jQuery.Event('keyup', { which: 13 });
             $("input.form-control.input-sm.input-small.input-inline").val("Silinmiş").trigger(e);
         });
-    }();
+    }
 
     //BtnEkle
     //var BtnEkle = function () {
