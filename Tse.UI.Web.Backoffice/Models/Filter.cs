@@ -73,6 +73,14 @@
                     Taslak = context.Standartlar.Where(u => u.DurumID == 3).Count();
                     Silinmis = context.Standartlar.Where(u => u.DurumID == 4).Count();
                 }
+                else if (entityName == "Kisiler")
+                {
+                    Tum = context.Kisiler.Count();
+                    Aktif = context.Kisiler.Where(u => u.DurumID == 1).Count();
+                    Pasif = context.Kisiler.Where(u => u.DurumID == 2).Count();
+                    Taslak = context.Kisiler.Where(u => u.DurumID == 3).Count();
+                    Silinmis = context.Kisiler.Where(u => u.DurumID == 4).Count();
+                }
                 return this;
             }            
         }

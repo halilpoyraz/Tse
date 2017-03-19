@@ -221,6 +221,7 @@
     <Compile Include="ViewModels\IlceViewModels.cs" />
     <Compile Include="ViewModels\SehirViewModels.cs" />
     <Compile Include="ViewModels\KategoriViewModels.cs" />
+    <Compile Include="ViewModels\KisiViewModels.cs" />
     <Compile Include="ViewModels\StandartViewModels.cs" />
     <Compile Include="ViewModels\UlkeViewModels.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
@@ -239,6 +240,10 @@
     </Content>
     <Content Include="Content\assets\pages\scripts\kategori.min.js">
       <DependentUpon>kategori.js</DependentUpon>
+    </Content>
+    <Content Include="Content\assets\pages\scripts\kisi.js" />
+    <Content Include="Content\assets\pages\scripts\kisi.min.js">
+      <DependentUpon>kisi.js</DependentUpon>
     </Content>
     <Content Include="Content\assets\pages\scripts\sehir.js" />
     <Content Include="Content\assets\pages\scripts\sehir.min.js">
@@ -6191,8 +6196,8 @@
     <Content Include="Views\Baslangic\guncellemeler.cshtml" />
     <Content Include="Views\Ulke\listele.cshtml" />
     <Content Include="Views\Ulke\ekle.cshtml" />
-    <Content Include="Views\Kisi\tum-kisiler.cshtml" />
-    <Content Include="Views\Kisi\yeni-kisi.cshtml" />
+    <Content Include="Views\Kisi\listele.cshtml" />
+    <Content Include="Views\Kisi\ekle.cshtml" />
     <Content Include="Views\Test\Index.cshtml" />
     <Content Include="Views\Ulke\duzenle.cshtml" />
     <Content Include="Views\Hata\Index.cshtml" />

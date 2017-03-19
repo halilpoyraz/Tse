@@ -40,5 +40,11 @@
     "inputFiles": [
       "Content/assets/pages/scripts/standart.js"
     ]
+  },
+  {
+    "outputFileName": "Content/assets/pages/scripts/kisi.min.js",
+    "inputFiles": [
+      "Content/assets/pages/scripts/kisi.js"
+    ]
   }
 ]
