@@ -57,93 +57,103 @@
         });
     }
 
-    //BtnEkle
-    //var BtnEkle = function () {
-    //    $("#btnEkle").click(function () {
-    //        window.location.href = '/kisi/ekle';
-    //    });
-    //}();
+    BtnEkle
+    var BtnEkle = function () {
+        $("#btnEkle").click(function () {
+            window.location.href = '/kisi/ekle';
+        });
+    }
 
-    ////BtnVazgeç
-    //var BtnVazgec = function () {
-    //    $("#btnVazgec").click(function () {
-    //        window.location.href = '/kisi/listele';
-    //    });
-    //}();
+    //BtnVazgeç
+    var BtnVazgec = function () {
+        $("#btnVazgec").click(function () {
+            window.location.href = '/kisi/listele';
+        });
+    }
 
     //BtnKaydet
-    //var BtnKaydet = function () {
-    //    var form1 = $('#form1'); //Form Adı
-    //    var error1 = $('.alert-danger', form1);
-    //    var success1 = $('.alert-success', form1);
-    //    form1.validate({
-    //        errorElement: 'span',
-    //        errorClass: 'help-block help-block-error',
-    //        focusInvalid: false,
-    //        ignore: "",
-    //        messages: {
-    //            select_multi: {
-    //                maxlength: jQuery.validator.format("Max {0} items allowed for selection"),
-    //                minlength: jQuery.validator.format("At least {0} items must be selected")
-    //            }
-    //        },
-    //        rules: { //Kurallar
-    //            "Sehir.UlkeID": {
-    //                required: true
-    //            },
-    //            "Sehir.SehirAdi": {
-    //                minlength: 2,
-    //                required: true
-    //            },
-    //            "Sehir.DurumID": {
-    //                required: true
-    //            }
-    //        },
+    var BtnKaydet = function () {
+        var form1 = $('#form1'); //Form Adı
+        var error1 = $('.alert-danger', form1);
+        var success1 = $('.alert-success', form1);
+        form1.validate({
+            errorElement: 'span',
+            errorClass: 'help-block help-block-error',
+            focusInvalid: false,
+            ignore: "",
+            messages: {
+                select_multi: {
+                    maxlength: jQuery.validator.format("Max {0} items allowed for selection"),
+                    minlength: jQuery.validator.format("At least {0} items must be selected")
+                }
+            },
+            rules: { //Kurallar  
+                'Kisi.Adi': {
+                    minlength: 3,
+                    required: true,  
+                },
+                'Kisi.Soyadi': {
+                    minlength: 3,
+                    required: true
+                },
+                'Kisi.TcKimlikNo': {
+                    number: true,
+                    minlength: 11,
+                    maxlength: 11,
+                    required: true
+                },
+                'Kisi.Unvan': {
+                    minlength: 3,
+                    required: true
+                },
+                'Kisi.DurumID': {
+                    required: true
+                }
+            },
 
-    //        invalidHandler: function (event, validator) {
-    //            success1.hide();
-    //            error1.show();
-    //            App.scrollTo(error1, -200);
-    //        },
+            invalidHandler: function (event, validator) {
+                success1.hide();
+                error1.show();
+                App.scrollTo(error1, -200);
+            },
 
-    //        errorPlacement: function (error, element) {
-    //            var cont = $(element).parent('.input-group');
-    //            if (cont) {
-    //                cont.after(error);
-    //            } else {
-    //                element.after(error);
-    //            }
-    //        },
+            errorPlacement: function (error, element) {
+                var cont = $(element).parent('.input-group');
+                if (cont) {
+                    cont.after(error);
+                } else {
+                    element.after(error);
+                }
+            },
 
-    //        highlight: function (element) {
+            highlight: function (element) {
 
-    //            $(element)
-    //                .closest('.form-group').addClass('has-error');
-    //        },
+                $(element)
+                    .closest('.form-group').addClass('has-error');
+            },
 
-    //        unhighlight: function (element) {
-    //            $(element)
-    //                .closest('.form-group').removeClass('has-error');
-    //        },
+            unhighlight: function (element) {
+                $(element)
+                    .closest('.form-group').removeClass('has-error');
+            },
 
-    //        success: function (label) {
-    //            label
-    //                .closest('.form-group').removeClass('has-error');
-    //        },
+            success: function (label) {
+                label
+                    .closest('.form-group').removeClass('has-error');
+            },
 
-    //        submitHandler: function (form) {
-    //            this.submit();
-    //        }
-    //    });
-    //}();
-
+            submitHandler: function (form) {
+                this.submit();
+            }
+        });
+    }
     return {
         init: function () {
             DataTable();
             Filtrele();
-            //BtnEkle();
-            //BtnVazgec();
-            //BtnKaydet();
+            BtnEkle();
+            BtnVazgec();
+            BtnKaydet();
         }
     };
 }();

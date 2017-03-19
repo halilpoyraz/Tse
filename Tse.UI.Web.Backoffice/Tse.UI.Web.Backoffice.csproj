@@ -6213,6 +6213,7 @@
     <Content Include="Views\Standart\listele.cshtml" />
     <Content Include="Views\Standart\duzenle.cshtml" />
     <Content Include="Views\Standart\ekle.cshtml" />
+    <Content Include="Views\Kisi\duzenle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">
