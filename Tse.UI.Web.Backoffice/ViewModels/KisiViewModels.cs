@@ -33,6 +33,7 @@
                 Kisiler = context.Kisiler.OrderBy(s=>s.KisiID).ToList();
 
                 Durumlar = context.Durumlar.ToList();
+                
             }
         }
 

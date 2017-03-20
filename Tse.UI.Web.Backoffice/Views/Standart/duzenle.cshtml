@@ -658,18 +658,18 @@
                                 </li>
                             </ul>
                             <script>
-                                        $(function () {
-                                            $('#table2').bootstrapTable({
-                                                rowStyle: "rowStyle",
-                                                contextMenu: '#contextMenu1',
-                                                onContextMenuItem: function (row, $el) {                                                
-                                                    if ($el.data("item") == "duzenle")
-                                                        get('/standart/duzenle?standartID=' + @Model.Standart.StandartID + '&standartIcerikID=' + row.standartIcerikID);
-                                                    else if ($el.data("item") == "sil") { if (confirm(row.baslik + ' isimli kaydı silmek istediğine emin misin?')) post('/standart/icerik-sil', { standartID: @Model.Standart.StandartID, standartIcerikID: row.standartIcerikID }); else return false;
-                                                    }
-                                                }
-                                            });
-                                        });
+                                $(function () {
+                                    $('#table2').bootstrapTable({
+                                        rowStyle: "rowStyle",
+                                        contextMenu: '#contextMenu1',
+                                        onContextMenuItem: function (row, $el) {                                                
+                                            if ($el.data("item") == "duzenle")
+                                                get('/standart/duzenle?standartID=' + @Model.Standart.StandartID + '&standartIcerikID=' + row.standartIcerikID);
+                                            else if ($el.data("item") == "sil") { if (confirm(row.baslik + ' isimli kaydı silmek istediğine emin misin?')) post('/standart/icerik-sil', { standartID: @Model.Standart.StandartID, standartIcerikID: row.standartIcerikID }); else return false;
+                                            }
+                                        }
+                                    });
+                                });
                             </script>
                                 }
                             </div>

@@ -58,7 +58,7 @@
             <table class="table table-striped table-hover" id="table1">
                 <thead>
                     <tr>
-                        <th data-field="kisiKisiID" class="display-hide"> Id </th>
+                        <th data-field="kisiID" class="display-hide"> Id </th>
                         <th data-field="kisiAdi">Adı</th>
                         <th data-field="kisiSoyadi">Soyadı</th>
                         <th data-field="kisiTcKimlikNo">TC No</th>
@@ -101,10 +101,10 @@
                             if ($el.data("item") == "ekle")
                                 window.location.href = '/kisi/ekle';
                             else if ($el.data("item") == "duzenle")
-                                get('/kisi/duzenle/' + row.kisiKisiID);
+                                get('/kisi/duzenle/' + row.kisiID);
                             else if ($el.data("item") == "sil") {
                                 if (confirm(row.kisiAdi + ' kaydını silmek istediğine emin misin?'))
-                                    post('/kisi/sil', { id: row.kisiKisiID });
+                                    post('/kisi/sil', { id: row.kisiID });
                                 else
                                     e.preventDefault();
                             }
