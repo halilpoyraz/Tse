@@ -81,6 +81,14 @@
                     Taslak = context.Kisiler.Where(u => u.DurumID == 3).Count();
                     Silinmis = context.Kisiler.Where(u => u.DurumID == 4).Count();
                 }
+                else if (entityName == "Firmalar")
+                {
+                    Tum = context.Firmalar.Count();
+                    Aktif = context.Firmalar.Where(u => u.DurumID == 1).Count();
+                    Pasif = context.Firmalar.Where(u => u.DurumID == 2).Count();
+                    Taslak = context.Firmalar.Where(u => u.DurumID == 3).Count();
+                    Silinmis = context.Firmalar.Where(u => u.DurumID == 4).Count();
+                }
                 return this;
             }            
         }

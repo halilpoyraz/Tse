@@ -7,32 +7,32 @@
     using System.Web.Mvc;
     using ViewModels;
 
-    public class KisiController : Controller
+    public class FirmaController : Controller
     {
         public ActionResult Listele()
         {
-            var model = new KisiListeleViewModel();
+            var model = new FirmaListeleViewModel();
             return View(model);
         }
 
-        public ActionResult Ekle()
+        [ActionName("firma-ekle")]
+        public ActionResult FirmaEkle()
         {
-            var model = new KisiEkleViewModel();
+            var model = new FirmaEkleViewModel();
             TempData["DisplayStatus"] = "display-hide";
             return View(model);
         }
 
-
-        [HttpPost ValidateAntiForgeryToken]
-        public ActionResult Ekle([Bind(Include = "KisiID,Adi,Soyadi,TcKimlikNo,Unvan,DurumID")] Kisi kisi)
+        [ActionName("firma-ekle") HttpPost ValidateAntiForgeryToken]
+        public ActionResult FirmaEkle(Firma firma)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
-                var model = new KisiEkleViewModel();
+                var model = new FirmaEkleViewModel();
 
                 if (ModelState.IsValid)
                 {
-                    context.Kisiler.Add(kisi);
+                    context.Firmalar.Add(firma);
                     context.SaveChanges();
                     TempData["DisplayStatus"] = "";
                     return View(model);
@@ -45,41 +45,47 @@
             }
         }
 
-        public ActionResult Duzenle(int? id)
+        [ActionName("firma-duzenle")]
+        public ActionResult FirmaDuzenle(int? firmaID)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
-                if (id == null)
-                    return RedirectToAction("index", "hata", new { HataId = 2 });
-                else
+                if (firmaID != null)
                 {
-                    var model = new KisiDuzenleViewModel();
-                    model.Kisi = context.Kisiler.Find(id);
-                    if (model.Kisi == null)
-                        return RedirectToAction("listele", "kisi");
-                    else
+                    var model = new FirmaDuzenleViewModel(firmaID);
+                    model.Firma = context.Firmalar.Find(firmaID);
+                    if (model.Firma != null)
+                    {
+                        TempData["DisplayStatus"] = "display-hide";
                         return View(model);
+                    }
+                    else
+                        return RedirectToAction("listele", "firma");
                 }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
             }
         }
 
-        [HttpPost ValidateAntiForgeryToken]
-        public ActionResult Duzenle([Bind(Include = "KisiID,Adi,Soyadi,TcKimlikNo,Unvan,DurumID")] Kisi kisi)
+        [ActionName("firma-duzenle") HttpPost ValidateAntiForgeryToken]
+        public ActionResult FirmaDuzenle(Firma firma)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
-            {
+            {                
                 if (ModelState.IsValid)
                 {
-                    context.Entry(kisi).State = EntityState.Modified;
+                    context.Entry(firma).State = EntityState.Modified;
                     context.SaveChanges();
-                    return RedirectToAction("listele");
+                    TempData["DisplayStatus"] = "";
+                    FirmaDuzenleViewModel model = new FirmaDuzenleViewModel(firma.FirmaID);
+                    return View(model);
                 }
                 return RedirectToAction("index", "hata", new { HataId = 4 });
             }
         }
 
-        [HttpPost]
-        public ActionResult Sil(int? id)
+        [ActionName("firma-sil") HttpPost]
+        public ActionResult FirmaSil(int? id)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
@@ -88,21 +94,21 @@
                     return RedirectToAction("index", "hata", new { HataId = 2 });
                 }
 
-                Kisi kisi = context.Kisiler.Find(id);
+                Firma firma = context.Firmalar.Find(id);
 
-                if (kisi!= null)
+                if (firma != null)
                 {
                     try
                     {
-                        context.Kisiler.Remove(kisi);
+                        context.Firmalar.Remove(firma);
                         context.SaveChanges();
                     }
                     catch (Exception)
                     {
                         try
                         {
-                            kisi.DurumID = 4;
-                            context.Entry(kisi).State = EntityState.Modified;
+                            firma.DurumID = 4;
+                            context.Entry(firma).State = EntityState.Modified;
                             context.SaveChanges();
                         }
                         catch (Exception)

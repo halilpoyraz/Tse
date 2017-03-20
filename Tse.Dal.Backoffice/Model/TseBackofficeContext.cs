@@ -104,6 +104,7 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<Firma>().HasMany(e => e.FaturaBilgileri).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
             modelBuilder.Entity<Firma>().HasMany(e => e.Epostalar).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
             modelBuilder.Entity<Firma>().HasMany(e => e.Adresler).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Firma>().HasMany(e => e.Kisiler).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Ilce>().HasMany(e => e.Adresler).WithRequired(e => e.Ilce).WillCascadeOnDelete(false);
 

@@ -30,7 +30,7 @@
         public virtual ICollection<Eposta> Epostalar { get; set; }
         public virtual ICollection<FaturaBilgi> FaturaBilgileri { get; set; }
         public virtual ICollection<Telefon> Telefonlar { get; set; }
-
+        public virtual ICollection<Kisi> Kisiler { get; set; }
 
         // Methods
     }

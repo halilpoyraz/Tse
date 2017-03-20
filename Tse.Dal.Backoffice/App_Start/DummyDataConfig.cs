@@ -13224,6 +13224,7 @@
                     Adi = "Halil İbrahim",
                     Soyadi = "Poyraz",
                     Unvan = "Senior Software Engineer",
+                    FirmaID = 2,
                     DurumID = 1
                 },
                 #endregion
@@ -13235,6 +13236,7 @@
                     Adi = "Ali",
                     Soyadi = "Atabey",
                     Unvan = "Full Stack Software Developer",
+                    FirmaID = 3,
                     DurumID = 1
                 }
                 #endregion

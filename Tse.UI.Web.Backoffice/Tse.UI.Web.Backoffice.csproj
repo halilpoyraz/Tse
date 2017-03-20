@@ -198,6 +198,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BaslangicController.cs" />
+    <Compile Include="Controllers\FirmaController.cs" />
     <Compile Include="Controllers\HataController.cs" />
     <Compile Include="Controllers\IlceController.cs" />
     <Compile Include="Controllers\KategoriController.cs" />
@@ -218,6 +219,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\BreadCrumb.cs" />
     <Compile Include="ViewModels\BaslangicViewModels.cs" />
+    <Compile Include="ViewModels\FirmaViewModels.cs" />
     <Compile Include="ViewModels\IlceViewModels.cs" />
     <Compile Include="ViewModels\SehirViewModels.cs" />
     <Compile Include="ViewModels\KategoriViewModels.cs" />
@@ -233,6 +235,9 @@
     <Content Include="Content\assets\pages\scripts\baslangic.min.js">
       <DependentUpon>baslangic.js</DependentUpon>
     </Content>
+    <Content Include="Content\assets\pages\scripts\firma.min.js">
+      <DependentUpon>firma.js</DependentUpon>
+    </Content>
     <Content Include="Content\assets\pages\scripts\kategori.js" />
     <Content Include="Content\assets\pages\scripts\ilce.js" />
     <Content Include="Content\assets\pages\scripts\ilce.min.js">
@@ -241,6 +246,7 @@
     <Content Include="Content\assets\pages\scripts\kategori.min.js">
       <DependentUpon>kategori.js</DependentUpon>
     </Content>
+    <Content Include="Content\assets\pages\scripts\firma.js" />
     <Content Include="Content\assets\pages\scripts\kisi.js" />
     <Content Include="Content\assets\pages\scripts\kisi.min.js">
       <DependentUpon>kisi.js</DependentUpon>
@@ -6214,6 +6220,8 @@
     <Content Include="Views\Standart\duzenle.cshtml" />
     <Content Include="Views\Standart\ekle.cshtml" />
     <Content Include="Views\Kisi\duzenle.cshtml" />
+    <Content Include="Views\Firma\listele.cshtml" />
+    <Content Include="Views\Firma\firma-duzenle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

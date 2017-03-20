@@ -24,7 +24,10 @@
         public long TcKimlikNo { get; set; }
 
         [Display(Name = "Ünvanı") MaxLength(255)]
-        public string Unvan { get; set; }        
+        public string Unvan { get; set; }
+
+        [Display(Name = "Firma")]
+        public int? FirmaID { get; set; }
 
         [Display(Name = "Durum")]
         public int DurumID { get; set; }
@@ -32,6 +35,7 @@
 
         // Navigation Properties
         public virtual ICollection<Adres> Adresler { get; set; }
+        public virtual Firma Firma { get; set; }
         public virtual Durum Durum { get; set; }
         public virtual ICollection<Eposta> Epostalar { get; set; }             
         public virtual ICollection<FaturaBilgi> FaturaBilgileri { get; set; }
