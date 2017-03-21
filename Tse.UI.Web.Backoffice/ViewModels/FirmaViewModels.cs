@@ -62,7 +62,7 @@
                     Link1 = "/baslangic/gosterge-paneli",
                     Text2 = "Firmalar",
                     Link2 = "/firma/listele",
-                    Text3 = "Firma Düzenle",
+                    Text3 = "Yeni Firma Ekle",
                     HeadText = ""
                 };
 
@@ -102,15 +102,24 @@
                 FilterAdres = new Filter().Create("FirmaAdres", firmaID);                 
                 Firma = context.Firmalar.Find(firmaID);
                 Adresler = context.Adresler.Include("Ulke").Include("Sehir").Include("Ilce").Include("AdresTipi").Where(a => a.FirmaID == firmaID).ToList();
+                AdresTipleri = context.Degerler.Where(d=>d.KategoriID==6).ToList();
+                Ilceler = context.Ilceler.Where(i => i.DurumID == 1).OrderBy(i=>i.IlceAdi).ToList();
+                Sehirler = context.Sehirler.Where(i => i.DurumID == 1).OrderBy(i => i.SehirAdi).ToList();
+                Ulkeler = context.Ulkeler.Where(i => i.DurumID == 1).OrderBy(i => i.UlkeAdi).ToList();
                 Durumlar = context.Durumlar.ToList();
             }
         }
 
         //Properties
         public Firma Firma { get; set; }
+        public Adres Adres { get; set; }
         public Filter FilterAdres { get; set; }
         public Durum Durum { get; set; }        
         public List<Durum> Durumlar { get; set; }
         public List<Adres> Adresler { get; set; }
+        public List<Ilce> Ilceler { get; set; }
+        public List<Sehir> Sehirler { get; set; }
+        public List<Ulke> Ulkeler { get; set; }
+        public List<Deger> AdresTipleri { get; set; }
     }
 }

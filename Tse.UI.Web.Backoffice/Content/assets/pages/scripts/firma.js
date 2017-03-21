@@ -193,7 +193,7 @@ var FirmaDuzenle = function () {
         });
     };
 
-    //Adres
+    //Adres Listele
     var FirmaAdresDataTable = function () {
         function restoreRow(oTable, nRow) {
             var aData = oTable.fnGetData(nRow);
@@ -249,7 +249,70 @@ var FirmaDuzenle = function () {
     };
     var FirmaAdresBtnYeniAdres = function () {
         $("#btn-yeni-adres").click(function () {            
-            window.location.href = '/firma/adres-ekle?firmaID='+firmaID;
+            window.location.href = '/firma/firma-adres-ekle?firmaID='+firmaID;
+        });
+    };
+
+    //Adres Ekle
+    var FirmaAdresEkleBtnKaydet = function () {
+        var form = $('#formAdresEkle');
+        var error = $('.alert-danger', form);
+        var success = $('.alert-success', form);
+
+        form.validate({
+            errorElement: 'span',
+            errorClass: 'help-block help-block-error',
+            focusInvalid: false,
+            ignore: "",
+            messages: {
+                select_multi: {
+                    maxlength: jQuery.validator.format("Max {0} items allowed for selection"),
+                    minlength: jQuery.validator.format("At least {0} items must be selected")
+                }
+            },
+            rules: {
+                'Adres.AdresTipiID': { required: true },
+                'Adres.AdresSatiri': { minlength: 2, required: true },
+                'Adres.IlceID': { required: true },
+                'Adres.SehirID': { required: true },
+                'Adres.UlkeID': { required: true },                
+                'Adres.DurumID': { required: true }
+            },
+            invalidHandler: function (event, validator) {
+                success.hide();
+                error.show();
+                App.scrollTo(error, -200);
+            },
+            errorPlacement: function (error, element) {
+                var cont = $(element).parent('.input-group');
+                if (cont) {
+                    cont.after(error);
+                } else {
+                    element.after(error);
+                }
+            },
+            highlight: function (element) {
+
+                $(element)
+                    .closest('.form-group').addClass('has-error');
+            },
+            unhighlight: function (element) {
+                $(element)
+                    .closest('.form-group').removeClass('has-error');
+            },
+            success: function (label) {
+                label
+                    .closest('.form-group').removeClass('has-error');
+            },
+            submitHandler: function (form) {
+                this.submit();
+            }
+        });
+    };
+    var FirmaAdresEkleBtnVazgec = function () {
+        $("#btn-yeni-adres-vazgec").click(function () {
+            var firmaID = $("#Adres_FirmaID").val();
+            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?')) window.location.href = '/firma/firma-adres-listele?firmaID='+firmaID; else return false;
         });
     };
 
@@ -260,6 +323,8 @@ var FirmaDuzenle = function () {
             FirmaAdresDataTable();
             FirmaAdresFiltrele();
             FirmaAdresBtnYeniAdres();
+            FirmaAdresEkleBtnKaydet();
+            FirmaAdresEkleBtnVazgec();
         }
     };
 }();

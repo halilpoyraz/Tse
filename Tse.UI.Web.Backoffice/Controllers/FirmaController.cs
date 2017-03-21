@@ -1,4 +1,5 @@
-﻿namespace Tse.UI.Web.Backoffice.Controllers
+﻿using System.Web.Mvc;
+namespace Tse.UI.Web.Backoffice.Controllers
 {
     using Dal.Backoffice.Model;
     using System;
@@ -36,7 +37,7 @@
                     context.Firmalar.Add(firma);
                     context.SaveChanges();
                     TempData["DisplayStatus"] = "";
-                    return View(model);
+                    return RedirectToAction("firma-duzenle", new { firmaID = firma.FirmaID });
                 }
                 else
                 {
@@ -123,6 +124,86 @@
         }
 
         //FirmaAdres
+        [ActionName("firma-adres-listele")]
+        public ActionResult FirmaAdresListele(int? firmaID)
+        {
+            TempData["activeTab"] = "firma-adres";
+            return RedirectToAction("firma-duzenle", new { firmaID = firmaID });          
+        }
+
+        [ActionName("firma-adres-ekle")]
+        public ActionResult FirmaAdresEkle(int? firmaID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (firmaID != null)
+                {
+                    var model = new FirmaDuzenleViewModel(firmaID);
+                    model.Firma = context.Firmalar.Find(firmaID);
+                    if (model.Firma != null)
+                    {
+                        TempData["DisplayStatus"] = "display-hide";
+                        return View(model);
+                    }
+                    else
+                        return RedirectToAction("listele", "firma");
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+            }            
+        }
+
+        [ActionName("firma-adres-duzenle")]
+        public ActionResult FirmaAdresDuzenle(int? firmaID, int? adresID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (firmaID != null && adresID != null)
+                {
+                    var model = new FirmaDuzenleViewModel(firmaID);
+                    model.Firma = context.Firmalar.Find(firmaID);
+                    model.Adres = context.Adresler.Find(adresID);
+                    if (model.Firma != null && model.Adres !=null)
+                    {
+                        TempData["DisplayStatus"] = "display-hide";
+                        return View(model);
+                    }
+                    else
+                        return RedirectToAction("firma-adres-listele", "firma", new { firmaID = firmaID });
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+            }
+        }
+
+        [HttpPost ActionName("firma-adres-duzenle") ValidateAntiForgeryToken]
+        public ActionResult FirmaAdresDuzenle(Adres adres)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                context.Entry(adres).State = EntityState.Modified;
+                context.SaveChanges();
+                TempData["DisplayStatus"] = "";
+                return RedirectToAction("firma-adres-listele", new { firmaID = adres.FirmaID });
+            }
+        }
+
+        [HttpPost ActionName("firma-adres-ekle") ValidateAntiForgeryToken]
+        public ActionResult FirmaAdresEkle(Adres adres)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {               
+
+               
+                    context.Adresler.Add(adres);
+                    context.SaveChanges();                    
+                    TempData["activeTab"] = "firma-adres";
+                    return RedirectToAction("firma-duzenle", new { firmaID = adres.FirmaID });
+              
+                
+            }
+        }
+
         [ActionName("firma-adres-sil") HttpPost]
         public ActionResult FirmaAdresSil(int? firmaID, int? adresID)
         {

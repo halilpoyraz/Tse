@@ -5802,6 +5802,7 @@
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Firma\firma-adres-ekle.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -6222,6 +6223,8 @@
     <Content Include="Views\Kisi\duzenle.cshtml" />
     <Content Include="Views\Firma\listele.cshtml" />
     <Content Include="Views\Firma\firma-duzenle.cshtml" />
+    <Content Include="Views\Firma\firma-ekle.cshtml" />
+    <Content Include="Views\Firma\firma-adres-duzenle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">
