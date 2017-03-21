@@ -107,6 +107,13 @@
                 Sehirler = context.Sehirler.Where(i => i.DurumID == 1).OrderBy(i => i.SehirAdi).ToList();
                 Ulkeler = context.Ulkeler.Where(i => i.DurumID == 1).OrderBy(i => i.UlkeAdi).ToList();
                 Durumlar = context.Durumlar.ToList();
+
+                FilterTelefon = new Filter().Create("FirmaTelefon", firmaID);
+                TelefonTipleri = context.Degerler.Where(d => d.KategoriID == 5).ToList();
+                Telefonlar = context.Telefonlar.Include("TelefonTipi").Where(a => a.FirmaID == firmaID).ToList();
+
+                FilterEposta = new Filter().Create("FirmaEposta", firmaID);
+                Epostalar = context.Epostalar.Where(e=>e.FirmaID==firmaID).ToList();
             }
         }
 
@@ -121,5 +128,14 @@
         public List<Sehir> Sehirler { get; set; }
         public List<Ulke> Ulkeler { get; set; }
         public List<Deger> AdresTipleri { get; set; }
+
+        public Filter FilterTelefon { get; set; }
+        public List<Telefon> Telefonlar{ get; set; }
+        public Telefon Telefon{ get; set; }
+        public List<Deger> TelefonTipleri { get; set; }
+
+        public Filter FilterEposta { get; set; }
+        public List<Eposta> Epostalar { get; set; }
+        public Eposta Eposta { get; set; }
     }
 }

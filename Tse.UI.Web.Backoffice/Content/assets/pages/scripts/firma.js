@@ -193,7 +193,7 @@ var FirmaDuzenle = function () {
         });
     };
 
-    //Adres Listele
+    //Adres
     var FirmaAdresDataTable = function () {
         function restoreRow(oTable, nRow) {
             var aData = oTable.fnGetData(nRow);
@@ -251,9 +251,7 @@ var FirmaDuzenle = function () {
         $("#btn-yeni-adres").click(function () {            
             window.location.href = '/firma/firma-adres-ekle?firmaID='+firmaID;
         });
-    };
-
-    //Adres Ekle
+    };   
     var FirmaAdresEkleBtnKaydet = function () {
         var form = $('#formAdresEkle');
         var error = $('.alert-danger', form);
@@ -316,6 +314,242 @@ var FirmaDuzenle = function () {
         });
     };
 
+    //Telefon
+    var FirmaTelefonDataTable = function () {
+        function restoreRow(oTable, nRow) {
+            var aData = oTable.fnGetData(nRow);
+            var jqTds = $('>td', nRow);
+            for (var i = 0, iLen = jqTds.length; i < iLen; i++) {
+                oTable.fnUpdate(aData[i], nRow, i, false);
+            }
+            oTable.fnDraw();
+        }
+        var table = $('#tableFirmaTelefon');
+        var oTable = table.dataTable({
+            "lengthMenu": [
+                [10, 20, 100, -1],
+                [10, 20, 100, "Hepsi"]
+            ],
+            "pageLength": 10,
+            "language": {
+                "lengthMenu": " _MENU_ Kayıt"
+            },
+            "columnDefs": [{
+                'orderable': true,
+                'targets': [0, 1, 2]
+            }, {
+                "searchable": true,
+                "targets": [0, 1, 2]
+            }],
+            "order": [
+                [1, "asc"]
+            ]
+        });
+    };
+    var FirmaTelefonFiltrele = function () {
+        $('#telefonBtnTumKayitlar').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("").trigger(e);
+        });
+        $('#telefonBtnAktif').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Aktif").trigger(e);
+        });
+        $('#telefonBtnPasif').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Pasif").trigger(e);
+        });
+        $('#telefonBtnTaslak').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Taslak").trigger(e);
+        });
+        $('#telefonBtnSilinmis').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Silinmiş").trigger(e);
+        });
+    };
+    var FirmaTelefonBtnYeniTelefon = function () {
+        $("#btn-yeni-telefon").click(function () {
+            window.location.href = '/firma/firma-telefon-ekle?firmaID=' + firmaID;
+        });
+    };
+    var FirmaTelefonEkleBtnKaydet = function () {
+        var form = $('#formTelefonEkle');
+        var error = $('.alert-danger', form);
+        var success = $('.alert-success', form);
+
+        form.validate({
+            errorElement: 'span',
+            errorClass: 'help-block help-block-error',
+            focusInvalid: false,
+            ignore: "",
+            messages: {
+                select_multi: {
+                    maxlength: jQuery.validator.format("Max {0} items allowed for selection"),
+                    minlength: jQuery.validator.format("At least {0} items must be selected")
+                }
+            },
+            rules: {
+                'Telefon.TelefonTipiID': { required: true },
+                'Telefon.TelefonNo': { minlength: 7, required: true, number: true },
+                'Telefon.DahiliNo': { minlength: 2, number: true },
+                'Telefon.DurumID': { required: true }
+            },
+            invalidHandler: function (event, validator) {
+                success.hide();
+                error.show();
+                App.scrollTo(error, -200);
+            },
+            errorPlacement: function (error, element) {
+                var cont = $(element).parent('.input-group');
+                if (cont) {
+                    cont.after(error);
+                } else {
+                    element.after(error);
+                }
+            },
+            highlight: function (element) {
+
+                $(element)
+                    .closest('.form-group').addClass('has-error');
+            },
+            unhighlight: function (element) {
+                $(element)
+                    .closest('.form-group').removeClass('has-error');
+            },
+            success: function (label) {
+                label
+                    .closest('.form-group').removeClass('has-error');
+            },
+            submitHandler: function (form) {
+                this.submit();
+            }
+        });
+    };
+    var FirmaTelefonEkleBtnVazgec = function () {
+        $("#btn-yeni-telefon-vazgec").click(function () {
+            var firmaID = $("#Telefon_FirmaID").val();
+            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?')) window.location.href = '/firma/firma-telefon-listele?firmaID=' + firmaID; else return false;
+        });
+    };
+
+    //Eposta
+    var FirmaEpostaDataTable = function () {
+        function restoreRow(oTable, nRow) {
+            var aData = oTable.fnGetData(nRow);
+            var jqTds = $('>td', nRow);
+            for (var i = 0, iLen = jqTds.length; i < iLen; i++) {
+                oTable.fnUpdate(aData[i], nRow, i, false);
+            }
+            oTable.fnDraw();
+        }
+        var table = $('#tableFirmaEposta');
+        var oTable = table.dataTable({
+            "lengthMenu": [
+                [10, 20, 100, -1],
+                [10, 20, 100, "Hepsi"]
+            ],
+            "pageLength": 10,
+            "language": {
+                "lengthMenu": " _MENU_ Kayıt"
+            },
+            "columnDefs": [{
+                'orderable': true,
+                'targets': [0, 1]
+            }, {
+                "searchable": true,
+                "targets": [0, 1]
+            }],
+            "order": [
+                [1, "asc"]
+            ]
+        });
+    };
+    var FirmaEpostaFiltrele = function () {
+        $('#epostaBtnTumKayitlar').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("").trigger(e);
+        });
+        $('#epostaBtnAktif').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Aktif").trigger(e);
+        });
+        $('#epostaBtnPasif').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Pasif").trigger(e);
+        });
+        $('#epostaBtnTaslak').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Taslak").trigger(e);
+        });
+        $('#epostaBtnSilinmis').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Silinmiş").trigger(e);
+        });
+    };
+    var FirmaEpostaBtnYeniEposta = function () {
+        $("#btn-yeni-eposta").click(function () {
+            window.location.href = '/firma/firma-eposta-ekle?firmaID=' + firmaID;
+        });
+    };
+    var FirmaEpostaEkleBtnKaydet = function () {
+        var form = $('#formEpostaEkle');
+        var error = $('.alert-danger', form);
+        var success = $('.alert-success', form);
+
+        form.validate({
+            errorElement: 'span',
+            errorClass: 'help-block help-block-error',
+            focusInvalid: false,
+            ignore: "",
+            messages: {
+                select_multi: {
+                    maxlength: jQuery.validator.format("Max {0} items allowed for selection"),
+                    minlength: jQuery.validator.format("At least {0} items must be selected")
+                }
+            },
+            rules: {
+                'Eposta.EpostaAdresi': { minlength: 5, required: true, email: true },
+                'Eposta.DurumID': { required: true }
+            },
+            invalidHandler: function (event, validator) {
+                success.hide();
+                error.show();
+                App.scrollTo(error, -200);
+            },
+            errorPlacement: function (error, element) {
+                var cont = $(element).parent('.input-group');
+                if (cont) {
+                    cont.after(error);
+                } else {
+                    element.after(error);
+                }
+            },
+            highlight: function (element) {
+
+                $(element)
+                    .closest('.form-group').addClass('has-error');
+            },
+            unhighlight: function (element) {
+                $(element)
+                    .closest('.form-group').removeClass('has-error');
+            },
+            success: function (label) {
+                label
+                    .closest('.form-group').removeClass('has-error');
+            },
+            submitHandler: function (form) {
+                this.submit();
+            }
+        });
+    };
+    var FirmaEpostaEkleBtnVazgec = function () {
+        $("#btn-yeni-eposta-vazgec").click(function () {
+            var firmaID = $("#Eposta_FirmaID").val();
+            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?')) window.location.href = '/firma/firma-eposta-listele?firmaID=' + firmaID; else return false;
+        });
+    };
+
     return {
         init: function () {
             BtnKaydet();
@@ -325,6 +559,16 @@ var FirmaDuzenle = function () {
             FirmaAdresBtnYeniAdres();
             FirmaAdresEkleBtnKaydet();
             FirmaAdresEkleBtnVazgec();
+            FirmaTelefonDataTable();
+            FirmaTelefonFiltrele();
+            FirmaTelefonBtnYeniTelefon();
+            FirmaTelefonEkleBtnKaydet();
+            FirmaTelefonEkleBtnVazgec();
+            FirmaEpostaDataTable();
+            FirmaEpostaFiltrele();
+            FirmaEpostaBtnYeniEposta();
+            FirmaEpostaEkleBtnKaydet();
+            FirmaEpostaEkleBtnVazgec();
         }
     };
 }();

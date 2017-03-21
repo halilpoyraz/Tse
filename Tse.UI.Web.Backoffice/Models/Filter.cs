@@ -149,6 +149,22 @@
                     Taslak = context.Adresler.Where(e => e.FirmaID == id && e.DurumID == 3).Count();
                     Silinmis = context.Adresler.Where(e => e.FirmaID == id && e.DurumID == 4).Count();
                 }
+                else if (entityName == "FirmaTelefon")
+                {
+                    Tum = context.Telefonlar.Where(e => e.FirmaID == id).Count();
+                    Aktif = context.Telefonlar.Where(e => e.FirmaID == id && e.DurumID == 1).Count();
+                    Pasif = context.Telefonlar.Where(e => e.FirmaID == id && e.DurumID == 2).Count();
+                    Taslak = context.Telefonlar.Where(e => e.FirmaID == id && e.DurumID == 3).Count();
+                    Silinmis = context.Telefonlar.Where(e => e.FirmaID == id && e.DurumID == 4).Count();
+                }
+                else if (entityName == "FirmaEposta")
+                {
+                    Tum = context.Epostalar.Where(e => e.FirmaID == id).Count();
+                    Aktif = context.Epostalar.Where(e => e.FirmaID == id && e.DurumID == 1).Count();
+                    Pasif = context.Epostalar.Where(e => e.FirmaID == id && e.DurumID == 2).Count();
+                    Taslak = context.Epostalar.Where(e => e.FirmaID == id && e.DurumID == 3).Count();
+                    Silinmis = context.Epostalar.Where(e => e.FirmaID == id && e.DurumID == 4).Count();
+                }
                 return this;
             }
         }
