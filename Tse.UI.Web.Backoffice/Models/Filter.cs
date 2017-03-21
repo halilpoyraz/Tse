@@ -139,7 +139,15 @@
                     Aktif = context.StandartIcerikler.Where(e => e.StandartID == id && e.DurumID == 1).Count();
                     Pasif = context.StandartIcerikler.Where(e => e.StandartID == id && e.DurumID == 2).Count();
                     Taslak = context.StandartIcerikler.Where(e => e.StandartID == id && e.DurumID == 3).Count();
-                    Silinmis = context.StandartIcerikler.Where(e => e.StandartID == id && e.DurumID == 4).Count();        
+                    Silinmis = context.StandartIcerikler.Where(e => e.StandartID == id && e.DurumID == 4).Count();                            
+                }
+                else if(entityName== "FirmaAdres")
+                {
+                    Tum = context.Adresler.Where(e => e.FirmaID == id).Count();
+                    Aktif = context.Adresler.Where(e => e.FirmaID == id && e.DurumID == 1).Count();
+                    Pasif = context.Adresler.Where(e => e.FirmaID == id && e.DurumID == 2).Count();
+                    Taslak = context.Adresler.Where(e => e.FirmaID == id && e.DurumID == 3).Count();
+                    Silinmis = context.Adresler.Where(e => e.FirmaID == id && e.DurumID == 4).Count();
                 }
                 return this;
             }

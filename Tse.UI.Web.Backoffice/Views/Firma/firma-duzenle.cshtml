@@ -10,14 +10,15 @@
             <span id="standart-title" class="caption-subject font-dark bold text-capitalize">@Model.Firma.TicaretUnvani</span>
         </div>
         <ul class="nav nav-tabs">
-            <li class="active">
+            <li class="@Html.Raw((TempData["activeTab"] == null) ? "active" : "")">
                 <a href="#firma-bilgisi" data-toggle="tab" aria-expanded="true">Firma Bilgisi</a>
             </li>
+            <li class="@Html.Raw((TempData["activeTab"] == "firma-adres") ? "active" : "")"><a href="#firma-adres" data-toggle="tab" aria-expanded="true">Adres</a></li>
         </ul>
     </div>
     <div class="portlet-body">
         <div class="tab-content">
-            <div class="tab-pane active" id="firma-bilgisi">
+            <div class="tab-pane @Html.Raw((TempData["activeTab"] == null) ? "active" : "")" id="firma-bilgisi">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="portlet light portlet-fit portlet-form">
@@ -76,6 +77,121 @@
                     </div>
                 </div>
             </div>
-        </div>
+            <div id="firma-adres" class="tab-pane @Html.Raw((TempData["activeTab"] == "firma-adres") ? "active" : "")">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="portlet-body">
+                            <!-- table toolbar -->
+                            <div class="table-toolbar">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="btn-group">
+                                            <button class="btn green" id="btn-yeni-adres">
+                                                Yeni Adres
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="btn-group pull-right">
+                                            <button class="btn green btn-outline dropdown-toggle" data-toggle="dropdown">
+                                                Filtrele
+                                                <i class="fa fa-filter"></i>
+                                            </button>
+                                            <ul class="dropdown-menu pull-right">
+                                                @if (Model.FilterAdres.CountByDurumId(0) > 0)
+                                                {
+                                                    <li>
+                                                        <a href="javascript:;" id="adresBtnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.FilterAdres.CountByDurumId(0)) </a>
+                                                    </li>
+                                                }
+                                                @if (Model.FilterAdres.CountByDurumId(1) > 0)
+                                                {
+                                                    <li>
+                                                        <a href="javascript:;" id="adresBtnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.FilterAdres.CountByDurumId(1)) </a>
+                                                    </li>
+                                                }
+                                                @if (Model.FilterAdres.CountByDurumId(2) > 0)
+                                                {
+                                                    <li>
+                                                        <a href="javascript:;" id="adresBtnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.FilterAdres.CountByDurumId(2)) </a>
+                                                    </li>
+                                                }
+                                                @if (Model.FilterAdres.CountByDurumId(3) > 0)
+                                                {
+                                                    <li>
+                                                        <a href="javascript:;" id="adresBtnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.FilterAdres.CountByDurumId(3)) </a>
+                                                    </li>
+                                                }
+                                                @if (Model.FilterAdres.CountByDurumId(4) > 0)
+                                                {
+                                                    <li>
+                                                        <a href="javascript:;" id="adresBtnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.FilterAdres.CountByDurumId(4)) </a>
+                                                    </li>
+                                                }
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <table class="table table-striped table-hover" id="tableFirmaAdres">
+                                <thead>
+                                    <tr>
+                                        <th data-field="adresID" class="display-hide"> Id </th>
+                                        <th data-field="adresTipi"> Adres Tipi </th>
+                                        <th data-field="adresSatiri"> Adres </th>
+                                        <th data-field="durum"> Durumu </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var adres in Model.Adresler)
+                                    {
+                                        <tr>
+                                            <td class="display-hide"> @adres.AdresID</td>
+                                            <td> @adres.AdresTipi.DegerAdiTr</td>
+                                            <td> @adres.AdresSatiri @adres.Ilce.IlceAdi @adres.Sehir.SehirAdi @adres.Ulke.UlkeAdi @if (adres.VarsayilanAdres == true) { @Html.Raw("(Varsayılan)") }</td>
+                                            <td> @adres.Durum.DurumAdi </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                            <ul id="contextMenuAdres" class="dropdown-menu">
+                                <li data-item="firma-duzenle">
+                                    <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Düzenle</a>
+                                </li>
+                                <li data-item="firma-adres-sil">
+                                    <a><i class="icon-trash"></i>Sil</a>
+                                </li>
+                                <li class="divider"> </li>
+                                <li data-item="firma-ekle">
+                                    <a><i class="fa fa-plus-square-o" aria-hidden="true"></i>Yeni Ekle</a>
+                                </li>
+                            </ul>
+                            <script>
+                $(function () {
+                    $('#tableFirmaAdres').bootstrapTable({
+                        rowStyle: "rowStyle",
+                        contextMenu: '#contextMenuAdres',
+                        onContextMenuItem: function (row, $el) {
+                            var firmaID = $("#Firma_FirmaID").val();
+                            if ($el.data("item") == "firma-ekle")
+                                window.location.href = '/firma/firma-ekle';
+                            else if ($el.data("item") == "firma-duzenle")
+                                get('/firma/firma-duzenle?firmaID=' + row.firmaID);
+                            else if ($el.data("item") == "firma-adres-sil") {
+                                if (confirm(row.adresSatiri + ' kaydını silmek istediğine emin misin?'))
+                                    post('/firma/firma-adres-sil', { firmaID: firmaID, adresID: row.adresID });
+                                else
+                                    e.preventDefault();
+                            }
+                        }
+                    });
+                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>          
     </div>
 </div>

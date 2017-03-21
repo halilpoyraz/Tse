@@ -9,6 +9,7 @@
 
     public class FirmaController : Controller
     {
+        //Firma
         public ActionResult Listele()
         {
             var model = new FirmaListeleViewModel();
@@ -56,7 +57,7 @@
                     model.Firma = context.Firmalar.Find(firmaID);
                     if (model.Firma != null)
                     {
-                        TempData["DisplayStatus"] = "display-hide";
+                        TempData["DisplayStatus"] = "display-hide";                        
                         return View(model);
                     }
                     else
@@ -118,6 +119,45 @@
                     }
                 }
                 return RedirectToAction("listele");
+            }
+        }
+
+        //FirmaAdres
+        [ActionName("firma-adres-sil") HttpPost]
+        public ActionResult FirmaAdresSil(int? firmaID, int? adresID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (firmaID != null && adresID !=null)
+                {
+                    Adres adres = context.Adresler.Find(adresID);
+
+                    if (adres != null)
+                    {
+                        try
+                        {
+                            context.Adresler.Remove(adres);
+                            context.SaveChanges();
+                        }
+                        catch (Exception)
+                        {
+                            try
+                            {
+                                adres.DurumID = 4;
+                                context.Entry(adres).State = EntityState.Modified;
+                                context.SaveChanges();
+                            }
+                            catch (Exception)
+                            {
+                                return RedirectToAction("index", "hata", new { HataId = 4 });
+                            }
+                        }
+                    }
+                    TempData["activeTab"] = "firma-adres";
+                    return RedirectToAction("firma-duzenle", new { firmaID = firmaID});
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });               
             }
         }
     }

@@ -13301,7 +13301,7 @@
                     IlceID = 63,
                     SehirID = 6,
                     UlkeID = 1,
-                    VarsayilanAdres = true,
+                    VarsayilanAdres = false,
                     DurumID = 1
                 },
                 new Adres
@@ -13325,7 +13325,7 @@
                     IlceID = 431,
                     SehirID = 1,
                     UlkeID = 1,
-                    VarsayilanAdres = true,
+                    VarsayilanAdres = false,
                     DurumID = 1
                 },
                 new Adres
@@ -13349,7 +13349,7 @@
                     IlceID = 432,
                     SehirID = 1,
                     UlkeID = 1,
-                    VarsayilanAdres = true,
+                    VarsayilanAdres = false,
                     DurumID = 1
                 },
                 new Adres
@@ -13373,7 +13373,7 @@
                     IlceID = 451,
                     SehirID = 34,
                     UlkeID = 1,
-                    VarsayilanAdres = true,
+                    VarsayilanAdres = false,
                     DurumID = 1
                 },
                 new Adres

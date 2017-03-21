@@ -93,22 +93,24 @@
                 {
                     Text1 = "Başlangıç",
                     Link1 = "/baslangic/gosterge-paneli",
-                    Text2 = "Standartlart",
-                    Link2 = "/standart/listele",
-                    Text3 = "Standart Düzenle",
-                    HeadText = "Standart Düzenle"
+                    Text2 = "Firma",
+                    Link2 = "/firma/listele",
+                    Text3 = "Firma Düzenle",
+                    HeadText = "Firma Düzenle"
                 };
 
-                Filter = new Filter().Create("Firmalar");                 
-                Firma = context.Firmalar.Find(firmaID);               
+                FilterAdres = new Filter().Create("FirmaAdres", firmaID);                 
+                Firma = context.Firmalar.Find(firmaID);
+                Adresler = context.Adresler.Include("Ulke").Include("Sehir").Include("Ilce").Include("AdresTipi").Where(a => a.FirmaID == firmaID).ToList();
                 Durumlar = context.Durumlar.ToList();
             }
         }
 
         //Properties
-        public Firma Firma { get; set; }       
-        public Filter Filter { get; set; }
+        public Firma Firma { get; set; }
+        public Filter FilterAdres { get; set; }
         public Durum Durum { get; set; }        
-        public List<Durum> Durumlar { get; set; }        
+        public List<Durum> Durumlar { get; set; }
+        public List<Adres> Adresler { get; set; }
     }
 }
