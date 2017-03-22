@@ -47,7 +47,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label class="control-label col-md-3">
-                                        <span>@Html.DisplayName("Hazırlık Grubu")</span>
+                                        <span>@Html.DisplayNameFor(m => m.Standart.HazirlikGrubuID)</span>
                                         <span class="required"> * </span>
                                     </label>
                                     <div class="col-md-9">
@@ -74,7 +74,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label class="control-label col-md-3">
-                                        <span>@Html.DisplayName("Döküman Tipi")</span>
+                                        <span>@Html.DisplayNameFor(m => m.Standart.DokumanTipiID)</span>
                                         <span class="required"> * </span>
                                     </label>
                                     <div class="col-md-9">
@@ -85,7 +85,7 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label class="control-label col-md-3">
-                                        <span>Yürürlük Durumu</span>
+                                        <span>@Html.DisplayNameFor(m => m.Standart.YururlukDurumuID)</span>
                                         <span class="required"> * </span>
                                     </label>
                                     <div class="col-md-9">
@@ -94,7 +94,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label class="control-label col-md-3">
-                                        <span>Standart Türü</span>
+                                        <span>@Html.DisplayNameFor(m => m.Standart.StandartTurID)</span>
                                         <span class="required"> * </span>
                                     </label>
                                     <div class="col-md-9">
@@ -210,6 +210,7 @@
                                     </label>
                                     <div class="col-md-9">
                                         @Html.TextBoxFor(m => m.Standart.Dili, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                        <span class="help-block"> Örnek: tr, en, ... </span>
                                     </div>
                                 </div>
                                 <div class="form-group col-md-6">
@@ -219,6 +220,7 @@
                                     </label>
                                     <div class="col-md-9">
                                         @Html.TextBoxFor(m => m.Standart.RenkDurumu, htmlAttributes: new { @class = "form-control" })
+                                        <span class="help-block"> Örnek: Siyah-Beyaz veya Renkli </span>
                                     </div>
                                 </div>
                             </div>
@@ -230,6 +232,7 @@
                                     </label>
                                     <div class="col-md-9">
                                         @Html.TextBoxFor(m => m.Standart.Fiyati, htmlAttributes: new { @class = "form-control" })
+                                        <span class="help-block"> Örnek: 71,00 </span>
                                     </div>
                                 </div>
                                 <div class="form-group col-md-6">
@@ -405,7 +408,7 @@
                                             <div class="form-actions">
                                                 <div class="row">
                                                     <div class="col-md-12 text-right">
-                                                        <button type="submit" id="btn-icerik-kaydet" class="btn green">Kaydet</button>
+                                                        <button type="submit" id="btn-icerik-kaydet" class="btn green">Güncelle</button>
                                                         <button type="button" id="btn-icerik-duzenle-vazgec" class="btn grey-salsa btn-outline">Vazgeç</button>
                                                     </div>
                                                 </div>
