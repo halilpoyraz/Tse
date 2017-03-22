@@ -472,5 +472,122 @@ namespace Tse.UI.Web.Backoffice.Controllers
                     return RedirectToAction("index", "hata", new { HataId = 2 });
             }
         }
+
+
+        //FirmaFaturaBilgi
+        [ActionName("firma-faturabilgi-listele")]
+        public ActionResult FirmafaturaBilgiListele(int? firmaID)
+        {
+            TempData["activeTab"] = "firma-faturabilgi";
+            return RedirectToAction("firma-duzenle", new { firmaID = firmaID });
+        }
+
+        [ActionName("firma-faturabilgi-ekle")]
+        public ActionResult FirmaFaturaBilgiEkle(int? firmaID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (firmaID != null)
+                {
+                    var model = new FirmaDuzenleViewModel(firmaID);
+                    model.Firma = context.Firmalar.Find(firmaID);
+
+                    if (model.Firma != null)
+                    {
+                        TempData["DisplayStatus"] = "display-hide";
+                        return View(model);
+                    }
+                    else
+                        return RedirectToAction("listele", "firma");
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+            }
+        }
+
+        [HttpPost ActionName("firma-faturabilgi-ekle") ValidateAntiForgeryToken]
+        public ActionResult FirmaFaturaBilgiEkle(FaturaBilgi faturabilgi)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                context.FaturaBilgileri.Add(faturabilgi);
+                context.SaveChanges();
+                TempData["activeTab"] = "firma-faturabilgi";
+                return RedirectToAction("firma-duzenle", new { firmaID = faturabilgi.FirmaID });
+            }
+        }
+
+        [ActionName("firma-faturabilgi-duzenle")]
+        public ActionResult FirmaFaturaBilgiDuzenle(int? firmaID, int? faturabilgiID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (firmaID != null && faturabilgiID != null)
+                {
+                    var model = new FirmaDuzenleViewModel(firmaID);
+                    model.Firma = context.Firmalar.Find(firmaID);
+                    model.FaturaBilgi = context.FaturaBilgileri.Find(faturabilgiID);
+                    if (model.Firma != null && model.FaturaBilgi != null)
+                    {
+                        TempData["DisplayStatus"] = "display-hide";
+                        return View(model);
+                    }
+                    else
+                        return RedirectToAction("firma-faturabilgi-listele", "firma", new { firmaID = firmaID });
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+            }
+        }
+
+        [HttpPost ActionName("firma-faturabilgi-duzenle") ValidateAntiForgeryToken]
+        public ActionResult FirmaFaturaBilgiDuzenle(FaturaBilgi faturabilgi)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                context.Entry(faturabilgi).State = EntityState.Modified;
+                context.SaveChanges();
+                TempData["DisplayStatus"] = "";
+                return RedirectToAction("firma-faturabilgi-listele", new { firmaID = faturabilgi.FirmaID });
+            }
+        }
+
+        [HttpPost ActionName("firma-faturabilgi-sil")]
+        public ActionResult FirmaFaturaBilgiSil(int? firmaID, int? faturabilgiID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (firmaID != null && faturabilgiID != null)
+                {
+                    FaturaBilgi faturabilgi = context.FaturaBilgileri.Find(faturabilgiID);
+
+                    if (faturabilgi != null)
+                    {
+                        try
+                        {
+                            context.FaturaBilgileri.Remove(faturabilgi);
+                            context.SaveChanges();
+                        }
+                        catch (Exception)
+                        {
+                            try
+                            {
+                                faturabilgi.DurumID = 4;
+                                context.Entry(faturabilgi).State = EntityState.Modified;
+                                context.SaveChanges();
+                            }
+                            catch (Exception)
+                            {
+                                return RedirectToAction("index", "hata", new { HataId = 4 });
+                            }
+                        }
+                    }
+                    TempData["activeTab"] = "firma-faturabilgi";
+                    return RedirectToAction("firma-duzenle", new { firmaID = firmaID });
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+            }
+        }
     }
 }

@@ -114,6 +114,10 @@
 
                 FilterEposta = new Filter().Create("FirmaEposta", firmaID);
                 Epostalar = context.Epostalar.Where(e=>e.FirmaID==firmaID).ToList();
+
+                FilterFaturaBilgi = new Filter().Create("FirmaFaturaBilgi", firmaID);
+                FaturaBilgileri = context.FaturaBilgileri.Include("Adres").Where(f => f.FirmaID == firmaID).ToList();
+                Adresler = context.Adresler.Where(f=>f.FirmaID==firmaID).ToList();
             }
         }
 
@@ -137,5 +141,9 @@
         public Filter FilterEposta { get; set; }
         public List<Eposta> Epostalar { get; set; }
         public Eposta Eposta { get; set; }
+
+        public Filter FilterFaturaBilgi { get; set; }
+        public FaturaBilgi FaturaBilgi { get; set; }
+        public List<FaturaBilgi> FaturaBilgileri { get; set; }
     }
 }

@@ -23,6 +23,9 @@
             <li class="@Html.Raw((TempData["activeTab"] == "firma-eposta") ? "active" : "")">
                 <a href="#firma-eposta" data-toggle="tab" aria-expanded="true">E-Posta</a>
             </li>
+            <li class="@Html.Raw((TempData["activeTab"] == "firma-faturabilgi") ? "active" : "")">
+                <a href="#firma-faturabilgi" data-toggle="tab" aria-expanded="true">FaturaBilgi</a>
+            </li>
         </ul>
     </div>
     <div class="portlet-body">
@@ -441,6 +444,130 @@
                                                 else if ($el.data("item") == "firma-eposta-sil") {
                                                     if (confirm(row.epostaAdresi.trim() + ' kaydını silmek istediğine emin misin?'))
                                                         post('/firma/firma-eposta-sil', { firmaID: firmaID, epostaID: row.epostaID });
+                                                    else
+                                                        return false;
+                                                }
+                                            }
+                                        });
+                                    });
+                                </script>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="firma-faturabilgi" class="tab-pane @Html.Raw((TempData["activeTab"] == "firma-faturabilgi") ? "active" : "")">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="portlet-body">
+                            <div class="table-toolbar">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="btn-group">
+                                            <button class="btn green" id="btn-yeni-faturabilgi">
+                                                Yeni Fatura Bilgisi
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        @if (Model.FaturaBilgileri.Count > 0)
+                                        {
+                                            <div class="btn-group pull-right">
+                                                <button class="btn green btn-outline dropdown-toggle" data-toggle="dropdown">
+                                                    Filtrele
+                                                    <i class="fa fa-filter"></i>
+                                                </button>
+                                                <ul class="dropdown-menu pull-right">
+                                                    @if (Model.FilterFaturaBilgi.CountByDurumId(0) > 0)
+                                                    {
+                                                        <li>
+                                                            <a href="javascript:;" id="faturabilgiBtnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.FilterFaturaBilgi.CountByDurumId(0)) </a>
+                                                        </li>
+                                                    }
+                                                    @if (Model.FilterFaturaBilgi.CountByDurumId(1) > 0)
+                                                    {
+                                                        <li>
+                                                            <a href="javascript:;" id="faturabilgiBtnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.FilterFaturaBilgi.CountByDurumId(1)) </a>
+                                                        </li>
+                                                    }
+                                                    @if (Model.FilterFaturaBilgi.CountByDurumId(2) > 0)
+                                                    {
+                                                        <li>
+                                                            <a href="javascript:;" id="faturabilgiBtnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.FilterFaturaBilgi.CountByDurumId(2)) </a>
+                                                        </li>
+                                                    }
+                                                    @if (Model.FilterFaturaBilgi.CountByDurumId(3) > 0)
+                                                    {
+                                                        <li>
+                                                            <a href="javascript:;" id="faturabilgiBtnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.FilterFaturaBilgi.CountByDurumId(3)) </a>
+                                                        </li>
+                                                    }
+                                                    @if (Model.FilterFaturaBilgi.CountByDurumId(4) > 0)
+                                                    {
+                                                        <li>
+                                                            <a href="javascript:;" id="faturabilgiBtnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.FilterFaturaBilgi.CountByDurumId(4)) </a>
+                                                        </li>
+                                                    }
+                                                </ul>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                            @if (Model.FaturaBilgileri.Count > 0)
+                            {
+                                <table id="tableFirmaFaturaBilgi" class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th data-field="faturabilgiID" class="display-hide"> Id </th>
+                                            <th data-field="vergiDairesi"> Vergi Dairesi </th>
+                                            <th data-field="vergiNo"> Vergi No </th>
+                                            <th data-field="adresID"> Adres </th>
+                                            <th data-field="durum"> Durumu </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var faturabilgi in Model.FaturaBilgileri)
+                                        {
+                                            <tr>
+                                                <td class="display-hide"> @faturabilgi.FaturaBilgiID</td>
+                                                <td> @faturabilgi.VergiDairesi</td>
+                                                <td> @faturabilgi.VergiNo</td>
+                                                <td> @faturabilgi.Adres.AdresSatiri</td>
+                                                <td> @faturabilgi.Durum.DurumAdi </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                                <ul id="contextMenuFaturaBilgi" class="dropdown-menu">
+                                    <li data-item="firma-faturabilgi-duzenle">
+                                        <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Düzenle</a>
+                                    </li>
+                                    <li data-item="firma-faturabilgi-sil">
+                                        <a><i class="icon-trash"></i>Sil</a>
+                                    </li>
+                                    <li class="divider"> </li>
+                                    <li data-item="firma-faturabilgi-ekle">
+                                        <a><i class="fa fa-plus-square-o" aria-hidden="true"></i>Yeni Ekle</a>
+                                    </li>
+                                </ul>
+                                <script>
+                                    $(function () {
+                                        $('#tableFirmaFaturaBilgi').bootstrapTable({
+                                            rowStyle: "rowStyle",
+                                            contextMenu: '#contextMenuFaturaBilgi',
+                                            onContextMenuItem: function (row, $el) {
+                                                var firmaID = $("#Firma_FirmaID").val();
+                                                if ($el.data("item") == "firma-faturabilgi-ekle")
+                                                    window.location.href = '/firma/firma-faturabilgi-ekle?firmaID=' + firmaID;
+
+                                                else if ($el.data("item") == "firma-faturabilgi-duzenle")
+                                                    get('/firma/firma-faturabilgi-duzenle?firmaID=' + firmaID + '&faturabilgiID=' + row.faturabilgiID);
+
+                                                else if ($el.data("item") == "firma-faturabilgi-sil") {
+                                                    if (confirm(row.vergiNo.trim() + ' kaydını silmek istediğine emin misin?'))
+                                                        post('/firma/firma-faturabilgi-sil', { firmaID: firmaID, faturabilgiID: row.faturabilgiID });
                                                     else
                                                         return false;
                                                 }

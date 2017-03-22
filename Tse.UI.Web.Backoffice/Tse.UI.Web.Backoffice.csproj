@@ -6229,6 +6229,8 @@
     <Content Include="Views\Firma\firma-telefon-duzenle.cshtml" />
     <Content Include="Views\Firma\firma-eposta-ekle.cshtml" />
     <Content Include="Views\Firma\firma-eposta-duzenle.cshtml" />
+    <Content Include="Views\Firma\firma-faturabilgi-ekle.cshtml" />
+    <Content Include="Views\Firma\firma-faturabilgi-duzenle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

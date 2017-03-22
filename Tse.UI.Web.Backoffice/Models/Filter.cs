@@ -165,6 +165,14 @@
                     Taslak = context.Epostalar.Where(e => e.FirmaID == id && e.DurumID == 3).Count();
                     Silinmis = context.Epostalar.Where(e => e.FirmaID == id && e.DurumID == 4).Count();
                 }
+                else if (entityName == "FirmaFaturaBilgi")
+                {
+                    Tum = context.FaturaBilgileri.Where(e => e.FirmaID == id).Count();
+                    Aktif = context.FaturaBilgileri.Where(e => e.FirmaID == id && e.DurumID == 1).Count();
+                    Pasif = context.FaturaBilgileri.Where(e => e.FirmaID == id && e.DurumID == 2).Count();
+                    Taslak = context.FaturaBilgileri.Where(e => e.FirmaID == id && e.DurumID == 3).Count();
+                    Silinmis = context.FaturaBilgileri.Where(e => e.FirmaID == id && e.DurumID == 4).Count();
+                }
                 return this;
             }
         }

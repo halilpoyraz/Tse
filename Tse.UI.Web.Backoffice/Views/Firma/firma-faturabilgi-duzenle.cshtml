@@ -12,23 +12,23 @@
         </div>
         <ul class="nav nav-tabs">
             <li class="active">
-                <a href="#yeni-adres" data-toggle="tab" aria-expanded="true">Yeni Adres</a>
+                <a href="#yeni-faturabilgi" data-toggle="tab" aria-expanded="true">Fatura Bilgisi Düzenle</a>
             </li>
         </ul>
     </div>
     <div class="portlet-body">
         <div class="tab-content">
-            <div id="yeni-adres" class="tab-pane active">
+            <div id="yeni-faturabilgi" class="tab-pane active">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="portlet light portlet-fit portlet-form">
                             <div class="portlet-body">
-                                @using (Html.BeginForm("firma-adres-ekle", "firma", FormMethod.Post, new { @name = "formAdresEkle", @id = "formAdresEkle", @class = "form-horizontal" }))
+                                @using (Html.BeginForm("firma-faturabilgi-duzenle", "firma", FormMethod.Post, new { @name = "formFaturaBilgiEkle", @id = "formFaturaBilgiEkle", @class = "form-horizontal" }))
                                 {
                                     @Html.AntiForgeryToken()
-                                    @Html.Hidden("Adres.AdresID", null)
-                                    @Html.Hidden("Adres.KisiID", null)                                        
-                                    @Html.Hidden("Adres.FirmaID", Model.Firma.FirmaID)
+                                    @Html.HiddenFor(m=>m.FaturaBilgi.FaturaBilgiID)
+                                    @Html.HiddenFor(m=>m.FaturaBilgi.KisiID)                                        
+                                    @Html.HiddenFor(m=>m.FaturaBilgi.FirmaID)
                                     <div class="form-body">
                                         <div class="alert alert-danger display-hide">
                                             <button class="close" data-close="alert"></button>
@@ -39,56 +39,38 @@
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label col-md-2">
-                                                <span>@Html.DisplayNameFor(m => m.Adres.AdresTipiID)</span>
+                                                <span>@Html.DisplayNameFor(m => m.FaturaBilgi.VergiDairesi)</span>
                                                 <span class="required"> * </span>
                                             </label>
                                             <div class="col-md-10">
-                                               @Html.DropDownListFor(m=>m.Adres.AdresTipiID,new SelectList(Model.AdresTipleri,"DegerID","DegerAdiTr", null).AddFirstItem("Seçiniz",""),  htmlAttributes: new { @class= "form-control" })
+                                                @Html.TextBoxFor(m => m.FaturaBilgi.VergiDairesi, htmlAttributes: new { @class = "form-control", @data_required = "1" })
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label col-md-2">
-                                                <span>@Html.DisplayNameFor(m => m.Adres.AdresSatiri)</span>
+                                                <span>@Html.DisplayNameFor(m => m.FaturaBilgi.VergiNo)</span>
                                                 <span class="required"> * </span>
                                             </label>
                                             <div class="col-md-10">
-                                                @Html.TextBoxFor(m => m.Adres.AdresSatiri, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                @Html.TextBoxFor(m => m.FaturaBilgi.VergiNo, htmlAttributes: new { @class = "form-control", @data_required = "1" })
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label col-md-2">
-                                                <span>@Html.DisplayNameFor(m => m.Adres.Ulke.UlkeAdi)</span>
+                                                <span>@Html.DisplayNameFor(m => m.FaturaBilgi.Adres.AdresSatiri)</span>
                                                 <span class="required"> * </span>
                                             </label>
                                             <div class="col-md-10">
-                                                @Html.DropDownListFor(m => m.Adres.UlkeID, new SelectList(Model.Ulkeler, "UlkeID", "UlkeAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                                @Html.DropDownListFor(m => m.FaturaBilgi.AdresID, new SelectList(Model.Adresler, "AdresID", "AdresSatiri", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label col-md-2">
-                                                <span>@Html.DisplayNameFor(m => m.Adres.Sehir.SehirAdi)</span>
+                                                <span>@Html.DisplayNameFor(m => m.FaturaBilgi.Durum.DurumAdi)</span>
                                                 <span class="required"> * </span>
                                             </label>
                                             <div class="col-md-10">
-                                                @Html.DropDownListFor(m => m.Adres.SehirID, new SelectList(Model.Sehirler, "SehirID", "SehirAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
-                                            </div>
-                                        </div>       
-                                        <div class="form-group">
-                                            <label class="control-label col-md-2">
-                                                <span>@Html.DisplayNameFor(m => m.Adres.Ilce.IlceAdi)</span>
-                                                <span class="required"> * </span>
-                                            </label>
-                                            <div class="col-md-10">
-                                                @Html.DropDownListFor(m => m.Adres.IlceID, new SelectList(Model.Ilceler, "IlceID", "IlceAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
-                                            </div>
-                                        </div>                                 
-                                        <div class="form-group">
-                                            <label class="control-label col-md-2">
-                                                <span>@Html.DisplayNameFor(m => m.Adres.Durum.DurumAdi)</span>
-                                                <span class="required"> * </span>
-                                            </label>
-                                            <div class="col-md-10">
-                                                @Html.DropDownListFor(m => m.Adres.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                                @Html.DropDownListFor(m => m.FaturaBilgi.DurumID, new SelectList(Model.Durumlar, "DurumID","DurumAdi",null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
                                             </div>
                                         </div>
                                     </div>
@@ -96,7 +78,7 @@
                                         <div class="row">
                                             <div class="col-md-12 text-right">
                                                 <button type="submit" class="btn green">Kaydet</button>
-                                                <button type="button" id="btn-yeni-adres-vazgec" class="btn grey-salsa btn-outline">Vazgeç</button>
+                                                <button type="button" id="btn-yeni-faturabilgi-vazgec" class="btn grey-salsa btn-outline">Vazgeç</button>
                                             </div>
                                         </div>
                                     </div>
