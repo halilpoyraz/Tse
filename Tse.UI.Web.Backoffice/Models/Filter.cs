@@ -137,7 +137,7 @@
 
                     Tum = context.StandartIcerikler.Where(e=>e.StandartID==id).Count();
                     Aktif = context.StandartIcerikler.Where(e => e.StandartID == id && e.DurumID == 1).Count();
-                    Pasif = context.StandartIcerikler.Where(e => e.StandartID == id && e.DurumID == 2).Count();
+                    Pasif = context.StandartIcerikler.Where(e => e.StandartID== id && e.DurumID == 2).Count();
                     Taslak = context.StandartIcerikler.Where(e => e.StandartID == id && e.DurumID == 3).Count();
                     Silinmis = context.StandartIcerikler.Where(e => e.StandartID == id && e.DurumID == 4).Count();                            
                 }
@@ -149,6 +149,14 @@
                     Taslak = context.Adresler.Where(e => e.FirmaID == id && e.DurumID == 3).Count();
                     Silinmis = context.Adresler.Where(e => e.FirmaID == id && e.DurumID == 4).Count();
                 }
+                else if (entityName == "KisiAdres")
+                {
+                    Tum = context.Adresler.Where(e => e.KisiID == id).Count();
+                    Aktif = context.Adresler.Where(e => e.KisiID == id && e.DurumID == 1).Count();
+                    Pasif = context.Adresler.Where(e => e.KisiID == id && e.DurumID == 2).Count();
+                    Taslak = context.Adresler.Where(e => e.KisiID == id && e.DurumID == 3).Count();
+                    Silinmis = context.Adresler.Where(e => e.KisiID == id && e.DurumID == 4).Count();
+                }
                 else if (entityName == "FirmaTelefon")
                 {
                     Tum = context.Telefonlar.Where(e => e.FirmaID == id).Count();
@@ -156,6 +164,14 @@
                     Pasif = context.Telefonlar.Where(e => e.FirmaID == id && e.DurumID == 2).Count();
                     Taslak = context.Telefonlar.Where(e => e.FirmaID == id && e.DurumID == 3).Count();
                     Silinmis = context.Telefonlar.Where(e => e.FirmaID == id && e.DurumID == 4).Count();
+                }
+                else if (entityName == "KisiTelefon")
+                {
+                    Tum = context.Telefonlar.Where(e => e.KisiID == id).Count();
+                    Aktif = context.Telefonlar.Where(e => e.KisiID == id && e.DurumID == 1).Count();
+                    Pasif = context.Telefonlar.Where(e => e.KisiID == id && e.DurumID == 2).Count();
+                    Taslak = context.Telefonlar.Where(e => e.KisiID == id && e.DurumID == 3).Count();
+                    Silinmis = context.Telefonlar.Where(e => e.KisiID == id && e.DurumID == 4).Count();
                 }
                 else if (entityName == "FirmaEposta")
                 {
@@ -165,6 +181,14 @@
                     Taslak = context.Epostalar.Where(e => e.FirmaID == id && e.DurumID == 3).Count();
                     Silinmis = context.Epostalar.Where(e => e.FirmaID == id && e.DurumID == 4).Count();
                 }
+                else if (entityName == "KisiEposta")
+                {
+                    Tum = context.Epostalar.Where(e => e.KisiID == id).Count();
+                    Aktif = context.Epostalar.Where(e => e.KisiID == id && e.DurumID == 1).Count();
+                    Pasif = context.Epostalar.Where(e => e.KisiID == id && e.DurumID == 2).Count();
+                    Taslak = context.Epostalar.Where(e => e.KisiID == id && e.DurumID == 3).Count();
+                    Silinmis = context.Epostalar.Where(e => e.KisiID == id && e.DurumID == 4).Count();
+                }
                 else if (entityName == "FirmaFaturaBilgi")
                 {
                     Tum = context.FaturaBilgileri.Where(e => e.FirmaID == id).Count();
@@ -172,6 +196,14 @@
                     Pasif = context.FaturaBilgileri.Where(e => e.FirmaID == id && e.DurumID == 2).Count();
                     Taslak = context.FaturaBilgileri.Where(e => e.FirmaID == id && e.DurumID == 3).Count();
                     Silinmis = context.FaturaBilgileri.Where(e => e.FirmaID == id && e.DurumID == 4).Count();
+                }
+                else if (entityName == "KisiFaturaBilgi")
+                {
+                    Tum = context.FaturaBilgileri.Where(e => e.KisiID == id).Count();
+                    Aktif = context.FaturaBilgileri.Where(e => e.KisiID == id && e.DurumID == 1).Count();
+                    Pasif = context.FaturaBilgileri.Where(e => e.KisiID == id && e.DurumID == 2).Count();
+                    Taslak = context.FaturaBilgileri.Where(e => e.KisiID == id && e.DurumID == 3).Count();
+                    Silinmis = context.FaturaBilgileri.Where(e => e.KisiID == id && e.DurumID == 4).Count();
                 }
                 return this;
             }

@@ -3,39 +3,39 @@
     using Dal.Backoffice.Model;
     using System;
     using System.Data.Entity;
-    using System.Linq;
     using System.Web.Mvc;
     using ViewModels;
 
     public class KisiController : Controller
     {
+        //Kisi
         public ActionResult Listele()
         {
             var model = new KisiListeleViewModel();
             return View(model);
         }
 
-        public ActionResult Ekle()
+        [ActionName("kisi-ekle")]
+        public ActionResult KisiEkle()
         {
             var model = new KisiEkleViewModel();
             TempData["DisplayStatus"] = "display-hide";
             return View(model);
         }
 
-
-        [HttpPost ValidateAntiForgeryToken]
-        public ActionResult Ekle([Bind(Include = "KisiID,Adi,Soyadi,TcKimlikNo,Unvan,DurumID")] Kisi kisi)
+        [ActionName("kisi-ekle") HttpPost ValidateAntiForgeryToken]
+        public ActionResult KisiEkle(Kisi kisi)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
-                var model = new KisiEkleViewModel();
+                var model = new FirmaEkleViewModel();
 
                 if (ModelState.IsValid)
                 {
                     context.Kisiler.Add(kisi);
                     context.SaveChanges();
                     TempData["DisplayStatus"] = "";
-                    return View(model);
+                    return RedirectToAction("kisi-duzenle", new { kisiID = kisi.KisiID });
                 }
                 else
                 {
@@ -45,26 +45,30 @@
             }
         }
 
-        public ActionResult Duzenle(int? id)
+        [ActionName("kisi-duzenle")]
+        public ActionResult KisiDuzenle(int? kisiID)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
-                if (id == null)
-                    return RedirectToAction("index", "hata", new { HataId = 2 });
-                else
+                if (kisiID != null)
                 {
-                    var model = new KisiDuzenleViewModel();
-                    model.Kisi = context.Kisiler.Find(id);
-                    if (model.Kisi == null)
-                        return RedirectToAction("listele", "kisi");
-                    else
+                    var model = new KisiDuzenleViewModel(kisiID);
+                    model.Kisi = context.Kisiler.Find(kisiID);
+                    if (model.Kisi != null)
+                    {
+                        TempData["DisplayStatus"] = "display-hide";
                         return View(model);
+                    }
+                    else
+                        return RedirectToAction("listele", "firma");
                 }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
             }
         }
 
-        [HttpPost ValidateAntiForgeryToken]
-        public ActionResult Duzenle([Bind(Include = "KisiID,Adi,Soyadi,TcKimlikNo,Unvan,DurumID")] Kisi kisi)
+        [ActionName("kisi-duzenle") HttpPost ValidateAntiForgeryToken]
+        public ActionResult KisiDuzenle(Kisi kisi)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
@@ -72,14 +76,16 @@
                 {
                     context.Entry(kisi).State = EntityState.Modified;
                     context.SaveChanges();
-                    return RedirectToAction("listele");
+                    TempData["DisplayStatus"] = "";
+                    KisiDuzenleViewModel model = new KisiDuzenleViewModel(kisi.KisiID);
+                    return View(model);
                 }
                 return RedirectToAction("index", "hata", new { HataId = 4 });
             }
         }
 
-        [HttpPost]
-        public ActionResult Sil(int? id)
+        [ActionName("kisi-sil") HttpPost]
+        public ActionResult KisiSil(int? id)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
@@ -90,7 +96,7 @@
 
                 Kisi kisi = context.Kisiler.Find(id);
 
-                if (kisi!= null)
+                if (kisi != null)
                 {
                     try
                     {

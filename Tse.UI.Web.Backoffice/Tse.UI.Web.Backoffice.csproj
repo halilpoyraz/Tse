@@ -235,6 +235,7 @@
     <Content Include="Content\assets\pages\scripts\baslangic.min.js">
       <DependentUpon>baslangic.js</DependentUpon>
     </Content>
+    <Content Include="Content\assets\pages\scripts\kisi.js" />
     <Content Include="Content\assets\pages\scripts\firma.min.js">
       <DependentUpon>firma.js</DependentUpon>
     </Content>
@@ -247,7 +248,6 @@
       <DependentUpon>kategori.js</DependentUpon>
     </Content>
     <Content Include="Content\assets\pages\scripts\firma.js" />
-    <Content Include="Content\assets\pages\scripts\kisi.js" />
     <Content Include="Content\assets\pages\scripts\kisi.min.js">
       <DependentUpon>kisi.js</DependentUpon>
     </Content>
@@ -6203,8 +6203,6 @@
     <Content Include="Views\Baslangic\guncellemeler.cshtml" />
     <Content Include="Views\Ulke\listele.cshtml" />
     <Content Include="Views\Ulke\ekle.cshtml" />
-    <Content Include="Views\Kisi\listele.cshtml" />
-    <Content Include="Views\Kisi\ekle.cshtml" />
     <Content Include="Views\Test\Index.cshtml" />
     <Content Include="Views\Ulke\duzenle.cshtml" />
     <Content Include="Views\Hata\Index.cshtml" />
@@ -6220,7 +6218,6 @@
     <Content Include="Views\Standart\listele.cshtml" />
     <Content Include="Views\Standart\duzenle.cshtml" />
     <Content Include="Views\Standart\ekle.cshtml" />
-    <Content Include="Views\Kisi\duzenle.cshtml" />
     <Content Include="Views\Firma\listele.cshtml" />
     <Content Include="Views\Firma\firma-duzenle.cshtml" />
     <Content Include="Views\Firma\firma-ekle.cshtml" />
@@ -6231,6 +6228,9 @@
     <Content Include="Views\Firma\firma-eposta-duzenle.cshtml" />
     <Content Include="Views\Firma\firma-faturabilgi-ekle.cshtml" />
     <Content Include="Views\Firma\firma-faturabilgi-duzenle.cshtml" />
+    <Content Include="Views\Kisi\listele.cshtml" />
+    <Content Include="Views\Kisi\kisi-ekle.cshtml" />
+    <Content Include="Views\Kisi\kisi-duzenle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

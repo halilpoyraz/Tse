@@ -15,7 +15,7 @@
                 Meta = new Meta()
                 {
                     Title = "Tüm Firmalar",
-                    Description = "Bu ekrandan firma listeleme, filtreleme, düzenleme ve yeni standart ekleme işlemleri yapılmaktadır."
+                    Description = "Bu ekrandan firma listeleme, filtreleme, düzenleme ve yeni firma ekleme işlemleri yapılmaktadır."
                 };
 
                 BreadCrumb = new BreadCrumb()

@@ -102,7 +102,7 @@
                                 if (confirm(row.ticaretUnvani + ' kaydını silmek istediğine emin misin?'))
                                     post('/firma/firma-sil', { id: row.firmaID });
                                 else 
-                                    e.preventDefault();                 
+                                    return false;
                             }
                         }
                     });
