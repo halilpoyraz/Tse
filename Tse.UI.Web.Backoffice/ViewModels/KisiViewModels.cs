@@ -103,14 +103,14 @@
 
                 FilterAdres = new Filter().Create("KisiAdres", kisiID);
                 Kisi = context.Kisiler.Find(kisiID);
-                Adresler = context.Adresler.Include("Ulke").Include("Sehir").Include("Ilce").Include("AdresTipi").Where(a => a.FirmaID == kisiID).ToList();
+                Adresler = context.Adresler.Include("Ulke").Include("Sehir").Include("Ilce").Include("AdresTipi").Where(a => a.KisiID == kisiID).ToList();
                 AdresTipleri = context.Degerler.Where(d => d.KategoriID == 6).ToList();
                 Ilceler = context.Ilceler.Where(i => i.DurumID == 1).OrderBy(i => i.IlceAdi).ToList();
                 Sehirler = context.Sehirler.Where(i => i.DurumID == 1).OrderBy(i => i.SehirAdi).ToList();
                 Ulkeler = context.Ulkeler.Where(i => i.DurumID == 1).OrderBy(i => i.UlkeAdi).ToList();
                 Durumlar = context.Durumlar.ToList();
 
-                FilterTelefon = new Filter().Create("FirmaTelefon", kisiID);
+                FilterTelefon = new Filter().Create("KisiTelefon", kisiID);
                 TelefonTipleri = context.Degerler.Where(d => d.KategoriID == 5).ToList();
                 Telefonlar = context.Telefonlar.Include("TelefonTipi").Where(a => a.KisiID == kisiID).ToList();
 

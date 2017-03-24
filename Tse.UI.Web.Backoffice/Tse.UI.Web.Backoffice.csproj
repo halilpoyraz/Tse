@@ -6231,6 +6231,10 @@
     <Content Include="Views\Kisi\listele.cshtml" />
     <Content Include="Views\Kisi\kisi-ekle.cshtml" />
     <Content Include="Views\Kisi\kisi-duzenle.cshtml" />
+    <Content Include="Views\Kisi\kisi-adres-duzenle.cshtml" />
+    <Content Include="Views\Kisi\kisi-adres-ekle.cshtml" />
+    <Content Include="Views\Kisi\kisi-telefon-ekle.cshtml" />
+    <Content Include="Views\Kisi\kisi-telefon-duzenle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

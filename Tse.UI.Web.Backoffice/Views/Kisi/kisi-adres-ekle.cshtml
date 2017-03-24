@@ -1,0 +1,111 @@
+﻿@using Tse.UI.Web.Backoffice.Helpers
+@model Tse.UI.Web.Backoffice.ViewModels.KisiDuzenleViewModel
+@section renderSection{
+    <script type="text/javascript" src="~/Content/assets/pages/scripts/kisi.min.js"></script>
+    <script type="text/javascript">jQuery(document).ready(function () { KisiDuzenle.init(); });</script>
+}
+<div class="portlet light bordered">
+    <div class="portlet-title tabbable-line">
+        <div class="caption">
+            <i class="fa fa-briefcase" aria-hidden="true"></i>
+            <span id="standart-title" class="caption-subject font-dark bold text-capitalize">@Model.Kisi.Adi @Model.Kisi.Soyadi</span>
+        </div>
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a href="#yeni-adres" data-toggle="tab" aria-expanded="true">Yeni Adres</a>
+            </li>
+        </ul>
+    </div>
+    <div class="portlet-body">
+        <div class="tab-content">
+            <div id="yeni-adres" class="tab-pane active">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="portlet light portlet-fit portlet-form">
+                            <div class="portlet-body">
+                                @using (Html.BeginForm("kisi-adres-ekle", "kisi", FormMethod.Post, new { @name = "formAdresEkle", @id = "formAdresEkle", @class = "form-horizontal" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.Hidden("Adres.AdresID", null)
+                                    @Html.Hidden("Adres.KisiID", Model.Kisi.KisiID)
+                                    @Html.Hidden("Adres.FirmaID", null)
+                                    <div class="form-body">
+                                        <div class="alert alert-danger display-hide">
+                                            <button class="close" data-close="alert"></button>
+                                            Formdaki alanları doğru ve eksiksiz bir biçimde doldurunuz.
+                                        </div>
+                                        <div class="alert alert-success @TempData["DisplayStatus"]">
+                                            <button class="close" data-close="alert"></button> Kayıt Eklendi.
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">
+                                                <span>@Html.DisplayNameFor(m => m.Adres.AdresTipiID)</span>
+                                                <span class="required"> * </span>
+                                            </label>
+                                            <div class="col-md-10">
+                                               @Html.DropDownListFor(m=>m.Adres.AdresTipiID,new SelectList(Model.AdresTipleri,"DegerID","DegerAdiTr", null).AddFirstItem("Seçiniz",""),  htmlAttributes: new { @class= "form-control" })
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">
+                                                <span>@Html.DisplayNameFor(m => m.Adres.AdresSatiri)</span>
+                                                <span class="required"> * </span>
+                                            </label>
+                                            <div class="col-md-10">
+                                                @Html.TextBoxFor(m => m.Adres.AdresSatiri, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">
+                                                <span>@Html.DisplayNameFor(m => m.Adres.Ulke.UlkeAdi)</span>
+                                                <span class="required"> * </span>
+                                            </label>
+                                            <div class="col-md-10">
+                                                @Html.DropDownListFor(m => m.Adres.UlkeID, new SelectList(Model.Ulkeler, "UlkeID", "UlkeAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">
+                                                <span>@Html.DisplayNameFor(m => m.Adres.Sehir.SehirAdi)</span>
+                                                <span class="required"> * </span>
+                                            </label>
+                                            <div class="col-md-10">
+                                                @Html.DropDownListFor(m => m.Adres.SehirID, new SelectList(Model.Sehirler, "SehirID", "SehirAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                            </div>
+                                        </div>       
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">
+                                                <span>@Html.DisplayNameFor(m => m.Adres.Ilce.IlceAdi)</span>
+                                                <span class="required"> * </span>
+                                            </label>
+                                            <div class="col-md-10">
+                                                @Html.DropDownListFor(m => m.Adres.IlceID, new SelectList(Model.Ilceler, "IlceID", "IlceAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                            </div>
+                                        </div>                                 
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">
+                                                <span>@Html.DisplayNameFor(m => m.Adres.Durum.DurumAdi)</span>
+                                                <span class="required"> * </span>
+                                            </label>
+                                            <div class="col-md-10">
+                                                @Html.DropDownListFor(m => m.Adres.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-actions">
+                                        <div class="row">
+                                            <div class="col-md-12 text-right">
+                                                <button type="submit" class="btn green">Kaydet</button>
+                                                <button type="button" id="btn-yeni-adres-vazgec" class="btn grey-salsa btn-outline">Vazgeç</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+</div>

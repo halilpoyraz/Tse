@@ -1,0 +1,94 @@
+﻿@using Tse.UI.Web.Backoffice.Helpers
+@model Tse.UI.Web.Backoffice.ViewModels.KisiDuzenleViewModel
+@section renderSection{
+    <script type="text/javascript" src="~/Content/assets/pages/scripts/kisi.min.js"></script>
+    <script type="text/javascript">jQuery(document).ready(function () { KisiDuzenle.init(); });</script>
+}
+<div class="portlet light bordered">
+    <div class="portlet-title tabbable-line">
+        <div class="caption">
+            <i class="fa fa-briefcase" aria-hidden="true"></i>
+            <span id="standart-title" class="caption-subject font-dark bold text-capitalize">@Model.Kisi.Adi @Model.Kisi.Soyadi</span>
+        </div>
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a href="#yeni-telefon" data-toggle="tab" aria-expanded="true">Yeni Telefon</a>
+            </li>
+        </ul>
+    </div>
+    <div class="portlet-body">
+        <div class="tab-content">
+            <div id="yeni-telefon" class="tab-pane active">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="portlet light portlet-fit portlet-form">
+                            <div class="portlet-body">
+                                @using (Html.BeginForm("kisi-telefon-ekle", "kisi", FormMethod.Post, new { @name = "formTelefonEkle", @id = "formTelefonEkle", @class = "form-horizontal" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.Hidden("Telefon.TelefonID", null)
+                                    @Html.Hidden("Telefon.KisiID", Model.Kisi.KisiID)
+                                    @Html.Hidden("Telefon.FirmaID", null)  
+                                    <div class="form-body">
+                                        <div class="alert alert-danger display-hide">
+                                            <button class="close" data-close="alert"></button>
+                                            Formdaki alanları doğru ve eksiksiz bir biçimde doldurunuz.
+                                        </div>
+                                        <div class="alert alert-success @TempData["DisplayStatus"]">
+                                            <button class="close" data-close="alert"></button> Kayıt Eklendi.
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">
+                                                <span>@Html.DisplayNameFor(m => m.Telefon.TelefonTipiID)</span>
+                                                <span class="required"> * </span>
+                                            </label>
+                                            <div class="col-md-10">
+                                                @Html.DropDownListFor(m => m.Telefon.TelefonTipiID, new SelectList(Model.TelefonTipleri, "DegerID", "DegerAdiTr", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">
+                                                <span>@Html.DisplayNameFor(m => m.Telefon.TelefonNo)</span>
+                                                <span class="required"> * </span>
+                                            </label>
+                                            <div class="col-md-10">
+                                                @Html.TextBoxFor(m => m.Telefon.TelefonNo, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                                <span class="help-block"> Örnek: 4440444 veya 05345950000 veya 02164257260  </span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">
+                                                <span>@Html.DisplayNameFor(m => m.Telefon.DahiliNo)</span>
+                                                <span class="color-white"> * </span>
+                                            </label>
+                                            <div class="col-md-10">
+                                                @Html.TextBoxFor(m => m.Telefon.DahiliNo, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-2">
+                                                <span>@Html.DisplayNameFor(m => m.Telefon.Durum.DurumAdi)</span>
+                                                <span class="required"> * </span>
+                                            </label>
+                                            <div class="col-md-10">
+                                                @Html.DropDownListFor(m => m.Telefon.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-actions">
+                                        <div class="row">
+                                            <div class="col-md-12 text-right">
+                                                <button type="submit" class="btn green">Kaydet</button>
+                                                <button type="button" id="btn-yeni-telefon-vazgec" class="btn grey-salsa btn-outline">Vazgeç</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
