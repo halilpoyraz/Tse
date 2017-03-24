@@ -6235,6 +6235,10 @@
     <Content Include="Views\Kisi\kisi-adres-ekle.cshtml" />
     <Content Include="Views\Kisi\kisi-telefon-ekle.cshtml" />
     <Content Include="Views\Kisi\kisi-telefon-duzenle.cshtml" />
+    <Content Include="Views\Kisi\kisi-eposta-duzenle.cshtml" />
+    <Content Include="Views\Kisi\kisi-eposta-ekle.cshtml" />
+    <Content Include="Views\Kisi\kisi-faturabilgi-duzenle.cshtml" />
+    <Content Include="Views\Kisi\kisi-faturabilgi-ekle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

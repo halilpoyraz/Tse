@@ -470,5 +470,122 @@
                     return RedirectToAction("index", "hata", new { HataId = 2 });
             }
         }
+
+
+        //KisiFaturaBilgi
+        [ActionName("kisi-faturabilgi-listele")]
+        public ActionResult KisifaturaBilgiListele(int? kisiID)
+        {
+            TempData["activeTab"] = "kisi-faturabilgi";
+            return RedirectToAction("kisi-duzenle", new { kisiID = kisiID });
+        }
+
+        [ActionName("kisi-faturabilgi-ekle")]
+        public ActionResult KisiFaturaBilgiEkle(int? kisiID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (kisiID != null)
+                {
+                    var model = new KisiDuzenleViewModel(kisiID);
+                    model.Kisi = context.Kisiler.Find(kisiID);
+
+                    if (model.Kisi != null)
+                    {
+                        TempData["DisplayStatus"] = "display-hide";
+                        return View(model);
+                    }
+                    else
+                        return RedirectToAction("listele", "kisi");
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+            }
+        }
+
+        [HttpPost ActionName("kisi-faturabilgi-ekle") ValidateAntiForgeryToken]
+        public ActionResult KisiFaturaBilgiEkle(FaturaBilgi faturabilgi)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                context.FaturaBilgileri.Add(faturabilgi);
+                context.SaveChanges();
+                TempData["activeTab"] = "kisi-faturabilgi";
+                return RedirectToAction("kisi-duzenle", new { kisiID = faturabilgi.KisiID });
+            }
+        }
+
+        [ActionName("kisi-faturabilgi-duzenle")]
+        public ActionResult KisiFaturaBilgiDuzenle(int? kisiID, int? faturabilgiID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (kisiID != null && faturabilgiID != null)
+                {
+                    var model = new KisiDuzenleViewModel(kisiID);
+                    model.Kisi = context.Kisiler.Find(kisiID);
+                    model.FaturaBilgi = context.FaturaBilgileri.Find(faturabilgiID);
+                    if (model.Kisi != null && model.FaturaBilgi != null)
+                    {
+                        TempData["DisplayStatus"] = "display-hide";
+                        return View(model);
+                    }
+                    else
+                        return RedirectToAction("kisi-faturabilgi-listele", "kisi", new { kisiID = kisiID });
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+            }
+        }
+
+        [HttpPost ActionName("kisi-faturabilgi-duzenle") ValidateAntiForgeryToken]
+        public ActionResult KisiFaturaBilgiDuzenle(FaturaBilgi faturabilgi)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                context.Entry(faturabilgi).State = EntityState.Modified;
+                context.SaveChanges();
+                TempData["DisplayStatus"] = "";
+                return RedirectToAction("kisi-faturabilgi-listele", new { kisiID = faturabilgi.KisiID });
+            }
+        }
+
+        [HttpPost ActionName("kisi-faturabilgi-sil")]
+        public ActionResult KisiFaturaBilgiSil(int? kisiID, int? faturabilgiID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (kisiID != null && faturabilgiID != null)
+                {
+                    FaturaBilgi faturabilgi = context.FaturaBilgileri.Find(faturabilgiID);
+
+                    if (faturabilgi != null)
+                    {
+                        try
+                        {
+                            context.FaturaBilgileri.Remove(faturabilgi);
+                            context.SaveChanges();
+                        }
+                        catch (Exception)
+                        {
+                            try
+                            {
+                                faturabilgi.DurumID = 4;
+                                context.Entry(faturabilgi).State = EntityState.Modified;
+                                context.SaveChanges();
+                            }
+                            catch (Exception)
+                            {
+                                return RedirectToAction("index", "hata", new { HataId = 4 });
+                            }
+                        }
+                    }
+                    TempData["activeTab"] = "kisi-faturabilgi";
+                    return RedirectToAction("kisi-duzenle", new { kisiID = kisiID });
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+            }
+        }
     }
 }

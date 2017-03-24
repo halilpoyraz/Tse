@@ -343,7 +343,7 @@ var KisiDuzenle = function () {
             },
             "columnDefs": [{
                 'orderable': true,
-                'targets': [0, 1, 2]
+                'targets': [0, 1, 2, 3]
             }, {
                 "searchable": true,
                 "targets": [0, 1, 2]
@@ -462,7 +462,7 @@ var KisiDuzenle = function () {
             },
             "columnDefs": [{
                 'orderable': true,
-                'targets': [0, 1]
+                'targets': [0, 1, 2]
             }, {
                 "searchable": true,
                 "targets": [0, 1]
@@ -558,123 +558,123 @@ var KisiDuzenle = function () {
     };
 
     //FaturaBilgi
-    //var FirmaFaturaBilgiDataTable = function () {
-    //    function restoreRow(oTable, nRow) {
-    //        var aData = oTable.fnGetData(nRow);
-    //        var jqTds = $('>td', nRow);
-    //        for (var i = 0, iLen = jqTds.length; i < iLen; i++) {
-    //            oTable.fnUpdate(aData[i], nRow, i, false);
-    //        }
-    //        oTable.fnDraw();
-    //    }
-    //    var table = $('#tableFirmaFaturaBilgi');
-    //    var oTable = table.dataTable({
-    //        "lengthMenu": [
-    //            [10, 20, 100, -1],
-    //            [10, 20, 100, "Hepsi"]
-    //        ],
-    //        "pageLength": 10,
-    //        "language": {
-    //            "lengthMenu": " _MENU_ Kayıt"
-    //        },
-    //        "columnDefs": [{
-    //            'orderable': true,
-    //            'targets': [0, 1, 2, 3]
-    //        }, {
-    //            "searchable": true,
-    //            "targets": [0, 1, 2, 3]
-    //        }],
-    //        "order": [
-    //            [1, "asc"]
-    //        ]
-    //    });
-    //};
-    //var FirmaFaturaBilgiFiltrele = function () {
-    //    $('#faturabilgiBtnTumKayitlar').click(function () {
-    //        var e = jQuery.Event('keyup', { which: 13 });
-    //        $("input.form-control.input-sm.input-small.input-inline").val("").trigger(e);
-    //    });
-    //    $('#faturabilgiBtnAktif').click(function () {
-    //        var e = jQuery.Event('keyup', { which: 13 });
-    //        $("input.form-control.input-sm.input-small.input-inline").val("Aktif").trigger(e);
-    //    });
-    //    $('#faturabilgiBtnPasif').click(function () {
-    //        var e = jQuery.Event('keyup', { which: 13 });
-    //        $("input.form-control.input-sm.input-small.input-inline").val("Pasif").trigger(e);
-    //    });
-    //    $('#faturabilgiBtnTaslak').click(function () {
-    //        var e = jQuery.Event('keyup', { which: 13 });
-    //        $("input.form-control.input-sm.input-small.input-inline").val("Taslak").trigger(e);
-    //    });
-    //    $('#faturabilgiBtnSilinmis').click(function () {
-    //        var e = jQuery.Event('keyup', { which: 13 });
-    //        $("input.form-control.input-sm.input-small.input-inline").val("Silinmiş").trigger(e);
-    //    });
-    //};
-    //var FirmaFaturaBilgiBtnYeniFaturaBilgi = function () {
-    //    $("#btn-yeni-faturabilgi").click(function () {
-    //        window.location.href = '/firma/firma-faturabilgi-ekle?firmaID=' + firmaID;
-    //    });
-    //};
-    //var FirmaFaturaBilgiEkleBtnKaydet = function () {
-    //    var form = $('#formFaturaBilgiEkle');
-    //    var error = $('.alert-danger', form);
-    //    var success = $('.alert-success', form);
+    var KisiFaturaBilgiDataTable = function () {
+        function restoreRow(oTable, nRow) {
+            var aData = oTable.fnGetData(nRow);
+            var jqTds = $('>td', nRow);
+            for (var i = 0, iLen = jqTds.length; i < iLen; i++) {
+                oTable.fnUpdate(aData[i], nRow, i, false);
+            }
+            oTable.fnDraw();
+        }
+        var table = $('#tableKisiFaturaBilgi');
+        var oTable = table.dataTable({
+            "lengthMenu": [
+                [10, 20, 100, -1],
+                [10, 20, 100, "Hepsi"]
+            ],
+            "pageLength": 10,
+            "language": {
+                "lengthMenu": " _MENU_ Kayıt"
+            },
+            "columnDefs": [{
+                'orderable': true,
+                'targets': [0, 1, 2, 3]
+            }, {
+                "searchable": true,
+                "targets": [0, 1, 2, 3]
+            }],
+            "order": [
+                [1, "asc"]
+            ]
+        });
+    };
+    var KisiFaturaBilgiFiltrele = function () {
+        $('#faturabilgiBtnTumKayitlar').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("").trigger(e);
+        });
+        $('#faturabilgiBtnAktif').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Aktif").trigger(e);
+        });
+        $('#faturabilgiBtnPasif').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Pasif").trigger(e);
+        });
+        $('#faturabilgiBtnTaslak').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Taslak").trigger(e);
+        });
+        $('#faturabilgiBtnSilinmis').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Silinmiş").trigger(e);
+        });
+    };
+    var KisiFaturaBilgiBtnYeniFaturaBilgi = function () {
+        $("#btn-yeni-faturabilgi").click(function () {
+            window.location.href = '/kisi/kisi-faturabilgi-ekle?kisiID=' + kisiID;
+        });
+    };
+    var KisiFaturaBilgiEkleBtnKaydet = function () {
+        var form = $('#formFaturaBilgiEkle');
+        var error = $('.alert-danger', form);
+        var success = $('.alert-success', form);
 
-    //    form.validate({
-    //        errorElement: 'span',
-    //        errorClass: 'help-block help-block-error',
-    //        focusInvalid: false,
-    //        ignore: "",
-    //        messages: {
-    //            select_multi: {
-    //                maxlength: jQuery.validator.format("Max {0} items allowed for selection"),
-    //                minlength: jQuery.validator.format("At least {0} items must be selected")
-    //            }
-    //        },
-    //        rules: {
-    //            'FaturaBilgi.VergiDairesi': { minlength: 2, required: true, number: false },
-    //            'FaturaBilgi.VergiNo': { minlength: 10, maxlength: 10, required: true, number: true },
-    //            'FaturaBilgi.AdresID': { required: true },
-    //            'FaturaBilgi.DurumID': { required: true }
-    //        },
-    //        invalidHandler: function (event, validator) {
-    //            success.hide();
-    //            error.show();
-    //            App.scrollTo(error, -200);
-    //        },
-    //        errorPlacement: function (error, element) {
-    //            var cont = $(element).parent('.input-group');
-    //            if (cont) {
-    //                cont.after(error);
-    //            } else {
-    //                element.after(error);
-    //            }
-    //        },
-    //        highlight: function (element) {
+        form.validate({
+            errorElement: 'span',
+            errorClass: 'help-block help-block-error',
+            focusInvalid: false,
+            ignore: "",
+            messages: {
+                select_multi: {
+                    maxlength: jQuery.validator.format("Max {0} items allowed for selection"),
+                    minlength: jQuery.validator.format("At least {0} items must be selected")
+                }
+            },
+            rules: {
+                'FaturaBilgi.VergiDairesi': { minlength: 2, required: true, number: false },
+                'FaturaBilgi.VergiNo': { minlength: 10, maxlength: 10, required: true, number: true },
+                'FaturaBilgi.AdresID': { required: true },
+                'FaturaBilgi.DurumID': { required: true }
+            },
+            invalidHandler: function (event, validator) {
+                success.hide();
+                error.show();
+                App.scrollTo(error, -200);
+            },
+            errorPlacement: function (error, element) {
+                var cont = $(element).parent('.input-group');
+                if (cont) {
+                    cont.after(error);
+                } else {
+                    element.after(error);
+                }
+            },
+            highlight: function (element) {
 
-    //            $(element)
-    //                .closest('.form-group').addClass('has-error');
-    //        },
-    //        unhighlight: function (element) {
-    //            $(element)
-    //                .closest('.form-group').removeClass('has-error');
-    //        },
-    //        success: function (label) {
-    //            label
-    //                .closest('.form-group').removeClass('has-error');
-    //        },
-    //        submitHandler: function (form) {
-    //            this.submit();
-    //        }
-    //    });
-    //};
-    //var FirmaFaturaBilgiEkleBtnVazgec = function () {
-    //    $("#btn-yeni-faturabilgi-vazgec").click(function () {
-    //        var firmaID = $("#FaturaBilgi_FirmaID").val();
-    //        if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?')) window.location.href = '/firma/firma-faturabilgi-listele?firmaID=' + firmaID; else return false;
-    //    });
-    //};
+                $(element)
+                    .closest('.form-group').addClass('has-error');
+            },
+            unhighlight: function (element) {
+                $(element)
+                    .closest('.form-group').removeClass('has-error');
+            },
+            success: function (label) {
+                label
+                    .closest('.form-group').removeClass('has-error');
+            },
+            submitHandler: function (form) {
+                this.submit();
+            }
+        });
+    };
+    var KisiFaturaBilgiEkleBtnVazgec = function () {
+        $("#btn-yeni-faturabilgi-vazgec").click(function () {
+            var kisiID = $("#FaturaBilgi_KisiID").val();
+            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?')) window.location.href = '/kisi/kisi-faturabilgi-listele?kisiID=' + kisiID; else return false;
+        });
+    };
 
     return {
         init: function () {
@@ -695,11 +695,11 @@ var KisiDuzenle = function () {
             KisiEpostaBtnYeniEposta();
             KisiEpostaEkleBtnKaydet();
             KisiEpostaEkleBtnVazgec();
-            //FirmaFaturaBilgiDataTable();
-            //FirmaFaturaBilgiFiltrele();
-            //FirmaFaturaBilgiBtnYeniFaturaBilgi();
-            //FirmaFaturaBilgiEkleBtnKaydet();
-            //FirmaFaturaBilgiEkleBtnVazgec();
+            KisiFaturaBilgiDataTable();
+            KisiFaturaBilgiFiltrele();
+            KisiFaturaBilgiBtnYeniFaturaBilgi();
+            KisiFaturaBilgiEkleBtnKaydet();
+            KisiFaturaBilgiEkleBtnVazgec();
         }
     };
 }();

@@ -1,8 +1,9 @@
 ﻿@using Tse.UI.Web.Backoffice.Helpers
 @model Tse.UI.Web.Backoffice.ViewModels.KisiDuzenleViewModel
-@section renderSection{ <script type="text/javascript" src="~/Content/assets/pages/scripts/kisi.min.js"></script> 
-<script type="text/javascript">jQuery(document).ready(function () { KisiDuzenle.init(); });</script>
-}    
+@section renderSection{
+    <script type="text/javascript" src="~/Content/assets/pages/scripts/kisi.min.js"></script>
+    <script type="text/javascript">jQuery(document).ready(function () { KisiDuzenle.init(); });</script>
+}
 <div class="portlet light bordered">
     <div class="portlet-title tabbable-line">
         <div class="caption">
@@ -16,15 +17,15 @@
             <li class="@Html.Raw((TempData["activeTab"] == "kisi-adres") ? "active" : "")">
                 <a href="#kisi-adres" data-toggle="tab" aria-expanded="true">Adres</a>
             </li>
-           <li class="@Html.Raw((TempData["activeTab"] == "kisi-telefon") ? "active" : "")">
+            <li class="@Html.Raw((TempData["activeTab"] == "kisi-telefon") ? "active" : "")">
                 <a href="#kisi-telefon" data-toggle="tab" aria-expanded="true">Telefon</a>
             </li>
             <li class="@Html.Raw((TempData["activeTab"] == "kisi-eposta") ? "active" : "")">
                 <a href="#kisi-eposta" data-toggle="tab" aria-expanded="true">E-Posta</a>
             </li>
-            @*<li class="@Html.Raw((TempData["activeTab"] == "kisi-faturabilgi") ? "active" : "")">
-                <a href="#kisi-faturabilgi" data-toggle="tab" aria-expanded="true">FaturaBilgi</a>
-            </li>*@
+            <li class="@Html.Raw((TempData["activeTab"] == "kisi-faturabilgi") ? "active" : "")">
+                    <a href="#kisi-faturabilgi" data-toggle="tab" aria-expanded="true">Fatura Bilgi</a>
+            </li>
         </ul>
     </div>
     <div class="portlet-body">
@@ -36,79 +37,79 @@
                             <div class="portlet-body">
                                 @using (Html.BeginForm("kisi-duzenle", "kisi", FormMethod.Post, new { @name = "form1", @id = "form1", @class = "form-horizontal" }))
                                 {
-                                    @Html.AntiForgeryToken()
-                                    @Html.HiddenFor(m => m.Kisi.KisiID)
-                                    <div class="form-body">
-                                        <div class="alert alert-danger display-hide">
-                                            <button class="close" data-close="alert"></button>
-                                            Formdaki alanları doğru ve eksiksiz bir biçimde doldurunuz.
-                                        </div>
-                                        <div class="alert alert-success @TempData["DisplayStatus"]">
-                                            <button class="close" data-close="alert"></button> Kayıt Güncellendi.
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3">
-                                                <span>@Html.DisplayNameFor(m => m.Kisi.Adi)</span>
-                                                <span class="required"> * </span>
-                                            </label>
-                                            <div class="col-md-9">
-                                                @Html.TextBoxFor(m => m.Kisi.Adi, htmlAttributes: new { @class = "form-control", @data_required = "1" })
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3">
-                                                <span>@Html.DisplayNameFor(m => m.Kisi.Soyadi)</span>
-                                                <span class="required"> * </span>
-                                            </label>
-                                            <div class="col-md-9">
-                                                @Html.TextBoxFor(m => m.Kisi.Soyadi, htmlAttributes: new { @class = "form-control", @data_required = "1" })
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3">
-                                                <span>@Html.DisplayNameFor(m => m.Kisi.TcKimlikNo)</span>
-                                                <span class="required"> * </span>
-                                            </label>
-                                            <div class="col-md-9">
-                                                @Html.TextBoxFor(m => m.Kisi.TcKimlikNo, htmlAttributes: new { @class = "form-control", @data_required = "1" })
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3">
-                                                <span>@Html.DisplayNameFor(m => m.Kisi.Unvan)</span>
-                                                <span class="required"> * </span>
-                                            </label>
-                                            <div class="col-md-9">
-                                                @Html.TextBoxFor(m => m.Kisi.Unvan, htmlAttributes: new { @class = "form-control", @data_required = "1" })
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3">
-                                                <span>@Html.DisplayNameFor(m => m.Kisi.FirmaID)</span>
-                                                <span class="required"> * </span>
-                                            </label>
-                                            <div class="col-md-9">
-                                                @Html.DropDownListFor(m => m.Kisi.FirmaID, new SelectList(Model.Firmalar, "firmaID", "TicaretUnvani", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3">
-                                                <span>@Html.DisplayNameFor(m => m.Durum.DurumAdi)</span>
-                                                <span class="required"> * </span>
-                                            </label>
-                                            <div class="col-md-9">
-                                                @Html.DropDownListFor(m => m.Kisi.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
-                                            </div>
+                                @Html.AntiForgeryToken()
+                                @Html.HiddenFor(m => m.Kisi.KisiID)
+                                <div class="form-body">
+                                    <div class="alert alert-danger display-hide">
+                                        <button class="close" data-close="alert"></button>
+                                        Formdaki alanları doğru ve eksiksiz bir biçimde doldurunuz.
+                                    </div>
+                                    <div class="alert alert-success @TempData["DisplayStatus"]">
+                                        <button class="close" data-close="alert"></button> Kayıt Güncellendi.
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">
+                                            <span>@Html.DisplayNameFor(m => m.Kisi.Adi)</span>
+                                            <span class="required"> * </span>
+                                        </label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(m => m.Kisi.Adi, htmlAttributes: new { @class = "form-control", @data_required = "1" })
                                         </div>
                                     </div>
-                                    <div class="form-actions">
-                                        <div class="row">
-                                            <div class="col-md-12 text-right">
-                                                <button type="submit" class="btn green">Güncelle</button>
-                                                <button type="button" id="btn-vazgec" class="btn grey-salsa btn-outline">Vazgeç</button>
-                                            </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">
+                                            <span>@Html.DisplayNameFor(m => m.Kisi.Soyadi)</span>
+                                            <span class="required"> * </span>
+                                        </label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(m => m.Kisi.Soyadi, htmlAttributes: new { @class = "form-control", @data_required = "1" })
                                         </div>
                                     </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">
+                                            <span>@Html.DisplayNameFor(m => m.Kisi.TcKimlikNo)</span>
+                                            <span class="required"> * </span>
+                                        </label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(m => m.Kisi.TcKimlikNo, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">
+                                            <span>@Html.DisplayNameFor(m => m.Kisi.Unvan)</span>
+                                            <span class="required"> * </span>
+                                        </label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(m => m.Kisi.Unvan, htmlAttributes: new { @class = "form-control", @data_required = "1" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">
+                                            <span>@Html.DisplayNameFor(m => m.Kisi.FirmaID)</span>
+                                            <span class="required"> * </span>
+                                        </label>
+                                        <div class="col-md-9">
+                                            @Html.DropDownListFor(m => m.Kisi.FirmaID, new SelectList(Model.Firmalar, "firmaID", "TicaretUnvani", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">
+                                            <span>@Html.DisplayNameFor(m => m.Durum.DurumAdi)</span>
+                                            <span class="required"> * </span>
+                                        </label>
+                                        <div class="col-md-9">
+                                            @Html.DropDownListFor(m => m.Kisi.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+                                    <div class="row">
+                                        <div class="col-md-12 text-right">
+                                            <button type="submit" class="btn green">Güncelle</button>
+                                            <button type="button" id="btn-vazgec" class="btn grey-salsa btn-outline">Vazgeç</button>
+                                        </div>
+                                    </div>
+                                </div>
                                 }
                             </div>
                         </div>
@@ -132,87 +133,87 @@
                                     <div class="col-md-6">
                                         @if (Model.Adresler.Count > 0)
                                         {
-                                            <div class="btn-group pull-right">
-                                                <button class="btn green btn-outline dropdown-toggle" data-toggle="dropdown">
-                                                    Filtrele
-                                                    <i class="fa fa-filter"></i>
-                                                </button>
-                                                <ul class="dropdown-menu pull-right">
-                                                    @if (Model.FilterAdres.CountByDurumId(0) > 0)
+                                        <div class="btn-group pull-right">
+                                            <button class="btn green btn-outline dropdown-toggle" data-toggle="dropdown">
+                                                Filtrele
+                                                <i class="fa fa-filter"></i>
+                                            </button>
+                                            <ul class="dropdown-menu pull-right">
+                                                @if (Model.FilterAdres.CountByDurumId(0) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="adresBtnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.FilterAdres.CountByDurumId(0)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="adresBtnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.FilterAdres.CountByDurumId(0)) </a>
+                                                    </li>
                                                     }
-                                                    @if (Model.FilterAdres.CountByDurumId(1) > 0)
+                                                @if (Model.FilterAdres.CountByDurumId(1) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="adresBtnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.FilterAdres.CountByDurumId(1)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="adresBtnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.FilterAdres.CountByDurumId(1)) </a>
+                                                    </li>
                                                     }
-                                                    @if (Model.FilterAdres.CountByDurumId(2) > 0)
+                                                @if (Model.FilterAdres.CountByDurumId(2) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="adresBtnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.FilterAdres.CountByDurumId(2)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="adresBtnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.FilterAdres.CountByDurumId(2)) </a>
+                                                    </li>
                                                     }
-                                                    @if (Model.FilterAdres.CountByDurumId(3) > 0)
+                                                @if (Model.FilterAdres.CountByDurumId(3) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="adresBtnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.FilterAdres.CountByDurumId(3)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="adresBtnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.FilterAdres.CountByDurumId(3)) </a>
+                                                    </li>
                                                     }
-                                                    @if (Model.FilterAdres.CountByDurumId(4) > 0)
+                                                @if (Model.FilterAdres.CountByDurumId(4) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="adresBtnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.FilterAdres.CountByDurumId(4)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="adresBtnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.FilterAdres.CountByDurumId(4)) </a>
+                                                    </li>
                                                     }
-                                                </ul>
-                                            </div>
+                                            </ul>
+                                        </div>
                                         }
                                     </div>
                                 </div>
                             </div>
                             @if (Model.Adresler.Count > 0)
                             {
-                                <table class="table table-striped table-hover" id="tableKisiAdres">
-                                    <thead>
-                                        <tr>
-                                            <th data-field="adresID" class="display-hide"> Id </th>
-                                            <th data-field="adresTipi"> Adres Tipi </th>
-                                            <th data-field="adresSatiri"> Adres </th>
-                                            <th data-field="durum"> Durumu </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach (var adres in Model.Adresler)
+                            <table class="table table-striped table-hover" id="tableKisiAdres">
+                                <thead>
+                                    <tr>
+                                        <th data-field="adresID" class="display-hide"> Id </th>
+                                        <th data-field="adresTipi"> Adres Tipi </th>
+                                        <th data-field="adresSatiri"> Adres </th>
+                                        <th data-field="durum"> Durumu </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var adres in Model.Adresler)
                                         {
-                                            <tr>
-                                                <td class="display-hide"> @adres.AdresID</td>
-                                                <td> @adres.AdresTipi.DegerAdiTr</td>
-                                                <td>
-                                                    @adres.AdresSatiri @adres.Ilce.IlceAdi @adres.Sehir.SehirAdi @adres.Ulke.UlkeAdi @if (adres.VarsayilanAdres == true)
+                                        <tr>
+                                            <td class="display-hide"> @adres.AdresID</td>
+                                            <td> @adres.AdresTipi.DegerAdiTr</td>
+                                            <td>
+                                                @adres.AdresSatiri @adres.Ilce.IlceAdi @adres.Sehir.SehirAdi @adres.Ulke.UlkeAdi @if (adres.VarsayilanAdres == true)
                                                     { @Html.Raw("(Varsayılan)") }
-                                                </td>
-                                                <td> @adres.Durum.DurumAdi </td>
-                                            </tr>
+                                            </td>
+                                            <td> @adres.Durum.DurumAdi </td>
+                                        </tr>
                                         }
-                                    </tbody>
-                                </table>
-                                <ul id="contextMenuAdres" class="dropdown-menu">
-                                    <li data-item="kisi-adres-duzenle">
-                                        <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Düzenle</a>
-                                    </li>
-                                    <li data-item="kisi-adres-sil">
-                                        <a><i class="icon-trash"></i>Sil</a>
-                                    </li>
-                                    <li class="divider"> </li>
-                                    <li data-item="kisi-adres-ekle">
-                                        <a><i class="fa fa-plus-square-o" aria-hidden="true"></i>Yeni Ekle</a>
-                                    </li>
-                                </ul>
-                                <script>
+                                </tbody>
+                            </table>
+                            <ul id="contextMenuAdres" class="dropdown-menu">
+                                <li data-item="kisi-adres-duzenle">
+                                    <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Düzenle</a>
+                                </li>
+                                <li data-item="kisi-adres-sil">
+                                    <a><i class="icon-trash"></i>Sil</a>
+                                </li>
+                                <li class="divider"> </li>
+                                <li data-item="kisi-adres-ekle">
+                                    <a><i class="fa fa-plus-square-o" aria-hidden="true"></i>Yeni Ekle</a>
+                                </li>
+                            </ul>
+                            <script>
                                 $(function () {
                                     $('#tableKisiAdres').bootstrapTable({
                                         rowStyle: "rowStyle",
@@ -232,7 +233,7 @@
                                         }
                                     });
                                 });
-                                </script>
+                            </script>
                             }
                         </div>
                     </div>
@@ -255,87 +256,87 @@
                                     <div class="col-md-6">
                                         @if (Model.Telefonlar.Count > 0)
                                         {
-                                            <div class="btn-group pull-right">
-                                                <button class="btn green btn-outline dropdown-toggle" data-toggle="dropdown">
-                                                    Filtrele
-                                                    <i class="fa fa-filter"></i>
-                                                </button>
-                                                <ul class="dropdown-menu pull-right">
-                                                    @if (Model.FilterTelefon.CountByDurumId(0) > 0)
+                                        <div class="btn-group pull-right">
+                                            <button class="btn green btn-outline dropdown-toggle" data-toggle="dropdown">
+                                                Filtrele
+                                                <i class="fa fa-filter"></i>
+                                            </button>
+                                            <ul class="dropdown-menu pull-right">
+                                                @if (Model.FilterTelefon.CountByDurumId(0) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="telefonBtnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.FilterTelefon.CountByDurumId(0)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="telefonBtnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.FilterTelefon.CountByDurumId(0)) </a>
+                                                    </li>
                                                     }
-                                                    @if (Model.FilterTelefon.CountByDurumId(1) > 0)
+                                                @if (Model.FilterTelefon.CountByDurumId(1) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="telefonBtnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.FilterTelefon.CountByDurumId(1)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="telefonBtnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.FilterTelefon.CountByDurumId(1)) </a>
+                                                    </li>
                                                     }
-                                                    @if (Model.FilterTelefon.CountByDurumId(2) > 0)
+                                                @if (Model.FilterTelefon.CountByDurumId(2) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="telefonBtnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.FilterTelefon.CountByDurumId(2)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="telefonBtnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.FilterTelefon.CountByDurumId(2)) </a>
+                                                    </li>
                                                     }
-                                                    @if (Model.FilterTelefon.CountByDurumId(3) > 0)
+                                                @if (Model.FilterTelefon.CountByDurumId(3) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="telefonBtnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.FilterTelefon.CountByDurumId(3)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="telefonBtnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.FilterTelefon.CountByDurumId(3)) </a>
+                                                    </li>
                                                     }
-                                                    @if (Model.FilterTelefon.CountByDurumId(4) > 0)
+                                                @if (Model.FilterTelefon.CountByDurumId(4) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="telefonBtnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.FilterTelefon.CountByDurumId(4)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="telefonBtnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.FilterTelefon.CountByDurumId(4)) </a>
+                                                    </li>
                                                     }
-                                                </ul>
-                                            </div>
+                                            </ul>
+                                        </div>
                                         }
                                     </div>
                                 </div>
                             </div>
                             @if (Model.Telefonlar.Count > 0)
                             {
-                                <table id="tableKisiTelefon" class="table table-striped table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th data-field="telefonID" class="display-hide"> Id </th>
-                                            <th data-field="telefonTipi"> Telefon Tipi </th>
-                                            <th data-field="telefonNo"> Telefon No </th>
-                                            <th data-field="durum"> Durumu </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach (var telefon in Model.Telefonlar)
+                            <table id="tableKisiTelefon" class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th data-field="telefonID" class="display-hide"> Id </th>
+                                        <th data-field="telefonTipi"> Telefon Tipi </th>
+                                        <th data-field="telefonNo"> Telefon No </th>
+                                        <th data-field="durum"> Durumu </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var telefon in Model.Telefonlar)
                                         {
-                                            <tr>
-                                                <td class="display-hide"> @telefon.TelefonID</td>
-                                                <td> @telefon.TelefonTipi.DegerAdiTr</td>
-                                                <td>
-                                                    @telefon.TelefonNo @if (telefon.VarsayilanTelefon == true)
+                                        <tr>
+                                            <td class="display-hide"> @telefon.TelefonID</td>
+                                            <td> @telefon.TelefonTipi.DegerAdiTr</td>
+                                            <td>
+                                                @telefon.TelefonNo @if (telefon.VarsayilanTelefon == true)
                                                     { @Html.Raw("(Varsayılan)") }
-                                                </td>
-                                                <td> @telefon.Durum.DurumAdi </td>
-                                            </tr>
+                                            </td>
+                                            <td> @telefon.Durum.DurumAdi </td>
+                                        </tr>
                                         }
-                                    </tbody>
-                                </table>
-                                <ul id="contextMenuTelefon" class="dropdown-menu">
-                                    <li data-item="kisi-telefon-duzenle">
-                                        <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Düzenle</a>
-                                    </li>
-                                    <li data-item="kisi-telefon-sil">
-                                        <a><i class="icon-trash"></i>Sil</a>
-                                    </li>
-                                    <li class="divider"> </li>
-                                    <li data-item="kisi-telefon-ekle">
-                                        <a><i class="fa fa-plus-square-o" aria-hidden="true"></i>Yeni Ekle</a>
-                                    </li>
-                                </ul>
-                                <script>
+                                </tbody>
+                            </table>
+                            <ul id="contextMenuTelefon" class="dropdown-menu">
+                                <li data-item="kisi-telefon-duzenle">
+                                    <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Düzenle</a>
+                                </li>
+                                <li data-item="kisi-telefon-sil">
+                                    <a><i class="icon-trash"></i>Sil</a>
+                                </li>
+                                <li class="divider"> </li>
+                                <li data-item="kisi-telefon-ekle">
+                                    <a><i class="fa fa-plus-square-o" aria-hidden="true"></i>Yeni Ekle</a>
+                                </li>
+                            </ul>
+                            <script>
                                     $(function () {
                                         $('#tableKisiTelefon').bootstrapTable({
                                             rowStyle: "rowStyle",
@@ -355,7 +356,7 @@
                                             }
                                         });
                                     });
-                                </script>
+                            </script>
                             }
                         </div>
                     </div>
@@ -378,85 +379,85 @@
                                     <div class="col-md-6">
                                         @if (Model.Epostalar.Count > 0)
                                         {
-                                            <div class="btn-group pull-right">
-                                                <button class="btn green btn-outline dropdown-toggle" data-toggle="dropdown">
-                                                    Filtrele
-                                                    <i class="fa fa-filter"></i>
-                                                </button>
-                                                <ul class="dropdown-menu pull-right">
-                                                    @if (Model.FilterEposta.CountByDurumId(0) > 0)
+                                        <div class="btn-group pull-right">
+                                            <button class="btn green btn-outline dropdown-toggle" data-toggle="dropdown">
+                                                Filtrele
+                                                <i class="fa fa-filter"></i>
+                                            </button>
+                                            <ul class="dropdown-menu pull-right">
+                                                @if (Model.FilterEposta.CountByDurumId(0) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="epostaBtnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.FilterEposta.CountByDurumId(0)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="epostaBtnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.FilterEposta.CountByDurumId(0)) </a>
+                                                    </li>
                                                     }
-                                                    @if (Model.FilterEposta.CountByDurumId(1) > 0)
+                                                @if (Model.FilterEposta.CountByDurumId(1) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="epostaBtnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.FilterEposta.CountByDurumId(1)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="epostaBtnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.FilterEposta.CountByDurumId(1)) </a>
+                                                    </li>
                                                     }
-                                                    @if (Model.FilterEposta.CountByDurumId(2) > 0)
+                                                @if (Model.FilterEposta.CountByDurumId(2) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="epostaBtnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.FilterEposta.CountByDurumId(2)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="epostaBtnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.FilterEposta.CountByDurumId(2)) </a>
+                                                    </li>
                                                     }
-                                                    @if (Model.FilterEposta.CountByDurumId(3) > 0)
+                                                @if (Model.FilterEposta.CountByDurumId(3) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="epostaBtnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.FilterEposta.CountByDurumId(3)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="epostaBtnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.FilterEposta.CountByDurumId(3)) </a>
+                                                    </li>
                                                     }
-                                                    @if (Model.FilterEposta.CountByDurumId(4) > 0)
+                                                @if (Model.FilterEposta.CountByDurumId(4) > 0)
                                                     {
-                                                        <li>
-                                                            <a href="javascript:;" id="epostaBtnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.FilterEposta.CountByDurumId(4)) </a>
-                                                        </li>
+                                                    <li>
+                                                        <a href="javascript:;" id="epostaBtnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.FilterEposta.CountByDurumId(4)) </a>
+                                                    </li>
                                                     }
-                                                </ul>
-                                            </div>
+                                            </ul>
+                                        </div>
                                         }
                                     </div>
                                 </div>
                             </div>
                             @if (Model.Epostalar.Count > 0)
                             {
-                                <table id="tableKisiEposta" class="table table-striped table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th data-field="epostaID" class="display-hide"> Id </th>
-                                            <th data-field="epostaAdresi"> E-Posta Adresi </th>
-                                            <th data-field="durum"> Durumu </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach (var eposta in Model.Epostalar)
+                            <table id="tableKisiEposta" class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th data-field="epostaID" class="display-hide"> Id </th>
+                                        <th data-field="epostaAdresi"> E-Posta Adresi </th>
+                                        <th data-field="durum"> Durumu </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var eposta in Model.Epostalar)
                                         {
-                                            <tr>
-                                                <td class="display-hide"> @eposta.EpostaID</td>
-                                                <td>
-                                                    @eposta.EpostaAdresi @if (eposta.VarsayilanEposta == true)
+                                        <tr>
+                                            <td class="display-hide"> @eposta.EpostaID</td>
+                                            <td>
+                                                @eposta.EpostaAdresi @if (eposta.VarsayilanEposta == true)
                                                     { @Html.Raw("(Varsayılan)") }
-                                                </td>
-                                                <td> @eposta.Durum.DurumAdi </td>
-                                            </tr>
+                                            </td>
+                                            <td> @eposta.Durum.DurumAdi </td>
+                                        </tr>
                                         }
-                                    </tbody>
-                                </table>
-                                <ul id="contextMenuEposta" class="dropdown-menu">
-                                    <li data-item="kisi-eposta-duzenle">
-                                        <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Düzenle</a>
-                                    </li>
-                                    <li data-item="kisi-eposta-sil">
-                                        <a><i class="icon-trash"></i>Sil</a>
-                                    </li>
-                                    <li class="divider"> </li>
-                                    <li data-item="kisi-eposta-ekle">
-                                        <a><i class="fa fa-plus-square-o" aria-hidden="true"></i>Yeni Ekle</a>
-                                    </li>
-                                </ul>
-                                <script>
+                                </tbody>
+                            </table>
+                            <ul id="contextMenuEposta" class="dropdown-menu">
+                                <li data-item="kisi-eposta-duzenle">
+                                    <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Düzenle</a>
+                                </li>
+                                <li data-item="kisi-eposta-sil">
+                                    <a><i class="icon-trash"></i>Sil</a>
+                                </li>
+                                <li class="divider"> </li>
+                                <li data-item="kisi-eposta-ekle">
+                                    <a><i class="fa fa-plus-square-o" aria-hidden="true"></i>Yeni Ekle</a>
+                                </li>
+                            </ul>
+                            <script>
                                     $(function () {
                                         $('#tableKisiEposta').bootstrapTable({
                                             rowStyle: "rowStyle",
@@ -476,136 +477,136 @@
                                             }
                                         });
                                     });
+                            </script>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="kisi-faturabilgi" class="tab-pane @Html.Raw((TempData["activeTab"] == "kisi-faturabilgi") ? "active" : "")">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="portlet-body">
+                            <div class="table-toolbar">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="btn-group">
+                                            <button class="btn green" id="btn-yeni-faturabilgi">
+                                                Yeni Fatura Bilgisi
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        @if (Model.FaturaBilgileri.Count > 0)
+                                        {
+                                            <div class="btn-group pull-right">
+                                                <button class="btn green btn-outline dropdown-toggle" data-toggle="dropdown">
+                                                    Filtrele
+                                                    <i class="fa fa-filter"></i>
+                                                </button>
+                                                <ul class="dropdown-menu pull-right">
+                                                    @if (Model.FilterFaturaBilgi.CountByDurumId(0) > 0)
+                                                    {
+                                                        <li>
+                                                            <a href="javascript:;" id="faturabilgiBtnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.FilterFaturaBilgi.CountByDurumId(0)) </a>
+                                                        </li>
+                                                    }
+                                                    @if (Model.FilterFaturaBilgi.CountByDurumId(1) > 0)
+                                                    {
+                                                        <li>
+                                                            <a href="javascript:;" id="faturabilgiBtnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.FilterFaturaBilgi.CountByDurumId(1)) </a>
+                                                        </li>
+                                                    }
+                                                    @if (Model.FilterFaturaBilgi.CountByDurumId(2) > 0)
+                                                    {
+                                                        <li>
+                                                            <a href="javascript:;" id="faturabilgiBtnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.FilterFaturaBilgi.CountByDurumId(2)) </a>
+                                                        </li>
+                                                    }
+                                                    @if (Model.FilterFaturaBilgi.CountByDurumId(3) > 0)
+                                                    {
+                                                        <li>
+                                                            <a href="javascript:;" id="faturabilgiBtnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.FilterFaturaBilgi.CountByDurumId(3)) </a>
+                                                        </li>
+                                                    }
+                                                    @if (Model.FilterFaturaBilgi.CountByDurumId(4) > 0)
+                                                    {
+                                                        <li>
+                                                            <a href="javascript:;" id="faturabilgiBtnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.FilterFaturaBilgi.CountByDurumId(4)) </a>
+                                                        </li>
+                                                    }
+                                                </ul>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                            @if (Model.FaturaBilgileri.Count > 0)
+                            {
+                                <table id="tableKisiFaturaBilgi" class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th data-field="faturabilgiID" class="display-hide"> Id </th>
+                                            <th data-field="vergiDairesi"> Vergi Dairesi </th>
+                                            <th data-field="vergiNo"> Vergi No </th>
+                                            <th data-field="adresID"> Adres </th>
+                                            <th data-field="durum"> Durumu </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var faturabilgi in Model.FaturaBilgileri)
+                                        {
+                                            <tr>
+                                                <td class="display-hide"> @faturabilgi.FaturaBilgiID</td>
+                                                <td> @faturabilgi.VergiDairesi</td>
+                                                <td> @faturabilgi.VergiNo</td>
+                                                <td> @faturabilgi.Adres.AdresSatiri</td>
+                                                <td> @faturabilgi.Durum.DurumAdi </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                                <ul id="contextMenuFaturaBilgi" class="dropdown-menu">
+                                    <li data-item="kisi-faturabilgi-duzenle">
+                                        <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Düzenle</a>
+                                    </li>
+                                    <li data-item="kisi-faturabilgi-sil">
+                                        <a><i class="icon-trash"></i>Sil</a>
+                                    </li>
+                                    <li class="divider"> </li>
+                                    <li data-item="kisi-faturabilgi-ekle">
+                                        <a><i class="fa fa-plus-square-o" aria-hidden="true"></i>Yeni Ekle</a>
+                                    </li>
+                                </ul>
+                                <script>
+                                    $(function () {
+                                        $('#tableKisiFaturaBilgi').bootstrapTable({
+                                            rowStyle: "rowStyle",
+                                            contextMenu: '#contextMenuFaturaBilgi',
+                                            onContextMenuItem: function (row, $el) {
+                                                var kisiID = $("#Kisi_KisiID").val();
+                                                if ($el.data("item") == "kisi-faturabilgi-ekle")
+                                                    window.location.href = '/kisi/kisi-faturabilgi-ekle?kisiID=' + kisiID;
+
+                                                else if ($el.data("item") == "kisi-faturabilgi-duzenle")
+                                                    get('/kisi/kisi-faturabilgi-duzenle?kisiID=' + kisiID + '&faturabilgiID=' + row.faturabilgiID);
+
+                                                else if ($el.data("item") == "kisi-faturabilgi-sil") {
+                                                    if (confirm(row.vergiNo.trim() + ' kaydını silmek istediğine emin misin?'))
+                                                        post('/kisi/kisi-faturabilgi-sil', { kisiID: kisiID, faturabilgiID: row.faturabilgiID });
+                                                    else
+                                                        return false;
+                                                }
+                                            }
+                                        });
+                                    });
                                 </script>
                             }
                         </div>
                     </div>
                 </div>
             </div>
-            @*<div id="firma-faturabilgi" class="tab-pane @Html.Raw((TempData["activeTab"] == "firma-faturabilgi") ? "active" : "")">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="portlet-body">
-                    <div class="table-toolbar">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="btn-group">
-                                    <button class="btn green" id="btn-yeni-faturabilgi">
-                                        Yeni Fatura Bilgisi
-                                        <i class="fa fa-plus"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                @if (Model.FaturaBilgileri.Count > 0)
-                                {
-                                    <div class="btn-group pull-right">
-                                        <button class="btn green btn-outline dropdown-toggle" data-toggle="dropdown">
-                                            Filtrele
-                                            <i class="fa fa-filter"></i>
-                                        </button>
-                                        <ul class="dropdown-menu pull-right">
-                                            @if (Model.FilterFaturaBilgi.CountByDurumId(0) > 0)
-                                            {
-                                                <li>
-                                                    <a href="javascript:;" id="faturabilgiBtnTumKayitlar"><i class="fa fa-filter" aria-hidden="true"></i> Tüm Kayıtlar(@Model.FilterFaturaBilgi.CountByDurumId(0)) </a>
-                                                </li>
-                                            }
-                                            @if (Model.FilterFaturaBilgi.CountByDurumId(1) > 0)
-                                            {
-                                                <li>
-                                                    <a href="javascript:;" id="faturabilgiBtnAktif"><i class="fa fa-filter" aria-hidden="true"></i> Aktif (@Model.FilterFaturaBilgi.CountByDurumId(1)) </a>
-                                                </li>
-                                            }
-                                            @if (Model.FilterFaturaBilgi.CountByDurumId(2) > 0)
-                                            {
-                                                <li>
-                                                    <a href="javascript:;" id="faturabilgiBtnPasif"><i class="fa fa-filter" aria-hidden="true"></i> Pasif (@Model.FilterFaturaBilgi.CountByDurumId(2)) </a>
-                                                </li>
-                                            }
-                                            @if (Model.FilterFaturaBilgi.CountByDurumId(3) > 0)
-                                            {
-                                                <li>
-                                                    <a href="javascript:;" id="faturabilgiBtnTaslak"><i class="fa fa-filter" aria-hidden="true"></i> Taslak (@Model.FilterFaturaBilgi.CountByDurumId(3)) </a>
-                                                </li>
-                                            }
-                                            @if (Model.FilterFaturaBilgi.CountByDurumId(4) > 0)
-                                            {
-                                                <li>
-                                                    <a href="javascript:;" id="faturabilgiBtnSilinmis"><i class="fa fa-filter" aria-hidden="true"></i> Silinmiş (@Model.FilterFaturaBilgi.CountByDurumId(4)) </a>
-                                                </li>
-                                            }
-                                        </ul>
-                                    </div>
-                                }
-                            </div>
-                        </div>
-                    </div>
-                    @if (Model.FaturaBilgileri.Count > 0)
-                    {
-                        <table id="tableFirmaFaturaBilgi" class="table table-striped table-hover">
-                            <thead>
-                                <tr>
-                                    <th data-field="faturabilgiID" class="display-hide"> Id </th>
-                                    <th data-field="vergiDairesi"> Vergi Dairesi </th>
-                                    <th data-field="vergiNo"> Vergi No </th>
-                                    <th data-field="adresID"> Adres </th>
-                                    <th data-field="durum"> Durumu </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach (var faturabilgi in Model.FaturaBilgileri)
-                                {
-                                    <tr>
-                                        <td class="display-hide"> @faturabilgi.FaturaBilgiID</td>
-                                        <td> @faturabilgi.VergiDairesi</td>
-                                        <td> @faturabilgi.VergiNo</td>
-                                        <td> @faturabilgi.Adres.AdresSatiri</td>
-                                        <td> @faturabilgi.Durum.DurumAdi </td>
-                                    </tr>
-                                }
-                            </tbody>
-                        </table>
-                        <ul id="contextMenuFaturaBilgi" class="dropdown-menu">
-                            <li data-item="firma-faturabilgi-duzenle">
-                                <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Düzenle</a>
-                            </li>
-                            <li data-item="firma-faturabilgi-sil">
-                                <a><i class="icon-trash"></i>Sil</a>
-                            </li>
-                            <li class="divider"> </li>
-                            <li data-item="firma-faturabilgi-ekle">
-                                <a><i class="fa fa-plus-square-o" aria-hidden="true"></i>Yeni Ekle</a>
-                            </li>
-                        </ul>
-                        <script>
-                            $(function () {
-                                $('#tableFirmaFaturaBilgi').bootstrapTable({
-                                    rowStyle: "rowStyle",
-                                    contextMenu: '#contextMenuFaturaBilgi',
-                                    onContextMenuItem: function (row, $el) {
-                                        var firmaID = $("#Firma_FirmaID").val();
-                                        if ($el.data("item") == "firma-faturabilgi-ekle")
-                                            window.location.href = '/firma/firma-faturabilgi-ekle?firmaID=' + firmaID;
-
-                                        else if ($el.data("item") == "firma-faturabilgi-duzenle")
-                                            get('/firma/firma-faturabilgi-duzenle?firmaID=' + firmaID + '&faturabilgiID=' + row.faturabilgiID);
-
-                                        else if ($el.data("item") == "firma-faturabilgi-sil") {
-                                            if (confirm(row.vergiNo.trim() + ' kaydını silmek istediğine emin misin?'))
-                                                post('/firma/firma-faturabilgi-sil', { firmaID: firmaID, faturabilgiID: row.faturabilgiID });
-                                            else
-                                                return false;
-                                        }
-                                    }
-                                });
-                            });
-                        </script>
-                    }
-                </div>
-            </div>
-        </div>
-    </div>*@
         </div>
     </div>
 </div>
