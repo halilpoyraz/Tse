@@ -353,5 +353,122 @@
                     return RedirectToAction("index", "hata", new { HataId = 2 });
             }
         }
+
+
+        //KisiEposta
+        [ActionName("kisi-eposta-listele")]
+        public ActionResult KisiEpostaListele(int? kisiID)
+        {
+            TempData["activeTab"] = "kisi-eposta";
+            return RedirectToAction("kisi-duzenle", new { kisiID = kisiID });
+        }
+
+        [ActionName("kisi-eposta-ekle")]
+        public ActionResult KisiEpostaEkle(int? kisiID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (kisiID != null)
+                {
+                    var model = new KisiDuzenleViewModel(kisiID);
+                    model.Kisi = context.Kisiler.Find(kisiID);
+
+                    if (model.Kisi != null)
+                    {
+                        TempData["DisplayStatus"] = "display-hide";
+                        return View(model);
+                    }
+                    else
+                        return RedirectToAction("listele", "kisi");
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+            }
+        }
+
+        [HttpPost ActionName("kisi-eposta-ekle") ValidateAntiForgeryToken]
+        public ActionResult KisiEpostaEkle(Eposta eposta)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                context.Epostalar.Add(eposta);
+                context.SaveChanges();
+                TempData["activeTab"] = "kisi-eposta";
+                return RedirectToAction("kisi-duzenle", new { kisiID = eposta.KisiID });
+            }
+        }
+
+        [ActionName("kisi-eposta-duzenle")]
+        public ActionResult KisiEpostaDuzenle(int? kisiID, int? epostaID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (kisiID != null && epostaID != null)
+                {
+                    var model = new KisiDuzenleViewModel(kisiID);
+                    model.Kisi = context.Kisiler.Find(kisiID);
+                    model.Eposta = context.Epostalar.Find(epostaID);
+                    if (model.Kisi != null && model.Eposta != null)
+                    {
+                        TempData["DisplayStatus"] = "display-hide";
+                        return View(model);
+                    }
+                    else
+                        return RedirectToAction("kisi-eposta-listele", "kisi", new { kisiID = kisiID });
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+            }
+        }
+
+        [HttpPost ActionName("kisi-eposta-duzenle") ValidateAntiForgeryToken]
+        public ActionResult KisiEpostaDuzenle(Eposta eposta)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                context.Entry(eposta).State = EntityState.Modified;
+                context.SaveChanges();
+                TempData["DisplayStatus"] = "";
+                return RedirectToAction("kisi-eposta-listele", new { kisiID = eposta.KisiID });
+            }
+        }
+
+        [HttpPost ActionName("kisi-eposta-sil")]
+        public ActionResult KisiEpostaSil(int? kisiID, int? epostaID)
+        {
+            using (TseBackofficeContext context = new TseBackofficeContext())
+            {
+                if (kisiID != null && epostaID != null)
+                {
+                    Eposta eposta = context.Epostalar.Find(epostaID);
+
+                    if (eposta != null)
+                    {
+                        try
+                        {
+                            context.Epostalar.Remove(eposta);
+                            context.SaveChanges();
+                        }
+                        catch (Exception)
+                        {
+                            try
+                            {
+                                eposta.DurumID = 4;
+                                context.Entry(eposta).State = EntityState.Modified;
+                                context.SaveChanges();
+                            }
+                            catch (Exception)
+                            {
+                                return RedirectToAction("index", "hata", new { HataId = 4 });
+                            }
+                        }
+                    }
+                    TempData["activeTab"] = "kisi-eposta";
+                    return RedirectToAction("kisi-duzenle", new { kisiID = kisiID });
+                }
+                else
+                    return RedirectToAction("index", "hata", new { HataId = 2 });
+            }
+        }
     }
 }

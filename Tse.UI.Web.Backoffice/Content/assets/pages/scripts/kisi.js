@@ -441,121 +441,121 @@ var KisiDuzenle = function () {
     };
 
     //Eposta
-    //var FirmaEpostaDataTable = function () {
-    //    function restoreRow(oTable, nRow) {
-    //        var aData = oTable.fnGetData(nRow);
-    //        var jqTds = $('>td', nRow);
-    //        for (var i = 0, iLen = jqTds.length; i < iLen; i++) {
-    //            oTable.fnUpdate(aData[i], nRow, i, false);
-    //        }
-    //        oTable.fnDraw();
-    //    }
-    //    var table = $('#tableFirmaEposta');
-    //    var oTable = table.dataTable({
-    //        "lengthMenu": [
-    //            [10, 20, 100, -1],
-    //            [10, 20, 100, "Hepsi"]
-    //        ],
-    //        "pageLength": 10,
-    //        "language": {
-    //            "lengthMenu": " _MENU_ Kayıt"
-    //        },
-    //        "columnDefs": [{
-    //            'orderable': true,
-    //            'targets': [0, 1]
-    //        }, {
-    //            "searchable": true,
-    //            "targets": [0, 1]
-    //        }],
-    //        "order": [
-    //            [1, "asc"]
-    //        ]
-    //    });
-    //};
-    //var FirmaEpostaFiltrele = function () {
-    //    $('#epostaBtnTumKayitlar').click(function () {
-    //        var e = jQuery.Event('keyup', { which: 13 });
-    //        $("input.form-control.input-sm.input-small.input-inline").val("").trigger(e);
-    //    });
-    //    $('#epostaBtnAktif').click(function () {
-    //        var e = jQuery.Event('keyup', { which: 13 });
-    //        $("input.form-control.input-sm.input-small.input-inline").val("Aktif").trigger(e);
-    //    });
-    //    $('#epostaBtnPasif').click(function () {
-    //        var e = jQuery.Event('keyup', { which: 13 });
-    //        $("input.form-control.input-sm.input-small.input-inline").val("Pasif").trigger(e);
-    //    });
-    //    $('#epostaBtnTaslak').click(function () {
-    //        var e = jQuery.Event('keyup', { which: 13 });
-    //        $("input.form-control.input-sm.input-small.input-inline").val("Taslak").trigger(e);
-    //    });
-    //    $('#epostaBtnSilinmis').click(function () {
-    //        var e = jQuery.Event('keyup', { which: 13 });
-    //        $("input.form-control.input-sm.input-small.input-inline").val("Silinmiş").trigger(e);
-    //    });
-    //};
-    //var FirmaEpostaBtnYeniEposta = function () {
-    //    $("#btn-yeni-eposta").click(function () {
-    //        window.location.href = '/firma/firma-eposta-ekle?firmaID=' + firmaID;
-    //    });
-    //};
-    //var FirmaEpostaEkleBtnKaydet = function () {
-    //    var form = $('#formEpostaEkle');
-    //    var error = $('.alert-danger', form);
-    //    var success = $('.alert-success', form);
+    var KisiEpostaDataTable = function () {
+        function restoreRow(oTable, nRow) {
+            var aData = oTable.fnGetData(nRow);
+            var jqTds = $('>td', nRow);
+            for (var i = 0, iLen = jqTds.length; i < iLen; i++) {
+                oTable.fnUpdate(aData[i], nRow, i, false);
+            }
+            oTable.fnDraw();
+        }
+        var table = $('#tableKisiEposta');
+        var oTable = table.dataTable({
+            "lengthMenu": [
+                [10, 20, 100, -1],
+                [10, 20, 100, "Hepsi"]
+            ],
+            "pageLength": 10,
+            "language": {
+                "lengthMenu": " _MENU_ Kayıt"
+            },
+            "columnDefs": [{
+                'orderable': true,
+                'targets': [0, 1]
+            }, {
+                "searchable": true,
+                "targets": [0, 1]
+            }],
+            "order": [
+                [1, "asc"]
+            ]
+        });
+    };
+    var KisiEpostaFiltrele = function () {
+        $('#epostaBtnTumKayitlar').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("").trigger(e);
+        });
+        $('#epostaBtnAktif').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Aktif").trigger(e);
+        });
+        $('#epostaBtnPasif').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Pasif").trigger(e);
+        });
+        $('#epostaBtnTaslak').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Taslak").trigger(e);
+        });
+        $('#epostaBtnSilinmis').click(function () {
+            var e = jQuery.Event('keyup', { which: 13 });
+            $("input.form-control.input-sm.input-small.input-inline").val("Silinmiş").trigger(e);
+        });
+    };
+    var KisiEpostaBtnYeniEposta = function () {
+        $("#btn-yeni-eposta").click(function () {
+            window.location.href = '/kisi/kisi-eposta-ekle?kisiID=' + kisiID;
+        });
+    };
+    var KisiEpostaEkleBtnKaydet = function () {
+        var form = $('#formEpostaEkle');
+        var error = $('.alert-danger', form);
+        var success = $('.alert-success', form);
 
-    //    form.validate({
-    //        errorElement: 'span',
-    //        errorClass: 'help-block help-block-error',
-    //        focusInvalid: false,
-    //        ignore: "",
-    //        messages: {
-    //            select_multi: {
-    //                maxlength: jQuery.validator.format("Max {0} items allowed for selection"),
-    //                minlength: jQuery.validator.format("At least {0} items must be selected")
-    //            }
-    //        },
-    //        rules: {
-    //            'Eposta.EpostaAdresi': { minlength: 5, required: true, email: true },
-    //            'Eposta.DurumID': { required: true }
-    //        },
-    //        invalidHandler: function (event, validator) {
-    //            success.hide();
-    //            error.show();
-    //            App.scrollTo(error, -200);
-    //        },
-    //        errorPlacement: function (error, element) {
-    //            var cont = $(element).parent('.input-group');
-    //            if (cont) {
-    //                cont.after(error);
-    //            } else {
-    //                element.after(error);
-    //            }
-    //        },
-    //        highlight: function (element) {
+        form.validate({
+            errorElement: 'span',
+            errorClass: 'help-block help-block-error',
+            focusInvalid: false,
+            ignore: "",
+            messages: {
+                select_multi: {
+                    maxlength: jQuery.validator.format("Max {0} items allowed for selection"),
+                    minlength: jQuery.validator.format("At least {0} items must be selected")
+                }
+            },
+            rules: {
+                'Eposta.EpostaAdresi': { minlength: 5, required: true, email: true },
+                'Eposta.DurumID': { required: true }
+            },
+            invalidHandler: function (event, validator) {
+                success.hide();
+                error.show();
+                App.scrollTo(error, -200);
+            },
+            errorPlacement: function (error, element) {
+                var cont = $(element).parent('.input-group');
+                if (cont) {
+                    cont.after(error);
+                } else {
+                    element.after(error);
+                }
+            },
+            highlight: function (element) {
 
-    //            $(element)
-    //                .closest('.form-group').addClass('has-error');
-    //        },
-    //        unhighlight: function (element) {
-    //            $(element)
-    //                .closest('.form-group').removeClass('has-error');
-    //        },
-    //        success: function (label) {
-    //            label
-    //                .closest('.form-group').removeClass('has-error');
-    //        },
-    //        submitHandler: function (form) {
-    //            this.submit();
-    //        }
-    //    });
-    //};
-    //var FirmaEpostaEkleBtnVazgec = function () {
-    //    $("#btn-yeni-eposta-vazgec").click(function () {
-    //        var firmaID = $("#Eposta_FirmaID").val();
-    //        if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?')) window.location.href = '/firma/firma-eposta-listele?firmaID=' + firmaID; else return false;
-    //    });
-    //};
+                $(element)
+                    .closest('.form-group').addClass('has-error');
+            },
+            unhighlight: function (element) {
+                $(element)
+                    .closest('.form-group').removeClass('has-error');
+            },
+            success: function (label) {
+                label
+                    .closest('.form-group').removeClass('has-error');
+            },
+            submitHandler: function (form) {
+                this.submit();
+            }
+        });
+    };
+    var KisiEpostaEkleBtnVazgec = function () {
+        $("#btn-yeni-eposta-vazgec").click(function () {
+            var kisiID = $("#Eposta_KisiID").val();
+            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?')) window.location.href = '/kisi/kisi-eposta-listele?kisiID=' + kisiID; else return false;
+        });
+    };
 
     //FaturaBilgi
     //var FirmaFaturaBilgiDataTable = function () {
@@ -690,11 +690,11 @@ var KisiDuzenle = function () {
             KisiTelefonBtnYeniTelefon();
             KisiTelefonEkleBtnKaydet();
             KisiTelefonEkleBtnVazgec();
-            //FirmaEpostaDataTable();
-            //FirmaEpostaFiltrele();
-            //FirmaEpostaBtnYeniEposta();
-            //FirmaEpostaEkleBtnKaydet();
-            //FirmaEpostaEkleBtnVazgec();
+            KisiEpostaDataTable();
+            KisiEpostaFiltrele();
+            KisiEpostaBtnYeniEposta();
+            KisiEpostaEkleBtnKaydet();
+            KisiEpostaEkleBtnVazgec();
             //FirmaFaturaBilgiDataTable();
             //FirmaFaturaBilgiFiltrele();
             //FirmaFaturaBilgiBtnYeniFaturaBilgi();
