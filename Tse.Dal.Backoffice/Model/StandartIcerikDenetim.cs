@@ -10,15 +10,12 @@ namespace Tse.Dal.Backoffice.Model
         }
 
         //Properties
-        [Display(Name ="Standart İçerik Denetim")]
-        public int StandartIcerikDenetimID { get; set; }
+        [Key Display(Name = "Standart İçerik")]
+        public int StandartIcerikID { get; set; }
 
         [Display(Name = "Standart")]
         public int StandartID { get; set; }
-
-        [Display(Name = "Standart İçerik")]
-        public int StandartIcerikID { get; set; }
-
+        
         [Display(Name = "Seçmeli")]
         public bool Secmeli { get; set; }
 

@@ -132,7 +132,7 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<StandartAtifTipiSablon>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.StandartAtifTipiSablon).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<StandartIcerik>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.StandartIcerik).WillCascadeOnDelete(false);
-            modelBuilder.Entity<StandartIcerik>().HasMany(e => e.StandartIcerikDenetimler).WithRequired(e => e.StandartIcerik).WillCascadeOnDelete(false);
+            modelBuilder.Entity<StandartIcerik>().HasOptional(e => e.StandartIcerikDenetim).WithRequired(e => e.StandartIcerik).WillCascadeOnDelete(false);
         }      
     }   
 }
