@@ -11154,6 +11154,15 @@
                     DegerAdiEn = "Content - Footnote",
                     SiraNo = 7,
                     DurumID = 1
+                },
+                new Deger
+                {
+                    DegerID = 171,
+                    KategoriID = 7,
+                    DegerAdiTr = "Denetim - Tablo - Madde",
+                    DegerAdiEn = "Control - Table - Item",
+                    SiraNo = 22,
+                    DurumID = 1
                 }
             });
             #endregion        
@@ -11370,11 +11379,11 @@
                 {
                     StandartIcerikID = 1,
                     StandartID = 1,
-                    BaslikNo = "0",
-                    Baslik = "Önsöz",
-                    Detay = @"<ul><li class='ms-hover'>Bu standard, Türk Standardları Enstitüsü’nün Bilişim İhtisas Kurulu’na bağlı TK01 Bilişim Teknolojileri Teknik Komitesi’nce TS 13298: 2009’in revizyonu olarak hazırlanmış ve TSE Teknik Kurulu’nun 23 Ekim 2015 tarihli toplantısında kabul edilerek yayımına karar verilmiştir.</li><li class='ms-hover'>Bu standardın daha önce yayımlanmış bulunan baskıları geçersizdir.</li><li class='ms-hover'>Bu standardın hazırlanmasında, milli ihtiyaç ve imkânlarımız ön planda olmak üzere, milletlerarası standardlar ve ekonomik ilişkilerimiz bulunan yabancı ülkelerin standardlarındaki esaslar da gözönünde bulundurularak; yarar görülen hallerde, olabilen yakınlık ve benzerliklerin sağlanmasına ve bu esasların, ülkemiz şartları ile bağdaştırılmasına çalışılmıştır.</li><li class='ms-hover'>Bu standard son şeklini almadan önce; bilimsel kuruluşlar, üretici/ imalatçı ve tüketici durumundaki konunun ilgilileri ile gerekli işbirliği yapılmış ve alınan görüşlere göre olgunlaştırılmıştır.</li><li class='ms-hover'>Bu standardda kullanılan bazı kelime ve/veya ifadeler patent haklarına konu olabilir. Böyle bir patent hakkının belirlenmesi durumunda TSE sorumlu tutulamaz.</li></ul>",
+                    BaslikNo = null,
+                    Baslik = "K-Q TSE-ISO-EN 9000 - TSE - TSEK",
+                    Detay = $"<ul><li class='ms-hover'>Bugünkü teknik ve uygulamaya dayanılarak hazırlanmış olan bu standardın, zamanla ortaya çıkacak gelişme ve değişikliklere uydurulması mümkün olduğundan ilgililerin yayınları izlemelerini ve standardın uygulanmasında karşılaştıkları aksaklıkları Enstitümüze iletmelerini rica ederiz.<br><br></li><li class='ms-hover'>Bu standardı oluşturan İhtisas Grubu üyesi değerli uzmanların emeklerini; tasarılar üzerinde görüşlerini bildirmek suretiyle yardımcı olan bilim, kamu ve özel sektör kuruluşları ile kişilerin değerli katkılarını şükranla anarız.<br><br></li></ul><p><img src='{Resource.CdnDomain}/Content/Backoffice/Images/StandartAciklama/k-q-tse-iso-en-9000.png' alt='K-Q-TSE-ISO-EN-9000' style='width: 25%;'><b><br></b></p><p><b>Kalite Sistem Belgesi</b><br>İmalât ve hizmet sektörlerinde faaliyet gösteren kuruluşların sistemlerini TS EN ISO 9000 Kalite Standardlarına uygun olarak kurmaları durumunda TSE tarafından verilen belgedir.</p><p><br></p><p><img src='{Resource.CdnDomain}/Content/Backoffice/Images/StandartAciklama/tse.png' alt='TSE' style='width: 25%;'><b><br></b></p><p><b>Türk Standardlarına Uygunluk Markası (TSE Markası)</b><br>TSE Markası, üzerine veya ambalâjına konulduğu malların veya hizmetin ilgili Türk Standardına uygun olduğunu ve mamulle veya hizmetle ilgili bir problem ortaya çıktığında Türk Standardları Enstitüsü’nün garantisi altında olduğunu ifade eder.</p><p><br></p><p><img src='{Resource.CdnDomain}/Content/Backoffice/Images/StandartAciklama/TSEK.png' alt='TSEK' style='width: 25%;'><b><br></b></p><p><b>Kritere Uygunluk Belgesi (TSEK Markası Kullanma Hakkı)</b><br>Kritere Uygunluk Belgesi; Türk Standardları bulunmayan konularda firmaların ürünlerinin ilgili uluslararası standardlar, benzeri Türk Standardları, diğer ülkelerin milli standardları, teknik literatür esas alınarak Türk Standardları Enstitüsü tarafından kabul edilen Kalite Faktör ve Değerlerine uygunluğunu belirten ve akdedilen sözleşme ile TSEK Markası kullanma hakkı verilen firma adına düzenlenen ve üzerinde TSEK Markası kullanılacak ürünlerin ticari Markası, cinsi, sınıfı, tipi ve türünü belirten geçerlilik süresi bir yıl olan belgedir.</p><p></p><h3><br></h3><h3>DİKKAT!</h3><br>TS işareti ve yanında yer alan sayı tek başına iken (TS 4600 gibi), mamulün Türk Standardına uygun üretildiğine dair üreticinin beyanını ifade eder. <b>Türk Standardları Enstitüsü tarafından herhangi bir garanti söz konusu değildir.</b><p></p><p class='text-align:center'><i><b>Standardlar ve standardizasyon konusunda daha geniş bilgi Enstitümüzde sağlanabilir.</b></i><b>TÜRK STANDARDLARININ YAYIN HAKLARI SAKLIDIR.</b></p>",
                     UstIcerikID = 0,
-                    StandartIcerikTipiID = 162,
+                    StandartIcerikTipiID = 165,
                     SiraNo = 1,
                     DurumID = 1
                 },
@@ -11382,43 +11391,79 @@
                 {
                     StandartIcerikID = 2,
                     StandartID = 1,
-                    BaslikNo = "0",
-                    Baslik = "Giriş",
-                    Detay = @"<p>Bu standard, TS 13298:2009 Elektronik Belge Yönetimi standardının güncel ihtiyaçlara göre yeniden düzenlenmiş halini içermektedir. Standard bir önceki revizyonuna ilave olarak kurumlar arası belge paylaşımı, kayıtlı elektronik postaların yönetimi, elektronik yazışma paketi ve elektronik arşivlerin yönetimi başta olmak üzere bazı yenilikler getirmektedir.</p><p>Kurumların faaliyetlerini kayıt altına alması ve bu bilgileri paydaşları ile paylaşması kurumsal faaliyetlerin ayrılmaz bir parçasıdır. Herkesin, her zaman, her yerden kolaylıkla ulaşabileceği şeffaf, verimli ve sade bir kurum yapısı günümüzde modern ve demokratik kurumların temel hedefi haline gelmiştir. Bilgi ve iletişim teknolojilerindeki gelişmeler bu hedefi gerçekleştirecek olgunluğa ulaşmıştır ve her geçen gün daha da gelişmektedir. Son yıllarda sıkça duyduğumuz e-ticaret ve e-devlet gibi kavramlar bu gelişmelerin bir sonucudur. E-kurum yapısının temelini ise elektronik bilgi sistemleri oluşturmaktadır.</p><p>Kurumlarca üretilen bilgi ve belgelerin verimliliğinin arttırılması için ortak standard ve politikaların belirlenmesi göz ardı edilemez bir gereksinimdir. Böyle bir çalışma kullanımı kolay, erişimi hızlı, güvenilir, ucuz, sürekli ve sağlam 'elektronik kurum' yapısının oluşumuna katkı sağlayarak genelde 'e-toplum'a geçiş sürecini hızlandıracaktır.</p><p>E-kurum faaliyetleri sonucu oluşan elektronik dokümanların belge vasfının korunması, onların üretim aşamasında ve hatta üretim öncesinde elektronik bilgi sistemleri tasarımı aşamasında ele alınmalarını gerekli kılmaktadır. Belge kavramının sistem tasarımcıları ve kullanıcılar tarafından iyi algılanması ve belge yönetimi gereksinimlerinin uygulanması gerekmektedir.</p><p>Elektronik belge yönetimi son derece geniş ve karmaşık bir alandır. Bu alan bir sistem yaklaşımı ile ele alınmalı ve sistemi oluşturan öğelerin birbiri ile uyumlu çalışması için gerekli önlemler alınmalıdır.</p><p>Sistemi oluşturan öğelerin başında Elektronik Belge Yönetim Sistemi (EBYS) yazılımı gelmektedir. Elektronik belgeyi yönetmeye talip her kurum bu konuda uzmanlaşmış bir yazılıma ihtiyaç duyacaktır. Bir EBYS yazılımı hiç şüphesiz kurum ERP yazılımlarının bir parçası olarak üretilebilir ya da kurum fonksiyonlarını elektronik ortamda yürütmek için kullanılan diğer yazılımlarla entegre çalışabilen bağımsız bir paket de olabilir. Bu standard bir EBYS yazılımında bulunması gereken asgari fonksiyonel özellikleri tanımlamaktadır.</p><p>Sistemi oluşturan bir diğer öğe kurumsal politika ve prosedürlerdir. Kurum bilgi ve belge yönetimi prosedürleri EBYS için bir girdi olarak düşünülebilir. Kurumsal belge yönetimi politika ve prosedürlerini henüz geliştirme aşamasında olan kurumlar, bu standardı bir referans kaynağı olarak kullanabilirler.</p><p>Standardın bu revizyonunda Elektronik Arşivleme Sistemi Referans Modelinin (ELAS/RM) adı altında yeni bir bölüm eklenmiştir. Bu bölüm:</p><ul><li>Elektronik belgelerin üretildikleri dönemdeki hukuki varlığının korunabilmesi,</li><li>Sürekli saklanacak elektronik belgelerin kesintisiz olarak erişilebilirliğinin sağlanması için gerekli tedbirlerin alınması,</li><li>Elektronik belgelerin üretildiği bilgi sistemi platformundan bağımsız olarak erişilebilir olması için gerekli sistem gereksinimlerini, elektronik arşivleme sistemleri uygulamalarında bulunması gerekli temel arşivcilik fonksiyonlarını ve elektronik arşivde yer alacak belgelerin sisteme transfer, düzenleme, tanımlama ve kullanımı gibi fonksiyonlara uygun üstveri modelini tanımlamaktır.</li><p>Bu standard, dört bölüm halinde tasarlanmıştır. Bu bölümler kendi içerisinde alt bölümlere ayrılmış ve bu alt bölümler altında da sistem gereksinimleri sıralanmıştır. Bu standard içinde yer alan bölümler şunlardır:</p><li>Sistem kriterleri: Sistem tasarımı ve elektronik belgelerin sisteme dâhil edilmesi için gerekli olan gereksinimlerin ele alındığı bölüm.</li><li>Belge kriterleri: Elektronik belge özellikleri, sayısal görüntüleme sistemleri ve fiziksel ortamdaki belgelerin yönetimi ve EBYS içerisine entegrasyonu gibi konuların ele alındığı bölüm.</li><li>Elektronik Arşivleme Sistemi Referans Modeli (ELAS/RM): Elektronik ortamda üretilmiş ya da sonradan elektronik ortama aktarılmış olan arşiv malzemesinin yönetimine yönelik kriterler bu bölümde tanımlanmıştır.</li><li>Üst veri elemanları: EBYS ve ELAS/RM’ye ait üst veri gereksinimleri bu bölümde tanımlanmıştır.</li><p>Sistem ve belge kriterleri ile elektronik arşivleme sistemi referans modeline ait düzenlemeler dört farklı şekilde kodlanmıştır. Her bir kriterin yanındaki kutucuklarda yer alan kodların açılımları şunlardır:</p><li>S/Z: İlgili maddenin seçmeli mi yoksa zorunlu mu olduğunu göstermek için kullanılmıştır.</li> <li>BA: Kriterin bilgi amaçlı olduğunu ifade eder. Genel olarak ürün veya kurum sertifikasyonunda kullanılmamakla birlikte sistemin geneli hakkında ya da ilgili olduğu bölüm ile ilgili teknik bilgi içermektedir.</li><li>KYS: Belge ve arşiv yönetim sistemini kullanan kurumlarda Kurum Yeterlilik Sertifikasyonu için aranacak şartlarla ilgili kriterlerdir. Sistem kurulumu öncesinde ya da esnasında yerine getirilmesi gereken şartları belirler. Ayrıca EBYS ürünü kullanacak kurumların KYS şartlarını sağlamaları ve akredite kurumlardan sertifika almaları gerekir.</li><li>ÜS: Ürün (EBYS yazılımları) sertifikasyonunda kullanılacak kriterleri tanımlar. Bu standarda uyumluluk belgesi alacak ürünlerin taşıması gereken asgari standartları belirler. Aynı ürün farklı ad ve markalar altında birden fazla sertifikalandırılamaz. Yetkili sertifikasyon kurumu, ürünler arasında bu türden bir benzerlik olduğuna karar verdiği durumlarda ürünlerin kaynak kodlarını değerlendirme amaçlı olarak talep edebilir.</li></ul>",
+                    BaslikNo = null,
+                    Baslik = "Önsöz",
+                    Detay = "<ul><li class='ms-hover'><li class='ms-hover'>Bu standard, Türk Standardları Enstitüsü’nün Bilişim İhtisas Kurulu’na bağlı TK01 Bilişim Teknolojileri Teknik Komitesi’nce TS 13298: 2009’in revizyonu olarak hazırlanmış ve TSE Teknik Kurulu’nun 23 Ekim 2015 tarihli toplantısında kabul edilerek yayımına karar verilmiştir.<br><br></li><li class='ms-hover'>Bu standardın daha önce yayımlanmış bulunan baskıları geçersizdir.<br><br></li><li class='ms-hover'>Bu standardın hazırlanmasında, milli ihtiyaç ve imkânlarımız ön planda olmak üzere, milletlerarası &nbsp;standardlar ve ekonomik ilişkilerimiz bulunan yabancı ülkelerin standardlarındaki esaslar da gözönünde bulundurularak; yarar görülen hallerde, olabilen yakınlık ve benzerliklerin sağlanmasına ve bu esasların, ülkemiz şartları ile bağdaştırılmasına çalışılmıştır.<br>&nbsp;</li><li class='ms-hover'><li class='ms-hover'>Bu standard son şeklini almadan önce; bilimsel kuruluşlar, üretici/ imalatçı ve tüketici durumundaki konunun ilgilileri ile gerekli işbirliği yapılmış ve alınan görüşlere göre olgunlaştırılmıştır.<br><br></li><li class='ms-hover'><li class='ms-hover'>Bu standardda kullanılan bazı kelime ve/veya ifadeler patent haklarına konu olabilir. Böyle bir patent hakkının belirlenmesi durumunda TSE sorumlu tutulamaz.&nbsp;</li></li></li></li></ul>",
                     UstIcerikID = 0,
-                    StandartIcerikTipiID = 163,
+                    StandartIcerikTipiID = 162,
                     SiraNo = 2,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 3,
+                     StandartIcerikID = 3,
                     StandartID = 1,
-                    BaslikNo = "1",
-                    Baslik = "Kapsam",
-                    Detay = @"<p>Bu standard, kurumlarda üretilen ve/veya üretilmesi muhtemel elektronik dokümanların belge niteliğinin korunabilmesi için gerekli standardların belirlenmesi amacıyla aşağıdaki konuları kapsar:</p><ol><li>Elektronik belge yönetimi sistemi (EBYS) için gerekli sistem gereksinimleri,</li><li>EBYS için gerekli belge yönetim teknikleri ve uygulamaları,</li><li>Elektronik belgelerin yönetilebilmesi için gerekli gereksinimler,</li><li>Elektronik ortamda üretilmemiş belgelerin yönetim fonksiyonlarının elektronik ortamda yürütülebilmesi içingerekli gereksinimler,</li><li>Elektronik belgelerde bulunması gereken diplomatik özellikler,</li><li>Elektronik belgelerin hukuki geçerliliklerinin sağlanması için alınması gereken önlemler,</li><li>Güvenli elektronik imza ve mühür sistemlerinin uygulanması için gerekli sistem alt yapısının tanımlanması.</li></ol><p>Bu standard, ayrıca, elektronik belgelerin arşivlenmesi ve yönetimine yönelik olarak da aşağıdaki konuları kapsamaktadır.</p><ol><li>Elektronik ortamda üretilmiş ve kurumsal kimlik doğrulama sistemleri ve/veya elektronik / mobil imza sistemleri ile imzalanmış kurumsal belgelerin,</li><li>Fiziksel ortamlarda üretilmiş olup sonradan sayısallaştırma yöntemi ile elektronik ortama aktarılmış yazılı, basılı, çizili her türlü doküman ve belgelerin,</li><li>Dijital olarak üretilmiş resim, ses ve görüntü kayıtlarının,</li><li>Sayısallaştırma yöntemi ile elektronik ortama aktarılmış analog resim, ses ve görüntü kayıtlarının yönetilmesine imkân sağlayacak düzenlemeleri kapsamaktadır.</li></ol><p>Bu standard, elektronik belgelerin üretim ortamına ait bilgi güvenliği ile ilgili herhangi bir kriter kapsamaz. Bilgi güvenliği yönetim sistemi ile ilgili olarak TS ISO/IEC 27001 standardı kullanılabilir.</p>",
+                    BaslikNo = null,
+                    Baslik = "İçindekiler",
+                    Detay = null,
                     UstIcerikID = 0,
-                    StandartIcerikTipiID = 163,
+                    StandartIcerikTipiID = 166,
                     SiraNo = 3,
+                    DurumID = 1
+                },
+                 new StandartIcerik
+                {
+                    StandartIcerikID = 4,
+                    StandartID = 1,
+                    BaslikNo = null,
+                    Baslik = "Giriş",
+                    Detay = "<p style='text-align: justify; '>Bu standard, TS 13298:2009 Elektronik Belge Yönetimi standardının güncel ihtiyaçlara göre yeniden düzenlenmiş halini içermektedir. Standard bir önceki revizyonuna ilave olarak kurumlar arası belge paylaşımı, kayıtlı elektronik postaların yönetimi, elektronik yazışma paketi ve elektronik arşivlerin yönetimi başta olmak üzere bazı yenilikler getirmektedir.</p><p style='text-align: justify;'>Kurumların faaliyetlerini kayıt altına alması ve bu bilgileri paydaşları ile paylaşması kurumsal faaliyetlerin ayrılmaz bir parçasıdır. Herkesin, her zaman, her yerden kolaylıkla ulaşabileceği şeffaf, verimli ve sade bir kurum yapısı günümüzde modern ve demokratik kurumların temel hedefi haline gelmiştir. Bilgi ve iletişim teknolojilerindeki gelişmeler bu hedefi gerçekleştirecek olgunluğa ulaşmıştır ve her geçen gün daha da gelişmektedir. Son yıllarda sıkça duyduğumuz e-ticaret ve e-devlet gibi kavramlar bu gelişmelerin bir sonucudur. E-kurum yapısının temelini ise elektronik bilgi sistemleri oluşturmaktadır.</p><p style='text-align: justify;'>Kurumlarca üretilen bilgi ve belgelerin verimliliğinin arttırılması için ortak standard ve politikaların belirlenmesi göz ardı edilemez bir gereksinimdir. Böyle bir çalışma kullanımı kolay, erişimi hızlı, güvenilir, ucuz, sürekli ve sağlam 'elektronik kurum' yapısının oluşumuna katkı sağlayarak genelde 'e-toplum'a geçiş sürecini hızlandıracaktır.</p><p style='text-align: justify;'>E-kurum faaliyetleri sonucu oluşan elektronik dokümanların belge vasfının korunması, onların üretim aşamasında ve hatta üretim öncesinde elektronik bilgi sistemleri tasarımı aşamasında ele alınmalarını gerekli kılmaktadır. Belge kavramının sistem tasarımcıları ve kullanıcılar tarafından iyi algılanması ve belge yönetimi gereksinimlerinin uygulanması gerekmektedir.</p><p style='text-align: justify;'>Elektronik belge yönetimi son derece geniş ve karmaşık bir alandır. Bu alan bir sistem yaklaşımı ile ele alınmalı ve sistemi oluşturan öğelerin birbiri ile uyumlu çalışması için gerekli önlemler alınmalıdır.</p><p style='text-align: justify;'>Sistemi oluşturan öğelerin başında Elektronik Belge Yönetim Sistemi (EBYS) yazılımı gelmektedir. Elektronik belgeyi yönetmeye talip her kurum bu konuda uzmanlaşmış bir yazılıma ihtiyaç duyacaktır. Bir EBYS yazılımı hiç şüphesiz kurum ERP yazılımlarının bir parçası olarak üretilebilir ya da kurum fonksiyonlarını elektronik ortamda yürütmek için kullanılan diğer yazılımlarla entegre çalışabilen bağımsız bir paket de olabilir. Bu standard bir EBYS yazılımında bulunması gereken asgari fonksiyonel özellikleri tanımlamaktadır.</p><p style='text-align: justify;'>Sistemi oluşturan bir diğer öğe kurumsal politika ve prosedürlerdir. Kurum bilgi ve belge yönetimi prosedürleri EBYS için bir girdi olarak düşünülebilir. Kurumsal belge yönetimi politika ve prosedürlerini henüz geliştirme aşamasında olan kurumlar, bu standardı bir referans kaynağı olarak kullanabilirler.</p><p style='text-align: justify;'>Standardın bu revizyonunda Elektronik Arşivleme Sistemi Referans Modelinin (ELAS/RM) adı altında yeni bir bölüm eklenmiştir. Bu bölüm:</p><ul><li class='ms-hover' style='text-align: justify;'>Elektronik belgelerin üretildikleri dönemdeki hukuki varlığının korunabilmesi,</li><li class='ms-hover' style='text-align: justify;'>Sürekli saklanacak elektronik belgelerin kesintisiz olarak erişilebilirliğinin sağlanması için gerekli tedbirlerin alınması,</li><li class='ms-hover' style='text-align: justify;'>Elektronik belgelerin üretildiği bilgi sistemi platformundan bağımsız olarak erişilebilir olması için gerekli sistem gereksinimlerini, elektronik arşivleme sistemleri uygulamalarında bulunması gerekli temel arşivcilik fonksiyonlarını ve elektronik arşivde yer alacak belgelerin sisteme transfer, düzenleme, tanımlama ve kullanımı gibi fonksiyonlara uygun üstveri modelini tanımlamaktır.</li><p style='text-align: justify;'>Bu standard, dört bölüm halinde tasarlanmıştır. Bu bölümler kendi içerisinde alt bölümlere ayrılmış ve bu alt bölümler altında da sistem gereksinimleri sıralanmıştır. Bu standard içinde yer alan bölümler şunlardır:</p><li class='ms-hover' style='text-align: justify;'>Sistem kriterleri: Sistem tasarımı ve elektronik belgelerin sisteme dâhil edilmesi için gerekli olan gereksinimlerin ele alındığı bölüm.</li><li class='ms-hover' style='text-align: justify;'>Belge kriterleri: Elektronik belge özellikleri, sayısal görüntüleme sistemleri ve fiziksel ortamdaki belgelerin yönetimi ve EBYS içerisine entegrasyonu gibi konuların ele alındığı bölüm.</li><li class='ms-hover' style='text-align: justify;'>Elektronik Arşivleme Sistemi Referans Modeli (ELAS/RM): Elektronik ortamda üretilmiş ya da sonradan elektronik ortama aktarılmış olan arşiv malzemesinin yönetimine yönelik kriterler bu bölümde tanımlanmıştır.</li><li class='ms-hover' style='text-align: justify; '>Üst veri elemanları: EBYS ve ELAS/RM’ye ait üst veri gereksinimleri bu bölümde tanımlanmıştır.</li><p style='text-align: justify;'>Sistem ve belge kriterleri ile elektronik arşivleme sistemi referans modeline ait düzenlemeler dört farklı şekilde kodlanmıştır. Her bir kriterin yanındaki kutucuklarda yer alan kodların açılımları şunlardır:</p><li style='text-align: justify;'>S/Z: İlgili maddenin seçmeli mi yoksa zorunlu mu olduğunu göstermek için kullanılmıştır.</li> <li class='ms-hover' style='text-align: justify;'>BA: Kriterin bilgi amaçlı olduğunu ifade eder. Genel olarak ürün veya kurum sertifikasyonunda kullanılmamakla birlikte sistemin geneli hakkında ya da ilgili olduğu bölüm ile ilgili teknik bilgi içermektedir.</li><li style='text-align: justify;' class='ms-hover'>KYS: Belge ve arşiv yönetim sistemini kullanan kurumlarda Kurum Yeterlilik Sertifikasyonu için aranacak şartlarla ilgili kriterlerdir. Sistem kurulumu öncesinde ya da esnasında yerine getirilmesi gereken şartları belirler. Ayrıca EBYS ürünü kullanacak kurumların KYS şartlarını sağlamaları ve akredite kurumlardan sertifika almaları gerekir.</li><li class='ms-hover' style='text-align: justify; '>ÜS: Ürün (EBYS yazılımları) sertifikasyonunda kullanılacak kriterleri tanımlar. Bu standarda uyumluluk belgesi alacak ürünlerin taşıması gereken asgari standartları belirler. Aynı ürün farklı ad ve markalar altında birden fazla sertifikalandırılamaz. Yetkili sertifikasyon kurumu, ürünler arasında bu türden bir benzerlik olduğuna karar verdiği durumlarda ürünlerin kaynak kodlarını değerlendirme amaçlı olarak talep edebilir.</li></ul>",
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 169,
+                    SiraNo = 4,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 4,
+                    StandartIcerikID = 5,
+                    StandartID = 1,
+                    BaslikNo = null,
+                    Baslik = "Elektronik belge ve arşiv yönetim sistemi",
+                    Detay = null,
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 167,
+                    SiraNo = 5,
+                    DurumID = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 6,
+                    StandartID = 1,
+                    BaslikNo = "1",
+                    Baslik = "Kapsam",
+                    Detay = "<p>Bu standard, kurumlarda üretilen ve/veya üretilmesi muhtemel elektronik dokümanların belge niteliğinin korunabilmesi için gerekli standardların belirlenmesi amacıyla aşağıdaki konuları kapsar:</p><ol><li class='ms-hover'>Elektronik belge yönetimi sistemi (EBYS) için gerekli sistem gereksinimleri,</li><li class='ms-hover'>EBYS için gerekli belge yönetim teknikleri ve uygulamaları,</li><li class='ms-hover'>Elektronik belgelerin yönetilebilmesi için gerekli gereksinimler,</li><li class='ms-hover'>Elektronik ortamda üretilmemiş belgelerin yönetim fonksiyonlarının elektronik ortamda yürütülebilmesi içingerekli gereksinimler,</li><li class='ms-hover'>Elektronik belgelerde bulunması gereken diplomatik özellikler,</li><li class='ms-hover'>Elektronik belgelerin hukuki geçerliliklerinin sağlanması için alınması gereken önlemler,</li><li class='ms-hover'>Güvenli elektronik imza ve mühür sistemlerinin uygulanması için gerekli sistem alt yapısının tanımlanması.</li></ol><p>Bu standard, ayrıca, elektronik belgelerin arşivlenmesi ve yönetimine yönelik olarak da aşağıdaki konuları kapsamaktadır.</p><ol><li class='ms-hover'>Elektronik ortamda üretilmiş ve kurumsal kimlik doğrulama sistemleri ve/veya elektronik / mobil imza sistemleri ile imzalanmış kurumsal belgelerin,</li><li class='ms-hover'>Fiziksel ortamlarda üretilmiş olup sonradan sayısallaştırma yöntemi ile elektronik ortama aktarılmış yazılı, basılı, çizili her türlü doküman ve belgelerin,</li><li class='ms-hover'>Dijital olarak üretilmiş resim, ses ve görüntü kayıtlarının,</li><li class='ms-hover'>Sayısallaştırma yöntemi ile elektronik ortama aktarılmış analog resim, ses ve görüntü kayıtlarının yönetilmesine imkân sağlayacak düzenlemeleri kapsamaktadır.</li></ol><p>Bu standard, elektronik belgelerin üretim ortamına ait bilgi güvenliği ile ilgili herhangi bir kriter kapsamaz. Bilgi güvenliği yönetim sistemi ile ilgili olarak TS ISO/IEC 27001 standardı kullanılabilir.</p>",
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 163,
+                    SiraNo = 6,
+                    DurumID = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 7,
                     StandartID = 1,
                     BaslikNo = "2",
                     Baslik = "Atıf yapılan standard ve/veya dokümanlar",
                     Detay = @"Aşağıda verilen, atıf yapılan standardların hükümleri bu standardın hükümleri sayılır. Tarih belirtilen atıflarda, daha sonra yapılan tadil ve revizyonlar uygulanmaz. Bununla birlikte, bu standarda dayalı anlaşmalarda taraflara, aşağıda verilen standardların en yeni baskılarını uygulama imkânını araştırmaları önerilir. Tarih belirtilmeyen atıflarda, ilgili standardın en son baskısı kullanılır. Bütün standardların yürürlükte bulunan baskıları TSE’den temin edilebilir. (*) işaretli olanlar bu standardın basıldığı tarihte İngilizce metin olarak yayımlanmış Türk Standardlarıdır.",
                     UstIcerikID = 0,
                     StandartIcerikTipiID = 161,
-                    SiraNo = 4,
+                    SiraNo = 7,
                     DurumID = 1,
                     StandartAtiflar = new List<StandartAtif>
                     {
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 8,
                             StandartAtifTipiSablonID = 1,
                             DurumID = 1
@@ -11426,7 +11471,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 8,
                             StandartAtifTipiSablonID = 2,
                             DurumID = 1
@@ -11434,7 +11479,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 8,
                             StandartAtifTipiSablonID = 3,
                             DurumID = 1
@@ -11442,7 +11487,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 8,
                             StandartAtifTipiSablonID = 4,
                             DurumID = 1
@@ -11450,7 +11495,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 8,
                             StandartAtifTipiSablonID = 5,
                             DurumID = 1
@@ -11458,7 +11503,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 8,
                             StandartAtifTipiSablonID = 6,
                             DurumID = 1
@@ -11466,7 +11511,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 8,
                             StandartAtifTipiSablonID = 7,
                             DurumID = 1
@@ -11474,7 +11519,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 8,
                             StandartAtifTipiSablonID = 8,
                             DurumID = 1
@@ -11490,7 +11535,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 9,
                             StandartAtifTipiSablonID = 10,
                             DurumID = 1
@@ -11498,7 +11543,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 9,
                             StandartAtifTipiSablonID = 11,
                             DurumID = 1
@@ -11506,7 +11551,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 9,
                             StandartAtifTipiSablonID = 12,
                             DurumID = 1
@@ -11514,7 +11559,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 9,
                             StandartAtifTipiSablonID = 13,
                             DurumID = 1
@@ -11522,7 +11567,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 9,
                             StandartAtifTipiSablonID = 14,
                             DurumID = 1
@@ -11530,7 +11575,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 9,
                             StandartAtifTipiSablonID = 15,
                             DurumID = 1
@@ -11538,7 +11583,7 @@
                         new StandartAtif
                         {
                             StandartID = 1,
-                            StandartIcerikID = 4,
+                            StandartIcerikID = 7,
                             KategoriID = 9,
                             StandartAtifTipiSablonID = 16,
                             DurumID = 1
@@ -11547,48 +11592,12 @@
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 5,
+                    StandartIcerikID = 8,
                     StandartID = 1,
                     BaslikNo = "3",
                     Baslik = "Terimler, tarifler ve kısaltmalar",
                     Detay = "Bu standard için aşağıdaki terimler ve tarifler geçerlidir. Burada yer almayan terimler için ISO 15489’da belirtilen terimler ve tarifler kullanılmalıdır.",
                     UstIcerikID = 0,
-                    StandartIcerikTipiID = 163,
-                    SiraNo = 5,
-                    DurumID = 1
-                },
-                new StandartIcerik
-                {
-                    StandartIcerikID = 6,
-                    StandartID = 1,
-                    BaslikNo = "3.1",
-                    Baslik = "Arşiv Kurumu",
-                    Detay = "Belirli bir yasal çerçeve içerisinde faaliyet gösteren ve farklı kurumlar tarafından üretilmiş olan arşiv malzemesini ayıklama, düzenleme, tanımlama, hizmete sunma ve diğer yönetimsel fonksiyonları yerine getiren ulusal, bölgesel ya da özel amaçlı arşiv kurumları.",
-                    UstIcerikID = 5,
-                    StandartIcerikTipiID = 163,
-                    SiraNo = 6,
-                    DurumID = 1
-                },
-                new StandartIcerik
-                {
-                    StandartIcerikID = 7,
-                    StandartID = 1,
-                    BaslikNo = "3.2",
-                    Baslik = "Arşiv Yönetim Sistemi (AYS)",
-                    Detay = "Arşiv malzemesinin arşiv kurumlarına transferi, düzenlenmesi, tanımlanması, kullanıma sunulması, korunması ve diğer yönetimsel fonksiyonları gerçekleştirmek üzere geliştirilmiş bilgisayar sistemi.",
-                    UstIcerikID = 5,
-                    StandartIcerikTipiID = 163,
-                    SiraNo = 7,
-                    DurumID = 1
-                },
-                new StandartIcerik
-                {
-                    StandartIcerikID = 8,
-                    StandartID = 1,
-                    BaslikNo = "3.3",
-                    Baslik = "Belge",
-                    Detay = "Herhangi bir bireysel veya kurumsal fonksiyonun yerine getirilmesi için alınmış ya da fonksiyonun sonucunda üretilmiş, içerik, ilişki ve formatı ile ait olduğu fonksiyon için delil teşkil eden kayıtlı bilgi.",
-                    UstIcerikID = 5,
                     StandartIcerikTipiID = 163,
                     SiraNo = 8,
                     DurumID = 1
@@ -11597,10 +11606,10 @@
                 {
                     StandartIcerikID = 9,
                     StandartID = 1,
-                    BaslikNo = "3.4",
-                    Baslik = "Diplomatik özellik",
-                    Detay = "Belgelerin orijinalliğinin tespit edilmesinde kullanılabilecek her türlü içerik, format, ilişki ve sunum özellikleri.",
-                    UstIcerikID = 5,
+                    BaslikNo = "3.1",
+                    Baslik = "Arşiv Kurumu",
+                    Detay = "Belirli bir yasal çerçeve içerisinde faaliyet gösteren ve farklı kurumlar tarafından üretilmiş olan arşiv malzemesini ayıklama, düzenleme, tanımlama, hizmete sunma ve diğer yönetimsel fonksiyonları yerine getiren ulusal, bölgesel ya da özel amaçlı arşiv kurumları.",
+                    UstIcerikID = 8,
                     StandartIcerikTipiID = 163,
                     SiraNo = 9,
                     DurumID = 1
@@ -11609,10 +11618,10 @@
                 {
                     StandartIcerikID = 10,
                     StandartID = 1,
-                    BaslikNo = "3.5",
-                    Baslik = "Doküman",
-                    Detay = "Kurumsal faaliyetlerin yerine getirilmesinde üretilen ya da toplanan, henüz belge vasfı kazanmamış her türlü kayıtlı bilgi.",
-                    UstIcerikID = 5,
+                    BaslikNo = "3.2",
+                    Baslik = "Arşiv Yönetim Sistemi (AYS)",
+                    Detay = "Arşiv malzemesinin arşiv kurumlarına transferi, düzenlenmesi, tanımlanması, kullanıma sunulması, korunması ve diğer yönetimsel fonksiyonları gerçekleştirmek üzere geliştirilmiş bilgisayar sistemi.",
+                    UstIcerikID = 8,
                     StandartIcerikTipiID = 163,
                     SiraNo = 10,
                     DurumID = 1
@@ -11621,10 +11630,10 @@
                 {
                     StandartIcerikID = 11,
                     StandartID = 1,
-                    BaslikNo = "3.6",
-                    Baslik = "Dosya tasnif planı",
-                    Detay = "Kurumsal faaliyetlerin ve bu faaliyetler sonucunda oluşan belgelerin kurumsal yapıya ve hiyerarşiye uygun olarak konusal olarak sınıflandırılması için geliştirilmiş belge yönetim aracı.",
-                    UstIcerikID = 5,
+                    BaslikNo = "3.3",
+                    Baslik = "Belge",
+                    Detay = "Herhangi bir bireysel veya kurumsal fonksiyonun yerine getirilmesi için alınmış ya da fonksiyonun sonucunda üretilmiş, içerik, ilişki ve formatı ile ait olduğu fonksiyon için delil teşkil eden kayıtlı bilgi.",
+                    UstIcerikID = 8,
                     StandartIcerikTipiID = 163,
                     SiraNo = 11,
                     DurumID = 1
@@ -11633,10 +11642,10 @@
                 {
                     StandartIcerikID = 12,
                     StandartID = 1,
-                    BaslikNo = "3.7",
-                    Baslik = "Elektronik belge yönetimi",
-                    Detay = "Kurumların gündelik işlerini yerine getirirken oluşturdukları her türlü dokümantasyonun içerisinden kurum faaliyetlerinin delili olabilecek belgelerin ayıklanarak bunların içerik, format ve ilişkisel özelliklerini korumak ve bu belgeleri üretimden nihai tasfiyeye kadar olan süreç içerisinde yönetmek.",
-                    UstIcerikID = 5,
+                    BaslikNo = "3.4",
+                    Baslik = "Diplomatik özellik",
+                    Detay = "Belgelerin orijinalliğinin tespit edilmesinde kullanılabilecek her türlü içerik, format, ilişki ve sunum özellikleri.",
+                    UstIcerikID = 8,
                     StandartIcerikTipiID = 163,
                     SiraNo = 12,
                     DurumID = 1
@@ -11645,10 +11654,10 @@
                 {
                     StandartIcerikID = 13,
                     StandartID = 1,
-                    BaslikNo = "3.8",
-                    Baslik = "Kurum arşivi",
-                    Detay = "Ait olduğu kurum tarafından üretilen belgelerden idarî, malî ve hukukî açıdan saklama süresini doldurmuş olan arşiv belgelerinin ayıklanması, düzenlenmesi, tanımlanması, hizmete sunulması ve diğer yönetimsel fonksiyonları yerine getiren birim.",
-                    UstIcerikID = 5,
+                    BaslikNo = "3.5",
+                    Baslik = "Doküman",
+                    Detay = "Kurumsal faaliyetlerin yerine getirilmesinde üretilen ya da toplanan, henüz belge vasfı kazanmamış her türlü kayıtlı bilgi.",
+                    UstIcerikID = 8,
                     StandartIcerikTipiID = 163,
                     SiraNo = 13,
                     DurumID = 1
@@ -11657,10 +11666,10 @@
                 {
                     StandartIcerikID = 14,
                     StandartID = 1,
-                    BaslikNo = "3.9",
-                    Baslik = "Provenans",
-                    Detay = "Kendi faaliyetlerinin yürütülmesi sırasında belge üreten ve saklayan kişi veya kurumlar bir belgenin provenansını oluşturur. Provenans prensibi ise; aynı provenansa (kaynak, köken, menşe) sahip belgelerin, başka bir provenansa sahip olanlarla karıştırılmaması gerektiğini öngören temel ilke. 'Fonlara Saygı' (respectdes fonds) olarak da anılır.",
-                    UstIcerikID = 5,
+                    BaslikNo = "3.6",
+                    Baslik = "Dosya tasnif planı",
+                    Detay = "Kurumsal faaliyetlerin ve bu faaliyetler sonucunda oluşan belgelerin kurumsal yapıya ve hiyerarşiye uygun olarak konusal olarak sınıflandırılması için geliştirilmiş belge yönetim aracı.",
+                    UstIcerikID = 8,
                     StandartIcerikTipiID = 163,
                     SiraNo = 14,
                     DurumID = 1
@@ -11669,10 +11678,10 @@
                 {
                     StandartIcerikID = 15,
                     StandartID = 1,
-                    BaslikNo = "3.10",
-                    Baslik = "Tasfiye",
-                    Detay = "Kurumsal gereksinimler açısından saklanmasına gerek kalmayan belgelerin kurum belge sisteminin dışına çıkarılması. Tasfiye işlemi artık ihtiyaç duyulmayan belgelerin kurum içinde veya kurum dışında başka bir kuruma/birime transfer edilmesini ya da imha edilmesini öngörür.",
-                    UstIcerikID = 5,
+                    BaslikNo = "3.7",
+                    Baslik = "Elektronik belge yönetimi",
+                    Detay = "Kurumların gündelik işlerini yerine getirirken oluşturdukları her türlü dokümantasyonun içerisinden kurum faaliyetlerinin delili olabilecek belgelerin ayıklanarak bunların içerik, format ve ilişkisel özelliklerini korumak ve bu belgeleri üretimden nihai tasfiyeye kadar olan süreç içerisinde yönetmek.",
+                    UstIcerikID = 8,
                     StandartIcerikTipiID = 163,
                     SiraNo = 15,
                     DurumID = 1
@@ -11681,10 +11690,10 @@
                 {
                     StandartIcerikID = 16,
                     StandartID = 1,
-                    BaslikNo = "3.11",
-                    Baslik = "Varlık",
-                    Detay = "Arşiv yönetim sistemi içerisinde yer alan ve bağımsız olarak tanımlanan belge, dosya / klasör, seri, fon, vs. gibi kayıtlar. <table><h3>Kısaltmalar</h3><tr><td>AYS</td><td>Arşiv Yönetim Sistemi</td></tr><tr><td>DERBİS</td><td>Dernekler Bilgi Sistemi</td></tr><tr><td>DETSİS</td><td>Devlet Teşkilatı Merkezi Kayıt Sistemi</td></tr><tr><td>DGS</td><td>Dijital Görüntüme Sistemi</td></tr><tr><td>DYS</td><td>Doküman Yönetim Sistemi</td></tr><tr><td>EBYS</td><td>Elektronik Belge Yönetim Sistemi</td></tr><tr><td>ELAS/RM</td><td>Elektronik Arşivleme Sistemi Referans Modeli</td></tr><tr><td>EYP</td><td>Elektronik Yazışma Paketi</td></tr><tr><td>KEP</td><td>Kayıtlı Elektronik Posta</td></tr><tr><td>KPS</td><td>Kimlik Paylaşım Sistemi</td></tr><tr><td>MERNİS</td><td>Merkezî Nüfus İdare Sistemi</td></tr><tr><td>MERSİS</td><td>Merkezi Sicil Kayıt Sistemi</td></tr><tr><td>MTK</td><td>Merkezi Tüzel Kişilik Bilgi Sistemi</td></tr><tr><td>UAPS</td><td>Ulusal Adres Paylaşım Sistemi</td></tr><tr><td>VBYS</td><td>Vakıf Bilgi Yönetim Sistemi</td></tr></table>",
-                    UstIcerikID = 5,
+                    BaslikNo = "3.8",
+                    Baslik = "Kurum arşivi",
+                    Detay = "Ait olduğu kurum tarafından üretilen belgelerden idarî, malî ve hukukî açıdan saklama süresini doldurmuş olan arşiv belgelerinin ayıklanması, düzenlenmesi, tanımlanması, hizmete sunulması ve diğer yönetimsel fonksiyonları yerine getiren birim.",
+                    UstIcerikID = 8,
                     StandartIcerikTipiID = 163,
                     SiraNo = 16,
                     DurumID = 1
@@ -11693,11 +11702,11 @@
                 {
                     StandartIcerikID = 17,
                     StandartID = 1,
-                    BaslikNo = "Bölüm 1:",
-                    Baslik = "Sistem Kriterleri",
-                    Detay = null,
-                    UstIcerikID = 0,
-                    StandartIcerikTipiID = 162,
+                    BaslikNo = "3.9",
+                    Baslik = "Provenans",
+                    Detay = "Kendi faaliyetlerinin yürütülmesi sırasında belge üreten ve saklayan kişi veya kurumlar bir belgenin provenansını oluşturur. Provenans prensibi ise; aynı provenansa (kaynak, köken, menşe) sahip belgelerin, başka bir provenansa sahip olanlarla karıştırılmaması gerektiğini öngören temel ilke. 'Fonlara Saygı' (respectdes fonds) olarak da anılır.",
+                    UstIcerikID = 8,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 17,
                     DurumID = 1
                 },
@@ -11705,11 +11714,11 @@
                 {
                     StandartIcerikID = 18,
                     StandartID = 1,
-                    BaslikNo = "4",
-                    Baslik = "Dosya tasnif planları",
-                    Detay = null,
-                    UstIcerikID = 17,
-                    StandartIcerikTipiID = 162,
+                    BaslikNo = "3.10",
+                    Baslik = "Tasfiye",
+                    Detay = "Kurumsal gereksinimler açısından saklanmasına gerek kalmayan belgelerin kurum belge sisteminin dışına çıkarılması. Tasfiye işlemi artık ihtiyaç duyulmayan belgelerin kurum içinde veya kurum dışında başka bir kuruma/birime transfer edilmesini ya da imha edilmesini öngörür.",
+                    UstIcerikID = 8,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 18,
                     DurumID = 1
                 },
@@ -11717,11 +11726,11 @@
                 {
                     StandartIcerikID = 19,
                     StandartID = 1,
-                    BaslikNo = "4.1",
-                    Baslik = "Dosya planının oluşturulması",
-                    Detay = null,
-                    UstIcerikID = 18,
-                    StandartIcerikTipiID = 162,
+                    BaslikNo = "3.11",
+                    Baslik = "Varlık",
+                    Detay = "Arşiv yönetim sistemi içerisinde yer alan ve bağımsız olarak tanımlanan belge, dosya / klasör, seri, fon, vs. gibi kayıtlar. <p><b><br>Kısaltmalar</b><br></p><table><tbody><tr><td width='100'>AYS</td><td>Arşiv Yönetim Sistemi</td></tr><tr><td>DERBİS</td><td>Dernekler Bilgi Sistemi</td></tr><tr><td>DETSİS</td><td>Devlet Teşkilatı Merkezi Kayıt Sistemi</td></tr><tr><td>DGS</td><td>Dijital Görüntüme Sistemi</td></tr><tr><td>DYS</td><td>Doküman Yönetim Sistemi</td></tr><tr><td>EBYS</td><td>Elektronik Belge Yönetim Sistemi</td></tr><tr><td>ELAS/RM</td><td>Elektronik Arşivleme Sistemi Referans Modeli</td></tr><tr><td>EYP</td><td>Elektronik Yazışma Paketi</td></tr><tr><td>KEP</td><td>Kayıtlı Elektronik Posta</td></tr><tr><td>KPS</td><td>Kimlik Paylaşım Sistemi</td></tr><tr><td>MERNİS</td><td>Merkezî Nüfus İdare Sistemi</td></tr><tr><td>MERSİS</td><td>Merkezi Sicil Kayıt Sistemi</td></tr><tr><td>MTK</td><td>Merkezi Tüzel Kişilik Bilgi Sistemi</td></tr><tr><td>UAPS</td><td>Ulusal Adres Paylaşım Sistemi</td></tr><tr><td>VBYS</td><td>Vakıf Bilgi Yönetim Sistemi</td></tr></tbody></table>",
+                    UstIcerikID = 8,
+                    StandartIcerikTipiID = 163,
                     SiraNo = 19,
                     DurumID = 1
                 },
@@ -11729,11 +11738,11 @@
                 {
                     StandartIcerikID = 20,
                     StandartID = 1,
-                    BaslikNo = "4.2",
-                    Baslik = "Dosya tasnif planı elemanlarının tanımlanması",
+                    BaslikNo = null,
+                    Baslik = "Bölüm 1: Sistem Kriterleri",
                     Detay = null,
-                    UstIcerikID = 18,
-                    StandartIcerikTipiID = 162,
+                    UstIcerikID = 0,
+                    StandartIcerikTipiID = 164,
                     SiraNo = 20,
                     DurumID = 1
                 },
@@ -11741,11 +11750,11 @@
                 {
                     StandartIcerikID = 21,
                     StandartID = 1,
-                    BaslikNo = "4.3",
-                    Baslik = "Dosya tasnif planının yönetilmesi",
+                    BaslikNo = "4",
+                    Baslik = "Dosya tasnif planları",
                     Detay = null,
-                    UstIcerikID = 18,
-                    StandartIcerikTipiID = 162,
+                    UstIcerikID = 20,
+                    StandartIcerikTipiID = 169,
                     SiraNo = 21,
                     DurumID = 1
                 },
@@ -11753,11 +11762,11 @@
                 {
                     StandartIcerikID = 22,
                     StandartID = 1,
-                    BaslikNo = "5",
-                    Baslik = "Saklama planları",
+                    BaslikNo = "4.1",
+                    Baslik = "Dosya planının oluşturulması",
                     Detay = null,
-                    UstIcerikID = 17,
-                    StandartIcerikTipiID = 162,
+                    UstIcerikID = 21,
+                    StandartIcerikTipiID = 168,
                     SiraNo = 22,
                     DurumID = 1
                 },
@@ -11765,14 +11774,1176 @@
                 {
                     StandartIcerikID = 23,
                     StandartID = 1,
+                    BaslikNo = "4.1.1",
+                    Baslik = null,
+                    Detay = "EBYS ait olduğu kurumun yapısını ve fonksiyonlarını yansıtacak bir dosya tasnif planını içinde barındırmalı ve / veya kurum dosya tasnif planı ile uyumlu olmalıdır.",
+                    UstIcerikID = 22,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 23,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 1,
+                        StandartID = 1, 
+                        StandartIcerikID = 23,                                               
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }                   
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 24,
+                    StandartID = 1,
+                    BaslikNo = "4.1.2",
+                    Baslik = null,
+                    Detay = "EBYS içerisinde temsil edilecek olan dosya tasnif planı hiyerarşik bir yapıda olmalı ve asgari üç seviyeden oluşmalıdır. Asgari seviye tercih edildiğinde birim, seri ve dosya seviyeleri tercih edilmelidir. EBYS içerisinde yer alabilecek dosya tasnif planı seviyeleri için Madde 5.2’deki Belge Hiyerarşisi bölümüne bakılmalıdır.",
+                    UstIcerikID = 22,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 24,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 2,
+                        StandartID = 1,
+                        StandartIcerikID = 24,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 25,
+                    StandartID = 1,
+                    BaslikNo = "4.1.3",
+                    Baslik = null,
+                    Detay = "Dosya tasnif planında temsil edilecek olan, kurumsal fonksiyon, seri, alt seri, dosya / klasör adları gibi elemanlar Elektronik Belge Yöneticisi tarafından tanımlanabilmelidir",
+                    UstIcerikID = 22,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 25,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 3,
+                        StandartID = 1,
+                        StandartIcerikID = 25,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 26,
+                    StandartID = 1,
+                    BaslikNo = "4.1.4",
+                    Baslik = null,
+                    Detay = "Sistem, dosya tasnif planında temsil edilen eleman kodlarının tekrar etmemesi için gerekli kontrolleri yapmalı ve kullanıcıyı uyarmalıdır.",
+                    UstIcerikID = 22,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 26,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 4,
+                        StandartID = 1,
+                        StandartIcerikID = 26,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 27,
+                    StandartID = 1,
+                    BaslikNo = "4.1.5",
+                    Baslik = null,
+                    Detay = "Dosya tasnif planındaki eleman adları alfa karakterlerin yanı sıra nümerik karakterleri de içerebilir. Sistem, eleman adlarının oluşturulmasında işletim sisteminin sınırlamalarının dışında herhangi bir sınırlama getirmemelidir.",
+                    UstIcerikID = 22,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 27,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 5,
+                        StandartID = 1,
+                        StandartIcerikID = 27,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 28,
+                    StandartID = 1,
+                    BaslikNo = "4.1.6",
+                    Baslik = null,
+                    Detay = "EBYS, dosya tasnif planının kurulum aşaması sonrasında doğabilecek güncelleme ihtiyaçlarına imkân tanımalıdır. Bu bağlamda herhangi bir seviyeye yeni eleman eklenmesi sağlanmalıdır. Ancak herhangi bir seviyeden bir elemanın çıkarılabilmesi sadece o elemana bağlı alt elemanların veya elektronik belgelerin olmadığı durumlarda ya da elemanlar başka bir yere taşındıktan sonra mümkün olabilmelidir.",
+                    UstIcerikID = 22,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 28,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 6,
+                        StandartID = 1,
+                        StandartIcerikID = 28,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 29,
+                    StandartID = 1,
+                    BaslikNo = "4.1.7",
+                    Baslik = null,
+                    Detay = "<p>Sistem aynı anda birden fazla dosya tasnif planının oluşturulmasına ve kullanılmasına imkân sağlamalıdır. </p><p>Not: Bu, özellikle birleşen kurumların geçmiş dönemlere ait belgelerinin yönetimi aşamasında ihtiyaç duyulabilecek bir özelliktir.<br></p>",
+                    UstIcerikID = 22,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 29,
+                    DurumID = 1,
+                     StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 7,
+                        StandartID = 1,
+                        StandartIcerikID = 29,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 30,
+                    StandartID = 1,
+                    BaslikNo = "4.1.8",
+                    Baslik = null,
+                    Detay = "EBYS kullanacak kurumlar, kurumsal yapılarına ve 2005/7 sayılı Başbakanlık Genelgesine uygun bir dosya planı oluşturmak ve bunun EBYS sistemine entegre edilmesini sağlamalıdır.",
+                    UstIcerikID = 22,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 30,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 8,
+                        StandartID = 1,
+                        StandartIcerikID = 30,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 31,
+                    StandartID = 1,
+                    BaslikNo = "4.2",
+                    Baslik = "Dosya tasnif planı elemanlarının tanımlanması",
+                    Detay = null,
+                    UstIcerikID = 21,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 31,
+                    DurumID = 1,
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 32,
+                    StandartID = 1,
+                    BaslikNo = "4.2.1",
+                    Baslik = null,
+                    Detay = "EBYS, dosya tasnif planında yer alan her bir eleman için üstveri tanımlanmasına imkân sağlamalıdır. Dosya tasnif planında ya da bu planla ilişkilendirilmiş alt elemanlar ile elektronik belgelere ait üstveriler üzerinde değişiklik yapılması yetkisi sadece belge yöneticilerine ait olmalıdır",
+                    UstIcerikID = 31,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 32,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 9,
+                        StandartID = 1,
+                        StandartIcerikID = 32,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 33,
+                    StandartID = 1,
+                    BaslikNo = "4.2.2",
+                    Baslik = null,
+                    Detay = "<div>EBYS, dosya tasnif planı içerisinde temsil edilen her bir eleman için kimlik bilgisi niteliğinde en az iki adet üstveri eleman tanım alanı</div><div>bulundurmalıdır. Bu alanlar şunlardır:&nbsp;<br><br></div><ul><li class='ms-hover'>Her bir eleman için tekrar etmeyecek nitelikte nümerik veya alfa-nümerik bir referans kodu alanı,&nbsp;</li><li class='ms-hover'>Her bir eleman için alfa nümerik bir ad alanı&nbsp;</li></ul>",
+                    UstIcerikID = 31,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 33,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 10,
+                        StandartID = 1,
+                        StandartIcerikID = 33,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 34,
+                    StandartID = 1,
+                    BaslikNo = "4.2.3",
+                    Baslik = null,
+                    Detay = "<div>EBYS, dosya tasnif planındaki elemanların hiyerarşideki en alt seviyeden itibaren bir üst seviye ile ilişkilendirilmesine imkân sağlamalıdır.</div><div>&nbsp;</div><div>Not: En alt seviye her bir eleman için aynı olmak zorunda değildir.</div>",
+                    UstIcerikID = 31,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 34,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 11,
+                        StandartID = 1,
+                        StandartIcerikID = 34,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 35,
+                    StandartID = 1,
+                    BaslikNo = "4.2.4",
+                    Baslik = null,
+                    Detay = "<div>EBYS içerisine dâhil edilen her bir elektronik belgeye ait dosya plan kodları otomatik olarak üstveri tablosuna dâhil edilmelidir. Elektronik belgenin dâhil edildiği seviyeden başlayarak yukarı doğru tüm seviyelere ait kodlar üstveri tablosunda görülebilmelidir. </div><div>&nbsp;</div><div>Not: Elektronik belge yöneticisinin “Halkla İlişkiler” serisi altında “Tanıtım Faaliyetleri” adında bir alt seri açtığını ve buraya “Broşür talebi” konusunda bir yazışmayı dâhil edildiği varsayılsın. “Broşür talebi” belgesine ait üstveri kaydının, söz konusu belgeye, belgenin bağlı olduğu alt seriye ve alt serinin bağlı olduğu seriye ait referans kodlarını barındırması beklenir.</div>",
+                    UstIcerikID = 31,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 35,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 12,
+                        StandartID = 1,
+                        StandartIcerikID = 35,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 36,
+                    StandartID = 1,
+                    BaslikNo = "4.2.5",
+                    Baslik = null,
+                    Detay = "<div>EBYS içindeki elemanların isimlendirilmesi kontrollü terminoloji kullanabilmelidir. Bu bağlamda sistem, içerisinde kontrollü terminoloji listelerinin bulundurulmasına imkân tanımalıdır. </div><div>&nbsp;</div><div>Not: Kontrollü terminoloji, her hangi bir elemanın isimlendirilmesinde kullanılacak tanımlamaların önceden belirlenmiş listelerden alınması anlamını taşımaktadır.</div>",
+                    UstIcerikID = 31,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 36,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 13,
+                        StandartID = 1,
+                        StandartIcerikID = 36,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 37,
+                    StandartID = 1,
+                    BaslikNo = "4.2.6",
+                    Baslik = null,
+                    Detay = "Dosya tasnif planındaki elemanlara ait ad bilgileri şahıs ve tüzel kişilik adları ile tarihler de olabilir. Burada verilen tarihler geçerlilik kontrolüne tabi tutulmalıdır. Şahıs ve tüzel kişi adları daha önceden belirlenmiş listelerden alınabilmelidir.",
+                    UstIcerikID = 31,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 37,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 14,
+                        StandartID = 1,
+                        StandartIcerikID = 37,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 38,
+                    StandartID = 1,
+                    BaslikNo = "4.2.7",
+                    Baslik = null,
+                    Detay = "<div>EBYS içerisine dahil edilen klasörler bölümlerden oluşabilmelidir. Sistem içindeki elemanların birbiri ile dikey ilişkisi olurken bölümler</div><div>kendi aralarında yatay bir ilişki içinde olmalıdır. &nbsp;</div><div>&nbsp;</div><div>Not: Bölüm, klasörleri yönetilebilir küçük parçalara bölmek içinkullanılır. Bazı durumlarda bir klasörü çeşitli nedenlerle birden fazla</div><div>parçaya bölmek gerekebilir. Belge yönetim sistemi içerisindeki elemanları birbirleri ile olan hiyerarşik ilişkileri 5.2’de grafiksel olarak</div><div>gösterilmiş ve açıklanmıştır.&nbsp;</div>",
+                    UstIcerikID = 31,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 38,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 15,
+                        StandartID = 1,
+                        StandartIcerikID = 38,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 39,
+                    StandartID = 1,
+                    BaslikNo = "4.2.8",
+                    Baslik = null,
+                    Detay = "Açılan bölümlere ait tarih bilgileri otomatik olarak kayıt altına alınmalı ve üstveri tablosunda gösterilmelidir.",
+                    UstIcerikID = 31,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 39,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 16,
+                        StandartID = 1,
+                        StandartIcerikID = 39,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 40,
+                    StandartID = 1,
+                    BaslikNo = "4.2.9",
+                    Baslik = null,
+                    Detay = "Bölümlerin klasör adı, ait olduğu seri adı ve kodu gibi ortak bilgileri, yeni açılan bölüme ait üstveri tablosuna otomatik olarak kaydedilmelidir.",
+                    UstIcerikID = 31,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 40,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 17,
+                        StandartID = 1,
+                        StandartIcerikID = 40,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 41,
+                    StandartID = 1,
+                    BaslikNo = "4.2.10",
+                    Baslik = null,
+                    Detay = "<div>Bir klasör için sadece bir bölüm açık olmalıdır. Herhangi bir seri altında yeni bir bölüm açıldığında daha önce açılmış olan bölüm kapatılmalı ve kapalı bölümlere belge kaydı yapılması engellenmelidir.</div><div><br></div><div>Not: Kapatılmış bölümlerdeki belgelere erişiminde yasal ve prosedürsel sınırlamalar olmadığı sürece herhangi bir kısıtlama olmamalıdır.&nbsp;</div>",
+                    UstIcerikID = 31,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 41,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 18,
+                        StandartID = 1,
+                        StandartIcerikID = 41,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 42,
+                    StandartID = 1,
+                    BaslikNo = "4.2.11",
+                    Baslik = null,
+                    Detay = "<div>Kapatılmış bölümlerin tekrar açılması ve bunlara belge kaydı yapılması yalnızca elektronik belge yöneticisi tarafından kontrollü olarak yapılmalıdır.</div><div><br></div><div>Not: Bazı durumlarda kullanıcı hatalarını gidermek için bu işleme ihtiyaç duyulabilir.&nbsp;</div>",
+                    UstIcerikID = 31,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 42,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 19,
+                        StandartID = 1,
+                        StandartIcerikID = 42,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 43,
+                    StandartID = 1,
+                    BaslikNo = "4.3",
+                    Baslik = "Dosya tasnif planının yönetilmesi",
+                    Detay = null,
+                    UstIcerikID = 21,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 43,
+                    DurumID = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 44,
+                    StandartID = 1,
+                    BaslikNo = "4.3.1",
+                    Baslik = null,
+                    Detay = "<div>EBYS bir seri veya klasör altında sisteme dahil edilmiş olan elektronik belgeler, toplu halde başka bir seri veya klasör altına taşınabilmelidir. &nbsp;</div><div>&nbsp;</div><div>Not: Kurumların yapısında oluşabilecek büyük çaplı değişikliklerde dosya tasnif planı değişikliğe uğrayabilir. Kurumsal devamlılık ve kurum fonksiyonlarının aksamaması için bu tür değişikliklere ihtiyaç duyulabilir. Ancak bu normal şartlarda başvurulacak bir işlem değildir.&nbsp;</div>",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 44,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 20,
+                        StandartID = 1,
+                        StandartIcerikID = 44,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 45,
+                    StandartID = 1,
+                    BaslikNo = "4.3.2",
+                    Baslik = null,
+                    Detay = "<div>Daha önce bir seri ve / veya klasör altında kayıt altına alınmış bir elektronik belge başka bir klasör altına taşınabilmelidir. &nbsp;</div><div>&nbsp;</div><div>Not: Bu işlem dosyalama hatalarını düzeltmek için ihtiyaç duyulabilecek bir işlemdir. Ancak bir elemanın başka bir yere taşınması, o elemana ait referans numarası ve ad bilgisi gibi çeşitli üst verilerde değişiklik yapmayı da gerektirebilir. EBYS taşınan elemanların üst veriler üzerinde yetkili kullanıcılar tarafından değişiklik yapılabilmesine imkân tanımalıdır.&nbsp;</div>",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 45,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 21,
+                        StandartID = 1,
+                        StandartIcerikID = 45,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 46,
+                    StandartID = 1,
+                    BaslikNo = "4.3.3",
+                    Baslik = null,
+                    Detay = "Elektronik belgelerin seriler ve klasörler arasında taşınması işlemi, elektronik belge yöneticisi kontrolünde ve yetkisinde olmalıdır.",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 46,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 22,
+                        StandartID = 1,
+                        StandartIcerikID = 46,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 47,
+                    StandartID = 1,
+                    BaslikNo = "4.3.4",
+                    Baslik = null,
+                    Detay = "<div>Elektronik belgenin yeniden dosyalanmasına ilişkin işlemler kayıt altına alınmalıdır.&nbsp;</div><div>&nbsp;</div><div> Not: Belge hareketlerine ait işlemlerin kayıtları en azından günlük işlem dosyalarında tutulmalıdır. İdeal olarak bu bilgiler elektronik belgeye ait üstveri tablosunda tutulmalıdır. &nbsp;</div>",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 47,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 23,
+                        StandartID = 1,
+                        StandartIcerikID = 47,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 48,
+                    StandartID = 1,
+                    BaslikNo = "4.3.5",
+                    Baslik = null,
+                    Detay = "<div><div>EBYS içerisinde tasnif edilmiş herhangi bir elektronik belgenin tamamının veya bir bölümünün silinmesi veya değiştirilmesi engellenmelidir. Elektronik bir belgenin imha işlemi ancak aşağıdaki şartlarda mümkün olabilmelidir. <br><br></div><ul><li class='ms-hover'>Elektronik belge saklama planları gereğince elektronik belge yöneticisinin kontrol ve yetkisinde silinebilir. Saklama planları ile ilgili kurallar için Madde 5’e bakılmalıdır. <br><br></li><li class='ms-hover'>Herhangi bir hatayı düzeltmek amacıyla yapılan bakım işlemleri sırasında elektronik belgeler silinebilir. Bu işlem yetkili belge yöneticisi tarafından yapılmalı ve işlem kayıt altına alınmalıdır.&nbsp;</li></ul></div>",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 48,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 24,
+                        StandartID = 1,
+                        StandartIcerikID = 48,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 49,
+                    StandartID = 1,
+                    BaslikNo = "4.3.6",
+                    Baslik = null,
+                    Detay = "Klasörlerin açılış ve kapanış işlemleri yetkili belge yöneticisi tarafından yapılmalıdır.",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 49,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 25,
+                        StandartID = 1,
+                        StandartIcerikID = 49,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 50,
+                    StandartID = 1,
+                    BaslikNo = "4.3.7",
+                    Baslik = null,
+                    Detay = "<div><div>Klasörleri kapama ve/veya yeni bölüm açma zamanlarına ait kriterler sistem kurulum aşamasında belirlenebilmelidir. Elektronik Belge Yöneticisi klasörlerin kapanma zamanları ilgili olarak;&nbsp;</div><div>&nbsp;</div><ul><li class='ms-hover'>Takvim yılının veya mali yıl bitişi gibi zaman dilimleri,</li><li class='ms-hover'>Klasöre ilk belge kaydından itibaren belli bir zamanın geçmesini esas alan zaman periyotları,</li><li class='ms-hover'>Klasörde yer alacak dosya sayısı veya toplam dosya büyüklüğü gibi sayısal kriterler geliştirebilir. &nbsp;</li></ul><div>Not: Klasörlerin kapanması aynı zamanda o klasöre bağlı belgeler için saklama süresinin başlatılması anlamına geldiğinden ihmal edilmemesi gereken bir konudur.</div></div>",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 50,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 26,
+                        StandartID = 1,
+                        StandartIcerikID = 50,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 51,
+                    StandartID = 1,
+                    BaslikNo = "4.3.8",
+                    Baslik = null,
+                    Detay = "Klasörlerin ve klasör bölümlerinin kapanış tarihleri ilgili üstveri dosyasında tutulmalıdır.",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 51,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 27,
+                        StandartID = 1,
+                        StandartIcerikID = 51,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 52,
+                    StandartID = 1,
+                    BaslikNo = "4.3.9",
+                    Baslik = null,
+                    Detay = "Elektronik belge yöneticisinin bakım işlemleri için açmış olduğu kapalı klasörler, yönetici sistemden çıkar çıkmaz kapatılmalı, bu klasörlerin açık kalmasına izin verilmemelidir. ",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 52,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 28,
+                        StandartID = 1,
+                        StandartIcerikID = 52,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 53,
+                    StandartID = 1,
+                    BaslikNo = "4.3.10",
+                    Baslik = null,
+                    Detay = "Kullanıcılar belgeler arasında çapraz referanslar verebilmelidir. Bu işlem birbiri ile ilişkili belgelerin birbirine bağlanması için kullanılır.",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 53,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 29,
+                        StandartID = 1,
+                        StandartIcerikID = 53,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 54,
+                    StandartID = 1,
+                    BaslikNo = "4.3.11",
+                    Baslik = null,
+                    Detay = "<div><div>EBYS, sistem bütünlüğünün ve güvenirliğinin sağlanması için<br><br></div><ul><li class='ms-hover'>Her türlü bakım işlemlerini,</li><li class='ms-hover'>Tüm kullanıcı hareketlerini,</li><li class='ms-hover'>Sistem hatalarını ve arızalarını kayıt altına almalıdır.&nbsp;</li></ul></div>",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 54,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 30,
+                        StandartID = 1,
+                        StandartIcerikID = 54,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 55,
+                    StandartID = 1,
+                    BaslikNo = "4.3.12",
+                    Baslik = null,
+                    Detay = "EBYS, herhangi bir elektronik belgenin birden fazla dosya planı elemanı ile ilişkilendirilmesine olanak sağlamalıdır. Bu işlem elektronik belgenin kopyalanmasından ziyade mümkün olduğu ölçüde çapraz referanslar ve işaretleyicilerle yapılmalıdır.",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 55,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 31,
+                        StandartID = 1,
+                        StandartIcerikID = 55,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 56,
+                    StandartID = 1,
+                    BaslikNo = "4.3.13",
+                    Baslik = null,
+                    Detay = "EBYS, dinamik bir raporlama yeteneğine sahip olmalıdır. Dosya tasnif planı ve bu plana bağlı elektronik belgelerle ilgili periyodik ve istatistik raporlar kullanıcıların belirleyeceği kriterlere göre alınabilmelidir",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 56,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 32,
+                        StandartID = 1,
+                        StandartIcerikID = 56,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 57,
+                    StandartID = 1,
+                    BaslikNo = "4.3.14",
+                    Baslik = null,
+                    Detay = "EBYS, kullanıcıların elektronik belgelerin erişimi için görsel bir kullanıcı ara yüzü içermelidir. Kullanıcılar, yetkileri dâhilinde, grafik ara yüz aracılığı ile elektronik belgeler arasında gezinebilmeli, istedikleri belgeleri seçme, görüntüleme, kopyalama ve yazdırma gibi işlemleri yapabilmelidir.",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 57,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 33,
+                        StandartID = 1,
+                        StandartIcerikID = 57,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 58,
+                    StandartID = 1,
+                    BaslikNo = "4.3.15",
+                    Baslik = null,
+                    Detay = "EBYS içerisindeki elemanlara ve bu elemanlara bağlı elektronik belgelere ait envanter listeleri oluşturulabilmelidir. ",
+                    UstIcerikID = 43,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 58,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 34,
+                        StandartID = 1,
+                        StandartIcerikID = 58,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 59,
+                    StandartID = 1,
+                    BaslikNo = "5",
+                    Baslik = "Saklama planları",
+                    Detay = null,
+                    UstIcerikID = 20,
+                    StandartIcerikTipiID = 169,
+                    SiraNo = 59,
+                    DurumID = 1
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 60,
+                    StandartID = 1,
                     BaslikNo = "5.1",
                     Baslik = "Genel",
                     Detay = null,
-                    UstIcerikID = 22,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 23,
+                    UstIcerikID = 59,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 60,
                     DurumID = 1
                 },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 61,
+                    StandartID = 1,
+                    BaslikNo = "5.1.1",
+                    Baslik = null,
+                    Detay = "Saklama planları belge yönetiminin en temel unsurlarından biridir. EBYS içerisine dâhil edilmiş olan herhangi bir belgenin ne kadar süre ile sistemde kalacağını ve saklama süresinin bitiminde belgenin nasıl bir işleme tabi tutulacağını belirler. ",
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 61,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 35,
+                        StandartID = 1,
+                        StandartIcerikID = 61,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 62,
+                    StandartID = 1,
+                    BaslikNo = "5.1.2",
+                    Baslik = null,
+                    Detay = "<div><div>Saklama planına dâhil edilecek elemanlar dosya tasnif planları ile aynı olmalıdır. Diğer bir deyişle dosya tasnif planı ile sisteme dahil edilen her bir eleman için saklama planında bir saklama süresi tanımlanmalıdır.</div><div><br></div><div>Not: Bazı durumlarda dosya tasnif planlarında seri seviyesinin üzerinde elemanlar tanımlanmış olabilir. Bu seviyeler genelde elektronik belgeyi üreten kurum ve birimleri ifade eder. Teknik olarak saklama planları sadece seri, klasör ve dosya gibi fiziksel varlıkların sistemde ne kadar kalacağını belirleyeceğinden seri seviyesi üzerindeki elemanlar saklama planlarında tanımlanır, ancak bunlar için herhangi bir saklama süresi tanımlanmaz.&nbsp;</div></div>",
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 62,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 36,
+                        StandartID = 1,
+                        StandartIcerikID = 62,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 63,
+                    StandartID = 1,
+                    BaslikNo = "5.1.3",
+                    Baslik = null,
+                    Detay = "BYS, saklama planlarının sistem kurulum aşamasında tanımlanmasına imkân tanımalıdır.",
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 63,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 37,
+                        StandartID = 1,
+                        StandartIcerikID = 63,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 64,
+                    StandartID = 1,
+                    BaslikNo = "5.1.4",
+                    Baslik = null,
+                    Detay = "BYS bünyesinde tanımlanan saklama planları, sistem içerisinde yer alan elemanların saklama sürelerine ait raporlama ve saklama süresi dolan elemanların inceleme, değerlendirme ve tasfiyesinin gerçekleştirilmesini sağlayacak fonksiyonlar içermelidir.",
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 64,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 38,
+                        StandartID = 1,
+                        StandartIcerikID = 64,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 65,
+                    StandartID = 1,
+                    BaslikNo = "5.1.5",
+                    Baslik = null,
+                    Detay = "<div><div>EBYS, saklama süresi dolan elemanların tasfiye işlemlerinin otomatik olarak gerçekleştirilmesine yönelik fonksiyonlar içermelidir. Bu bağlamda: <br><br></div><ul><li class='ms-hover'>Her yıl ocak ayı içerisinde saklama süresi dolan eski yıllara ait belgeler rapor halinde sistemden alınabilmelidir. &nbsp;</li><li class='ms-hover'>Saklama süresi dolmuş olan belgeler için Ayıklama İmha &nbsp;Komisyonlarının vermiş oldukları kararlar (imha, kurum arşivine transfer, başka bir kuruma transfer vs.) sistem üzerinden gerçekleştirilebilmelidir.</li></ul></div>",
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 65,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 39,
+                        StandartID = 1,
+                        StandartIcerikID = 65,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 66,
+                    StandartID = 1,
+                    BaslikNo = "5.1.6",
+                    Baslik = null,
+                    Detay = "Saklama planlarının EBYS içerisinde tanımlanması ve planlar üzerinde yapılabilecek değişiklikler ve güncelleme işlemleri, elektronik belge yöneticisinin kontrol ve sorumluluğunda olmalıdır.",
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 66,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 40,
+                        StandartID = 1,
+                        StandartIcerikID = 66,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 67,
+                    StandartID = 1,
+                    BaslikNo = "5.1.7",
+                    Baslik = null,
+                    Detay = "Saklama planları, sistemde yer alan herhangi bir eleman ile ilişkilendirilebilmelidir. Bu elemanlar seri, klasör ve dosyadır. Ayrıca bu elemanlarla yatay ve dikey ilişkili alt elemanlarda saklama planları ile ilişkilendirilebilmelidir. Saklama planları arasındaki yatay ve dikey ilişkiler için Şekil 1’e bakılmalıdır.",
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 67,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 41,
+                        StandartID = 1,
+                        StandartIcerikID = 67,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 68,
+                    StandartID = 1,
+                    BaslikNo = "5.1.8",
+                    Baslik = null,
+                    Detay = "<div><div>Saklama planları, sisteme dâhil edilen her bir elemana ait referans numarası ve tanım bilgisi, saklama süresi, tasfiye işlem tanımı,</div><div>gerekçe ve yasal dayanakları içermelidir.&nbsp;</div><div><br></div><div>Not: Saklama planında yer alan elemanlara ait referans numaraları ve tanımlar koşullar elverdiği sürece dosya tasnif planlarındaki</div><div>tanımlarla aynı olmalıdır.&nbsp;</div></div>",
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 68,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 42,
+                        StandartID = 1,
+                        StandartIcerikID = 68,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 69,
+                    StandartID = 1,
+                    BaslikNo = "5.1.9",
+                    Baslik = null,
+                    Detay = "BYS, sistemde tanımlı her bir elemana ait saklama planını otomatik olarak takip etmeli ve saklama süresi dolanların tasfiye işlemlerinin yapılabilmesi için elektronik belge yöneticisini uyarmalıdır.",
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 69,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 43,
+                        StandartID = 1,
+                        StandartIcerikID = 69,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 70,
+                    StandartID = 1,
+                    BaslikNo = "5.1.10",
+                    Baslik = null,
+                    Detay = "Elektronik belgelerin ait oldukları klasörlerin veya serilerin değiştirilmesi durumunda, EBYS yeni klasöre veya seriye ait saklama süreleri konusunda elektronik belge yöneticisini uyarmalı ve gerekli değişiklikler otomatik olarak yapabilmelidir.",
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 70,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 44,
+                        StandartID = 1,
+                        StandartIcerikID = 70,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                    }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 71,
+                    StandartID = 1,
+                    BaslikNo = "5.1.11",
+                    Baslik = null,
+                    Detay = "EBYS kullanacak kurumlar, dosya tasnif planlarına ve ilgili mevzuata uygun belge saklama planlarını hazırlamalı ve bunların EBYS sistemi içerisine entegre edilmesini sağlamalıdır.",
+                    UstIcerikID = 60,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 71,
+                    DurumID = 1,
+                    StandartIcerikDenetimler = new List<StandartIcerikDenetim> {
+                        new StandartIcerikDenetim {
+                        StandartIcerikDenetimID = 45,
+                        StandartID = 1,
+                        StandartIcerikID = 71,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                    }
+                },
+                /*
                 new StandartIcerik
                 {
                     StandartIcerikID = 24,
@@ -13152,40 +14323,11 @@
                     StandartIcerikTipiID = 162,
                     SiraNo = 138,
                     DurumID = 1
-                }
+                }    
+                */            
             });
             #endregion
-
-            #region //StandartIcerikDenetim
-            context.StandartIcerikDenetimler.AddRange(new List<StandartIcerikDenetim>
-            {
-                new StandartIcerikDenetim
-                {
-                    StandartIcerikDenetimID = 1,
-                    StandartID = 1,
-                    StandartIcerikID = 19,
-                    Secmeli = false,
-                    Zorunlu = true,
-                    BilgiAmacli = false,
-                    KurumYeterlilikSertifikasi = true,
-                    UrunSertifikasi = true,
-                    DurumID = 1
-                },
-                new StandartIcerikDenetim
-                {
-                    StandartIcerikDenetimID = 1,
-                    StandartID = 1,
-                    StandartIcerikID = 20,
-                    Secmeli = false,
-                    Zorunlu = true,
-                    BilgiAmacli = false,
-                    KurumYeterlilikSertifikasi = false,
-                    UrunSertifikasi = true,
-                    DurumID = 1
-                }
-            });
-            #endregion
-
+           
             #region //StandartIcerikPuan
             context.StandartIcerikPuanlar.AddRange(new List<StandartIcerikPuan>
             {

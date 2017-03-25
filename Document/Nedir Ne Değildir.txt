@@ -1,0 +1,6 @@
+Ýçerik Tipleri
+1. Ýçerik - Açýklama: Pdf oluþturulurken Baþlýk bilgileri ekrana yazdýrýlmayacak þekilde tasarlanmýþ formattýr.
+2. Ýçerik - Metin: Pdf oluþturulurken Baþlýk (Sola Hizalý) + Detay bilgileri ekrana yazdýrýlacak þekilde tasarlanmýþ formattýr.
+3. Ýçerik - Ön Söz: Pdf oluþturulurken Baþlýk (Ortalanmýþ ) + Detay bilgileri ekrana yazdýrýlacak þekilde tasarlanmýþ formattýr.
+4. Ýçerik - Ýçindekiler: Pdf oluþturulurken Ýçerik bilgilerini ekrana yazdýracak þekilde tasarlanmýþ formattýr.
+5. Ýçerik - Bölüm: Pdf oluþturulurken Bölüm Baþlýðý (Ortalanmýþ Büyük Font Ýle) + Altýna boydan boya uzun çizgi olacak þekilde tasarlanmýþ formattýr.
