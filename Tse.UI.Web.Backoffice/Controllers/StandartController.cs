@@ -1,11 +1,11 @@
-﻿using System.Web.Mvc;
-namespace Tse.UI.Web.Backoffice.Controllers
+﻿namespace Tse.UI.Web.Backoffice.Controllers
 {
+    using System.Web.Mvc;
     using Dal.Backoffice.Model;
     using System;
     using System.Data.Entity;
-    using System.Web.Mvc;
     using ViewModels;
+    using System.Data.Entity.Migrations;
 
     public class StandartController : Controller
     {
@@ -122,15 +122,13 @@ namespace Tse.UI.Web.Backoffice.Controllers
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
-
-                if (ModelState.IsValid)
+                context.StandartIcerikler.AddOrUpdate(standartIcerik);
+                if (standartIcerik.StandartIcerikDenetim.StandartIcerikID != 0)
                 {
-                    context.Entry(standartIcerik).State = EntityState.Modified;
-                    context.SaveChanges();
-                    return RedirectToAction("duzenle", new { standartID = standartIcerik.StandartID });
-                }
-                else
-                    return RedirectToAction("index", "hata", new { HataId = 4 });
+                    context.StandartIcerikDenetimler.AddOrUpdate(standartIcerik.StandartIcerikDenetim);
+                }                
+                context.SaveChanges();
+                return RedirectToAction("duzenle", new { standartID = standartIcerik.StandartID });             
             }
         }
 

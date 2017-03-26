@@ -1,7 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Tse.Dal.Backoffice.Model
+﻿namespace Tse.Dal.Backoffice.Model
 {
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
+
     public class StandartIcerikDenetim
     {
         //Constructor
@@ -10,7 +11,7 @@ namespace Tse.Dal.Backoffice.Model
         }
 
         //Properties
-        [Key Display(Name = "Standart İçerik")]
+        [Key ForeignKey("StandartIcerik") Display(Name = "Standart İçerik")]
         public int StandartIcerikID { get; set; }
 
         [Display(Name = "Standart")]

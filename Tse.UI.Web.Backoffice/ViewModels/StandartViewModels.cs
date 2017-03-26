@@ -113,7 +113,7 @@
                 Standart = context.Standartlar.Find(standartID);
 
                 if (standartIcerikID != null) {
-                    StandartIcerik = context.StandartIcerikler.Find(standartIcerikID); }
+                    StandartIcerik = context.StandartIcerikler.Include("StandartIcerikDenetim").SingleOrDefault(s=>s.StandartIcerikID == standartIcerikID); }
 
                 DokumanTipleri = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 1).OrderBy(m => m.DegerAdiTr).ToList();
                 HazirlikGruplari = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 2).OrderBy(m => m.DegerAdiTr).ToList();
