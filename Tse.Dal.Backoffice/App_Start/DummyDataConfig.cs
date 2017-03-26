@@ -15191,31 +15191,97 @@
                         DurumID = 1
                         }
                 },
-                /*
                 new StandartIcerik
                 {
-                    StandartIcerikID = 45,
+                    StandartIcerikID = 188,
                     StandartID = 1,
                     BaslikNo = "9",
                     Baslik = "Erişim kontrolü ve güvenlik",
                     Detay = null,
-                    UstIcerikID = 17,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 45,
+                    UstIcerikID = 20,
+                    StandartIcerikTipiID = 169,
+                    SiraNo = 188,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 46,
+                    StandartIcerikID = 189,
                     StandartID = 1,
                     BaslikNo = "9.1",
                     Baslik = "Sisteme Giriş",
                     Detay = null,
-                    UstIcerikID = 45,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 46,
+                    UstIcerikID = 188,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 189,
                     DurumID = 1
                 },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 190,
+                    StandartID = 1,
+                    BaslikNo = "9.1.1",
+                    Baslik = null,
+                    Detay = "<p>EBYS, kullanıcıların sisteme girişini kontrol altına almaya yönelik bir mekanizmaya sahip olmalıdır.&nbsp;</p><p>Not: Böyle bir mekanizmanın en basit hali, kullanıcıya bir kullanıcı adı ve şifrenin verilmesidir. Kendisine kullanıcı adı ve şifresi verilenler için erişim haklarını gösteren bir profil tanımlanmalıdır. Ayrıca kullanıcının sistem içindeki rolleri ve ait olduğu kullanıcı grubu bu profil içerisinde tanımlanmalıdır.</p>",
+                    UstIcerikID = 189,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 190,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 191,
+                    StandartID = 1,
+                    BaslikNo = "9.1.2",
+                    Baslik = null,
+                    Detay = "<p>EBYS,&nbsp;</ p >< ul >< li class='ms-hover'>Sisteme yeni kullanıcıların kayıt edilmesine, </li><li class='ms-hover'>Mevcut kullanıcıların geçici bir süre pasif hale getirilmesine,</li><li class='ms-hover'>Mevcut bir kullanıcının sistemden silinmesine imkan tanımlıdır. Ancak bu işlem sadece kullanıcının sisteme yanlışlıkla kayıt edilmiş olduğu veya sistemde herhangi bir işlem yapmadığı durumlar için geçerlidir. Teorik olarak sistemde herhangi bir işlem yapmış tüm kullanıcılara ait bilgiler sürekli saklanmalıdır. </li></ul>",
+                    UstIcerikID = 189,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 191,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 192,
+                    StandartID = 1,
+                    BaslikNo = "9.1.3",
+                    Baslik = null,
+                    Detay = "Kullanıcı hesapları ile ilgili işlemler yalnızca yetkili sistem yöneticisi tarafından gerçekleştirilmelidir.",
+                    UstIcerikID = 189,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 192,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                /*
                 new StandartIcerik
                 {
                     StandartIcerikID = 47,

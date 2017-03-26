@@ -4,3 +4,24 @@
 3. Ýçerik - Ön Söz: Pdf oluþturulurken Baþlýk (Ortalanmýþ ) + Detay bilgileri ekrana yazdýrýlacak þekilde tasarlanmýþ formattýr.
 4. Ýçerik - Ýçindekiler: Pdf oluþturulurken Ýçerik bilgilerini ekrana yazdýracak þekilde tasarlanmýþ formattýr.
 5. Ýçerik - Bölüm: Pdf oluþturulurken Bölüm Baþlýðý (Ortalanmýþ Büyük Font Ýle) + Altýna boydan boya uzun çizgi olacak þekilde tasarlanmýþ formattýr.
+
+
+
+
+
+
+
+
+
+
+161	7	Ýçerik - Atýf Yapýlan Standart/Döküman
+162	7	Ýçerik - Ön Söz
+163	7	Ýçerik - Metin
+164	7	Denetim - Bölüm
+165	7	Ýçerik - Açýklama
+166	7	Ýçerik - Ýçindekiler
+167	7	Ýçerik - Bölüm
+168	7	Denetim - Tablo
+169	7	Denetim - Metin
+170	7	Ýçerik - Dipnot
+171	7	Denetim - Tablo - Madde
