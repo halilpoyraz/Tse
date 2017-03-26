@@ -318,8 +318,23 @@
                                                             <span>@Html.DisplayNameFor(m => m.StandartIcerik.UstIcerikID)</span>
                                                             <span class="required"> * </span>
                                                         </label>
-                                                        <div class="col-md-10">
-                                                            @Html.DropDownListFor(m => m.StandartIcerik.UstIcerikID, new SelectList(Model.StandartIcerikler.OrderBy(m => m.Baslik), "StandartIcerikID", "Baslik", null).AddFirstItem("Üst Seviye", "0"), htmlAttributes: new { @class = "form-control" })
+                                                        <div class="col-md-10">                                                       
+                                                            <select name="StandartIcerik.UstIcerikID" id="StandartIcerik_UstIcerikID" class="form-control">
+                                                                <option value="0" @{ if (Model.StandartIcerik.UstIcerikID == 0) { Html.Raw("selected"); } } >Üst Seviye</option>
+                                                                @{
+                                                                    foreach (var icerik in Model.StandartIcerikler.OrderBy(m => m.SiraNo))
+                                                                    {
+                                                                        <option value="@icerik.StandartIcerikID" @{ if ( icerik.StandartIcerikID == Model.StandartIcerik.UstIcerikID) { @Html.Raw("selected"); } }>
+                                                                        @if (icerik.BaslikNo != null)
+                                                                        { @(icerik.BaslikNo + " - ");
+                                                                        } @if (icerik.Baslik != null)
+                                                                        { @icerik.Baslik }
+                                                                        else
+                                                                        { @Html.Raw(icerik.Detay.Substring(0, 50))}
+                                                                    </option>
+                                                                    }
+                                                                }
+                                                            </select>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -408,7 +423,7 @@
                                                     </div>
                                                 </div>
 
-                                                <div id="icerik-denetim-row" class="row">
+                                                <div id="icerik-denetim-row" class="row display-hide">
                                                     <div class="form-group col-md-12">
                                                         <div class="control-label col-md-2"></div>
                                                         <div class="col-md-10">
@@ -463,9 +478,10 @@
                                 <div class="portlet light portlet-fit portlet-form">
                                     <div class="portlet-body">
                                         @using (Html.BeginForm("icerik-ekle", "standart", FormMethod.Post, new { @name = "form-icerik-ekle", @id = "form-icerik-ekle", @class = "form-horizontal" }))
-                                        {
-                                        @Html.HiddenFor(m => m.Standart.StandartID)
-                                        @Html.Hidden("StandartIcerik.StandartID", Model.Standart.StandartID)
+                                        {                                        
+                                        @Html.Hidden("StandartIcerik.StandartID", Model.Standart.StandartID)                                        
+                                        @Html.Hidden("StandartIcerik.StandartIcerikDenetim.StandartID", Model.Standart.StandartID)
+                                        @Html.Hidden("StandartIcerik.StandartIcerikDenetim.DurumID", 1)
                                         @Html.AntiForgeryToken()
                                         <div class="form-body">
                                             <div class="alert alert-danger display-hide">
@@ -491,8 +507,17 @@
                                                         <span>@Html.DisplayNameFor(m => m.StandartIcerik.UstIcerikID)</span>
                                                         <span class="required"> * </span>
                                                     </label>
-                                                    <div class="col-md-10">
-                                                        @Html.DropDownListFor(m => m.StandartIcerik.UstIcerikID, new SelectList(Model.StandartIcerikler.OrderBy(m => m.Baslik), "StandartIcerikID", "Baslik", null).AddFirstItem("Üst Seviye", "0"), htmlAttributes: new { @class = "form-control" })
+                                                    <div class="col-md-10">                                                        
+                                                        <select name="StandartIcerik.UstIcerikID" id="StandartIcerik_UstIcerikID" class="form-control">
+                                                            <option value="0" selected>Üst Seviye</option>
+                                                            @{ 
+                                                                foreach (var icerik in Model.StandartIcerikler.OrderBy(m => m.SiraNo))
+                                                                {                                                                    
+                                                                    <option value="@icerik.StandartIcerikID">@if (icerik.BaslikNo != null ) { @(icerik.BaslikNo+" - ");
+                                                                    } @if (icerik.Baslik != null) { @icerik.Baslik } else { @Html.Raw(icerik.Detay.Substring(0,50))} </option>
+                                                                }
+                                                            }
+                                                        </select>
                                                     </div>
                                                 </div>
                                             </div>
@@ -581,6 +606,42 @@
                                                 </div>
                                             </div>
                                         </div>
+
+                                        <div id="icerik-denetim-row" class="row display-hide">
+                                            <div class="form-group col-md-12">
+                                                <div class="control-label col-md-2"></div>
+                                                <div class="col-md-10">
+                                                    <div class="form-group" style="padding-left:14px">
+                                                        <label class="mt-checkbox mt-checkbox-outline">
+                                                            @Html.DisplayNameFor(m => m.StandartIcerik.StandartIcerikDenetim.Secmeli)
+                                                            @Html.CheckBoxFor(m => m.StandartIcerik.StandartIcerikDenetim.Secmeli)
+                                                            <span></span>
+                                                        </label>
+                                                        <label class="mt-checkbox mt-checkbox-outline" style="margin-left:30px;">
+                                                            @Html.DisplayNameFor(m => m.StandartIcerik.StandartIcerikDenetim.Zorunlu)
+                                                            @Html.CheckBoxFor(m => m.StandartIcerik.StandartIcerikDenetim.Zorunlu)
+                                                            <span></span>
+                                                        </label>
+                                                        <label class="mt-checkbox mt-checkbox-outline" style="margin-left:30px;">
+                                                            @Html.DisplayNameFor(m => m.StandartIcerik.StandartIcerikDenetim.BilgiAmacli)
+                                                            @Html.CheckBoxFor(m => m.StandartIcerik.StandartIcerikDenetim.BilgiAmacli)
+                                                            <span></span>
+                                                        </label>
+                                                        <label class="mt-checkbox mt-checkbox-outline" style="margin-left:30px;">
+                                                            @Html.DisplayNameFor(m => m.StandartIcerik.StandartIcerikDenetim.KurumYeterlilikSertifikasi)
+                                                            @Html.CheckBoxFor(m => m.StandartIcerik.StandartIcerikDenetim.KurumYeterlilikSertifikasi)
+                                                            <span></span>
+                                                        </label>
+                                                        <label class="mt-checkbox mt-checkbox-outline" style="margin-left:30px;">
+                                                            @Html.DisplayNameFor(m => m.StandartIcerik.StandartIcerikDenetim.UrunSertifikasi)
+                                                            @Html.CheckBoxFor(m => m.StandartIcerik.StandartIcerikDenetim.UrunSertifikasi)
+                                                            <span></span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                         <div class="form-actions">
                                             <div class="row">
                                                 <div class="col-md-12 text-right">
@@ -605,15 +666,15 @@
                                                 </button>
                                                 <ul class="dropdown-menu" role="menu">
                                                     @foreach (var item in Model.StandartIcerikTipleri)
-                                                {
+                                                    {
                                                     <li><a class="btnIcerikEkleMenuItem" value="@item.DegerID"> @item.DegerAdiTr </a></li>
-                                                }
+                                                    }
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             @if (Model.StandartIcerikler.Count() > 0)
-                                        {
+                                            {
                                             <div class="btn-group pull-right">
                                                 <button class="btn green btn-outline dropdown-toggle" data-toggle="dropdown">
                                                     Filtrele
@@ -652,7 +713,7 @@
                                                     }
                                                 </ul>
                                             </div>
-                                        }
+                                            }
                                         </div>
                                     </div>
                                 </div>
@@ -673,8 +734,8 @@
                                         {
                                     <tr>
                                         <td class="display-hide">@icerik.StandartIcerikID</td>
-                                        <td>@icerik.BaslikNo</td>
-                                        <td>@icerik.Baslik</td>
+                                        <td>@icerik.BaslikNo</td>                                        
+                                        <td>@{ if (icerik.Baslik != null){ @icerik.Baslik } else { @Html.Raw(icerik.Detay.Substring(0, icerik.Detay.Length)); } }</td>
                                         <td>@icerik.SiraNo</td>
                                         <td>@icerik.Durum.DurumAdi</td>
                                     </tr>

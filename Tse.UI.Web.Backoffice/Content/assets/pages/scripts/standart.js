@@ -310,25 +310,34 @@ var Duzenle = function () {
         });
     };
     var BtnIcerikEkleMenuItem = function () {
-        $('.btnIcerikEkleMenuItem').click(function () {
+        $('.btnIcerikEkleMenuItem').click(function () {            
             $('#sablon-tipi-row').removeClass('display-show').addClass('display-hide');
             $('#icerik-ekle').removeClass('display-hide').addClass('display-show');
             $('#icerik-listele').removeClass('display-show').addClass('display-hide');
-            $('#icerik-tipi-row').removeClass('display-hide').addClass('display-show');
+            $('#icerik-tipi-row').removeClass('display-hide').addClass('display-show');            
             $('#StandartIcerik_StandartIcerikTipiID').val($(this).attr('value')).trigger('change');
             $('#StandartIcerik_SiraNo').val(parseInt($('#table2 tr:last td:nth-child(4)').text()) + 1);
-            $('#StandartIcerik_Detay').summernote('code', '');            
+            $('#StandartIcerik_Detay').summernote('code', '');                        
         });
         $('#StandartIcerik_StandartIcerikTipiID').change(function () {        
+            //Atıf Yapılan Standart / Döküman
+            $('#atif-yapilan-standartlar-row').removeClass('display-show').addClass('display-hide');
+            $('#atif-yapilan-dokumanlar-row').removeClass('display-show').addClass('display-hide');
+
+            //Denetim - Tablo - Madde
+            $('#icerik-denetim-row').removeClass('display-show').addClass('display-hide');
+            $('#StandartIcerik_StandartIcerikDenetim_StandartIcerikID').val(0);
+            $('#StandartIcerik_StandartIcerikDenetim_StandartID').val(0);
+
             if ($(this).val() === '161') {
                 $('#atif-yapilan-standartlar-row').removeClass('display-hide').addClass('display-show');
-                $('#atif-yapilan-dokumanlar-row').removeClass('display-hide').addClass('display-show');
+                $('#atif-yapilan-dokumanlar-row').removeClass('display-hide').addClass('display-show');              
             }
-            else
-            {
-                $('#atif-yapilan-standartlar-row').removeClass('display-show').addClass('display-hide');
-                $('#atif-yapilan-dokumanlar-row').removeClass('display-show').addClass('display-hide');
-            }
+            else if ($(this).val() === '171') {
+                $('#icerik-denetim-row').removeClass('display-hide').addClass('display-show');
+                $('#StandartIcerik_StandartIcerikDenetim_StandartIcerikID').val($('#StandartIcerik_StandartIcerikID').val());
+                $('#StandartIcerik_StandartIcerikDenetim_StandartID').val($('#StandartIcerik_StandartID').val());
+            }            
         });
     };    
     var BtnIcerikEkleKaydet = function () {
@@ -419,15 +428,24 @@ var Duzenle = function () {
         //var sHTML = $('#summernote_1').code(); // get code
         //$('#summernote_1').destroy(); // destroy
        
+        //Atıf Yapılan Standart / Döküman
+        $('#atif-yapilan-standartlar-row').removeClass('display-show').addClass('display-hide');
+        $('#atif-yapilan-dokumanlar-row').removeClass('display-show').addClass('display-hide');
+
+        //Denetim - Tablo - Madde
+        $('#icerik-denetim-row').removeClass('display-show').addClass('display-hide');
+        $('#StandartIcerik_StandartIcerikDenetim_StandartIcerikID').val(0);
+        $('#StandartIcerik_StandartIcerikDenetim_StandartID').val(0);           
+
         if ($('#StandartIcerik_StandartIcerikTipiID').val() === '161') {
             $('#atif-yapilan-standartlar-row').removeClass('display-hide').addClass('display-show');
             $('#atif-yapilan-dokumanlar-row').removeClass('display-hide').addClass('display-show');
         }
-        else {
-            $('#atif-yapilan-standartlar-row').removeClass('display-show').addClass('display-hide');
-            $('#atif-yapilan-dokumanlar-row').removeClass('display-show').addClass('display-hide');
+        else if ($('#StandartIcerik_StandartIcerikTipiID').val() === '171') {
+            $('#icerik-denetim-row').removeClass('display-hide').addClass('display-show');
+            $('#StandartIcerik_StandartIcerikDenetim_StandartIcerikID').val($('#StandartIcerik_StandartIcerikID').val());
+            $('#StandartIcerik_StandartIcerikDenetim_StandartID').val($('#StandartIcerik_StandartID').val());
         }
-       
 
         form.validate({
             errorElement: 'span',

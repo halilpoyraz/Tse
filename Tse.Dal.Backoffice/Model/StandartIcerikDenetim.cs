@@ -37,8 +37,8 @@
 
 
         //Navigation Properties
-        public virtual Standart Standart { get; set; }
         public virtual StandartIcerik StandartIcerik { get; set; }
+        public virtual Standart Standart { get; set; }
         public virtual Durum Durum { get; set; }
 
 

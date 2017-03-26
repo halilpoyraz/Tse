@@ -102,23 +102,18 @@
         }
 
         [HttpPost ValidateAntiForgeryToken ValidateInput(false) ActionName("icerik-ekle")]
-        public ActionResult IcerikEkle(StandartIcerik standartIcerik)
+        public ActionResult IcerikEkle([Bind(Include = "StandartIcerikID,StandartID,BaslikNo,Baslik,Detay,UstIcerikID,StandartIcerikTipiID,SiraNo,DurumID,StandartIcerikDenetim")]StandartIcerik standartIcerik)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
-            {
-                if (ModelState.IsValid)
-                {
-                    context.StandartIcerikler.Add(standartIcerik);
-                    context.SaveChanges();
-                    return RedirectToAction("duzenle", new { standartID = standartIcerik.StandartID });
-                }
-                else
-                    return RedirectToAction("index", "hata", new { HataId = 4 });
+            {                
+                context.StandartIcerikler.Add(standartIcerik);                
+                context.SaveChanges();
+                return RedirectToAction("duzenle", new { standartID = standartIcerik.StandartID });                
             }            
         }
 
         [HttpPost ValidateAntiForgeryToken ValidateInput(false) ActionName("icerik-duzenle")]
-        public ActionResult IcerikDuzenle(StandartIcerik standartIcerik)
+        public ActionResult IcerikDuzenle([Bind(Include = "StandartIcerikID,StandartID,BaslikNo,Baslik,Detay,UstIcerikID,StandartIcerikTipiID,SiraNo,DurumID,StandartIcerikDenetim")]StandartIcerik standartIcerik)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
             {
@@ -126,7 +121,7 @@
                 if (standartIcerik.StandartIcerikDenetim.StandartIcerikID != 0)
                 {
                     context.StandartIcerikDenetimler.AddOrUpdate(standartIcerik.StandartIcerikDenetim);
-                }                
+                }
                 context.SaveChanges();
                 return RedirectToAction("duzenle", new { standartID = standartIcerik.StandartID });             
             }
@@ -153,8 +148,13 @@
                             {
                                 try
                                 {
-                                    standartIcerik.DurumID = 4;
-                                    context.Entry(standartIcerik).State = EntityState.Modified;
+                                    //standartIcerik.DurumID = 4;
+                                    //context.Entry(standartIcerik).State = EntityState.Modified;
+                                    //context.SaveChanges();
+
+                                    StandartIcerikDenetim silinecekDenetimEntry = context.StandartIcerikDenetimler.Find(standartIcerikID);
+                                    context.StandartIcerikDenetimler.Remove(silinecekDenetimEntry);
+                                    context.StandartIcerikler.Remove(standartIcerik);
                                     context.SaveChanges();
                                 }
                                 catch (Exception)
