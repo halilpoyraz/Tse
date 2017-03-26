@@ -22,6 +22,7 @@
         // Navigation Properties
         public virtual ICollection<Adres> Adresler { get; set; }
         public virtual ICollection<Deger> Degerler { get; set; }
+        public virtual ICollection<Denetim> Denetimler { get; set; }
         public virtual ICollection<Eposta> Epostalar { get; set; }
         public virtual ICollection<Firma> Firmalar { get; set; }
         public virtual ICollection<Ilce> Ilceler { get; set; }
@@ -39,7 +40,6 @@
         public virtual ICollection<StandartAtifTipiSablon> StandartAtifTipiSablonlar { get; set; }
         public virtual ICollection<StandartIcerikDenetim> StandartIcerikDenetimler { get; set; }
         public virtual ICollection<StandartIcerikPuan> StandartIcerikPuanlar { get; set; }
-
 
         // Methods
     }

@@ -16847,6 +16847,28 @@
                 }
             });
             #endregion
+
+            #region //Denetim            
+            context.Denetimler.AddRange(new List<Denetim>
+            {
+                new Denetim
+                {
+                    DenetimID = 1,
+                    StandartID = 1,
+                    FirmaID = 2,
+                    Tarih = new DateTime(2017,2,15),
+                    DurumID = 1
+                },
+                new Denetim
+                {
+                    DenetimID = 2,
+                    StandartID = 1,
+                    FirmaID = 3,
+                    Tarih = new DateTime(2017,3,24),
+                    DurumID = 1                                            
+                }             
+            });
+            #endregion
             base.Seed(context);
         }
     }

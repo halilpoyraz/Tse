@@ -37,7 +37,8 @@ namespace Tse.Dal.Backoffice.Model
         public virtual DbSet<StandartIcerikTipiSablon> StandartIcerikTipiSablonlar { get; set; }
         public virtual DbSet<Telefon> Telefonlar { get; set; }
         public virtual DbSet<Ulke> Ulkeler { get; set; }
-  
+        public virtual DbSet<Denetim> Denetimler { get; set; }
+
 
         //Methods
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -67,6 +68,7 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<StandartIcerikTipiSablon>().ToTable("Standart.StandartIcerikTipiSablon");
             modelBuilder.Entity<Telefon>().ToTable("Kisi.Telefon");
             modelBuilder.Entity<Ulke>().ToTable("Tanimlama.Ulke");
+            modelBuilder.Entity<Denetim>().ToTable("Denetim.Denetim");
 
             //Relationship Rules
             modelBuilder.Entity<Adres>().HasMany(e => e.FaturaBilgileri).WithOptional(e =>e.Adres).WillCascadeOnDelete(false);
@@ -99,12 +101,14 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<Durum>().HasMany(e => e.StandartAtifTipiSablonlar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.StandartIcerikDenetimler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.StandartIcerikPuanlar).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Durum>().HasMany(e => e.Denetimler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Firma>().HasMany(e => e.Telefonlar).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
             modelBuilder.Entity<Firma>().HasMany(e => e.FaturaBilgileri).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
             modelBuilder.Entity<Firma>().HasMany(e => e.Epostalar).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
             modelBuilder.Entity<Firma>().HasMany(e => e.Adresler).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
             modelBuilder.Entity<Firma>().HasMany(e => e.Kisiler).WithOptional(e => e.Firma).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Firma>().HasMany(e => e.Denetimler).WithRequired(e => e.Firma).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Ilce>().HasMany(e => e.Adresler).WithRequired(e => e.Ilce).WillCascadeOnDelete(false);
 
@@ -128,11 +132,14 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<Standart>().HasMany(e => e.StandartIcerikler).WithRequired(e => e.Standart).WillCascadeOnDelete(false);
             modelBuilder.Entity<Standart>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.Standart).WillCascadeOnDelete(false);
             modelBuilder.Entity<Standart>().HasMany(e => e.StandartIcerikDenetimler).WithRequired(e => e.Standart).WillCascadeOnDelete(false);
+            
 
             modelBuilder.Entity<StandartAtifTipiSablon>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.StandartAtifTipiSablon).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<StandartIcerik>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.StandartIcerik).WillCascadeOnDelete(false);
             modelBuilder.Entity<StandartIcerik>().HasOptional(e => e.StandartIcerikDenetim).WithRequired(e => e.StandartIcerik).WillCascadeOnDelete(false);
+
+            
         }      
     }   
 }

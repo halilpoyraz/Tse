@@ -31,6 +31,7 @@
         public virtual ICollection<FaturaBilgi> FaturaBilgileri { get; set; }
         public virtual ICollection<Telefon> Telefonlar { get; set; }
         public virtual ICollection<Kisi> Kisiler { get; set; }
+        public virtual ICollection<Denetim> Denetimler { get; set; }
 
         // Methods
     }

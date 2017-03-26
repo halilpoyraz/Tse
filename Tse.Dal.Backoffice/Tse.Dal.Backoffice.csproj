@@ -64,6 +64,7 @@
     <Compile Include="Model\Kisi.cs" />
     <Compile Include="Model\ParaBirimi.cs" />
     <Compile Include="Model\Sehir.cs" />
+    <Compile Include="Model\Denetim.cs" />
     <Compile Include="Model\Standart.cs" />
     <Compile Include="Model\Kategori.cs" />
     <Compile Include="Model\Deger.cs" />
