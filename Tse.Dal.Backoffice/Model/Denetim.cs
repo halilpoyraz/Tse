@@ -19,6 +19,9 @@
         [Display(Name = "Standart")]
         public int StandartID { get; set; }
 
+        [Display(Name ="Denetim Tipi")]
+        public int DenetimTipiID { get; set; }
+
         [Display(Name = "Firma")]
         public int FirmaID { get; set; }
 
@@ -32,6 +35,10 @@
         //Navigation Properties                
         public virtual Standart Standart { get; set; }
         public virtual Firma Firma { get; set; }
+
+        [ForeignKey("DenetimTipiID")]
+        public virtual Deger DenetimTipi { get; set; }
+
         public virtual Durum Durum { get; set; }
 
 

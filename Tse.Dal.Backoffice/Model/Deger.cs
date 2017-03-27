@@ -42,7 +42,8 @@
         public virtual ICollection<StandartIcerik> StandartIcerikTipleri { get; set; }
         public virtual ICollection<Telefon> Telefonlar { get; set; }
         public virtual ICollection<StandartIcerikTipiSablon> StandartIcerikTipiSablonlar { get; set; }
-                
+        public virtual ICollection<Denetim> DenetimTipleri { get; set; }
+
 
         //Methods
     }

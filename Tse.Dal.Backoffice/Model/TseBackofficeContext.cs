@@ -81,6 +81,7 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<Deger>().HasMany(e => e.YururlukDurumlari).WithRequired(e => e.YururlukDurumu).WillCascadeOnDelete(false);
             modelBuilder.Entity<Deger>().HasMany(e => e.StandartIcerikTipleri).WithRequired(e => e.StandartIcerikTipi).WillCascadeOnDelete(false);            
             modelBuilder.Entity<Deger>().HasMany(e => e.StandartIcerikTipiSablonlar).WithRequired(e => e.StandartIcerikTipiSablonu).WillCascadeOnDelete(false);
+            modelBuilder.Entity<Deger>().HasMany(e => e.DenetimTipleri).WithRequired(e => e.DenetimTipi).WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Durum>().HasMany(e => e.Adresler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);
             modelBuilder.Entity<Durum>().HasMany(e => e.Degerler).WithRequired(e => e.Durum).WillCascadeOnDelete(false);

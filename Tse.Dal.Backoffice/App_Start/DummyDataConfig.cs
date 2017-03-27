@@ -9618,6 +9618,13 @@
                     Adi ="Atıf Yapılan Döküman Tipleri",
                     Icon ="fa fa-quote-left",
                     DurumID =1
+                },                
+                new Kategori
+                {
+                    KategoriID =10,
+                    Adi ="Denetim Tipleri",
+                    Icon ="fa fa-bar-chart",
+                    DurumID =1
                 }
             });
             #endregion
@@ -11163,9 +11170,27 @@
                     DegerAdiEn = "Control - Table - Item",
                     SiraNo = 22,
                     DurumID = 1
+                },
+                new Deger
+                {
+                    DegerID = 172,
+                    KategoriID = 10,
+                    DegerAdiTr = "Kurumsal Yeterlilik Sertifikası Denetimi",
+                    DegerAdiEn = "Corporate Qualification Certificate Audit",
+                    SiraNo = 22,
+                    DurumID = 1
+                },
+                new Deger
+                {
+                    DegerID = 173,
+                    KategoriID = 10,
+                    DegerAdiTr = "Ürün Sertifikası Denetimi",
+                    DegerAdiEn = "Product Certification Audit",
+                    SiraNo = 22,
+                    DurumID = 1
                 }
             });
-            #endregion        
+            #endregion
 
             #region //StandartIcerikTipiSablon
             context.StandartIcerikTipiSablonlar.AddRange(new List<StandartIcerikTipiSablon>
@@ -20341,6 +20366,7 @@
                 {
                     DenetimID = 1,
                     StandartID = 1,
+                    DenetimTipiID = 173,
                     FirmaID = 2,
                     Tarih = new DateTime(2017,2,15),
                     DurumID = 1
@@ -20349,6 +20375,7 @@
                 {
                     DenetimID = 2,
                     StandartID = 1,
+                    DenetimTipiID = 172,
                     FirmaID = 3,
                     Tarih = new DateTime(2017,3,24),
                     DurumID = 1                                            
