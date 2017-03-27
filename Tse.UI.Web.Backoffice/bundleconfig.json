@@ -52,5 +52,11 @@
     "inputFiles": [
       "Content/assets/pages/scripts/firma.js"
     ]
+  },
+  {
+    "outputFileName": "Content/assets/pages/scripts/denetim.min.js",
+    "inputFiles": [
+      "Content/assets/pages/scripts/denetim.js"
+    ]
   }
 ]

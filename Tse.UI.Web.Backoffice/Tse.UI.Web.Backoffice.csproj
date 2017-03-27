@@ -198,6 +198,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BaslangicController.cs" />
+    <Compile Include="Controllers\DenetimController.cs" />
     <Compile Include="Controllers\FirmaController.cs" />
     <Compile Include="Controllers\HataController.cs" />
     <Compile Include="Controllers\IlceController.cs" />
@@ -224,6 +225,7 @@
     <Compile Include="ViewModels\SehirViewModels.cs" />
     <Compile Include="ViewModels\KategoriViewModels.cs" />
     <Compile Include="ViewModels\KisiViewModels.cs" />
+    <Compile Include="ViewModels\DenetimViewModels.cs" />
     <Compile Include="ViewModels\StandartViewModels.cs" />
     <Compile Include="ViewModels\UlkeViewModels.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
@@ -234,6 +236,9 @@
     <Content Include="Content\assets\global\scripts\common.js" />
     <Content Include="Content\assets\pages\scripts\baslangic.min.js">
       <DependentUpon>baslangic.js</DependentUpon>
+    </Content>
+    <Content Include="Content\assets\pages\scripts\denetim.min.js">
+      <DependentUpon>denetim.js</DependentUpon>
     </Content>
     <Content Include="Content\assets\pages\scripts\kisi.js" />
     <Content Include="Content\assets\pages\scripts\firma.min.js">
@@ -255,6 +260,7 @@
     <Content Include="Content\assets\pages\scripts\sehir.min.js">
       <DependentUpon>sehir.js</DependentUpon>
     </Content>
+    <Content Include="Content\assets\pages\scripts\denetim.js" />
     <Content Include="Content\assets\pages\scripts\standart.js" />
     <Content Include="Content\assets\pages\scripts\standart.min.js">
       <DependentUpon>standart.js</DependentUpon>
@@ -6239,6 +6245,7 @@
     <Content Include="Views\Kisi\kisi-eposta-ekle.cshtml" />
     <Content Include="Views\Kisi\kisi-faturabilgi-duzenle.cshtml" />
     <Content Include="Views\Kisi\kisi-faturabilgi-ekle.cshtml" />
+    <Content Include="Views\Denetim\listele.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">

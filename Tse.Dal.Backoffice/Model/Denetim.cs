@@ -25,8 +25,8 @@
         [Display(Name = "Firma")]
         public int FirmaID { get; set; }
 
-        [Display(Name = "Tarih")]
-        public DateTime Tarih { get; set; }
+        [Display(Name = "Denetim Tarihi")]
+        public DateTime DenetimTarihi { get; set; }
         
         [Display(Name ="Durum")]
         public int DurumID { get; set; }

@@ -439,7 +439,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item" @if(controller=="denetim"){ @("start active open") }">
+                        <li class="nav-item @if(controller=="denetim"){ @("start active open") }">
                             <a href="javascript:;" class="nav-link nav-toggle">
                                 <i class="fa fa-bar-chart"></i>
                                 <span class="title">Denetimler</span>
@@ -447,16 +447,16 @@
                                 <span class="arrow"></span>
                             </a>
                             <ul class="sub-menu">
-                                <li class="nav-item  @if(controller=="denetim"){ @("start active open") }">
+                                <li class="nav-item  @if(action=="listele"){ @("start active open") }">
                                     <a href="/denetim/listele" class="nav-link ">
                                         <i class="fa fa-bar-chart"></i>
                                         <span class="title">Tüm Denetimler</span>
                                     </a>
                                 </li>   
-                                <li class="nav-item  @if(controller=="denetim"){ @("start active open") }">
+                                <li class="nav-item  @if(action=="ekle"){ @("start active open") }">
                                     <a href="/denetim/ekle" class="nav-link ">
                                         <i class="fa fa-plus-circle"></i>
-                                        <span class="title">Yeni Denetimler</span>
+                                        <span class="title">Yeni Denetim</span>
                                     </a>
                                 </li>                               
                             </ul>

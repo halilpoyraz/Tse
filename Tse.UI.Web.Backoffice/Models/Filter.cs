@@ -89,6 +89,14 @@
                     Taslak = context.Firmalar.Where(u => u.DurumID == 3).Count();
                     Silinmis = context.Firmalar.Where(u => u.DurumID == 4).Count();
                 }
+                else if (entityName == "Denetimler")
+                {
+                    Tum = context.Denetimler.Count();
+                    Aktif = context.Denetimler.Where(u => u.DurumID == 1).Count();
+                    Pasif = context.Denetimler.Where(u => u.DurumID == 2).Count();
+                    Taslak = context.Denetimler.Where(u => u.DurumID == 3).Count();
+                    Silinmis = context.Denetimler.Where(u => u.DurumID == 4).Count();
+                }
                 return this;
             }            
         }
@@ -204,11 +212,10 @@
                     Pasif = context.FaturaBilgileri.Where(e => e.KisiID == id && e.DurumID == 2).Count();
                     Taslak = context.FaturaBilgileri.Where(e => e.KisiID == id && e.DurumID == 3).Count();
                     Silinmis = context.FaturaBilgileri.Where(e => e.KisiID == id && e.DurumID == 4).Count();
-                }
+                }               
                 return this;
             }
         }
-
 
         /// <summary>
         /// durumId değerine göre kayıt sayısını döndürür. 

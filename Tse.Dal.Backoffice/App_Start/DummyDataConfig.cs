@@ -20368,7 +20368,7 @@
                     StandartID = 1,
                     DenetimTipiID = 173,
                     FirmaID = 2,
-                    Tarih = new DateTime(2017,2,15),
+                    DenetimTarihi = new DateTime(2017,2,15),
                     DurumID = 1
                 },
                 new Denetim
@@ -20377,7 +20377,7 @@
                     StandartID = 1,
                     DenetimTipiID = 172,
                     FirmaID = 3,
-                    Tarih = new DateTime(2017,3,24),
+                    DenetimTarihi = new DateTime(2017,3,24),
                     DurumID = 1                                            
                 }             
             });
