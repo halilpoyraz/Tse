@@ -41,51 +41,47 @@
         public List<Durum> Durumlar { get; set; }
         public Filter Filter { get; set; }
     }
-    
-    /*
-    public partial class StandartEkleViewModel : BaseViewModel
+        
+    public partial class DenetimEkleViewModel : BaseViewModel
     {
         //Constructor
-        public StandartEkleViewModel()
+        public DenetimEkleViewModel()
         {
             using (TseBackofficeContext context =  new TseBackofficeContext())
             {
                 Meta = new Meta()
                 {
-                    Title = "Yeni Standart Ekle",
-                    Description = "Bu ekrandan yeni standart ekleme işlemleri yapılmaktadır."
+                    Title = "Yeni Denetim Ekle",
+                    Description = "Bu ekrandan yeni denetim ekleme işlemleri yapılmaktadır."
                 };
 
                 BreadCrumb = new BreadCrumb()
                 {
                     Text1 = "Başlangıç",
                     Link1 = "/baslangic/gosterge-paneli",
-                    Text2 = "Standartlar",
-                    Link2 = "/standart/listele",
-                    Text3 = "Yeni Standart Ekle",
-                    HeadText = "Yeni Standart Ekle"
-                };
-                
-                DokumanTipleri = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 1).OrderBy(m => m.DegerAdiTr).ToList();
-                HazirlikGruplari = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 2).OrderBy(m => m.DegerAdiTr).ToList();
-                YururlukDurumlari = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 3).OrderBy(m => m.DegerAdiTr).ToList();
-                StandartTurler = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 4).OrderBy(m => m.DegerAdiTr).ToList();
-                ParaBirimleri = context.ParaBirimleri.Where(m => m.DurumID == 1).OrderBy(m=>m.Kodu).ToList();
+                    Text2 = "Denetimler",
+                    Link2 = "/denetim/listele",
+                    Text3 = "Yeni Denetim Ekle",
+                    HeadText = "Yeni Denetim Ekle"
+                };                
+                Standartlar = context.Standartlar.Where(s => s.DurumID == 1).ToList();
+                DenetimTipleri = context.Degerler.Where(m => m.DurumID == 1 && m.KategoriID == 10).OrderBy(m => m.DegerAdiTr).ToList();
+                Firmalar = context.Firmalar.Where(f => f.DurumID == 1).OrderBy(f => f.TicaretUnvani).ToList();
                 Durumlar = context.Durumlar.ToList();
             }
         }
 
-        //Properties 
-        public Standart Standart { get; set; }        
-        public Durum Durum { get; set; }
-        public List<Deger> DokumanTipleri { get; set; }
-        public List<Deger> HazirlikGruplari { get; set; }
-        public List<Deger> YururlukDurumlari{ get; set; }
-        public List<Deger> StandartTurler { get; set; }
-        public List<ParaBirimi> ParaBirimleri { get; set; }
+        //Properties
+        public Denetim Denetim { get; set; }
+        public Standart Standart { get; set; }
+        public Firma Firma { get; set; }
+        public List<Deger> DenetimTipleri { get; set; }
+        public List<Firma> Firmalar { get; set; }
+        public List<Standart> Standartlar { get; set; }
         public List<Durum> Durumlar { get; set; }
     }
-    
+
+    /*
     public partial class StandartDuzenleViewModel : BaseViewModel
     {
         //Constructor

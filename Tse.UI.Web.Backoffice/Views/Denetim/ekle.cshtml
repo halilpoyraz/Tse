@@ -1,0 +1,114 @@
+﻿@using Tse.UI.Web.Backoffice.Helpers
+@model Tse.UI.Web.Backoffice.ViewModels.DenetimEkleViewModel
+@section renderSection{
+    <script type="text/javascript" src="~/Content/assets/pages/scripts/denetim.min.js"></script>
+    <script type="text/javascript">jQuery(document).ready(function () { Ekle.init(); });</script>
+}
+<div class="portlet light bordered">
+    <div class="portlet-title tabbable-line">
+        <div class="caption">
+            <i class="icon-wallet"></i>
+            <span id="standart-title" class="caption-subject font-dark bold text-capitalize">Yeni Denetim</span>
+        </div>
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a href="#portlet_tab1" data-toggle="tab" aria-expanded="true">Genel</a>
+            </li>
+        </ul>
+    </div>
+    <div class="portlet-body">
+        <div class="tab-content">
+            <div class="tab-pane active" id="portlet_tab1">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="portlet light portlet-fit portlet-form">
+                            <div class="portlet-body">
+                                @using (Html.BeginForm("ekle", "denetim", FormMethod.Post, new { @name = "form-denetim-ekle", @id = "form-denetim-ekle", @class = "form-horizontal" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    <div class="form-body">
+
+                                        <div class="alert alert-danger display-hide">
+                                            <button class="close" data-close="alert"></button>
+                                            Formdaki alanları doğru ve eksiksiz bir biçimde doldurunuz.
+                                        </div>
+
+                                        <div class="row">
+                                            
+                                            <div class="form-group col-md-12">
+                                                <label class="control-label col-md-2">
+                                                    <span>Standart</span>
+                                                    <span class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-10">
+                                                    @Html.DropDownListFor(m => m.Denetim.StandartID, new SelectList(Model.Standartlar, "StandartID", "TsNo", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-md-12">
+                                                <label class="control-label col-md-2">
+                                                    <span>Denetim Tipi</span>
+                                                    <span class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-10">
+                                                    @Html.DropDownListFor(m => m.Denetim.DenetimTipiID, new SelectList(Model.DenetimTipleri, "DegerID", "DegerAdiTr", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-md-12">
+                                                <label class="control-label col-md-2">
+                                                    <span>@Html.DisplayNameFor(m=>m.Denetim.Firma.TicaretUnvani)</span>
+                                                    <span class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-10">
+                                                    @Html.DropDownListFor(m => m.Denetim.FirmaID, new SelectList(Model.Firmalar, "FirmaID", "TicaretUnvani", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-md-12">
+                                                <label class="control-label col-md-2">
+                                                    <span>@Html.DisplayNameFor(m => m.Denetim.DenetimTarihi)</span>
+                                                    <span class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-10">
+                                                    <div id="denetim-tarihi" class="input-group  date date-picker">
+                                                        @Html.TextBoxFor(m => m.Denetim.DenetimTarihi, htmlAttributes: new { @class = "form-control", @readonly = "" })
+                                                        <span class="input-group-btn">
+                                                            <button class="btn default" type="button">
+                                                                <i class="fa fa-calendar"></i>
+                                                            </button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-md-12">
+                                                <label class="control-label col-md-2">
+                                                    <span>@Html.DisplayNameFor(m => m.Denetim.DurumID)</span>
+                                                    <span class="required"> * </span>
+                                                </label>
+                                                <div class="col-md-10">
+                                                    @Html.DropDownListFor(m => m.Denetim.DurumID, new SelectList(Model.Durumlar, "DurumID", "DurumAdi", null).AddFirstItem("Seçiniz", ""), htmlAttributes: new { @class = "form-control" })
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="form-actions">
+                                        <div class="row">
+                                            <div class="col-md-12 text-right">
+                                                <button type="submit" class="btn green">Kaydet</button>
+                                                <button type="button" id="btn-denetim-ekle-vazgec" class="btn grey-salsa btn-outline">Vazgeç</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

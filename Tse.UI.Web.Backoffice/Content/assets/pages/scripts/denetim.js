@@ -66,36 +66,12 @@
 }();
 
 var Ekle = function () {
-    var BtnStandartKaydet = function () {
-        var form = $('#form-standart-ekle');
+    var BtnDenetimEkleKaydet = function () {
+        var form = $('#form-denetim-ekle');
         var error = $('.alert-danger', form);
         var success = $('.alert-success', form);
-        $('#kabul-tarihi').datepicker({
-            format: 'dd.mm.yyyy',
-            language: 'tr'
-        });
-        $('#Standart_TsNo').keyup(function () {
-            resultTitle = "Yeni Standart";
-            if ($('#Standart_TsNo').val() === null)
-                resultTitle = "Yeni Standart";
-            else {
-                resultTitle = $('#Standart_TsNo').val();
-                if ($('#Standart_BaslikTr').val() !== "")
-                    resultTitle = resultTitle + ' - ' + $('#Standart_BaslikTr').val();
-            }
-            $('#standart-title').text(resultTitle);
-        });
-        $('#Standart_BaslikTr').keyup(function () {
-            resultTitle = "Yeni Standart";
-            if ($('#Standart_TsNo').val() === null)
-                resultTitle = "Yeni Standart";
-            else {
-                resultTitle = $('#Standart_TsNo').val();
-                if ($('#Standart_BaslikTr').val() !== "")
-                    resultTitle = resultTitle + ' - ' + $('#Standart_BaslikTr').val();
-            }
-            $('#standart-title').text(resultTitle);
-        });
+        $('#denetim-tarihi').datepicker({format: 'dd.mm.yyyy', language: 'tr'});
+
         form.validate({
             errorElement: 'span',
             errorClass: 'help-block help-block-error',
@@ -108,16 +84,11 @@ var Ekle = function () {
                 }
             },
             rules: {
-                'Standart.TsNo': { minlength: 2, required: true },
-                'Standart.KabulTarihi': { required: true },
-                'Standart.YururlukDurumuID': { required: true },
-                'Standart.BaslikTr': { required: true },
-                'Standart.HazirlikGrubuID': { required: true },
-                'Standart.DokumanTipiID': { required: true },
-                'Standart.StandartTurID': { required: true },
-                'Standart.BaslikEn': { required: true },
-                'Standart.ParaBirimiID': { required: true },
-                'Standart.DurumID': { required: true }
+                'Denetim.StandartID': { required: true },
+                'Denetim.DenetimTipiID': { required: true },
+                'Denetim.FirmaID': { required: true },
+                'Denetim.DenetimTarihi': { required: true },
+                'Denetim.DurumID': { required: true }                
             },
             invalidHandler: function (event, validator) {
                 success.hide();
@@ -150,15 +121,15 @@ var Ekle = function () {
             }
         });
     };
-    var BtnStandartVazgec = function () {
-        $("#btn-standart-vazgec").click(function () {
-            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?')) window.location.href = '/standart/listele'; else return false; 
+    var BtnDenetimEkleVazgec = function () {
+        $("#btn-denetim-ekle-vazgec").click(function () {
+            if (confirm('Yaptığınız değişiklikler henüz kayıt edilmedi. Bu ekrandan ayrılmak istediğinize emin misiniz?')) window.location.href = '/denetim/listele'; else return false; 
         });
     };
     return {
         init: function () {
-            BtnStandartKaydet();
-            BtnStandartVazgec();            
+            BtnDenetimEkleKaydet();
+            BtnDenetimEkleVazgec();
         }
     };
 }();

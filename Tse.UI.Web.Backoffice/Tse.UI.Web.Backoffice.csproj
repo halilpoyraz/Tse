@@ -6246,6 +6246,7 @@
     <Content Include="Views\Kisi\kisi-faturabilgi-duzenle.cshtml" />
     <Content Include="Views\Kisi\kisi-faturabilgi-ekle.cshtml" />
     <Content Include="Views\Denetim\listele.cshtml" />
+    <Content Include="Views\Denetim\ekle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tse.Dal.Backoffice\Tse.Dal.Backoffice.csproj">
