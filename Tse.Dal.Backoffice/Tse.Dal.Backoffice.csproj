@@ -69,6 +69,7 @@
     <Compile Include="Model\Kategori.cs" />
     <Compile Include="Model\Deger.cs" />
     <Compile Include="Model\StandartAtifTipiSablon.cs" />
+    <Compile Include="Model\DenetimIcerik.cs" />
     <Compile Include="Model\StandartIcerikDenetim.cs" />
     <Compile Include="Model\StandartIcerikPuan.cs" />
     <Compile Include="Model\StandartIcerikTipiSablon.cs" />

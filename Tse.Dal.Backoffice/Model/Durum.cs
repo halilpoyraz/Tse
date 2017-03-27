@@ -39,7 +39,8 @@
         public virtual ICollection<FaturaBilgi> FaturaBilgileri { get; set; }
         public virtual ICollection<StandartAtifTipiSablon> StandartAtifTipiSablonlar { get; set; }
         public virtual ICollection<StandartIcerikDenetim> StandartIcerikDenetimler { get; set; }
-        public virtual ICollection<StandartIcerikPuan> StandartIcerikPuanlar { get; set; }
+        public virtual ICollection<StandartIcerikPuan> StandartIcerikPuanlar { get; set; }        
+
 
         // Methods
     }

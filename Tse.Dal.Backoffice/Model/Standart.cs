@@ -111,6 +111,8 @@
 
         public virtual ICollection<Denetim> Denetimler { get; set; }
 
+        public virtual ICollection<DenetimIcerik> DenetimIcerikler { get; set; }
+
         //public virtual ICollection<StandartIcerikPuan> StandartIcerikPuanlar { get; set; }
 
 

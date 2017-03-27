@@ -40,7 +40,7 @@
         public virtual Deger DenetimTipi { get; set; }
 
         public virtual Durum Durum { get; set; }
-
+        public ICollection<DenetimIcerik> DenetimIcerikler { get; set; }
 
         // Methods
     }

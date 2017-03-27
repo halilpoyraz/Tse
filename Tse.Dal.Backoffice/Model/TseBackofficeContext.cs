@@ -38,6 +38,7 @@ namespace Tse.Dal.Backoffice.Model
         public virtual DbSet<Telefon> Telefonlar { get; set; }
         public virtual DbSet<Ulke> Ulkeler { get; set; }
         public virtual DbSet<Denetim> Denetimler { get; set; }
+        public virtual DbSet<DenetimIcerik> DenetimIcerikler { get; set; }
 
 
         //Methods
@@ -69,6 +70,7 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<Telefon>().ToTable("Kisi.Telefon");
             modelBuilder.Entity<Ulke>().ToTable("Tanimlama.Ulke");
             modelBuilder.Entity<Denetim>().ToTable("Denetim.Denetim");
+            modelBuilder.Entity<DenetimIcerik>().ToTable("Denetim.DenetimIcerik");
 
             //Relationship Rules
             modelBuilder.Entity<Adres>().HasMany(e => e.FaturaBilgileri).WithOptional(e =>e.Adres).WillCascadeOnDelete(false);
@@ -140,7 +142,7 @@ namespace Tse.Dal.Backoffice.Model
             modelBuilder.Entity<StandartIcerik>().HasMany(e => e.StandartAtiflar).WithRequired(e => e.StandartIcerik).WillCascadeOnDelete(false);
             modelBuilder.Entity<StandartIcerik>().HasOptional(e => e.StandartIcerikDenetim).WithRequired(e => e.StandartIcerik).WillCascadeOnDelete(false);
 
-            
+            modelBuilder.Entity<Denetim>().HasMany(e => e.DenetimIcerikler).WithRequired(e => e.Denetim).WillCascadeOnDelete(false);
         }      
     }   
 }

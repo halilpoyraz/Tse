@@ -31,6 +31,14 @@
                 {
                     context.Denetimler.Add(denetim);
                     context.SaveChanges();
+
+                    List<StandartIcerik> standartIcerikler = context.StandartIcerikler.Where(s => s.StandartID == denetim.StandartID && s.DurumID == 1 && (s.StandartIcerikTipiID == 164 || s.StandartIcerikTipiID == 169 || s.StandartIcerikTipiID == 168 || s.StandartIcerikTipiID == 171)).OrderBy(s => s.SiraNo).ToList();
+
+                
+                    foreach (var i in standartIcerikler)
+                    {
+                                  
+                    }
                     return RedirectToAction("duzenle", new { denetimID = denetim.DenetimID });
                 }
                 else
