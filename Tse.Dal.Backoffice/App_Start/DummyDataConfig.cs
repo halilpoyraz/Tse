@@ -11781,16 +11781,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 23,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                                                                    
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = true,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                                       
+                        }
                 },
                 new StandartIcerik
                 {
@@ -11803,16 +11803,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 24,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = true,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -11825,16 +11825,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 25,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = true,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -11847,9 +11847,9 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 26,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
@@ -11857,7 +11857,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -11870,9 +11870,9 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 27,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
@@ -11880,7 +11880,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -11893,9 +11893,9 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 28,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
-                        StandartID = 1,                        
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
@@ -11903,7 +11903,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -11916,7 +11916,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 29,
                     DurumID = 1,
-                     StandartIcerikDenetim = 
+                     StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -11926,7 +11926,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -11939,7 +11939,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 30,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -11949,7 +11949,7 @@
                         UrunSertifikasi = false,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -11974,7 +11974,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 32,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -11984,7 +11984,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -11997,9 +11997,9 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 33,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
-                        StandartID = 1,                        
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
@@ -12019,16 +12019,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 34,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = false,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -12041,16 +12041,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 35,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = true,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -12063,16 +12063,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 36,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = false,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -12085,7 +12085,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 37,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12095,7 +12095,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12108,7 +12108,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 38,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12118,7 +12118,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12131,7 +12131,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 39,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12141,7 +12141,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12154,7 +12154,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 40,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12164,7 +12164,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12177,7 +12177,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 41,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12187,7 +12187,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12200,7 +12200,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 42,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12210,7 +12210,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12235,7 +12235,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 44,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12245,7 +12245,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12258,7 +12258,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 45,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12268,7 +12268,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12281,7 +12281,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 46,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12291,7 +12291,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12304,7 +12304,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 47,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12314,7 +12314,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12327,7 +12327,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 48,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12337,7 +12337,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12350,7 +12350,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 49,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12360,7 +12360,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12373,7 +12373,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 50,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12383,7 +12383,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12396,7 +12396,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 51,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12406,7 +12406,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12419,7 +12419,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 52,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12429,7 +12429,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12442,7 +12442,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 53,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12452,7 +12452,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12465,7 +12465,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 54,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12475,7 +12475,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12488,7 +12488,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 55,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12498,7 +12498,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12511,7 +12511,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 56,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12521,7 +12521,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12534,7 +12534,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 57,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12544,7 +12544,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12557,7 +12557,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 58,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12567,7 +12567,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12604,17 +12604,17 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 61,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
                         Zorunlu = false,
                         BilgiAmacli = true,
-                        KurumYeterlilikSertifikasi = false,
-                        UrunSertifikasi = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12627,7 +12627,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 62,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12637,7 +12637,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12650,7 +12650,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 63,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12660,7 +12660,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12673,7 +12673,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 64,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12683,7 +12683,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12696,7 +12696,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 65,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12706,7 +12706,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12719,7 +12719,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 66,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12729,7 +12729,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12742,17 +12742,17 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 67,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
                         Zorunlu = false,
                         BilgiAmacli = true,
-                        KurumYeterlilikSertifikasi = false,
-                        UrunSertifikasi = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12765,7 +12765,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 68,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12775,7 +12775,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12788,7 +12788,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 69,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12798,7 +12798,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12811,7 +12811,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 70,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12821,7 +12821,7 @@
                         UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12834,7 +12834,7 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 71,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
@@ -12844,7 +12844,7 @@
                         UrunSertifikasi = false,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12869,17 +12869,17 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 73,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
                         Zorunlu = false,
                         BilgiAmacli = true,
-                        KurumYeterlilikSertifikasi = false,
-                        UrunSertifikasi = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12904,17 +12904,17 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 75,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
+                    StandartIcerikDenetim =
                         new StandartIcerikDenetim {
                         StandartID = 1,
                         Secmeli = false,
                         Zorunlu = false,
                         BilgiAmacli = true,
-                        KurumYeterlilikSertifikasi = false,
-                        UrunSertifikasi = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -12927,16 +12927,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 76,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = true,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -12961,16 +12961,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 78,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = false,
                         BilgiAmacli = true,
-                        KurumYeterlilikSertifikasi = false,
-                        UrunSertifikasi = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -12983,16 +12983,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 79,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = false,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13005,16 +13005,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 80,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = false,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13027,16 +13027,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 81,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = true,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13049,16 +13049,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 82,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = true,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13071,16 +13071,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 83,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = false,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13105,16 +13105,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 85,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = false,
                         BilgiAmacli = true,
-                        KurumYeterlilikSertifikasi = false,
-                        UrunSertifikasi = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13127,16 +13127,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 86,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = true,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13173,17 +13173,17 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 89,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = false,
                         BilgiAmacli = true,
-                        KurumYeterlilikSertifikasi = false,
-                        UrunSertifikasi = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
                         DurumID = 1
                         }
-                    
+
                 },
                 new StandartIcerik
                 {
@@ -13196,16 +13196,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 90,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = false,
                         BilgiAmacli = true,
-                        KurumYeterlilikSertifikasi = false,
-                        UrunSertifikasi = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13218,16 +13218,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 91,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = false,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13240,16 +13240,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 92,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = false,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13262,16 +13262,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 93,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = false,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13284,16 +13284,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 94,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                       
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = true,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13306,16 +13306,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 95,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = true,
                         Zorunlu = false,
                         BilgiAmacli = false,
-                        KurumYeterlilikSertifikasi = false,
-                        UrunSertifikasi = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13328,16 +13328,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 96,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = true,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -13350,16 +13350,16 @@
                     StandartIcerikTipiID = 171,
                     SiraNo = 97,
                     DurumID = 1,
-                    StandartIcerikDenetim = 
-                        new StandartIcerikDenetim {                        
-                        StandartID = 1,                        
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
                         Secmeli = false,
                         Zorunlu = true,
                         BilgiAmacli = false,
                         KurumYeterlilikSertifikasi = false,
                         UrunSertifikasi = true,
                         DurumID = 1
-                        }                    
+                        }
                 },
                 new StandartIcerik
                 {
@@ -15281,1112 +15281,4598 @@
                         DurumID = 1
                         }
                 },
-                /*
                 new StandartIcerik
                 {
-                    StandartIcerikID = 47,
+                    StandartIcerikID = 193,
                     StandartID = 1,
                     BaslikNo = "9.2",
                     Baslik = "Erişim Hakları",
                     Detay = null,
-                    UstIcerikID = 45,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 47,
+                    UstIcerikID = 188,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 193,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 48,
+                    StandartIcerikID = 194,
+                    StandartID = 1,
+                    BaslikNo = "9.2.1",
+                    Baslik = null,
+                    Detay = "EBYS, kullanıcı, seri, klasör veya belge gibi sistem elemanlarına atanacak erişim haklarının sistem yöneticisi tarafından tanımlanmasına izin vermelidir.",
+                    UstIcerikID = 193,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 194,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 195,
+                    StandartID = 1,
+                    BaslikNo = "9.2.2",
+                    Baslik = null,
+                    Detay = "Erişim haklarının tanımlanması, atanması ve değiştirilmesi gibi işlemler yalnızca sistem yöneticisinin yetkisinde olmalıdır.",
+                    UstIcerikID = 193,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 195,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 196,
+                    StandartID = 1,
+                    BaslikNo = "9.2.3",
+                    Baslik = null,
+                    Detay = "<div><div style='text-align: justify;'>EBYS, bünyesinde yer alan elemanlar için en azından beş kademeli erişim hakları tanımlayabilmelidir. Bunlar:</div><div style='text-align: justify;'><br></div></div><ul><li class='ms-hover' style='text-align: justify;'><b>Tasnif dışı: </b>içerdiği konular itibariyle, gizlilik dereceli bilgi taşımayan, bilgi, belge, evrak, mesaj ve dokümanlara verilen,</li><li class='ms-hover' style='text-align: justify;'><b>Hizmete özel: </b>içerdiği konular itibariyle, gizlilik dereceli konular dışında olan, güvenlik işlemine ihtiyaç gösteren ve Devlet hizmetine ait özel bilgileri ihtiva eden bilgi, belge, evrak, mesaj ve dokümanlara verilen gizlilik derecesidir,</li><li class='ms-hover' style='text-align: justify;'><b>Özel: </b>İçerdiği konular itibariyle, müsaadesiz olarak açıklandığı takdirde, milli menfaatlerimizi olumsuz yönde etkileyecek olan bilgi, belge, evrak, mesaj ve dokümanlara verilen gizlilik derecesidir. </li><li class='ms-hover' style='text-align: justify;'><b>Gizli: </b>Müsaadesiz olarak açıklandığı takdirde, ulusal güvenliği, milli prestij ve menfaatlerimizi ciddi ve önemli derecede zedeleyecek olan bilgi, belge, evrak, mesaj ve dokümanlara verilen gizlilik derecesidir.</li><li class='ms-hover' style='text-align: justify; '><b>Çok gizli: </b>Müsaadesiz olarak açıklandığı takdirde, ulusal güvenliği büyük ölçüde tehlikeye düşürecek, Devletimize ve müttefiklerimize büyük ölçüde zararlar verebilecek olan bilgi, belge, evrak, mesaj ve dokümanlara verilen gizlilik derecesidir.</li></ul>",
+                    UstIcerikID = 193,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 196,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 197,
+                    StandartID = 1,
+                    BaslikNo = "9.2.4",
+                    Baslik = null,
+                    Detay = "EBYS, kullanıcı grupları ve bireysel kullanıcılar tanımlamaya müsait olmalıdır.",
+                    UstIcerikID = 193,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 197,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 198,
                     StandartID = 1,
                     BaslikNo = "9.3",
                     Baslik = "Kullanıcı Profilleri",
                     Detay = null,
-                    UstIcerikID = 45,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 48,
+                    UstIcerikID = 188,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 198,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 49,
+                    StandartIcerikID = 199,
+                    StandartID = 1,
+                    BaslikNo = "9.3.1",
+                    Baslik = null,
+                    Detay = "EBYS, içindeki her kullanıcı için bir fonksiyon (kullanıcı, yönetici gibi) tanımlanmalıdır. Kullanıcının fonksiyonu, kimlik ve şifre bilgileri ile erişim hakları gibi bilgiler kullanıcı profili bölümünde tutulmalıdır.",
+                    UstIcerikID = 198,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 199,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 200,
+                    StandartID = 1,
+                    BaslikNo = "9.3.2",
+                    Baslik = null,
+                    Detay = "Kullanıcı profilleri üzerinde değişiklik işlemleri ve erişim haklarının değiştirilmesi yalnızca sistem yöneticisinin kontrolünde olmalıdır.",
+                    UstIcerikID = 198,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 200,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 201,
+                    StandartID = 1,
+                    BaslikNo = "9.3.3",
+                    Baslik = null,
+                    Detay = "Kullanıcılar bireysel olarak veya bir kullanıcı grubunun üyesi olarak erişim hakları ile donatılmalıdır. Kullanıcılara verilecek erişim hakları EBYS elemanları için tanımlanan haklarla paralellik göstermelidir. Her kullanıcı kendi erişim hakkı ve daha düşük güvenlik seviyesindeki belgelere erişebilmelidir.",
+                    UstIcerikID = 198,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 201,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 202,
                     StandartID = 1,
                     BaslikNo = "9.4",
                     Baslik = "Kullanıcı Rolleri",
                     Detay = null,
-                    UstIcerikID = 45,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 49,
+                    UstIcerikID = 188,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 202,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 50,
+                    StandartIcerikID = 203,
+                    StandartID = 1,
+                    BaslikNo = "9.4.1",
+                    Baslik = null,
+                    Detay = "<p><div style='text-align: justify;'>EBYS, kullanıcıların sistem içerisindeki fonksiyonlarını belirleyici nitelikte roller tanımlayabilmelidir. Bu roller kullanıcıların erişim haklarını düzenleyici nitelikte olacaktır. Bu rollerin tanımlanması ve kullanıcılara atanması yetkisi sistem yöneticisinde olmalıdır. Bu rollerin neler olacağı kurumların hiyerarşik yapısına göre değişebilir.</div><div style='text-align: justify;'>Aşağıdaki roller birçok kurum hiyerarşisine uygun olabilir.</div></p><ul><li class='ms-hover' style='text-align: justify;'><b>Sistem yöneticisi: </b>EBYS üzerindeki en yetkili kullanıcıdır. Bilgisayar sisteminin düzenli ve kurumsal fonksiyonlara uygun olarak çalışmasından sorumludur.</li><li class='ms-hover' style='text-align: justify;'><b>Elektronik belge yöneticisi (Uzman arşivci): </b>EBYS içerisindeki belge yönetimi fonksiyonlarını yerine getiren uzmandır. Özellikle dosya tasnif ve saklama planlarının tanımlanması ve güncel tutulması gibi fonksiyonlardan sorumludurlar.</li><li class='ms-hover' style='text-align: justify; '><b>Arşivci: </b>EBYS ile elektronik olmayan belgelerin entegrasyonu ve yönetiminden sorumludur. Genel olarak Elektronik Belge Yöneticisine bağlı olarak çalışır.</li><li class='ms-hover' style='text-align: justify; '><b>Kullanıcı: </b>Sistem içerisinde kendi birimi ile ilgili elektronik belgelerin yer almasını ve kullanımını sağlayacak haklara sahip kişidir.</li><li class='ms-hover' style='text-align: justify; '><b>Misafir kullanıcı: </b>Kendi birimi dışındaki birimlere ait elektronik belgeleri görme yetkisine sahip olan kullanıcıdır. Misafir kullanıcıların hangi yetkilerle hangi belgelere erişeceği konusu kurumsal izinlerle düzenlenmelidir.</li><li class='ms-hover' style='text-align: justify; '><b>Üretici/Sahip: </b>Elektronik belgelerin üretiminden ve dolayısıyla içeriğinden sorumlu kişi ve birimler.</li></ul>",
+                    UstIcerikID = 202,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 203,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 204,
+                    StandartID = 1,
+                    BaslikNo = "9.4.2",
+                    Baslik = null,
+                    Detay = "Her kullanıcı için en az bir rol tanımlanmış olmalıdır.",
+                    UstIcerikID = 202,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 204,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 204,
+                    StandartID = 1,
+                    BaslikNo = "9.4.3",
+                    Baslik = null,
+                    Detay = "EBYS fonksiyonları sisteme giriş yapan kullanıcı yetkisine göre düzenlenmelidir. Kullanıcının yetkisinde olmayan fonksiyonlar gizlenmelidir.",
+                    UstIcerikID = 202,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 205,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 206,
                     StandartID = 1,
                     BaslikNo = "9.5",
                     Baslik = "Kullanıcı Grupları",
                     Detay = null,
-                    UstIcerikID = 45,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 50,
+                    UstIcerikID = 188,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 206,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 51,
+                    StandartIcerikID = 207,
+                    StandartID = 1,
+                    BaslikNo = "9.5.1",
+                    Baslik = null,
+                    Detay = "<p></p><div style='text-align: justify;'><div>EBYS, kullanıcı grupları tanımlamaya uygun olmalıdır. Bu gruplardan bazıları şunlar olabilir:<br><br></div><ul><li class='ms-hover'>Fonksiyonel gruplar: Aynı birimde çalışan benzer fonksiyonları gerçekleştiren kişilerden oluşan gruplar.</li><li class='ms-hover'>Yönetici grupları: İdari olarak yönetici sorumluluğu bulunan kişilerden oluşan gruplar.</li><li class='ms-hover'>Proje grupları: Belli projeleri gerçekleştirmek için belirli zaman dilimlerinde bir araya getirilmiş kişilerden oluşan gruplar.</li></ul><div>Not: Bir kişi aynı anda birden fazla grubun üyesi olabilir.</div></div>",
+                    UstIcerikID = 206,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 207,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 208,
+                    StandartID = 1,
+                    BaslikNo = "9.5.2",
+                    Baslik = null,
+                    Detay = "<p>EBYS:</p><ul><li class='ms-hover'>Yeni grupların tanımlanmasına,</li><li class='ms-hover'>Mevcut grupların geçici sürelerle veya sürekli olarak pasif hale getirilmesine ve</li><li class='ms-hover'>Mevcut grupların sistemden silinmesine uygun olmalıdır. Ancak bu işlem sadece kullanıcı grubunun sisteme yanlışlıkla kayıt edilmiş olduğu veya sistemde herhangi bir işlem yapmadığı durumlar için geçerlidir. Teorik olarak sistemde herhangi bir işlem yapmış tüm kullanıcı gruplarına ait bilgiler sürekli saklanmalıdır.</li></ul>",
+                    UstIcerikID = 206,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 208,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 209,
+                    StandartID = 1,
+                    BaslikNo = "9.5.3",
+                    Baslik = null,
+                    Detay = "Gruplarla ilgili işlemler sistem yöneticisinin yetkisinde olmalıdır.",
+                    UstIcerikID = 206,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 209,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 210,
+                    StandartID = 1,
+                    BaslikNo = "9.5.4",
+                    Baslik = null,
+                    Detay = "Gruplara yeni kişilerin eklenmesi veya mevcut kişilerden birinin gruptan çıkarılması mümkün olmalıdır. Ancak bu işlem kayıt altına alınmalıdır. Ancak, herhangi bir personelin hangi tarihler arasında hangi grubun üyesi olduğu kayıt altında olmalıdır.",
+                    UstIcerikID = 206,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 210,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 211,
                     StandartID = 1,
                     BaslikNo = "9.6",
                     Baslik = "Kayıtlara erişim haklarının atanması ve uygulanması",
                     Detay = null,
-                    UstIcerikID = 45,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 51,
+                    UstIcerikID = 188,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 211,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 52,
+                    StandartIcerikID = 212,
+                    StandartID = 1,
+                    BaslikNo = "9.6.1",
+                    Baslik = null,
+                    Detay = "EBYS, bünyesindeki elemanlara erişim haklarının ve güvenlik seviye kodlarının atanmasına olanak tanımalıdır. Sistemde yer alan seri, klasör ve elektronik belgelere erişim, yalnızca kendilerine hak tanınmış olan kullanıcı gruplarına ya da bireysel kullanıcılara verilmelidir.",
+                    UstIcerikID = 211,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 212,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 213,
+                    StandartID = 1,
+                    BaslikNo = "9.6.2",
+                    Baslik = null,
+                    Detay = "EBYS bünyesindeki elemanlar, hiyerarşik yapı içerisinde ait oldukları üst elemanların güvenlik sınırlamalarına sahip olmalıdır. Not: Örneğin bir elektronik belge otomatik olarak bağlı bulunduğu klasöre verilmiş olan erişim haklarını taşır. Söz konusu klasöre erişim hakkı olan kullanıcılar o klasöre bağlı elektronik belgelere erişebilmelidir.",
+                    UstIcerikID = 211,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 213,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 214,
+                    StandartID = 1,
+                    BaslikNo = "9.6.3",
+                    Baslik = null,
+                    Detay = "EBYS elemanlarına atanan erişim haklarında olabilecek uyuşmazlıklarda, sistem otomatik olarak en üst güvenlik seviyesine göre hareket etmeli ve sistem yöneticisini uyarmalıdır.",
+                    UstIcerikID = 211,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 214,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 215,
+                    StandartID = 1,
+                    BaslikNo = "9.6.4",
+                    Baslik = null,
+                    Detay = "EBYS elemanlarına tanınan erişim hakları yetkili kullanıcılar tarafından değiştirilebilmelidir. Erişim haklarında yapılan değişiklikler kayıt altına alınmalıdır.",
+                    UstIcerikID = 211,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 215,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 216,
+                    StandartID = 1,
+                    BaslikNo = "9.6.5",
+                    Baslik = null,
+                    Detay = "EBYS elemanları için belirlenen erişim kısıtlamaları mutlaka süreli olmalıdır. Kısıtlama süresinin bitiminde, sistem otomatik olarak kısıtlamayı kaldırabilmelidir. Not: Üzerinden kısıtlamaların kaldırılacağı elektronik klasör ve belgeler sistem yöneticisine periyodik olarak raporlanmalıdır. Sistem yöneticisi gerekli gördüğü durumlarda kısıtlılığın devamını sağlayabilmelidir.",
+                    UstIcerikID = 211,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 216,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 217,
+                    StandartID = 1,
+                    BaslikNo = "9.6.6",
+                    Baslik = null,
+                    Detay = "EBYS bünyesindeki elemanları, yalnızca bu elemanlar için belirlenmiş güvenlik seviyesine eşit veya daha yüksek erişim hakkı olan kullanıcılara göstermelidir.",
+                    UstIcerikID = 211,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 217,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 218,
+                    StandartID = 1,
+                    BaslikNo = "9.6.7",
+                    Baslik = null,
+                    Detay = "Kullanıcılar, erişim hakları bulunmayan elektronik klasör ve belgelerden haberdar olmamalıdır. EBYS arama ve listeleme gibi fonksiyonları gerçekleştirirken erişim haklarını kontrol etmelidir. Arama işlemleri yalnızca kullanıcının erişim hakkı bulunan kayıtlar ve bunlara ait üstveriler üzerinden yapılmalıdır. Not: Bazı kurumlarda bu kuralın esnetilmesi gerekebilir. Özellikle istatistik amaçlı yapılan çalışmalarda kullanıcıların sistemdeki tüm belgelerden miktar olarak haberdar olmaları gerekebilir. Bu gibi durumlarda kullanıcılara geçici olarak yetkileri ötesindeki belgelerden haberdar olma izni verilebilir. Ancak belgelerin içeriğinin görüntülenmesi yetki sınırları içerisinde tutulmalıdır.",
+                    UstIcerikID = 211,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 218,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 219,
                     StandartID = 1,
                     BaslikNo = "9.7",
                     Baslik = "Üretim sorumluluğu ve mülkiyet",
                     Detay = null,
-                    UstIcerikID = 45,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 52,
+                    UstIcerikID = 188,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 219,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 53,
+                    StandartIcerikID = 220,
+                    StandartID = 1,
+                    BaslikNo = "9.7.1",
+                    Baslik = null,
+                    Detay = "EBYS bünyesine dâhil edilen her elemanın (seri, klasör, belge, vs.) bir üreticisi ve/veya sahibi olmalıdır. Not: Kişi ve kurumlar kendi faaliyetleri sonucu ürettikleri belgelerin üreticisi ve sahibidirler. Kişi ve kurumlar faaliyetleri sırasında kendilerine başka kurum veya kişiler tarafından gönderilen belgelerin sahibi sayılırlar.",
+                    UstIcerikID = 219,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 220,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 221,
+                    StandartID = 1,
+                    BaslikNo = "9.7.2",
+                    Baslik = null,
+                    Detay = "EBYS elemanlarının üreticileri ve/veya sahipleri söz konusu elemanlara otomatik olarak erişim hakkı kazanmalıdır. Not: Belgenin üreticisi, ürettiği belgenin içeriği konusunda bilgi sahibi olduğu halde kurumdaki pozisyonu gereği erişiminin engellediği durumlar olabilmektedir. Bu tür durumların önüne geçilebilmesi için üretim sorumluluğuna sahip kişilerin kendi ürettikleri belgelere erişim hakkı güvence altına alınmalıdır.",
+                    UstIcerikID = 219,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 221,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 222,
+                    StandartID = 1,
+                    BaslikNo = "9.7.3",
+                    Baslik = null,
+                    Detay = "EBYS elemanlarına erişim, yalnızca üreticisi veya sahibi ile sınırlı tutulabilmelidir.",
+                    UstIcerikID = 219,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 222,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 223,
+                    StandartID = 1,
+                    BaslikNo = "9.7.4",
+                    Baslik = null,
+                    Detay = "EBYS elemanlarına ait üretim ve/veya mülkiyet bilgileri sadece sistem yöneticisi tarafından değiştirilebilmedir. Yapılan değişiklikler kayıt altına alınmalıdır.",
+                    UstIcerikID = 219,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 223,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 224,
                     StandartID = 1,
                     BaslikNo = "9.8",
                     Baslik = "Günlük dosyalarının oluşturulması",
                     Detay = null,
-                    UstIcerikID = 45,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 53,
+                    UstIcerikID = 188,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 224,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 54,
+                    StandartIcerikID = 225,
+                    StandartID = 1,
+                    BaslikNo = "9.8.1",
+                    Baslik = null,
+                    Detay = "<p>EBYS otomatik olarak bir günlük tutabilmelidir. Bu günlük sistemdeki kullanıcı aktivitelerinin kayıt altına alınmasını sağlamalıdır. Günlükteasgari olarak şu bilgiler tutulmalıdır:</p><ul><li class='ms-hover'>Gerçekleştirilen aktivitenin ne olduğu (kayıt ekleme, değiştirme, arama, vs.),</li><li class='ms-hover'>İşlemin hangi EBYS elemanı üzerinde gerçekleştirildiği,</li><li class='ms-hover'>İşlemin kim tarafından gerçekleştirildiği,</li><li class='ms-hover'>İşlemin gerçekleştirildiği tarih ve saat.</li></ul>",
+                    UstIcerikID = 224,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 225,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 226,
+                    StandartID = 1,
+                    BaslikNo = "9.8.2",
+                    Baslik = null,
+                    Detay = "<p>Günlük dosyasında takip edilmesi gereken aktivitelerden bazıları şunlardır:</p><ul><li class='ms-hover'>Elektronik dokümanların belge olarak tanımlanma işlemine ait tarih ve saat bilgisi,</li><li class='ms-hover'>EBYS elemanların birbirleriyle ilişkilendirme ve/veya yer değiştirme işlemleri,</li><li class='ms-hover'>Saklama planı ve saklama sürelerinde yapılacak değişiklikler,</li><li class='ms-hover'><li class='ms-hover'>EBYS elemanlarına ait üstveri bilgilerinde yapılan değişiklikler,</li><li class='ms-hover'>Erişim hakları ve bunların atanması ile ilgili yapılan değişiklikler,</li><li class='ms-hover'>Elektronik belgelerin kopyalama, taşıma ve silme işlemleri</li></li></ul>",
+                    UstIcerikID = 224,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 226,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 227,
+                    StandartID = 1,
+                    BaslikNo = "9.8.3",
+                    Baslik = null,
+                    Detay = "Günlük dosyasında yer alan bilgiler sistem yöneticisi dâhil hiç kimse tarafından değiştirilemeyecek veya silinemeyecek şekilde korunmalıdır.",
+                    UstIcerikID = 224,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 227,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 228,
+                    StandartID = 1,
+                    BaslikNo = "9.8.4",
+                    Baslik = null,
+                    Detay = "Günlük bilgilerin saklama planları çerçevesinde imha edilebilir. Ancak herhangi bir günlük girişine ait saklama süresi referans verdiği elektronik belgeden daha kısa olamaz.",
+                    UstIcerikID = 224,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 228,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 229,
+                    StandartID = 1,
+                    BaslikNo = "9.8.5",
+                    Baslik = null,
+                    Detay = "Günlük bilgileri gerekli olduğu durumlarda kurum dışı yetkililer tarafından incelebilmelidir. Ayrıca günlük bilgileri dışarıdan birinin anlayacağı format ve açıklıkta olmalıdır.",
+                    UstIcerikID = 224,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 229,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 230,
+                    StandartID = 1,
+                    BaslikNo = "9.8.6",
+                    Baslik = null,
+                    Detay = "<p>Günlük bilgileri üzerinde belirli kriterlere göre filtrelenmiş raporlar hazırlanabilmelidir.<br>Örneğin:</p><ul><li class='ms-hover'>Bir kullanıcıya ait belli bir zaman dilimi içindeki aktiviteler, </li><li class='ms-hover'>Bir EBYS elemanı üzerinde belirli bir zaman dilimi içerindeki aktiviteler</li></ul>",
+                    UstIcerikID = 224,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 230,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 231,
                     StandartID = 1,
                     BaslikNo = "10",
                     Baslik = "Sistem Tasarımı ve Yönetimi",
                     Detay = null,
-                    UstIcerikID = 17,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 54,
+                    UstIcerikID = 20,
+                    StandartIcerikTipiID = 169,
+                    SiraNo = 231,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 55,
+                    StandartIcerikID = 232,
                     StandartID = 1,
                     BaslikNo = "10.1",
                     Baslik = "Sistem bütünlüğü ve güvenirlik",
                     Detay = null,
-                    UstIcerikID = 54,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 55,
+                    UstIcerikID = 231,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 232,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 56,
+                    StandartIcerikID = 233,
+                    StandartID = 1,
+                    BaslikNo = "10.1.1",
+                    Baslik = null,
+                    Detay = "EBYS, sistemin, verilerin, veriler arasındaki referansların ve EBYS elemanlarının bütünlüğünü ve güvenirliliği sağlamak ve gerektiğinde göstermek zorundadır",
+                    UstIcerikID = 232,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 233,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 234,
+                    StandartID = 1,
+                    BaslikNo = "10.1.2",
+                    Baslik = null,
+                    Detay = "EBYS, bünyesindeki her elemanı eşsiz bir referans numarası kodlamalıdır. Referans numaralarının üretim ve kullanım prosedürü gerektiğinde gösterilebilmelidir.",
+                    UstIcerikID = 232,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 234,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 235,
+                    StandartID = 1,
+                    BaslikNo = "10.1.3",
+                    Baslik = null,
+                    Detay = "EBYS içerisinde tarihlerin yıl hanesi dört haneli (2005 gibi) olarak kullanılmalıdır.",
+                    UstIcerikID = 232,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 235,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 236,
                     StandartID = 1,
                     BaslikNo = "10.2",
                     Baslik = "Kullanım kolaylığı",
                     Detay = null,
-                    UstIcerikID = 54,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 56,
+                    UstIcerikID = 231,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 236,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 57,
+                    StandartIcerikID = 237,
+                    StandartID = 1,
+                    BaslikNo = "10.2.1",
+                    Baslik = null,
+                    Detay = "EBYS’nin tamamı çevrimiçi yardıma sahip olmalıdır. Sağlanan yardım dokümanları farklı formatlarda (metin, video, vs.) olabilir. Yardım dosyasının dilinin Türkçe olması esastır. Ancak sistemi kullanan kamu kurumunun talebi üzerine farklı dillerde de yardım dosyaları oluşturulabilir.",
+                    UstIcerikID = 236,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 237,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 238,
+                    StandartID = 1,
+                    BaslikNo = "10.2.2",
+                    Baslik = null,
+                    Detay = "Sağlanan çevrimiçi yardım içerik duyarlı olmalıdır.",
+                    UstIcerikID = 236,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 238,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 239,
+                    StandartID = 1,
+                    BaslikNo = "10.2.3",
+                    Baslik = null,
+                    Detay = "Sistem tarafından üretilen tüm hata mesajları anlamlı olmalıdır. Kullanıcılar gördükleri hata mesajından sorunun ne olduğunu kolayca anlayabilmelidir.",
+                    UstIcerikID = 236,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 239,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 240,
+                    StandartID = 1,
+                    BaslikNo = "10.2.4",
+                    Baslik = null,
+                    Detay = "Kullanıcı ara yüzü basit ve işletim sistemi ile uyumlu olmalıdır.",
+                    UstIcerikID = 236,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 240,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 241,
+                    StandartID = 1,
+                    BaslikNo = "10.2.5",
+                    Baslik = null,
+                    Detay = "EBYS, kullanıcıların aynı anda birden fazla kayda erişmesine ve işlem yapmasına olanak tanımalıdır.",
+                    UstIcerikID = 236,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 241,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 242,
+                    StandartID = 1,
+                    BaslikNo = "10.2.6",
+                    Baslik = null,
+                    Detay = "EBYS veri girişlerinde varsayılan değerleri önermelidir. Not: Özellikle tarih, referans numarası gibi veriler sistem tarafında izlenebilir ve veri girişi esnasında kullanıcıya önerilebilir.",
+                    UstIcerikID = 236,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 242,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 243,
+                    StandartID = 1,
+                    BaslikNo = "10.2.7",
+                    Baslik = null,
+                    Detay = "Kullanıcılar sistem içerisinde sık kullandıkları fonksiyonlar için kısa yol tuşu veya simgesi tanımlayabilmelidir",
+                    UstIcerikID = 236,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 243,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 244,
+                    StandartID = 1,
+                    BaslikNo = "10.2.8",
+                    Baslik = null,
+                    Detay = "EBYS kurum elektronik posta sistemi ile entegre çalışabilmelidir. Kullanıcılar gönderdikleri ya da aldıkları postaları kolayca sisteme kaydedebilmelidir.",
+                    UstIcerikID = 236,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 244,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 245,
+                    StandartID = 1,
+                    BaslikNo = "10.2.9",
+                    Baslik = null,
+                    Detay = "EBYS, taranmış dokümanlara ait üstverilerin kolayca elde edilebilmesi için optik karakter tanıma (OCR) özelliğine sahip olmalı ya da OCR programları ile entegre çalışabilmelidir.",
+                    UstIcerikID = 236,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 245,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 246,
+                    StandartID = 1,
+                    BaslikNo = "10.2.10",
+                    Baslik = null,
+                    Detay = "EBYS kullanıcılara dosya tasnif planının kullanımı hakkında rehberlik ve yardım edecek özelliklere sahip olmalıdır.",
+                    UstIcerikID = 236,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 246,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 247,
                     StandartID = 1,
                     BaslikNo = "10.3",
                     Baslik = "Performans ve ölçeklenebilirlik",
                     Detay = null,
-                    UstIcerikID = 54,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 57,
+                    UstIcerikID = 231,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 247,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 58,
+                    StandartIcerikID = 248,
+                    StandartID = 1,
+                    BaslikNo = "10.3.1",
+                    Baslik = null,
+                    Detay = "<p>EBYS normal işletim koşulları altında kabul edilebilir bir performans göstermelidir. Normal işletim koşulları asgari olarak;</p><ul><li class='ms-hover'>Sistemde bileşenleri ve ekleri olan bir milyon belge yükü</li><li class='ms-hover'>Aynı anda sistemde aktif</li><li class='ms-hover'>20 kullanıcı,</li><li class='ms-hover'>100 kullanıcı,</li><li class='ms-hover'>500 kullanıcı olduğu durumlar olarak düşünülmelidir.</li></ul>",
+                    UstIcerikID = 247,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 248,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 249,
+                    StandartID = 1,
+                    BaslikNo = "10.3.2",
+                    Baslik = null,
+                    Detay = "<p>EBYS tarafından performans açısından aşağıdaki kriterlere uygun süreler için yapılan beyanlar “Onaylı veya Akredite Laboratuvarlar” tarafından doğrulanmalıdır.</p><ul><li class='ms-hover'>Bir seri veya klasöre ait elemanların grafik olarak görüntülenme zamanı,&nbsp;<br>-10 belgeli klasör<br>-1000 belgeli klasör<br>-50000 belgeli klasör</li><li class='ms-hover'>Elektronik bir belgeyi sisteme dahil etme zamanı,</li><li class='ms-hover'>Basit bir aramaya (tek değişkenli) cevap zamanı,<br>-Belgenin sayı numarası<br>-Belgenin konusu<br>-Tam metin</li><li class='ms-hover'>Karmaşık bir aramaya (dört değişkenli) cevap zamanı,<br>-Tarih, Konu, Dosya Plan Kodu, Tam Metin<br>- Tarih, Konu, Dosya Plan Kodu, Birim</li></ul>",
+                    UstIcerikID = 247,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 249,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 250,
+                    StandartID = 1,
+                    BaslikNo = "10.3.3",
+                    Baslik = null,
+                    Detay = "TS 13298 uyumlu yazılım, aynı zamanda TS ISO/IEC 25051 standardının gereksinimlerinden Ürün Açıklaması, Kullanıcı Dokümantasyonu ve fonksiyonel testleri TS 13298 kapsamında gerçekleştirmeli ve belgeleyebilmelidir.",
+                    UstIcerikID = 247,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 250,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 251,
                     StandartID = 1,
                     BaslikNo = "10.4",
                     Baslik = "Verilerin Depolanması",
                     Detay = null,
-                    UstIcerikID = 54,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 58,
+                    UstIcerikID = 231,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 251,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 59,
+                    StandartIcerikID = 252,
                     StandartID = 1,
-                    BaslikNo = "Bölüm II:",
-                    Baslik = "Belge Kriterleri",
+                    BaslikNo = "10.4.1",
+                    Baslik = null,
+                    Detay = "EBYS bünyesinde tutulan elektronik belgelerin okunabilirlik açısından periyodik olarak denetlenmesine imkân tanıyacak fonksiyonlar içermelidir. Bu denetimler sırasında karşılaşılacak saklama ünitesi bozuklukları ve veri kayıpları rapor edilmelidir.",
+                    UstIcerikID = 251,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 252,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 253,
+                    StandartID = 1,
+                    BaslikNo = "10.4.2",
+                    Baslik = null,
+                    Detay = "EBYS saklama ünitelerinin toplu olarak yenilenmesine imkan tanıyacak fonksiyonlar içermelidir. Not: EBYS bünyesindeki veriler sağlam ve uzun ömürlü saklama üniteleri üzerinde depolanmalıdır. Depolama için kullanılan ürünler, üreticilerinin tavsiye ettiği ürün ömrü boyunca ve yine üreticisinin tavsiye ettiği çevresel şartların sağlandığı ortamlarda saklanmalıdır.",
+                    UstIcerikID = 251,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 253,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 254,
+                    StandartID = 1,
+                    BaslikNo = "10.4.3",
+                    Baslik = null,
+                    Detay = "EBYS versiyon ilerlemelerinde ve teknolojik değişimlerde veri kayıplarının olmayacağını gösterebilmelidir.",
+                    UstIcerikID = 251,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 254,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 255,
+                    StandartID = 1,
+                    BaslikNo = "10.4.4",
+                    Baslik = null,
+                    Detay = "EBYS tasarım ve üretiminde yaygın standardlar kullanılmalıdır. Program kodları, depolama fonksiyonları ve veri tabanı yapısı açık kaynak kodlu veya endüstri standardlarından oluşmalıdır.",
+                    UstIcerikID = 251,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 255,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 256,
+                    StandartID = 1,
+                    BaslikNo = "10.4.5",
+                    Baslik = null,
+                    Detay = "EBYS yapısı ve kodlarına ait dokümantasyon koruma altına alınmalıdır.",
+                    UstIcerikID = 251,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 256,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 257,
+                    StandartID = 1,
+                    BaslikNo = "10.4.6",
+                    Baslik = null,
+                    Detay = "Elektronik belgelerin korunmasına yönelik üstveriler EBYS içerisinde tanımlanabilir olmalıdır.",
+                    UstIcerikID = 251,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 257,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 258,
+                    StandartID = 1,
+                    BaslikNo = null,
+                    Baslik = "Bölüm II: Belge Kriterleri",
                     Detay = null,
                     UstIcerikID = 0,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 59,
+                    StandartIcerikTipiID = 164,
+                    SiraNo = 258,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 60,
+                    StandartIcerikID = 259,
                     StandartID = 1,
                     BaslikNo = "11",
                     Baslik = "Belge Özellikleri",
                     Detay = null,
-                    UstIcerikID = 59,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 60,
+                    UstIcerikID = 258,
+                    StandartIcerikTipiID = 169,
+                    SiraNo = 259,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 61,
+                    StandartIcerikID = 260,
                     StandartID = 1,
                     BaslikNo = "11.1",
                     Baslik = "Tanımlanabilirlik",
                     Detay = null,
-                    UstIcerikID = 60,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 61,
+                    UstIcerikID = 259,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 260,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 62,
+                    StandartIcerikID = 261,
+                    StandartID = 1,
+                    BaslikNo = "11.1.1",
+                    Baslik = null,
+                    Detay = "Elektronik ortamda üretilen dokümanlardan belge statüsü kazananlar EBYS içerisinde tanımlanabilir olmalıdır. Tanımlanabilirlik, herhangi bir elektronik belge üreticisi, yazarı, alıcısı ve belgeye ait tarih bilgilerinin kayıt altına alınması ile sağlanır.",
+                    UstIcerikID = 260,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 261,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 262,
+                    StandartID = 1,
+                    BaslikNo = "11.1.2",
+                    Baslik = null,
+                    Detay = "<p style='text-align: justify; '>Elektronik belgeye ait tanımlanabilirlik özellikleri şunlardır:</p><ul><li class='ms-hover' style='text-align: justify;'><b>Üretici: </b>Herhangi bir elektronik belgenin üretilmesi için yetkili tüzel kuruluş ve gerçek kişiler üretici olarak tanımlanır. Geleneksel sistemlerde bir belgeye ait üretici bilgisi evrakın başında antet olarak veya evrakın sonunda imza bölümünde yer alır.</li><li class='ms-hover' style='text-align: justify;'><b>Yazar: </b>Herhangi bir belgenin entelektüel sorumluluğunu taşıyan kişi veya kurumdur. Genel olarak belgeyi imzalayan kişi yazar olarak tanımlanır. Yazar, entelektüel sorumluluğu kendi adına taşıyabileceği gibi yetkilisi olduğu kurum adına da taşıyabilir.</li></ul><p style='text-align: justify;'>Not: Bir belgeye ait yazar sorumluluğu ile üretici sorumluluğu aynı kişi veya kuruluşu işaret edebilir.</p><ul><li class='ms-hover' style='text-align: justify;'><b>Gönderen: </b>Herhangi bir belgenin çıkış kaynağı olan kişi, kurum veya süreç sorumlusudur.</li></ul><p style='text-align: justify;'>Not: Bir belgenin üreticisi, yazarı veya göndericisi tarafından diğer bir kuruma veya şahsa gönderilmesi dokümanların belgeye dönüşmesindeki en önemli unsurdur. Gönderilme işlemi fonksiyonu tetiklemesi ve şekillendirmesi açısından son derece &nbsp;önemlidir. Bir belgeye ait gönderen sorumluluğu, yazar ve / veya üretici sorumluluğu aynı kişi veya kuruluşu işaret edebilir.</p><ul><li class='ms-hover' style='text-align: justify;'><b>Çıkış yeri: </b>Elektronik belgenin üretildiği veya gönderildiği yere ait coğrafi bilgidir.</li></ul><p style='text-align: justify;'>Not: Elektronik belgeye ait çıkış yeri bilgisi kurumsal ihtiyaçlara göre detaylandırılabilir. Ülke, bölge, şehir, ilçe gibi detaylar EBYS içerisinde gerekli olduğu durumlarda hiyerarşik olarak verilebilmelidir.</p><ul><li class='ms-hover' style='text-align: justify;'><b>Üretim tarihi: </b>Belgenin üretildiği tarih bilgisidir.</li><li class='ms-hover' style='text-align: justify;'><b>İletim tarihi: </b>Belgenin gönderildiği tarihtir.</li><li class='ms-hover' style='text-align: justify;'><b>Arşivleme tarihi: </b>Elektronik belgenin kurumsal arşiv sistemine dâhil edildiği tarihtir.</li><li class='ms-hover' style='text-align: justify;'><b>Transfer tarihi: </b>Elektronik belgenin kurum arşivine veya kurum dışı bir arşive transfer edilme tarihidir.</li></ul><p style='text-align: justify;'>Not: Transfer işlemi birden fazla gerçekleşebilir. Bu nedenle belgenin mülkiyet zincirinde bir kopukluk olmaması için tüm transferlere ait tarih bilgileri kayıt altına alınmalıdır.</p><ul><li class='ms-hover' style='text-align: justify;'><b>İmha tarihi: </b>Elektronik belgenin kurum saklama planları çerçevesinde imha edildiği tarihtir.</li><li class='ms-hover' style='text-align: justify;'><b>Alıcı adı: </b>Elektronik belgenin işlem yapılmak veya bilgilendirmek üzere gönderildiği kişi, kurum veya süreç sorumlularıdır.</li></ul><p style='text-align: justify;'>Not: Alıcı birden fazla olabilir. Alıcının birden fazla olduğu durumlarda gereği için gönderilenlerle bilgi için gönderilenler ayırt edilebilmelidir.</p><ul><li class='ms-hover' style='text-align: justify;'><b>Fonksiyon adı: </b>Elektronik belgenin ilgili olduğu kurumsal fonksiyonun adıdır.</li></ul><p style='text-align: justify; '>Not: Bu bilgi elektronik belge üzerinde kayıtlı olmayabilir. Dolayısıyla genelde bir belgeye ait fonksiyon bilgisi içerik analizi yapıldıktan sonra belirlenebilir. Fonksiyon bilgisi oluşturulurken kullanılacak anahtar kelimeler kurumsal dosya tasnif planları içerisindenseçilmelidir.</p>",
+                    UstIcerikID = 260,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 262,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 263,
                     StandartID = 1,
                     BaslikNo = "11.2",
                     Baslik = "Bütünlük",
                     Detay = null,
-                    UstIcerikID = 60,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 62,
+                    UstIcerikID = 259,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 263,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 63,
+                    StandartIcerikID = 264,
+                    StandartID = 1,
+                    BaslikNo = "11.2.1",
+                    Baslik = null,
+                    Detay = "<p>EBYS, bünyesindeki elektronik belgelerin bütünlüğünü korumalı ve söz konusu belgelerin bütünlüğünün sorgulandığı durumlarda bütünlüğün bozulmadığını gösterebilmelidir. Bütünlük kavramı elektronik belgenin entelektüel (içerik), tanımsal ve fiziksel olarak bir bütün olarak korunmasıdır.</p><ul><li class='ms-hover'><b>Entelektüel bütünlük: </b>EBYS, elektronik bir belgenin entelektüel bütünlüğü ile ilgili olarak;</li></ul><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -belge vasfı kazanmış elektronik dokümanların içeriğine herhangi bir müdahalenin yapılmasını engellemelidir.</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -elektronik belgelerin endüstri standardı sistemlerle erişilebilir, okunabilir ve yorumlanabilir olmasını sağlamalıdır.</p><ul><li class='ms-hover'>Tanımsal bütünlük: EBYS, elektronik belgelerin üretim, iletim, alınma ve kullanımı ile ilgili tanımlama ögelerini bir bütün içerisinde korumalıdır.</li><li class='ms-hover'>Fiziksel bütünlük: EBYS, elektronik bir belgeyi oluşturan tüm bileşenlerin bir bütün olarak bir arada korunmasını ve kullanımını sağlamalıdır. Ayrıca belgenin bir bölümünün ya da tamamının bozulmasına veya kaybolmasına neden olabilecek sistem hatalarına karşı gerekli önlemli almalıdır.</li></ul><p>Not: Elektronik belgelerin fiziksel bütünlüğü çeşitli çevresel faktörler ya da insan hataları nedeni ile de tehdit altında olabilir. Elektronik belge yöneticileri bu tür faktörlere karşı gerekli prosedürsel ve yönetimsel tedbirleri almalıdır.</p>",
+                    UstIcerikID = 263,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 264,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 265,
                     StandartID = 1,
                     BaslikNo = "11.3",
                     Baslik = "Onay ve Kayıt Bilgisi",
                     Detay = null,
-                    UstIcerikID = 60,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 63,
+                    UstIcerikID = 259,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 265,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 64,
+                    StandartIcerikID = 266,
+                    StandartID = 1,
+                    BaslikNo = "11.3.1",
+                    Baslik = null,
+                    Detay = "EBYS, elektronik belgelerin üreticisi tarafından onaylanmasına ve kurumsal kayıt sistemleri içerisinde temsil edilmesine imkan sağlayacak teknolojileri bünyesinde barındırmalı ya da bu türden bağımsız sistemlerle entegre çalışabilmelidir. Bu sistemlerin yasal ve prosedürsel olarak kabul edilebilir olması uygulamada bir önkoşul olmalıdır. Not: Geleneksel belge yönetim sistemlerinde bir belgenin ‘resmi’ bir hüviyet kazanabilmesi için o belgenin imza yetkisine sahip kişilerce imzalanmış olması ve belgenin kurumsal evrak kayıt sistemi içerisinde yer alması gerekir. Belge ile ifade edilen mal ve hizmet alma ilişkileri, medeni ilişkiler, hak ve alacak ilişkilerinin hukuki geçerliğinin olabilmesi için belgenin ilgili ve yetkili kişilerce imzalanmış ve bir kayıt sistemi içerisinde gösterilmesi esastır.",
+                    UstIcerikID = 265,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 266,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 267,
+                    StandartID = 1,
+                    BaslikNo = "11.3.2",
+                    Baslik = null,
+                    Detay = "<p>EBYS, elektronik belgelerin onaylanması ve kayıt altına alınması ile ilgili olarak güncel teknolojiler ışığında aşağıdaki tekniklerden bir ya da birkaçını bünyesinde barındırmalı veya bu sistemlerle entegre çalışabilmelidir. Bu bağlamda EBYS, elektronik imzalı belgeleri yönetebilme özelliklerine sahip olmalıdır. Elektronik imza dışındaki onay ve kayıt sistemleri artı bir özellik olarak düşünülmelidir.</p><ul><li class='ms-hover'><b>Elektronik imza: </b>Elektronik belgenin üretim, iletim, kullanım, saklama ve imhasının sorumlu kişi veya kişiler tarafından gerçekleştirildiğini gösteren dijital bir işarettir. Bu işaret belgeye eklenmiş veya belge ile mantıksal olarak ilişkilendirilmiş olabilir.</li><li class='ms-hover'><b>Elektronik mühür: </b>Elektronik belgenin yalnızca kastedilen alıcısı tarafından alındığını veya okunduğunu sağlamak üzere geliştirilmiş elektronik bir araçtır. Bu araç ile gönderilen elektronik belgelere ait gönderilme işlemi güvenilir üçüncü bir kurum tarafından onaylanır ve şifrelenir.</li><li class='ms-hover'><b>Elektronik zaman damgası: </b>Elektronik belgenin üretim, iletim ve alındısına ait tarih bilgilerinin fiziksel olarak belgeye eklenmesi veya belge ile mantıksal olarak ilişkilendirilmesidir.</li><li class='ms-hover'><b>Özel elektronik işaretler: </b>Elektronik belgelere eklenmiş veya onlarla ilişkilendirilmiş dijital filigran, amblem, logo ve benzeri işaretlerdir.</li><li class='ms-hover'><b>Kurum evrak sistemi: </b>Elektronik onay; Güvenli elektronik imza kullanılamayan durumlarda paraf yerine geçecek kaydın elektronik ortamda alınması ve bunun değiştirilemeyecek mahiyette loglanmasını ifade eder. Elektronik belgelerinin ve ait olduğu evrak serisinin kurumsal evrak kayıt, dosya tasnif ve evrak saklama planlarında gösterilmiş olmasıdır.</li></ul>",
+                    UstIcerikID = 265,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 267,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 268,
                     StandartID = 1,
                     BaslikNo = "11.4",
                     Baslik = "Yapısal özellikler",
                     Detay = null,
-                    UstIcerikID = 60,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 64,
+                    UstIcerikID = 259,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 268,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 65,
+                    StandartIcerikID = 269,
+                    StandartID = 1,
+                    BaslikNo = "11.4.1",
+                    Baslik = null,
+                    Detay = "<p>EBYS, belgelerin üretim aşamasında kazandıkları yapısal özellikleri korumalıdır. Yapısal özellikler üreticilerin, belgeyi alıcının görmesini istediği sunum özellikleri, belgeye ait form özellikleri ve dosya formatına ait özelliklerden oluşur.</p><ul><li class='ms-hover'><b>Sunum özellikleri:</b> EBYS, belge üreticisinin söz konusu belgeye eklemiş olduğu sunum özelliklerini korumalıdır.</li></ul><p>Not: Sunum özellikleri, belgelerdeki mesajın anlaşılmasına veya belirli bir şekilde anlaşılmasına yardımcı olan özelliklerdir. Bunlar genelde üreticinin mesajın daha iyi anlaşılabilmesi için belgeye katmış olduğu çeşitli yapısal özellikleri kapsar ve belge içeriğini herhangi bir şekilde etkilemez. Kullanıcının dikkatini belli bir noktaya çekmeyi amaçlayan altı çizili bir cümle, farklı girintide &nbsp;azılmış bir paragraf, renklendirilmiş bir rakamın mesajın anlaşılmasına ya da mesajın üreticinin istediği şekilde anlaşılmasına katkısı oldukça önemlidir.</p><ul><li class='ms-hover'><b>Belge formu:</b> EBYS, elektronik belgelerin form özelliklerinin korunmasını sağlamalıdır.</li></ul><p>Not: Elektronik belgelerin, diğer belge türlerinde de olduğu gibi, form özellikleri mevcuttur. Bu özellikler, örneğin, bir rapor formunda üretilmiş bir belgenin bir yazışma belgesinden ayırmak için kullanılır. Her belge formunun kendine özgü olan üretim formu belgenin içerik bilgilerine ilave bilgiler içerir. Bu üretim formu, kullanıcının aradığı bilgiye ulaşmasında bazen bir filtre görevi görür. Kullanıcı aradığı bilginin ne tür belgelerde olabileceğini bilir ve aramasını bu bilgiye göre şekillendirir. Örneğin kullanıcı bir bilanço ile faaliyet raporunun farklı bilgiler içerdiğini bilir. Bu bilgi kullanıcıya son derece değerli zaman kazandırabilir.</p><ul><li class='ms-hover'><b>Dosya formatı:</b> EBYS, elektronik belgenin orijinal üretimformatını ve arşiv formatını birlikte yönetebilmelidir.</li></ul><p>Not: Elektronik belgelerin kurumsal olarak tercih edilebilecek standard dosya formatlarına transferi esnasında belge bütünlüğünü korumalıdır.</p>",
+                    UstIcerikID = 268,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 269,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 270,
                     StandartID = 1,
                     BaslikNo = "11.5",
                     Baslik = "Üretim sorumluluğu ve mülkiyet hakları",
                     Detay = null,
-                    UstIcerikID = 60,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 65,
+                    UstIcerikID = 259,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 270,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 66,
+                    StandartIcerikID = 271,
+                    StandartID = 1,
+                    BaslikNo = "11.5.1",
+                    Baslik = null,
+                    Detay = "<p>EBYS, elektronik belgelerin üretim sorumluluğu taşıyan kişi ve kuruluşlarla olan ilişki bağını korumalıdır. Ayrıca belgensin üretiminden nihai tasfiyesine kadar geçen süreçteki mülkiyet zinciri kayıt altına alınmalıdır.</p><p>Not: Gerek geleneksel metotlarla üretilmiş belgelerde gerekse elektronik ortamda üretilmiş belgelerde içerik bilgilerinin anlam ifade edebilmesi için bu bilgilerin kurumsal veya bireysel aktivite ile ilişkilendirilmesi gerekmektedir. Bu ilişki belgelerde yazılı olmayan ancak belgeyi üreten kurum, diğer belgelerle olan konusal bütünlüğü, ekleri, vs. kullanıcı açısından son derece önemli bilgiler içerir. İlişkili olduğu diğer belgelerden soyutlanması veya üretim koşullarının bilinmemesi belgelerin ifade ettikleri mesajı zayıflatır bazen de mesaj anlamsızlaşır. Geleneksel kayıt ortamlarında ilişkinin korunması için bilgi ve belge yöneticilerinin fazla bir çaba harcaması gerekmemektedir. Çünkü mesaj ile mesajın kayıtlı olduğu ortamın birbirinden ayrılamaz olması ilişkinin doğal olarak korunmasını sağlar. Diğer taraftan elektronik ortamda üretilen bilgilerin ilişkilerinin korunması için özel önlemler alınması gerekmektedir.</p><ul><li class='ms-hover'><b>Kurumsal ilişki:</b> Elektronik belgenin üretiminden sorumlu kurumla ve söz konusu kurumun üretmiş olduğu diğer belgelerle olan organik bağı korunmalıdır. Bu bağın korunması EBYS’nin kurumsal dosya planlarını içermesi ile doğrudan ilişkilidir.</li><li class='ms-hover'><b>Fonksiyonel ilişki: </b>Elektronik belgelerin üretilmesine neden olan kurumsal fonksiyonlarla olan ilişkisi korunmalıdır. Fonksiyonel ilişkinin korunması belge serilerinin, klasörlerin ve dosyaların tasarımı ve bunlar arasındaki hiyerarşik ilişkinin doğru kurulması son derece önemlidir.</li><li class='ms-hover'><b>Provenans: </b>Elektronik belgelerin üretim kaynağı ve üretiminden tasfiyesine kadar olan yaşam sürecindeki mülkiyet zinciri korunmalıdır. Provenans bilgisi elektronik belgenin yaşam sürecinde her dönemin sorumlularının kayıt altına alınmasıdır. Bu kayıt elektronik belgeye olan güvenin sağlamlaştırılması ve belgenin yasal statüsünün korunması açısından son derece önemlidir.</li></ul>",
+                    UstIcerikID = 270,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 271,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 272,
                     StandartID = 1,
                     BaslikNo = "11.6",
                     Baslik = "Teknolojik özellikler",
                     Detay = null,
-                    UstIcerikID = 60,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 66,
+                    UstIcerikID = 259,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 272,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 67,
+                    StandartIcerikID = 273,
+                    StandartID = 1,
+                    BaslikNo = "11.6.1",
+                    Baslik = null,
+                    Detay = "<p>EBYS, elektronik belgelerin üretim, iletim, depolama ve kullanımına imkan sağlayan teknolojik özelliklerini kayıt altına almalıdır.</p><p>Not: Elektronik belgelerin üretim ortamına ait bilgilerin kayıt altına alınması belgeleri gelecekte karşılaşabilecekleri orijinallik incelemelerine yardımcı olabileceği gibi belge üreten kurumların teknolojik yetkinliği konusunda da bilgiler vermesi açısından önemlidir. Burada ifade edilen verilerin önemli bir bölümü herhangi bir kullanıcı müdahalesi olmadan kayıt altına alınabilir.</p><ul><li class='ms-hover'><b>Donanım: </b>Elektronik belgelerin üretim, iletim, depolama ve kullanımı için gerekli olan donanım altyapısı kayıt altına alınmalıdır. Donanım altyapısı ile ilgili olarak aşağıdaki bilgiler tutulmalıdır.</li></ul><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>-Ana Bellek: </b>Elektronik belgenin yeniden kullanımı için gerekli olan ana bellek miktarının bilinmesidir.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>-Depolama ünitesi: </b>Elektronik belgenin depolama ünitesinin ne olduğu ve belgeyi depolamak için ne kadar yere ihtiyaç &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;duyulduğu bilgisidir.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>-İşlemci: </b>Elektronik belgenin üretiminde kullanılan bilgisayar sistemine ait işlemci bilgisidir.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>-Ağ altyapısı: </b>Elektronik belgenin bir ağ üzerinden kullanılması gerektiği durumlar için, ağ yapısı ve mimarisine ait &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bilgidir.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>-Diğer donanım: </b>Elektronik belgenin kullanımı için gerekli diğer donanımlara ait bilgilerdir. Bunlar arasında ekran &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;özellikleri ve fare kullanımına ihtiyaç olup olmadığı gibi bilgiler sayılabilir.</p><ul><li class='ms-hover'><b>Yazılım: </b>Elektronik belgenin üretim, iletim ve kullanımı için gerekli yazılımlara ait bilgilerdir.</li></ul><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>-İşletim sistemi: </b>Elektronik belgenin üretimi için kullanılan bilgisayar sisteminin kullandığı işletim sistemine ait ad ve &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;versiyon bilgileridir.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>-Diğer sistem yazılımları: </b>İşletim sistemi dışında kalan diğer sistem yazılımlarıdır. Bunlar arasında ağ ve güvenlik &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yazılımları en başta gelenlerdir.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>-Uygulama programı: </b>Elektronik belgenin üretimi ve iletiminin gerçekleştirildiği yazılımlardır. Bunlar, elektronik belgenin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sunum özellikleri ve dosya format özellikleri kazanmasını sağlayan yazılımlardır.</p><ul><li class='ms-hover'>Veri ve dosya formatı: Elektronik belgenin üretiminin gerçekleştirildiği bilgisayar sistemine ait işletim sistemi ve uygulama yazılımı tarafından verilerin kodlanması ve depolanması için kullanılan metotların tanımlanmasıdır.</li></ul><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>-Dosya sistemi: </b>Elektronik sistemin, belgeleri kaydetmek ve saklamak için kullandığı sistemidir.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>-Veri/dosya formatı: </b>Elektronik sistemin veri ve dosyaları saklamak için kullandığı formattır.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>-Veri tabanı modeli: </b>Verilerin bir veri tabanı yönetim sistemi içerisinde tutulduğu durumlarda veri tabanına ait bilgilerin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kayıt altına alınmasıdır.</p><ul><li class='ms-hover'><b>Sistem yönetimi: </b>Elektronik belgenin üretim, iletim, depolama ve kullanımı için kullanılan elektronik sistemlere ait erişim şartları ve güvenlik sınırlamaları gibi sistem yöneticisi tarafından getirilen kurallardır.</li></ul>",
+                    UstIcerikID = 272,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 273,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 274,
                     StandartID = 1,
                     BaslikNo = "12",
                     Baslik = "Doküman yönetimi",
                     Detay = null,
-                    UstIcerikID = 59,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 67,
+                    UstIcerikID = 258,
+                    StandartIcerikTipiID = 169,
+                    SiraNo = 274,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 68,
+                    StandartIcerikID = 275,
                     StandartID = 1,
                     BaslikNo = "12.1",
                     Baslik = "Giriş",
                     Detay = null,
-                    UstIcerikID = 67,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 68,
+                    UstIcerikID = 274,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 275,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 69,
+                    StandartIcerikID = 276,
+                    StandartID = 1,
+                    BaslikNo = "12.1.1",
+                    Baslik = null,
+                    Detay = "<p>Doküman yönetim sistemleri (DYS), genel olarak kurumsal bilgi kaynaklarının elektronik ortamda depolanması ve kullanılması için geliştirilmiş sistemlerdir. Bu sistemler kurum içerisinde belge statüsü kazanmış dokümanların yanı sıra belge özelliği taşımayan ancak içerdiği bilgi açısından depolanan ve kullanılan dokümanları düzenleme, tanımlama ve erişim gibi fonksiyonları yerine getirmek üzere kullanılır. Doküman yönetim sistemleri kurum bilgi kaynaklarının etkin ve verimli bir şekilde kullanılması ile zaman, maliyet ve işgücü tasarrufu sağlaması açısından kurumlar için önemli bir araçtır. Bu sistemler, elektronik belge yönetimi sistem kriterleri açısından iki temel fonksiyonu yerine getirmek için kullanılabilir:</p><ul><li class='ms-hover'>Doküman yönetim sistemleri, diğer bilgi kaynakları için olduğu gibi, elektronik belge özellikleri korunduğu takdirde, elektronik belgelerin yönetimi için de kullanılabilir.</li><li class='ms-hover'>Doküman yönetimi sistemi içerisine dahil her türlü bilgi kaynağı potansiyel olarak bir belge olarak tanımlanabilir. Bu nedenle doküman yönetim sistemleri EBYS için bir ön süreç aracı olabilir. Sistem içindeki dokümanlardan bir bölümü belge statüsü kazandırılarak ayrı bir yönetim prosedürüne tabi tutulabilir.</li></ul>",
+                    UstIcerikID = 275,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 276,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 277,
                     StandartID = 1,
                     BaslikNo = "12.2",
                     Baslik = "Girdi Yönetimi",
                     Detay = null,
-                    UstIcerikID = 67,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 69,
+                    UstIcerikID = 274,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 277,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 70,
+                    StandartIcerikID = 278,
+                    StandartID = 1,
+                    BaslikNo = "12.2.1",
+                    Baslik = null,
+                    Detay = "<p>Doküman yönetim sistemleri farklı kaynaklardan gelen dokümanları sisteme dâhil edebilmelidir. Bu kaynaklar:</p><ul><li class='ms-hover'>Elektronik dokümanlar: Çeşitli uygulama yazılımları ile üretilen elektronik dokümanlar, </li><li class='ms-hover'>Elektronik posta ve faks: Elektronik posta ya da faks yoluyla alınan dokümanlar ve ekleri,</li><li class='ms-hover'>Görüntülenmiş dokümanlar: Elektronik olarak üretilmeyen ancak tarayıcılar ve dijital görüntüleme cihazları gibi araçlarla elektronik ortama aktarılmış olan dokümanlar,</li><li class='ms-hover'>Sesli ve görüntülü dokümanlar: Dijital ya da analog olarak kaydedilmiş ses ve görüntü dokümanları, </li><li class='ms-hover'>Uzaktan algılama sistemleri: Coğrafi bilgi sistemleri ve radar sistemleri gibi uzaktan algılama yöntemiyle üretilmişverilerin oluşturduğu dokümanlar,</li><li class='ms-hover'>Veri tabanı yönetim sistemleri: Veri tabanı formunda ve bir veri tabanı yönetim sistemi içerisinde üretilmiş olan dokümanlar.</li></ul>",
+                    UstIcerikID = 277,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 278,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 279,
                     StandartID = 1,
                     BaslikNo = "12.3",
                     Baslik = "Tanımlama ve indeksleme",
                     Detay = null,
-                    UstIcerikID = 67,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 70,
+                    UstIcerikID = 274,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 279,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 71,
+                    StandartIcerikID = 280,
+                    StandartID = 1,
+                    BaslikNo = "12.3.1",
+                    Baslik = null,
+                    Detay = "Elektronik doküman yönetim sistemleri içerisine dahil edilen elektronik dokümanların tanımlama ve indeksleme işlemleri elektronik belgelerde olduğu gibi yapılmalıdır.",
+                    UstIcerikID = 279,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 280,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 281,
+                    StandartID = 1,
+                    BaslikNo = "12.3.2",
+                    Baslik = null,
+                    Detay = "Tanımlama işlemi doküman seviyesinde yapılmalı ve dokümanlar için kullanılacak üstveri ögeleri bu referans modelinde belge seviyesi için belirlenen ögelerden oluşmalıdır.",
+                    UstIcerikID = 279,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 281,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 282,
+                    StandartID = 1,
+                    BaslikNo = "12.3.3",
+                    Baslik = null,
+                    Detay = "Doküman yönetim sistemleri tanımlama için kullanılan üstveri ögeleri için indeksleme yapabilmelidir.",
+                    UstIcerikID = 279,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 282,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 283,
+                    StandartID = 1,
+                    BaslikNo = "12.3.4",
+                    Baslik = null,
+                    Detay = "Elektronik olarak üretilmiş veya metin haline dönüştürülmüş olan dokümanlar (OCR, ICR, OMR vb sistemler ile) üzerinde tam metin (full-text) indeksleme yapılabilmelidir",
+                    UstIcerikID = 279,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 283,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 284,
                     StandartID = 1,
                     BaslikNo = "12.4",
                     Baslik = "Dosyalama, düzenleme ve tasnif",
                     Detay = null,
-                    UstIcerikID = 67,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 71,
+                    UstIcerikID = 274,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 284,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 72,
+                    StandartIcerikID = 285,
+                    StandartID = 1,
+                    BaslikNo = "12.4.1",
+                    Baslik = null,
+                    Detay = "Elektronik dokümanların dosyalama, düzenleme ve tasnif işlemleri elektronik belgelerde olduğu gibi yapılır.",
+                    UstIcerikID = 284,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 285,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 286,
                     StandartID = 1,
                     BaslikNo = "12.5",
                     Baslik = "Depolama / Yedekleme",
                     Detay = null,
-                    UstIcerikID = 67,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 72,
+                    UstIcerikID = 274,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 286,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 73,
+                    StandartIcerikID = 287,
+                    StandartID = 1,
+                    BaslikNo = "12.5.1",
+                    Baslik = null,
+                    Detay = "Elektronik dokümanlar depolama ve yedekleme ünitelerine kopyalanabilmelidir.",
+                    UstIcerikID = 286,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 287,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 288,
                     StandartID = 1,
                     BaslikNo = "12.6",
                     Baslik = "Erişim",
                     Detay = null,
-                    UstIcerikID = 67,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 73,
+                    UstIcerikID = 274,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 288,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 74,
+                    StandartIcerikID = 289,
+                    StandartID = 1,
+                    BaslikNo = "12.6.1",
+                    Baslik = null,
+                    Detay = "<p>Elektronik dokümanlara erişim kullanıcıların değişik arama stratejilerine uygun olacak şekilde tasarlanmalıdır. Arama stratejilerini üç temel grupta toplamak mümkündür.</p><ul><li class='ms-hover'>Doğrudan erişim: Aranan dokümanın referans numarası girilerek erişimin gerçekleştirilmesidir.</li><li class='ms-hover'>Üstveri üzerinden arama: Dokümanlar için tanımlanmış üstverilerin ve indeks terimlerinin çeşitli operatörlerin kullanılması ile taranmasıdır. </li><li class='ms-hover'>Tam metin (full-text) arama: Elektronik olarak üretilmiş veya metin haline dönüştürülmüş olan dokümanların (OCR, ICR, OMR vb sistemler ile) içeriklerinin taranmasıdır.</li></ul>",
+                    UstIcerikID = 288,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 289,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 290,
                     StandartID = 1,
                     BaslikNo = "12.7",
                     Baslik = "Çıktı yönetimi",
                     Detay = null,
-                    UstIcerikID = 67,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 74,
+                    UstIcerikID = 274,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 290,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 75,
+                    StandartIcerikID = 291,
+                    StandartID = 1,
+                    BaslikNo = "12.7.1",
+                    Baslik = null,
+                    Detay = "<p>Elektronik doküman yönetim sistemi içerisindeki dokümanların gerekli olduğu durumlarda çıktıları alınabilmelidir. Sistem kullanıcıların ihtiyaçlarına göre farklı formatlarda çıktılar üretebilmelidir.</p><p><b>Görüntüleme:</b> Sistem içerisindeki dokümanlar görüntülenebilmelidir. Bu işlem iki ayrı formatta gerçekleştirilebilmelidir.</p><ul><li class='ms-hover'>Orijinal format: Elektronik dokümanların üretildiği uygulama yazılımlarının formatıdır.</li><li class='ms-hover'>Standard format: Elektronik dokümanlar orijinal formatları dışında PDF, XML gibi standard formatlarda da görüntülenebilmelidir. Bu işlem gerçekleştirilirken doküman üzerinde bilgi ve format kaybının yaşanmamasına dikkat edilmelidir.</li></ul><p><b>Yazdırma:</b> Elektronik dokümanlar yazıcı ve çiziciler aracılığı ile kâğıt ortama aktarılabilmelidir.</p><p><b>Kopyalama:</b> Elektronik belgeler, EBYS dışındaki depolama üniteleri üzerine kopyalanabilmelidir.</p><p><b>İletme:</b> Elektronik dokümanlar, sistem içerisinden diğer kullanıcılara gönderilebilmelidir.</p><p><b>İş akışı:</b> Elektronik dokümanlar önceden tanımlanmış iş süreçleri çerçevesinde diğer kullanıcılara iletilebilmelidir.</p>",
+                    UstIcerikID = 290,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 291,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 292,
                     StandartID = 1,
                     BaslikNo = "12.8",
                     Baslik = "Versiyon kontrolü",
                     Detay = null,
-                    UstIcerikID = 67,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 75,
+                    UstIcerikID = 274,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 292,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 76,
+                    StandartIcerikID = 293,
+                    StandartID = 1,
+                    BaslikNo = "12.8.1",
+                    Baslik = null,
+                    Detay = "<p>Sisteme dâhil edilmiş dokümanların farklı versiyonları korunabilmelidir. Versiyonların korunması iki farklı metot ile yapılabilir.</p><ul><li class='ms-hover'>Dokümana ait tüm versiyonlar ayrı bir doküman olarak düşünülür ve sisteme dâhil edilir. Ancak bir dokümana erişim sağlandığında tüm versiyonlarının varlığından kullanıcı haberdar edilir. </li><li class='ms-hover'>Dokümana ait versiyonlar orijinal dokümanın altında versiyon kronolojisi ile tutulur. Böylece kullanıcı doküman üzerindeki değişiklikleri ve bu değişikliklerin kimler tarafından ne zaman yapıldığını izleyebilir.</li></ul>",
+                    UstIcerikID = 292,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 293,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = true,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 294,
                     StandartID = 1,
                     BaslikNo = "13",
                     Baslik = "Elektronik olmayan sistemlerle uyumluluk",
                     Detay = null,
-                    UstIcerikID = 59,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 76,
+                    UstIcerikID = 258,
+                    StandartIcerikTipiID = 169,
+                    SiraNo = 294,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 77,
+                    StandartIcerikID = 295,
                     StandartID = 1,
                     BaslikNo = "13.1",
                     Baslik = "Fiziksel dosya ve belgelerin sisteme dahil edilmesi",
                     Detay = null,
-                    UstIcerikID = 76,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 77,
+                    UstIcerikID = 294,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 295,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 78,
+                    StandartIcerikID = 296,
+                    StandartID = 1,
+                    BaslikNo = "13.1.1",
+                    Baslik = null,
+                    Detay = "EBYS, elektronik ortamda olmayan dosya ve belgelere ait tanımlama bilgilerini bünyesinde barındırabilmelidir.",
+                    UstIcerikID = 295,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 296,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 297,
+                    StandartID = 1,
+                    BaslikNo = "13.1.2",
+                    Baslik = null,
+                    Detay = "EBYS, elektronik olmayan dosya ve belgelerle elektronik ortamdaki belgelerin aynı dosya tasnif planı içerisinde düzenlenmesine imkân tanımalıdır.",
+                    UstIcerikID = 295,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 297,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 298,
+                    StandartID = 1,
+                    BaslikNo = "13.1.3",
+                    Baslik = null,
+                    Detay = "Kurum içerisinde tek bir saklama planı olmalı, saklama planı bulunduğu ortam ne olursa olsun tüm belgeleri kapsamalıdır",
+                    UstIcerikID = 295,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 298,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 299,
                     StandartID = 1,
                     BaslikNo = "13.2",
                     Baslik = "Tanımlama",
                     Detay = null,
-                    UstIcerikID = 76,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 78,
+                    UstIcerikID = 294,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 299,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 79,
+                    StandartIcerikID = 300,
+                    StandartID = 1,
+                    BaslikNo = "13.2.1",
+                    Baslik = null,
+                    Detay = "Elektronik olmayan belgelerin tanımlanması için kullanılacak üstveriler elektronik belgelerle aynı olmalıdır. Üstveri havuzu her türlü ortamdaki belgeyi tanımlayacak nitelik ve kapsamda olmalıdır.",
+                    UstIcerikID = 299,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 300,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 301,
+                    StandartID = 1,
+                    BaslikNo = "13.2.2",
+                    Baslik = null,
+                    Detay = "Elektronik olmayan belgelerin tanımlanmasında belgenin bulunduğu yer bilgisi olmalıdır.",
+                    UstIcerikID = 299,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 301,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 302,
                     StandartID = 1,
                     BaslikNo = "13.3",
                     Baslik = "Erişim kontrolü ve kullanım",
                     Detay = null,
-                    UstIcerikID = 76,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 79,
+                    UstIcerikID = 294,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 302,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 80,
+                    StandartIcerikID = 303,
+                    StandartID = 1,
+                    BaslikNo = "13.3.1",
+                    Baslik = null,
+                    Detay = "Fiziksel dosyalara erişim, elektronik belgelerle aynı kurallara tabi olmalıdır. Not: Elektronik belgelere erişim hakları bilgisayar ortamında denetlenebilir. EBYS yazılımı erişim ile ilgili üstveri bilgilerini otomatik olarak alabilir. Ancak, fiziksel ortamdaki dosyalar için bunun belge yöneticisi tarafından yapılması gerekir. Fiziksel ortamdaki dosyaların sadece tanımlama bilgilerine erişim program aracılığı ile gerçekleştirilebilir. Fiziksel bir dosyanın herhangi bir kullanıcı tarafından talep edilmesi ve görülmesi durumunda bu aksiyona ait bilgiler elle girilebilir ya da yarı otomatik (barkod sistemleri gibi) olarak gerçekleştirilebilir.",
+                    UstIcerikID = 302,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 303,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 304,
                     StandartID = 1,
                     BaslikNo = "13.4",
                     Baslik = "Tasfiye",
                     Detay = null,
-                    UstIcerikID = 76,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 80,
+                    UstIcerikID = 294,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 304,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 81,
+                    StandartIcerikID = 305,
+                    StandartID = 1,
+                    BaslikNo = "13.4.1",
+                    Baslik = null,
+                    Detay = "Fiziksel dosyaların tasfiye işlemleri de fiziksel olarak gerçekleştirilmesi gerektiği için EBYS uygun yönetim fonksiyonlarını bünyesinde barındırmalıdır.",
+                    UstIcerikID = 304,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 305,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 306,
+                    StandartID = 1,
+                    BaslikNo = "13.4.2",
+                    Baslik = null,
+                    Detay = "EBYS, fiziksel dosyalar için transfer ve imha listeleri oluşturabilmelidir.",
+                    UstIcerikID = 304,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 306,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 307,
+                    StandartID = 1,
+                    BaslikNo = "13.4.3",
+                    Baslik = null,
+                    Detay = "EBYS, tasfiyesi gereken fiziksel dosyaları saklama planları çerçevesinde kontrol etmeli ve belge yöneticilerini uyarabilmelidir.",
+                    UstIcerikID = 304,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 307,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 308,
                     StandartID = 1,
                     BaslikNo = "14",
                     Baslik = "Dijital görüntüleme sistemleri",
                     Detay = null,
-                    UstIcerikID = 59,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 81,
+                    UstIcerikID = 258,
+                    StandartIcerikTipiID = 169,
+                    SiraNo = 308,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 82,
+                    StandartIcerikID = 309,
                     StandartID = 1,
                     BaslikNo = "14.1",
                     Baslik = "Genel rensipler",
                     Detay = null,
-                    UstIcerikID = 81,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 82,
+                    UstIcerikID = 308,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 309,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 83,
+                    StandartIcerikID = 310,
+                    StandartID = 1,
+                    BaslikNo = "14.1.1",
+                    Baslik = null,
+                    Detay = "EBYS, dijital görüntüleme sistemleri ile elektronik ortama aktarılan fiziksel belgeleri sisteme dâhil edebilmelidir. Not: Dijital görüntüleme sistemleri (DGS), elektronik sistemler dışındaki ortamlarda üretilmiş olan bilgi kaynaklarının elektronik ortama aktarılması için kullanılan teknik ve teknolojileri içerir. Bu sistemlerde elektronik olmayan belge ve dokümanlar tarayıcılar, dijital fotoğraf makineleri ve dijital kameralar aracılığı elektronik ortama aktarılabilir. Ayrıca elektronik ortama aktarılan görüntüler OCR, ICR ve OMR gibi karakter ve işaret tanıma sistemleri ile bilgisayar sistemlerinde elektronik veri olarak kullanılabilir hale dönüştürülebilir. Çizim ve planlar gibi matris (raster image) görüntüler ise yine benzer teknik ve teknolojilerle vektör görüntü (vector graphic image) haline dönüştürülebilir ve bilgisayar ortamında kullanılabilir hale getirilebilir.",
+                    UstIcerikID = 309,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 310,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 311,
+                    StandartID = 1,
+                    BaslikNo = "14.1.2",
+                    Baslik = null,
+                    Detay = "EBYS, dijital görüntüleme sistemleri (DGS) ile elektronik ortama aktarılmış belgeleri diğer elektronik belgelerde olduğu gibi yönetmeye yönelik fonksiyonları içermelidir.",
+                    UstIcerikID = 309,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 311,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 312,
+                    StandartID = 1,
+                    BaslikNo = "14.1.3",
+                    Baslik = null,
+                    Detay = "Belgelerin dijital ortama aktarılması ve yönetilmesi işlemi EBYS bünyesinde bir fonksiyon olabileceği gibi üçüncü parti bir yazılım kullanılarak da gerçekleştirilebilir. Üçüncü parti bir yazılım kullanıldığı durumlarda, EBYS bu tür yazılımlarla sorunsuz olarak çalıştığını göstermelidir.",
+                    UstIcerikID = 309,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 312,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 313,
                     StandartID = 1,
                     BaslikNo = "14.2",
                     Baslik = "Görüntülenecek malzeme",
                     Detay = null,
-                    UstIcerikID = 81,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 83,
+                    UstIcerikID = 308,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 313,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 84,
+                    StandartIcerikID = 314,
+                    StandartID = 1,
+                    BaslikNo = "14.2.1",
+                    Baslik = null,
+                    Detay = "<p>DGS, aşağıda tarif edilen belge türlerini görüntüleyebilmelidir </p><ul><li class='ms-hover'>Basılı metin: Çeşitli tekniklerle (matbaa, bilgisayar çıktısı, vs.) kâğıt ortamda üretilmiş belge ve dokümanlar,</li><li class='ms-hover'>Basılı fotoğraf: Her türlü pozitif resimler,</li><li class='ms-hover'>Nadir eserler: Her türlü basılı ya da el yazması nadir eserler,</li><li class='ms-hover'>Haritalar</li><li class='ms-hover'>Grafik ve çizimler: Her türlü mimari, teknik ve diğer grafik ve çizimler,</li><li class='ms-hover'>Sanat eserleri: Değişik ortamlardaki iki boyutlu sanat eserleri,</li><li class='ms-hover'>Negatif fotoğraflar: Her türlü negatif resim ve dialar,</li><li class='ms-hover'>Mikro formlar: Her türlü (mikro film, mikro fiş, vs.) mikro formlar,</li></ul>",
+                    UstIcerikID = 313,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 314,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 315,
                     StandartID = 1,
                     BaslikNo = "14.3",
                     Baslik = "Görüntüleme Tekniği",
                     Detay = null,
-                    UstIcerikID = 81,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 84,
+                    UstIcerikID = 308,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 315,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 85,
+                    StandartIcerikID = 316,
+                    StandartID = 1,
+                    BaslikNo = "14.3.1",
+                    Baslik = null,
+                    Detay = "<p>Görüntülenen malzeme kullanım amacına uygun olarak farklı şekillerde görüntülenebilir. Değişik amaçlara hizmet etmek üzere üç ayrı görüntüleme tekniği aşağıdaki gibidir;</p><p><b>Asıl Kopya: </b>Malzemenin ana kopyası orijinaline en yakın şekilde (mastır) olarak görüntülenmelidir. Asıl kopya uzun süreli saklama ve değişik amaçlarla çoğaltmak üzere kullanılabilir. Belge niteliğinin korunması ve arşivsel değeri olan belgelerin asıl kopyası çıkarılmalıdır. Asıl kopyada olması gereken bazı özellikler şunlardır:</p><ul><li class='ms-hover'>Orijinaldeki bilgileri ve belgesel özelliklere en yakın kopyadır,</li><li class='ms-hover'>Herhangi bir sıkıştırma yapılmadan üretilir ve depolanır,</li><li class='ms-hover'>Üzerinde herhangi bir düzeltme yapılmaz,</li><li class='ms-hover'>Uzun dönemli saklama ve türevler üretmek amacına yöneliktir,</li><li class='ms-hover'>Orijinal kopyanın yerine veya yedeği olarak kullanılır,</li><li class='ms-hover'>Yüksek kaliteli bir görüntüdür,</li><li class='ms-hover'>Dosya boyutu büyüktür,</li><li class='ms-hover'>Röprodüksiyonlar için kullanılır,</li><li class='ms-hover'>Günümüz teknolojilerinde genelde sıkıştırmasız TIFF formatında saklanır.</li></ul><p><b>Kullanım Kopyası: </b>Asıl kopyadan üretilmiş ya da çekim esnasında farklı bir şekilde kaydedilmiş günlük kullanım kopyasıdır. Kullanım kopyasının temel özellikleri şunlardır:</p><ul><li class='ms-hover'>Genelde web sayfalarında asıl kopya yerine kullanılır,</li><li class='ms-hover'>Bilgisayar ekranlarına sığacak şekilde boyutlandırılmıştır,</li><li class='ms-hover'>Dosya boyutu büyük değildir,</li><li class='ms-hover'>Ağ üzerinden iletmek için uygundur,</li><li class='ms-hover'>Bilgi ve araştırma amaçlı görüntülemek için kabul edilebilir kalitedir,</li><li class='ms-hover'>Hızlı erişim için sıkıştırılmıştır,</li><li class='ms-hover'>Genelde JPEG formatında saklanır.</li></ul><p><b>Mini Kopya:</b> Görüntünün küçültülmüş halidir. Aşağıdaki özellikleri taşır:</p><ul><li class='ms-hover'>Genelde bibliyografik amaçla kullanılır,</li><li class='ms-hover'>Kullanıcının görüntüyü açmadan ya da bilgisayarına indirmeden önce içeriği hakkında bilgi verir, </li><li class='ms-hover'>Genelde GIF ya da JPEG formatında saklanır,</li><li class='ms-hover'>Metin içeren belgeler için uygun değildir.</li></ul>",
+                    UstIcerikID = 315,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 316,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 317,
                     StandartID = 1,
                     BaslikNo = "14.4",
                     Baslik = "Çözünürlük",
                     Detay = null,
-                    UstIcerikID = 81,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 85,
+                    UstIcerikID = 308,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 317,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 86,
+                    StandartIcerikID = 318,
+                    StandartID = 1,
+                    BaslikNo = "14.4.1",
+                    Baslik = null,
+                    Detay = "<div>Asıl kopya için çözünürlük Çizelge 1’deki olmalıdır. Kullanım kopyası ve mini kopya için bağlayıcı bir değer bulunmayıp kurumsal ihtiyaçlar dikkate alınmalıdır.</div><div><br></div><div>Not: Çözünürlüğü ifade etmek için genelde iki ayrı terim kullanılır.<br><br></div><div>Bunlar:</div><ul><li class='ms-hover'>DPI (Dots Per Inch): Görüntülenen malzemenin yeniden baskı çıktısı alındığındaki çözünürlük yoğunluğunu ifade eder.</li><li class='ms-hover'>PPI (Pixels Per Inch): Görüntülenen malzemenin tarama esnasında hangi yoğunlukta taranacağını ve bilgisayar ekranında hangi çözünürlükte görüntüleneceğini ifade eder.</li></ul>",
+                    UstIcerikID = 317,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 318,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 319,
                     StandartID = 1,
                     BaslikNo = "14.5",
                     Baslik = "Tonlama / Bit derinliği / Tarama modu",
                     Detay = null,
-                    UstIcerikID = 81,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 86,
+                    UstIcerikID = 308,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 319,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 87,
+                    StandartIcerikID = 320,
+                    StandartID = 1,
+                    BaslikNo = "14.5.1",
+                    Baslik = null,
+                    Detay = "<p>Asıl kopyalar için öngörülen tonlama özellikleri Çizelge 2’deki gibi olmalıdır.</p><p>Not: Görüntülenecek malzeme türüne ve belgesel niteliklerine göre üç ayrı şekilde tonlanabilir. Bunlar</p><ul><li class='ms-hover'><b>Siyah / Beyaz (Bitonal):</b> Tek bit ile temsil edilen tonlama türüdür.</li><li class='ms-hover'><b>Gri tonlama (Gray Scale):</b> 8 bit ile temsil edilen tonlama türüdür.</li><li class='ms-hover'><b>Renkli (Color):</b> Genelde 24 bit ile temsil edilen renk ayrımlı tonlama türüdür.</li></ul>",
+                    UstIcerikID = 319,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 320,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 321,
                     StandartID = 1,
                     BaslikNo = "14.6",
                     Baslik = "Sıkıştırma",
                     Detay = null,
-                    UstIcerikID = 81,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 87,
+                    UstIcerikID = 308,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 321,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 88,
+                    StandartIcerikID = 322,
+                    StandartID = 1,
+                    BaslikNo = "14.6.1",
+                    Baslik = null,
+                    Detay = "<p>Sıkıştırma işlemi asıl kopya görüntüler üzerinde uygulanmamalıdır. Kullanım kopyası ve mini kopyalar sıkıştırma işlemine tabi tutulabilir.</p><p>Not: Görüntülenen malzeme görüntüleme esnasında ya da depolama esnasında sıkıştırılabilir. Bu işlem görüntü dosyalarının daha az yer kaplamasını ve kullanım kolaylığı sağlar. Sıkıştırma işlemi görüntü formatlarına göre farklı şekillerde uygulanabilir:</p><ul><li class='ms-hover'><b>Sıkıştırmasız görüntüleme: </b>Görüntülenen malzeme herhangi bir sıkıştırma işlemine tabi tutulmaz.</li><li class='ms-hover'><b>Veri kaybına yol açmayan sıkıştırma: </b>Görüntüleme işlemi sırasında sıkıştırma yapılır ancak bu işlem verikaybına neden olmaz.</li><li class='ms-hover'><b> Veri kaybına yol açan sıkıştırma: </b>Sıkıştırma işlemi sırasında insan gözüyle fark edilmese bile veri kaybına neden olan görüntüleme metodudur.</li></ul>",
+                    UstIcerikID = 321,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 322,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 323,
                     StandartID = 1,
                     BaslikNo = "14.7",
                     Baslik = "Zenginleştirme",
                     Detay = null,
-                    UstIcerikID = 81,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 88,
+                    UstIcerikID = 308,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 323,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 89,
+                    StandartIcerikID = 324,
+                    StandartID = 1,
+                    BaslikNo = "14.7.1",
+                    Baslik = null,
+                    Detay = "<p>Asıl kopya görüntüler üzerinde herhangi bir zenginleştirme işlemi yapılmamalıdır. Kullanım kopyası ve mini kopyalar sıkıştırma</p><p>işlemine tabi tutulabilir.</p><p>Not: Görüntülenen malzeme dijital teknolojinin sağladığı imkânlarla zenginleştirilebilir. Bu işlem görüntülenen malzemenin bilgisel ve belgesel özelliklerine zarar vermeyecek şekilde uygulanmalıdır. Zenginleştirme işlemi genel bir kavram olup değişik metot ve teknikleri içermektedir. Bunlardan bazıları şunlardır:</p><ul><li class='ms-hover'>Görüntünün keskinleştirilmesi,</li><li class='ms-hover'>Görüntü üzerindeki leke ve noktaların ayıklanması,</li><li class='ms-hover'>Gri veya renkli tonların görüntünün tamamına homojen olarak dağıtılması,</li><li class='ms-hover'>Görüntü etrafındaki gereksiz boşlukların tıraşlanması,</li><li class='ms-hover'>Renkler arasındaki zıtlıkların belirginleştirilmesi,</li><li class='ms-hover'>Görüntü bozukluklarının giderilmesi.</li></ul>",
+                    UstIcerikID = 323,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 324,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 325,
                     StandartID = 1,
                     BaslikNo = "14.8",
                     Baslik = "Renk yönetimi",
                     Detay = null,
-                    UstIcerikID = 81,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 89,
+                    UstIcerikID = 308,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 325,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 90,
+                    StandartIcerikID = 326,
+                    StandartID = 1,
+                    BaslikNo = "14.8.1",
+                    Baslik = null,
+                    Detay = "Görüntülenen malzeme için hangi renk profilinin kullanıldığı gösterilmelidir. Not: Renkli görüntüleme işlemi ekipman ve uzman personel maliyetleri açısından en pahalı olanıdır. Bu işlem sırasında renklerin orijinale uygun olmasına özen gösterilmelidir. Renkli görüntüleme işlemi sırasında uluslararası standardlara uygun renk profilleri tercih edilmelidir. Renk profilleri genelde çeşitli firmaların kendi adlarına tescil ettirdikleri şemalardan oluşur. Ancak genel bir standard olarak International Color Consortium (ICC) tarafından geliştirilen renk profilleri kullanılabilir.",
+                    UstIcerikID = 325,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 326,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 327,
                     StandartID = 1,
                     BaslikNo = "14.9",
                     Baslik = "Dosya Formatları",
                     Detay = null,
-                    UstIcerikID = 81,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 90,
+                    UstIcerikID = 308,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 327,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 91,
+                    StandartIcerikID = 328,
                     StandartID = 1,
-                    BaslikNo = "Bölüm III:",
-                    Baslik = "Elektronik Arşivleme Sistemi Referans Modeli (ELAS/RM)",
+                    BaslikNo = "14.9.1",
+                    Baslik = null,
+                    Detay = "Seçilen dosya formatının açık kaynak kodlu olmasına özen gösterilmelidir. Alternatif olarak uluslararası kabul görmüş, endüstri standardı niteliği taşıyan formatlar seçilmelidir. Not: Çeşitli firmalara tescilli formatlar sorun çıkarabilir. Görüntülenen malzemenin saklama formatı gelecekte malzemeye erişim ve teknolojik yeniliklere terfi açısından son derece önemlidir. Format seçimi yapılırken birçok unsur göz önünde bulundurulmalıdır. Bunlardan bazıları aşağıdaki maddelerde sıralamıştır. Mevcut görüntü formatlarının en yaygın olanlarının özelliklerinin karşılaştırması için Çizelge 3’e bakılmalıdır.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 328,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 329,
+                    StandartID = 1,
+                    BaslikNo = "14.9.2",
+                    Baslik = null,
+                    Detay = "Dosya formatı iyi bir dokümantasyona sahip olmalıdır.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 329,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 330,
+                    StandartID = 1,
+                    BaslikNo = "14.9.3",
+                    Baslik = null,
+                    Detay = "Dosya formatı eski versiyonları sorunsuz okuyabilmelidir.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 330,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 331,
+                    StandartID = 1,
+                    BaslikNo = "14.9.4",
+                    Baslik = null,
+                    Detay = "Seçilecek format Electronic Document Interchange Format (EDIF) gibi çeşitli dosya değişim formatlarını desteklemelidir.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 331,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 332,
+                    StandartID = 1,
+                    BaslikNo = "14.9.5",
+                    Baslik = null,
+                    Detay = "24 bitten yüksek tonlama özelliğine sahip olmalıdır.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 332,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 333,
+                    StandartID = 1,
+                    BaslikNo = "14.9.6",
+                    Baslik = null,
+                    Detay = "Veri sıkıştırma (kayıplı ve kayıpsız) olanaklarına sahip olmalıdır.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 333,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 334,
+                    StandartID = 1,
+                    BaslikNo = "14.9.7",
+                    Baslik = null,
+                    Detay = "ICC gibi çeşitli renk yönetimi profillerine sahip olmalıdır.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 334,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 335,
+                    StandartID = 1,
+                    BaslikNo = "14.9.8",
+                    Baslik = null,
+                    Detay = "Asıl, kullanım ve mini görüntü kopyaları oluşturmak için farklı çözünürlük seçenekleri bulunmalıdır.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 335,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 336,
+                    StandartID = 1,
+                    BaslikNo = "14.9.9",
+                    Baslik = null,
+                    Detay = "Görüntü ile birlikte çeşitli üstveri bilgilerini kayıt edebilecek nitelikte olmadır.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 336,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 337,
+                    StandartID = 1,
+                    BaslikNo = "14.9.10",
+                    Baslik = null,
+                    Detay = "Görüntü ile görüntüye ait üstveriler arasında ilişki kurabilme özelliğine sahip olmalıdır.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 337,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 338,
+                    StandartID = 1,
+                    BaslikNo = "14.9.11",
+                    Baslik = null,
+                    Detay = "Görüntü üstverilerinin tutulabileceği harici kaynaklara bağlanabilmeli ya da harici kaynaklarla entegre çalışabilmelidir.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 338,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 339,
+                    StandartID = 1,
+                    BaslikNo = "14.9.12",
+                    Baslik = null,
+                    Detay = "Donanım veya yazılım bağımlı olmamalıdır. Farklı bilgisayar sistemlerinde çalışabilmelidir.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 339,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 340,
+                    StandartID = 1,
+                    BaslikNo = "14.9.13",
+                    Baslik = null,
+                    Detay = "Veri kayıplarını ve görüntüleme hatalarını rapor edebilmelidir.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 340,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 341,
+                    StandartID = 1,
+                    BaslikNo = "14.9.14",
+                    Baslik = null,
+                    Detay = "Görüntünün üzerinde yapılabilecek değişiklikleri kayıt altına almalı ve gerektiğinde görüntüye müdahale edilmesini engelleyebilmelidir.",
+                    UstIcerikID = 327,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 341,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 342,
+                    StandartID = 1,
+                    BaslikNo = null,
+                    Baslik = "Bölüm III: Elektronik Arşivleme Sistemi Referans Modeli (ELAS/RM)",
                     Detay = null,
                     UstIcerikID = 0,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 91,
+                    StandartIcerikTipiID = 164,
+                    SiraNo = 342,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 92,
+                    StandartIcerikID = 343,
                     StandartID = 1,
                     BaslikNo = "15",
                     Baslik = "Elektronik Arşivleme Sistemi Referans Modeli (ELAS/RM)",
                     Detay = null,
-                    UstIcerikID = 91,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 92,
+                    UstIcerikID = 342,
+                    StandartIcerikTipiID = 169,
+                    SiraNo = 343,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 93,
+                    StandartIcerikID = 344,
                     StandartID = 1,
                     BaslikNo = "15.1",
                     Baslik = "Arşiv Malzemesinin tanımı ve özellikleri",
                     Detay = null,
-                    UstIcerikID = 92,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 93,
+                    UstIcerikID = 343,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 344,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 94,
+                    StandartIcerikID = 345,
+                    StandartID = 1,
+                    BaslikNo = "15.1.1",
+                    Baslik = null,
+                    Detay = "<div>Arşiv malzemesinin tanımı </div><div>Arşiv malzemesi kavramı farklı amaçlarla kullanılabilen bir kavramdır. Arşiv malzemesinin mülkiyetini elinde bulunduran özel veya tüzel kişilerin amaçlarına göre ya da arşiv malzemesini oluşturan belge formlarına göre farklı tanımlamalar yapılabilir. ELAS/RM arşiv malzemesi kavramını en geniş tanımıyla ele alır. Bu bağlamda aşağıda tanımlanan ancak bunlarla sınırlı olmayan arşiv malzemesi tanımları ELAS/RM kapsamında yönetilebilmelidir. Arşiv malzemesi:</div><div><br></div><div>a) Özel veya kamu kurumlarının faaliyetleri sırasında alınan ya da üretilen; kanıt değeri ya da idarî, hukukî, malî ve/veya tarihî bilgi değeri taşıdığı için saklanmasına karar verilen, genel olarak güncel olmayan her türlü belgeyi,<br><br></div><div>b) Belli bir amaç ve bütünlük içerisinde derlenmiş her türlü;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;i. Ses ve görüntü kayıtlarını,</div><div>&nbsp;&nbsp;&nbsp;&nbsp;ii. Mikro form kayıtlarını,</div><div>&nbsp;&nbsp;&nbsp;&nbsp;iii. Harita, plan, çizim ve benzeri kartografik malzemeyi,</div><div>&nbsp;&nbsp;&nbsp;&nbsp;iv. Elektronik ortamda üretilmiş belge ve dosyaları ifade eder.</div>",
+                    UstIcerikID = 344,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 345,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 346,
+                    StandartID = 1,
+                    BaslikNo = "15.1.2",
+                    Baslik = null,
+                    Detay = "<p>Arşiv malzemesinin özellikleri Arşiv malzemesinin ELAS/RM içerisinde tanımlanabilmesinde aşağıdaki özniteliklerin varlığına özellikle dikkat edilmelidir.</p><p>a) Erişilebilirlik: Arşiv malzemesi fiziksel ve idarî açıdan erişilebilir olmalıdır. Bu bağlamda:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;i. Arşiv malzemesine erişim yetkileri tanımlanmış olmalıdır</p><p>&nbsp;&nbsp;&nbsp;&nbsp;ii. Saklama üniteleri güncel teknolojilerle okunabilir olmalıdır</p><p>&nbsp;&nbsp;&nbsp;&nbsp;iii. Dosya formatları güncel uygulamalarda belge bütünlüğüne zarar vermeden kullanıma uygun olmalıdır.</p><p>b) Tanımlanabilirlik: Arşiv malzemesi ELAS/RM sistemi içerisinde hem bağımsız hem de bağlantılı olarak tanımlanabilir olmalıdır. Bu bağlamda arşiv malzemesine ait:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;i. Kimlik bilgisi: referans numarası, varsa adı ve diğer ayırıcı özellikleri,</p><p>&nbsp;&nbsp;&nbsp;&nbsp;ii. Aidiyet bilgisi: üretim sorumlu kişi veya kurumları,</p><p>&nbsp;&nbsp;&nbsp;&nbsp;iii. Form özellikleri: üretim formatı ve/veya belge türü,</p><p>&nbsp;&nbsp;&nbsp;&nbsp;iv. Tarih ve/veya zaman bilgisi tanımlanabilir olmalıdır.</p><p>c) Bütünlük: Arşiv malzemesinin içerdiği bilgi, kurumsal idiyeti ile cari olduğu dönemdeki belge ve sunumformatı her türlü değişiklikten ve müdahaleden korunmuş olmalıdır. ELAS/RM içerisinde bütünlüğün korunmasının devamı sağlanmalıdır.</p>",
+                    UstIcerikID = 344,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 346,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 347,
                     StandartID = 1,
                     BaslikNo = "15.2",
                     Baslik = "Arşiv politikasını belirlenmesi",
                     Detay = null,
-                    UstIcerikID = 92,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 94,
+                    UstIcerikID = 343,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 347,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 95,
+                    StandartIcerikID = 348,
+                    StandartID = 1,
+                    BaslikNo = "15.2.1",
+                    Baslik = null,
+                    Detay = "Arşiv kurumları ve kurumsal arşivler öncelikle ne tür malzemeleri transfer edeceklerini ve hangi hizmet koşullarında kullanıma açacaklarını belirten bir kurum politikası geliştirmelidir. Bu politika dokümanı arşiv kurumlarının mevzuat ile kendilerine verilmiş olan yetkilerine atıfta bulunmalı ve arşiv malzemesi üreten kurumlarla olan ilişkilerini açık bir şekilde ifade etmelidir.",
+                    UstIcerikID = 347,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 348,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 349,
                     StandartID = 1,
                     BaslikNo = "15.3",
                     Baslik = "Arşiv malzemesinin transfer işlemleri",
                     Detay = null,
-                    UstIcerikID = 92,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 95,
+                    UstIcerikID = 343,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 349,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 96,
+                    StandartIcerikID = 350,
+                    StandartID = 1,
+                    BaslikNo = "15.3.1",
+                    Baslik = null,
+                    Detay = "<p>Arşiv kurumlarına ya da kurumsal arşivlere transfer edilebilecek malzemeler aşağıdaki yöntemlerle gerçekleştirilir. </p><ul><li class='ms-hover'>Elektronik ortamda üretilmiş her türlü belge, doküman ve kayıtların güncel oldukları dönemdeki içerik, format ve sunum özellikleri korunarak AYS’ne aktarılmalıdır. Elektronik belge, doküman ya da kayıtların bir elektronik belge yönetim &nbsp;sisteminin (EBYS) parçası olduğu durumlarda bunlar ilgili üstveri ile birlikte aktarılmalıdır. Otomatik olarak aktarılan belge, doküman ve kayıtlara ilişkin üstveri verileri ELAS/RM tarafından öngörülen tanımlama kriterlerini karşılayacak nitelikte olmalıdır.</li><li class='ms-hover'>Herhangi bir EBYS’nin parçası olmayan, bağımsız olarak üretilmiş elektronik belge, doküman ve kayıtlar AYS’ne aktarılabilir. Bu durumda da AYS içerisine aktarılan elektronik arşivlerin tanımlanması için ELAS/RM’nin öngördüğü üstverinin bulunması şarttır.</li><li class='ms-hover'>Dijital formatta üretilmiş her türlü ses ve görüntü kayıtları AYS’ne dijital ortamda aktarılabilir. Bu aktarım sırasında her kayıt türü için ELAS/RM tarafından öngörülen üstverinin kayıtlarla birlikte aktarılması veya kayıt esnasında sisteme girilmesi esastır. </li><li class='ms-hover'>Fiziksel ortamda üretilmiş belge ve dokümanlar ile analog sistemlerde üretilmiş resim, ses ve görüntü kayıtları sayısallaştırma yöntemi ile AYS içerisine aktarılabilir. Sayısallaştırma işlemi AYS’nin bir fonksiyonu olabileceği gibi üçüncü parti sayısallaştırma sistemleri ile de yapılabilir. Ancak sayısallaştırılan arşiv malzemesinin ELAS/RM tarafından öngörülen standartlara uygun olması şarttır.</li></ul>",
+                    UstIcerikID = 349,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 350,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 351,
                     StandartID = 1,
                     BaslikNo = "15.4",
                     Baslik = "Tarih ve zaman damgası",
                     Detay = null,
-                    UstIcerikID = 92,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 96,
+                    UstIcerikID = 343,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 351,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 97,
+                    StandartIcerikID = 352,
+                    StandartID = 1,
+                    BaslikNo = "15.4.1",
+                    Baslik = null,
+                    Detay = "AYS içerisine aktarılan her türlü belge, doküman ve kayıt aktarım esnasında tarih ve zaman damgası almalıdır. Tarih ve zaman damgası AYS sistemine entegre edilmiş bir sistem tarafından üretilebileceği gibi elektronik ve mobil imza sistemleri ile de üretilebilir. ELAS/RM açısından tarih ve zaman damgasının varlığı ve değiştirilemez olması esastır. Tarih ve zaman damgası TS ISO 8601 standardına uygun olmalıdır.",
+                    UstIcerikID = 351,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 352,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 353,
                     StandartID = 1,
                     BaslikNo = "15.5",
                     Baslik = "Dosya formatları",
                     Detay = null,
-                    UstIcerikID = 92,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 97,
+                    UstIcerikID = 343,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 353,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 98,
+                    StandartIcerikID = 354,
+                    StandartID = 1,
+                    BaslikNo = "15.5.1",
+                    Baslik = null,
+                    Detay = "AYS içerisine aktarılan her türlü belge, doküman ve kayıtlar güncel oldukları dönemdeki içerik, format ve sunum özellikleri korunarak saklanmalıdır. Bu bağlamda arşivleme için seçilecek dosya formatlarının bütünlük, erişilebilirlik ve güvenlik ile ilgili özelliklerini koruyacak nitelikte olması gerekir. Ayrıca elektronik arşiv belgelerinin uzun dönemli veya sürekli saklanacağı düşünülerek dosya formatlarının zaman içerisinde değişebileceği ve yeni formatlara aktarım yapılabileceği göz önünde bulundurulmalıdır. Kullanılacak dosya formatlarının seçiminde Birlikte Çalışabilirlik Esasları Rehberi1 referans alınmalıdır.",
+                    UstIcerikID = 353,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 354,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 355,
                     StandartID = 1,
                     BaslikNo = "15.6",
                     Baslik = "Depolama Üniteleri",
                     Detay = null,
-                    UstIcerikID = 92,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 98,
+                    UstIcerikID = 343,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 355,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 99,
+                    StandartIcerikID = 356,
+                    StandartID = 1,
+                    BaslikNo = "15.6.1",
+                    Baslik = null,
+                    Detay = "<p>Elektronik arşiv malzemesinin uzun süreli veya sürekli olarak saklanmasına imkân sağlayacak depolama ünitelerinin seçiminde arşiv malzemesinin özniteliklerinin korunması ve arşiv kurumlarının operasyonel ihtiyaçlarına cevap verebilecek ürünlerin seçilmesi gerekmektedir. Bu bağlamda depolama ünitelerinin değerlendirilmesinde aşağıdaki bilgiler göz önünde bulundurulmalıdır.</p><p>i) Taşınabilir depolama üniteleri: Genel olarak bir bilgisayar sisteminin disk sürücüsüne takılabilen ve üzerindeki kayıtlı bilginin kullanımına imkân sağlayan depolama üniteleridir. Güncel olarak manyetik veya optik teknolojiler kullanılarak üretilmiş ürünlerdir. Taşınabilir depolama üniteleri üzerindeki verilerin değiştirilmesine imkân veren (rewritable) üniteleri ile üzerindeki verinin silinmesine ya da değiştirilmesine imkan tanımayan (Physical WORM) olmak üzere iki farklı şekilde üretilmektedir.</p><p>ii) Sabit depolama üniteleri: Bir bilgisayar sistemi ile bütünleşik olarak kullanılan depolama üniteleridir. Genelolarak manyetik teknolojiler kullanılarak üretilirler. Sabit depolama üniteleri üzerindeki verinin değiştirilmesine ve silinmesine imkân sağlar. Ancak bu üniteler üzerindeki verinin silinmesini veya değiştirilmesinin önleyecek şekilde mantıksal sadece okunabilir şekilde (Logical WORM) veri yüklemek mümkündür.</p>",
+                    UstIcerikID = 355,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 356,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 357,
                     StandartID = 1,
                     BaslikNo = "15.7",
                     Baslik = "Veri merkezi özellikleri",
                     Detay = null,
-                    UstIcerikID = 92,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 99,
+                    UstIcerikID = 343,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 357,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 100,
+                    StandartIcerikID = 358,
+                    StandartID = 1,
+                    BaslikNo = "15.7.1",
+                    Baslik = null,
+                    Detay = "Uzun süreli veya sürekli saklanacak olan elektronik arşiv malzemesinin saklanması için oluşturulacak olan depolama alanlarının veya veri merkezlerinin erişim ve güvenlik önlemleri açısından ulusal ve uluslararası standartlara uygun olması gerekir. Veri merkezlerinin asgari TIER 32 seviyesi standartlarına veya muadil ulusal standartlara uygunluğu karşılaması sağlanmalıdır. Muadil ulusal standartların neler olacağına yetkili sertifikasyon kurumu karar verir.",
+                    UstIcerikID = 357,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 358,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 359,
                     StandartID = 1,
                     BaslikNo = "15.8",
                     Baslik = "Erişimin sürekliliği",
                     Detay = null,
-                    UstIcerikID = 92,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 100,
+                    UstIcerikID = 343,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 359,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 101,
+                    StandartIcerikID = 360,
+                    StandartID = 1,
+                    BaslikNo = "15.8.1",
+                    Baslik = null,
+                    Detay = "Elektronik arşiv malzemeleri internet ortamında hizmete sunulabileceği gibi yerel ağlar üzerinden sınırlı mekânlarda ya da arşiv kurumlarının okuma salonlarındaki terminallerden erişilebilir şekilde hizmete sunulabilir. AYS bünyesinde hizmete sunulan elektronik arşiv malzemesin erişimin kesintiye uğramaması için gerekli idarî, çevresel ve teknolojik tedbirler alınmalıdır.",
+                    UstIcerikID = 359,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 360,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 361,
+                    StandartID = 1,
+                    BaslikNo = "15.8.2",
+                    Baslik = null,
+                    Detay = "Elektronik arşiv malzemesine erişimin hangi kanallar üzerinden sağlanacağı arşiv kurumlarının yönetimi tarafından hazırlanacak yönergelerle düzenlenmelidir.",
+                    UstIcerikID = 359,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 361,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 362,
+                    StandartID = 1,
+                    BaslikNo = "15.8.3",
+                    Baslik = null,
+                    Detay = "Elektronik arşiv malzemesinin uzun süreli veya sürekli korunmasını sağlayacak çevresel faktörler dikkate alınarak gerekli düzenlemeler yapılmalıdır.",
+                    UstIcerikID = 359,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 362,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 363,
+                    StandartID = 1,
+                    BaslikNo = "15.8.4",
+                    Baslik = null,
+                    Detay = "Elektronik arşiv malzemelerinin güncel teknolojilerle erişilebilirliğini sağlayacak önlemler alınmalıdır.",
+                    UstIcerikID = 359,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 363,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 364,
                     StandartID = 1,
                     BaslikNo = "15.9",
                     Baslik = "Teknolojik eskimeye karşı alınacak önlemler",
                     Detay = null,
-                    UstIcerikID = 92,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 101,
+                    UstIcerikID = 343,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 364,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 102,
+                    StandartIcerikID = 365,
+                    StandartID = 1,
+                    BaslikNo = "15.9.1",
+                    Baslik = null,
+                    Detay = "Elektronik ortamda korunan bilgi, belge ve arşiv malzemesinin karşı karşıya olduğu en önemli tehditlerin başında teknolojik eskime gelmektedir. Elektronik arşiv malzemelerinin uzun süreli veya sürekli korunması için seçilen dosya formatları ile arşiv malzemesinin saklandığı depolama ünitelerinin güncel teknolojilerle erişilebilir ve okunabilir olması gerekir. Bu bağlamda arşiv malzemesinin güncel depolama ünitelerine aktarımının ve/veya dosya formatlarının güncel okunabilir formatlara dönüşümünün gerekli olabileceği göz önünde bulundurulmalıdır. Bünyesinde elektronik arşiv malzemesi bulunduran kurumlar bu malzemelerin teknolojik eskimeye karşı korunması için gerekli önlemleri almalı ve bunları kurumsal dönüşüm stratejisi olarak kayıt altına almalıdır.",
+                    UstIcerikID = 364,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 365,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 366,
                     StandartID = 1,
                     BaslikNo = "16",
                     Baslik = "Arşiv sisteminin Güvenliği",
                     Detay = null,
-                    UstIcerikID = 91,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 102,
+                    UstIcerikID = 342,
+                    StandartIcerikTipiID = 169,
+                    SiraNo = 366,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 103,
+                    StandartIcerikID = 367,
                     StandartID = 1,
                     BaslikNo = "16.1",
                     Baslik = "Genel",
                     Detay = null,
-                    UstIcerikID = 102,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 103,
+                    UstIcerikID = 366,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 367,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 104,
+                    StandartIcerikID = 368,
+                    StandartID = 1,
+                    BaslikNo = "16.1.1",
+                    Baslik = null,
+                    Detay = "ELAS/RM, sistem ve veri güvenliği açısından endüstri uygulamalarına ve uluslararası standartlara uygun düzenlemeleri barındırmalıdır. Güvenlik konuları kurumsal politika belgelerinde yer almalı ve uygulaması denetlenmelidir. Kurumlara bilgi sistemlerinin güvenliği ile ilgili olarak ISO 27001 ve bağlantılı standartlara uygun tedbirleri almaları önerilmelidir. Ayrıca, EBYS ve ELAS/RM uyumlu sistemler 2013/4890 sayılı Bakanlar Kurulu Kararı doğrultusunda yayımlanan 20 Haziran 2013 tarihli ve 28683 sayılı Resmi Gazetede yayımlanarak yürürlüğe giren Ulusal Siber Güvenlik Stratejisi ve Eylem Planı kapsamında TSE tarafından geliştirilen Elektronik Doküman ve Belge Yönetim Sistemi TSE-CCCS-PP-003 numaralı Koruma Profiline uyumlu TS ISO/IEC 15408: Ortak Kriterler standardından EAL 2 sertifikasına sahip veya Koruma Profiline uyumlu Temel Seviye Güvenlik sertifikasına sahip olmalıdır. Ancak, güvenlik konuları ile ilgili olarak aşağıdaki unsurlarla sınırlı olmamak üzere optimum tedbirler alınmalıdır. EBYS, seçilmiş arşiv belgelerinin test edilmiş ve belgelendirilmiş şifreleme sistemleri ile şifrelenmiş olarak saklanmasına imkan tanıyacak altyapıyı bünyesinde barındırmalıdır.",
+                    UstIcerikID = 367,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 368,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 369,
                     StandartID = 1,
                     BaslikNo = "16.2",
                     Baslik = "Sistem Güvenliği",
                     Detay = null,
-                    UstIcerikID = 102,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 104,
+                    UstIcerikID = 366,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 369,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 105,
+                    StandartIcerikID = 370,
+                    StandartID = 1,
+                    BaslikNo = "16.2.1",
+                    Baslik = null,
+                    Detay = "<p>Fiziksel güvenlik: Arşiv kurumlarının depo ve kullanıcılara açık alanlarının fizikî güvenliği ile ilgili tedbirlerin alınması gereklidir. Bu bağlamda:</p><p>i) Depo alanlarının ve kullanıcıların alanlarının giriş yetkileri tanımlanmalı ve denetlenmelidir.</p><p>ii) Arşiv kurumların fiziksel alanlarının tamamı alarm sistemleri ile donatılmalıdır</p><p>iii) Doğal afetlere karşı gerekli tedbirler alınmalıdır./p>",
+                    UstIcerikID = 369,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 370,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 371,
+                    StandartID = 1,
+                    BaslikNo = "16.2.2",
+                    Baslik = null,
+                    Detay = "<p>Donanım güvenliği: Arşiv kurumlarında kullanılan her türlü bilgisayar ve ağ sistemleri ile depolama ünitelerinin kullanım ve bakımı ile ilgili güvenlik tedbirleri alınmalıdır. Bu bağlamda:</p><p>i) Bilgisayar ve ağ sistemlerine giriş yetkilerinin tanımlanması ve giriş – çıkış kayıtlarının tutulması gereklidir.</p><p>ii) Depolama ünitelerinin kullanımı, çoğaltılması ve imhası yetkiler dâhilinde gerçekleştirilmeli ve uygulamalar kayıt altına alınmalıdır.</p><p>iii) Yedekleme sistemleri kurulmalı ve çalışır durumda olduğu periyodik olarak denetlenmelidir.</p>",
+                    UstIcerikID = 369,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 371,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 372,
+                    StandartID = 1,
+                    BaslikNo = "16.2.3",
+                    Baslik = null,
+                    Detay = "<p>Yazılım sistemlerinin ve verilerin güvenliğini tehdit edebilecek unsurlara karşı önlemler alınmalıdır. Bu bağlamda:</p><p>i)Yazılımlara ve verilere erişim yetkileri tanımlanmalı ve uygulamalar kayıt altına alınmalıdır.</p><p>ii) Yazılımlara ve verilere yetkisiz erişim denemeleri rapor edilmeli ve gerekli araştırmalar yapılmalıdır.</p><p>iii) Verilerin bilerek ya da kaza ile değiştirilmesine veya silinmesine karşı önlemler alınmalıdır.</p>",
+                    UstIcerikID = 369,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 372,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 373,
+                    StandartID = 1,
+                    BaslikNo = "16.2.4",
+                    Baslik = null,
+                    Detay = "<p>AYS, Arşiv malzemesinin arşiv kurumlarında kimler tarafından, ne zaman sorgulandığının ve kullanıldığının kayıt altına alınmasına yönelik fonksiyonları yönetmek üzere:</p><p>a) Arşiv kullanıcılarını kayıt altına almaya yönelik bir sistemi bünyesinde barındırması</p><p>b) Kayıtlı kullanıcıların arşiv malzemesini nasıl kullandıklarının (görme, kopya üretme, referans verme) kayıt altına alınması ile ilgili bilgilerin yönetilmesine yönelik fonksiyonları içermelidir.</p>",
+                    UstIcerikID = 369,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 373,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = false,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 374,
                     StandartID = 1,
                     BaslikNo = "16.3",
                     Baslik = "Bilgi Güvenliği",
                     Detay = null,
-                    UstIcerikID = 102,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 105,
+                    UstIcerikID = 366,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 374,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 106,
+                    StandartIcerikID = 375,
+                    StandartID = 1,
+                    BaslikNo = "16.3.1",
+                    Baslik = null,
+                    Detay = "Orijinallik: Belgelerin üretildiği dönemdeki içerik, ilişki ve sunum özelliklerinin korunması için gerekli tedbirlerin alınması gereklidir.",
+                    UstIcerikID = 374,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 375,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 376,
+                    StandartID = 1,
+                    BaslikNo = "16.3.2",
+                    Baslik = null,
+                    Detay = "Bütünlük: Belgelerin üretildiği dönemdeki dosya bütünlüğü ve ekleri ile birlikte korunması sağlanmalıdır.",
+                    UstIcerikID = 374,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 376,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 377,
+                    StandartID = 1,
+                    BaslikNo = "16.3.3",
+                    Baslik = null,
+                    Detay = "İlgi: Belgelerin üretildiği dönemdeki kurumsal ve fonksiyonel ilgileri ile birlikte kayıt altına alınması ve korunması sağlanmalıdır.",
+                    UstIcerikID = 374,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 377,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 378,
                     StandartID = 1,
                     BaslikNo = "16.4",
                     Baslik = "Sistem Denetimi",
                     Detay = null,
-                    UstIcerikID = 102,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 106,
+                    UstIcerikID = 366,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 378,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 107,
+                    StandartIcerikID = 379,
+                    StandartID = 1,
+                    BaslikNo = "16.4.1",
+                    Baslik = null,
+                    Detay = "Elektronik arşiv yönetim sistemleri tüm çalışanların, kullanıcıların ve sistemde hizmete sunulan belgelerin sistem üzerindeki tüm hareketlerini kayıt altına almalı ve gerektiğinde raporlayabilmelidir. Bu bağlamda:",
+                    UstIcerikID = 378,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 379,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 380,
+                    StandartID = 1,
+                    BaslikNo = "16.4.2",
+                    Baslik = null,
+                    Detay = "Çalışanların sisteme giriş – çıkışları ve sistemdeki hareketleri (sorgulama, çoğaltma, düzeltme, değiştirme, silme, raporlama, vs.) kayıt altına alınmalıdır.",
+                    UstIcerikID = 378,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 380,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 381,
+                    StandartID = 1,
+                    BaslikNo = "16.4.3",
+                    Baslik = null,
+                    Detay = "Kullanıcıların sistem giriş – çıkışları ve kullandıkları belgeler ile ilgili tüm hareketler (görme, çoğaltma, referans verme, vs.) kayıt altına alınmadır.",
+                    UstIcerikID = 378,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 381,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 382,
+                    StandartID = 1,
+                    BaslikNo = "16.4.4",
+                    Baslik = null,
+                    Detay = "Sistemdeki tüm belgeler üzerindeki tüm çalışan ve kullanıcı hareketleri, sisteme giriş aşamasından başlayarak kayıt altına alınmalıdır. Çalışanlar tarafından uygulanan yönetimsel fonksiyonlar (düzenleme, tanımlama, indeksleme, vs.) ile kullanıcıları aktiviteleri (görme, çoğaltma, referans verme, vs.) bu kapsamda ele alınmalıdır.",
+                    UstIcerikID = 378,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 382,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 383,
                     StandartID = 1,
                     BaslikNo = "17",
                     Baslik = "ELAS/RM Uygulama Kılavuzu",
                     Detay = null,
-                    UstIcerikID = 91,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 107,
+                    UstIcerikID = 342,
+                    StandartIcerikTipiID = 169,
+                    SiraNo = 383,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 108,
+                    StandartIcerikID = 384,
                     StandartID = 1,
                     BaslikNo = "17.1",
                     Baslik = "Genel",
                     Detay = null,
-                    UstIcerikID = 107,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 108,
+                    UstIcerikID = 383,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 384,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 109,
+                    StandartIcerikID = 385,
+                    StandartID = 1,
+                    BaslikNo = "17.1.1",
+                    Baslik = null,
+                    Detay = "Bu bölüm fiziksel, elektronik veya diğer formatlardaki arşiv malzemesinin arşiv kurumlarına transferi öncesinde yapılacak işlemler ile transfer sürecini ve transfer sonrası arşiv malzemesini kullanıma sunmak için yapılması gerekli işlemleri ele almaktadır. Transfer işlemi genel olarak iki farklı kaynaktan yapılabilir. Bunlardan birincisi kurumsal belge yönetim sistemlerinden kurum arşivine yapılan transfer işlemidir ki kurum içi transfer olarak tanımlanabilir. İkinci transfer yöntemi ise farklı kurumlardan arşiv kurumlarına yapılan transfer işlemidir. Her iki yöntemde de transfer işleminin temel bir devir – teslim işlemi olarak ele alınması ve sürecin kayıt altına alınması önemlidir. Transfer eden birim veya kurum ile transferi kabul eden kurum veya birim arasında bir devir – teslim tutanağı oluşturulması gerekir. Ayrıca, farklı formatlardaki arşiv malzemesinin transfer işlemlerinde ise her formatın özelliklerine uygun yöntemler geliştirilmelidir. Bu yöntemlerin neler olabileceği ve nasıl uygulanacağı ile ilgili düzenlemeler aşağıda verilmiştir.",
+                    UstIcerikID = 384,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 385,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 386,
                     StandartID = 1,
                     BaslikNo = "17.2",
                     Baslik = "Arşiv Malzemesinin Transfer İşlemleri",
                     Detay = null,
-                    UstIcerikID = 107,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 109,
+                    UstIcerikID = 383,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 386,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 110,
+                    StandartIcerikID = 387,
+                    StandartID = 1,
+                    BaslikNo = "17.2.1",
+                    Baslik = null,
+                    Detay = "<p>Belgeler, elektronik arşiv yönetim sistemi içerisine üretim formatlarına uygun yöntemler geliştirilerek aktarılmalıdır. Elektronik arşiv yönetim sistemleri içerisine aktarılacak belgeler genel olarak beş ayrı grupta değerlendirilebilir.</p><p><ul><li>Elektronik belgeler Kurumsal aktivitelerin yerine getirilmesi sırasında üretilen ya da alınan; kurumsal kimlik doğrulama sistemleri, elektronik veya mobil imza sistemleri ile imzalanmış her türlü kayıtlı belgeyi ifade eder.</li><li>Sayısallaştırılmış belgeler Kurumsal aktivitelerin yerine getirilmesi sırasında fiziksel ortamlarda üretilmiş ya da alınmış ancak sonradan sayısallaştırma teknikleri ile elektronik ortama taşınmış olan her türlü kayıtlı belgeyi ifade eder.</li><li>Sayısallaştırılmış dokümantasyon Bilgi değeri açısından gelecek nesillere aktarılmasında yarar görülen her türlü sayısallaştırılmış dokümantasyonu ifade eder.</li><li>Dijital ses ve görüntü kayıtları Dijital olarak üretilmiş her türlü hareketli / hareketsiz görüntü ve ses kayıtlarını ifade eder</li><li>Sayısallaştırılmış ses ve görüntü kayıtları Analog ortamlarda üretilen ve depolanan ancak sonradan sayısallaştırma teknikleri ile elektronik ortama aktarılan her türlü hareketli / hareketsiz görüntü ve ses kayıtlarını ifade eder.</li></ul></p>",
+                    UstIcerikID = 386,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 387,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 388,
+                    StandartID = 1,
+                    BaslikNo = "17.2.2",
+                    Baslik = null,
+                    Detay = "Tüm sayısallaştırılmış belge, doküman, resim, ses ve görüntü kayıtları ELAS/RM içerisine transfer edilmeden önce bunların TS13298 Standardının Dijital Görüntüleme Sistemleri bölümünde yer alan ilgili maddelere uygunluğu denetlenmelidir. Ayrıca, tüm belge, doküman, resim, ses ve görüntü kayıtların e-arşiv sistemine aktarılması sırasında aktarım paketine bu standardın Üstveri Modeli bölümünde ifade edilen ilgili veri alanlarının dahil edilmesi gereklidir.",
+                    UstIcerikID = 386,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 388,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 389,
                     StandartID = 1,
                     BaslikNo = "17.3",
                     Baslik = "Düzenleme",
                     Detay = null,
-                    UstIcerikID = 107,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 110,
+                    UstIcerikID = 383,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 389,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 111,
+                    StandartIcerikID = 390,
+                    StandartID = 1,
+                    BaslikNo = "17.3.1",
+                    Baslik = null,
+                    Detay = "<p>Düzenleme arşiv malzemesi üzerinde fiziksel kontrolün sağlanmasıdır. Arşiv malzemesinin herhangi bir işleme tabi tutulmadan önce düzenlenmesi gerekir. Düzenleme arşiv malzemesini kullanılabilir bir şekilde kullanıcılara sunmak için yapılır. Arşiv malzemesini diğer bilgi kaynaklarından ayıran en önemli özelliği üretildiği dönemdeki yönetim yapısını yansıtması ve kullanıcıyı belgelerin üretildiği çevre şartlarına yeniden götürmesidir. Düzenleme arşivcilik mesleğinin temel prensibini oluşturan respect des fonds olarak bilinen kaynağa saygı prensibine göre yapılır. Kaynağa saygı arşiv malzemesinin üretildiği dönemdeki kurumsal çevre şartlarının korunarak ya da yeniden tesis edilerek kullanıcıya sunulmasıdır. Bu prensibin uygulamada iki farklı yansıması vardır ki bunlar da arşivcilik mesleğinin temel prensiplerini oluşturur.</p><p>Provenans prensibi (the principle of provenance) Kelime anlamı kaynak olan provenans kavram olarak arşiv malzemesini üreten ya da mülkiyetini elinde bulunduran kurum veya bireyi ifade eder. Bu prensip doğrultusunda farklı kaynaklardan gelen arşiv malzemesi hiçbir surette birbirine karıştırılmamalıdır. Bunlar benzer faaliyetleri yürüten kurumlar veya aynı olayları tecrübe etmiş bireyler dahi olsa farklı kaynaklardan gelen arşiv malzemesi birbirinden bağımsız olarak düzenlenir ve kullanıcılara bu şekilde sunulur. Provenans prensibi arşiv malzemesinin niceliği, niteliği ya da üretici kişi veya kurumların özelliklerine bakılmaksızın her şartta uygulanması gereken bir unsurdur.</p><p>Asli düzen prensibi (the principle of original order) Arşiv malzemesi üretildiği dönemdeki orijinal düzeni ile kullanıcıya sunulmalıdır. Arşiv malzemesini düzenlenmesi sırasında uzmanlar malzemeyi üreten kurumun nasıl bir dosya düzeni kurduğunu araştırmalı ve orijinal düzen eğer bozulmuş ise yeniden tesis edilmelidir. Arşiv malzemesi için orijinal düzenden daha iyi bir düzen yoktur. Çünkü orijinal düzen araştırmacıya belgelerde yer almayan çok değerli kurumsal çevre bilgilerini ve arşiv malzemesini üretiminden, kullanımından ve saklanmasından sorumlu olan kurumlar ve kişiler hakkında belgelerde olmayan ve araştırmacı için son derece değerli olan bağlam bilgisi (context information) verebilir.</p>",
+                    UstIcerikID = 389,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 390,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 391,
                     StandartID = 1,
                     BaslikNo = "18",
                     Baslik = "Arşiv Malzemesinin Tanımlanması",
                     Detay = null,
-                    UstIcerikID = 91,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 111,
+                    UstIcerikID = 342,
+                    StandartIcerikTipiID = 169,
+                    SiraNo = 391,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 112,
+                    StandartIcerikID = 392,
                     StandartID = 1,
                     BaslikNo = "18.1",
                     Baslik = "Tanımlama seviyeleri",
                     Detay = null,
-                    UstIcerikID = 111,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 112,
+                    UstIcerikID = 391,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 392,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 113,
+                    StandartIcerikID = 393,
+                    StandartID = 1,
+                    BaslikNo = "18.1.1",
+                    Baslik = null,
+                    Detay = "Arşiv malzemesi ELAS/RM içerisinde farklı seviyelerde tanımlanmalıdır. Tanımlama seviyeleri arşiv malzemeleri arasında hiyerarşik bir ilişki kurarak malzemenin üretildiği dönemdeki çevre şartlarının yeniden kurulmasına ve kullanıcıya arşiv malzemesinin üretim ortamı hakkında detaylı bilgi vererek arşiv malzemesinin bir bağlam içerisinde incelenmesine ortam hazırlar. Arşiv malzemesinin tanımlama seviyelerinin hiyerarşisi aşağıdaki şekilde olmalıdır.a) Arşiv kurumu seviyesi(0): Hiyerarşideki en üst düzeydir. Ulusal düzeyde arşiv malzemesi bulunduran ve arşiv hizmeti veren kurumları tanımlamak için kullanılır.Birden fazla arşiv kurumunu tek bir sistem üzerinde yönetme durumunda kullanılır. b) Fon grubu seviyesi(1): Bir arşiv kurumu içerisindeki benzer fonksiyonlara sahip kurumlardan gelen arşiv malzemelerinin bütünüdür.Örneğin üniversiteler, belediyeler, hastaneler gibi aynı fonksiyonları yerine getiren farklı kurumların arşivlerin birlikte tanımlanmasına imkân sağlar. Teşkilat yapısı ile ilgili düzenlemeler açısından bir yürütme organına bağlı ancak faaliyetleri açısından bağımsız veya özerk olan(Yüksek Öğretim Kurumu ile Milli Eğitim Bakanlığı, Hâkimler ve Savcılar Yüksek Kurulu ile Adalet Bakanlığı ilişkisinde olduğu gibi) kurumlar, kuruluşlar ve kurullar ayrı fon olarak değerlendirilmelidir. c) Fon(2): Arşiv malzemesini üreten veya malzemenin fikrî, fizikî, idarî veya ticarî mülkiyetine sahip olan kurumları tanımlamak için kullanılır.Farklı fonlardan gelen arşiv malzemesi hiçbir surette birbirine karıştırılmaz.Fonlar tanımlanırken üretici kurumdaki hiyerarşik yapıya göre alt fonlara bölünerek tanımlanabilir. d) Seri(3): Arşiv malzemesini üreten birimdeki faaliyet alanlarını ifade eder. Genel olarak birimlerde birden fazla seri bulunur.Aynı faaliyet alanına ait, aynı dosyalama sistemi içerisinde dosyalanmış, aynı dosya formatına sahip veya belli bir konu temelinde bir araya getirilmiş olan belgeler bütünüdür. Faaliyet alanlarının bağımsız süreçlerden oluştuğu(aynı faaliyet alanına farklı dosya / klasörler oluşturulduğu) durumlarda seriler alt  serilere bölünebilir.Bu durumda alt seriler ayrı bir seviye olarak tanımlanmalıdır.İki veya daha fazla alt serinin oluşmadığı durumlarda ise alt seriler kullanılmamalıdır. e) Dosya / Klasör(4): Arşiv malzemesi genel olarak iki farklı yapıda dosyalanmış olabilir.Bunlardan birincisi belli bir olay, şahıs, proje, kurum gibi birbirinden kesin olarak ayrılabileceknitelikteki belgelerin oluşturduğu bütündür ve vaka dosyası olarak anılırlar. İkinci dosya türü konu dosyalarıdır. Konu dosyaları aynı veya benzer konudaki belgelerin bir araya gelmesi ile oluşur. Genel olarak yıllık olarak ayrılırlar ancak belge trafiğinin az olduğu konu başlıklarında daha uzun süreli ayrımlarda yapılabilir. f) Belge(5): Genel olarak tek bir işlem için üretilmiş olan bilgi ünitesidir.Belge fiziksel olarak tek bir parçadan oluşabileceği gibi bazen de ekleri olan çoklu bir ünite olabilir ya da elektronik belgelerde ve web sayfalarında olduğu gibi bileşenlerden oluşabilir.Ancak belge arşivcilik açısından tek bir bütün olarak ele alınmalıdır. g) Belge Bileşeni: Arşiv malzemesinin yönetilebilir en küçük parçası belgedir.Ancak bazı belgelerin ekleri ya da belgeyi oluşturan bileşenlerin farklı formatları olması durumunda belgeden bağısız olarak tanımlanması, depolanması ve hizmete sunulması gerekebilir.Bu durumlarda belge bileşeni, belge ile olan organik bağ korunarak bağımsız olarak tanımlanabilir.",
+                    UstIcerikID = 392,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 393,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = true,
+                        KurumYeterlilikSertifikasi = true,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 394,
                     StandartID = 1,
                     BaslikNo = "18.2",
                     Baslik = "Tanımlama Alanları",
                     Detay = null,
-                    UstIcerikID = 111,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 113,
+                    UstIcerikID = 391,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 394,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 114,
+                    StandartIcerikID = 395,
                     StandartID = 1,
-                    BaslikNo = "Bölüm:IV",
-                    Baslik = "Üstveri Yönetimi",
+                    BaslikNo = "18.2.1",
+                    Baslik = null,
+                    Detay = "Kimlik bilgileri tanımlama ve kontrol alanları: Arşiv yönetim sistemi içerisinde tanımlanacak her bir varlık için bir kayıt olması ve her kayıt için bir anahtar alan ve uygun tanımlama bilgileri üretilmesi gerekir. AYS içerisindeki varlıklar 2.4.1’de ifade edilen tanımlama seviyelerine uygun hiyerarşi içerisinde tanımlanmalıdır. AYS içerisindeki her varlık asgari bir anahtar alan, varlık adı, kapsadığı tarihler ve varlık türünden oluşmalıdır.",
+                    UstIcerikID = 394,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 395,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 396,
+                    StandartID = 1,
+                    BaslikNo = "18.2.2",
+                    Baslik = null,
+                    Detay = "Üretim ve mülkiyet bilgileri tanımlama ve kontrol alanları: AYS içerisinde yer alan arşiv malzemelerin üretiminden sorumlu kişi ve kurumların uygun alt birim bilgileri ile birlikte sisteme girilmesi gereklidir. Kurum ve şahıs adlarındaki benzerliklerden ya da yazım hatalarından doğabilecek karışıklıkları önlemek için bu tür bir bilgilerin bir referans tabloda tutulması önerilmelidir. Üretim bilgilerinin yanı sıra arşiv malzemesi hizmete sunulduğu son kuruma gelene kadar olan mülkiyet zincirinin de sistemden takip edilebilmesi gerekir. Mülkiyet zinciri tarihçesi tek bir metin alanında verilebilir. Ancak arşiv malzemesinin hizmete sunulduğu kuruma malzeme sağlayan kişi veya kurumlar ayrıca tanımlanmalıdır.",
+                    UstIcerikID = 394,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 396,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 397,
+                    StandartID = 1,
+                    BaslikNo = "18.2.3",
+                    Baslik = null,
+                    Detay = "İçerik tanımlama ve kontrol alanları: Arşiv malzemesinin içerik açısından tanımlanması için kullanılan alanlarıdır. Malzemenin konusu, malzemenin üretiminden sorumlu şahıs ve/veya tüzel kişiler, malzemeye konu edilmiş şahıslar, yerler, kurumlar, olaylar ve tarihler gibi malzemenin araştırmacılar tarafından bulunmasını ve kullanılmasını kolaylaştıracak tanımlama unsurlarıdır. İçerik tanımlama ve kontrol alanlarının dosya / klasör, seri ve fon düzeyindeki varlıklar için kullanılması daha uygundur.",
+                    UstIcerikID = 394,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 397,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 398,
+                    StandartID = 1,
+                    BaslikNo = "18.2.4",
+                    Baslik = null,
+                    Detay = "Fiziksel özellikler tanımlama ve kontrol alanları: Arşiv malzemesine ait fiziksel tanımlama alanları belge, dosya ve seri bazında ayrı ayrı tanımlanmalıdır. Fiziksel tanımlama alanları arşiv malzemesinin niceliksel olarak tanımlayacak uygun tanımlama alanlarında oluşmalıdır.",
+                    UstIcerikID = 394,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 398,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 399,
+                    StandartID = 1,
+                    BaslikNo = "18.2.5",
+                    Baslik = null,
+                    Detay = "Yönetimsel fonksiyonları tanımlama ve kontrol alanları: Bu bölümde yer alacak olan bilgileri arşiv malzemesinin bünyesinde bulunduran ve hizmete sunan kurumların yönetimsel fonksiyonlarını kontrol altına almasını ve yönetmesi kolaylaştıracak bilgiler içermektedir. Bu bağlamda: i) Arşiv malzemesinin kuruma nereden / kimden, nasıl(bağış, satın alma, ödünç) sağlandığının,ii) Malzemenin fiziksel ve/veya dijital kopyalarının nerede depolandığının, iii) Her biri ayrı ayrı olmak üzere, malzemenin düzenleme, tanımlama ve indeksleme işlemlerinin kimler tarafından ne zaman yapıldığının, iv) Malzeme herhangi bir ayıklama işlemine tabi tutulmuş ise, bu işleme ait yasal çerçevenin ne olduğunu; işlemin kimler tarafından ne zaman yapıldığının, v) Arşiv malzemesinin korunmasına ve restorasyonuna yönelik olarak ne tür onarımların gerekli olduğu, öncelik derecesi, her hangi bir onarım yapılmış ise bunun kim tarafından, ne zaman ve ne tür malzeme kullanılarak yapıldığının tanımlanmasına ve kontrol altına alınmasına yönelik alanlardan oluşur.",
+                    UstIcerikID = 394,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 399,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 400,
+                    StandartID = 1,
+                    BaslikNo = null,
+                    Baslik = "Bölüm:IV Üstveri Yönetimi",
                     Detay = null,
                     UstIcerikID = 0,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 114,
+                    StandartIcerikTipiID = 164,
+                    SiraNo = 400,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 115,
+                    StandartIcerikID = 401,
                     StandartID = 1,
                     BaslikNo = "19",
                     Baslik = "Üstveri Elemanları",
                     Detay = null,
-                    UstIcerikID = 114,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 115,
+                    UstIcerikID = 400,
+                    StandartIcerikTipiID = 169,
+                    SiraNo = 401,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 116,
+                    StandartIcerikID = 402,
                     StandartID = 1,
                     BaslikNo = "19.1",
                     Baslik = "Genel Özellikler",
                     Detay = null,
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 161,
-                    SiraNo = 116,
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 402,
                     DurumID = 1
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 117,
+                    StandartIcerikID = 403,
+                    StandartID = 1,
+                    BaslikNo = "19.1.1",
+                    Baslik = null,
+                    Detay = "<p>EBYS, sistem içerisinde tanımlanacak üstveri elemanları için herhangi bir sınırlama getirmemelidir.</p><p> Not: Bu bölümde tanımlanan üstveri elemanları EBYS sistemi için en genel olanlardır. EBYS kullanacak kurumlar kendi ihtiyaçlarına göre üstveri elemanlarının sayısını artırabilmeli ya da zorunlu elemanların dışında kalanları sistemden çıkarabilmelidir. Ayrıca, sistem tasarımı aşamasında üstveri elemanlarının veri kaynaklarının neler olduğu tanımlanmalıdır. EBYS üstveri elemanları için veri kaynakları şunlar olabilir:</p><p><ul><li>İşletim sistemi</li><li>Ağ yazılımı</li><li>Uygulama programı</li><li>EBYS</li><li>Bilgisayar sistemi yöneticisi</li><li>Bilgi ve belge yöneticisi</li><li>Kullanıcı</li></ul></p>",
+                    UstIcerikID = 402,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 403,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 404,
+                    StandartID = 1,
+                    BaslikNo = "19.1.2",
+                    Baslik = null,
+                    Detay = "<p>Üstveri elemanlarının içerdiği bilgiler, EBYS’nin fonksiyonlarını şekillendirmelidir.</p><p>Not: Örneğin sistemdeki bir belge güvenlik seviyesi içeriyorsa, EBYS bu belgeye kimlerin erişim hakkı olduğunu belirleyebilmeli ve yalnızca yetkili kullanıcılara erişim hakkı vermelidir. Bu kural tüm üstveri elemanları için geçerlidir.</p>",
+                    UstIcerikID = 402,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 404,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 405,
+                    StandartID = 1,
+                    BaslikNo = "19.1.3",
+                    Baslik = null,
+                    Detay = "<p>EBYS içerisinde farklı belge türleri için farklı üstveri elemanları tanımlanabilmelidir.</p><p>Not: Örneğin bir elektronik posta dokümanı için gerekli üstveri elemanları, görüntüleme teknikleri ile sisteme dâhil edilmiş dokümanlardan farklı üstveri elemanlarına ihtiyaç duyar. Bu bölümün devamında tanımlanan üstveri elemanlar her türlü belgeyi kapsayacak şekilde tasarlanmıştır. Ancak bu modülde verilen üstveri elemanlarını kullanacak kurumlar belge türlerine göre ilgili üstveri elemanlarını seçmelidir.</p>",
+                    UstIcerikID = 402,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 405,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 406,
+                    StandartID = 1,
+                    BaslikNo = "19.1.4",
+                    Baslik = null,
+                    Detay = "Üstveri elemanlarının EBYS sistemi içerisinde zorunlu veya isteğe bağlı olup olmadığı ile bu elemanların indekslenip indekslenmeyeceği sistem tasarımı aşamasında sistem yöneticisi tarafından belirlenebilmelidir.",
+                    UstIcerikID = 402,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 406,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 407,
+                    StandartID = 1,
+                    BaslikNo = "19.1.5",
+                    Baslik = null,
+                    Detay = "<p>Üstveri elemanları asgari olarak aşağıdaki formatları desteklemelidir.</p><p><ul><li>Alfabetik</li><li>Nümerik</li><li>Alfa-nümerik</li><li>Tarih / saat</li><li>Mantıksal (Evet/Hayır)</li></ul></p>",
+                    UstIcerikID = 402,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 407,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 408,
+                    StandartID = 1,
+                    BaslikNo = "19.1.6",
+                    Baslik = null,
+                    Detay = "<p>Sistem tasarımı aşamasında, üstveri elemanları için veri giriş maskesi tanımlanabilmelidir.</p><p>Not: Özellikle tarih alanları ve nümerik alanlar için veri giriş maskesi tanımlanması kullanım kolaylığı ve verilerin doğru girilmesini sağlayacaktır.</p>",
+                    UstIcerikID = 402,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 408,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 409,
+                    StandartID = 1,
+                    BaslikNo = "19.1.7",
+                    Baslik = null,
+                    Detay = "İşletim sistemi, ağ yazılımı ve uygulama programından otomatik olarak alınan bilgiler üzerinde herhangi bir değişiklik yapılması engellenmelidir. Diğer bilgiler üzerinde yapılabilecek değişikler yetki sınırları içerisinde olmalı ve yapılan değişikler kayıt altına alınmalıdır.",
+                    UstIcerikID = 402,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 409,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 410,
+                    StandartID = 1,
+                    BaslikNo = "19.1.8",
+                    Baslik = null,
+                    Detay = "<p>Üstveri elemanlarına ait bilgiler mümkün olduğu ölçüde sistem tarafından kontrol edilmelidir. Yanlış veri girişleri engellenmeli ve kullanıcılar uyarılmalıdır.</p><p>Not: Özellikle tarihler, telefon numaraları ve elektronik posta adresleri gibi bilgiler sistem tarafından kontrol edilebilir.</p>",
+                    UstIcerikID = 402,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 410,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 411,
+                    StandartID = 1,
+                    BaslikNo = "19.1.9",
+                    Baslik = null,
+                    Detay = "Tarih ve nümerik alanlar dâhil olmak üzere üstveri elemanları tam metin (full-text) metodu ile sorgulanabilmelidir.",
+                    UstIcerikID = 402,
+                    StandartIcerikTipiID = 171,
+                    SiraNo = 411,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = true,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
+                },
+                new StandartIcerik
+                {
+                    StandartIcerikID = 412,
                     StandartID = 1,
                     BaslikNo = "19.2",
                     Baslik = "Dosya Tasnif Planı Üstveri Elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>DTP Eleman Referans Numarası</td></tr><tr><td>Referans Numarası</td><td>DT001</td></tr><tr><td>Tanım</td><td>Dosya tasnif planında yer alacak her bir eleman için verilecek olan referans numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Dosya tasnif planındaki seri ve alt seri kodları gibi.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>DTP Eleman adı</td></tr><tr><td>Referans Numarası</td><td>DT010</td></tr><tr><td>Tanım</td><td>Dosya tasnif planında yer alan elemanların adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Dosya tasnif planındaki seri ve alt serilerin adıdır. Farklı birimlerde aynı ad ile seriler oluşabilir. Ancak bu serilere ait referans numaraları farklı olmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Tanım</td></tr><tr><td>Referans Numarası</td><td>DT050</td></tr><tr><td>Tanım</td><td>Dosya tasnif planı elemanına ait tanımlamalara ve açıklamalara ait bilgidir. Kullanımı zorunlu değildir.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td>Kullanıcıların yönlendirilmesi ve EBYS içerisine dahil edilecek belgelerin hangi elemanlar altında tasnif edilmesi gerektiğini göstermek amacıyla kullanılabilir.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Seviye numarası</td></tr><tr><td>Referans Numarası</td><td>DT070</td></tr><tr><td>Tanım</td><td>Dosya tasnif planı elemanına ait hiyerarşik seviyeyi gösteren numaradır.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 117,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 412,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 118,
+                    StandartIcerikID = 413,
                     StandartID = 1,
                     BaslikNo = "19.3",
                     Baslik = "Saklama Planı Üstveri Elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>SP Eleman referans numarası</td></tr><tr><td>Referans Numarası</td><td>SP001</td></tr><tr><td>Tanım</td><td>Saklama planında yer alacak her bir eleman için verilecek olan referans numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Saklama planındaki seri ve alt seri kodları gibi.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>SP Eleman adı</td></tr><tr><td>Referans Numarası</td><td>SP010</td></tr><tr><td>Tanım</td><td>Saklama planında yer alan elemanların adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Saklama planındaki seri ve alt serilerin adıdır. Farklı birimlerde aynı ad ile seriler oluşabilir. Ancak bu serilere ait referans numaraları farklı olmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Saklama süresi</td></tr><tr><td>Referans Numarası</td><td>SP040</td></tr><tr><td>Tanım</td><td>Saklama planında yer alan elemanların kurumda ne kadar süre ile saklanacağı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Genelde yıl olarak ifade edilir. Sistemdeki belgelerin idari kullanımının tamamlandıktan sonra kaç yıl süre ile saklanacağını gösterir.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Tasfiye işlem kodu</td></tr><tr><td>Referans Numarası</td><td>TS001</td></tr><tr><td>Tanım</td><td>Saklama süresi dolan klasör/dosya ve belgelerin ne tür işleme tabi tutulacağı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Tasfiye işlem kodlarının tanımları için Madde 5.5’e bakılmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Yasal kaynak</td></tr><tr><td>Referans Numarası</td><td>SP110</td></tr><tr><td>Tanım</td><td>Saklama sürelerinin hangi yasal düzenlemeye göre atandığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td></td></tr><tr><td>Notlar</td><td>Kanun ve yönetmelik gibi yasal düzenlemelere ait referansları içerir.</td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 118,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 413,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 119,
+                    StandartIcerikID = 414,
                     StandartID = 1,
                     BaslikNo = "19.4",
                     Baslik = "Birim/Alt Birim tanımları üstveri elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Birim kodu</td></tr><tr><td>Referans Numarası</td><td>BR001</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği ya da alındığı kurumdaki birimlere verilmiş olan kodnumarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Birim adı</td></tr><tr><td>Referans Numarası</td><td>BR010</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği ya da alındığı kurumdaki birimlerin adlarıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Birim Seviye numarası</td></tr><tr><td>Referans Numarası</td><td>BR120</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği kurumdaki birimlere ait hiyerarşik seviyeyi gösteren numaradır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Alt Birim kodu</td></tr><tr><td>Referans Numarası</td><td>BR101</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği ya da alındığı, kurumlara bağlı birimlerin, alt birimleri için verilmiş kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td></td></tr><tr><td>Notlar</td><td>Bazı durumlarda kullanılır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Alt Birim Adı</td></tr><tr><td>Referans Numarası</td><td>BR110</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği ya da alındığı kurumlara bağlı birimlerin, alt birimlerinin adlarıdır.</td></tr><tr><td>Zorunluluk</td><td></td></tr><tr><td>Notlar</td><td>Bazı durumlarda kullanılır.</td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 119,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 414,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 120,
+                    StandartIcerikID = 415,
                     StandartID = 1,
                     BaslikNo = "19.5",
                     Baslik = "Seri tanımları üstveri elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Seri kodu:</td></tr><tr><td>Referans Numarası</td><td>SE001</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bağlı bulunduğu belge serisine ait kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Seri adı</td></tr><tr><td>Referans Numarası</td><td>SE010</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bağlı bulunduğu belge serisinin adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Belge serileri aynı zamanda kurumsal fonksiyonları ifade eder. Farklı birimlerde aynı ad altında belge serileri olabilir.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Seri tanımı</td></tr><tr><td>Referans Numarası</td><td>SE050</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bağlı bulunduğu belge serisine ait açıklayıcı bilgilerin yer aldığı alandır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Birim/Alt Birim kodu</td></tr><tr><td>Referans Numarası</td><td>BR001/BR101</td></tr><tr><td>Tanım</td><td>Elektronik belgenin serisinin ait olduğu birime/alt birime ait kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Birim kodu tanımlamaları için Madde 11.5’e bakılmalıdır. Belge serisinin ya da kurumsal fonksiyonun hangi birime ait olduğunun kayıt altına alınması belge provenansının tespiti açısından son derece önemlidir. Birim kodu uygulama programı tarafından kullanıcı sistem giriş bilgileri kullanılarak otomatik olarak atanabilir ya da Bilgi ve Belge Yöneticisi veya kullanıcı tarafından girilebilir.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Açılış tarihi/Başlangıç Tarihi</td></tr><tr><td>Referans Numarası</td><td>SE210</td></tr><tr><td>Tanım</td><td>Elektronik belgenin serisinin hangi tarihte açıldığını gösteren bilgidir</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Kapanış tarihi/Bitiş Tarihi</td></tr><tr><td>Referans Numarası</td><td>SE290</td></tr><tr><td>Tanım</td><td>Elektronik belgenin serisinin hangi tarihte kapatıldığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Erişim hakları</td></tr><tr><td>Referans Numarası</td><td>SE300</td></tr><tr><td>Tanım</td><td>Elektronik belgenin serisine erişim hakkı bulunan kullanıcılar ve/veya kullanıcı gruplarının kimler olduğuna ait bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Erişim hakları tanımlamaları için Madde 9.2’ye bakılmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Güvenlik kodu</td></tr><tr><td>Referans Numarası</td><td>SE500</td></tr><tr><td>Tanım</td><td>Elektronik belge serisinin gizlilik derecesini ya da kullanım kısıtlamalarını gösteren kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Güvenlik kod tanımları için Madde 9.2’ye bakılmalıdır. Güvenlik kodları, erişim hakları tanımları ile entegre çalışmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Saklama plan kodu</td></tr><tr><td>Referans Numarası</td><td>SE770</td></tr><tr><td>Tanım</td><td>Elektronik belgenin serisi içinde yer alan belgelerin ne kadar sürelerle saklanacağını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Saklama Plan kodu tanımları için Madde 5’e bakılmalıdır</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Anahtar kelimeler</td></tr><tr><td>Referans Numarası</td><td>SE610</td></tr><tr><td>Tanım</td><td>Elektronik belgenin serisini tanımlayıcı anahtar kelimelerin verildiği alandır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Miktar</td></tr><tr><td>Referans Numarası</td><td>SE550</td></tr><tr><td>Tanım</td><td>Serinin fiziksel boyutları ile seriye ait dosya sayısının nicelik olarak tanımlandığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Devamı olduğu seri</td></tr><tr><td>Referans Numarası</td><td>SE910</td></tr><tr><td>Tanım</td><td>Mevcut serinin herhangi bir serinin devamı olup olmadığı bu üstveri alanında tanımlanır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 120,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 415,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 121,
+                    StandartIcerikID = 416,
                     StandartID = 1,
                     BaslikNo = "19.6",
                     Baslik = "Alt Seri tanımları üstveri elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Alt Seri Kodu</td></tr><tr><td>Referans Numarası</td><td>AS101</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bağlı bulunduğu belge alt serisine ait kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Alt Seri adı</td></tr><tr><td>Referans Numarası</td><td>AS110</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bağlı bulunduğu belge alt serisinin adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Alt Seri Tanımı</td></tr><tr><td>Referans Numarası</td><td>AS050</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bağlı bulunduğu belge alt serisine ait açıklayıcı bilgilerin yer aldığı alandır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Açılış tarihi/Başlangıç Tarihi</td></tr><tr><td>Referans Numarası</td><td>AS210</td></tr><tr><td>Tanım</td><td>Elektronik belgenin alt serisinin hangi tarihte açıldığını gösteren bilgidir</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Kapanış tarihi/Bitiş Tarihi</td></tr><tr><td>Referans Numarası</td><td>AS290</td></tr><tr><td>Tanım</td><td>Elektronik belgenin alt serisinin hangi tarihte kapatıldığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Miktar</td></tr><tr><td>Referans Numarası</td><td>AS550</td></tr><tr><td>Tanım</td><td>Alt serinin fiziksel boyutları ile seriye ait dosya sayısının nicelik olarak tanımlandığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Devamı olduğu alt seri (varsa)</td></tr><tr><td>Referans Numarası</td><td>AS910</td></tr><tr><td>Tanım</td><td>Mevcut serinin herhangi bir serinin devamı olup olmadığı bu üstveri alanında tanımlanır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 121,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 416,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 122,
+                    StandartIcerikID = 417,
                     StandartID = 1,
                     BaslikNo = "19.7",
                     Baslik = "Klasör/Dosya tanımları üstveri elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Klasör/dosya numarası</td></tr><tr><td>Referans Numarası</td><td>KD001</td></tr><tr><td>Tanım</td><td>Belgelerin ait olduğu klasör veya dosyalara ait referans numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Klasör/dosya adı</td></tr><tr><td>Referans Numarası</td><td>KD010</td></tr><tr><td>Tanım</td><td>Belgelerin ait olduğu klasör veya dosyaların adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Açılış tarihi/Başlangıç Tarihi</td></tr><tr><td>Referans Numarası</td><td>KD210</td></tr><tr><td>Tanım</td><td>Klasör veya dosyanın hangi tarihte açıldığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Kapanış tarihi/Bitiş Tarihi</td></tr><tr><td>Referans Numarası</td><td>KD290</td></tr><tr><td>Tanım</td><td>Klasör veya dosyanın hangi tarihte kapatıldığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Seri numarası</td></tr><tr><td>Referans Numarası</td><td>SE001</td></tr><tr><td>Tanım</td><td>Klasör veya dosyanın hangi seriye ait olduğunu gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Saklama ortamı</td></tr><tr><td>Referans Numarası</td><td>KD180</td></tr><tr><td>Tanım</td><td>Klasör veya dosyanın hangi ortamda saklandığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Saklama ortamı fiziki, elektronik ya da karma olabilir.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Saklama yeri referans numarası</td></tr><tr><td>Referans Numarası</td><td>KD181</td></tr><tr><td>Tanım</td><td>Klasör veya dosyanın nerede depolandığını gösteren yer numarasıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Bu alan yalnızca fiziki klasör ve dosyalar içindir.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Bölüm numarası</td></tr><tr><td>Referans Numarası</td><td>KD400</td></tr><tr><td>Tanım</td><td>Birden fazla bölümden oluşan klasör veya dosyalara ait bölüm numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Tasfiye tarihi</td></tr><tr><td>Referans Numarası</td><td>KD041</td></tr><tr><td>Tanım</td><td>Klasör veya dosyanın hangi tarihte tasfiye edileceğini gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Tasfiye işlem tanımlamaları Madde 5.5’e bakılmalıdır.</td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 122,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 417,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 123,
+                    StandartIcerikID = 418,
                     StandartID = 1,
                     BaslikNo = "19.8",
                     Baslik = "Belge tanımları üstveri elemanları",
                     Detay = "<table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Belge referans numarası</td></tr><tr><td>Referans Numarası</td><td>BE001</td></tr><tr><td>Tanım</td><td>Belgeye ait referans numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Belge adı</td></tr><tr><td>Referans Numarası</td><td>BE010</td></tr><tr><td>Tanım</td><td>Belgeye ait ad ve/veya tür bilgisidir</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Elektronik dosya adı</td></tr><tr><td>Referans Numarası</td><td>BE019</td></tr><tr><td>Tanım</td><td>Elektronik belgenin bilgisayar sisteminde hangi ad ile tutulduğu bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Klasör/dosya numarası.</td></tr><tr><td>Referans Numarası</td><td>KD001</td></tr><tr><td>Tanım</td><td>Belgenin bağlı bulunduğu klasör veya dosyaya ait referans numarasıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Konu</td></tr><tr><td>Referans Numarası</td><td>BE055</td></tr><tr><td>Tanım</td><td>Belge içeriğini açıklayıcı bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Üretici</td></tr><tr><td>Referans Numarası</td><td>BE100</td></tr><tr><td>Tanım</td><td>Belge üreticisini gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Üretim tarihi</td></tr><tr><td>Referans Numarası</td><td>BE210</td></tr><tr><td>Tanım</td><td>Belgenin üretildiği tarihtir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Gönderme / alma tarihi</td></tr><tr><td>Referans Numarası</td><td>BE240</td></tr><tr><td>Tanım</td><td>Belgenin gönderildiği ya da alındığı tarihtir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Alıcı/Muhatap</td></tr><tr><td>Referans Numarası</td><td>BE200</td></tr><tr><td>Tanım</td><td>Belgenin kime gönderildiği bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Dil</td></tr><tr><td>Referans Numarası</td><td>BE350</td></tr><tr><td>Tanım</td><td>Belgenin hangi dilde üretildiği bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Belge türü</td></tr><tr><td>Referans Numarası</td><td>BE420</td></tr><tr><td>Tanım</td><td>Belgeye ait tür tanımlamasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Kurumdaki belge türleri (yazışma, rapor, vs.) kullanıcıya liste halinde sunularak çoktan seçmeli bilgi girişi sağlanmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Sisteme giriş tarihi</td></tr><tr><td>Referans Numarası</td><td>BE260</td></tr><tr><td>Tanım</td><td>Belgenin EBYS içerisine kayıt edildiği tarihtir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Erişim hakları</td></tr><tr><td>Referans Numarası</td><td>BE300</td></tr><tr><td>Tanım</td><td>Elektronik belgeye erişim hakkı bulunan kullanıcılar ve/veya kullanıcı gruplarının kimler olduğuna ait bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Erişim hakları tanımlamaları için Madde 9.2’ye bakılmalıdır.</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Güvenlik kodu</td></tr><tr><td>Referans Numarası</td><td>GS001</td></tr><tr><td>Tanım</td><td>Elektronik belgenin gizlilik derecesini yada kullanım kısıtlamalarını gösteren kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Güvenlik kod tanımları için Madde 9.2’ye bakılmalıdır. Güvenlik kodları, erişim hakları tanımları ile entegre çalışmalıdır</td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Dosya formatı</td></tr><tr><td>Referans Numarası</td><td>BE830</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği yazılımın belgeye kazandırmış olduğu orijinal dosya formatının adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Arşiv formatı</td></tr><tr><td>Referans Numarası</td><td>BE880</td></tr><tr><td>Tanım</td><td>Elektronik belgenin uzun dönem saklama ve kullanımı için dönüştürüldüğü arşiv dosya formatıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Donanım</td></tr><tr><td>Referans Numarası</td><td>BE420</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği bilgisayar sisteminin donanım özelliklerine ait bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>İşletim Sistemi</td></tr><tr><td>Referans Numarası</td><td>BE430</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği bilgisayar sisteminin kullandığı işletim sistemine ait ad ve versiyon bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Uygulama Programı</td></tr><tr><td>Referans Numarası</td><td>BE440</td></tr><tr><td>Tanım</td><td>Elektronik belgenin üretildiği uygulama yazılımına ait ad ve versiyon bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Kodlama Şeması</td></tr><tr><td>Referans Numarası</td><td>BE570</td></tr><tr><td>Tanım</td><td>Elektronik belgenin hangi kodlama şemasına göre üretildiği bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Öncelik derecesi</td></tr><tr><td>Referans Numarası</td><td>BE620</td></tr><tr><td>Tanım</td><td>Elektronik belgenin kurumsal faaliyetlerin devamı açısından taşıdığı önemi gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Bilgi edinme kanunu kapsamı</td></tr><tr><td>Referans Numarası</td><td>BE460</td></tr><tr><td>Tanım</td><td>Elektronik belgenin Bilgi Edinme Kanunu kapsamında olup olmadığı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Telif hakları kanunu kapsamı</td></tr><tr><td>Referans Numarası</td><td>BE470</td></tr><tr><td>Tanım</td><td>Elektronik belgenin Telif Hakları Kanunu kapsamında olup olmadığı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Elektronik imza</td></tr><tr><td>Referans Numarası</td><td>BE500</td></tr><tr><td>Tanım</td><td>Belge üzerinde elektronik imzanın varlığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Elektronik imza sertifika kurumu</td></tr><tr><td>Referans Numarası</td><td>BE510</td></tr><tr><td>Tanım</td><td>Belge üzerinde elektronik imzanın hangi kurum tarafından onaylandığı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Zaman damgası</td></tr><tr><td>Referans Numarası</td><td>BE520</td></tr><tr><td>Tanım</td><td>Elektronik belgenin hangi tarih ve saatte imzalandığı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Şifreleme algoritması</td></tr><tr><td>Referans Numarası</td><td>BE580</td></tr><tr><td>Tanım</td><td>Şifrelenmiş elektronik belgelerin kullanımına imkan verecek algoritmadır.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Diğer dijital işaretler</td></tr><tr><td>Referans Numarası</td><td>BE590</td></tr><tr><td>Tanım</td><td>Elektronik belge üzerindeki dijital antet, filigran gibi işaretler varlığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 123,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 418,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 124,
+                    StandartIcerikID = 419,
                     StandartID = 1,
                     BaslikNo = "19.9",
                     Baslik = "Belge bileşeni tanımları üstveri elemanları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Belge bileşeni referans numarası</td></tr><tr><td>Referans Numarası</td><td>BB001</td></tr><tr><td>Tanım</td><td>Belge bileşenine ait referans numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Belge Bileşeni Elektronik dosya adı</td></tr><tr><td>Referans Numarası</td><td>BB010</td></tr><tr><td>Tanım</td><td>Elektronik belge bileşeninin bilgisayar sisteminde hangi ad ile tutulduğu bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Belge numarası</td></tr><tr><td>Referans Numarası</td><td>BE001</td></tr><tr><td>Tanım</td><td>Belge bileşeninin bağlı bulunduğu belgeye ait referans numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Belge Bileşini Dosya formatı</td></tr><tr><td>Referans Numarası</td><td>BB830</td>/tr><tr><td>Tanım</td><td>Elektronik belge bileşeninin üretildiği yazılımın belgeye kazandırmış olduğu orijinal dosya formatının adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Çözünürlük</td></tr><tr><td>Referans Numarası</td><td>DG160</td></tr><tr><td>Tanım</td><td>Görüntü olarak üretilmiş olan elektronik belge bileşenlerinin çözünürlük bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Sıkıştırma parametreleri</td></tr><tr><td>Referans Numarası</td><td>BB650</td></tr><tr><td>Tanım</td><td>Görüntü olarak üretilmiş olan elektronik belge bileşenlerinin sıkıştırma parametrelerine ait bilgidir</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Donanım</td></tr><tr><td>Referans Numarası</td><td>BB420</td></tr><tr><td>Tanım</td><td>Elektronik belge bileşenin üretildiği bilgisayar sisteminin donanım özelliklerine ait bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>İşletim Sistemi</td></tr><tr><td>Referans Numarası</td><td>BB430</td></tr><tr><td>Tanım</td><td>Elektronik belge bileşenin üretildiği bilgisayar sisteminin kullandığı işletim sistemine ait ad ve versiyon bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Uygulama Programı</td></tr><tr><td>Referans Numarası</td><td>BB440</td></tr><tr><td>Tanım</td><td>Elektronik belge bileşenin üretildiği uygulama yazılımına ait ad ve versiyon bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Kodlama şeması</td></tr><tr><td>Referans Numarası</td><td>BB670</td></tr><tr><td>Tanım</td><td>Elektronik belge bileşeninin hangi kodlama şemasına göre üretildiği bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td>Eleman Adı</td><td>Arşiv formatı</td></tr><tr><td>Referans Numarası</td><td>BB880</td></tr><tr><td>Tanım</td><td>Elektronik belge bileşeninin uzun dönem saklama ve kullanımı için dönüştürüldüğü arşiv dosya formatıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 124,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 419,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 125,
+                    StandartIcerikID = 420,
                     StandartID = 1,
                     BaslikNo = "19.10",
                     Baslik = "Kullanıcı profil tanımları üstveri elemanları",
                     Detay = "<table table border='1' cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı kodu</td></tr><tr><td>Referans Numarası</td><td>KP001</td></tr><tr><td>Tanım</td><td>Kullanıcıyı sistem içerisinde tanımlayan referans kodudur</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı adı soyadı</td></tr><tr><td>Referans Numarası</td><td>KP010</td></tr><tr><td>Tanım</td><td>Kullanıcının ad ve soyadı bilgileridir</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Birim kodu</td></tr><tr><td>Referans Numarası</td><td>BR001/BR101</td></tr><tr><td>Tanım</td><td>Kullanıcının mensubu bulunduğu birime ait kod numarasıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı rol tanım kodu</td></tr><tr><td>Referans Numarası</td><td>KP910</td></tr><tr><td>Tanım</td><td>Kullanıcının sistem içerisindeki rolünü tanımlayan kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı grup tanım kodu</td></tr><tr><td>Referans Numarası</td><td>KP950</td></tr><tr><td>Tanım</td><td>Kullanıcı grubuna ait kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 125,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 420,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 126,
+                    StandartIcerikID = 421,
                     StandartID = 1,
                     BaslikNo = "19.11",
                     Baslik = "Kullanıcı rol tanımları üstveri elemanları",
                     Detay = "<table table border='1' cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı rol kodu</td></tr><tr><td>Referans Numarası</td><td>KR001</td></tr><tr><td>Tanım</td><td>Kullanıcı rolüne ait kod numarasıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı rol adı</td></tr><tr><td>Referans Numarası</td><td>KR010</td></tr><tr><td>Tanım</td><td>Kullanıcı rolünün adıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Geçerlilik tarihi</td></tr><tr><td>Referans Numarası</td><td>KR390</td></tr><tr><td>Tanım</td><td>Kullanıcı rolünün ne kadar süre ile geçerli olduğunu gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 126,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 421,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 127,
+                    StandartIcerikID = 422,
                     StandartID = 1,
                     BaslikNo = "19.12",
                     Baslik = "Kullanıcı grup tanımları üstveri elemanları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı grup kodu</td></tr><tr><td>Referans Numarası</td><td>KG001</td></tr><tr><td>Tanım</td><td>Kullanıcı grupları için verilmiş olan kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı grup adı</td></tr><tr><td>Referans Numarası</td><td>KG010</td></tr><tr><td>Tanım</td><td>Kullanıcı grubunun adıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Geçerlilik tarihi</td></tr><tr><td>Referans Numarası</td><td>KG390</td></tr><tr><td>Tanım</td><td>Kullanıcı grubunun ne kadar süre ile geçerli olduğunu gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 127,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 422,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 128,
+                    StandartIcerikID = 423,
                     StandartID = 1,
                     BaslikNo = "19.13",
                     Baslik = "Güvenlik seviye tanımları üstveri elemanları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Güvenlik kodu</td></tr><tr><td>Referans Numarası</td><td>GS001</td></tr><tr><td>Tanım</td><td>Güvenlik seviyesi için verilmiş olan kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tanım</td></tr><tr><td>Referans Numarası</td><td>GS050</td></tr><tr><td>Tanım</td><td>Güvenlik seviyesinin ne olduğunu gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Yasal dayanak</td></tr><tr><td>Referans Numarası</td><td>GS110</td></tr><tr><td>Tanım</td><td>Güvenlik kısıtlamasının yasal dayanağının ne olduğu bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Kanunlar, yönetmelikler v.s</td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 128,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 423,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 129,
+                    StandartIcerikID = 424,
                     StandartID = 1,
                     BaslikNo = "19.14",
                     Baslik = "Tasfiye işlem tanımları üstveri elemanları",
                     Detay = "<table table border='1' cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tasfiye işlem kodu</td></tr><tr><td>Referans Numarası</td><td>TS001</td></tr><tr><td>Tanım</td><td>Tasfiye işlemi için verilmiş olan kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tanım</td></tr><tr><td>Referans Numarası</td><td>TS050</td></tr><tr><td>Tanım</td><td>Tasfiye işleminin ne olduğunu gösteren bilgidir</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 129,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 424,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 130,
+                    StandartIcerikID = 425,
                     StandartID = 1,
                     BaslikNo = "19.15",
                     Baslik = "Sistem kullanımı üstveri elemanları",
                     Detay = "<table table border='1' cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Sistem Kullanım Referans numarası</td></tr><tr><td>Referans Numarası</td><td>SK001</td></tr><tr><td>Tanım</td><td>Sistemde gerçekleştirilen her bir işlem için verilmiş olan kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı kodu</td></tr><tr><td>Referans Numarası</td><td>KP001</td></tr><tr><td>Tanım</td><td>İşlemi gerçekleştiren kullanıcıyı tanımlamak için verilmiş olan kod numarasıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Fonksiyon kodu</td></tr><tr><td>Referans Numarası</td><td>SK101</td></tr><tr><td>Tanım</td><td>Kullanıcının sistemde gerçekleştirmiş olduğu fonksiyona ait kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>İşlem kodu</td></tr><tr><td>Referans Numarası</td><td>IT001</td></tr><tr><td>Tanım</td><td>Kullanıcının fonksiyon üzerinde ne tür bir işlem gerçekleştirmiş olduğunu gösteren kod numarasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tarih ve saat</td></tr><tr><td>Referans Numarası</td><td>SK255</td></tr><tr><td>Tanım</td><td>İşlemin ne zaman gerçekleştirilmiş olduğunu gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 130,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 425,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 131,
+                    StandartIcerikID = 426,
                     StandartID = 1,
                     BaslikNo = "19.16",
                     Baslik = "Dijital Görüntüleme ile Sisteme alınanlara ait üstveri tanımları",
                     Detay = "<table table border='1' cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Görüntü Referans Kodu</td></tr><tr><td>Referans Numarası</td><td>DG001</td></tr><tr><td>Tanım</td><td>Dosyanın sistemdeki türeme kodudur. Sistem tarafından dijital görüntüye verilen değişmez numarası</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Görüntü Adı</td></tr><tr><td>Referans Numarası</td><td>DG010</td></tr><tr><td>Tanım</td><td>Dijital ortama aktarılan materyalin dijital ortamda aldığı addır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Görüntü Türü</td></tr><tr><td>Referans Numarası</td><td>DG070</td></tr><tr><td>Tanım</td><td>Görüntülenecek malzemenin türünü ifade eden üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Görüntü Kopya Türü</td></tr><tr><td>Referans Numarası</td><td>DG140</td></tr><tr><td>Tanım</td><td>Görüntülenecek malzemenin hangi kopya türü ile elektronik ortamda aktarılacağını ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Çözünürlük</td></tr><tr><td>Referans Numarası</td><td>DG160</td></tr><tr><td>Tanım</td><td>Görüntülenecek malzemenin DPI veya PPI olarak ölçütlerinin belirlenmesidir. Görüntülenecek malzemenin elektronik ortamdaki kalitesini belirleyen en temel unsurdur.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tonlama/Bit Derinliği</td></tr><tr><td>Referans Numarası</td><td>DG170</td></tr><tr><td>Tanım</td><td>Görüntülenecek malzemenin renk ve bit derinliğinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Renk Yönetimi</td></tr><tr><td>Referans Numarası</td><td>DG190</td></tr><tr><td>Tanım</td><td>Kullanılan tarayıcının veya yazılım özelliğine bağlı olarak aktarılan materyallerin renk profilini ifade eder</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Görüntü Dosya Formatı</td></tr><tr><td>Referans Numarası</td><td>DG830</td></tr><tr><td>Tanım</td><td>Dijitalleştirilen görüntünün hangi dosya formatı ile sisteme alındığının tanımlandığı alandır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Boyut</td></tr><tr><td>Referans Numarası</td><td>DG350</td></tr><tr><td>Tanım</td><td>Belgenin elektronik ortamda kapsadığı boyuttur. Dijitalleştirilen görüntünün sistemde ne kadar yer kapladığının bir göstergesidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Lokasyon</td></tr><tr><td>Referans Numarası</td><td>DG400</td></tr><tr><td>Tanım</td><td>Dijitalleştirilen görüntünün çevrim dışı olarak hangi lokasyonda tutulduğunu ifade etmek için kullanılan alandır. Dijitalleştirilmiş görüntünün fiziksel ortamdaki yerini ifade etmek için de kullanılır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Zaman damgası</td></tr><tr><td>Referans Numarası</td><td>DG520</td></tr><tr><td>Tanım</td><td>Elektronik görüntünün hangi tarih ve saatte imzalandığı bilgisidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>İmza görevi görmez. Sadece işlemin ne zaman yapıldığını ispatlamak için kullanılır.</td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kurumsal İmza</td></tr><tr><td>Referans Numarası</td><td>DG540</td></tr><tr><td>Tanım</td><td>Dijitalleştirilen malzemenin görüntüsünün idare tarafından elektronik onay yoluyla kayıt altına alınmasıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Açıklama</td></tr><tr><td>Referans Numarası</td><td>DG600</td></tr><tr><td>Tanım</td><td>Dijitalleştirmenin amacının tanımlandığı veya görüntü ile ilgili herhangi bir notun eklenebilmesi için oluşturmuş üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 131,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 426,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 132,
+                    StandartIcerikID = 427,
                     StandartID = 1,
                     BaslikNo = "19.17",
                     Baslik = "Fon/Kurum Üstveri Elemanları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0' ><tr><td width=150>Eleman Adı</td><td width=700>Fon/Kurum Kodu</td></tr><tr><td>Referans Numarası</td><td>FO001</td></tr><tr><td>Tanım</td><td>DETSİS’te tanımlı idari kimlik kodunu ifade eder. Tüzel bir kuruluş olması durumunda MERSİS ticari sicil numarası kullanılabilir. Bir şahıs olması durumunda ise Şahsa ait vatandaşlık numarasını ifade eder. Şahsa ait bir vatandaşlık numarası yoksa otorite dosyasından bir ID üretilerek şahısla eşleştirilir. Aynı şekilde bir kurum veya tüzel kuruluş için de ilgili veri tabanlarında kayıt bulunamazsa otorite dosyası üzerinden bir ID üretilerek işlem yapılabilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Fon /Kurum Adı (Kuruluş ve Şahıs)</td></tr><tr><td>Referans Numarası</td><td>FO010</td></tr><tr><td>Tanım</td><td>Kurumunun kanundaki tam adını veya Şahsın adını veya soyadını ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Yasal Dayanak</td></tr><tr><td>Referans Numarası</td><td>FO110</td></tr><tr><td>Tanım</td><td>Saklama sürelerinin hangi yasal düzenlemeye göre atandığını gösteren bilgidir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tarihçe (İdari/Biyografik Tarih)</td></tr><tr><td>Referans Numarası</td><td>FO100</td></tr><tr><td>Tanım</td><td>Tanımlama biriminin şartları ve çevresi içinde bir yere oturtabilmek ve daha anlaşılabilir kılmak amacıyla üreticisi hakkında idari tarih ya da biyografik ayrıntılar sağlamak</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Tanımlama biriminin oluşumundan sorumlu kurumun(ların) ortaya çıkış, ilerleme, gelişim ve işleyişi ya da şahsın(ların) yaşamı ve çalışmaları konusunda önemli bilgi özet olarak verilir. Eğer basılı kaynaklarda ek bilgi mevcutsa bu kaynaklar referans olarak gösterilir</td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kuruluş/Doğum Tarihi</td></tr><tr><td>Referans Numarası</td><td>FO210</td></tr><tr><td>Tanım</td><td>Kurumun faaliyet gösterdiği ilk tarihi ifade eder. Şahıslar için doğum tarihi kabul edilebilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kapanış/Ölüm Tarihi</td></tr><tr><td>Referans Numarası</td><td>FO290</td></tr><tr><td>Tanım</td><td>Kurumun faaliyetlerinin sona erdiği tarihi ya da sadece devrettiği o fon için devrettiği tarihi ifade eder. Şahıslar için ölüm tarihi kabul edilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Yöneticiler</td></tr><tr><td>Referans Numarası</td><td>FO130</td></tr><tr><td>Tanım</td><td>Kurumda yöneticilik yapmış kişilerin tanımlandığı üstveri dizinidir.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kuruluş Yeri</td></tr><tr><td>Referans Numarası</td><td>FO150</td></tr><tr><td>Tanım</td><td>Kurumun faaliyet gösterdiği yeri ifade eder. Şahıslar için doğum yeri, yaşadığı yer gibi alanlar dâhil edilebilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Devamı olduğu Kurumlar (Varsa)</td></tr><tr><td>Referans Numarası</td><td>FO090</td></tr><tr><td>Tanım</td><td>Daha evvel bir fonun devamı olup olmadığının ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Önemli Tarihler</td></tr><tr><td>Referans Numarası</td><td>FO250</td></tr><tr><td>Tanım</td><td>Fon içinde geçen önemli tarihlerin vurgulandığı tarihlerdir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Koleksiyon tanımı</td></tr><tr><td>Referans Numarası</td><td>FO320</td></tr><tr><td>Tanım</td><td>Devredilecek koleksiyonun tanımını içeren üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı hizmetleri</td></tr><tr><td>Referans Numarası</td><td>FO380</td></tr><tr><td>Tanım</td><td>Arşiv kullanıcılarını kayıt altına almaya yönelik bir sistemi bünyesinde barındırması ya da Kayıtlı kullanıcıların arşiv malzemesini nasıl kullandıklarının (görme, kopya üretme, referans verme) kayıt altına alınması ile ilgili bilgilerin yönetilmesine yönelik fonksiyonların izlendiği üstveri alanıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Adres</td></tr><tr><td>Referans Numarası</td><td>FO470</td></tr><tr><td>Tanım</td><td>İlgili Kurumun adresinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Telefon</td></tr><tr><td>Referans Numarası</td><td>FO480</td></tr><tr><td>Tanım</td><td>İlgili kurumun telefon numarasının yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>İnternet Adresi</td></tr><tr><td>Referans Numarası</td><td>FO490</td></tr><tr><td>Tanım</td><td>İlgili kurumun internet adresinin yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>E-Posta Adresi</td></tr><tr><td>Referans Numarası</td><td>FO810</td></tr><tr><td>Tanım</td><td>İlgili kurumun e-posta adresinin yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>KEP adresi</td></tr><tr><td>Referans Numarası</td><td>FO960</td></tr><tr><td>Tanım</td><td>İlgili kurumun kullandığı Kayıtlı Elektronik Posta adresinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 132,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 427,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 133,
+                    StandartIcerikID = 428,
                     StandartID = 1,
                     BaslikNo = "19.18",
                     Baslik = "Alt Fon/ Alt Kurum Üstveri Elemanları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0' ><tr><td width=150>Eleman Adı</td><td width=700>Alt Fon/ Alt Kurum Üstveri Elemanları</td></tr><tr><td>Referans Numarası</td><td>AF001</td></tr><tr><td>Tanım</td><td>DETSİS’te tanımlı idari kimlik kodunu ifade eder. Tüzel bir kuruluş olması durumunda MERSİS ticari sicil numarası kullanılabilir. Bir şahıs olması durumunda ise Şahsa ait vatandaşlık numarasını ifade eder. Şahsa ait bir vatandaşlık numarası yoksa otorite dosyasından bir ID üretilerek şahısla eşleştirilir. Aynı şekilde bir kurum veya tüzel kuruluş için de ilgili veri tabanlarında kayıt bulunamazsa otorite dosyası üzerinden bir ID üretilerek işlem yapılabilir. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Kuruma bağlı bir birimi ifade etmek için de kullanılabilir.</td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Alt Fon /Alt Kurum Adı</td></tr><tr><td>Referans Numarası</td><td>AF010</td></tr><tr><td>Tanım</td><td>Alt kurumunun kanundaki tam adını ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Yasal Dayanak</td></tr><tr><td>Referans Numarası</td><td>AF110</td></tr><tr><td>Tanım</td><td>Saklama koşulunun hangi yasal düzenlemeye göre atandığını gösteren bilgidir. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tarihçe (İdari/Biyografik Tarih)</td></tr><tr><td>Referans Numarası</td><td>AF100</td></tr><tr><td>Tanım</td><td>Tanımlama biriminin şartları ve çevresi içinde bir yere oturtabilmek ve daha anlaşılabilir kılmak amacıyla üreticisi hakkında idari tarih ya da biyografik ayrıntılar sağlamak amacıyla kullanılan üstveri</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Tanımlama biriminin oluşumundan sorumlu kurumun(ların) ortaya çıkış, ilerleme, gelişim ve işleyişi ya da şahsın(ların) yaşamı ve çalışmaları konusunda önemli bilgi özet olarak verilir. Eğer basılı kaynaklarda ek bilgi mevcutsa bu kaynaklar referans olarak gösterilir</td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kuruluş/Doğum Tarihi</td></tr><tr><td>Referans Numarası</td><td>AF210</td></tr><tr><td>Tanım</td><td>Alt kurumun faaliyet gösterdiği ilk tarihi ifade eder. Şahıslar için doğum tarihi kabul edilebilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kapanış/Ölüm Tarihi</td></tr><tr><td>Referans Numarası</td><td>AF290</td></tr><tr><td>Tanım</td><td>Alt kurumun faaliyetlerinin sona erdiği tarihi ya da sadece devrettiği o fon için devrettiği tarihi ifade eder. Şahıslar için ölüm tarihi kabul edilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Yöneticiler</td></tr><tr><td>Referans Numarası</td><td>AF130</td></tr><tr><td>Tanım</td><td>Kurumda yöneticilik yapmış kişilerin tanımlandığı üstveri dizinidir.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kuruluş Yeri</td></tr><tr><td>Referans Numarası</td><td>AF150</td></tr><tr><td>Tanım</td><td>Kurumun faaliyet gösterdiği yeri ifade eder. Şahıslar için doğum yeri, yaşadığı yer gibi alanlar dâhil edilebilir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Devamı olduğu Kurumlar (Varsa)</td></tr><tr><td>Referans Numarası</td><td>AF090</td></tr><tr><td>Tanım</td><td>Daha evvel bir fonun devamı olup olmadığının ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Önemli Tarihler</td></tr><tr><td>Referans Numarası</td><td>AF250</td></tr><tr><td>Tanım</td><td>Fon içinde geçen önemli tarihlerin vurgulandığı tarihlerdir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Koleksiyon tanımı</td></tr><tr><td>Referans Numarası</td><td>AF320</td></tr><tr><td>Tanım</td><td>Devredilecek koleksiyonun tanımını içeren üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı hizmetleri</td></tr><tr><td>Referans Numarası</td><td>AF380</td></tr><tr><td>Tanım</td><td>Arşiv kullanıcılarını kayıt altına almaya yönelik bir sistemi bünyesinde barındırması ya da Kayıtlı kullanıcıların arşiv malzemesini nasıl kullandıklarının (görme, kopya üretme, referans verme) kayıt altına alınması ile ilgili bilgilerin yönetilmesine yönelik fonksiyonların izlendiği üstveri alanıdır</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Adres</td></tr><tr><td>Referans Numarası</td><td>AF470</td></tr><tr><td>Tanım</td><td>İlgili Kurumun adresinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Telefon</td></tr><tr><td>Referans Numarası</td><td>AF480</td></tr><tr><td>Tanım</td><td>İlgili kurumun telefon numarasının yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>İnternet Adresi</td></tr><tr><td>Referans Numarası</td><td>AF490</td></tr><tr><td>Tanım</td><td>İlgili kurumun internet adresinin yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>E-Posta Adresi</td></tr><tr><td>Referans Numarası</td><td>AF810</td></tr><tr><td>Tanım</td><td>İlgili kurumun e-posta adresinin yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>KEP adresi</td></tr><tr><td>Referans Numarası</td><td>AF960</td></tr><tr><td>Tanım</td><td>İlgili kurumun kullandığı Kayıtlı Elektronik Posta adresinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 133,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 428,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 134,
+                    StandartIcerikID = 429,
                     StandartID = 1,
                     BaslikNo = "19.19",
                     Baslik = "Fon Grubu Üstveri Tanımları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0' ><tr><td width=150>Eleman Adı</td><td width=700>Fon Grubu Üstveri Tanımları</td></tr><tr><td>Referans Numarası</td><td>FG001</td></tr><tr><td>Tanım</td><td>Fon grubu kodunun tanımlandığı üstveri alanıdır. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Fon Grup Tanımı</td></tr><tr><td>Referans Numarası</td><td>FG010</td></tr><tr><td>Tanım</td><td>ir arşiv kurumu içerisindeki benzer fonksiyonlara sahip kurumlardan gelen arşiv malzemelerinin bütününün ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 134,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 429,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 135,
+                    StandartIcerikID = 430,
                     StandartID = 1,
                     BaslikNo = "19.20",
                     Baslik = "Arşiv Kurumları Üstverisi Tanımları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0' ><tr><td width=150>Eleman Adı</td><td width=700>rşiv Kurum Kodu</td></tr><tr><td>Referans Numarası</td><td>AK001</td></tr><tr><td>Tanım</td><td>rşiv kurumunun kodlandığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>rşiv Kurum Adı</td></tr><tr><td>Referans Numarası</td><td>AK010</td></tr><tr><td>Tanım</td><td>Belirli bir yasal çerçeve içerisinde faaliyet gösteren ve farklı kurumlar tarafından üretilmiş olan arşiv malzemesini ayıklama, düzenleme, tanımlama, hizmete sunma ve diğer yönetimsel fonksiyonları yerine getiren ulusal, bölgesel ya da özel amaçlı arşiv kurumlarını ifade eden üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kuruluş Tarihi</td></tr><tr><td>Referans Numarası</td><td>AK210</td></tr><tr><td>Tanım</td><td>Arşiv kurumun faaliyetlerine başladığı tarihi ifade eder </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tarihçe (İdari/Biyografik Tarih)</td></tr><tr><td>Referans Numarası</td><td>AK100</td></tr><tr><td>Tanım</td><td>rşiv kurumunun yıllar içerisinde uğramış olduğu fonksiyon değişiklikleri önemli mevzuat gelişmeleri vb. gibi durumları ifade etmek için kullanılan üstveri alanıdır. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Koleksiyon Tanımı</td></tr><tr><td>Referans Numarası</td><td>AK320</td></tr><tr><td>Tanım</td><td>Arşiv kurumuna devredilen koleksiyonun tanımlandığı üstveri alanıdır. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Kullanıcı Hizmetleri</td></tr><tr><td>Referans Numarası</td><td>AK380</td></tr><tr><td>Tanım</td><td>Arşiv kullanıcılarını kayıt altına almaya yönelik bir sistemi bünyesinde barındırması ya da Kayıtlı kullanıcıların arşiv malzemesini nasıl kullandıklarının (görme, kopya üretme, referans verme) kayıt altına alınması ile ilgili bilgilerin yönetilmesine yönelik fonksiyonların izlendiği üstveri alanıdır..</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Adres</td></tr><tr><td>Referans Numarası</td><td>AK470</td></tr><tr><td>Tanım</td><td>Arşiv Kurumunun adresinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Telefon</td></tr><tr><td>Referans Numarası</td><td>AK480</td></tr><tr><td>Tanım</td><td>Arşiv kurumunun telefon numarasının yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>İnternet Adresi</td></tr><tr><td>Referans Numarası</td><td>AK490</td></tr><tr><td>Tanım</td><td>Arşiv kurumunun internet adresinin yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>E-Posta Adresi</td></tr><tr><td>Referans Numarası</td><td>AK810</td></tr><tr><td>Tanım</td><td>Arşiv kurumunun e-posta adresinin yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>KEP adresi</td></tr><tr><td>Referans Numarası</td><td>AK960</td></tr><tr><td>Tanım</td><td>Arşiv kurumunun kullandığı Kayıtlı Elektronik Posta adresinin ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 135,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 430,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 136,
+                    StandartIcerikID = 431,
                     StandartID = 1,
                     BaslikNo = "19.21",
                     Baslik = "İşlem Tanımları Üstveri Alanları",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0' ><tr><td width=150>Eleman Adı</td><td width=700>İşlem referans numarası</td></tr><tr><td>Referans Numarası</td><td>IT001</td></tr><tr><td>Tanım</td><td>Yapılan işlemin referans numarasını ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Sorumlu Personel</td></tr><tr><td>Referans Numarası</td><td>IT110</td></tr><tr><td>Tanım</td><td>Yapılan işlemden sorumlu personel veya personelleri ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>İşlem Başlama Tarihi</td></tr><tr><td>Referans Numarası</td><td>IT210</td></tr><tr><td>Tanım</td><td>İşlemin başlama tarihini ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>İşlem Bitiş Tarihi</td></tr><tr><td>Referans Numarası</td><td>IT290</td></tr><tr><td>Tanım</td><td>İşlemin bitiş tarihini ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Maliyet</td></tr><tr><td>Referans Numarası</td><td>IT352</td></tr><tr><td>Tanım</td><td>Yapılan işlemin maliyetinin ne kadar olduğunun belirtildiği üstveri alanıdır. </td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Notlar</td></tr><tr><td>Referans Numarası</td><td>IT800</td></tr><tr><td>Tanım</td><td>İşlem tanımı ile ilgili belirtilmesi gerekenlerin ifade edildiği üstveri alanıdır. </td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Yetkili Personel</td></tr><tr><td>Referans Numarası</td><td>IT115</td></tr><tr><td>Tanım</td><td>İşlemi yapma yetkisi bulunan personeli ifade eder</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Elektronik belgenin üretim, iletim ve alındısına ait tarih bilgilerinin fiziksel olarak belgeye eklenmesi veya belge ile mantıksal olarak ilişkilendirilmesidir </td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Tarih ve Zaman Damgası</td></tr><tr><td>Referans Numarası</td><td>IT550</td></tr><tr><td>Tanım</td><td>Arşiv kurumunun telefon numarasının yer aldığı üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Güncelleme İçeriği</td></tr><tr><td>Referans Numarası</td><td>IT320</td></tr><tr><td>Tanım</td><td>Yapılan işlemin ne olduğu ve hangi güncellemeleri kapsadığının ifade edildiği üstveri alanıdır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 136,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 431,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 137,
+                    StandartIcerikID = 432,
                     StandartID = 1,
                     BaslikNo = "19.22",
                     Baslik = "E-Posta Üstveri Elemanlar",
                     Detay = "<table table border='1'  cellspacing='0' cellpadding='0' ><tr><td width=150>Eleman Adı</td><td width=700>e-Posta ID</td></tr><tr><td>Referans Numarası</td><td>EP001</td></tr><tr><td>Tanım</td><td>E-postanın sistem tarafından verilen ve tekrar etmeyen referans numarasıdır. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Hesap</td></tr><tr><td>Referans Numarası</td><td>EP010</td></tr><tr><td>Tanım</td><td>Posta içeriğinden sorumlu kişi veya hesabın bulunduğu kişiyi ifade eder</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Alıcı (To)</td></tr><tr><td>Referans Numarası</td><td>EP020</td></tr><tr><td>Tanım</td><td>E-postayı alan hesabı ifade eder. Asıl postayı alan muhataptır. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Gönderen (From)</td></tr><tr><td>Referans Numarası</td><td>EP050</td></tr><tr><td>Tanım</td><td>Elektronik postayı gönderen hesabı ifade eder</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>lıcı İlgili-Görünür (CC) (Varsa)</td></tr><tr><td>Referans Numarası</td><td>EP030</td></tr><tr><td>Tanım</td><td>E-postayı kopya olarak alan başka bir hesabı ifade eder. Mesajı alan kişi tarafından görülürdür.</td></tr><tr><td>Zorunluluk</td><td>Seçmeli</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Alıcı İlgili-Görünmez (BCC) (Varsa)</td></tr><tr><td>Referans Numarası</td><td>EP080</td></tr><tr><td>Tanım</td><td>E-postayı kopya olarak alan başka bir hesabı ifade der. Mesajı alan kişi görünür değildir. Postayı gönderen hesap tarafından bilinirdir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Gönderim Tarihi/Zamanı</td></tr><tr><td>Referans Numarası</td><td>EP210</td></tr><tr><td>Tanım</td><td>E-Postanın gönderildiği tarih ve zaman bilgisidir. </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Alma Tarihi/Zamanı</td></tr><tr><td>Referans Numarası</td><td>EP220</td></tr><tr><td>Tanım</td><td>E-postanın alıcısı tarafından alındığı tarihtir ve zamandır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td>Gönderim tarihi/zamanı ile alma tarihi/zamanı arasında çeşitli sebeplerden kaynaklanan farklılıklar olabilir.</td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>E-Posta Konusu</td></tr><tr><td>Referans Numarası</td><td>EP055</td></tr><tr><td>Tanım</td><td>Elektronik postanın içeriği hakkında kısa bilginin olduğu alandır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>Ek Bilgisi</td></tr><tr><td>Referans Numarası</td><td>EP750</td></tr><tr><td>Tanım</td><td>E-postanın eki ya da eklerini olup olmadığını belirlendiği alandır </td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>E-postanın eki ya da eklerini olup olmadığını belirlendiği alandır </td></tr><tr><td>Referans Numarası</td><td>EP300</td></tr><tr><td>Tanım</td><td>E-postanın gövde metnini ifade eden alandır.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>E-postanın Sisteme Kayıt Edilme Tarihi/Zamanı</td></tr><tr><td>Referans Numarası</td><td>EP240</td></tr><tr><td>Tanım</td><td>Alınan e-postanın sisteme kayıt edilme tarihini/zamanını ifade eder.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table><br><table table border='1'  cellspacing='0' cellpadding='0'><tr><td width=150>Eleman Adı</td><td width=700>KEP Sağlayıcı Kurulu</td></tr><tr><td>Referans Numarası</td><td>EP850</td></tr><tr><td>Tanım</td><td>Kayıtlı Elektronik Posta Sağlayıcısının bilgilerini içerir.</td></tr><tr><td>Zorunluluk</td><td>Zorunlu</td></tr><tr><td>Notlar</td><td></td></tr></table>",
-                    UstIcerikID = 115,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 137,
-                    DurumID = 1
+                    UstIcerikID = 401,
+                    StandartIcerikTipiID = 168,
+                    SiraNo = 432,
+                    DurumID = 1,
+                    StandartIcerikDenetim =
+                        new StandartIcerikDenetim {
+                        StandartID = 1,
+                        Secmeli = false,
+                        Zorunlu = false,
+                        BilgiAmacli = false,
+                        KurumYeterlilikSertifikasi = false,
+                        UrunSertifikasi = true,
+                        DurumID = 1
+                        }
                 },
                 new StandartIcerik
                 {
-                    StandartIcerikID = 138,
+                    StandartIcerikID = 433,
                     StandartID = 1,
                     BaslikNo = "20",
                     Baslik = "Yararlanılan Kaynaklar",
                     Detay = "<p>ANSI/ARMA 5-2010. Vital Records Programs: Identifying, Managing, and Recovering BusineÜS-Critical Records ARMA International, 2010, ISBN 978-1-931786-87-4</p><p>BS 10008:2014. Evidential weight and legal admiÜSibility of electronic information. Specification, London:2014,  ISBN 978 0 580 83673 2</p><p>Design Criteria Standard for Electronic Records Management Software Applicaitons. DoD 5015-2-STD. Washington, DC: Department of Defence, 25 Nisan 2007.</p><p>Digital recordkeeping: guidelines for creating, managing and preserving digital records. Canberra: National Archives of Australia, 2004. ISBN 1-620807-08-X</p><p>Digital Preservation in Archives:Overview of Current Research and Practices, National Archives of Sweden, 2005</p><p>ANSI/NISO Z39.85-2012: The Dublin Core Metadata Element Set, The American National Standards Institute, 20 Şubat 2013, IÜSN: 1041-5635</p><p>Guide for managing electronic records from an archival perspective. Paris: ICA Committee on Electronic Records, 1997. ISBN 0-9682361-0-3</p><p>ISO 15836:2009 -Information and documentation -- The Dublin Core metadata element set, Cenevre: ISO, 2009.</p><p>International Research on Permanent Authentic Records in Electronic Systems (InterPARES) 2: Experiential, Interactive and Dynamic Records, ed. Luciana Duranti ve Randy Preston, AÜSociazione Nazionale Archivistica Italiana Padova, Italy, 2008</p><p>ISAD (G): General International Standard Archival Description. 2nd ed. Stockholm, Sweden: ICA, Committee on Descriptive Standards, 2000. ISBN: 0-9696035-5-X</p><p>ISO 15489-1: 2001. Information and Documentation – Records Management. Part 1: General. Cenevre: ISO, 2001.</p><p>ISO 15489-2: 2001. Information and Documentation – Records Management. Part 2: Guidelines. Cenevre:ISO, 2001.</p><p>ISO/TSE 17799. Information technology: Code of practice for information security management. Cenevre: ISO, 2005.</p><p>Kandur, Hamza. Elektronik Belge Yönetim Sistemleri Referans Kriterleri v.2, Başbakanlık Devlet Arşivleri Genel Müdürlüğü, 2006, Ankara, Cumhuriyet Arşivi Daire Başkanlığı Yayın Nu: 29, ISBN: 975-19-3877-5 Management, appraisal and preservation of electronic records. 2 vol. 2nd ed. London: Public Record Office, 1999.</p><p>MoReq2 Specification: Model requirements for the management of electronic records Update  and Extension, 2008,  European CommiÜSion by Serco Consulting with funding from the IDABC programme, ISBN 978-9279-09772-0, DOI 10.2792/11981</p><p>NISO Z39-50. Information Retrieval : Application Service Definition & Protocol Specification. Bethesda, Maryland: National Information Standards Organizatoin, 2002. ISBN: 1-8800124-55-6. IÜSN: 1041-5653. NISO Z39-87. Data Dictionary – Technical Metadata for Digital Still Images. Draft standard for trial use. Bethesda, Maryland: National Information Standards Organizatoin, 2003.</p><p>Records/Document/Information Management (RDIM): Integrated Document Management System for the Government of Canada.Ottowa: National Archives Canada, 1996.</ p >< p > Requirements for Electronic Records Management Systems.Londra: Public Record Office, 2002.</ p >< p > Yalçınkaya, Bahattin.E - Devlet Üstveri Standardının Oluşturulması ve Türkiye İçin Modellenmesi, (Doktora Tezi) Marmara Üniversitesi, Bilgi ve Belge Yönetimi, 2014, Tez Numarası: 10028138 </ p > ",
                     UstIcerikID = 0,
-                    StandartIcerikTipiID = 162,
-                    SiraNo = 138,
+                    StandartIcerikTipiID = 170,
+                    SiraNo = 433,
                     DurumID = 1
-                }    
-                */            
+                }           
             });
             #endregion
            
@@ -16869,6 +20355,7 @@
                 }             
             });
             #endregion
+
             base.Seed(context);
         }
     }
