@@ -18,7 +18,7 @@
         [Display(Name ="Ulke")]
         public int UlkeID { get; set; }
 
-        [Display(Name = "Şehir Adı") MaxLength(255) Required]
+        [Display(Name = "Şehir Adı"), MaxLength(255), Required]
         public string SehirAdi { get; set; }
 
         [Display(Name = "Durum")]

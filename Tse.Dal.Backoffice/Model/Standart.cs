@@ -16,7 +16,7 @@
         //Properties
         public int StandartID { get; set; }
 
-        [Display(Name = "Tse No") MaxLength(255) Required]
+        [Display(Name = "Tse No"), MaxLength(255), Required]
         public string TsNo { get; set; }
 
         [Display(Name = "Kabul Tarihi")]
@@ -34,10 +34,10 @@
         [Display(Name = "Standart Tür")]
         public int StandartTurID { get; set; }
 
-        [Display(Name = "Başlık (Tr)") Required]
+        [Display(Name = "Başlık (Tr)"), Required]
         public string BaslikTr { get; set; }
 
-        [Display(Name = "Başlık (En)") Required]
+        [Display(Name = "Başlık (En)"), Required]
         public string BaslikEn { get; set; }
 
         [Display(Name = "Kapsam (Tr)")]

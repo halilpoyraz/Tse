@@ -14,16 +14,16 @@
         //Properties
         public int KisiID { get; set; }
 
-        [Display(Name ="Adı") MaxLength(255) Required]
+        [Display(Name ="Adı"), MaxLength(255), Required]
         public string Adi { get; set; }
 
-        [Display(Name ="Soyadı") MaxLength(255) Required]
+        [Display(Name ="Soyadı"), MaxLength(255), Required]
         public string Soyadi { get; set; }
 
         [Display(Name = "Tc Kimlik No")]
         public long TcKimlikNo { get; set; }
 
-        [Display(Name = "Ünvanı") MaxLength(255)]
+        [Display(Name = "Ünvanı"), MaxLength(255)]
         public string Unvan { get; set; }
 
         [Display(Name = "Firma")]

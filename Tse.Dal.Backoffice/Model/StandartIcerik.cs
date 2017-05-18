@@ -18,13 +18,13 @@
         [Display(Name = "Standart")]
         public int StandartID { get; set; }
 
-        [Display(Name ="Başlık No") MaxLength(255)]
+        [Display(Name ="Başlık No"), MaxLength(255)]
         public string BaslikNo { get; set; }
 
-        [Display(Name ="Başlık") MaxLength(255)]
+        [Display(Name ="Başlık"), MaxLength(255)]
         public string Baslik { get; set; }
 
-        [Display(Name ="Detay") Column(TypeName ="text")]
+        [Display(Name ="Detay"), Column(TypeName ="text")]
         public string Detay { get; set; }
 
         [Display(Name ="Ebeveyn")]

@@ -24,7 +24,7 @@
         [Display(Name ="Adres Tipi")]
         public int AdresTipiID { get; set; }
 
-        [Display(Name ="Adres Satırı") MaxLength(255) Required]
+        [Display(Name ="Adres Satırı"), MaxLength(255), Required]
         public string AdresSatiri { get; set; }
 
         [Display(Name ="İlçe")]

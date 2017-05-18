@@ -19,7 +19,7 @@
         [Display(Name = "Firma")]
         public int? FirmaID { get; set; }
 
-        [Display(Name = "E-Posta Adresi") MaxLength(255) Required]
+        [Display(Name = "E-Posta Adresi"), MaxLength(255), Required]
         public string EpostaAdresi { get; set; }
 
         [Display(Name = "Varsayılan E-posta")]

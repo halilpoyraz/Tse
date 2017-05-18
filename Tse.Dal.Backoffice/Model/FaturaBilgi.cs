@@ -19,10 +19,10 @@
         [Display(Name ="Firma")]
         public int? FirmaID { get; set; }
 
-        [Display(Name ="Vergi Dairesi") MaxLength(255) Required]
+        [Display(Name ="Vergi Dairesi"), MaxLength(255), Required]
         public string VergiDairesi { get; set; }
         
-        [Display(Name = "Vergi No") MaxLength(255) Required]
+        [Display(Name = "Vergi No"), MaxLength(255), Required]
         public string VergiNo { get; set; }
 
         [Display(Name = "Fatura Adresi")]

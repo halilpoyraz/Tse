@@ -23,10 +23,10 @@
         [Display(Name ="Telefon Tipi")]
         public int TelefonTipiID { get; set; }
 
-        [Display(Name ="Telefon No") MaxLength(25) Required]
+        [Display(Name ="Telefon No"), MaxLength(25), Required]
         public string TelefonNo { get; set; }
 
-        [Display(Name ="Dahili No") MaxLength(10)]
+        [Display(Name ="Dahili No"), MaxLength(10)]
         public string DahiliNo { get; set; }
 
         [Display(Name ="Varsayılan Telefon")]

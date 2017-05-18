@@ -13,7 +13,7 @@
         //Properties        
         public int StandartIcerikPuanID { get; set; }        
 
-        [Display(Name = "Tip Adı") Required]
+        [Display(Name = "Tip Adı"), Required]
         public string TipAdi { get; set; }
 
         [Display(Name = "Puan")]

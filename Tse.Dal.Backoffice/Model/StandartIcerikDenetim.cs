@@ -11,7 +11,7 @@
         }
 
         //Properties
-        [Key ForeignKey("StandartIcerik") Display(Name = "Standart İçerik")]
+        [Key, ForeignKey("StandartIcerik"), Display(Name = "Standart İçerik")]
         public int StandartIcerikID { get; set; }
 
         [Display(Name = "Standart")]

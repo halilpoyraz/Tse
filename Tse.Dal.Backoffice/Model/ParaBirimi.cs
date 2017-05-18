@@ -14,10 +14,10 @@
         //Properties        
         public int ParaBirimiID { get; set; }
 
-        [Display(Name ="Kodu") MaxLength(255) Required]
+        [Display(Name ="Kodu"), MaxLength(255), Required]
         public string Kodu { get; set; }
 
-        [Display(Name ="Cinsi") MaxLength(255) Required]
+        [Display(Name ="Cinsi"), MaxLength(255), Required]
         public string Cinsi { get; set; }
 
         [Display(Name = "Sıra No")]

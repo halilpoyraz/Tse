@@ -21,7 +21,7 @@
         [Display(Name ="İlçe Kodu")]
         public int IlceKodu { get; set; }
 
-        [Display(Name ="İlçe Adı") MaxLength(255) Required]
+        [Display(Name ="İlçe Adı"), MaxLength(255), Required]
         public string IlceAdi { get; set; }
 
         [Display(Name ="Durum")]

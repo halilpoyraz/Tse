@@ -14,10 +14,10 @@
         //Properties
         public int FirmaID { get; set; }
 
-        [Display(Name ="Ticaret Unvanı") MaxLength(255) Required]
+        [Display(Name ="Ticaret Unvanı"), MaxLength(255), Required]
         public string TicaretUnvani { get; set; }
 
-        [Display(Name ="Web Adresi") MaxLength(255)]
+        [Display(Name ="Web Adresi"), MaxLength(255)]
         public string WebAdresi { get; set; }
 
         [Display(Name ="Durum")]
