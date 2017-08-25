@@ -23,7 +23,7 @@
             return View(model);
         }
 
-        [ActionName("firma-ekle") HttpPost ValidateAntiForgeryToken]
+        [ActionName("firma-ekle"), HttpPost, ValidateAntiForgeryToken]
         public ActionResult FirmaEkle(Firma firma)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -67,7 +67,7 @@
             }
         }
 
-        [ActionName("firma-duzenle") HttpPost ValidateAntiForgeryToken]
+        [ActionName("firma-duzenle"), HttpPost, ValidateAntiForgeryToken]
         public ActionResult FirmaDuzenle(Firma firma)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -84,7 +84,7 @@
             }
         }
 
-        [ActionName("firma-sil") HttpPost]
+        [ActionName("firma-sil"), HttpPost]
         public ActionResult FirmaSil(int? id)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -152,7 +152,7 @@
             }            
         }
 
-        [HttpPost ActionName("firma-adres-ekle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("firma-adres-ekle"), ValidateAntiForgeryToken]
         public ActionResult FirmaAdresEkle(Adres adres)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -187,7 +187,7 @@
             }
         }
 
-        [HttpPost ActionName("firma-adres-duzenle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("firma-adres-duzenle"), ValidateAntiForgeryToken]
         public ActionResult FirmaAdresDuzenle(Adres adres)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -199,7 +199,7 @@
             }
         }
         
-        [HttpPost ActionName("firma-adres-sil")]
+        [HttpPost, ActionName("firma-adres-sil")]
         public ActionResult FirmaAdresSil(int? firmaID, int? adresID)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -269,7 +269,7 @@
             }
         }
 
-        [HttpPost ActionName("firma-telefon-ekle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("firma-telefon-ekle"), ValidateAntiForgeryToken]
         public ActionResult FirmaTelefonEkle(Telefon telefon)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -304,7 +304,7 @@
             }
         }
 
-        [HttpPost ActionName("firma-telefon-duzenle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("firma-telefon-duzenle"), ValidateAntiForgeryToken]
         public ActionResult FirmaTelefonDuzenle(Telefon telefon)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -316,7 +316,7 @@
             }
         }
 
-        [HttpPost ActionName("firma-telefon-sil")]
+        [HttpPost, ActionName("firma-telefon-sil")]
         public ActionResult FirmaTelefonSil(int? firmaID, int? telefonID)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -386,7 +386,7 @@
             }
         }
 
-        [HttpPost ActionName("firma-eposta-ekle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("firma-eposta-ekle"), ValidateAntiForgeryToken]
         public ActionResult FirmaEpostaEkle(Eposta eposta)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -421,7 +421,7 @@
             }
         }
 
-        [HttpPost ActionName("firma-eposta-duzenle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("firma-eposta-duzenle"), ValidateAntiForgeryToken]
         public ActionResult FirmaEpostaDuzenle(Eposta eposta)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -433,7 +433,7 @@
             }
         }
 
-        [HttpPost ActionName("firma-eposta-sil")]
+        [HttpPost, ActionName("firma-eposta-sil")]
         public ActionResult FirmaEpostaSil(int? firmaID, int? epostaID)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -503,7 +503,7 @@
             }
         }
 
-        [HttpPost ActionName("firma-faturabilgi-ekle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("firma-faturabilgi-ekle"), ValidateAntiForgeryToken]
         public ActionResult FirmaFaturaBilgiEkle(FaturaBilgi faturabilgi)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -538,7 +538,7 @@
             }
         }
 
-        [HttpPost ActionName("firma-faturabilgi-duzenle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("firma-faturabilgi-duzenle"), ValidateAntiForgeryToken]
         public ActionResult FirmaFaturaBilgiDuzenle(FaturaBilgi faturabilgi)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -550,7 +550,7 @@
             }
         }
 
-        [HttpPost ActionName("firma-faturabilgi-sil")]
+        [HttpPost, ActionName("firma-faturabilgi-sil")]
         public ActionResult FirmaFaturaBilgiSil(int? firmaID, int? faturabilgiID)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())

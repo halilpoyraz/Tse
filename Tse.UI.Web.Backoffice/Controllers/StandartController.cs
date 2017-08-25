@@ -21,7 +21,7 @@
             return View(model);
         }
 
-        [HttpPost ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Ekle(Standart standart)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -48,7 +48,7 @@
                 return RedirectToAction("index", "hata", new { HataId = 2 });
         }
 
-        [HttpPost ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Duzenle(Standart standart)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -101,7 +101,7 @@
             }
         }
 
-        [HttpPost ValidateAntiForgeryToken ValidateInput(false) ActionName("icerik-ekle")]
+        [HttpPost, ValidateAntiForgeryToken, ValidateInput(false), ActionName("icerik-ekle")]
         public ActionResult IcerikEkle([Bind(Include = "StandartIcerikID,StandartID,BaslikNo,Baslik,Detay,UstIcerikID,StandartIcerikTipiID,SiraNo,DurumID,StandartIcerikDenetim")]StandartIcerik standartIcerik)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -112,7 +112,7 @@
             }            
         }
 
-        [HttpPost ValidateAntiForgeryToken ValidateInput(false) ActionName("icerik-duzenle")]
+        [HttpPost, ValidateAntiForgeryToken, ValidateInput(false), ActionName("icerik-duzenle")]
         public ActionResult IcerikDuzenle([Bind(Include = "StandartIcerikID,StandartID,BaslikNo,Baslik,Detay,UstIcerikID,StandartIcerikTipiID,SiraNo,DurumID,StandartIcerikDenetim")]StandartIcerik standartIcerik)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())

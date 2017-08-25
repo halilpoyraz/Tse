@@ -22,7 +22,7 @@
             return View(model);
         }
 
-        [HttpPost ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Ekle(Denetim denetim)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())

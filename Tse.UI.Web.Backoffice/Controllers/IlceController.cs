@@ -23,7 +23,7 @@
         }
 
         
-        [HttpPost ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Ekle([Bind(Include = "IlceID,SehirID,IlceKodu,IlceAdi,DurumID")] Ilce ilce)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -64,7 +64,7 @@
             }            
         }
         
-        [HttpPost ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Duzenle([Bind(Include = "IlceID,IlceAdi,SehirID,IlceKodu,DurumID")] Ilce ilce)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())

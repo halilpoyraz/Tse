@@ -21,7 +21,7 @@
             return View(model);
         }
 
-        [HttpPost ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Ekle([Bind(Include = "UlkeID,UlkeAdi,DurumID")] Ulke ulke)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -61,7 +61,7 @@
             }
         }
 
-        [HttpPost ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Duzenle([Bind(Include = "UlkeID,UlkeAdi,DurumID")] Ulke ulke)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())

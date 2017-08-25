@@ -22,7 +22,7 @@
             return View(model);
         }
 
-        [HttpPost ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Ekle([Bind(Include = "SehirID,UlkeID,SehirAdi,DurumID")] Sehir sehir)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -62,7 +62,7 @@
             }
         }
 
-        [HttpPost ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Duzenle([Bind(Include = "SehirID,SehirAdi,UlkeID,DurumID")] Sehir sehir)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())

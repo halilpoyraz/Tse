@@ -40,7 +40,7 @@
                 return RedirectToAction("index", "hata", new { hataID = 2 });
         }
 
-        [HttpPost ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Ekle([Bind(Include = "DegerID,KategoriID,DegerAdiTr,DegerAdiEn,SiraNo,DurumID")] Deger deger)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -69,7 +69,7 @@
             }
         }
 
-        [HttpPost ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Ekle2([Bind(Include = "StandartAtifTipiSablonID,KategoriID,Deger1,Deger2,Deger3,Deger4,DurumID")] StandartAtifTipiSablon StandartAtifTipiSablon)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -113,7 +113,7 @@
                 return RedirectToAction("index", "hata", new { hataID = 2 });            
         }
 
-        [HttpPost ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Duzenle([Bind(Include = "DegerID,KategoriID,DegerAdiTr,DegerAdiEn,SiraNo,DurumID")] Deger deger)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -128,7 +128,7 @@
             }
         }
 
-        [HttpPost ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Duzenle2([Bind(Include = "StandartAtifTipiSablonID,KategoriID,Deger1,Deger2,Deger3,Deger4,DurumID")] StandartAtifTipiSablon StandartAtifTipiSablon)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())

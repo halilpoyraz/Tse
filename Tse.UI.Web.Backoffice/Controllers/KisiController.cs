@@ -23,7 +23,7 @@
             return View(model);
         }
 
-        [ActionName("kisi-ekle") HttpPost ValidateAntiForgeryToken]
+        [ActionName("kisi-ekle"), HttpPost, ValidateAntiForgeryToken]
         public ActionResult KisiEkle(Kisi kisi)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -67,7 +67,7 @@
             }
         }
 
-        [ActionName("kisi-duzenle") HttpPost ValidateAntiForgeryToken]
+        [ActionName("kisi-duzenle"), HttpPost, ValidateAntiForgeryToken]
         public ActionResult KisiDuzenle(Kisi kisi)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -84,7 +84,7 @@
             }
         }
 
-        [ActionName("kisi-sil") HttpPost]
+        [ActionName("kisi-sil"), HttpPost]
         public ActionResult KisiSil(int? id)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -152,7 +152,7 @@
             }
         }
 
-        [HttpPost ActionName("kisi-adres-ekle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("kisi-adres-ekle"), ValidateAntiForgeryToken]
         public ActionResult KisiAdresEkle(Adres adres)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -187,7 +187,7 @@
             }
         }
 
-        [HttpPost ActionName("kisi-adres-duzenle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("kisi-adres-duzenle"), ValidateAntiForgeryToken]
         public ActionResult KisiAdresDuzenle(Adres adres)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -199,7 +199,7 @@
             }
         }
 
-        [HttpPost ActionName("kisi-adres-sil")]
+        [HttpPost, ActionName("kisi-adres-sil")]
         public ActionResult KisiAdresSil(int? kisiID, int? adresID)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -269,7 +269,7 @@
             }
         }
 
-        [HttpPost ActionName("kisi-telefon-ekle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("kisi-telefon-ekle"), ValidateAntiForgeryToken]
         public ActionResult KisiTelefonEkle(Telefon telefon)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -304,7 +304,7 @@
             }
         }
 
-        [HttpPost ActionName("kisi-telefon-duzenle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("kisi-telefon-duzenle"), ValidateAntiForgeryToken]
         public ActionResult KisiTelefonDuzenle(Telefon telefon)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -316,7 +316,7 @@
             }
         }
 
-        [HttpPost ActionName("kisi-telefon-sil")]
+        [HttpPost, ActionName("kisi-telefon-sil")]
         public ActionResult KisiTelefonSil(int? kisiID, int? telefonID)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -386,7 +386,7 @@
             }
         }
 
-        [HttpPost ActionName("kisi-eposta-ekle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("kisi-eposta-ekle"), ValidateAntiForgeryToken]
         public ActionResult KisiEpostaEkle(Eposta eposta)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -421,7 +421,7 @@
             }
         }
 
-        [HttpPost ActionName("kisi-eposta-duzenle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("kisi-eposta-duzenle"), ValidateAntiForgeryToken]
         public ActionResult KisiEpostaDuzenle(Eposta eposta)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -433,7 +433,7 @@
             }
         }
 
-        [HttpPost ActionName("kisi-eposta-sil")]
+        [HttpPost, ActionName("kisi-eposta-sil")]
         public ActionResult KisiEpostaSil(int? kisiID, int? epostaID)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -503,7 +503,7 @@
             }
         }
 
-        [HttpPost ActionName("kisi-faturabilgi-ekle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("kisi-faturabilgi-ekle"), ValidateAntiForgeryToken]
         public ActionResult KisiFaturaBilgiEkle(FaturaBilgi faturabilgi)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -538,7 +538,7 @@
             }
         }
 
-        [HttpPost ActionName("kisi-faturabilgi-duzenle") ValidateAntiForgeryToken]
+        [HttpPost, ActionName("kisi-faturabilgi-duzenle"), ValidateAntiForgeryToken]
         public ActionResult KisiFaturaBilgiDuzenle(FaturaBilgi faturabilgi)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
@@ -550,7 +550,7 @@
             }
         }
 
-        [HttpPost ActionName("kisi-faturabilgi-sil")]
+        [HttpPost, ActionName("kisi-faturabilgi-sil")]
         public ActionResult KisiFaturaBilgiSil(int? kisiID, int? faturabilgiID)
         {
             using (TseBackofficeContext context = new TseBackofficeContext())
